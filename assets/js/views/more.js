@@ -1,10 +1,10 @@
 // More: appearance, data, syllabus source status, about.
 
-import { icon } from '../icons.js?v=202610150356';
-import { esc, brandMark } from '../components.js?v=202610150356';
-import { themePref } from '../theme.js?v=202610150356';
-import { a11y } from '../a11y.js?v=202610150356';
-import { getProfile } from '../profile.js?v=202610150356';
+import { icon } from '../icons.js?v=202610230738';
+import { esc, brandMark } from '../components.js?v=202610230738';
+import { themePref } from '../theme.js?v=202610230738';
+import { a11y } from '../a11y.js?v=202610230738';
+import { getProfile } from '../profile.js?v=202610230738';
 
 // The Android app (built by .github/workflows/android.yml) is always at this address.
 const APK_URL = 'https://github.com/provacor/p-b/releases/latest/download/pb.apk';
@@ -42,7 +42,6 @@ export function moreView(model) {
     title: 'More',
     html: `<header class="page-title rise"><h1>More</h1></header>
       ${profileRow}
-      <a class="card pf-link rise" href="#/arena" style="--i:0"><span class="pf-mini pf-blank a11y-ico" aria-hidden="true">🎮</span><span class="pf-link-text"><b>নতুন গেম জোন</b><small class="muted">১২টি গেম — অধ্যায় রাজ্য, ড্রাগন যুদ্ধ, রেসিং, খামার, মহাকাশ… · দৈনিক মিশন, অর্জন, রিভিশন বট</small></span>${icon('chevron')}</a>
       <a class="card pf-link rise" href="#/games" style="--i:0"><span class="pf-mini pf-blank a11y-ico" aria-hidden="true">🕹️</span><span class="pf-link-text"><b>গেম জোন</b><small class="muted">খেলে খেলে প্রতিটা টপিক শেখো · লেভেল আর ৯ রকম গেম</small></span>${icon('chevron')}</a>
       ${a11yRow}
       <a class="card pf-link rise" href="#/backup" style="--i:0"><span class="pf-mini pf-blank a11y-ico">${icon('key')}</span><span class="pf-link-text"><b>Backup · ব্যাকআপ ও রিস্টোর</b><small class="muted">পাসওয়ার্ড দিয়ে এনক্রিপ্ট করা ফাইল, ফোন হারালেও তথ্য থাকবে</small></span>${icon('chevron')}</a>
