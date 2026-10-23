@@ -1,9 +1,9 @@
 // My Mistake Book page.
 
-import { icon } from '../icons.js?v=202610231941';
-import { esc } from '../components.js?v=202610231941';
-import { mistakes, KINDS, kindOf } from '../mistakes.js?v=202610231941';
-import { hasKey } from '../ai.js?v=202610231941';
+import { icon } from '../icons.js?v=202610232008';
+import { esc } from '../components.js?v=202610232008';
+import { mistakes, KINDS, kindOf } from '../mistakes.js?v=202610232008';
+import { hasKey } from '../ai.js?v=202610232008';
 
 export const mistakeState = { filter: 'open', kind: 'all', retry: null };
 const bn = (s) => String(s).replace(/\d/g, (d) => '০১২৩৪৫৬৭৮৯'[d]);

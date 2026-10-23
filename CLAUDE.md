@@ -28,6 +28,8 @@ dropping anything important from either, and cut unnecessary duplication.
   Diagram, Simulation, Mistake Bank, Revision
 - **Chemistry:** Notes, MCQ, Creative / CQ, ক, খ, Formula, Concepts, Reaction, Conversion,
   Mechanism, Identification Test, Simulation, Mistake Bank, Revision
+- **ICT:** Notes, MCQ, Creative / CQ, ক, খ, Formula, Concepts, Simulation, Mistake Bank, Revision
+  (one paper, six chapters; no subject-specific sections)
 
 Never mix the subject-specific contents:
 - Derivation, Numerical, Graph and Diagram belong to Physics only.

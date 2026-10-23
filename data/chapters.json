@@ -1615,6 +1615,102 @@
       },
       "confidence": "high",
       "verification": "verified"
+    },
+    {
+      "id": "ict_1st_ch01",
+      "paperId": "ict_1st",
+      "kind": "chapter",
+      "number": 1,
+      "order": 1,
+      "name": "আইসিটি : বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+      "topics": [],
+      "source": {
+        "image": "docs/syllabus-source/08-ict.jpg",
+        "wording": "১ম অধ্যায় : আইসিটি : বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+        "origin": "syllabus_image"
+      },
+      "confidence": "high",
+      "verification": "verified"
+    },
+    {
+      "id": "ict_1st_ch02",
+      "paperId": "ict_1st",
+      "kind": "chapter",
+      "number": 2,
+      "order": 2,
+      "name": "কমিউনিকেশন সিস্টেম ও নেটওয়ার্কিং",
+      "topics": [],
+      "source": {
+        "image": "docs/syllabus-source/08-ict.jpg",
+        "wording": "২য় অধ্যায় : কমিউনিকেশন সিস্টেম ও নেটওয়ার্কিং",
+        "origin": "syllabus_image"
+      },
+      "confidence": "high",
+      "verification": "verified"
+    },
+    {
+      "id": "ict_1st_ch03",
+      "paperId": "ict_1st",
+      "kind": "chapter",
+      "number": 3,
+      "order": 3,
+      "name": "সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+      "topics": [],
+      "source": {
+        "image": "docs/syllabus-source/08-ict.jpg",
+        "wording": "৩য় অধ্যায় : সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+        "origin": "syllabus_image"
+      },
+      "confidence": "high",
+      "verification": "verified"
+    },
+    {
+      "id": "ict_1st_ch04",
+      "paperId": "ict_1st",
+      "kind": "chapter",
+      "number": 4,
+      "order": 4,
+      "name": "ওয়েব ডিজাইন পরিচিতি এবং HTML",
+      "topics": [],
+      "source": {
+        "image": "docs/syllabus-source/08-ict.jpg",
+        "wording": "৪র্থ অধ্যায় : ওয়েব ডিজাইন পরিচিতি এবং HTML",
+        "origin": "syllabus_image"
+      },
+      "confidence": "high",
+      "verification": "verified"
+    },
+    {
+      "id": "ict_1st_ch05",
+      "paperId": "ict_1st",
+      "kind": "chapter",
+      "number": 5,
+      "order": 5,
+      "name": "প্রোগ্রামিং ভাষা",
+      "topics": [],
+      "source": {
+        "image": "docs/syllabus-source/08-ict.jpg",
+        "wording": "৫ম অধ্যায় : প্রোগ্রামিং ভাষা",
+        "origin": "syllabus_image"
+      },
+      "confidence": "high",
+      "verification": "verified"
+    },
+    {
+      "id": "ict_1st_ch06",
+      "paperId": "ict_1st",
+      "kind": "chapter",
+      "number": 6,
+      "order": 6,
+      "name": "ড্যাটাবেজ ম্যানেজমেন্ট সিস্টেম",
+      "topics": [],
+      "source": {
+        "image": "docs/syllabus-source/08-ict.jpg",
+        "wording": "৬ষ্ঠ অধ্যায় : ড্যাটাবেজ ম্যানেজমেন্ট সিস্টেম",
+        "origin": "syllabus_image"
+      },
+      "confidence": "high",
+      "verification": "verified"
     }
   ]
 }

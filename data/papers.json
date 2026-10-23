@@ -109,6 +109,15 @@
       "groups": [],
       "sourceStatus": "verified",
       "subtitle": "প্রাণিবিজ্ঞান"
+    },
+    {
+      "id": "ict_1st",
+      "subjectId": "ict",
+      "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+      "paperNo": 1,
+      "unitLabel": "Chapter",
+      "groups": [],
+      "sourceStatus": "verified"
     }
   ]
 }

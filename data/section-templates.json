@@ -28,6 +28,10 @@
     "english_grammar_topic": [
       "notes", "rules", "examples", "practice", "mcq", "board", "mistakes", "revision", "progress"
     ],
-    "english_admission_topic": ["concept", "mcq", "progress"]
+    "english_admission_topic": ["concept", "mcq", "progress"],
+    "ict": [
+      "notes", "mcq", "cq", "ka", "kha", "formula", "concept",
+      "simulation", "mistakes", "revision", "progress"
+    ]
   }
 }
