@@ -56,6 +56,15 @@
       "order": 6,
       "sectionTemplate": "biology",
       "image": "assets/img/subject-biology.jpg"
+    },
+    {
+      "id": "ict",
+      "name": "ICT",
+      "icon": "💻",
+      "accent": "teal",
+      "order": 7,
+      "sectionTemplate": "ict",
+      "note": "তথ্য ও যোগাযোগ প্রযুক্তি — one paper, six chapters (syllabus image docs/syllabus-source/08-ict.jpg)."
     }
   ]
 }

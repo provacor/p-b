@@ -157,6 +157,7 @@ const SUBJECTS = [
   [/রসায়ন|কেমিস্ট্রি|chemistry/i, 'chemistry'],
   [/জীব|বায়োলজি|biology/i, 'biology'],
   [/গণিত|ম্যাথ|math/i, 'higher_math'],
+  [/আইসিটি|তথ্য ও যোগাযোগ|ict/i, 'ict'],
   [/অ্যাডমিশন|এডমিশন|admission|পার্ট ?(২|2|টু)|part ?(2|two)/i, 'english_admission'],
   [/ইংরেজি|ইংলিশ|english|গ্রামার|grammar/i, 'english'],
 ];
