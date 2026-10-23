@@ -1,0 +1,713 @@
+{
+ "sectionId": "english_admission_2nd_parts_of_speech_concept",
+ "updated": "2026-10-23",
+ "items": [
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0001",
+   "kind": null,
+   "title": "Parts of Speech কী?",
+   "body": "Parts অর্থ অংশ, of অর্থ র/এর এবং speech অর্থ বাক্য। সুতরাং parts of speech হচ্ছে বাক্যের অংশ। বাক্যে ব্যবহার অনুযায়ী অর্থ প্রদানকারী বিভিন্ন শ্রেণির word গুলোকে parts of speech বলে। e.g. A quick brown fox jumped over the lazy dogs. (দ্রুতগতির বাদামি বর্ণের একটি শেয়াল অলস কুকুরগুলোর উপর দিয়ে লাফ দিল) — বাক্যটিতে A থেকে Z পর্যন্ত ২৬টি letter ই আছে; প্রতিটি word অর্থ প্রদান করে বিধায় প্রত্যেকেই এক একটি part of speech। মনে রাখুন: a man/woman of parts = talented (person) = গুণী, প্রতিভাবান (ব্যক্তি)।",
+   "topic": "Parts of Speech — পরিচিতি ও Noun এর প্রকারভেদ"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0002",
+   "kind": null,
+   "title": "Parts of Speech এর প্রকারভেদ (৮ প্রকার)",
+   "body": "Traditional grammar এ Parts of speech মোট ৮ প্রকার: 1. Noun (বিশেষ্য) 2. Pronoun (সর্বনাম) 3. Verb (ক্রিয়া) 4. Adjective (বিশেষণ) 5. Adverb (ভাব/ক্রিয়া বিশেষণ) 6. Preposition (পদান্বয়ী অব্যয়) 7. Conjunction (সংযোজক অব্যয়) 8. Interjection (অনন্বয়ী অব্যয়)। Note: Traditional grammar এর 'Part of speech' কে modern linguistics এ word class বলা হয়। word class গুলো হচ্ছে noun, pronoun, verb, adjective, determiner, adverb, preposition, conjunction, interjection (exclamation), article, numeral ইত্যাদি।",
+   "topic": "Parts of Speech — পরিচিতি ও Noun এর প্রকারভেদ"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0003",
+   "kind": null,
+   "title": "Noun কী?",
+   "body": "Noun শব্দটির অর্থ হচ্ছে নাম। তাই যে word দ্বারা কোনো কিছুর নাম বোঝায় তাকে noun বলে। e.g. Jahangir, Jim, Bangladesh, man, country, team, gold, honesty etc. তাই noun = naming word। যেকোনো part of speech (noun থেকে interjection) এর নামই noun হবে, কারণ যেকোনো নামই হচ্ছে noun।",
+   "topic": "Parts of Speech — পরিচিতি ও Noun এর প্রকারভেদ"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0004",
+   "kind": null,
+   "title": "Noun এর প্রকারভেদ — Concrete ও Abstract",
+   "body": "Noun প্রধানত দুই প্রকার: I. Concrete Noun (ইন্দ্রিয়গ্রাহ্য/বস্তুবাচক নাম) — যে noun গুলোকে দেখা যায়, স্পর্শ করা যায়, শোনা যায়, যাদের ঘ্রাণ এবং স্বাদ নেয়া যায়; এদের শারীরিক আকৃতি আছে। যেমন: boy, song, flower, milk। II. Abstract Noun (গুণবাচক/ভাববাচক নাম) — যে noun গুলো দ্বারা কোনো কিছুর নিরপেক্ষ দোষ/গুণ, অবস্থা এবং কাজের নাম বোঝায়; এদের শারীরিক আকৃতি নেই। যেমন: softness, wealth, silence, revenge।",
+   "topic": "Parts of Speech — পরিচিতি ও Noun এর প্রকারভেদ"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0005",
+   "kind": null,
+   "title": "Noun চেনার উপায়",
+   "body": "noun দ্বারা কোনো কিছুর নাম বোঝায় এবং সাধারণত noun এর শেষে ce, cy, th, ty, tion, sion, ment, ness, hood, dom, ship, age, cide, or/er (doer) থাকে। ব্যতিক্রম: loath (adjective — অনিচ্ছুক)। e.g. Advice (উপদেশ), Independence (স্বাধীনতা), Obedience (আনুগত্য), Obstinacy (একগুঁয়েমি), Frequency (সংঘটনের হার), Orphanage (এতিমখানা), Jealousy (ঈর্ষা), Poverty (দরিদ্রতা), Equity (ন্যায়পরতা), Accommodation (বাসস্থান), Reproduction (জন্মদান), Chaos (বিশৃঙ্খলা), Species (প্রজাতি), Genocide (গণহত্যা), Boredom (একঘেয়েমিজনিত বিরক্তি বা ক্লান্তি)।",
+   "topic": "Parts of Speech চেনার উপায় (Suffix, -ly ব্যতিক্রম, Noun as verb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0006",
+   "kind": null,
+   "title": "Adjective চেনার উপায়",
+   "body": "সাধারণত word এর শেষে ous, sive, tive, ful, ish, like, less, some, ic, ant, ent, ible, able, ing, al, ary, ed, noun+ly, noun+al, noun+y ইত্যাদি থাকলে এরা adjective। e.g. Beautiful (সুন্দর), Unparalleled (অতুলনীয়), Historical (ঐতিহাসিক), Contemporaneous (সমকালীন), Plutonic (পাতালিক), Prolific (উৎপাদনশীল), Propitious (শুভলক্ষণযুক্ত), Compliant (সম্মত, নমনশীল), Creative (সৃষ্টিশীল), Miserable (দুঃস্থ, শোচনীয়), Legal (বৈধ, আইনগত), Comprehensive (পূর্ণাঙ্গ)। N.B. Complaint (অভিযোগ, পীড়া) হচ্ছে noun আর Compliant (সম্মত, নমনশীল) হচ্ছে adjective। He filed/lodged a complaint. He is a compliant child.",
+   "topic": "Parts of Speech চেনার উপায় (Suffix, -ly ব্যতিক্রম, Noun as verb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0007",
+   "kind": null,
+   "title": "Verb চেনার উপায়",
+   "body": "verb দ্বারা সাধারণত কাজ করা বোঝায়। সাধারণত verb এর শেষে ify, se, ze, ise, ize এবং কতিপয় verb এর প্রথমে em, en, de, re থাকে। adjective+en: shorten, broaden; Noun+en: strengthen, heighten, lengthen; en+adjective: ensure, enable, enlarge; noun+ify: beautify, glorify; re+adjective: renew, rebound; De+noun: delight, deform, debase; adj.+ise/ize: realize, nationalise; noun+ise/ize: sympathise, idolize; iate: differentiate, substantiate; Em+noun: empower, embody।",
+   "topic": "Parts of Speech চেনার উপায় (Suffix, -ly ব্যতিক্রম, Noun as verb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0008",
+   "kind": null,
+   "title": "Adverb চেনার উপায়",
+   "body": "সাধারণত adverb এর শেষে ly থাকে। adjective এর সাথে ly যুক্ত করে adverb গঠন করা হয়। কিন্তু adjective এর শেষে y থাকলে y এর পরিবর্তে i বসে অর্থাৎ ily হয়ে যায়। e.g. Notorious – Notoriously, Slow – Slowly, Perfect – Perfectly, Hearty – Heartily, Random – Randomly, Delightful – Delightfully।",
+   "topic": "Parts of Speech চেনার উপায় (Suffix, -ly ব্যতিক্রম, Noun as verb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0009",
+   "kind": null,
+   "title": "Exceptional Rule: -ly থাকলেই Adverb নয়",
+   "body": "Word এর শেষে ly থাকলেই সবসময় Adverb হয় না, Adjective ও হয়। সাধারণত noun + ly = adjective, adjective + ly = adverb। ব্যতিক্রম: noun + ly = adverb ও হতে পারে। e.g. namely (যথা), gamely (নির্ভীকভাবে), partly (আংশিকভাবে), purposely, routinely, minutely, understandingly, swimmingly এরা adverb। Noun + ly = Adjective: Father – Fatherly (পিতৃসুলভ), Mother – Motherly, Man – Manly (পুরুষোচিত), Brother – Brotherly, King – Kingly (রাজকীয়), Heaven – Heavenly (স্বর্গীয়), God – Godly (ঈশ্বরপ্রেমী), Ghost – Ghostly (ভুতুড়ে), Year – Yearly, Home – Homely (সাদামাটা), Coward – Cowardly (ভীরু), Month – Monthly, World – Worldly (পার্থিব), Time – Timely (সময়মত), Week – Weekly, Priest – Priestly (যাজকীয়), Miser – Miserly (কিপটে), Friend – Friendly (বন্ধুত্বপূর্ণ)।",
+   "topic": "Parts of Speech চেনার উপায় (Suffix, -ly ব্যতিক্রম, Noun as verb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0010",
+   "kind": null,
+   "title": "-ly যুক্ত Adjective ও তার ব্যতিক্রম",
+   "body": "Lively, comely, holy, silly, ugly, lonely, likely, unlikely, deadly (মারাত্মক), costly, lovely, unruly, orderly, disorderly, sprightly ইত্যাদি শব্দগুলোর শেষে ly থাকা সত্ত্বেও adjective হিসেবে কাজ করে। ব্যতিক্রম ০১: noun + ly শব্দটি adverb ও হতে পারে। যেমন: namely, partly। আবার deathly, fortnightly, nightly, daily, hourly, monthly, bimonthly, yearly, weekly, biweekly, quarterly এরা adjective এবং adverb দুটোই হয়। He went deathly pale. The programme is broadcast nightly. Buses run hourly. ব্যতিক্রম ০২: adjective + ly কিছু শব্দ বাক্যে adjective রূপে বসে। যেমন: elderly (প্রবীণ), lowly (সামান্য), sickly (রুগ্ন)। A sickly child, a lowly job, an elderly couple। তবে deadly (মারাত্মক) adjective এবং adverb দুটোই হয়।",
+   "topic": "Parts of Speech চেনার উপায় (Suffix, -ly ব্যতিক্রম, Noun as verb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0011",
+   "kind": null,
+   "title": "Noun used as verb",
+   "body": "কতগুলো noun আছে যেগুলো verb রূপে ব্যবহৃত হতে পারে। e.g. arm (অস্ত্রসজ্জিত করা), beef (অভিযোগ করা), baby (শিশুর মত আদর দেয়া), brush (ব্রাশ করা), book (টিকিট কাটা), bag (শিকার করা), cage (খাঁচাবন্দী করা), centre (কেন্দ্রে স্থাপন করা), chair (সভাপতিত্ব করা), court (সন্তুষ্ট করা, ঝুঁকি নেয়া), cow (ভয় দেখানো), dance, dog (অনুসরণ করা), dream, eye (লক্ষ্য রাখা), fish, field (প্রশ্নের উত্তর দেয়া, ফিল্ডিং করা), iron (ইস্ত্রি করা), pen (লেখা), floor (অবাক করা, ধরাশায়ী করা), flock (দলবদ্ধ হওয়া), mind (মন লাগানো), land (অবতরণ করা), pocket (আত্মসাৎ করা), telephone, hammer, husband (পরিমিতভাবে ব্যবহার করা), can/sack/fire (বরখাস্ত করা), hand (হস্তান্তর করা), head (অগ্রসর হওয়া), master (আয়ত্ত করা), man (লোক সরবরাহ করা), massacre, monitor (নজরদারি করা), minute (সভার কার্যবিবরণী লিপিবদ্ধ করা), second (সমর্থন করা), wage (যুদ্ধে লিপ্ত হওয়া), water (পানি দেয়া), captain (অধিনায়কত্ব করা), tour, holiday/vacation (ছুটি কাটানো), winter, summer, table (আলোচনার জন্য উপস্থাপন করা), discipline (নিয়মানুবর্তী করা, শাস্তি দেওয়া), witness (ঘটতে দেখা)।",
+   "topic": "Parts of Speech চেনার উপায় (Suffix, -ly ব্যতিক্রম, Noun as verb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0012",
+   "kind": null,
+   "title": "Possessive determiner + ? + noun — Adjective",
+   "body": "Possessive determiner (my, his, her, their etc.) এবং noun এর মাঝে একমাত্র word টি adjective হবে। e.g. Their friendly behaviour pleased the guest. — এখানে friendly adjective। N.B. friendly শব্দটি 'প্রীতি ম্যাচ' অর্থে noun হতে পারে। He played for Italy in a friendly against Spain.",
+   "topic": "Parts of Speech চেনার উপায় (Suffix, -ly ব্যতিক্রম, Noun as verb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0013",
+   "kind": null,
+   "title": "Rule: Noun+ly = Adjective, Adjective+ly = Adverb",
+   "body": "Noun+ly = Adjective, e.g. mother+ly = motherly। Adjective+ly = Adverb, e.g. delightful+ly = delightfully। He is a miser. He is a miserly person. He is miserly.",
+   "topic": "Parts of Speech চেনার উপায় (Suffix, -ly ব্যতিক্রম, Noun as verb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0014",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — A",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nAbility (সামর্থ্য) – Enable (সমর্থ করা) – Able (সক্ষম) – Ably (সমর্থভাবে)\nAnger (রাগ) – Anger (রাগ করা) – Angry (রাগান্বিত) – Angrily\nAwe (ভয়, আতঙ্ক) – Awe (ভীত করা) – Awful (ভয়ঙ্কর) – Awfully (ভীষণ, অত্যন্ত)\nAcceptance (গ্রহণযোগ্যতা) – Accept (গ্রহণ করা) – Acceptable – Acceptably\nAction/activity/Act (কর্ম/আইন) – Act/activate/Enact – Active (সক্রিয়) – Actively\nAcceleration (বেগ বৃদ্ধিকরণ) – Accelerate – Accelerated\nAddition (সংযুক্তি) – Add – Additional (অতিরিক্ত) – Additionally\nAdmiration (প্রশংসা) – Admire – Admirable – Admirably\nAdmission (স্বীকৃতি)/Admittance (প্রবেশাধিকার) – Admit – Admissible – Admissibly\nAdventure (অভিযান) – Adventure – Adventurous (দুঃসাহসী) – Adventurously\nAdvice (উপদেশ) – Advise (উপদেশ দেয়া) – Advisable – Advisably\nAgreement (সম্মতি, চুক্তি) – Agree – Agreeable (সম্মতিযোগ্য, মনোরম) – Agreeably\nAllowance (অনুমতি) – Allow – Allowable – Allowably\nAnalysis (বিশ্লেষণ) – Analyze/Analyse – Analytical – Analytically\nAntagonism (শত্রুভাবাপন্নতা) – Antagonise – Antagonistic – Antagonistically\nApology (ক্ষমা প্রার্থনা) – Apologize/-se – Apologetic (দুঃখিত) – Apologetically\nAppreciation (উপলব্ধি) – Appreciate – Appreciable – Appreciably (লক্ষণীয়ভাবে)\nArgument (যুক্তি, বিবাদ) – Argue – Arguable (তর্কসাপেক্ষ) – Arguably\nAssurance (নিশ্চয়তা) – Assure – Assured (নিশ্চিত) – Assuredly\nAttention/attendance (মনযোগ/উপস্থিতি) – Attend – Attentive (মনোযোগী) – Attentively\nAttraction (আকর্ষণ) – Attract – Attractive – Attractively\nAuthority (কর্তৃত্ব) – Authorize/-ise – Authoritative (কর্তৃত্বপূর্ণ) – Authoritatively\nAvailability (সহজলভ্যতা) – Avail (সুযোগ গ্রহণ করা) – Available – Availably\nAcquire (v) – অর্জন করা; এর noun acquisition/acquirement (প্রথমটি এখন অধিক প্রচলিত)।",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0015",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — B",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nBase (ভিত্তি, মূল) – Base (ভিত্তি নির্মাণ করা) – Basic/baseless (মৌলিক/ভিত্তিহীন) – Basically/baselessly\nBeauty (সৌন্দর্য) – Beautify (সুন্দর করা) – Beautiful – Beautifully\nBlessing (আশির্বাদ) – Bless – Blessed (আশির্বাদপুষ্ট)\nBrevity (সংক্ষিপ্ততা) – Abbreviate (সংক্ষিপ্ত করা) – Brief (সংক্ষিপ্ত) – Briefly\nBelief (বিশ্বাস, আস্থা) – Believe – Believable – Believably\nBlood (রক্ত, মেজাজ) – Bleed (রক্তের স্বাদ দেওয়া) – Bloody (রক্তাক্ত, নিষ্ঠুর) – Bloodily\nBook (বই, খাতা) – Book (আসন সংরক্ষণ করা) – Bookish (বইপড়ুয়া)\nBreach (লঙ্ঘন, ভঙ্গ) – Break (লঙ্ঘন করা, ভাঙা) – Breakable (ভঙ্গুর)\nBusiness (ব্যস্ততা, ব্যবসা) – Busy (ব্যস্ত হওয়া) – Busy (ব্যস্ত) – Busily\nBurial (সমাধি) – Bury (কবর দেয়া) – Buried (সমাহিত, গুপ্ত)",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0016",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — C",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nCare (যত্ন, সেবা) – Care – Careful/Careless – Carefully/Carelessly\nCentre (কেন্দ্র) – Centralize – Central – Centrally\nCertainty (নিশ্চয়তা) – Ascertain (নিশ্চিত করা, নির্ধারণ করা) – Certain – Certainly\nCeremony (অনুষ্ঠান) – — – Ceremonial (আনুষ্ঠানিক) – Ceremonially\nCharacter (বৈশিষ্ট্য, চরিত্র) – Characterize – Characteristic – Characteristically\nClarity (স্পষ্টতা) – Clarify – Clear – Clearly\nCircle (বৃত্ত) – Encircle (বৃত্তাকারে ঘোরা) – Circular (বৃত্তাকার)\nCharity (দানশীলতা) – — – Charitable (দানশীল) – Charitably\nClass – Classify – Classified – Classifically/Classifiably\nColony (বসতি, উপনিবেশ) – Colonize – Colonial/Colonized\nColour (রং) – Colour – Colourful (রঙ্গীন) – Colourfully\nComfort (আরাম) – Comfort – Comfortable – Comfortably\nCredit (কৃতিত্ব) – Credit – Creditable/credible – Creditably/Credibly\nCommerce (বাণিজ্য) – Commercialize – Commercial – Commercially\nCompany (সঙ্গ) – Accompany (সঙ্গ দেওয়া) – Companionable (মিশুক)\nCondition (শর্ত, অবস্থা) – — – Conditional – Conditionally\nConvenience (সুবিধা) – — – Convenient – Conveniently\nCourage (সাহস) – Encourage – Courageous (সাহসী) – Courageously\nCredulity (বিশ্বাসপ্রবণতা) – — – Credulous – Credulously\nCrime (অপরাধ) – — – Criminal (অপরাধমূলক) – Criminally\nCritic/Criticism (সমালোচনা) – Criticize – Critical – Critically\nCelebration/celebrity – Celebrate – Celebrated (উদযাপিত)\nChoice (পছন্দ, বাছাই) – Choose – Chosen (পছন্দকৃত)",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0017",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — C (২)",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nClosure (বদ্ধ অবস্থা/সমাপ্তি) – Close – Closed (বদ্ধ, সমাপ্ত) – Closely (কাছাকাছি)\nCommitment (সংঘটন, প্রতিশ্রুতি) – Commit – Committed (প্রতিশ্রুতিবদ্ধ)\nCompetition (প্রতিযোগিতা) – Compete – Competitive – Competitively\nCompulsion (বাধ্যবাধকতা, জবরদস্তি) – Compel (বাধ্য করা) – Compulsive/compulsory – Compulsively/compulsorily\nComprehension (উপলব্ধি) – Comprehend – Comprehending\nConception (ধারণা) – Conceive – Conceivable – Conceivably\nConclusion – Conclude – Conclusive (চূড়ান্ত) – Conclusively\nConfidence (আস্থা, আত্মবিশ্বাস) – Confide (বিশ্বাস করে গোপন কথা বলা) – Confident/confidential – Confidently/confidentially\nCongratulation (অভিনন্দন) – Congratulate – Congratulatory\nConquest (জয়) – Conquer – Conquerable (জয়সাধ্য)\nConsideration (বিবেচনা) – Consider – Considerable – Considerably (লক্ষণীয়ভাবে)\nConsistence/cy (সামঞ্জস্যতা) – Consist (গঠিত হওয়া) – Consistent – Consistently\nConspiracy (ষড়যন্ত্র) – Conspire – Conspiring – Conspiringly\nContempt (ঘৃণা/অবজ্ঞা) – — – Contemptible (ঘৃণ্য) – Contemptibly\nConstruction (নির্মাণ/গঠন) – Construct – Constructive (গঠনমূলক) – Constructively\nContinuity (নিরবিচ্ছিন্নতা) – Continue – Continuous (বিরতিহীন) – Continuously\nCo-operation (সহযোগিতা) – Co-operate – Co-operative – Co-operatively\nConversation (আলোচনা) – Converse (আলোচনা করা) – Conversational\nCorruption (দুর্নীতি) – Corrupt – Corruptible/Corrupt (দুর্নীতিগ্রস্ত)\nComparison/Comparability (তুলনা) – Compare – Comparative – Comparably/Comparatively\nCuriosity (কৌতুহল) – — – Curious (কৌতুহলী) – Curiously",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0018",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — D",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nDanger (বিপদ) – Endanger (বিপন্ন করা) – Dangerous – Dangerously\nDarkness (অন্ধকার) – Darken – Dark – Darkly\nDebate (বিতর্ক) – Debate – Debatable – Debatably\nDemocracy (গণতন্ত্র) – Democratize – Democratic – Democratically\nDiscipline (নিয়মানুবর্তিতা) – Discipline – Disciplinary (শাস্তিমূলক)\nDrama (নাটক) – Dramatize – Dramatic – Dramatically\nDuty (কর্তব্য) – — – Dutiful (কর্তব্যপরায়ণ) – Dutifully\nDeception, Deceit (প্রতারণা) – Deceive – Deceptive – Deceptively\nDecision (সিদ্ধান্ত) – Decide – Decisive – Decisively\nDefinition (সংজ্ঞা) – Define – Defined – Definitely\nDefiance (অবাধ্যতা) – Defy – Defiant (অবাধ্য) – Defiantly\nDerivation (উৎপত্তি) – Derive – Derivative (উদ্ভূত) – Derivatively\nDescription (বর্ণনা) – Describe – Descriptive – Descriptively\nDestruction (ধ্বংস) – Destroy – Destructive – Destructively\nDetection (শনাক্তকরণ) – Detect – Detective (n. গোয়েন্দা)\nDetermination (নির্ধারণ, সংকল্প) – Determine – Determined\nDevotion (আত্মনিয়োগ/উৎসর্গ) – Devote – Devotional – Devotionally\nDifference (পার্থক্য) – Differentiate – Different – Differently\nDigestion (হজম শক্তি) – Digest – Digestive – Digestively\nDomination (আধিপত্য) – Dominate – Dominant – Dominantly\nDivision (বিভাজন) – Divide – Divisional/divisible – Divisionally/divisibly\nDeparture (প্রস্থান) – Depart – Departed (প্রয়াত/বিদেহী)\nDepth (গভীরতা) – Deepen – Deep – Deeply\nDeterrence (বাধা) – Deter (বাধা দেওয়া)",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0019",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — E",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nEase (আরাম, সহজতা) – Ease – Easy – Easily\nEconomy (মিতব্যয়ীতা, অর্থনীতি) – Economize – Economical (মিতব্যয়ী)/Economic (অর্থনৈতিক) – Economically\nEffect (প্রভাব) – Effect – Effective – Effectively\nEnergy (শক্তি) – Energise – Energetic – Energetically\nEnvy (হিংসা) – Envy – Envious (হিংসুক) – Enviously\nEye (চোখ/নজর) – Eye (নজর রাখা) – Ocular (দর্শনীয়) – Ocularly\nEvent (ঘটনা) – — – Eventful (ঘটনাবহুল)/Eventual (চূড়ান্ত) – Eventually (অবশেষে)\nEdition (সম্পাদনা, সংস্করণ) – Edit – Editorial (সম্পাদকীয়)\nEducation (শিক্ষা) – Educate – Educational – Educationally\nElection (নির্বাচন) – Elect – Elective (নির্বাচনযোগ্য)\nEmployment (চাকরি) – Employ – Employed (চাকরিপ্রাপ্ত)\nEnemy/Enmity (শত্রুতা) – — – Inimical (শত্রুভাবাপন্ন) – Inimically\nEngagement (নিযুক্তি) – Engage – Engaged\nEstablishment (প্রতিষ্ঠা) – Establish – Established\nEvidence (সাক্ষ্যপ্রমাণ) – Evidence – Evident (সহজবোধ্য) – Evidently\nExcavation (খনন) – Excavate – Excavated\nExcellence (চমৎকারিত্ব) – Excel (সর্বশ্রেষ্ঠ হওয়া) – Excellent – Excellently\nExistence (অস্তিত্ব) – Exist – Existent/Existing (প্রচলিত) – Existently\nExtension (প্রসারণ) – Extend – Extensive (বিস্তৃত) – Extensively\nExtremity (চরমমাত্রা) – — – Extreme (চরম) – Extremely",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0020",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — F",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nFavour (অনুগ্রহ)/Favourability – Favour – Favourite (প্রিয়)/Favourable (অনুকূল) – Favorably\nFear (ভয়) – Fear – Fearful (ভয়ানক/নির্ভীক) – Fearfully\nFacility (সুযোগসুবিধা) – Facilitate (সহজ করা) – Facilitating (সুবিধাজনক)\nFigure (আকার, রূপ, ব্যক্তিত্ব) – Figure – Figurative (রূপক) – Figuratively\nForce (শক্তি, বল) – Force (বাধ্য করা) – Forceful/forcible – Forcefully/forcibly",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0021",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — F (২)",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nFool (বোকা লোক) – Befool (বোকা বানানো) – Foolish (বোকা) – Foolishly\nForm (আকার/গঠন) – Form – Formal (আনুষ্ঠানিক) – Formally\nFriend (বন্ধু) – Befriend (বন্ধু হওয়া) – Friendly (বন্ধুভাবাপন্ন) – In a friendly way\nFright (ভীতি) – Frighten – Frightful (ভয়ানক) – Frightfully\nFruit (ফল) – — – Fruitful (ফলপ্রসূ)/fruitless (নিষ্ফল) – Fruitfully/fruitlessly\nFailure (ব্যর্থতা) – Fail – Failed\nFixation (নির্ধারণ) – Fix – Fixed\nForgetfulness (ভুলে যাওয়ার অভ্যাস) – Forget – Forgetful (ভুলোমন) – Forgetfully\nFalsehood (মিথ্যাচার) – Falsify (মিথ্যা বর্ণনা করা) – False – Falsely",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0022",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — G",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nGlory (গৌরব) – Glory/Glorify – Glorious – Gloriously\nGlobalisation (বিশ্বায়ন) – Globalise – Global (বৈশ্বিক) – Globally\nGrief (দুঃখ) – Grieve – Grievous (দুর্দশাপূর্ণ)\nGrace (অনুগ্রহ, মাধুর্য) – Grace – Graceful/graceless – Gracefully/gracelessly\nGrammar – — – Grammatical – Grammatically\nGeneration (জন্মদান) – Generate – Generative (উৎপাদনক্ষম) – Generatively\nGovernment (সরকার/শাসন) – Govern – Governmental – Governmentally\nGradation (ক্রমপর্যায়) – Grade – Gradual (ক্রমাগত) – Gradually\nGladness (আনন্দ) – Gladden – Glad – Gladly",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0023",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — H",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nHardness (কঠোরতা) – Harden – Hard – Hard (কঠোরভাবে)\nHatred (ঘৃণা) – Hate – Hateful\nHand (হাত, নিয়ন্ত্রণ) – Handle – Handy (কুশলী, সুবিধাজনক)\nHabit (অভ্যাস) – Habituate (অভ্যস্ত হওয়া) – Habitual – Habitually\nHappiness (সুখ) – — – Happy – Happily\nHeart (হৃদয়) – Hearten (উৎসাহ দেয়া) – Hearty/Heartening – Heartily\nHealth (স্বাস্থ্য) – Heal – Healthy – Healthily\nHistory (ইতিহাস) – — – Historical – Historically\nHonour (সম্মান) – Honour – Honorable – Honorably\nHorror (আতংক) – Horrify – Horrible – Horribly\nHumour (রসিকতা) – Humour – Humorous – Humorously\nHesitation (দ্বিধা) – Hesitate – Hesitant – Hesitantly\nHope (আশা) – Hope – Hopeful/hopeless – Hopefully/hopelessly\nHelp (সাহায্য) – Help – Helpful/helpless – Helpfully/helplessly\nHeart এর Adjective form মোট চারটি: Hearty, Heartening, Cordial (Latin), Cardiac (Latin)।",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0024",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — I",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nIdentification (শনাক্তকরণ) – Identify – Identified\nIgnorance (অজ্ঞতা/উপেক্ষা) – Ignore – Ignorant (অজ্ঞ) – Ignorantly\nInnocence (নির্দোষিতা) – — – Innocent – Innocently\nIllumination (আলোকসজ্জা) – Illuminate – Illuminative/illuminating\nImagination (কল্পনা) – Imagine – Imaginative – Imaginatively\nImitation (অনুকরণ) – Imitate – Imitative – Imitatively\nImplication (জড়িতকরণ) – Implicate – Implicit (অপ্রকাশ্য) – Implicitly\nInauguration (উদ্বোধন) – Inaugurate – Inaugural\nInformation (তথ্য) – Inform – Informative – Informatively\nInheritance (উত্তরাধিকার) – Inherit – Inherited\nInsistence (জেদ) – Insist – Insistent – Insistently\nInstruction (নির্দেশনা) – Instruct – Instructive – Instructively\nInvention (উদ্ভাবন) – Invent – Inventive – Inventively\nIdiot/Idiocy – — – Idiotic (নির্বোধ) – Idiotically\nIndustry (পরিশ্রম, শিল্প) – — – Industrial (শিল্পসংক্রান্ত)/Industrious (পরিশ্রমী) – Industrially/Industriously\nInterest (আগ্রহ, সুদ) – Interest – Interesting – Interestingly\nIntensity (তীব্রতা) – Intensify – Intense – Intensely",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0025",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — J, K",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nJoy (আনন্দ) – Enjoy – Joyful/joyous – Joyfully/joyously\nJustice/Justification – Justify – Just/justifiable – Justly\nJoint (সংযোগস্থল) – Join – Joint (যৌথ) – Jointly\nKnowledge (জ্ঞান) – Know – Knowledgeable – Knowledgeably\nKing (রাজা) – — – Kingly/royal – Royally",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0026",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — L",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nLaughter (হাসি) – Laugh – Laughable (হাস্যকর) – Laughably\nLength (দৈর্ঘ্য) – Lengthen – Long – Lengthwise\nLife (জীবন) – Live – Lively, Living (জীবন্ত)\nLocality (স্থান) – Localize – Local – Locally\nLoss (ক্ষতি) – Lose – Lost, losing\nLabour (শ্রম) – Labour – Laborious (পরিশ্রমী) – Laboriously\nLaw (আইন) – — – Lawful/legal – Lawfully/legally\nLuck (সৌভাগ্য) – Luck – Lucky – Luckily",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0027",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — M",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nMatter (বিষয়) – Materialize (বাস্তবরূপ দান করা) – Material (বাস্তব) – Materially\nMeasure(ment) (পরিমাপ, পদক্ষেপ) – Measure – Measurable – Measurably\nMemory (স্মৃতি) – Memorize (মুখস্ত করা) – Memorable (স্মরণীয়) – Memorably\nMethod (পদ্ধতি) – Methodize – Methodical – Methodically\nMind (মন) – Mind (মনোযোগ দেওয়া) – Mindful/Mental – Mindfully/mentally\nManagement (ব্যবস্থাপনা) – Manage – Manageable\nMarriage (বিবাহ) – Marry – Marriageable\nMarvel (আশ্চর্য ব্যাপার) – Marvel – Marvelous (বিস্ময়কর) – Marvelously\nMixer/mixture – Mix – Mixed\nMovement (চলাচল/আন্দোলন) – Move – Movable (অস্থাবর) – Movably\nMoisture (আদ্রতা) – Moisten (ভেজানো) – Moist (ভেজা)\nMourning (শোক) – Mourn (বিলাপ করা) – Mournful (শোকার্ত) – Mournfully\nMountain (পর্বত) – — – Mountainous (পর্বতময়)",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0028",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — N",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nNation/Nationalization – Nationalise (জাতীয়করণ করা) – National – Nationally\nNature (স্বভাব/প্রকৃতি) – Naturalise – Natural – Naturally\nNecessity (অত্যাবশ্যকতা) – Necessitate – Necessary – Necessarily\nNeed (প্রয়োজন) – Need – Needful – Needfully\nNumber – Enumerate – Numeral, Numerous\nNavigation (নৌবাহ বিজ্ঞান) – Navigate – Navigable (নাব্য)\nNegligence (অবহেলা) – Neglect – Negligent (অসতর্ক)/negligible (উপেক্ষণীয়) – Negligently/negligibly\nNotification (ঘোষণা) – Notify – Notified",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0029",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — O",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nObedience (বাধ্যতা) – Obey – Obedient – Obediently\nObjection (আপত্তি) – Object – Objective (বৈষয়িক) – Objectively\nObligation (বাধ্যবাধকতা) – Oblige/obligate – Obliging (পরোপকারী)/obligatory (বাধ্যতামূলক) – Obligingly/obligatorily\nObservation/observance – Observe – Observant (দৃষ্টিশীল)/observational – Observantly/observationally\nOccupation (দখল, পেশা) – Occupy – Occupational – Occupationally\nOffence (অপরাধ/বিরক্তি) – Offend – Offensive – Offensively\nOmen (অশুভ লক্ষণ) – — – Ominous (অশুভ) – Ominously\nOperation (কার্যক্রম) – Operate – Operational – Operationally\nOpposition (বিরোধিতা) – Oppose – Opposite – Oppositely\nOrganization (সংগঠন) – Organize – Organised – Organisedly\nOffice (পদ/দপ্তর) – Officiate (প্রতিনিধিত্ব করা) – Official – Officially\nOrigin (উৎপত্তি) – Originate (সৃষ্টি করা) – Original (মৌলিক) – Originally\nOpal – আলো প্রতিফলনকারী পাথর; Opalescent – আলো প্রতিফলন করে এমন।",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0030",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — P",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nPackage/packet – Pack – Packed\nPatience (ধৈর্য) – — – Patient – Patiently\nParticularity – Particularize – Particular – Particularly\nPassage (অতিক্রমণ) – Pass – Passed/passable – Passably\nPeace (শান্তি) – Pacify (শান্ত করা) – Peaceful, Peaceable – Peacefully\nPeople/Population – Populate – Populous (জনবহুল)\nPopularity (জনপ্রিয়তা) – Popularise/(ze) – Popular – Popularly\nPerformance – Perform – Performed/performable\nPermission (অনুমতি) – Permit – Permissible – Permissibly\nPersistence (জিদ) – Persist – Persistent – Persistently\nPerseverance – Persevere – Persevering – Perseveringly\nPersuasion (প্ররোচনা) – Persuade – Persuable – Persuably\nPleasure (সন্তুষ্টি) – Please – Pleasant/pleasurable – Pleasantly/pleasurably\nPollution – Pollute – Pollutant/polluted – Pollutantly\nPoverty (দরিদ্রতা) – Impoverish (নিঃস্ব করা) – Poor – Poorly\nPractice – Practise – Practical – Practically\nPreference (অগ্রাধিকার) – Prefer – Preferable/preferential – Preferably\nPresentation – Present – Presentable – Presentably\nPrescription – Prescribe – Prescriptional – Prescribingly\nPrevention (প্রতিরোধ) – Prevent – Preventive – Preventively\nProclamation – Proclaim – Proclaimed\nProduct/producer/productivity – Produce – Productive/produced – Productively\nProvision – Provide – Provisional – Provisionally\nPurification, Purity – Purify – Purified, Pure – Purely\nPain (ব্যথা) – Pain – Painful – Painfully\nPatron (পৃষ্ঠপোষক) – Patronize – Patronizing – Patronizingly\nPerson (ব্যক্তি) – Personify – Personal – Personally\nPicture – Picture – Pictorial – Pictorially\nPrediction (ভবিষ্যদ্বাণী) – Predict – Predictable – Predictably\nProgress (অগ্রগতি) – Progress – Progressive – Progressively",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0031",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — Q",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nQuarrel (ঝগড়া) – Quarrel – Quarrelsome (ঝগড়াপ্রিয়) – Quarrelsomely\nQualification (যোগ্যতা) – Qualify – Qualified\nQuestion (প্রশ্ন) – Question – Questionable – Questionably\nQuietness (শান্তি/নিরবতা) – Quieten – Quiet – Quietly\nQuotation (উদ্ধৃতি) – Quote – Quotable/quoted",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0032",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — R",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nReality (বাস্তবতা) – Realize – Real – Really\nReason (যুক্তি, কারণ) – Reason – Reasonable – Reasonably\nResponse (উত্তর, সাড়া) – Respond – Responsive (সাড়াপ্রদ)\nRest (বিশ্রাম) – Rest – Restful/restless – Restfully/restlessly\nReceipt – Receive – Receivable – Receivably\nReduction (হ্রাস) – Reduce – Reducible/reduced – reducibly\nReference – Refer – Referential/referable – Referably\nReflection – Reflect – Reflective – Reflectively\nRefusal (অস্বীকৃতি) – Refuse – Refusable\nRelation (সম্পর্ক) – Relate – Relative/related – Relatively\nReliance (আস্থা) – Rely – reliant/reliable – Reliantly/reliably\nRemoval (অপসারণ) – Remove – Removeable\nRemembrance (স্মরণ) – Remember – Remembrant\nRepetition (পুনরাবৃত্তি) – Repeat – Repetitive – Repetitively\nResentment (অসন্তুষ্টি) – Resent – Resentful – Resentfully\nResolution (দৃঢ় সংকল্প) – Resolve – Resolute (দৃঢ় সংকল্পিত) – Resolutely\nResumption (পুনরারম্ভ) – Resume – Resumed\nRetardation (দমন) – Retard – Retarded (প্রতিহত) – Retardantly\nRestriction (নিষেধাজ্ঞা) – Restrict – Restrictive/Restricted\nRigidity (দৃঢ়তা) – — – Rigid – Rigidly\nRotation (পর্যায়ক্রম) – Rotate – Rotational – Rotationally",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0033",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — S",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nSafety (নিরাপত্তা) – Save – Safe – Safely\nSale (বিক্রয়) – Sell – Saleable\nService (সেবা, চাকুরি) – Serve – Serviceable – Serviceably\nSelection (বাছাই) – Select – Selective – Selectively\nShortness (সংক্ষিপ্ততা) – Shorten – Short – Shortly\nSignificance (গুরুত্ব) – Signify – Significant – Significantly\nSilence (নিরবতা) – Silence – Silent – Silently\nSimplicity/Simplification – Simplify – Simple – Simply\nSleep (ঘুম) – Sleep – Asleep/sleepless – Sleeplessly\nSociety – Socialize – Social – Socially\nStrength (শক্তি) – Strengthen – Strong – Strongly\nSubstance (সারবস্তু, পদার্থ) – Substantiate (প্রমাণ করা) – Substantive/Substantial – Substantively/Substantially\nSuccess (সফলতা) – Succeed – Successful – Successfully\nSystem – Systematize – Systematic – Systematically\nSympathy (সহানুভূতি) – Sympathize – Sympathetic – Sympathetically\nSatisfaction (সন্তুষ্টি) – Satisfy – Satisfactory – Satisfactorily\nSight (দৃশ্য, দৃষ্টিশক্তি) – See – Visual – Visually\nSeparation – Separate – Separable – Separably\nSettlement (মীমাংসা) – Settle – Settled\nSpeech (বক্তৃতা) – Speak – Spoken\nSolution (সমাধান) – Solve – Solved/Solvable\nStatute (বিধিবদ্ধ আইন) – — – Statutory – Statutorily\nStudy (অধ্যয়ন) – Study – Studious (পড়ুয়া) – Studiously\nStupidity (নিবুদ্ধিতা) – Stupefy (অবাক করা) – Stupid – Stupidly\nSuffering (দুর্ভোগ) – Suffer – Sufferable (সহনীয়)\nSustenance (সমর্থন) – Sustain – Sustainable (দীর্ঘস্থায়ী)\nSufficiency (প্রাচুর্য) – Suffice – Sufficient – Sufficiently\nSupposition (অনুমান) – Suppose – Supposed\nSuggestion (পরামর্শ) – Suggest – Suggestive – Suggestively\nSuspicion (সন্দেহ) – Suspect – Suspicious – Suspiciously\nSurprise (বিস্ময়) – Surprise – Surprised/Surprising – Surprisingly\nSteadfastness (সুস্থিরতা) – — – Steadfast – Steadfastly\nSurety (নিশ্চয়তা) – Ensure/Assure – Sure – Surely\nSaw সাধারণত See এর past form হলেও noun হিসেবেও ব্যবহৃত হয়, তখন Saw এর অর্থ করাত, প্রবাদ।",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0034",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — T",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nTale (গল্প) – Tell – Telling (কার্যকর)\nTreatment (চিকিৎসা)/Treatise (গবেষণামূলক গ্রন্থ) – Treat – Treatable\nTriumph (বিজয়) – Triumph – Triumphant – Triumphantly\nTranscendence – Transcend (সীমা ছাপিয়ে যাওয়া) – Transcendent/Transcendental (অলৌকিক) – Transcendentally\nThanks (কৃতজ্ঞতা) – Thank – Thankful/thankless – Thankfully/thanklessly\nToleration/tolerance (সহনশীলতা) – Tolerate – Tolerant/tolerable – Tolerantly/tolerably\nTranslation (অনুবাদ) – Translate – translatable/translated – Translationally/translatably\nTrust/Trustee – Trust – Trustful/trustworthy – Trustfully/trustworthily\nTheory (তত্ত্ব) – Theorize – Theoretical – Theoretically",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0035",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — U, V",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nUnity (একতা, ঐক্য) – Unite – United – Unitedly\nUnderstanding (বোঝাপড়া) – Understand – Understood – Understandingly\nUsefulness/Uselessness/usability – Use – Useful/useless/usable – Usefully/uselessly/usably\nVariance, variation (ভিন্নতা) – Vary – Various, Variable – Variously\nVacancy (শূন্যতা, কর্মখালি) – Vacate – Vacant – Vacantly\nVanity (অহঙ্কার) – — – Vain (অহঙ্কারী, ব্যর্থ) – Vainly\nValidity (বৈধতা) – Validate – Valid – Validly\nVigour (তেজ) – Invigorate – Vigorous – Vigorously\nVictim (শিকার, বলি) – Victimize – Victimised\nViolence (সহিংসতা) – — – Violent – Violently\nVitality (প্রাণশক্তি) – Vitalize – Vital (অপরিহার্য) – Vitally\nVivacity (প্রাণচাঞ্চল্য) – — – Vivacious – Vivaciously\nVoice (কণ্ঠস্বর) – Voice, vociferate – Vocal – Vocally\nValuation/value – Value – Valuable/valueless – Valuably/valuelessly\nVerification/verifier – Verify – Verified/verifiable – Verifiably\nVoracity (পেটুকতা) – — – Voracious (পেটুক) – Voraciously\nVolunteer (স্বেচ্ছাসেবক) – Volunteer – Voluntary – Voluntarily",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0036",
+   "kind": null,
+   "title": "Interchange of Parts of Speech — W",
+   "body": "ক্রম: Noun – Verb – Adjective – Adverb\nWastage (অপচয়) – Waste – Wasteful – Wastefully\nWeakness (দুর্বলতা) – Weaken – Weak – Weakly\nWeight (ওজন) – Weigh – Weighty – Weightily\nWisdom (প্রজ্ঞা) – — – Wise – Wisely\nWidth (প্রশস্ততা) – Widen – Wide – Widely\nWash/washing/washer – Wash – Washable/washing/washy – Washably/washily",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0037",
+   "kind": null,
+   "title": "Verb – Noun (বিশেষ রূপ)",
+   "body": "Enter (প্রবেশ করা) – Entry/Entrance (প্রবেশাধিকার)\nDo (করা) – Deed (কর্ম, দলিল)\nDefer (বিলম্ব করা) – Deferment (বিলম্বন)\nEntertain (আপ্যায়ন করা) – Guest/hospitality\nNominate – Nomination (মনোনয়ন)\nPursue (তাড়া করা) – Pursuit (অনুসরণ, পশ্চাদ্ধাবন)\nApprove (অনুমোদন দেয়া) – Approval (অনুমোদন)\nFly (ওড়া) – Flight (উড্ডয়ন)\nGo – Gait (চলন/গমন ভঙ্গি)\nDeny (অস্বীকার করা) – Denial (অস্বীকৃতি)\nDismiss (বরখাস্ত করা) – Dismissal (বরখাস্ত)\nDisperse (ছত্রভঙ্গ করা) – Dispersal (ছত্রভঙ্গ)",
+   "topic": "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0038",
+   "kind": null,
+   "title": "Root কী?",
+   "body": "ইংরেজিতে original word (শব্দের মূলরূপ) কে Root (শব্দমূল বা ধাতু) বলে। অন্যভাবে বলা যেতে পারে, অর্থের দিক দিয়ে যে word কে ক্ষুদ্র ক্ষুদ্র অংশে বিভক্ত করা যায় না তাকে Root বলে। যেমন: book, root, eat, space, sweet।",
+   "topic": "Derivatives — Root, Prefix ও Suffix"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0039",
+   "kind": null,
+   "title": "Derivatives কী?",
+   "body": "Root এর সাথে Prefix বা Suffix যুক্ত হয়ে অথবা Root এর মধ্যবর্তী vowel পরিবর্তিত হয়ে যে নতুন word গঠিত হয় এবং নতুনভাবে গঠিত word টি যদি পূর্বের parts of speech থেকে আলাদা হয় তবে উক্ত পরিবর্তিত word কে derivative (ব্যুৎপত্তিগত শব্দ) বলে। যেমন: Sweet (adj.) + ly (suffix) = Sweetly (adv. – derivative); Book (n./v.) + ish (suffix) = Bookish (adj. – derivative); কিন্তু Honest (adj.) + dis (prefix) = Dishonest (adj. – derivative নয়, কারণ parts of speech বদলায়নি)।",
+   "topic": "Derivatives — Root, Prefix ও Suffix"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0040",
+   "kind": null,
+   "title": "Primary Derivatives — Verb থেকে Noun",
+   "body": "যে সকল derivatives একটি word এর ভেতরে কিছু পরিবর্তন ঘটিয়ে নতুন word গঠন করে। Formation of Nouns from Verbs: Advise – Advice, Bind – Bond, Break – Breach, Bite – Bit, Bless – Bliss, Choose – Choice, Dig – Ditch, Grieve – Grief, Gape – Gap, Sit – Seat, Lose – Loss, Prove – Proof, Sing – Song, Speak – Speech, Strike – Stroke, Wake – Watch।",
+   "topic": "Derivatives — Root, Prefix ও Suffix"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0041",
+   "kind": null,
+   "title": "Determiners কী?",
+   "body": "যে সকল শব্দ noun এর নির্দেশক, নির্দিষ্টতা, অনির্দিষ্টতা, পরিমাণ, সংখ্যা, মালিকানা, না-বোধকতা নির্দেশ করে, তাদেরকে Determiners বলে। Determiners হচ্ছে Articles (a, an, the), Demonstratives (this, these, that, those), Possessives (my, our, your, his, her, its, their, Jim's etc.), Cardinal Numerals (one, two, three…), Ordinal Numerals (first, second, third…), General Ordinals (next, last, other, the other, another), Quantifiers (all, some, any, no, each, every, either, neither, both, several, enough, little, much, many, few, more, less, most, a lot of, lots of, plenty of, a large amount of, a good/great of, a number of)।",
+   "topic": "Position of Parts of Speech — Determiner ও Noun এর অবস্থান"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0042",
+   "kind": null,
+   "title": "Determiner এর পরে Noun/Adjective — Rule 1 ও 2",
+   "body": "Rule-1: determiner এর পরে সাধারণত একটিমাত্র word থাকলে তা noun হবে। অথবা, determiner এবং verb অথবা adverb অথবা preposition অথবা conjunction এর মাঝে একটিমাত্র word থাকলে তা অবশ্যই noun হবে। Rule-2: determiner এর পরে সাধারণত দুইটি word থাকলে প্রথমটি adjective এবং দ্বিতীয়টি noun হবে। অথবা, determiner এবং verb/adverb/preposition/conjunction এর মাঝে দুইটি word থাকলে প্রথমটি adjective এবং দ্বিতীয়টি noun হবে। N.B. determiner + noun, determiner + adjective + noun, determiner + adverb (= modifier of adjective) + adjective + noun হচ্ছে noun phrase। ব্যতিক্রম: determiner + adjective + enough (adverb) + noun (She is a nice enough lady)। noun কে qualify করতে noun এর পূর্বে একাধিক adjective বসতে পারে (I bought a very beautiful golden ring — beautiful, golden দুটোই adjective)।",
+   "topic": "Position of Parts of Speech — Determiner ও Noun এর অবস্থান"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0043",
+   "kind": null,
+   "title": "Position of Noun — Subject ও Object হিসেবে",
+   "body": "Rule: সাধারণত verb এর subject হিসেবে noun ব্যবহৃত হয়। যেমন: Industry is the key to success. Patience is a virtue. Lovely comes here regularly (বাক্যে Lovely একটি মেয়ের নাম এবং বাক্যের subject তাই এটি noun; তাছাড়া lovely হচ্ছে adjective)। Rule: সাধারণত Transitive verb (vt) এর object হিসেবে noun ব্যবহৃত হয়। vt এর পরে it বসানো যায়। Painters study art. I am in the process of collecting material for my story.",
+   "topic": "Position of Parts of Speech — Determiner ও Noun এর অবস্থান"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0044",
+   "kind": null,
+   "title": "Article এর পরে Noun",
+   "body": "Rule: Article পরে একটিমাত্র word থাকলে তা অবশ্যই noun হবে। যেমন: I walked for a while. আবার, article এবং preposition/verb/adverb/conjunction এর মাঝে একটিমাত্র word থাকলে তা অবশ্যই noun হবে। Article + Noun + Preposition: He is an eyesore to me. Article + Noun + Verb: The poor are born to suffer. Article + Noun + Adverb: Read the passage carefully. Article + Noun + Conjunction + Noun: Tell the truth or lie. Rule: the + superlative adjective, a/an + positive/comparative এর পরের word টি noun হয়। The + noun + of: What is the depth of the canal?",
+   "topic": "Position of Parts of Speech — Determiner ও Noun এর অবস্থান"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0045",
+   "kind": null,
+   "title": "Possessive এর পরে Noun",
+   "body": "Rule: Possessive এর পরে সাধারণত Noun বসে। যেমন: This is my village. আবার, Possessive এবং preposition/verb/adverb/conjunction এর মাঝে একটিমাত্র word থাকলে তা অবশ্যই noun হবে। কিন্তু Possessive এর পরে দুইটি word থাকলে প্রথমটি Adjective এবং পরেরটি Noun হয়। (i) Possessive + noun + preposition/verb/conjunction/adverb (ii) Possessive + adjective + noun + (preposition/verb/conjunction)। Possessive + Noun + Preposition: He lost his all in speculation. Possessive + Noun + Verb: My needs are few. Our wants are few. Possessive + Noun + Adverb: We shall not see his look again.",
+   "topic": "Position of Parts of Speech — Determiner ও Noun এর অবস্থান"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0046",
+   "kind": null,
+   "title": "Demonstrative, Preposition ও have এর পরে Noun",
+   "body": "Rule: Demonstrative Adj. এর পরে সাধারণত Noun বসে। অর্থাৎ Demonstrative এবং preposition বা verb বা conjunction এর মাঝে একটিমাত্র word থাকলে তা অবশ্যই noun হবে; কিন্তু Possessive এর পরে একাধিক word থাকলে প্রথমটি Adjective এবং পরেরটি Noun হয়। (I left my bag in this morning.) Rule: Preposition এর পরে সাধারণত Noun বসে। Preposition এর পরবর্তী একমাত্র word সর্বদাই Noun হয়। (Handle with care. The matter was left in abeyance.) Rule: preposition এবং Noun এর মাঝে একাধিক word থাকলে প্রথমটি Adjective এবং পরেরটি Noun হয়। (Tossing their heads in sprightly dance.) Rule: have/has/had এর object হিসেবে noun বসে। যেমন: I have had enough of this. (noun) Rule: No সাধারণত adjective হিসেবে ব্যবহৃত হয় বিধায় এর পরে noun বসে। No + W1 (Noun) + preposition (You have no right to do it.)",
+   "topic": "Position of Parts of Speech — Determiner ও Noun এর অবস্থান"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0047",
+   "kind": null,
+   "title": "Pronoun এর অবস্থান",
+   "body": "Rule: Pronoun একাকী verb এর subject, Object, preposition এর object, complement হিসেবে বসে। The doctor is a friend of mine. Nothing can ruin him. Some are born genius. One should do one's duty. সাধারণত verb এর subject হিসেবে noun/pronoun ব্যবহৃত হয়। one, all, some, few, everybody, nothing ইত্যাদি হচ্ছে Indefinite pronoun এবং verb এর subject হিসেবে ব্যবহৃত হয়। (Everybody hates a liar.)",
+   "topic": "Position of Parts of Speech — Determiner ও Noun এর অবস্থান"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0048",
+   "kind": null,
+   "title": "Adjective কখন হবে?",
+   "body": "Rule: এক বা একাধিক word যখন Noun/Pronoun কে modify করে অর্থাৎ এর দোষ, গুণ, অবস্থা, সংখ্যা, পরিমাণ নির্দেশ করে তখন তা Adjective হবে। উল্লেখ্য, modern grammar এ noun এর সংখ্যা, পরিমাণ বোঝালে সেগুলো determiner, adjective নয়; অপশনে determiner উল্লেখ থাকলে determiner উত্তর হবে। Still দ্বারা পানির স্থিরাবস্থা, Few, All, some দ্বারা অনির্দিষ্ট সংখ্যা, five দ্বারা নির্দিষ্ট সংখ্যা, little দ্বারা পানির পরিমাণ নির্দেশ করা হয়েছে তাই এরা প্রত্যেকেই adjective; তবে এখন few, all, some, five, little হচ্ছে determiner। 'All' Traditional grammar অনুসারে adjective কিন্তু Modern grammar অনুসারে (pre)determiner।",
+   "topic": "Position of Adjective in a sentence"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0049",
+   "kind": null,
+   "title": "Compound Adjective",
+   "body": "compound adjective হচ্ছে multi-word adjective, যা সাধারণত হাইফেন দিয়ে যুক্ত থাকে। যেমন: a narrow-minded person, a never-ending task, a long-lasting friendship, an absent-minded scientist, a world-famous actor, a well-behaved child, a cream-coloured suit ইত্যাদি। Give me the white coloured dress — এখানে white coloured হচ্ছে compound adjective, white coloured দুটো শব্দ মিলেই dress (noun) কে qualify করেছে।",
+   "topic": "Position of Adjective in a sentence"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0050",
+   "kind": null,
+   "title": "Article ও Noun এর মাঝে Adjective; জোরসূচক বাক্যে Adjective",
+   "body": "Rule: Article ও Noun এর মাঝে একটিমাত্র word থাকলে তা অবশ্যই Adjective হবে। e.g. He is the only son of his father. You are the very person we need for the job. (adjective) The এবং noun (sands) এর মাঝে and দ্বারা যুক্ত lone, level হচ্ছে adjectives। The calling bell — calling bell হচ্ছে compound noun আর calling হচ্ছে gerund যা functionally adjective হবে। Rule: জোরসূচক বাক্যে adjective প্রথমে বসে। Adjective + verb + subject + extension। Blessed be your tongue. (তোমার মুখে ফুল চন্দন পড়ুক) Happy are the pious. (সুখী ধার্মিকেরাই) Sweet is the wine but sour is the payment. Sweet are the uses of adversity. (দুঃখের প্রয়োজনীয়তা মধুর)",
+   "topic": "Position of Adjective in a sentence"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0051",
+   "kind": null,
+   "title": "Be verb ও Linking verb এর পরে Adjective",
+   "body": "Rule: সাধারণত be verb এর পরে Adjective বসে। তবে Noun বসলে তার পূর্বে article বসে। e.g. He is foolish (adj.); He is a fool (noun); He is patient (adj. – ধৈর্যশীল); He is a patient (noun – রোগী)। Rule: সাধারণত Appear, grow, feel, look, seem, smell, taste, become ইত্যাদি Linking verb এর পরে adjective বসে এবং উক্ত adjective কে modify করতে তার পূর্বে very, really ইত্যাদি adverb বসতে পারে। Rule: Sub + Linking verb (be verb, look, seem, get etc) + W1 (Adverb) + W2 (Adjective); W1 = often, always, never, very, extremely, really, absolutely, only, quite, rather, so। e.g. The boy was very meritorious. You need to be extremely careful.",
+   "topic": "Position of Adjective in a sentence"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0052",
+   "kind": null,
+   "title": "দুটি Noun পাশাপাশি; Pronoun noun এর পূর্বে",
+   "body": "Rule: দুটি Noun পাশাপাশি বসে প্রথমটি দ্বিতীয়টিকে qualify করলে প্রথম noun টি Adjective হবে। This is a book of the English language. She is a village girl. The university library is very rich. Rule: কোনো pronoun যদি noun এর পূর্বে বসে noun কে modify করে তবে তা adjective হবে (Pronominal adjective; এরা এখন determiner এর অন্তর্গত)। Which book do you want?",
+   "topic": "Position of Adjective in a sentence"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0053",
+   "kind": null,
+   "title": "Verb কখন হবে?",
+   "body": "Rule: Subject এর পরে কোনো word বসে কাজ করা, হওয়া, থাকা, অবস্থা নির্দেশ করলে তা অবশ্যই verb হবে। He fathered the plan. Muslims fast during Ramadan. Rule: Imperative sentence শুরুতে verb বসে। Mind your language. Water the garden. Rule: Let us/me/him etc. এর পরে verb বসে। Let us holiday/vacation/summer/winter abroad. Let us winter in Malaysia. Rule: Relative pronoun এর পরে কোনো word বসে কোনো কাজ করা বোঝালে তা verb হবে। All that glitters is not gold. Rule: to এর পরে কোনো word বসে কোনো কাজ করা, হওয়া, থাকা, অবস্থা বোঝালে তা verb হবে। Try to better your condition. To err is human.",
+   "topic": "Position of Verb in a sentence"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0054",
+   "kind": null,
+   "title": "Modal ও Auxiliary এর পরে Verb",
+   "body": "Rule: Modals (can, may, shall, will, etc) এর পরে কোনো word বসে কাজ করা বোঝালে তা verb হবে। The work will double your income. I cannot right the wrong. Rule: Auxiliary verb + subject + main verb + object? অথবা, Auxiliary verb + adverb + main verb। Can you smell gas? All his story have always amused me.",
+   "topic": "Position of Verb in a sentence"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0055",
+   "kind": null,
+   "title": "Adverb কী ও কোথায় বসে?",
+   "body": "সাধারণত verb কে কোথায়, কখন, কিভাবে, কেন দ্বারা প্রশ্ন করে উত্তর হিসেবে যে word পাওয়া যায় তা adverb। Rule: সাধারণত Intransitive verb এর পরে এবং Transitive verb এর object এর পরে adverb বসে। Transitive verb এর object না থাকলে verb এর পরেই adverb বসে। be, drive, get, go, stay, walk ইত্যাদি verb এর পরে home থাকলে তা স্থান নির্দেশ করে বলে adverb হবে (He went home last night)।",
+   "topic": "Position of Adverb in a sentence"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0056",
+   "kind": null,
+   "title": "Linking verb বনাম Action verb; well",
+   "body": "Rule: Linking verb এর পরে adjective বসে। e.g. He is/seems/looks/feels better/tired today. কিন্তু Action verb এর পরে adjective থাকলে তা adverb হবে। e.g. I know better. well সাধারণত adverb তাই এটি verb বর্ণনা করে কিন্তু স্বাস্থ্য নির্দেশ করলে তা adjective তাই noun কে বর্ণনা করে (I know that he is well — adjective; The boy writes well — adverb)।",
+   "topic": "Position of Adverb in a sentence"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0057",
+   "kind": null,
+   "title": "Object এর পরে word — Adverb না Adjective?",
+   "body": "Rule: Transitive verb এর object পরে কোনো word বসে তা verb টিকে modify করলে তা adverb হবে। e.g. People like him little. = People hardly like him. (লোকজন তাকে পছন্দই করে না) কিন্তু object কে modify করলে তা adjective হবে। e.g. I like my tea hot. = I like hot tea.",
+   "topic": "Position of Adverb in a sentence"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0058",
+   "kind": null,
+   "title": "বাক্যের শুরুতে Adverb (জোর প্রদান)",
+   "body": "Rule: বাক্যের উপর অথবা Verb উপর জোর প্রদান করতে sentence এর শুরুতে verb এর পূর্বে adverb বসে। Down went the Titanic. (টাইটানিকটি ডুবেই গেল) Away he went. (সে চলেই গেল) Negative adverb + auxiliary verb + subject + main verb + extension। Hardly do I smoke. (আমি ধূমপান করিই না) Seldom had he seen such beauty. Rule: Imperative sentence এর subject উহ্য থাকে বিধায় verb এর পূর্বে adverb বসে। (When you can say you can do this, well prove this.)",
+   "topic": "Position of Adverb in a sentence"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0059",
+   "kind": null,
+   "title": "Preposition এর পরে noun না থাকলে — Adverb",
+   "body": "Rule: Preposition এর পরে কোনো noun/pronoun না থাকলে preposition টি adverb হবে। Please, come in. Please, sit down. Prices are up. Read it over carefully. They arrived soon after. ব্যতিক্রম: verb এর পরে in, off, up, down একাকী থাকলেও অর্থানুসারে এরা adjective হতে পারে। e.g. The network is up (চালু/কার্যকর)/down (অকার্যকর); Loose pants are in (চালু ও জনপ্রিয়) again. Jeans are nowadays in across the globe. (in – adjective)",
+   "topic": "Position of Adverb in a sentence"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0060",
+   "kind": null,
+   "title": "যত–তত, Subject ও principal verb এর মাঝে Adverb",
+   "body": "Rule: যত – তত অর্থে comparative degree (= the CD–, the CD–) ব্যবহৃত হলে তা (CD) adverb হবে। The more you read, the more you learn. Rule: subject এবং principal verb এর মধ্যবর্তী word টি adverb হয়। I hardly meet her. (adv.) আবার, auxiliary verb এবং main verb এর মধ্যবর্তী word টি adverb হয়। He has just gone out. (adv.)",
+   "topic": "Position of Adverb in a sentence"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0061",
+   "kind": null,
+   "title": "always, often, usually, seldom … এর অবস্থান",
+   "body": "Rule: always, often, usually, seldom, hardly, rarely, never, still ইত্যাদি adverb গুলোর অবস্থান: Structure: subject + adverb + principal verb + Extension (present/past indefinite tense)। I always remember the holiday I spent in your home. I hardly go out after dusk. I hardly meet her. Structure: subject + Auxiliary verb + adverb + Main verb + Extension (other tenses)। তবে Main verb টি হলে be verb হলে be verb এর পরে এ সকল adverb বসে। e.g. I am usually/always/never busy. He is often late for school. have to এর পূর্বে always বসে (We always had to wear a uniform at school) এবং uniform এর পূর্বে a বসে। Rule: always, often, quite, usually, seldom, hardly, rarely, never, sometimes ইত্যাদি adverb গুলো বাক্যের অর্থের গুরুত্ব ও ভাব অনুসারে প্রথমে বা শেষে ব্যবহৃত হয়। এরা সব সময়ই adverb হিসেবে কাজ করে। (Sometimes reports are misleading.)",
+   "topic": "Position of Adverb in a sentence"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0062",
+   "kind": null,
+   "title": "Relative adverb — where, when, how",
+   "body": "Rule: বাক্যে সংযোগকারীরূপে where, when, how তা adverb (relative adverb) হবে। I can't tell you how I did it.",
+   "topic": "Position of Adverb in a sentence"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0063",
+   "kind": null,
+   "title": "Preposition নাকি Adverb?",
+   "body": "বাক্যে about, above, after, before, by, past, beyond, down, in, off, on, out, over, near etc. এর পরে object হিসেবে noun (phrase)/pronoun থাকলে এরা preposition হবে। কিন্তু এরা verb এর পরে একাকী থাকলে (verb কে modify করলে) অথবা এদের পরে adverb থাকলে এই word গুলো adverb হবে। He went down the road. (preposition) The sun has gone down. (adverb) He was only a yard off me. (preposition) Suddenly one of the wheels came off. (adverb) সাধারণত noun, noun phrase অথবা pronoun এর পূর্বে Preposition বসে। noun phrase এর গঠন: article + noun (the battle), article + adjective (the brave), adjective + noun (hot water), article + adjective + noun (the civil law), article + adverb + adjective + noun (a very good girl), possessive + noun (our head)। Rule: Article + Noun (noun phrase) এর পূর্বে preposition বসে। I saw the man near the station. Rule: Article + Adjective (= plural common noun = noun phrase) এর পূর্বে preposition বসে। None but the brave deserves the fair.",
+   "topic": "Position of Preposition in a sentence"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0064",
+   "kind": null,
+   "title": "Pronoun ও Possessive + Noun এর পূর্বে Preposition",
+   "body": "Rule: Article + Adjective + Noun (noun phrase) এর পূর্বে preposition বসে। The moral law is above the civil law. Rule: Pronoun এর পূর্বে preposition বসে। তবে personal pronoun হলে object form হয়ে থাকে। Don't talk like that. He sat next me in the class. Come and sit by me. What do you know about him? There is none to look after me here. Everyone was there but him. Rule: Possessive + Noun (= noun phrase) এর পূর্বে preposition বসে। He came after my departure. Despite his illness he went to the college. The plane flew over our head.",
+   "topic": "Position of Preposition in a sentence"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0065",
+   "kind": null,
+   "title": "Conjunction ও Interjection চেনার উপায়",
+   "body": "Rule: কোন word দুটি sentence/clause/phrase বা word কে যুক্ত করলে word টি conjunction হবে। We could not win but leaned a lot. I will watch while you sleep. Unless you work hard, you will not succeed. Five years have passed since I met you last. Interjection: মূল বাক্য থেকে আলাদা কোনো word সাধারণত Interjection হয়। এক্ষেত্রে '!' অথবা ',' (কমা) দ্বারা word টিকে মূল বাক্য থেকে আলাদা রাখা হয়। What! Can this be true? Well, I don't think I will be able to finish today.",
+   "topic": "Position of Conjunction ও Interjection"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0066",
+   "kind": null,
+   "title": "Complement কী?",
+   "body": "verb এর পরবর্তী adjective বা noun এবং subject যদি একই ব্যক্তি বা বস্তুকে বোঝায় অর্থাৎ একে অপরের পরিপূরক হয় অথবা verb+object পরবর্তী adjective বা noun এবং object যদি একই ব্যক্তি বা বস্তুকে বোঝায় তখন উক্ত adjective বা noun কে complement বলে। He became a doctor. People call me a genius.",
+   "topic": "Complement ও Miscellaneous questions"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0067",
+   "kind": null,
+   "title": "Object ও Complement এর পার্থক্য",
+   "body": "Object সর্বদাই Noun অথবা Pronoun হয়; Complement সাধারণত Noun অথবা Adjective হয়। Object এবং Subject দুটি ভিন্ন সত্তা — He helped me. I love you. তবে, reflexive pronoun সর্বদাই Subject এর অভিন্ন সত্তা কিন্তু pronoun বলে সর্বদাই Object হয় — He killed himself. অন্যদিকে (i) Subject এবং Subject complement এবং (ii) object এবং object complement একই সত্তা — He is a fool. Honey tastes sweet. I called him a fool. We made him captain. He was called a fool. He was made captain. (I found him guilty — guilty complement)",
+   "topic": "Complement ও Miscellaneous questions"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0068",
+   "kind": null,
+   "title": "একই শব্দ ভিন্ন Parts of Speech — last, fine, home, man, oil",
+   "body": "That is the last of the butter (noun — art. এবং prep এর মধ্যবর্তী একমাত্র word noun); This is the last bus (adjective); He came last in the race (adverb); This lesson will not last long (verb)। This house is fine (adjective); This shirt suits me fine (adverb — verb কে modify করে); He had to pay a fine (noun)। I have a good home (noun); He went home (adverb); Have a happy home life (adjective — noun কে modify করে); Is he home yet (adverb)। He shouted at the man (noun — article এর পরে noun); The captain has to man the ship (verb — has to এর পরে verb); No man is infallible (noun — No এর পরে noun); He is a worthy man (noun)। I bought an oil painting (adjective — article ও noun এর মাঝে); I need some kerosene oil (noun — দুটি noun পাশাপাশি থাকলে প্রথমটি adjective, পরেরটি noun); Oil your own machine (verb — বাক্যের শুরুতে কাজ বোঝায়); There is no oil in the lamp (noun — no এবং preposition এর মাঝে একমাত্র word)।",
+   "topic": "Complement ও Miscellaneous questions"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0069",
+   "kind": null,
+   "title": "Linking verb + adjective, action verb + adverb",
+   "body": "linking verb + adjective, action verb + adverb। He looked angry but did not speak angrily. (তাকে রাগান্বিত লাগছিল কিন্তু রেগে কথা বলেনি) The candidate did badly and felt bad. sit এর পরে context অনুসারে adjective, adverb বসতে পারে কিন্তু verb এর পরে mute ব্যবহৃত হয় adjective হিসেবে, adverb নয় (The child sat mute in the corner of the park)।",
+   "topic": "Your Turn — মিশ্র অনুশীলন"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0070",
+   "kind": null,
+   "title": "but + bare infinitive; than; past; find + adjective",
+   "body": "Traditional grammar এ 'but' preposition হলে এর পরে bare infinitive (base form) বসে। যেমন: What can he do but die? What could he do but forgive her? I cannot but go. তবে, এখন modern grammar এ এক্ষেত্রে but কে conjunction ধরা হয়। Traditional grammar অনুসারে than হচ্ছে conjunction কারণ than (conjunction) + subject form; Modern grammar এ than এর পরে object form অথবা noun থাকলে than হবে preposition এবং noun/subject + verb থাকলে than হবে conjunction (He is taller than me. He is taller than I am.)। past: article এর পরে একটিমাত্র word থাকলে অথবা article এবং preposition এর মাঝে একটিমাত্র word থাকলে noun (a thing of the past); 'পাশ দিয়ে' অর্থে intransitive verb কে modify করলে adverb (as he ran past); she's past her prime — 'পেরিয়ে' অর্থে noun phrase এর সাথে সম্পর্ক স্থাপন করলে preposition; The time for sleep is past — complement হিসেবে adjective। Active এ find/found + sb/sth + adjective (We found her asleep/unconscious/safe); Passive এ be verb + found + adjective (She was found unconscious/asleep/safe)। miserly হচ্ছে adjective এবং miser হচ্ছে noun তাই complement এ singular noun এর পূর্বে a/an বসে কিন্তু adjective এর পূর্বে a/an বসে না: He is a miser. He is a miserly man. He is miserly.",
+   "topic": "Your Turn — মিশ্র অনুশীলন"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0071",
+   "kind": null,
+   "title": "Either side / Both sides / Each side",
+   "body": "both দ্বারা উভয় এবং either/each দ্বারা যেকোনোটি বোঝায়। কিন্তু both এর পরে plural noun এবং either/each এর পরে singular noun বসে। every দ্বারা তিনের অধিকের মধ্যে প্রত্যেককে বোঝায় এবং every এর পরে singular noun বসে। যেহেতু রাস্তার পাশ দুইটি এবং প্রশ্নের বাক্যে দেয়া side হচ্ছে singular noun তাই either ব্যবহৃত হবে। There are many coconut trees on either side / each side / both sides of the road.",
+   "topic": "Your Turn — মিশ্র অনুশীলন"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0072",
+   "kind": null,
+   "title": "Same Word — ভূমিকা",
+   "body": "কোনো word ই specific কোনো part of speech নয়, বরং বাক্যে ব্যবহারের উপরে একটি word বিভিন্ন ধরনের parts of speech হতে পারে। এ সংক্রান্ত সমস্যাগুলো সহজবোধ্য করাই হচ্ছে এই অংশের মূল বিষয়বস্তু।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0073",
+   "kind": null,
+   "title": "About",
+   "body": "Adverb: He is walking about. (সে চতুর্দিকে/চারপাশে হাঁটছে)\nPreposition: There is something pleasing about him. (তার ব্যাপারে সামান্য কিছু প্রীতিকর)\nAdverb: (i) Preposition হিসেবে ব্যবহৃত word এর পরে noun, noun phrase বা pronoun না থাকলে preposition টি adverb হবে। (ii) intransitive verb (walk) এর পরে adverb বসে। Preposition: Noun অথবা pronoun এর object form এর পূর্বে about থাকলে তা Preposition হবে। (He told us about the battle — preposition)",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0074",
+   "kind": null,
+   "title": "Above",
+   "body": "Noun: Our blessings come from above. (স্বর্গ থেকে আমাদের ওপর আশীর্বাদ আসে)\nAdjective: Read the above sentence carefully.\nAdverb: The heavens are above. Look above.\nPreposition: The moral law is above the civil law.\nNoun: Traditional grammar এর নিয়মে Preposition এর পরে একটিমাত্র word থাকলে তা Noun হবে। Adjective: Article এবং Noun এর মাঝে Adjective বসে। Adverb: (i) যে সকল word সাধারণত Preposition হিসেবে ব্যবহৃত হয় তাদের পরে কোনো noun, noun phrase বা pronoun না থাকে তবে preposition টি adverb হবে। (ii) Verb কে কোথায়, কখন, কিভাবে, কেন দ্বারা প্রশ্ন করে উত্তর হিসেবে যে Word পাওয়া যায় তা Adverb হবে (Where are the heavens? Ans: above)। Preposition: Noun Phrase (article + adjective + noun – the civil law) এর পূর্বে Preposition বসে। N.B. Modern grammar অনুসারে from above এর ক্ষেত্রে above কে adverb দেখানো হয়: They were acting on instructions from above.",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0075",
+   "kind": null,
+   "title": "After",
+   "body": "Adjective: After ages will sing his glory. (পরবর্তী যুগ তার গৌরবগাথা রচনা করবে) — After যুগের অবস্থান নির্দেশ করছে বিধায় adjective।\nAdverb: They arrived soon after. — (i) Intransitive verb এর পরে adverb বসে। (ii) Preposition হিসেবে ব্যবহৃত word এর পরে noun/pronoun না থাকলে adverb।\nPreposition: She takes after her mother. — noun phrase (possessive + noun) এর পূর্বে preposition বসে।\nConjunction: They arrived after the train had left the station. — দুইটি clause এর সাথে সংযোগকারী হিসেবে conjunction বসে।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0076",
+   "kind": null,
+   "title": "All",
+   "body": "Noun: He lost his all in a hurry. (ব্যস্ততার জন্য সে তার সবকিছু হারাল) All is lost.\nPronoun: All spoke in his favour. All of us know it.\nAdjective: All men are mortal.\nAdverb: He was all alone when I saw him. (সম্পূর্ণ একা) He came all of a sudden.\nNoun: Possessive এবং preposition এর মাঝে একটিমাত্র word থাকলে তা অবশ্যই noun হবে। Pronoun: শুধু All এর পরে verb অথবা of থাকলে All (indefinite) pronoun হবে। Adjective: countable noun এর পূর্বে all বসে অনির্দিষ্ট সংখ্যা নির্দেশ করে বলে তা adjective। Adverb: adjective এর পূর্বে all বসে তা যদি adjective টিকে modify করে তবে তা adverb হবে।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0077",
+   "kind": null,
+   "title": "Any",
+   "body": "Pronoun: Does any of you know anything about it? — any এর পরে of বসলে any হবে indefinite pronoun।\nAdjective: Is there any witness? Any pen will do. — noun এর পূর্বে determiner (any) থাকলে তা adjective হয়।\nAdverb: Is that any better? — adjective (better) এর পূর্বে any বসে modify করেছে তাই adverb।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0078",
+   "kind": null,
+   "title": "As",
+   "body": "Adverb: He ran as fast as he could. — (i) intransitive verb (ran) এর পরে adverb বসে। (ii) adverb (fast) এর পূর্বে adverb বসে।\nConjunction: As he was poor, I helped him. — দুইটি sentence এর সাথে সংযোগকারী হিসেবে conjunction বসে।\nRelative Pronoun: She likes the same colour as I do. — as বাক্যটিতে what বা that এর কাজ করেছে।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0079",
+   "kind": null,
+   "title": "Before",
+   "body": "Adverb: I have seen you before. — transitive verb এর object এর পরবর্তী word টি verb কে modify করলে তা adverb হবে।\nPreposition: He came before the appointed time. — noun phrase (article + adjective + noun) এর পূর্বে preposition বসে।\nConjunction: He went away before I came. Look before you leap. — দুইটি clause এর সাথে সংযোগকারী হিসেবে conjunction বসে।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0080",
+   "kind": null,
+   "title": "Better",
+   "body": "Noun: Give place to your betters. (তোমার চেয়ে যারা ভালো তাদের জন্য জায়গা ছেড়ে দাও) — possessive (my, your etc.) এর পরে একটিমাত্র word থাকলে তা অবশ্যই noun হবে।\nAdjective: I think yours is a better plan. — article এবং noun (plan) এর মাঝে সর্বদাই adjective বসে।\nAdverb: I know him better. I know better. — (i) transitive verb এর object এর পরবর্তী word টি verb কে modify করলে তা adverb হবে। (ii) action verb এর পরে কোনো adjective থাকলে তা adverb হবে।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0081",
+   "kind": null,
+   "title": "Both",
+   "body": "Pronoun: Both of them are dead. — Both এর পরে of অথবা verb থাকলে Both সর্বদাই Pronoun (Indefinite pronoun) হবে।\nAdjective: You cannot have it both ways. — both বাক্যে ways কে বিশেষায়িত করছে বিধায় Adjective।\nConjunction: Both the cashier and the accountant are Hindus. — Both – and (correlative) এ Both সর্বদাই Conjunction হবে।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0082",
+   "kind": null,
+   "title": "But",
+   "body": "Relative Pronoun: There is no one but likes him. = There is no one who does not like him. — Complex sentence এ But হচ্ছে negative relative pronoun।\nAdverb: It is but (only) right to admit our faults. You are but a child. (but = only, just) — (i) Adjective এর পূর্বে Adverb বসে। (ii) article + noun এর পূর্বে but বসলে তা Adverb হবে।\nConjunction: We tried hard, but did not succeed. — দুইটি clause এর মাঝে সংযোগকারী।\nPreposition: None but (except) the brave deserves the fair. — noun phrase (article + adjective = the brave) এর পূর্বে preposition বসে।\nVerb: But me no buts. — Imperative sentence এর শুরুতে verb বসে। But – কিন্তু বা আপত্তি করা।\nNoun: But me no buts. (buts) — সাধারণত no হচ্ছে Adjective তাই এর পরে Noun বসে।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0083",
+   "kind": null,
+   "title": "Down",
+   "body": "Noun: He has seen the ups and downs of life. — article এর পরে noun বসে। the এর পরে ups noun বিধায় downs ও noun হবে; and এর পূর্বে এবং পরে সমজাতীয় parts of speech বসে।\nVerb: Try to down him. Down the tyrant! — to এর পরে কোনো word বসে কাজ করা বোঝালে তা verb হবে। down – নামানো, নিচু করা।\nAdjective: The down train has left the station. — article এবং noun মাঝে একটিমাত্র word থাকলে তা অবশ্যই adjective হবে।\nAdverb: Down went the Royal George. — Verb উপর জোর প্রদান করতে sentence এর শুরুতে verb এর পূর্বে adverb বসে।\nPreposition: She came down the hill. — noun phrase (article + noun = the hill) এর পূর্বে preposition বসে।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0084",
+   "kind": null,
+   "title": "Either",
+   "body": "Pronoun: Ask either of them. Either will do. — Either এর পরে of অথবা verb থাকলে Either সর্বদাই (distributive) pronoun হবে।\nAdjective: He is watching either side of the river. — Noun এর পূর্বে Either বসে Noun কে modify করলে তা distributive adjective হবে।\nConjunction: You must either work or starve. Either come in or go out. — either ---- or (correlative) এ either হচ্ছে conjunction।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0085",
+   "kind": null,
+   "title": "Enough",
+   "body": "Noun: I have had enough of this. — (i) have verb এর পরে সাধারণত noun বসে (ii) enough পরে of বসলে enough (pro)noun হয়।\nAdjective: There is enough time to spare. — enough সাধারণত noun এর পূর্বে বসে প্রচুর পরিমাণ নির্দেশ করে তাই Adjective।\nAdverb: You know well enough what I mean. — enough সাধারণত adjective/adverb এর পরে বসে তাদেরকে modify করে, তখন এটি adverb। (He was wise enough to accept the office — adverb)",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0086",
+   "kind": null,
+   "title": "Even",
+   "body": "Verb: Let us even the ground. (এসো, আমরা মাটিটা সমতল করি) — Let us এর পরে verb এর base form বসে বিধায় even হচ্ছে verb।\nAdjective: The chances are even. (সুযোগ সমান সমান) — Be verb এর পরে সাধারণত adjective বসে।\nAdverb: Does he even suspect the danger? — Present Indefinite Tense এ subject এবং main verb এর মাঝে সাধারণত adverb বসে।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0087",
+   "kind": null,
+   "title": "Except",
+   "body": "Preposition: All the brethren were on Egypt except Benjamin. — except সাধারণত preposition হিসেবে ব্যবহৃত হয়।\nVerb: If we except Hari, all are to be blamed. — subject এর পর কোনো word বসে কাজ করা বোঝালে তা verb হবে। except – বাদ দেয়া।\nConjunction: I will not let thee go except (= unless) thou bless me. — except দুইটি clause এর সংযোগকারী হলে 'unless' অর্থে conjunction হিসেবে ব্যবহৃত হয়।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0088",
+   "kind": null,
+   "title": "For",
+   "body": "Preposition: I can do it for myself. — for এর পরে noun বা pronoun থাকলে for সর্বদাই preposition হয়।\nConjunction: He cannot do this now; for he is ill. — for দুইটি clause এর সংযোগকারী হলে 'because' অর্থে conjunction হিসেবে ব্যবহৃত হয়।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0089",
+   "kind": null,
+   "title": "Few",
+   "body": "Noun: A few of his friends were present there. — article এবং preposition এর মাঝে একটিমাত্র word থাকলে তা অবশ্যই noun হবে।\nAdjective: There are few men here. — countable noun এর পূর্বে few বসলে তা নগণ্য সংখ্যা নির্দেশ করে বলে few হচ্ছে adjective।\nPronoun: Few know where he is. — শুধু Few যদি verb এর subject হলে তা pronoun (Indefinite pronoun) হবে।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0090",
+   "kind": null,
+   "title": "Head ও Honour",
+   "body": "Head — Noun: Head is the vital part of the body. (কোনো কিছুর নাম verb এর subject হলে তা Noun) Verb: He headed the ball in right time. (head দ্বারা মাথা দিয়ে বল আঘাত করা বোঝানো হয়েছে বিধায় verb)।\nHonour — Noun: He is a man of great honour. (Adjective (great) এর পরবর্তী word টি কোনো কিছুর নাম হলে তা Noun) Verb: Everyone honours him. (honour দ্বারা সম্মান করা বোঝানো হয়েছে বিধায় verb)।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0091",
+   "kind": null,
+   "title": "Less",
+   "body": "Noun: He wants Rs.500 for that watch. He won't be satisfied with less. — preposition এর পরে একটিমাত্র থাকলে তা অবশ্যই Noun হবে।\nAdverb: The soil of Purulia is less fertile than that of Hooghly. — Adjective (fertile) এর পূর্বে less থাকলে তা Adverb হবে।\nAdjective: You are paying less attention to your studies. — uncountable noun (attention) এর পূর্বে less থাকলে তা উক্ত noun এর অপেক্ষাকৃত কম পরিমাণ নির্দেশ করে বলে adjective হবে।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0092",
+   "kind": null,
+   "title": "Like",
+   "body": "Noun: We shall not see his like again. — possessive adj. (his) এবং adverb (again) এর মাঝে একটিমাত্র word থাকলে তা noun।\nVerb: Children like sweets. — subject পরবর্তী word টি কাজ করা (like – পছন্দ করা) বোঝালে তা verb হবে।\nAdjective: They are men of like build and stature. — like বাক্যে build (দৈহিক গড়ন) noun এর পূর্বে বসে তার ধরন নির্দেশ করছে বলে Adjective।\nPreposition: Do not talk like that. He looks like his father. He climbed the tree like a cat. — pronoun/noun (phrase) এর পূর্বে সাধারণত adjective বসে না বরং preposition বসে।\nসম্ভাব্য: He seemed angry like. (adverb) Like begets like. (noun) What is he like? (preposition)",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0093",
+   "kind": null,
+   "title": "Little ও More",
+   "body": "Little — Noun: I want but little. (কি এর উত্তর আসা মানে noun অথবা Transitive verb পরে object ই noun) Adjective: There is little danger in going there. (little শুধুমাত্র uncountable noun এর পূর্বে বসে নেই বললেই চলে এমন পরিমাণ নির্দেশ করে) Adverb: She eats very little. (action verb (eat) এর পরে adjective (little) থাকলে তা adverb)।\nMore — Pronoun: More of us die in bed than out of it. (more এর পরে of থাকলে more pronoun) Adjective: We want more men like him. (noun এর পূর্বে more থাকলে Adjective) Adverb: You should talk less and work more. (intransitive verb (work) এর পরে adverb বসে)।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0094",
+   "kind": null,
+   "title": "Much ও Near",
+   "body": "Much — Pronoun: Much of it is true. (much এর পরে of থাকলে much pronoun) Adjective: There is much sense in what he says. (uncountable noun (sense) এর পূর্বে much থাকলে Adjective) Adverb: He boasts too much. (intransitive verb এর পরে adverb বসে)।\nNear — Verb: The time nears. (subject পরবর্তী word টি কাজ করা (near – ঘনিয়ে আসা) বোঝালে verb) Adjective: He is a near relation. (article এবং noun এর মাঝে একটিমাত্র word) Adverb: Draw (= come) near and listen. The exams were drawing near. (Intransitive verb এর পরে adverb বসে) Preposition: His house is near the mosque. (noun phrase এর পূর্বে preposition বসে)।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0095",
+   "kind": null,
+   "title": "Needs, Neither, Next, No",
+   "body": "Needs — Noun: My needs are few. (Possessive এর পরে noun) Verb: It needs to be done with care. (Subject এর পরে verb) Adverb: He must needs come. (auxiliary verb এবং Principal verb এর মাঝে adverb; needs = necessarily)।\nNeither — Pronoun: It is difficult to negotiate where neither will trust. Adjective: Neither statement is true. Conjunction: Give me neither poverty nor riches. (ব্যাখ্যা either এর মতোই)।\nNext — Noun: Who is your next? (My এর পর একটি word থাকলে noun) Adjective: I shall go to Delhi next Sunday. (noun এর পূর্বে adjective) Adverb: What next? (next অবস্থান বোঝালে adverb) Preposition: He was sitting next her. (Personal pronoun এর objective এর পূর্বে preposition)।\nNo — Noun: I will not take a no. (article পরবর্তী একমাত্র word noun) Adjective: It is no jokes. (noun এর পূর্বে adjective) Adverb: He is no more. (adjective (more) এর পূর্বে adverb)।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0096",
+   "kind": null,
+   "title": "Once, One, Only",
+   "body": "Once — Noun: Please help me for once. (preposition এর পরে একটিমাত্র word noun) Adverb: You were young once. (young এর সময় নির্দেশ করছে) Conjunction: Once he hesitates, he will fail. (দুইটি Clause এর সংযোগকারী হলে 'if' অর্থে conjunction)।\nOne — Noun: I am at one with you. (দুটো preposition এর মাঝে noun বসে) One would think he was mad. Pronoun: One ought to respect one's parents. (সাধারণত যে কোনো ব্যক্তি অর্থে one একা verb এর subject হলে pronoun) The little ones cried in joy. (ones সর্বদা pronoun) Adjective: One day I met him in the street.\nOnly — Adjective: It was his only chance. (Possessive এবং noun এর মাঝে একটিমাত্র word adjective) Adverb: He was only (= simply) foolish. He can only read. (Adjective এর পূর্বে adverb; অথবা auxiliary verb + adverb + principal verb) Conjunction: Take what I have, only let me go. You may go there, only remain silent. (দুইটি Clause এর সংযোগকারী হলে 'but' অর্থে conjunction)।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0097",
+   "kind": null,
+   "title": "Over, Right, Round",
+   "body": "Over — Noun: In one over he took four wickets. (Determiner (one) এর পরের word noun) Adverb: Read it over carefully. (over এর পরে noun নেই এবং carefully কে modify করেছে; শুধুমাত্র adverb ই adverb কে modify করতে পারে) Preposition: At forty a change came over him. (over এর পরে noun/pronoun থাকলে preposition)।\nRight — Noun: It is a matter of right. (Preposition এর পর একটিমাত্র word noun) Verb: It is such a fault that will right itself. (Modal এর পরে verb বসে) Adjective: He is the right man for the job. Adverb: Serve him right. She did it right. (transitive verb এর object এর পরবর্তী word টি verb কে modify করলে adverb)।\nRound — Noun: The boy played well in the first round. (Article + Adjective + Noun) Verb: They rounded the temple silently. (round – প্রদক্ষিণ করা) Adjective: A square peg in a round hole. Preposition: The earth moves/revolves round the sun. Adverb: At last he came round to their belief. (intransitive verb (come) এর পরে এবং এর পরে noun নেই)।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0098",
+   "kind": null,
+   "title": "Since, So, Some, Still",
+   "body": "Since — Preposition: I have not seen him since Monday. (since এর পরে noun থাকলে preposition) Adverb: I have not seen him since. (since এর পরে noun না থাকলে adverb) Conjunction: It is many days since I saw you last. (দুইটি clause এর সংযোগকারী)।\nSo — Adverb: I am so sorry. (Adjective এর পূর্বে so বসলে very অর্থে adverb) Conjunction: He was poor, so they helped him. (দুইটি clause এর সংযোগকারী হলে therefore অর্থে conjunction)।\nSome — Pronoun: Some say one thing and others another. (Some একাকী verb এর subject হলে Indefinite Pronoun) Adjective: We must find some way out of it. Adverb: Some (= nearly) twenty guests were there. (সংখ্যাবাচক adjective এর পূর্বে Some বসলে nearly/about অর্থে adverb)।\nStill — Noun: He heard a shrill cry in the still of night. (Article এবং Preposition এর মাঝে একটিমাত্র word) Verb: Mothers still (= make calm) their babies with a lulling song. Adjective: Mosquitoes lay eggs in still (= motionless) water. Adverb: He is still (= till now) in idleness. (adverb phrase এর পূর্বে adverb বসে)।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0099",
+   "kind": null,
+   "title": "Such, That, The",
+   "body": "Such — Pronoun: Such was not my intention. (Such এর পরে verb থাকলে Demonstrative pronoun) Adjective: Don't do this in such a hurry. (such এর পরে a + singular noun থাকলে demonstrative adjective)।\nThat — D. Pronoun: That is what I want. (That এর পরে verb অথবা of থাকলে) Adjective: What is that noise? (noun এর পূর্বে বসে noun টিকে নির্দেশ করলে) Adverb: I do not have that much money on me. I cannot walk that far. (adjective/adverb কে modify করলে) Rel. Pronoun: The evil that men do remains after them. (that এর পূর্বে antecedent থাকলে) Conjunction: He works hard that he may succeed. (দুইটি clause এর সংযোগকারী হলে 'so that/in order that' অর্থে)।\nThe — Article: The boy who came here is my brother. (The সাধারণত article, determiner হিসেবে ব্যবহৃত হয়, traditional grammar এ adjective) Adverb: The sooner, the better. (যত – তত অর্থে comparative degree এর পূর্বে The বসলে adverb)।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0100",
+   "kind": null,
+   "title": "Till, Up, What",
+   "body": "Till — Preposition: He will stay here till tomorrow. (noun এর পূর্বে) Conjunction: Do not start till I give the order. (দুইটি clause এর সংযোগকারী)।\nUp — Noun: Every man has ups and downs in life. (have verb এর পরে object হিসেবে noun) Adjective: The next up train will leave at 8 p.m. (train noun টির পূর্বে বসে বিশেষায়িত করেছে) Adverb: Prices of essential commodities are going up. The Sun is up. (এর পরে কোনো noun/pronoun নেই) Preposition: He went up the hill.\nWhat — Int. pronoun: What do you want? (প্রশ্নবোধক বাক্যের প্রারম্ভে শুধু What) Int. adjective: What book do you want? (noun এর পূর্বে What) R. Pronoun: Give me what you can. (বাক্যের মাঝে বসে দুটি clause কে যুক্ত করলে) Interjection: What! you don't mean to say so? (What এর পরে '!' অথবা কমা থাকলে)।",
+   "topic": "Same Word used as Different Parts of Speech"
+  },
+  {
+   "id": "english_admission_2nd_parts_of_speech_concept_0101",
+   "kind": null,
+   "title": "While, Why, Wrong, Yet",
+   "body": "While — Noun: Sit down and rest a while. I walked for a while. (article এর পরে একটিমাত্র word) Verb: They while away their time in idleness. (while away – সময় কাটিয়ে দেয়া) Conjunction: While he is a great poet, he is greater dramatist.\nWhy — Noun: I don't know the why and wherefore of it. (Article + noun + and + noun + preposition) Int. Adverb: Why did he come here? R. Adverb: I know the reason why he did it. (বাক্যের মাঝে দুটি clause কে যুক্ত করলে) Interjection: Why, it is surely Suren!\nWrong — Noun: He has done no wrong. He has no sense of wrong. (Determiner (no) বা Preposition এর পরে একটিমাত্র word) Adjective: You have followed the wrong path. Verb: You have wronged me. Adverb: He led me wrong. (verb কে modify কারী word সর্বদাই Adverb)।\nYet — Adverb: There is more talk yet to be told. (কোনো কিছু করতে এখনো বাকি অর্থে infinitive এর পূর্বে) Conjunction: He is unable, yet willing. (দুইটি sentence এর সংযোগকারী হলে 'but' অর্থে)।",
+   "topic": "Same Word used as Different Parts of Speech"
+  }
+ ]
+}

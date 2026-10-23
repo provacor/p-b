@@ -26,7 +26,7 @@ for (const [name, list] of Object.entries(templates)) {
   const t = list.map((e) => (typeof e === 'string' ? e : e.type));
   t.forEach((x) => types[x] || err(`template "${name}" uses unknown section type "${x}"`));
   if (new Set(t).size !== t.length) err(`template "${name}" repeats a section type`);
-  for (const core of ['notes', 'mcq']) if (!t.includes(core)) err(`template "${name}" is missing core section "${core}"`);
+  for (const core of name === 'english_admission_topic' ? ['mcq'] : ['notes', 'mcq']) if (!t.includes(core)) err(`template "${name}" is missing core section "${core}"`);
   if (!name.startsWith('english_')) {
     for (const core of ['cq', 'formula', 'concept', 'simulation', 'mistakes', 'revision', 'progress']) {
       if (!t.includes(core)) err(`template "${name}" is missing core section "${core}"`);

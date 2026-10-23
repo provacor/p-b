@@ -469,6 +469,46 @@
     "english_admission_2nd_phrases_idioms_mcq": {
       "file": "content/english/english_admission_2nd_phrases_idioms_mcq.json",
       "count": 13
+    },
+    "english_admission_2nd_tense_concept": {
+      "file": "content/english/english_admission_2nd_tense_concept.json",
+      "count": 16
+    },
+    "english_admission_2nd_tense_mcq": {
+      "file": "content/english/english_admission_2nd_tense_mcq.json",
+      "count": 63
+    },
+    "english_admission_2nd_voice_change_concept": {
+      "file": "content/english/english_admission_2nd_voice_change_concept.json",
+      "count": 53
+    },
+    "english_admission_2nd_voice_change_mcq": {
+      "file": "content/english/english_admission_2nd_voice_change_mcq.json",
+      "count": 291
+    },
+    "english_admission_2nd_pronoun_concept": {
+      "file": "content/english/english_admission_2nd_pronoun_concept.json",
+      "count": 39
+    },
+    "english_admission_2nd_pronoun_mcq": {
+      "file": "content/english/english_admission_2nd_pronoun_mcq.json",
+      "count": 244
+    },
+    "english_admission_2nd_subject_verb_agreement_concept": {
+      "file": "content/english/english_admission_2nd_subject_verb_agreement_concept.json",
+      "count": 49
+    },
+    "english_admission_2nd_subject_verb_agreement_mcq": {
+      "file": "content/english/english_admission_2nd_subject_verb_agreement_mcq.json",
+      "count": 323
+    },
+    "english_admission_2nd_parts_of_speech_concept": {
+      "file": "content/english/english_admission_2nd_parts_of_speech_concept.json",
+      "count": 101
+    },
+    "english_admission_2nd_parts_of_speech_mcq": {
+      "file": "content/english/english_admission_2nd_parts_of_speech_mcq.json",
+      "count": 717
     }
   }
 }

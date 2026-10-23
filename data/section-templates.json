@@ -28,6 +28,6 @@
     "english_grammar_topic": [
       "notes", "rules", "examples", "practice", "mcq", "board", "mistakes", "revision", "progress"
     ],
-    "english_admission_topic": ["notes", "concept", "mcq", "progress"]
+    "english_admission_topic": ["concept", "mcq", "progress"]
   }
 }

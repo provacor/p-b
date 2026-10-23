@@ -1,10 +1,10 @@
 // More: appearance, data, syllabus source status, about.
 
-import { icon } from '../icons.js?v=202610231307';
-import { esc, brandMark } from '../components.js?v=202610231307';
-import { themePref } from '../theme.js?v=202610231307';
-import { a11y } from '../a11y.js?v=202610231307';
-import { getProfile } from '../profile.js?v=202610231307';
+import { icon } from '../icons.js?v=202610231844';
+import { esc, brandMark } from '../components.js?v=202610231844';
+import { themePref } from '../theme.js?v=202610231844';
+import { a11y } from '../a11y.js?v=202610231844';
+import { getProfile } from '../profile.js?v=202610231844';
 
 // The Android app (built by .github/workflows/android.yml) is always at this address.
 const APK_URL = 'https://github.com/provacor/p-b/releases/latest/download/pb.apk';
