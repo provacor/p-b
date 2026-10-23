@@ -27,7 +27,7 @@ for (const [name, list] of Object.entries(templates)) {
   t.forEach((x) => types[x] || err(`template "${name}" uses unknown section type "${x}"`));
   if (new Set(t).size !== t.length) err(`template "${name}" repeats a section type`);
   for (const core of ['notes', 'mcq']) if (!t.includes(core)) err(`template "${name}" is missing core section "${core}"`);
-  if (name !== 'english_grammar_topic') {
+  if (!name.startsWith('english_')) {
     for (const core of ['cq', 'formula', 'concept', 'simulation', 'mistakes', 'revision', 'progress']) {
       if (!t.includes(core)) err(`template "${name}" is missing core section "${core}"`);
     }
