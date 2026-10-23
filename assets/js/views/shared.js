@@ -1,8 +1,8 @@
 // Helpers shared by several views: where "Continue" should go, real stats.
 
-import { recentVisits } from '../activity.js?v=202610230738';
-import { progressOf } from '../progress.js?v=202610230738';
-import { chapterEyebrow } from '../components.js?v=202610230738';
+import { recentVisits } from '../activity.js?v=202610230811';
+import { progressOf } from '../progress.js?v=202610230811';
+import { chapterEyebrow } from '../components.js?v=202610230811';
 
 // Most recent chapter (and section) the user actually opened that still exists.
 export function lastVisit(model, filter = () => true) {
