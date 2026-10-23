@@ -3,9 +3,9 @@
 // more time — leaves the last days for revision, and writes the tasks into Mission.
 // Missed days are detected and the rest of the plan is rebuilt from today.
 
-import { dayKey, todayKey, setPlanTasks, allPlanTasks } from './mission.js?v=202610231245';
-import { progressOf } from './progress.js?v=202610231245';
-import { mistakeWeight } from './mistakes.js?v=202610231245';
+import { dayKey, todayKey, setPlanTasks, allPlanTasks } from './mission.js?v=202610231252';
+import { progressOf } from './progress.js?v=202610231252';
+import { mistakeWeight } from './mistakes.js?v=202610231252';
 
 const KEY = 'hscos:plan:v1';
 const read = () => { try { return JSON.parse(localStorage.getItem(KEY)); } catch { return null; } };
@@ -13,7 +13,7 @@ let settings = read();
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(settings)); } catch { /* keep in memory */ } };
 
 export const planSettings = () => settings;
-export const SUBJECT_ORDER = ['physics', 'chemistry', 'higher_math', 'biology', 'english'];
+export const SUBJECT_ORDER = ['physics', 'chemistry', 'higher_math', 'biology', 'english', 'english_admission'];
 
 const bn = (s) => String(s).replace(/\d/g, (d) => '০১২৩৪৫৬৭৮৯'[d]);
 export const fmtMin = (m) => {
@@ -26,7 +26,7 @@ const atNoon = (d) => { const x = new Date(d); x.setHours(12, 0, 0, 0); return x
 export const daysUntil = (iso) => Math.round((atNoon(iso) - atNoon(new Date())) / 864e5);
 
 // minutes a chapter needs from scratch (English grammar topics are shorter)
-const baseMinutes = (ch) => (ch.subject.id === 'english' ? 150 : 360);
+const baseMinutes = (ch) => (ch.subject.id.startsWith('english') ? 150 : 360);
 
 // Minutes already studied per chapter through completed planner tasks.
 function doneMinutes() {

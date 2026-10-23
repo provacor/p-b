@@ -1,8 +1,8 @@
 // Reusable UI building blocks. Each returns an HTML string; views compose them.
 
-import { icon } from './icons.js?v=202610231245';
-import { progressOf } from './progress.js?v=202610231245';
-import { contentCount, chapterCount } from './model.js?v=202610231245';
+import { icon } from './icons.js?v=202610231252';
+import { progressOf } from './progress.js?v=202610231252';
+import { contentCount, chapterCount } from './model.js?v=202610231252';
 
 export const esc = (s) =>
   String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -89,7 +89,7 @@ export function subjectCard(s, { cont, i = 0 }) {
   const pct = progressOf(s);
   const total = chapterCount(s);
   const doneChapters = s.papers.flatMap((p) => p.chapters).filter((c) => progressOf(c) === 100).length;
-  const unit = s.id === 'english' ? 'topics' : 'chapters';
+  const unit = s.id.startsWith('english') ? 'topics' : 'chapters';
   return `<article class="subject-card acc-${esc(s.accent)} pat-${esc(s.id)} rise" style="--i:${i}">
       <a class="cover-link" href="#/s/${esc(s.id)}" aria-label="Open ${esc(s.name)}"></a>
       <div class="sc-top">

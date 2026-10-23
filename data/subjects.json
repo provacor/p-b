@@ -12,11 +12,21 @@
       "image": "assets/img/subject-english.jpg"
     },
     {
+      "id": "english_admission",
+      "name": "English Part 2",
+      "icon": "🎯",
+      "accent": "blue",
+      "order": 2,
+      "sectionTemplate": "english_admission_topic",
+      "note": "Admission (MBBS) English topics in the owner's priority order — MCQ-focused, extra to the HSC English 2nd Paper.",
+      "image": "assets/img/subject-english.jpg"
+    },
+    {
       "id": "higher_math",
       "name": "Higher Mathematics",
       "icon": "📐",
       "accent": "violet",
-      "order": 2,
+      "order": 3,
       "sectionTemplate": "higher_math",
       "image": "assets/img/subject-higher-math.jpg"
     },
@@ -25,7 +35,7 @@
       "name": "Physics",
       "icon": "⚡",
       "accent": "amber",
-      "order": 3,
+      "order": 4,
       "sectionTemplate": "physics",
       "image": "assets/img/subject-physics.jpg"
     },
@@ -34,7 +44,7 @@
       "name": "Chemistry",
       "icon": "🧪",
       "accent": "teal",
-      "order": 4,
+      "order": 5,
       "sectionTemplate": "chemistry",
       "image": "assets/img/subject-chemistry.jpg"
     },
@@ -43,7 +53,7 @@
       "name": "Biology",
       "icon": "🧬",
       "accent": "green",
-      "order": 5,
+      "order": 6,
       "sectionTemplate": "biology",
       "image": "assets/img/subject-biology.jpg"
     }

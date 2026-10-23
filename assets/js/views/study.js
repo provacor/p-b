@@ -1,17 +1,17 @@
 // Subject overview, chapter workspace and the curriculum map (Study tab).
 
-import { icon } from '../icons.js?v=202610231245';
-import { esc, plural, ring, bar, chapterCard, sectionCard, subjectGlyph, chapterEyebrow, chapterNo, pad2, emptyState } from '../components.js?v=202610231245';
-import { progressOf } from '../progress.js?v=202610231245';
-import { contentCount, chapterCount } from '../model.js?v=202610231245';
-import { lastVisit } from './shared.js?v=202610231245';
-import { videosBlock } from './videos.js?v=202610231245';
-import { alarmsBlock } from './alarms.js?v=202610231245';
-import { hasFullMapSync } from './mindmap.js?v=202610231245';
-import { conceptsOfChapter } from '../concepts.js?v=202610231245';
-import { tocCard } from './topic.js?v=202610231245';
-import { gamesBanner } from './games.js?v=202610231245';
-import { offlineOf } from '../learn.js?v=202610231245';
+import { icon } from '../icons.js?v=202610231252';
+import { esc, plural, ring, bar, chapterCard, sectionCard, subjectGlyph, chapterEyebrow, chapterNo, pad2, emptyState } from '../components.js?v=202610231252';
+import { progressOf } from '../progress.js?v=202610231252';
+import { contentCount, chapterCount } from '../model.js?v=202610231252';
+import { lastVisit } from './shared.js?v=202610231252';
+import { videosBlock } from './videos.js?v=202610231252';
+import { alarmsBlock } from './alarms.js?v=202610231252';
+import { hasFullMapSync } from './mindmap.js?v=202610231252';
+import { conceptsOfChapter } from '../concepts.js?v=202610231252';
+import { tocCard } from './topic.js?v=202610231252';
+import { gamesBanner } from './games.js?v=202610231252';
+import { offlineOf } from '../learn.js?v=202610231252';
 
 const subjectCrumb = (s) => [s.name, `#/s/${s.id}`];
 
@@ -42,14 +42,14 @@ export function subjectView(model, subject, openPaperId = null) {
   if (!subject || subject.level !== 'subject') return null;
   const pct = progressOf(subject);
   const total = chapterCount(subject);
-  const unit = subject.id === 'english' ? 'Topic' : 'Chapter';
+  const unit = subject.id.startsWith('english') ? 'Topic' : 'Chapter';
   const recent = lastVisit(model, (c) => c.subject === subject);
   const openId = openPaperId ?? recent?.chapter.paper.id ?? subject.papers[0]?.id;
 
   const hero = `<section class="page-hero acc-${esc(subject.accent)} pat-${esc(subject.id)} rise">
       <span class="s-icon lg">${subjectGlyph(subject)}</span>
       <div class="ph-text">
-        <p class="eyebrow">HSC ${esc(subject.name)}</p>
+        <p class="eyebrow">${subject.id === 'english_admission' ? 'MBBS Admission' : 'HSC'} ${esc(subject.name)}</p>
         <h1>${esc(subject.name)}</h1>
         <p class="ph-meta">${plural(total, unit)} · ${plural(subject.papers.length, 'Paper')} · ${contentCount(subject)} content</p>
       </div>
@@ -191,7 +191,7 @@ export function studyMap(model) {
         })
         .join('');
       const head = `<span class="fold-title"><span class="s-icon sm">${subjectGlyph(s)}</span><span><span class="ft-name">${esc(s.name)}</span>
-          <span class="ft-meta">${plural(s.papers.length, 'paper')} · ${plural(chapterCount(s), s.id === 'english' ? 'topic' : 'chapter')} · ${progressOf(s)}%</span></span></span>`;
+          <span class="ft-meta">${plural(s.papers.length, 'paper')} · ${plural(chapterCount(s), s.id.startsWith('english') ? 'topic' : 'chapter')} · ${progressOf(s)}%</span></span></span>`;
       return `<div class="acc-${esc(s.accent)} rise" style="--i:${si}">${fold(`map-${s.id}`, false, head, `<ul class="tree">${papers}</ul>`)}</div>`;
     })
     .join('');

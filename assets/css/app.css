@@ -199,7 +199,7 @@ code { font-size: .85em; background: var(--surface-3); padding: 1px 6px; border-
 .s-icon.lg .ic { width: 28px; height: 28px; }
 
 /* subtle subject patterns (pure CSS, no images) */
-.pat-physics::after, .pat-chemistry::after, .pat-higher_math::after, .pat-biology::after, .pat-english::after {
+.pat-physics::after, .pat-chemistry::after, .pat-higher_math::after, .pat-biology::after, .pat-english::after, .pat-english_admission::after {
   content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .5; border-radius: inherit;
   -webkit-mask-image: linear-gradient(120deg, transparent 30%, #000 100%); mask-image: linear-gradient(120deg, transparent 30%, #000 100%);
 }
@@ -207,7 +207,7 @@ code { font-size: .85em; background: var(--surface-3); padding: 1px 6px; border-
 .pat-chemistry::after { background: radial-gradient(circle, color-mix(in srgb, var(--acc) 30%, transparent) 1.3px, transparent 1.8px) 0 0 / 16px 14px, radial-gradient(circle, color-mix(in srgb, var(--acc) 30%, transparent) 1.3px, transparent 1.8px) 8px 7px / 16px 14px; }
 .pat-higher_math::after { background: linear-gradient(color-mix(in srgb, var(--acc) 14%, transparent) 1px, transparent 1px) 0 0 / 18px 18px, linear-gradient(90deg, color-mix(in srgb, var(--acc) 14%, transparent) 1px, transparent 1px) 0 0 / 18px 18px; }
 .pat-biology::after { background: radial-gradient(circle at 50% 50%, transparent 9px, color-mix(in srgb, var(--acc) 16%, transparent) 10px, transparent 11px) 0 0 / 28px 28px; }
-.pat-english::after { background: repeating-linear-gradient(0deg, color-mix(in srgb, var(--acc) 15%, transparent) 0 1px, transparent 1px 12px); }
+.pat-english::after, .pat-english_admission::after { background: repeating-linear-gradient(0deg, color-mix(in srgb, var(--acc) 15%, transparent) 0 1px, transparent 1px 12px); }
 
 /* ---------- progress ---------- */
 .ring { position: relative; display: inline-grid; place-items: center; width: var(--size); height: var(--size); flex: none; }
