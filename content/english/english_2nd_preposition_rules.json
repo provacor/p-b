@@ -1,6 +1,6 @@
 {
  "sectionId": "english_2nd_preposition_rules",
- "updated": "2026-10-14",
+ "updated": "2026-10-23",
  "items": [
   {
    "id": "english_2nd_preposition_rules_0001",
@@ -120,6 +120,230 @@
    "title": "Fixed Expression (Idiom) ও to-Infinitive",
    "body": "কিছু Preposition মুখস্থ বাক্যাংশে (fixed expression) বসে — এগুলোর নিয়ম নেই, বারবার পড়ে মনে রাখতে হয়: in vain, in need, in hurry, in time, at times, in peace, in this way, in this regard, so on, such as, one of, to some extent। আর 'to' যদি Infinitive marker হয় (I would like to let you know) সেটি Preposition নয়।\n\nকাঠামো / ফর্মুলা:\nin: in vain, in need, in peace, in a hurry, in this way, in good shape, in difficulty, in memory of\nat: at times, at a time\non: on earth, so on\nas/of: such as, one of, to some extent\n\nধরনগুলো:\n• in\n• to\n• of\n• on\n• with\n• about\n• against\n• around\n• as\n• at\n• away\n• for\n• from",
    "topic": "পর্ব ৪ — Phrasal, Special ও Fixed Expression"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0018",
+   "kind": null,
+   "title": "Preposition কী",
+   "body": "যে word অথবা group of words সাধারণত noun (phrase) অথবা pronoun এর পূর্বে বসে তার সাথে বাক্যের অন্য word এর সম্পর্ক/সংযোগ স্থাপন করে এবং স্থান, অবস্থান, সময় অথবা পদ্ধতি নির্দেশ করে তাকে preposition (প্রেপজিশন, পদান্বয়ী অব্যয় বা সম্বন্ধসূচক অব্যয়) বলে। যেমনঃ in, of, off, to, by, from, after, before, since, considering, following, regarding, into, out of, outside, inside, as to, next to, ahead of, apart from, previous to, thanks to, instead of, on behalf of, in front of ইত্যাদি।\n\nnoun (phrase)/pronoun ছাড়া শুধু verb এর সাথে preposition ব্যবহৃত হলে তা adverb হবে। He is in the room. (preposition) কিন্তু Is he in? (সে কি ভিতরে আছে) Come in. (ভিতরে এসো) — adverb\n\nব্যতিক্রম: preposition সাধারণত তার object এর আগে বসে কিন্তু interrogative pronoun, relative pronoun (উহ্য থাকলেও) তার object হলে এবং জোরপ্রদানের ক্ষেত্রে object এর পরে preposition বসে। What is he like? What are you talking about/looking at? That is the girl (whom) I was speaking of?",
+   "topic": "পর্ব ৫ — Preposition-এর সংজ্ঞা, প্রকারভেদ ও অবস্থান"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0019",
+   "kind": null,
+   "title": "Kinds of Prepositions (প্রকারভেদ)",
+   "body": "Simple prepositions: at, by, for, from, of, off, in, on, out, through, to, till, up, with\n\nCompound prepositions: preposition (as prefix, a = on, be = by) + noun/adjective/adverb — about, above, across, along, amidst, among, amongst, around, before, behind, below, beneath, beside, between, beyond, inside, outside, underneath, within, without\n\nPhrase/Phrasal prepositions: according to, along with (কারো সাথে), because of, owing to, instead of, [preposition + noun + preposition = in front of, in lieu of, by dint of, in spite of, with regard to, in addition to, with a view to etc.] He acted according to my advice. Instead of talking, prove your worth by doing something. He stood in front of me.\n\nParticiple/participial prepositions: barring (apart from), considering (= taking into consideration), concerning (= about), following (= after), pending, regarding, respecting, touching (= with regard to), given (= considering), gone (= past) etc.",
+   "topic": "পর্ব ৫ — Preposition-এর সংজ্ঞা, প্রকারভেদ ও অবস্থান"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0020",
+   "kind": null,
+   "title": "বিভক্তি অনুযায়ী Preposition (Use of some Prepositions)",
+   "body": "কর্তায় প্রথমা — No preposition: Alamgir is a student.\nকর্মে দ্বিতীয়া (কে, রে, প্রতি, দিকে) — To: We're going to town (শহরের দিকে) on the bus. Send the message to Manik. Allah is kind/good to us.\nকরণে তৃতীয়া (দ্বারা, দিয়ে, কর্তৃক) — By (doer), with (instrument): I finally killed the fly with a rolled up newspaper. The bear was killed by a man with a gun.\nনিমিত্তে চতুর্থী (জন্য) — For: I waited for her. I am sorry for getting angry with you yesterday.\nঅপাদানে পঞ্চমী (হতে, থেকে/চেয়ে) — from/than: He took a handkerchief from his pocket. Rahim has not yet come back from the bazar.\nসম্বন্ধে ষষ্ঠী (র, এর) — Of: None of this money is mine.\nঅধিকরণে সপ্তমী (এ, য়, তে) — in, at: I live at Sagorpara in Rajshahi. I do not drive in the fog/in the rain.\n\nমনে রাখা দরকার, সামান্য কিছু ব্যতিক্রম থাকলেও এটিই হচ্ছে preposition ব্যবহার করার প্রাথমিক নিয়ম।",
+   "topic": "পর্ব ২ — সম্পর্ক ও অর্থ-ভিত্তিক Preposition (by, with, of, from, for, about…)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0021",
+   "kind": null,
+   "title": "Superlative / Comparative এর পরে Of",
+   "body": "Superlative এবং comparative এর ক্ষেত্রে plural noun এর পূর্বে preposition 'Of' ব্যবহৃত হয়। Of all the students, Sumon is the best.",
+   "topic": "পর্ব ২ — সম্পর্ক ও অর্থ-ভিত্তিক Preposition (by, with, of, from, for, about…)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0022",
+   "kind": null,
+   "title": "দিক ও অবস্থানের Preposition (to, from, through, into, out of, in, outside, on, over, above, under, below)",
+   "body": "To = কোনো দিকে গতিশীল অবস্থা\nFrom = কোন স্থান হতে/থেকে গতিশীল অবস্থা (To এর বিপরীত)\nThrough = ভিতর দিয়ে অতিক্রম করা\nInto = বাইরে থেকে ভিতরের দিকে গতিশীল অবস্থা\nOut of = ভিতর থেকে বাইরের দিকে গতিশীল অবস্থা\nIn = ভিতরে স্থিতাবস্থা ; Outside = বাইরে স্থিতাবস্থা\nOn = তল স্পর্শ করে উপরে অবস্থান\nOver = তল স্পর্শ না করে উপরে গতিশীল অবস্থা\nAbove = তল স্পর্শ না করে উপরে স্থির অবস্থা\nUnder = তল স্পর্শ না করে অবিচ্ছিন্নভাবে নিচে অবস্থান\nBelow = তল স্পর্শ না করে বিচ্ছিন্নভাবে নিচে অবস্থান",
+   "topic": "পর্ব ১ — সময়, স্থান ও অবস্থান (Time • Place • Position)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0023",
+   "kind": null,
+   "title": "Difference between At, In & On (স্থান ও সময়)",
+   "body": "(i) ছোট স্থানের পূর্বে at বসে: at home/at school/at university/at reception, at the bus stop/at the station/at a concert, at Mirpur/at Chalkgowri (small village)\n(i) বড় স্থানের পূর্বে in বসে: in Rajshahi (city)/in Dhaka/in New York/in Naogaon (district)/in Asia (continent)/in Europe/in a country/in a forest/in a desert\n\n(ii) at + clock time/meal time: at 6 o'clock/at six/at 6 p.m./at 4 a.m./at lunch/breakfast (-time). N.B. at dawn/at noon/at the time/at night/at Christmas/at the moment/at the weekend\n(ii) in + part of day, in + month/year/season: in the morning/afternoon/evening, in Spring/in April/in 1971. N.B. in the next few days/in a moment, in the summer holidays (in the night)\n\non + day/date (on Monday, on that day, on 1st May, on 15 August), on + day + part of day (on Friday morning/evening), on + part of day + of + date (on the evening of the 1st May)\n\nবড় স্থানের পূর্বে in বসে। আবার, superlative degree এর পরে স্থানের নামের আগে in বসে। বিশ্ববিদ্যালয়, বিমানবন্দর, বাসস্টপ, রেলওয়ে স্টেশন ইত্যাদি দ্বারা ছোট স্থান নির্দেশ করা হয় বিধায় এদের পূর্বে at বসে।",
+   "topic": "পর্ব ১ — সময়, স্থান ও অবস্থান (Time • Place • Position)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0024",
+   "kind": null,
+   "title": "At — নির্দিষ্ট সময়/পৃষ্ঠা/তাপমাত্রা/গতি/হার/মূল্য",
+   "body": "নির্দিষ্ট সময়/পৃষ্ঠা/তাপমাত্রা/গতি/হার/মূল্য বা দাম নির্দেশ করতে at ব্যবহৃত হয়। Water boils at 100 degree Celsius. The train is due at 3:45. The Bullet Train travels at 200 miles an hour. The book has been priced at four hundred taka.\n\n(কোনো কিছু) পৃষ্ঠায় থাকা বুঝালে on হবে। See the diagram on page 13. The article is on page 15. পৃষ্ঠাটিকে নির্দিষ্ট করলে at হবে। Open at page 14. Open your books at page 14. Let's begin at page 9.",
+   "topic": "পর্ব ১ — সময়, স্থান ও অবস্থান (Time • Place • Position)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0025",
+   "kind": null,
+   "title": "Over — আচ্ছাদিত করা অর্থে",
+   "body": "অপেক্ষাকৃত উপরের কোনো কিছু দ্বারা নিচের কিছুকে স্পর্শ না করে cover বা আচ্ছাদিত করা অর্থে over ব্যবহৃত হয়। She held the umbrella over both of us. They held a large umbrella over her.",
+   "topic": "পর্ব ১ — সময়, স্থান ও অবস্থান (Time • Place • Position)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0026",
+   "kind": null,
+   "title": "In — পরিহিত, রং, কালি, ভাষা",
+   "body": "In: কোনো কিছুর সীমানার মধ্যে, পরিহিত (পোশাকের নাম/রং), বিষয়/ভাষায় বুঝাতে in ব্যবহৃত হয়। The young man was dressed in a suit. The girl in blue is my would be wife. Mr. Mamun delivered a lecture in English.\n\nরং, কালি, পোশাকের পূর্বে in বসে। কিন্তু paint (vt) এর পরে কোনো রংয়ের নাম থাকলে কোনো preposition হবে না।",
+   "topic": "পর্ব ২ — সম্পর্ক ও অর্থ-ভিত্তিক Preposition (by, with, of, from, for, about…)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0027",
+   "kind": null,
+   "title": "By — পাশে, অনুসারে, যোগাযোগ ও যাতায়াত মাধ্যম",
+   "body": "Rule-1: ব্যক্তি বা বস্তুর পাশে বা কাছে বা নিকটে বুঝাতে by বসে। He sat by me. (সে আমার পাশে বসলো) Our house is by the river. (আমাদের বাড়িটি নদীর পাশে)\n\nRule-2: অনুসারে বোঝাতে by ব্যবহৃত হয়। তাই ঘড়ি অনুসারে বা ঘড়িতে বোঝাতে by watch ব্যবহৃত হয়। What is the time by your watch? তোমার ঘড়িতে (ঘড়ি অনুসারে) কয়টা বাজে?\n\nRule-3: যোগাযোগ মাধ্যম বুঝাতে telephone, phone, fax, email, letter, post ইত্যাদির পূর্বে by বসে। We do business/take order by phone (over the phone/on the phone).\n\nRule-4: যাতায়াত মাধ্যম বুঝাতে বা গমনার্থে by বসে। We can go there by land (স্থলে পথে), by air (আকাশ পথে), by water (নৌপথে), by bike/taxi/car/bus/train/plane/boat/ferry/launch/steamer\nN.B. এক্ষেত্রে যানবাহনের নামের পূর্বে determiner থাকলে অথবা এদের plural হলে এদের পূর্বে on বসে। তবে taxi/car এর পূর্বে determiner থাকলে এদের পূর্বে in বসে। অর্থাৎ by train, on the (7.30) train, on trains; by bike, on my/his bike; by bus, on the/a bus/buses; by boat/ferry কিন্তু on (the/a) boat/ferry\nব্যতিক্রম: by car/taxi কিন্তু in (my/a/the) car/taxi, [on foot (পায়ে হেঁটে), on horseback (ঘোড়ায় চড়ে)]",
+   "topic": "পর্ব ২ — সম্পর্ক ও অর্থ-ভিত্তিক Preposition (by, with, of, from, for, about…)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0028",
+   "kind": null,
+   "title": "By — ধরা বোঝাতে ও পাশে অর্থে",
+   "body": "আমার যখন কোনো কিছুর বা অংশ ধরি তা বোঝাতে by ব্যবহৃত হয়। catch/take (sb) by the (hand/leg/ear) — I caught him by the ear.\n\nSet up – স্থাপন করা; (set up a camp – তাঁবু স্থাপন করা); নিকটে বা পাশে অর্থে by (beside) ব্যবহৃত হয়। We hid our boat in the bushes and set up a camp by the river.",
+   "topic": "পর্ব ২ — সম্পর্ক ও অর্থ-ভিত্তিক Preposition (by, with, of, from, for, about…)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0029",
+   "kind": null,
+   "title": "Over — চারটি নিয়ম",
+   "body": "Rule-1: স্পর্শ না করে উপরে গতিশীলতা অর্থে over বসে। The fan is moving over his head. তবে, ঢেকে দেয়া (covering) অর্থে over বসে। He put a rug over me. সে আমাকে কম্বল দিয়ে ঢেকে দিল।\n\nRule-2: এক প্রান্ত থেকে অপর প্রান্তে তথ্য প্রেরণমূলক মাধ্যমের পূর্বে over বসে। Raza requested Romana over the phone (by phone) to attend the meeting.\n\nRule-3: কোনো কিছুর উপর দিয়ে এক পাশ থেকে অপর পাশ পর্যন্ত বা আড়াআড়িভাবে বুঝাতে over বসে। A bridge over the river. আবার, কোনো স্থানের সর্বত্র অর্থে over বসে। (all) over the country/world\n\nRule-4: উপর দিয়ে অতিক্রম করা বুঝাতে over বসে। The plane flew over Dhaka.",
+   "topic": "পর্ব ১ — সময়, স্থান ও অবস্থান (Time • Place • Position)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0030",
+   "kind": null,
+   "title": "On — সাতটি নিয়ম ও প্রচলিত ব্যবহার",
+   "body": "Rule 1: স্পর্শ অবস্থায় উপরে বা সংস্পর্শ বুঝাতে on বসে। Put the book on the table. (টেবিলের উপর বইটা রাখ)\nRule 2: নির্দিষ্ট দিন বা বারের নামের পূর্বে on বসে। I went to meet him on Monday last.\nRule 3: নির্দিষ্ট তারিখে বুঝাতে on বসে। I was born on 2 March in 1989.\nRule 4: সদস্য বুঝাতে on বসে। There are no women on the committee.\nRule 5: কোনো কিছু সমন্ধে অর্থে on বসে। This is a book on pregnancy.\nRule 6: মাধ্যম বা যন্ত্র অর্থে on বসে। on TV/computer, on the radio/the phone\nRule 7: ভ্রমণের কোনো উপায় বুঝাতে on বসে। on trains/the train, on foot, on horseback\n\non এর কিছু প্রচলিত ব্যবহারঃ on the map/page/screen, on an/the island (দ্বীপে), on the beach/coast, on campus (ক্যাম্পাসে), drive on the left/right, on the platform, on (-) floor, on the Internet\n\nশাড়ি পরিধেয় অবস্থায় শরীর স্পর্শ করে শরীরের উপর থাকে তাই on হবে (The sari on her)। on (determiner) leg = পায়ে (The dog bit her on the leg)।",
+   "topic": "পর্ব ১ — সময়, স্থান ও অবস্থান (Time • Place • Position)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0031",
+   "kind": null,
+   "title": "Under — চারটি নিয়ম",
+   "body": "Rule 1: কোনো কিছুর নিচে, নিম্নস্থানে অর্থে under ব্যবহৃত হয়। He hid under the bed. (সে বিছানার নিচে লুকাল) He put the thermometer under my tongue. They live under the same roof. (একই ছাদের নিচে)\nRule 2: কোনো কিছু অনুসারে (according to sth) অর্থে under ব্যবহৃত হয়। The accused was arrested under the warrant of the court. (= আদালতের গ্রেপ্তারি পরোয়ানা অনুসারে)\nRule 3: কোনো ব্যক্তি/প্রতিষ্ঠান/বাহিনীর নিয়ন্ত্রণে (controlled/governed by) অর্থে under ব্যবহৃত হয়। The country is under martial law/military rule. The restaurant is under new management.\nRule 4: প্রক্রিয়াধীন অর্থে under ব্যবহৃত হয়। under trial (বিচারাধীন), under consideration (বিবেচনাধীন)",
+   "topic": "পর্ব ১ — সময়, স্থান ও অবস্থান (Time • Place • Position)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0032",
+   "kind": null,
+   "title": "Below / Into / Onto / Out of",
+   "body": "Below: অপেক্ষাকৃত নিচের অবস্থানে (lower position) অথবা নিচে (under) বুঝাতে below ব্যবহৃত হয়। She has three people working below her. He dived below the surface of the water. Please do not write below this line. The author's name was printed below the title.\n\nInto: কোনো দিকে গতিশীলতা (সমতলে), বাইরে থেকে ভেতরে প্রবেশ অথবা অবস্থার পরিবর্তন অর্থে into ব্যবহৃত হয়। (Water changes into vapour. He broke the jug into a hundred pieces.)\n\nOnto: উপর থেকে নিচে বা নিচে থেকে উপর দিকে গতিশীলতা বুঝালে onto ব্যবহৃত হয়। A tree fell onto a car.\n\nOut of: কোনো কিছুর বাইরে, মধ্য হতে বাইরে (গতিশীলতা), মধ্য হতে, কারণে বোঝাতে out of ব্যবহৃত হয়। Don't lean out of the window. (জানালার বাইরে হেলান দিও না); I scored 7 out of 10. (আমি দশে সাত পেয়েছি)\nN.B. কোনো ভেতর হতে বাইরে অথবা বাইরে থেকে ভেতরে গতিশীলতা বোঝাতে out of এর বিপরীত into হয়। She got out of the car and went into a shop.",
+   "topic": "পর্ব ১ — সময়, স্থান ও অবস্থান (Time • Place • Position)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0033",
+   "kind": null,
+   "title": "Along / Across / Through",
+   "body": "Along: কোনো স্থানের দুরত্ব বরাবর পাশ দিয়ে বা ধার দিয়ে (কোনো কিছুর একপাশে) বোঝাতে along ব্যবহৃত হয়। I walked slowly along the road. I looked along the shelves for the book I needed.\n\nAcross:\n১. কোনো কিছুর এক পাশ থেকে অন্য পাশে যাওয়া, যেমন রাস্তা/নদী/মাঠ পার হওয়া বুঝাতে across ব্যবহৃত হয়। He swam across the river. (সে সাঁতার দিয়ে নদী পার হলো) He walked across the field/road.\n১.১ এক পাশ থেকে অন্য পাশে বুঝাতে: They are building a new bridge across the river. I drew (দ্রু) a line across the page. A grin spread across her face.\n২. ওপারে: The bank is just across the road/street. (ব্যাংকটি রাস্তার ঠিক ওপারে)\n৩. কোনো স্থানের সর্বত্র জুড়ে বুঝাতে: English is spoken across the world. (সারা বিশ্বে ইংরেজি বলা হয়)\n\nThrough: কোনো কিছুর ভেতর দিয়ে বা এক প্রান্ত থেকে অন্য প্রান্ত বোঝাতে through ব্যবহৃত হয়।",
+   "topic": "পর্ব ১ — সময়, স্থান ও অবস্থান (Time • Place • Position)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0034",
+   "kind": null,
+   "title": "Towards / Up / Down / Inside / Off",
+   "body": "Towards: দিকে/অভিমুখে/পানে বুঝাতে towards ব্যবহৃত হয়। She stood up and walked towards him.\nUp: কোনো কিছুর উপরের দিকে বুঝাতে up বসে। He climbed up the stairs. He ran up the ladder.\nDown: উপর থেকে নিচের দিকে বুঝাতে down ব্যবহৃত হয়। Big tears ran down her cheeks.\nInside: কোনো কিছুর ভিতরে/মধ্যে বুঝাতে inside ব্যবহৃত হয়। Go inside the house. (বাড়ির ভিতরে/মধ্যে যাও)\nOff: কোনো হতে/থেকে বুঝাতে off ব্যবহৃত হয়। He fell off his bike/the ladder. (সে বাইক/মই থেকে পড়ল)",
+   "topic": "পর্ব ১ — সময়, স্থান ও অবস্থান (Time • Place • Position)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0035",
+   "kind": null,
+   "title": "Opposite / Near / Beyond",
+   "body": "Opposite: অপর পাশে কিন্তু মুখোমুখি (facing) বুঝাতে opposite ব্যবহৃত হয়। (opposite (adj.) to ব্যবহৃত হয়) The bank is opposite the restaurant (= রাস্তার দুই পাশে কিন্তু মুখোমুখি). I sat opposite him during the meal (= টেবিলের দুই পাশে কিন্তু মুখোমুখি). They sat opposite each other.\n\nNear: নিকটে/কাছে (অল্প দুরত্ব) বুঝাতে near ব্যবহৃত হয়। I live near my office. (আমি আমার অফিসের কাছে থাকি)\n\nBeyond: কোনো সীমার বাইরে (outside a stated limit) অর্থে beyond ব্যবহৃত হয়। beyond one's means/capacity/reach - কারো সামর্থ্যের/নাগালের বাইরে [বিপরীত: within reach - নাগালের মধ্যে]",
+   "topic": "পর্ব ১ — সময়, স্থান ও অবস্থান (Time • Place • Position)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0036",
+   "kind": null,
+   "title": "Except, without, but",
+   "body": "ব্যতীত/ছাড়া (but), বাদে (apart from, not including) অর্থে except ব্যবহৃত হয়। e.g. They all came except Sadia. সাদিয়া বাদে/ছাড়া সবাই এসেছিল। We work every day except Friday.\nনা হলে/না করে (not having, not doing), ছাড়া/বিনা/অভাব/না থাকলে (lacking) অর্থে without ব্যবহৃত হয়। e.g. They had gone two days without food. I couldn't have done it without you.\nExcept- বাদ দিয়ে; without – না থাকলে, বিনা, ছাড়া। There can be no invention without an inventor. (উদ্ভাবক না থাকলে কোনো উদ্ভাবন হতে পারে না)",
+   "topic": "পর্ব ৪ — Phrasal, Special ও Fixed Expression"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0037",
+   "kind": null,
+   "title": "Since, For",
+   "body": "Period of time এর পূর্বে for বসে। period of time হচ্ছে সেই সময়কাল যাকে সময় গণনার একক (সেকেন্ড, মিনিট, ঘন্টা, সপ্তাহ, মাস, বছর ইত্যাদি) দ্বারা গণনা করা যায়। যেমন: এক মিনিট, দুই মিনিট, এক ঘন্টা, দুই ঘন্টা, এক দিন, এক মাস, এক সপ্তাহ, এক বছর, দুই বছর ইত্যাদি। ব্যতিক্রম: (for) a long time (অনেক/দীর্ঘ সময়/ক্ষণ/দিন)। Sumi has been working here for six months. (সুমি এখানে ছয় মাস ধরে কাজ করছে)\n\nPoint of time এর পূর্বে since বসে। point of time হচ্ছে সেই সময়কাল যাকে এক, দুই, তিন ইত্যাদি গণনার একক দ্বারা গণনা করা যায় না বরং কোনো মুহূর্ত বা সময়কে নিদেশ করে। যেমন: গত সোমবার, গত সপ্তাহ/মাস/বছর, তিনটা (3 o'clock), সাড়ে তিনটা (3.30 p.m. অথবা, half past three) ইত্যাদি। I have been waiting since half past three. (আমি সাড়ে তিনটা থেকে অপেক্ষা করছি) It has been raining (for one hour/ since morning). (সকাল থেকে/এক ঘন্টা ধরে বৃষ্টি হচ্ছে)\n\nঘন্টার পর ঘন্টা, দিনের পর দিন, বছরের পর বছর ইত্যাদি বুঝাতে for ব্যবহৃত হয়। I have read for hours. He has been living in Italy for ages.",
+   "topic": "পর্ব ১ — সময়, স্থান ও অবস্থান (Time • Place • Position)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0038",
+   "kind": null,
+   "title": "Beside, Besides",
+   "body": "Beside (near, next to, by) = পাশে; Besides (in addition to, apart from sb/sth) = ছাড়া, ব্যতীত\nHe sat beside/by me. (সে আমার পাশে বসল) He sat beside her all night. (সে সারারাত তার পাশে বসেছিল)\nDo you play any other sports besides cricket? (ক্রিকেট ছাড়া আর কোনো খেলা খেলো কি?)\nDid you talk to anyone else besides Sumon. (তুমি কি সুমন ছাড়া আর কারো সাথে কথা বলেছিলে?)",
+   "topic": "পর্ব ৪ — Phrasal, Special ও Fixed Expression"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0039",
+   "kind": null,
+   "title": "Beside / Besides — প্রয়োগ",
+   "body": "Beside (near, next to, by) = পাশে: We sat beside the teacher. The bank is beside the restaurant.\nBesides (in addition to, apart from) = ছাড়া, ব্যতীত, ছাড়াও: Besides many lands, he has a big business. Besides giving me books, he prepared notes for me. To lead a well balanced life, you need to have other interests besides studying.",
+   "topic": "পর্ব ৪ — Phrasal, Special ও Fixed Expression"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0040",
+   "kind": null,
+   "title": "Against — দুটি নিয়ম",
+   "body": "Rule 1: বিরুদ্ধে, প্রতিকূলে অর্থে against ব্যবহৃত হয়। I've decided to take legal action against him. She was forced to marry against her will. We were rowing against the current. (স্রোতের প্রতিকূলে)\nRule 2: কোনো কিছুর সাথে বা স্পর্শ করে বা আঁকড়ে ধরা অর্থে against ব্যবহৃত হয়। Push the bed against the wall. Stand the paintings against the wall.",
+   "topic": "পর্ব ২ — সম্পর্ক ও অর্থ-ভিত্তিক Preposition (by, with, of, from, for, about…)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0041",
+   "kind": null,
+   "title": "About / With / For",
+   "body": "About: সম্পর্কে, সমন্ধে অর্থে about (=as to) ব্যবহৃত হয়। Tell me all about it. এ সম্পর্কে আমাকে সবকিছু বলো। আবার, প্রায় ঘটে অর্থে infinitive এর পূর্বে about ব্যবহৃত হয়। He is about to die. (তার মরা মরা অবস্থা)\n\nWith: সাথে, কাছে, সত্ত্বেও, কোনো কিছু দ্বারা/দিয়ে ইত্যাদি অর্থে with ব্যবহৃত হয়। She lives with her parents. সে তার পিতামাতার সাথে থাকে। Cut it with a knife. এটাকে ছুরি দিয়ে কাটো। Leave it with me. এটা আমার কাছে রাখ। He kept the book with me. সে আমার কাছে বইটি রেখেছে। I learn/read English with him. আমি তার কাছে ইংরেজি শিখি/পড়ি। He is not popular with the young voter. সে তরুণ ভোটারদের কাছে জনপ্রিয় নয়। With all his riches, he is unhappy. তার সব সম্পদ থাকা সত্ত্বেও সে অসুখী।\n\nFor: জন্য, পক্ষে/কারো হয়ে, বিনিময়ে, পরিবর্তে, বিবেচনায়/তুলনায়, উপলক্ষে, সত্ত্বেও, ইত্যাদি অর্থে for ব্যবহৃত হয়। It's a book for children. (বইটি বাচ্চাদের জন্য) He is very mature for his age. (তার বয়সের তুলনায় সে খুব পরিপক্ব।) Are you for or against the proposal? (তুমি প্রস্তাবটির পক্ষে না বিপক্ষে?) For all his faults, I still like him. তার সব দোষ সত্ত্বেও আমি তাকে পছন্দ করি। What did you buy him for Christmas? (উপলক্ষে)\nবিনিময় অর্থে for ব্যবহৃত হয়। Give me change for Tk 500. আমাকে ৫০০ টাকার ভাংতি দিন।",
+   "topic": "পর্ব ২ — সম্পর্ক ও অর্থ-ভিত্তিক Preposition (by, with, of, from, for, about…)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0042",
+   "kind": null,
+   "title": "Like / Until-till / Before / During",
+   "body": "Like: মতো, অনুরূপ অর্থে like ব্যবহৃত হয়। What is he like? (সে দেখতে কেমন?) He looks like his father. (সে দেখতে তার বাবার মত) আবার, কিছু করতে চাওয়া বা ইচ্ছে করা বুঝাতে feel like (sth/doing sth) ব্যবহৃত হয়। I feel like (going for) a swim. I feel like slapping your face. (তোমার গালে থাপড় মারতে ইচ্ছে করছে।)\n\nUntil/till: কোনো সময়কাল পর্যন্ত/অবধি বুঝাতে until/till ব্যবহৃত হয়। এক্ষেত্রে until/till এর বিপরীত অর্থে by বসে। e.g. I will be away until Friday. I will be back by Friday. (আমি শুক্রবারের মধ্যে ফিরে আসব) I will be working until 10 o'clock. I will have finished my work by 10 o'clock.\n\nBefore: কোনো কিছুর আগে (earlier), সামনে (in front of) বুঝাতে before ব্যবহৃত হয়। He arrived before me. (সে আমার আগে পৌছল) He stood before me. (সে আমার সামনে দাঁড়াল)\n\nDuring: কোনো সময় চলাকালীন, শুরু থেকে শেষ এর মধ্যবর্তী কাল বুঝাতে during ব্যবহৃত হয়। They work during the night. Please remain seated during the performance. during the 1990s",
+   "topic": "পর্ব ১ — সময়, স্থান ও অবস্থান (Time • Place • Position)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0043",
+   "kind": null,
+   "title": "Prepositions with addresses: in (UK), on (US), at",
+   "body": "Address (ঠিকানা) বুঝাতে কোনো Avenue/Road/Street এর নামের পূর্বে in (UK)/on (US) বসে। তবে নির্দিষ্ট ঠিকানা বা বাড়ি নম্বর (সংখ্যা) থাকলে Avenue/Road/Street এর নামের পূর্বে at বসে।\nHe lives — (কোনো নাম) Road/Street/Avenue. [in (UK)/ on (US)] He lives in/on Bailey Road.\nHe lives at (কোনো সংখ্যা), (কোনো নাম) Road/Street/Avenue. He lives at 45 Bailey Road.\nAre you still at the same address? (এখনো কি একই/আগের ঠিকানায় আছেন?)",
+   "topic": "পর্ব ১ — সময়, স্থান ও অবস্থান (Time • Place • Position)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0044",
+   "kind": null,
+   "title": "Special use of Direction (In / On / To)",
+   "body": "Direction: In (= inside), On (= on the boarder), To (= outside) — সীমার মধ্যে বুঝাতে in, সীমার উপরে বুঝাতে on এবং সীমার বাহিরে বুঝাতে to ব্যবহৃত হয়।\nKasmir is in the north of India. The Padma is in the south of Rajshahi city.\nThe Himalayas are/lie/stand on the north of India. Dhaka is on the Buriganga.\nSrilanka is to the south of India. The Sundarbans is to the south of Bangladesh.",
+   "topic": "পর্ব ১ — সময়, স্থান ও অবস্থান (Time • Place • Position)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0045",
+   "kind": null,
+   "title": "কোনো Time এর মধ্যে সংঘটিত কাজ — by, at, in এর বিভ্রান্তির সমাধান",
+   "body": "ভবিষ্যৎকালে কোনো কাজ duration/period of time এর মধ্যে ঘটবে বোঝালে তার পূর্বে in/within বসে। Period of time হচ্ছে সংখ্যায় গণনাযোগ্য সময়কাল, minute, hour, day, week, month, year, 1990s etc. e.g. Dinner will be ready in ten minutes. I'll return in/within an hour. I'll do it in a minute.\nwithin = নির্দিষ্ট সময় শেষ হওয়ার পূর্বে ; in = নির্দিষ্ট সময়ের শেষে/মধ্যে, উক্ত সময়ের শেষে কিন্তু তার পরে নয়।\n\nভবিষ্যৎ কালে কোনো কাজ point of time এর মধ্যে ঘটবে বোঝালে তার পূর্বে by/before বসে। Point of time হচ্ছে নির্দিষ্ট সময়কাল বা মুহূর্ত, am, pm, o'clock, name of the days (Sunday-Saturday), name of the months (January-December), today, tonight, tomorrow, yesterday, date (1st-31st January/December), specific year (1905, 2020). e.g. She had promised to be back by five o'clock. Please do come by 12 O'clock/tomorrow. We should be there by noon. Application forms must be received by 31st March.\n\nতবে exact time বা সুনির্দিষ্ট বা একদম ঠিক সময়ের এর পূর্বে at বসে। e.g. The meeting starts at three. Nipa will arrive here at 12 O'clock. There's a meeting at 2.30 this afternoon.",
+   "topic": "পর্ব ১ — সময়, স্থান ও অবস্থান (Time • Place • Position)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0046",
+   "kind": null,
+   "title": "Phone/telephone এর সাথে by, over, on",
+   "body": "ফোনের মাধ্যমে বুঝাতে by phone/over the phone এবং ফোনে কথা চলছে/বলছে বুঝাতে (be) on the phone ব্যবহৃত হয়। I like to do business by phone/over the phone. আমি ফোনের মাধ্যমে ব্যবসা করা পছন্দ করি। He has been on the phone to Rita for an hour. সে রিটার সাথে এক ঘন্টা ধরে ফোনে কথা বলছে।",
+   "topic": "পর্ব ২ — সম্পর্ক ও অর্থ-ভিত্তিক Preposition (by, with, of, from, for, about…)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0047",
+   "kind": null,
+   "title": "Of — গুণ/বয়স ও It is + adjective + of",
+   "body": "ব্যক্তির গুণ বা বয়স প্রকাশে of ব্যবহৃত হয়। e.g. man of mark (প্রসিদ্ধ ব্যক্তি), man of means (ধনী ব্যক্তি), man of substance (বিত্তশালী ব্যক্তি), man of repute (স্বনামধন্য ব্যক্তি); The chairman is in fact a man of sixty.\n\nadjective দ্বারা noun কে নির্দেশ করলে adjective এর পরে of বসে। It is + adjective + of sb + infinitive. It is kind (= kindness) of you to help me. (আমাকে সাহায্য করা হচ্ছে তোমার দয়া) It is kind (= kindness) of you to send me the book. (বইটা পাঠানো আপনার দয়া)",
+   "topic": "পর্ব ২ — সম্পর্ক ও অর্থ-ভিত্তিক Preposition (by, with, of, from, for, about…)"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0048",
+   "kind": null,
+   "title": "Infinitive marker 'to' ও o'clock",
+   "body": "Verb এর base form এর পূর্বে 'to' বসে infinitive গঠন করে। তাই এই to কে Infinitive marker বলে। (The load is too heavy to carry. It takes two to make a quarrel.)\n\no'clock এ o' এর পূর্ণরূপ হচ্ছে of তাই o' হচ্ছে preposition আর o'clock এর পূর্ণরূপ of the clock। o'clock বাক্যে adverb হিসেবে শুধুমাত্র পূর্ণ ঘন্টার পরেই ব্যবহৃত হয়। 5 o'clock (5.30 o'clock নয়)",
+   "topic": "পর্ব ৪ — Phrasal, Special ও Fixed Expression"
+  },
+  {
+   "id": "english_2nd_preposition_rules_0049",
+   "kind": null,
+   "title": "recline on",
+   "body": "recline on (a sofa, a couch, one's shoulder) – কোনো কিছুর উপর হেলান দেয়া, সটান শুয়ে পড়া। The girl was reclining on the couch.",
+   "topic": "পর্ব ৩ — Appropriate Prepositions (Verb • Adjective • Noun-এর পরে)"
   }
  ]
 }

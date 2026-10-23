@@ -1,6 +1,6 @@
 {
  "sectionId": "english_2nd_right_form_of_verbs_rules",
- "updated": "2026-10-14",
+ "updated": "2026-10-23",
  "items": [
   {
    "id": "english_2nd_right_form_of_verbs_rules_0001",
@@ -267,6 +267,587 @@
    "title": "be + to V1 এবং Wh-word + to V1",
    "body": "be verb-এর পরে কর্তব্য/পরিকল্পনা বোঝাতে to V1; know, learn, decide, ask, explain ইত্যাদির পরে wh-word + to V1।",
    "topic": "পর্ব ঙ — অতিরিক্ত নিয়ম (উদাহরণসহ)"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0039",
+   "kind": null,
+   "title": "Present Indefinite — অভ্যাস, চিরন্তন সত্য ও frequency adverb",
+   "body": "বর্তমানে কোনো কাজ করা, অভ্যাসগত কর্ম অথবা চিরন্তন সত্য বোঝালে এবং সুনির্দিষ্ট সময় উল্লেখ থাকে না এমন বাক্যে যদি always, often, usually, hardly, seldom, generally, normally, sometimes, occasionally, at times, daily, regularly, frequently, every morning/day/week/month/year/time, on holidays, on (Fridays/Sundays) ইত্যাদি থাকে তাহলে verb টি present indefinite tense এ হবে। always, often, usually, hardly, seldom, still ইত্যাদি adverb গুলো indefinite tense এ subject ও principal verb এর মাঝে বসে। present indefinite tense এ subject টি third person singular number এ থাকলে verb এর সাথে s বা es যুক্ত হয়। যে সকল verb এর শেষে ch, sh, ss, x, o, z ইত্যাদি থাকে তাদের সাথে es যুক্ত হয় এবং অন্যান্য ক্ষেত্রে শুধু s যুক্ত হয়। e.g. On holidays he reads detective stories. At times he loses temper.\n\nদুটি চিরন্তন সত্য, বৈজ্ঞানিক সত্য, অভ্যাসগত কর্মের বাক্য when দ্বারা যুক্ত হলে দুটিই present indefinite tense হয়। e.g. When water freezes, its density decreases. পানি যখন জমাট বাঁধে তখন এর ঘনত্ব কমে।",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0040",
+   "kind": null,
+   "title": "Present Continuous — এখন চলছে ও নিকট ভবিষ্যৎ",
+   "body": "Now, right now (এই মুহূর্তে), at present, at this time/moment, today, this season, this year, still, day by day, gradually, rapidly, year after year ইত্যাদি উল্লেখ থাকলে এবং বর্তমানে কোনো কাজ চলছে বুঝালে verb টির present continuous tense হয়। e.g. At present he is living abroad.\n\nPresent tense + while (ততক্ষণ) + Present Indefinite/Continuous (Do not go out while it rains.)\nবর্তমানে দুটি কাজ চলছে বুঝালে দুটি কাজই present continuous tense এ হবে। (The dog is barking. It is making a terrible noise.)\n\nখুব নিকট ভবিষ্যতে ঘটিতে যাচ্ছে এমন কাজ নির্দেশ করতে verb এর present continuous tense ব্যবহৃত হয়। এক্ষেত্রে ভবিষ্যৎ সময়কাল (যেমন: next week/month/year or any near future time) উল্লেখ থাকে। (They are going to a concert tomorrow.)",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0041",
+   "kind": null,
+   "title": "Present Perfect — just, already, yet, never, ever, so far",
+   "body": "কোনো Sentence এ just, just now, already, yet, never, ever, lately, recently ইত্যাদি adverb এবং so far (= until now, এখন পর্যন্ত, এ যাবৎ), up to now (এখন পর্যন্ত), up to the present (এখন পর্যন্ত) ইত্যাদি adverbial phrase থাকলে present perfect tense হয়। Just, already, never ইত্যাদি adverb গুলো present perfect tense এ auxiliary verb এবং principal verb এর মাঝে বসে।\nহ্যাঁ-বোধক Sentence এ already হবে। Sub + have/has + already + past participle + object + Ext.\nনা-বোধক Sentence এ yet হবে। Sub + have not/has not + past participle + object + yet.\n\nকোনো স্থান পরিদর্শন করে আসা বোঝালে present perfect tense হয় এবং have/has been ব্যবহৃত হয়। (I haven't been there. Have you ever been to Mexico City?)",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0042",
+   "kind": null,
+   "title": "Present Perfect vs Present Perfect Continuous (be, have, know, see)",
+   "body": "কোনো কাজ আগে থেকে আরম্ভ হয়ে বর্তমানেও চলছে বুঝালে verb টির present perfect continuous tense হয় কিন্তু যে সকল verb এর continuous tense হয় না বাক্যে for/since থাকলেও তাদের present perfect tense এ ব্যবহার করা হয়। সাধারণত be, have, know, see ইত্যাদি verb এর perfect continuous হয় না। (We have known each other for a long time. She has been unconscious since four O'clock.)\n\nকোনো কাজ অতীতে ঘটেছে বা কয়েকবার ঘটেছে এবং আবারও ঘটার সম্ভাবনা আছে বোঝাতে verb এর present perfect tense হয়ে থাকে। বাক্যে first/second/third time, twice, thrice, two/three/five times উল্লেখ থাকে। (Nishat has seen this movie three times. This is the first time I have been here.)\n\nকোনো কাজ আগে থেকে আরম্ভ হয়ে বর্তমানকালেও চলছে বুঝালে verb টির present perfect continuous tense হয়। এক্ষেত্রে বাক্যে since, for, How long ইত্যাদি উল্লেখ থাকে। (He has been sleeping for five hours. How long have you been learning English?)",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0043",
+   "kind": null,
+   "title": "Past Indefinite — ago, yesterday, last…",
+   "body": "কোনো Sentence এ ago, before, long ago, long since, yesterday, last night/week/month/year, previous day, the day before প্রভৃতি অথবা অতীতকাল (১৯৮৫) উল্লেখ থাকলে তা past indefinite tense হবে। অর্থাৎ subject এর পরে verb এর past form বসবে। Last year I walked to school every day.\n\nHappen হচ্ছে intransitive verb যা স্বাভাবিকভাবে নিজে থেকেই ঘটে বা হয়ে থাকে তাদের passive করতে হয় না। (Last night an accident happened.)",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0044",
+   "kind": null,
+   "title": "Past Indefinite — ago, just, born, die/kill",
+   "body": "ago আছে বিধায় verb এর past form বসবে। এই বাক্যে Just সময় বুঝায়নি, বসেছে exactly অর্থে। Just যদি adverb of time হয় তবে present perfect tense এ auxiliary verb এবং principal verb এর মাঝে বসে। (She left just a few minutes ago.)\n\nকোনো ব্যক্তির জন্মগ্রহণ করা বুঝাতে past indefinite tense এর passive voice ব্যবহার করতে হয়। কারণ, কেউ নিজে জন্মগ্রহণ করতে পারে না, মা কর্তৃক তাকে জন্ম দেওয়া হয় তাই passive করে লিখতে হয়। (David Hockney was born in 1937.)\n\nDie নিজে মারা যাওয়া অর্থে ব্যবহৃত হয়। এর passive হয় না। তাই নিহত হওয়া অর্থে kill এর passive করা হয়। (He was killed in a terrible fight. The old man died yesterday.)",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0045",
+   "kind": null,
+   "title": "As soon as — দুটি কাজই Past Indefinite",
+   "body": "অতীতকালের দুটি কাজ যদি as soon as দ্বারা যুক্ত থাকে তাহলে দুটি কাজই past indefinite tense এ হবে। e.g. As soon as the boys heard the bell they ran out. ঘন্টা শোনামাত্রই ছেলেরা দৌড়ে বেরিয়ে গেল।",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0046",
+   "kind": null,
+   "title": "As/while/when — Past Continuous + Past Indefinite",
+   "body": "অতীতকালের দুটি clause যদি As/while/when দ্বারা যুক্ত হয় তাহলে তাদের একটিতে past continuous এবং অপরটিতে Past indefinite tense হয়। এক্ষেত্রে একটি কাজ চলাকালে অন্য কাজটি সংঘটিত হয়।\n\nStructure — Example\nPast continuous + when + past indefinite — He was washing his car when I arrived.\nWhen + past continuous, past indefinite — When they were killing the snake, I was afraid.\nWhen + past indefinite, past continuous — When I saw him, he was cutting down a tree.\nPast indefinite + when + past continuous — Neela burnt her hand when she was cooking.\nPast indefinite + while + past continuous — He fell down while he was walking.",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0047",
+   "kind": null,
+   "title": "that-এর পূর্বে Past Indefinite — পরে Past Perfect",
+   "body": "that এর পূর্বের বাক্যটি past indefinite tense হলে that এর পরের বাক্যটি সাধারণত past perfect হয়। এক্ষেত্রে that এর পরের অংশের কাজটি পূর্বে সংঘটিত হয়। e.g. He denied that he had written the letter.",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0048",
+   "kind": null,
+   "title": "the previous day / the next day — that-এর পরে",
+   "body": "that এর পূর্বের বাক্যটি past indefinite tense হলে that এর পরের অংশে the previous day/week/month/year থাকলে past perfect/perfect continuous tense হয়। কিন্তু the next day/week/month/year থাকলে future expectation in the past বুঝাতে would/should + base form হবে।",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0049",
+   "kind": null,
+   "title": "অতীতের দুটি কাজ — আগেরটি Past Perfect, পরেরটি Past Indefinite",
+   "body": "অতীতকালে দুটি কাজ সম্পন্ন হয়ে থাকলে যেটি আগে সংঘটিত হয়েছিল তার Past perfect এবং যেটি পরে সংঘটিত হয়েছিল তার Past Indefinite tense হয়। এক্ষেত্রে when দ্বারা বাক্যের দুটি অংশ যুক্ত হলে when এর আগে Past perfect হয় এবং পরে Past Indefinite tense হয়।",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0050",
+   "kind": null,
+   "title": "No sooner—than, Scarcely—when, Hardly—when",
+   "body": "No sooner ------ than, Scarcely------when, Hardly----when, ইত্যাদি দ্বারা দুটি clause যুক্ত হলে ১ম clause টির verb past perfect tense ২য় clause টির verb এর simple past tense হয়।\nএক্ষেত্রে প্রথম clause টির auxiliary verb (had) সর্বদাই subject এর পূর্বে বসে।\nHardly had we reached home when it started raining. (আমরা বাড়ি পৌঁছতে না পৌঁছতে বৃষ্টি শুরু হয়ে গেল)",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0051",
+   "kind": null,
+   "title": "before / after — Past Perfect ও Past Indefinite",
+   "body": "অতীতকালে দুটি সংঘটিত কাজ before দ্বারা যুক্ত হলে before এর পরে past indefinite এবং before এর পূর্বে Past perfect tense হবে। অর্থাৎ Past perfect tense + before + past indefinite tense\nকিন্তু কাজ দুটি after দ্বারা যুক্ত হলে after এর পরে Past perfect tense এবং after এর পূর্বে past indefinite হবে। অর্থাৎ Past indefinite tense + after + past perfect tense",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0052",
+   "kind": null,
+   "title": "before / after — Past Perfect Continuous",
+   "body": "অতীতকালে সংঘটিত দুটি কাজের মধ্যে যে কাজটি অপেক্ষাকৃত দীর্ঘ সময় ধরে চলছিল তা নির্দেশ করতে verb এর Past perfect continuous tense হয়। before দ্বারা কাজ দুটি যুক্ত হলে before এর পরে past indefinite এবং before এর পূর্বে Past perfect continuous tense হবে।\nঅর্থাৎ Past perfect continuous tense + before + Past indefinite tense\nকিন্তু কাজ দুটি after দ্বারা যুক্ত হলে after এর পূর্বে past indefinite থাকলে after এর পরে Past perfect continuous tense হবে। অর্থাৎ Past indefinite tense + after + Past perfect continuous tense",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0053",
+   "kind": null,
+   "title": "ভবিষ্যতের দুটি কাজ — when, as soon as, unless, until, in case",
+   "body": "দুটি ভবিষ্যৎ কালের কাজ when, as soon as, unless, until, in case দ্বারা যুক্ত হলে এদের এর পরে Present Indefinite এবং অপর অংশটি Future Indefinite হয়। e.g. I will not go unless I am invited. I will phone you as soon as I hear any news. When you finish the book, I will read it.\nHe will be welcomed as soon as he comes here. (তিনি এখানে আসা মাত্রই তাঁকে অভিনন্দন জানানো হবে)",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0054",
+   "kind": null,
+   "title": "tomorrow, next — Future Indefinite",
+   "body": "বাক্যে tomorrow, next (time, day, month, year) থাকলে verb এর future indefinite tense হয়।",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0055",
+   "kind": null,
+   "title": "By this time, By then — Future Perfect",
+   "body": "বাক্যে ভবিষ্যৎ সময় জ্ঞাপক শব্দ যেমন: By this time, By (time, month, year), By then, Next (time, month, year) ইত্যাদি থাকলে verb এর future perfect tense হয়।",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0056",
+   "kind": null,
+   "title": "By the time — দুটি clause",
+   "body": "বাক্যে ভবিষ্যৎ সময় জ্ঞাপক শব্দ By the time দ্বারা যখন দুটি clause যুক্ত থাকে তখন By the time এর পরে present indefinite এবং অপর অংশে future indefinite/perfect/perfect continuous tense হয়।\nBy the time I get there, the work will all have been done. যতক্ষণে আমি সেখানে যাব ততক্ষণে সব কাজ করা হয়ে যাবে।",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0057",
+   "kind": null,
+   "title": "ভবিষ্যতের দুটি কাজ — before ও after",
+   "body": "ভবিষ্যৎকালের দুটি কাজ before দ্বারা যুক্ত হলে before এর পূর্বে future perfect/future indefinite tense এবং before এর পর present indefinite tense বসে।\nভবিষ্যৎকালের দুটি কাজ after দ্বারা যুক্ত হলে after এর পূর্বে future indefinite tense এবং after এর পর present perfect tense বসে।",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0058",
+   "kind": null,
+   "title": "wish, fancy — Unreal Past",
+   "body": "প্রথম Subject এর পর wish, fancy থাকলে দ্বিতীয় Subject এর পর verb এর past form অথবা could/would + verb এর base form বসে। unreal past বোঝাতে, to be verb থাকলে তা সর্বদাই were হয়।\nআমি যদি ধনী হতাম - I wish I were rich. আমি যদি বিমানে ভ্রমণ করতে পারতাম - I wish I could travel by air.\nঅতীত পরিস্থিতি নিয়ে আক্ষেপ (regret) বুঝালে wish + past perfect হয়। I wish I had not eaten so much. I wish (that) I had washed the clothes yesterday. I wish (that) I hadn't spent too much money.",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0059",
+   "kind": null,
+   "title": "It is time / It is high time",
+   "body": "Sentence এ It is time, It is high time ইত্যাদির পরে Subject থাকলে Subject এর পর verb এর past form হয়। Subject না থাকলে to + verb হয়। সাধারণত কোনো কিছু করার সময় হয়েছে অর্থে It is time ব্যবহৃত হয়। e.g. এখন তোমার ওষুধ খাওয়ার সময় হয়েছে - It is time you took your medicine.\nযা পূর্বেই করা দরকার ছিল, যা করতে দেরি হয়ে গেছে অর্থাৎ যা করার এখনই উপযুক্ত সময় অর্থে It is high time ব্যবহৃত হয়। e.g. তার বদাভ্যাস পরিবর্তন করার এখনই উপযুক্ত সময় - It is high time he changed his bad habits.\nIt was time/high time থাকলেও subjunctive/unreal past অংশটির simple past tense এর পরিবর্তন হবে না।",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0060",
+   "kind": null,
+   "title": "Unless — Present Indefinite",
+   "body": "Unless এর পূর্বের clause টি present/future indefinite tense হলে এর পরের clause টি present indefinite tense হয়। উল্লেখ্য, unless এর পরে negative clause বসে না।",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0061",
+   "kind": null,
+   "title": "Until (till) — বর্তমান/ভবিষ্যৎ ও অতীত",
+   "body": "ভবিষ্যৎ বুঝাতে Until (till) এর পরে সাধারণত present indefinite tense হয়। উল্লেখ্য, until এর পরে negative clause বসে না। Let's wait until the rain stops. I will stay here until you come back.\nঅতীত কালের কাজ বুঝাতে until/till এর পরে সাধারণত past indefinite tense হয়। I did not know it until you spoke. (তুমি না বলা পর্যন্ত আমি এটা জানতাম না) I stayed there until he arrived. (সে পৌঁছানো পর্যন্ত আমি সেখানে ছিলাম)\nব্যতিক্রম: এক্ষেত্রে কাজ পুরোপুরি শেষ হওয়ার উপর গুরুত্ব দিলে until এর পরে present/past perfect tense হয়। Don't go out yet. Stay until the rain has stopped. Stir until the sugar has dissolved. I waited until the rain had stopped. I waited until the train had left the station. She waited until the last of the guests had departed.",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0062",
+   "kind": null,
+   "title": "Since — পূর্বের ও পরের অংশ",
+   "body": "Since এর পূর্বের অংশ present indefinite বা present perfect tense হলে পরের অংশ past indefinite tense হয়। আবার, পূর্বের অংশ past indefinite tense হলে পরের অংশ past perfect tense হয়।",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0063",
+   "kind": null,
+   "title": "As if / as though",
+   "body": "As if/as though এর পূর্বের অংশ present indefinite tense হলে পরের অংশ past indefinite হয় এবং be verb থাকলে সর্বদা were হয়। He talks as if he knew everything. (সে এমনভাবে কথা বলে যেন সে সবকিছু জানে); আবার, পূর্বের অংশ past indefinite হলে পরবর্তী অংশ past perfect tense হয়। He looked as if/though he hadn't slept all night. He looked as if he had had some bad news. He acted as if he had never met me before.",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0064",
+   "kind": null,
+   "title": "Causative Verbs — have + agent + V1",
+   "body": "বাক্যের মূল subject যে verb গুলোর সাহায্যে কোনো কাজ নিজে না করে অন্যের দ্বারা করায় সেই verb গুলোকে Causative verbs বলে। Causative verb গুলো হচ্ছে have, get, make, let, help ইত্যাদি।\nSubject + have (any tense) + action doer (agent) + V1/ base form + extension. e.g. I have my wife wash/iron my clothes. (আমি আমার বউকে দিয়ে আমার কাপড় ধোয়াই/ইস্ত্রি করাই)\nব্যতিক্রম: কারো প্রচেষ্টার ফলে কেউ/কিছু কোনো কাজ করতে থাকবে বুঝালে have + action doer + verb+ing হবে। I will have you driving in three days. He had us laughing all through the meal. The film soon had us crying. He had them all dancing. I will have it working in no time.",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0065",
+   "kind": null,
+   "title": "have + object + V3 (past participle)",
+   "body": "Subject + have (any tense) + action receiver + V3/ past participle + {(by+extension)}\nI am going to have/get my hair cut. (চুল কাটাতে যাচ্ছি); I want to have my hair styled to suit me. I had the letter written by him. (আমি তাকে দিয়ে চিঠিটি লিখালাম) This dress doesn't fit. I will have to have it altered. (এই পোশাকে মানাই না। আমাকে এটা বদল করাতে হবে)",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0066",
+   "kind": null,
+   "title": "get + agent + to + V1 / get + object + V3",
+   "body": "Subject + get (any tense) + action doer (agent) + infinitive (to+base form) + extension. e.g. I get my wife to wash/ iron my clothes. I cannot get my computer to work. (worked নয়)\nSubject + get (any tense) + action receiver + V3/past participle + {(by+extension)} e.g. I have got the work done (আমি কাজটি করিয়েছি)",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0067",
+   "kind": null,
+   "title": "make + agent + V1 (বাধ্য করা)",
+   "body": "Subject + make (any tense) + action doer (agent) + V1/ base form + extension। কাউকে কোনো কিছু করতে বাধ্য করা (force) অর্থে অথবা have/get এর বেশি জোর প্রদান করতে make ব্যবহার করা হয়।\ne.g. You can't make him go if he doesn't want to. (সে যেতে না চাইলে তুমি তাকে বাধ্য করতে পার না) He made me work for him. I will try to make him understand. They made him tell the truth by depriving him of food.",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0068",
+   "kind": null,
+   "title": "let + agent + V1 / let + object + be + V3",
+   "body": "Subject + let (any tense) + action doer + V1/ base form + extension. He decided to let his hair grow long. (সে বড়/লম্বা চুল রাখার সিদ্ধান্ত নিয়েছে); Don't let her upset you.\nSubject + let (any tense) + action receiver + be + past participle + extension. Let him be arrested without any delay. Let the house be sold. Let it not be done.",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0069",
+   "kind": null,
+   "title": "help + agent + V1 / to + V1",
+   "body": "Subject + help (any tense) + action doer + base form/ infinitive (= to+base form) e.g. Help me lift the box. (বক্সটি উঠাতে সাহায্য কর); Can you help me find my keys?",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0070",
+   "kind": null,
+   "title": "hear, see, notice, smell, watch + object + V1 / V-ing",
+   "body": "hear, notice, see, smell, watch ইত্যাদি verb গুলোর object এর পরে base form এবং present participle (verb+ing) উভয়ই বসে। এক্ষেত্রে non-finite verb টির দ্বারা সম্পূর্ণ কাজ বুঝালে base form বসে।",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0071",
+   "kind": null,
+   "title": "Passive-এ found, seen, noticed + V-ing",
+   "body": "Passive voice এ found, seen, noticed এর পরে present participle (verb + ing) বসে। e.g. He was seen leaving the place hurriedly. তাকে তড়িঘড়ি করে স্থানটি ত্যাগ করতে দেখা গেল।",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0072",
+   "kind": null,
+   "title": "catch, feel, find, imagine, leave + object + V-ing",
+   "body": "কতগুলো verb আছে যাদের object এর পরে present participle (verb+ing) ব্যবহৃত হয়। catch, feel, find, imagine, leave ইত্যাদি। e.g. I left him talking to Miraj. If he catches you reading his diary, he'll be furious. I found a tree lying across the road.",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0073",
+   "kind": null,
+   "title": "Simple sentence-এ কমার পূর্বে V-ing",
+   "body": "Simple sentence এর কমার (,) পূর্ববর্তী অংশে present participle (verb+ing) ব্যবহৃত হয়।",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0074",
+   "kind": null,
+   "title": "Busy, Worth + V-ing",
+   "body": "Busy, Worth ইত্যাদি adjective এর পরবর্তী present participle (verb+ing) বসে। e.g. He was too busy taking to notice us come in. This idea is well worth considering.\ngo এর পরে বাহ্যিক কাজের নাম থাকলে তা present participle হয়। যেমন: go fishing/swimming/shopping",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0075",
+   "kind": null,
+   "title": "It is no use / It is no good + V-ing",
+   "body": "কোনো লাভ নেই অর্থে It is no use, It is no good ব্যবহৃত হয় এবং এদের পরবর্তী verb এর সাথে ing যোগ হয়। It is no good telling me about your lost car. (তোমার হারানো কারের কথা আমাকে বলে কোনো লাভ নেই)",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0076",
+   "kind": null,
+   "title": "যে verb-এর পরে Gerund (V-ing) বসে",
+   "body": "admit, anticipate, appreciate, avoid, complete, consider, delay, dislike, discuss, defer, deny, detest, dread, enjoy, escape, excuse, finish, fancy, forgive, imagine, keep, involve, loathe, mean (involve), mind (object), mention, miss, pardon, postpone, practise, prevent, propose (suggest), quit, recollect, recall, resist, resent, recommend, regret, risk, save, stop, suggest, tolerate, understand ইত্যাদি verb এর পর gerund (verb+ing) বসে।",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0077",
+   "kind": null,
+   "title": "forget, like, regret, remember, stop — Infinitive না Gerund",
+   "body": "forget, like, remember, stop এর পরে infinitive এবং gerund দুটোই হয়। তবে অর্থগত পার্থক্য আছে।\nForget: শুধুমাত্র negative বাক্যেই (প্রায়ই will never forget এর পরে) gerund ব্যবহৃত হয়।\nLike: কেউ কোনো কিছু করতে enjoy করলে v+ing কিন্তু enjoy না করলে to+base form হবে।\nRegret: আগে কোনো কাজ করে পরে দুঃখ প্রকাশ করলে v+ing কিন্তু দুঃখ প্রকাশ আগে হলে to+base form হবে। It began to get cold and he regretted not wearing his coat. I regret spending so much money. I regret to say/to tell you/to inform you that you have failed you exam.\nRemember: আগে কাজ করে পরে স্মরণ করা হলে v+ing কিন্তু আগে স্মরণ করে কাজ করলে to+base form হবে।\nStop: পুরোপুরি থামা অর্থে stop এবং stop + object এর পরে সর্বদাই gerund বসে। Stop writing/talking. I can't stop him talking to the press. কোনো কিছু করার জন্য বা উদ্দেশ্যে অল্প সময়ের জন্য থামা/কোনো কাজ বন্ধ করা বোঝালে stop এর পরে infinitive হবে। I stopped to ask the way./ to drink a glass of water./ to speak to Rima on the way to market.",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0078",
+   "kind": null,
+   "title": "Will/Would you mind + V-ing (অনুরোধ)",
+   "body": "অনুরোধ বুঝাতে Will/Would you mind এর পরে gerund (verb+ing) বসে।",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0079",
+   "kind": null,
+   "title": "can't help / couldn't help + V-ing",
+   "body": "কেউ কোনো কিছু না করে পারে না অর্থে can't help এবং না করে পারে নি অর্থে couldn't help ব্যবহৃত হয়। cannot help, couldn't help এর পরে gerund (verb+ing) বসে। যেমন: I cannot help laughing at her. আমি তাকে উপহাস না করে পারি না। I could not help laughing. (আমি না হেসে পারলাম না)",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0080",
+   "kind": null,
+   "title": "Preposition-এর পরে Gerund",
+   "body": "Preposition (of, in, on, up, for, by, without ইত্যাদি) এর পরে সর্বদাই gerund (verb+ing) বসে।",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0081",
+   "kind": null,
+   "title": "feel like + V-ing",
+   "body": "কোনো কিছু করতে ইচ্ছে (wish) করা অথবা করতে চাওয়া (want to) অর্থে feel like ব্যবহৃত হয়। feel like এর পরে gerund (v+ing) বসে। e.g. I feel like weeping. আমার কান্না পাচ্ছে। I feel like having a cup of tea. আমার চা খেতে ইচ্ছে করছে। I feel like taking a walk. হাঁটতে ইচ্ছে করছে। I feel like slapping you. [এই বাক্যগুলোতে like হচ্ছে preposition]",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0082",
+   "kind": null,
+   "title": "with a view to, look forward to, be used to … + V-ing",
+   "body": "With a view to, look forward to, with an eye to, be/get used to, be/get accustomed to, adhere to, adverse to, addicted to, bar to, close to, committed to, confess to, contribute to, dedicate to, devote to, impediment to, object to, objection to, refer to, equal to, unequal to, be given to, take to, resort to, aversion to ইত্যাদি এর পরে verb থাকলে verb টির সাথে ing যোগ হয়।\nসাগ্রহে প্রতীক্ষা করা অর্থে look forward to ব্যবহৃত হয় এবং এর পরবর্তী verb এর সাথে ing যুক্ত হয়।",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0083",
+   "kind": null,
+   "title": "prefer — Infinitive ও Gerund",
+   "body": "(i) prefer এর পরে infinitive (to +base form) এবং gerund (verb+ing) দুটোই বসে।\n(ii) prefer (অধিকতর পছন্দ করা, শ্রেয় মনে করা) + gerund (verb+ing) + to + gerund (verb+ing)\n(iii) prefer + infinitive (to + base form) + rather than + infinitive (to ছাড়া) = bare infinitive",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0084",
+   "kind": null,
+   "title": "যে verb-এর পরে Infinitive (to + V1) বসে",
+   "body": "ask, continue, convince, decide, fail, forget, phone, hope, intend, learn, like, manage, refuse, promise, propose, try, want ইত্যাদি verb এর পর Infinitive (to+base form) বসে।",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0085",
+   "kind": null,
+   "title": "verb + object + (not) to + V1",
+   "body": "advise, allow, command, compel, enable, encourage, forbid, force, implore, induce, instruct, invite, oblige, order, permit, persuade, remind, request, tell, tempt, train, want ইত্যাদি verb + object এর পরে infinitive বসে। অর্থাৎ Sub + verb + object + (not) to + base form + extension\nআবার, let, make, have ইত্যাদি verb এর object এর পরে শুধু base form বসে।",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0086",
+   "kind": null,
+   "title": "Want — তিনটি গঠন",
+   "body": "Subject + want + infinitive + extension — I want to meet you at this moment.\nSubject + want + sb + infinitive + extension — I want you to meet him.\nSubject + want + sth + past participle — I want my food cooked.",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0087",
+   "kind": null,
+   "title": "know, teach, learn, show, explain + how + to + V1",
+   "body": "Know, teach, learn, show, explain এ সকল verb এর পরে যদি infinitive বসাতে হয়, তবে সবসময় how + to + verb এর base বসবে। e.g. 'এটি কীভাবে করতে হয় তা জানি' (I know how to do it.) - 'কি করে অংকটি করতে হয় তা তিনি আমাকে দেখালেন' He showed me how to do the sum.",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0088",
+   "kind": null,
+   "title": "seem, appear, happen, pretend + Perfect Infinitive",
+   "body": "পূর্বে ঘটেছে এমন কিছু অনুমান করার ক্ষেত্রে See, appear, happen, pretend, seem প্রভৃতি verb এর পরে perfect infinitive (to + have + Vpp/V3) হয়। e.g. I seem to have forgotten your name. মনে হয় যে ছেলেটি তার কাজটি করে ফেলেছে - The boy seems to have done his assignment.",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0089",
+   "kind": null,
+   "title": "say, think, believe … (passive) + to have (been) + V3",
+   "body": "Say, hear, believe, think, suppose, consider, understand ইত্যাদি verb এর passive এর পরে active অর্থে to + have + V3 ব্যবহৃত হয়। কিন্তু passive অর্থে to + have been + V3 ব্যবহৃত হয়।",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0090",
+   "kind": null,
+   "title": "Non-finite: আগে সম্পূর্ণ হলে V-ing, পরে হলে to + V1",
+   "body": "অসমাপিকা ক্রিয়া (non-finite verb) আগে সম্পূর্ণ হলে present participle (verb+ing) এবং পরে সম্পূর্ণ হলে infinitive (to+verb base form) ব্যবহৃত হয়ে থাকে। অর্থাৎ উদ্দেশ্য বুঝালে infinitive হয়ে থাকে।",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0091",
+   "kind": null,
+   "title": "need, want, require — বস্তুবাচক subject",
+   "body": "need, want, require verb এর subject বস্তুবাচক হলে এর পরে gerund (verb+ ing) বসে অথবা passive infinitive (to be + past participle) বসে।",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0092",
+   "kind": null,
+   "title": "cannot help + V-ing / cannot but + V1",
+   "body": "cannot help এর পরে gerund (verb+ing) বসে কিন্তু cannot but এর পরে base form বসে।",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0093",
+   "kind": null,
+   "title": "preposition 'to' + V1 (infinitive)",
+   "body": "preposition 'to' এর পরে verb এর base form বসে।",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0094",
+   "kind": null,
+   "title": "Imperative sentence — V1 দিয়ে শুরু",
+   "body": "Imperative sentence এর subject (you) উহ্য থাকে বিধায় শুরুতে verb এর base form বসে। e.g. Water the plants. (গাছে পানি দাও।) Mind your own business. (নিজের কাজে মন দাও।)",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0095",
+   "kind": null,
+   "title": "Do/Does/Did + V1",
+   "body": "Do, Does, Did অথবা Do/Does/Did + not এর পরবর্তী verb এর base form হয়ে থাকে।",
+   "topic": "পর্ব গ — Modal, Passive ও Negative"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0096",
+   "kind": null,
+   "title": "be, have, having, get, being + V3",
+   "body": "be, have, having, get, being ইত্যাদি এর পরে past participle বসে।",
+   "topic": "পর্ব গ — Modal, Passive ও Negative"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0097",
+   "kind": null,
+   "title": "would like + to + V1 / feel like + V-ing",
+   "body": "would like = want, চাওয়া; feel like = want, চাওয়া, wish, ইচ্ছে করা (বিশেষ কোনো মুহূর্তে)। would like এর পরে infinitive (to+base form) বসে কিন্তু feel like এর পরে gerund (verb+ing) বসে। I would like to go to London. (আমি লন্ডনে যেতে চাই); I feel like seeing you. (তোমাকে দেখতে ইচ্ছে করছে)",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0098",
+   "kind": null,
+   "title": "Modal Auxiliaries + V1",
+   "body": "বিভিন্ন ধরনের মনোভাব প্রকাশ করতে Modal Auxiliaries ব্যবহার করা হয়। কেননা শুধু verb দ্বারা মনের ভাব সম্পূর্ণভাবে প্রকাশ করা সম্ভব নয়। Modal-গুলো হচ্ছে: Can/could, may/might, shall/should, will/would, must, need, dare, ought to have to, be to, be able to, be going to, had better, would rather etc.\nModal Auxiliary verb গুলোর পরে verb এর base form বসে।",
+   "topic": "পর্ব গ — Modal, Passive ও Negative"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0099",
+   "kind": null,
+   "title": "Can, Could ও be able to",
+   "body": "Can: বর্তমান সামর্থ্য, অনুমতি, অনুরোধ, সম্ভাবনা, বিনীত প্রস্তাব (polite offer) ইত্যাদি ক্ষেত্রে can ব্যবহৃত হয়। I can do it. He can speak four languages. (সামর্থ্য); Can I use your laptop? (অনুমতি) Smoking can cause cancer. (সম্ভাবনা); Can you tell me where the passport office is? (অনুরোধ) Can I make a suggestion? Can I help you with those bags? (প্রস্তাব)\nCould: I could run a mile at a stretch. He could play the violin when he was six. (অতীত সামর্থ্য) Can এর চেয়ে বেশি বিনীত অনুরোধ, অনুমতি প্রকাশে: Could I use your phone, please? (বিনীত অনুমতি); Could you lend me TK.500? Could I have a glass of water? (বিনীত অনুরোধ) She could arrive at any time. (ক্ষীণ বা অনিশ্চিত সম্ভাবনা)\nযা হওয়া/ঘটা অতীতে সম্ভব ছিল কিন্তু হয়নি/ঘটেনি এবং যা সম্ভবত সত্য ছিল কিন্তু বক্তা সে ব্যাপারে নিশ্চিত নয় এমন ক্ষেত্রে could have (been) + Vpp ব্যবহৃত হয়। The explosion could have been caused by a gas leak.\nসামর্থ্য অর্থে can/could এর পরিবর্তে be able to ব্যবহার করা যায়। তবে সেক্ষেত্রে can/could এর সাথে ব্যবহার করা যাবে না। be able to দ্বারা কোন কিছু করার জন্য শারীরিক/মানসিক শক্তি, দক্ষতা, সময়, অর্থ, সুযোগ ইত্যাদি থাকা বোঝায়।",
+   "topic": "পর্ব গ — Modal, Passive ও Negative"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0100",
+   "kind": null,
+   "title": "May, Might",
+   "body": "অনুমতি, ভবিষ্যৎ অনুমান বা সম্ভাবনা, ইচ্ছা প্রকাশ ইত্যাদি ক্ষেত্রে may, might ব্যবহৃত হয়। May I come in now? (অনুমতি); May she rest in peace. (ইচ্ছা); It may rain. (বৃষ্টি হতে পারে, সম্ভাবনা); It might rain. (বৃষ্টি হলেও হতে পারে, ক্ষীণ সম্ভাবনা)\nবর্তমান অনুমান বোঝাতে might be + v + ing ব্যবহৃত হয়: He might be leaving country. অতীতের কোন কাজের অনুমান করতে might have + Vpp ব্যবহৃত হয়: The rain might have stopped by now.",
+   "topic": "পর্ব গ — Modal, Passive ও Negative"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0101",
+   "kind": null,
+   "title": "Must, Mustn't",
+   "body": "কোনো কিছু করা খুব জরুরি দরকার, কোনো ঘটনা থেকে নিশ্চিত অনুমান করা, বাধ্যবাধকতা, ও নিষেধাজ্ঞা বোঝাতে must, mustn't ব্যবহৃত হয়। You must be tired after your long journey. (নিশ্চিত অনুমান) I must get some sleep. (খুব জরুরি দরকার) You must answer the question no.10. (বাধ্যবাধকতা); Luggage mustn't be left unattended. (নিষেধাজ্ঞা)\nকোনো ঘটনা (জানা বা পূর্বোল্লিখিত) থেকে বোঝা যাচ্ছে যেকোনো কিছু বর্তমানে অবশ্যই ঘটছে সেক্ষেত্রে must be + v + ing ব্যবহৃত হয়। I keep meeting him on the bus. He must be living near by.",
+   "topic": "পর্ব গ — Modal, Passive ও Negative"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0102",
+   "kind": null,
+   "title": "Must have + V3 — অতীতের নিশ্চিত অনুমান",
+   "body": "অতীতে কোনো কাজ অবশ্যই ঘটে থাকবে এমন নিশ্চিত অনুমান বোঝাতে must have + Vpp ব্যবহৃত হয়। সাধারণত must এর past form নেই তবে must এর past tense হিসেবে must have + Vpp ব্যবহার করা হয়। তুমি অবশ্যই সম্রাট আকবর এর নাম জেনে থাকবে। - You must have heard of emperor Akbar.",
+   "topic": "পর্ব গ — Modal, Passive ও Negative"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0103",
+   "kind": null,
+   "title": "Have to / Has to / Had to",
+   "body": "কাউকে কোনো কিছু করতে হয় বা হবে বা হয়েছিল বুঝাতে have to/has to/had to (do) ব্যবহৃত হয়। I have to go to London tomorrow on business. We had to show our passports. এর negative form টি don't/doesn't/didn't দ্বারা করা হয়। You don't have to knock- just walk in.",
+   "topic": "পর্ব গ — Modal, Passive ও Negative"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0104",
+   "kind": null,
+   "title": "Semi-Modals: Need, Dare",
+   "body": "need, dare যদি auxiliary verb হিসেবে Negative এবং Interrogative বাক্যে ব্যবহৃত হয় তবে এরা modal auxiliary হিসেবে ব্যবহৃত হয়। তাই তাদের পরে to বসে না এবং পূর্বে do/does/did not বসে না এবং এদের সাথে s/es যুক্ত হয় না এবং past form হয় না। এদের negative হচ্ছে need not/dare not। কোনো কিছু করার কোনো প্রয়োজন/দরকার নেই বুঝাতে না-বোধক বাক্যে need not + base form এবং সাহস বা ধৃষ্টতা দেখানো প্রশ্নবোধক বাক্যে How dare + (sub) + base form (রাগ প্রকাশে) এবং না-বোধক বাক্যে dare not + base form ব্যবহৃত হয়।",
+   "topic": "পর্ব গ — Modal, Passive ও Negative"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0105",
+   "kind": null,
+   "title": "Should / Ought to",
+   "body": "(i) কারও কিছু করা উচিত বা উচিত নয় অর্থে should/ought (not) + base form ব্যবহৃত হয়। You should accept this job to cut your teeth on. অভিজ্ঞতা লাভের জন্য তোমার চাকরিটি নেওয়া উচিত।\n(ii) কারও কিছু করা উচিত ছিল বা উচিত ছিল না বা উচিত হয়নি অর্থে ought (not) to have/should have (not) + Vpp ব্যবহৃত হয়। যেমন: You should have done the work. তোমার কাজটি করা উচিত ছিল। You should have studied harder. Then you wouldn't have failed the test. You shouldn't have lied to me. Now I will never believe you again. You shouldn't have told her. It was a secret.\n(iii) সম্ভাবনা বোঝাতে should ব্যবহৃত হয়। Should you (=If you) ever need anything, please don't hesitate to contact me. Should anyone call (If anyone calls), please tell them I am busy.",
+   "topic": "পর্ব গ — Modal, Passive ও Negative"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0106",
+   "kind": null,
+   "title": "Lest — lest + subject + should + V1",
+   "body": "lest এর অর্থ হচ্ছে '(পাছে কোনো কিছু ঘটে) এই ভয়ে'। lest + subject + should + base form অথবা should বাদ দিয়ে শুধু base form (present subjunctive); lest সূচিত clause এ not, no, never বসে না। Rahim began to weep lest Rahima should forget him. (পাছে রহিমা তাকে ভুলে যায় এই ভয়ে রহিম কাঁদতে লাগল)",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0107",
+   "kind": null,
+   "title": "Had better + V1",
+   "body": "বরং ভালো/উচিত অর্থে had better ব্যবহৃত হয় এবং had better এর পরে verb এর base form বসে। কাউকে উপদেশ (advice) বা হুমকি (threat) দিতে had better ব্যবহৃত হয়। You had better leave the place. তোমার বরং স্থানটি ত্যাগ করা ভালো।",
+   "topic": "পর্ব গ — Modal, Passive ও Negative"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0108",
+   "kind": null,
+   "title": "Would rather",
+   "body": "কোনো কিছু করা বরং ভালো অর্থে would rather + base form ব্যবহৃত হয়। তবে অতীত কালে কোনো কিছু করা বরং ভালো ছিল বোঝালে would rather + have + vpp ব্যবহৃত হয়। I would rather have gone to class yesterday than today. আবার, দুটি কাজের মধ্যে একটি করা বরং ভালো হবে বুঝাতে would rather --- than -- ব্যবহৃত হয় এবং উভয়ের পরেই verb এর base form বসে। এক্ষেত্রে দুটি কাজের ক্ষেত্রে যেটিকে প্রাধান্য দেয়া হবে সেটি than এর পূর্বে বসবে। e.g. আমি বরং না খেয়ে থাকব, তবু ভিক্ষা করবো না - I would rather starve than beg. আমি ভাঙ্গব তবু মচকাবো না - I would rather break in twain than bend.\n[দুটো subject থাকলে নিম্নরূপ হবে]\nSubject1 + would rather (that) + subject2 + past form + extension. [would rather = wish, prefer] (এক্ষেত্রে প্রথম sub এর এমন কোনো ইচ্ছা প্রকাশ পায় 'যদি এমনটা হত/ঘটত', অথবা কোন কিছু ঘটা তার অধিক পছন্দনীয়)\nSubject1 + would rather (that) + subject2 + base form + extension. [would rather (that) = want] (এক্ষেত্রে subjunctive এর মত ব্যবহৃত হয়।) British English এ 'Subjunctive' এর ব্যবহার তেমন স্বীকৃত নয়, তাই past form টি প্রাধান্য পাবে।",
+   "topic": "পর্ব গ — Modal, Passive ও Negative"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0109",
+   "kind": null,
+   "title": "Used to (do) / Be used to (doing)",
+   "body": "Used to (do) – অতীতে নিয়মিত কোনো কাজ করা হত কিন্তু বর্তমানে তা আর করা হয় না। I used to live alone. = I lived alone in the past, but no longer live alone.\nBe used to (doing) - কোনো কাজ করে অভ্যস্ত বর্তমানে যা করা তার কাছে অদ্ভুত বা কঠিন বা নতুন কিছু নয়। I am used to living alone. = I live alone and I am habituated to it./ I live alone and I don't find it at strange or difficult or new because I have been living alone for some time.\nঅতীতে কেউ কোনো কাজ করত বা করতে অভ্যস্ত ছিল কিন্তু বর্তমানে আর করে না অর্থে used to + base form ব্যবহৃত হয়। আবার, অভ্যস্ত বুঝালে be/get used to + verb + ing ব্যবহৃত হয়। ১০ বছর বয়সে আমি খুব টিভি দেখতাম - I used to watch TV a lot when I was 10. আমি মটর সাইকেল চালাতে অভ্যস্ত হয়ে পড়েছি - I am/get used to driving a motor-bike.",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0110",
+   "kind": null,
+   "title": "Be going to",
+   "body": "কোনো কিছু হতে যাচ্ছে বা ঘটতে যাচ্ছে, কেউ কোনো কিছু করতে যাচ্ছে বোঝাতে be going to ব্যবহৃত হয়। e.g. You are going to fail if you are not careful. He is going to resign.",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0111",
+   "kind": null,
+   "title": "Be supposed to + V1",
+   "body": "কারো কোনো কিছু করার কথা বোঝাতে be supposed to + base form ব্যবহৃত হয়। He is supposed to come/be here now (তার এখন এখানে আসার কথা আছে); I was supposed to go/be there by now (এতক্ষণে আমার সেখানে যাওয়ার কথা ছিল)",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0112",
+   "kind": null,
+   "title": "Would that + subject + could + V1",
+   "body": "Sentence এর শুরুতে Would that থাকলে subject এর পরে could + verb এর base form বসে। অবাস্তব কল্পনা বোঝাতে 'Would that + subject + could + base form + extension' ব্যবহৃত হয়। আমি যদি আবার শিশু হতে পারতাম! - Would that I could be a child again!",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0113",
+   "kind": null,
+   "title": "Active না Passive",
+   "body": "বাক্যের Subject এ যদি ক্রিয়ার কর্তা (agent/doer-কার্য সম্পাদনকারী) উল্লেখ থাকলে বাক্যটি Active হবে। কিন্তু বাক্যের Subject এ agent না থেকে agent এর কাজের বিষয়বস্তু বা কর্ম থাকলে বাক্যটি Passive হবে।",
+   "topic": "পর্ব গ — Modal, Passive ও Negative"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0114",
+   "kind": null,
+   "title": "But for — না হলে / ছাড়া",
+   "body": "(--) ছাড়া, নইলে, না + অসমাপিকা ক্রিয়া অর্থে But for ব্যবহৃত হয়। But for নিচের গঠন অনুসরণ করে। But for + noun phrase, Subject + would have + Vpp অথবা would + be + Extension.\nBut for your warning, I would have crushed the car. (তুমি সতর্ক না করলে আমি কারটিকে ধাক্কা লাগাতাম) But for a knee injury, Masrafee would have played. (হাঁটুর ইনজুরি না হলে মাশরাফি খেলত)",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0115",
+   "kind": null,
+   "title": "নাটক/উপন্যাস, ধারাভাষ্য ও Fixed timetable — Present Indefinite",
+   "body": "নাটক, উপন্যাস ইত্যাদির ঘটনা বর্ণনা করতে, খেলাধুলা অথবা সরকারী অনুষ্ঠানের ধারাভাষ্য দিতে present indefinite tense ব্যবহৃত হয়। The novel ends with the death of the hero. Bangladesh win by five runs.\nFixed timetable এর ভবিষ্যত ঘটনা প্রকাশ করতে present indefinite tense ব্যবহৃত হয়।",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0116",
+   "kind": null,
+   "title": "cannot but / cannot help / cannot help but",
+   "body": "cannot but + base form, cannot help + gerund (verb+ing), cannot help but + base form",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0117",
+   "kind": null,
+   "title": "help + object + V1 / to + V1",
+   "body": "Help + object এর পরে to+base form অথবা base form দুটোই বসে। তবে এখন base form বহুল ব্যবহৃত।",
+   "topic": "পর্ব ঘ — Conditional ও Special Structure"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0118",
+   "kind": null,
+   "title": "It's waste of money/time + V-ing",
+   "body": "It's waste of money/time + verb+ing : It's waste of time reading the book. It is rubbish.",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0119",
+   "kind": null,
+   "title": "denied + having + V3",
+   "body": "denied এর পরে having + past participle বসে অথবা, denied that এর পরে past perfect tense বসে।",
+   "topic": "পর্ব ক — V-ing, to + V1 ও V1 — Non-finite রূপ"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0120",
+   "kind": null,
+   "title": "সংবাদ শিরোনাম — Present Indefinite",
+   "body": "খুব নিকট অতীতে ঘটে যাওয়া বিষয়কে পত্রিকা/সংবাদের শিরোনামে লিখতে present indefinite tense ব্যবহার করা হয়। Child kills father! (সন্তান হত্যা করল বাবাকে!) A former cricket captain passes away today.",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
+  },
+  {
+   "id": "english_2nd_right_form_of_verbs_rules_0121",
+   "kind": null,
+   "title": "Have/has yet to + V1",
+   "body": "কোনো কিছু এখনো করা হয়নি অর্থে Have/has yet to ব্যবহৃত হয়। yet + to + base form; yet + not + Vpp. yet + infinitive থাকলে বাক্যে not এর দরকার নেই কিন্তু yet + past participle থাকলে বাক্যে not এর দরকার।",
+   "topic": "পর্ব খ — Tense ও Subject-Verb Agreement"
   }
  ]
 }

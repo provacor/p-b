@@ -11,14 +11,16 @@
 //   reaction / conversion       → reactants → product, equation → name, conversion → steps
 //   identification             → test → what it identifies, and the reverse
 //   grammar rules / examples    → "which rule is this?" + recall
-//   grammar practice / board    → question → answer (the gap's word, the changed sentence…)
+//   grammar practice / board    → question → answer (the gap's word, the changed sentence…);
+//                                 in a chapter with real MCQs they are recall cards instead, so every
+//                                 multiple-choice question there has the book's own options
 //   mistakes ("ভুল:/সঠিক:")     → which statement is right
 //   graph / diagram (figure)    → which figure is this?
 //   anything with ≥2 steps      → put the steps in order
 //   mind map                    → hint → topic, node → branch, recall
 
-import { isMcq, rightIndex } from './learn.js?v=202610230738';
-import { tocOf } from './views/topic.js?v=202610230738';
+import { isMcq, rightIndex } from './learn.js?v=202610230811';
+import { tocOf } from './views/topic.js?v=202610230811';
 
 export const SOURCES = [
   { id: 'mcq', emoji: '📝', name: 'MCQ' },
@@ -135,6 +137,9 @@ function build(chId) {
     if (steps.length >= 2 && steps.length <= 9) out.orders.push({ id: `${it.id}~or`, ch: chId, title: it.title ?? '', steps, result: it.result ?? '', topic: topicOf.get(it.id) });
   };
 
+  // A chapter with real MCQs plays those as its multiple-choice questions; its practice/board
+  // answers then become recall cards instead of options borrowed from other questions.
+  const hasRealMcq = ch.sections.some((sec) => sec.type === 'mcq' && sec.items.some(isMcq));
   const secs = [...ch.sections].sort((x, y) => (ORDER.indexOf(x.type) + 1 || 99) - (ORDER.indexOf(y.type) + 1 || 99));
   for (const sec of secs) {
     if (sec.computed || ['notes', 'simulation', 'revision', 'numerical', 'progress'].includes(sec.type)) continue;
@@ -145,7 +150,11 @@ function build(chId) {
         continue;
       }
       if (sec.type === 'kha' && it.question && it.answer) { addRecall(it.id, it.id, it.question, it.answer); continue; }
-      if ((sec.type === 'practice' || sec.type === 'board') && it.question && it.answer) { addQA(it.id, it.id, it.question, it.answer, 'drill'); continue; }
+      if ((sec.type === 'practice' || sec.type === 'board') && it.question && it.answer) {
+        if (hasRealMcq) addRecall(it.id, it.id, it.question, it.answer);
+        else addQA(it.id, it.id, it.question, it.answer, 'drill');
+        continue;
+      }
       if (it.question && it.answer) { addQA(it.id, it.id, it.question, it.answer); continue; }
       if (Array.isArray(it.parts)) {
         it.parts.forEach((p, k) => {

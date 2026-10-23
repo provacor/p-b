@@ -382,9 +382,13 @@
       "file": "content/english/english_2nd_preposition_notes.json",
       "count": 1
     },
+    "english_2nd_preposition_mcq": {
+      "file": "content/english/english_2nd_preposition_mcq.json",
+      "count": 337
+    },
     "english_2nd_preposition_rules": {
       "file": "content/english/english_2nd_preposition_rules.json",
-      "count": 17
+      "count": 49
     },
     "english_2nd_preposition_examples": {
       "file": "content/english/english_2nd_preposition_examples.json",
@@ -410,9 +414,13 @@
       "file": "content/english/english_2nd_right_form_of_verbs_notes.json",
       "count": 1
     },
+    "english_2nd_right_form_of_verbs_mcq": {
+      "file": "content/english/english_2nd_right_form_of_verbs_mcq.json",
+      "count": 1136
+    },
     "english_2nd_right_form_of_verbs_rules": {
       "file": "content/english/english_2nd_right_form_of_verbs_rules.json",
-      "count": 38
+      "count": 121
     },
     "english_2nd_right_form_of_verbs_examples": {
       "file": "content/english/english_2nd_right_form_of_verbs_examples.json",
