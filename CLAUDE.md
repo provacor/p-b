@@ -92,12 +92,9 @@ chemistry, biology…) without being asked again.
   extend `gamedata.js` in the same change, rather than leaving that content out of the games.
 - After shipping content, open `#/games/<chapterId>` and check that the new content shows up as
   game sources.
-- The new game zone (`#/arena`, 12 games in `assets/js/arena/`) reads the same `gamedata.js`, so a new
-  chapter appears there automatically, topic by topic and for every content type. Also open
-  `#/arena/chapter/<chapterId>` (that chapter's 12-games page) to check it.
-- The owner wants the 12 games reached from inside each chapter (the chapter page card), not from the
-  home screen. Don't put a 12-games card back on home.
-- Both zones share one learning store (`assets/js/learnstore.js`): mastery is two right answers in a
+- The owner removed the 12-game zone (`#/arena`) — the original game zone (`#/games`) is the only
+  one. Don't bring the 12 games back; old `#/arena` links redirect to `#/games`.
+- The game zone keeps its progress in `assets/js/learnstore.js`: mastery is two right answers in a
   row, XP and coins are paid once per question per day, and one-time rewards are claimed by key. Keep
   it that way so replays never pay twice.
 

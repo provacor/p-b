@@ -1,11 +1,10 @@
 // Game zone screens: all chapters (#/games), a chapter's hub (#/games/<ch>), one topic's games
 // for a content type (#/games/<ch>/<topic>/<source>), and the play screen (#/play/<ch>/<topic>/<mode>).
 
-import { icon } from '../icons.js?v=202610150356';
-import { esc, ring, bar, chapterEyebrow, chapterNo, pad2, emptyState } from '../components.js?v=202610150356';
-import { topicsOf, topicName, questionsOf, recallOf, ordersOf, factIds, sourcesOf, hasGameData, SOURCES, sourceMeta } from '../gamedata.js?v=202610150356';
-import { MODES, SPECIAL, modeCount, levelsOf, levelKey, levelUnlocked, starsOf, bestOf, isMastered, playerLevel, xp, soundOn, startGame, bn, parseMode, modeKey } from '../games.js?v=202610150356';
-import { arenaHomeCard, arenaChapterCard } from './arena.js?v=202610150356';
+import { icon } from '../icons.js?v=202610230738';
+import { esc, ring, bar, chapterEyebrow, chapterNo, pad2, emptyState } from '../components.js?v=202610230738';
+import { topicsOf, topicName, questionsOf, recallOf, ordersOf, factIds, sourcesOf, hasGameData, SOURCES, sourceMeta } from '../gamedata.js?v=202610230738';
+import { MODES, SPECIAL, modeCount, levelsOf, levelKey, levelUnlocked, starsOf, bestOf, isMastered, playerLevel, xp, soundOn, startGame, bn, parseMode, modeKey } from '../games.js?v=202610230738';
 
 export const hasGames = (ch) => ch?.level === 'chapter' && hasGameData(ch.id);
 
@@ -54,8 +53,7 @@ export function fillGamesHomeCard(model) {
 export function gamesBanner(ch) {
   if (!hasGames(ch)) return '';
   const x = chStat(ch);
-  // both game entry points share one grouped card, so the chapter page shows a single game block
-  return `<section class="block"><div class="gm-pair">${bigCard(`#/games/${esc(ch.id)}`, 'গেম জোন — এই অধ্যায় খেলে শেখো', `${emojis(ch.id, 'all')} · ${bn(x.total)}টি প্রশ্ন · আয়ত্তে ${bn(x.pct)}%`, x.pct, 'gm-banner')}${arenaChapterCard(ch.id)}</div></section>`;
+  return `<section class="block">${bigCard(`#/games/${esc(ch.id)}`, 'গেম জোন — এই অধ্যায় খেলে শেখো', `${emojis(ch.id, 'all')} · ${bn(x.total)}টি প্রশ্ন · আয়ত্তে ${bn(x.pct)}%`, x.pct, 'gm-banner')}</section>`;
 }
 
 // #/games: every chapter that has games.
@@ -85,7 +83,6 @@ function gamesIndex(model) {
         ${ring(x.pct, { size: 76, stroke: 6 })}
       </header>
       <p class="muted small gm-help">অধ্যায় বেছে নাও। প্রতিটা টপিকের MCQ, এক কথায় প্রকাশ, জ্ঞানমূলক প্রশ্ন, সূত্র, বিক্রিয়া, শনাক্তকরণ, ধারণা, ভুল-শুদ্ধ, চিত্র আর মাইন্ড ম্যাপ — যেটা যে অধ্যায়ে আছে, সেটা দিয়েই গেম।</p>
-      ${arenaHomeCard()}
       ${html || emptyState({ iconName: 'mcq', title: 'এখনো কোনো অধ্যায়ে গেম নেই', text: 'কনটেন্ট যোগ হলে এখানে গেম খেলা যাবে।' })}`,
   };
 }
@@ -120,7 +117,6 @@ export function gamesView(model, chId, tpId, src) {
         ${ring(s.pct, { size: 76, stroke: 6 })}
       </header>
       <p class="muted small gm-help">এই অধ্যায়ের যা যা আছে — ${emojis(ch.id, 'all')} — সব দিয়ে গেম। একটা প্রশ্ন পরপর ২ বার সঠিক হলে "আয়ত্তে" ধরা হয়; ভুলগুলো আগে ঘুরে আসে। সব টপিক ১০০% হলে পুরো অধ্যায় ক্লিয়ার!</p>
-      ${arenaChapterCard(ch.id)}
       ${rows ? `<section class="block"><div class="block-head"><h2>টপিক বেছে নাও</h2></div><div class="gm-topics">${rows}</div></section>` : ''}
       <section class="block"><a class="gm-topic gm-all tap" href="#/games/${esc(ch.id)}/all"><span class="gm-topic-no">★</span><span class="gm-topic-body"><b>পুরো অধ্যায় মিলিয়ে</b><small>সব টপিকের ${bn(s.total)}টি প্রশ্ন একসাথে — চূড়ান্ত চ্যালেঞ্জ</small></span><span class="gm-topic-pct">${bn(s.pct)}%</span></a></section>`,
   };
