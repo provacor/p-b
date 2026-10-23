@@ -446,6 +446,18 @@
       "file": "content/english/english_2nd_antonym_synonym_mcq.json",
       "count": 902
     },
+    "english_2nd_antonym_synonym_rules": {
+      "file": "content/english/english_2nd_antonym_synonym_rules.json",
+      "count": 2
+    },
+    "english_2nd_antonym_synonym_examples": {
+      "file": "content/english/english_2nd_antonym_synonym_examples.json",
+      "count": 2
+    },
+    "english_2nd_antonym_synonym_board": {
+      "file": "content/english/english_2nd_antonym_synonym_board.json",
+      "count": 485
+    },
     "english_2nd_antonym_synonym_revision": {
       "file": "content/english/english_2nd_antonym_synonym_revision.json",
       "count": 486

@@ -20,8 +20,8 @@
 //   anything with ≥2 steps      → put the steps in order
 //   mind map                    → hint → topic, node → branch, recall
 
-import { isMcq, rightIndex } from './learn.js?v=202610231252';
-import { tocOf } from './views/topic.js?v=202610231252';
+import { isMcq, rightIndex } from './learn.js?v=202610231307';
+import { tocOf } from './views/topic.js?v=202610231307';
 
 export const SOURCES = [
   { id: 'mcq', emoji: '📝', name: 'MCQ' },
@@ -147,11 +147,14 @@ function build(chId) {
     if (sec.computed || ['notes', 'simulation', 'numerical', 'progress'].includes(sec.type)) continue;
     for (const it of sec.items) {
       // a vocabulary list (word → meaning, synonyms, antonyms): "which word is this?"
-      if (it.vocab && it.title) {
+      // (a board row also carries the sentence it was asked in; the word is hidden there)
+      const word = it.vocab && (it.title ?? it.vocab.word);
+      if (word) {
         const v = it.vocab;
         const clue = [v.meaning && `অর্থ: ${v.meaning}`, v.synonyms && `Synonym: ${v.synonyms}`, v.antonyms && `Antonym: ${v.antonyms}`].filter(Boolean).join('\n');
-        add({ id: `${it.id}~vw`, src: 'vocab', q: `নিচের অর্থ ও সমার্থক/বিপরীত শব্দগুলো কোন শব্দের?\n${mask(clue, it.title)}`, a: it.title, kind: 'vword', exp: clue }, it.id);
-        addRecall(it.id, it.id, it.title, clue);
+        const gap = v.sentence ? `বাক্য: ${String(v.sentence).replace(new RegExp(word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), BLANK)}\n` : '';
+        add({ id: `${it.id}~vw`, src: 'vocab', q: `${gap ? 'ফাঁকা জায়গার শব্দটি কোনটি?' : 'নিচের অর্থ ও সমার্থক/বিপরীত শব্দগুলো কোন শব্দের?'}\n${gap}${mask(clue, word)}`, a: word, kind: 'vword', exp: v.sentence ? `${v.sentence}\n${clue}` : clue }, it.id);
+        addRecall(it.id, it.id, v.sentence ? `${word} — ${v.sentence}` : word, clue);
         continue;
       }
       if (sec.type === 'revision') continue;
