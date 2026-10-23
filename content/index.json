@@ -441,6 +441,14 @@
     "english_2nd_right_form_of_verbs_revision": {
       "file": "content/english/english_2nd_right_form_of_verbs_revision.json",
       "count": 25
+    },
+    "english_2nd_antonym_synonym_mcq": {
+      "file": "content/english/english_2nd_antonym_synonym_mcq.json",
+      "count": 902
+    },
+    "english_2nd_antonym_synonym_revision": {
+      "file": "content/english/english_2nd_antonym_synonym_revision.json",
+      "count": 486
     }
   }
 }

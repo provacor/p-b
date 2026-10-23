@@ -1,12 +1,12 @@
 // Search: filters, recent searches, suggestions and grouped, highlighted results.
 
-import { icon } from '../icons.js?v=202610230811';
-import { esc, highlight, subjectGlyph, sectionHue } from '../components.js?v=202610230811';
-import { search } from '../search.js?v=202610230811';
-import { recentSearches } from '../activity.js?v=202610230811';
-import { matchConcepts, conceptById } from '../concepts.js?v=202610230811';
-import { videosOf } from '../videos.js?v=202610230811';
-import { mistakes } from '../mistakes.js?v=202610230811';
+import { icon } from '../icons.js?v=202610231236';
+import { esc, highlight, subjectGlyph, sectionHue } from '../components.js?v=202610231236';
+import { search } from '../search.js?v=202610231236';
+import { recentSearches } from '../activity.js?v=202610231236';
+import { matchConcepts, conceptById } from '../concepts.js?v=202610231236';
+import { videosOf } from '../videos.js?v=202610231236';
+import { mistakes } from '../mistakes.js?v=202610231236';
 
 let model = null;
 export const setSearchModel = (m) => { model = m; };

@@ -14,13 +14,14 @@
 //   grammar practice / board    → question → answer (the gap's word, the changed sentence…);
 //                                 in a chapter with real MCQs they are recall cards instead, so every
 //                                 multiple-choice question there has the book's own options
+//   vocabulary (word+vocab)     → "which word is this?" (meaning, synonyms, antonyms) + recall
 //   mistakes ("ভুল:/সঠিক:")     → which statement is right
 //   graph / diagram (figure)    → which figure is this?
 //   anything with ≥2 steps      → put the steps in order
 //   mind map                    → hint → topic, node → branch, recall
 
-import { isMcq, rightIndex } from './learn.js?v=202610230811';
-import { tocOf } from './views/topic.js?v=202610230811';
+import { isMcq, rightIndex } from './learn.js?v=202610231236';
+import { tocOf } from './views/topic.js?v=202610231236';
 
 export const SOURCES = [
   { id: 'mcq', emoji: '📝', name: 'MCQ' },
@@ -32,6 +33,7 @@ export const SOURCES = [
   { id: 'concept', emoji: '💡', name: 'ধারণা চেনো' },
   { id: 'drill', emoji: '✍️', name: 'অনুশীলন ও বোর্ড প্রশ্ন' },
   { id: 'rule', emoji: '📏', name: 'Rule চেনো' },
+  { id: 'vocab', emoji: '📖', name: 'শব্দ চেনো' },
   { id: 'fix', emoji: '✔️', name: 'ভুল না শুদ্ধ' },
   { id: 'figure', emoji: '🖼️', name: 'চিত্র চেনো' },
   { id: 'map', emoji: '🗺️', name: 'মাইন্ড ম্যাপ' },
@@ -142,8 +144,17 @@ function build(chId) {
   const hasRealMcq = ch.sections.some((sec) => sec.type === 'mcq' && sec.items.some(isMcq));
   const secs = [...ch.sections].sort((x, y) => (ORDER.indexOf(x.type) + 1 || 99) - (ORDER.indexOf(y.type) + 1 || 99));
   for (const sec of secs) {
-    if (sec.computed || ['notes', 'simulation', 'revision', 'numerical', 'progress'].includes(sec.type)) continue;
+    if (sec.computed || ['notes', 'simulation', 'numerical', 'progress'].includes(sec.type)) continue;
     for (const it of sec.items) {
+      // a vocabulary list (word → meaning, synonyms, antonyms): "which word is this?"
+      if (it.vocab && it.title) {
+        const v = it.vocab;
+        const clue = [v.meaning && `অর্থ: ${v.meaning}`, v.synonyms && `Synonym: ${v.synonyms}`, v.antonyms && `Antonym: ${v.antonyms}`].filter(Boolean).join('\n');
+        add({ id: `${it.id}~vw`, src: 'vocab', q: `নিচের অর্থ ও সমার্থক/বিপরীত শব্দগুলো কোন শব্দের?\n${mask(clue, it.title)}`, a: it.title, kind: 'vword', exp: clue }, it.id);
+        addRecall(it.id, it.id, it.title, clue);
+        continue;
+      }
+      if (sec.type === 'revision') continue;
       if (sec.type === 'mcq' || isMcq(it)) {
         const r = rightIndex(it);
         if (isMcq(it) && r >= 0 && it.options.length >= 2) add({ id: it.id, src: 'mcq', q: it.question, opts: it.options.map(String), right: r, exp: it.explanation ?? '' }, it.id);

@@ -1,11 +1,11 @@
 // Progress analytics. Only real data: completions and this device's study history.
 
-import { icon } from '../icons.js?v=202610230811';
-import { openMistakes } from '../mistakes.js?v=202610230811';
-import { esc, plural, ring, bar, subjectGlyph, chapterNo, pad2 } from '../components.js?v=202610230811';
-import { progressOf } from '../progress.js?v=202610230811';
-import { dayKey, dayScore, streak, hasActivity } from '../activity.js?v=202610230811';
-import { totals } from './shared.js?v=202610230811';
+import { icon } from '../icons.js?v=202610231236';
+import { openMistakes } from '../mistakes.js?v=202610231236';
+import { esc, plural, ring, bar, subjectGlyph, chapterNo, pad2 } from '../components.js?v=202610231236';
+import { progressOf } from '../progress.js?v=202610231236';
+import { dayKey, dayScore, streak, hasActivity } from '../activity.js?v=202610231236';
+import { totals } from './shared.js?v=202610231236';
 
 function heatmap() {
   const weeks = 16;
