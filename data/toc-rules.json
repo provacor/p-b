@@ -56,6 +56,73 @@
         "পর্ব ৮ — বোর্ডের শব্দ (বাক্যসহ): N–R",
         "পর্ব ৯ — বোর্ডের শব্দ (বাক্যসহ): S–Z"
       ]
+    },
+    "english_admission_2nd_tense": {
+      "topics": [
+        "Tense — পরিচিতি",
+        "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+        "Past Tense",
+        "Future Tense",
+        "Sequence of Tenses"
+      ]
+    },
+    "english_admission_2nd_voice_change": {
+      "topics": [
+        "Active ও Passive Voice — নিয়ম ও চেনা",
+        "Tense অনুযায়ী Passive (Indefinite • Continuous • Perfect • Future)",
+        "Reflexive, Imperative, Interrogative ও বিশেষ Passive",
+        "by ছাড়া অন্য Preposition, Group Verb ও Double Object",
+        "Modal, going to, have to ও used to — Passive",
+        "Quasi-passive, Factitive, Infinitive ও অন্যান্য বিশেষ নিয়ম",
+        "Complex Sentence, Indefinite Subject ও Subject+verb অপরিবর্তিত",
+        "ব্যতিক্রম ও মিশ্র অনুশীলন"
+      ]
+    },
+    "english_admission_2nd_pronoun": {
+      "topics": [
+        "Pronoun — সংজ্ঞা ও প্রকারভেদ",
+        "Personal Pronoun — 231/123 নিয়ম, Subjective ও Objective form",
+        "Be verb এর পরে Subjective form, Possessive ও Gerund",
+        "Reflexive ও Emphatic Pronoun",
+        "Demonstrative ও অন্যান্য Pronoun",
+        "Indefinite Pronoun — one of, one's, everyone",
+        "Interrogative ও Relative Pronoun",
+        "Distributive ও Reciprocal Pronoun",
+        "Pronoun-Antecedent Agreement ও মিশ্র অনুশীলন"
+      ]
+    },
+    "english_admission_2nd_subject_verb_agreement": {
+      "topics": [
+        "Subject-Verb Agreement — মৌলিক নিয়ম ও নামবাচক Subject",
+        "Plural Subject, Pair, Adjective ও One and a half",
+        "and দ্বারা যুক্ত Subject",
+        "with, as well as, along with … ও The + adjective",
+        "Either…or, Neither…nor, Many a ও Gerund/Infinitive/Clause",
+        "Time/Distance/Money ও Preposition-যুক্ত Subject",
+        "One of, Each of, Neither of ও one of … who",
+        "Fraction, Percent, No ও A lot of",
+        "It/Who, Relative pronoun, More than one ও A number of",
+        "Here/There, Few/Many/Some, None ও Everyone",
+        "Both, Most of, Collective Noun ও Police/People/Cattle",
+        "Your Turn — মিশ্র অনুশীলন"
+      ]
+    },
+    "english_admission_2nd_parts_of_speech": {
+      "topics": [
+        "Parts of Speech — পরিচিতি ও Noun এর প্রকারভেদ",
+        "Parts of Speech চেনার উপায় (Suffix, -ly ব্যতিক্রম, Noun as verb)",
+        "Interchange of Parts of Speech (Noun–Verb–Adjective–Adverb)",
+        "Derivatives — Root, Prefix ও Suffix",
+        "Position of Parts of Speech — Determiner ও Noun এর অবস্থান",
+        "Position of Adjective in a sentence",
+        "Position of Verb in a sentence",
+        "Position of Adverb in a sentence",
+        "Position of Preposition in a sentence",
+        "Position of Conjunction ও Interjection",
+        "Complement ও Miscellaneous questions",
+        "Your Turn — মিশ্র অনুশীলন",
+        "Same Word used as Different Parts of Speech"
+      ]
     }
   }
 }

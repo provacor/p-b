@@ -1,0 +1,832 @@
+{
+ "sectionId": "english_admission_2nd_tense_mcq",
+ "updated": "2026-10-23",
+ "items": [
+  {
+   "id": "english_admission_2nd_tense_mcq_0001",
+   "kind": null,
+   "topic": "Tense — পরিচিতি",
+   "question": "Tense means —",
+   "options": [
+    "Action",
+    "Speed",
+    "Time",
+    "Verb",
+    "Adverb"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0002",
+   "kind": null,
+   "topic": "Tense — পরিচিতি",
+   "question": "The tense of a verb is mainly related to:",
+   "options": [
+    "time",
+    "person",
+    "place",
+    "degree"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0003",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "The 'Present Indefinite Tense' denotes ---- .",
+   "options": [
+    "An action in the present time, habitual or eternal",
+    "An action is continued for a time in present",
+    "An action has already been finished at present",
+    "None of them"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0004",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "Habitual fact is expressed only in-",
+   "options": [
+    "present perfect tense.",
+    "present indefinite tense",
+    "past perfect tense",
+    "past indefinite tense"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0005",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "Which of the following is an example of active and present indefinite tense?",
+   "options": [
+    "He is writing a letter",
+    "I have invited them",
+    "He has done the work.",
+    "Floods destroy crops"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0006",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "Find out the tense of the following sentence: Let it be done.",
+   "options": [
+    "Present indefinite",
+    "Past indefinite",
+    "Present perfect",
+    "Past perfect"
+   ],
+   "correctAnswer": "0",
+   "explanation": "Imperative sentence (Active অথবা Passive) present indefinite tense হয়ে থাকে।"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0007",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "The example of present progressive is ---",
+   "options": [
+    "Walking is a good exercise",
+    "He was reading a book",
+    "You have had your meal",
+    "They are gossiping"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0008",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "Find out the tense of the sentence: It is interesting.",
+   "options": [
+    "Present indefinite",
+    "Present continuous",
+    "Present perfect",
+    "None of them"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0009",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "Which of the sentence the future, even the verb is not future tense?",
+   "options": [
+    "Maria is banana.",
+    "John is flying for Germany next week.",
+    "He is probably watching TV.",
+    "She has gone for some shopping."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0010",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "Which one is present continuous tense?",
+   "options": [
+    "I read",
+    "I am reading",
+    "I have read",
+    "I had read"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0011",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "Which one is present perfect tense?",
+   "options": [
+    "I am walking",
+    "I have been walking",
+    "I was walking",
+    "I have walked"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0012",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "কোনটি present perfect tense এর উদাহরণ?",
+   "options": [
+    "I have had the news.",
+    "I have the news",
+    "I shall have the news",
+    "I had the news"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0013",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "Which one is present perfect tense?",
+   "options": [
+    "I am reading",
+    "I have read",
+    "I read",
+    "I have been reading"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0014",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "I have done my duty.",
+   "options": [
+    "present indefinite",
+    "present perfect",
+    "past perfect"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0015",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "Change the following sentence into present perfect. I do the sum.",
+   "options": [
+    "I have done the sum.",
+    "I was doing the sum.",
+    "The sum was done by me.",
+    "I did the sum."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0016",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "The tense of verb in the sentence 'She has broken the pot.' is :",
+   "options": [
+    "Past indefinite",
+    "Past continuous",
+    "Present indefinite",
+    "Present perfect"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0017",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "'She has been reading the book since morning.' This is an example of-",
+   "options": [
+    "past perfect tense",
+    "present continuous tense",
+    "present perfect tense",
+    "present perfect continuous tense"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0018",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "'It has been raining hard all day.' This is an example of-",
+   "options": [
+    "present indefinite tense",
+    "present perfect continuous tense",
+    "present continuous tense",
+    "present perfect tense"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0019",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "'He has been studying in the same class for two years' Identify the tense:",
+   "options": [
+    "Present perfect tense",
+    "Past perfect tense",
+    "Present perfect continuous tense",
+    "Present continuous tense"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0020",
+   "kind": null,
+   "topic": "Present Tense (Indefinite • Continuous • Perfect • Perfect Continuous)",
+   "question": "The sentence, 'I have been doing' is -",
+   "options": [
+    "Present Indefinite",
+    "Present Continuous",
+    "Present Perfect",
+    "Present Perfect Continuous"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0021",
+   "kind": null,
+   "topic": "Past Tense",
+   "question": "'Past Indefinite Tense' means ---- .",
+   "options": [
+    "To express an action just finished",
+    "A single act in the past",
+    "An action was being done in the past",
+    "An action completed before another past action"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0022",
+   "kind": null,
+   "topic": "Past Tense",
+   "question": "I read an interesting book few days ago. (Identify the tense)",
+   "options": [
+    "Present indefinite",
+    "Present perfect",
+    "Past indefinite",
+    "Past perfect"
+   ],
+   "correctAnswer": "2",
+   "explanation": "Read এর present form এবং past form একই কিন্তু বাক্যটিতে ago থাকায় তা past indefinite tense কে নির্দেশ করে"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0023",
+   "kind": null,
+   "topic": "Past Tense",
+   "question": "Which sentence is in past indefinite tense?",
+   "options": [
+    "Tomal has played football.",
+    "Salam had a house.",
+    "Boys were playing.",
+    "It has rained."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0024",
+   "kind": null,
+   "topic": "Past Tense",
+   "question": "Which of the following is in past indefinite tense?",
+   "options": [
+    "Raihan was sleeping.",
+    "It was raining.",
+    "It has been raining.",
+    "Shohail had car"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0025",
+   "kind": null,
+   "topic": "Past Tense",
+   "question": "'They were disturbing us' is an example of- / I was reading a novel.",
+   "options": [
+    "present continuous tense",
+    "past perfect tense",
+    "past continuous tense",
+    "past indefinite tense"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0026",
+   "kind": null,
+   "topic": "Past Tense",
+   "question": "'The Past Continuous Tense' means ---- .",
+   "options": [
+    "An action was being done in the past",
+    "A single act in the past",
+    "Action has been going on for something",
+    "An action just finished"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0027",
+   "kind": null,
+   "topic": "Past Tense",
+   "question": "The construction of past perfect follows -",
+   "options": [
+    "I have spoken",
+    "He has eaten",
+    "I have gone",
+    "He had spoken the truth"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0028",
+   "kind": null,
+   "topic": "Past Tense",
+   "question": "The patient had died before the doctor came. কোন tense এর উদাহরণ?",
+   "options": [
+    "Past and present",
+    "Present prefect",
+    "Past perfect",
+    "Past perfect continuous"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0029",
+   "kind": null,
+   "topic": "Past Tense",
+   "question": "'The patient had died' Which form of tense does the sentence represent?",
+   "options": [
+    "Present perfect",
+    "Past indefinite",
+    "Past perfect",
+    "Future perfect"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0030",
+   "kind": null,
+   "topic": "Past Tense",
+   "question": "Past perfect Continuous form of 'I eat' is-",
+   "options": [
+    "I have eaten",
+    "I am eating",
+    "I had been eating",
+    "I shall be eating"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0031",
+   "kind": null,
+   "topic": "Past Tense",
+   "question": "Could you please help me? Here 'could' is used as – / 'Would you mind having a cup of tea' is a sentence in-",
+   "options": [
+    "Present tense",
+    "Present continuous tense",
+    "past tense",
+    "past continuous tense"
+   ],
+   "correctAnswer": "2",
+   "explanation": "বিনয়, ভদ্রতা বা অনুমোদন প্রকাশ করতে present/Future Tense এর পরিবর্তে past tense ব্যবহৃত হয়।"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0032",
+   "kind": null,
+   "topic": "Future Tense",
+   "question": "'I shall be eating (আমি খেতে থাকিব)' is an example of — tense.",
+   "options": [
+    "Future perfect",
+    "Future continuous",
+    "Future indefinite",
+    "None of these"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0033",
+   "kind": null,
+   "topic": "Future Tense",
+   "question": "আমি বইটি পড়িতে থাকিব। বাক্যটির ইংরেজি হবে-",
+   "options": [
+    "I shall reading the book.",
+    "I can be reading the book.",
+    "I shall be reading the book.",
+    "I should reading the book."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0034",
+   "kind": null,
+   "topic": "Future Tense",
+   "question": "He will have gone home. Choose the correct form of tense.",
+   "options": [
+    "future perfect tense",
+    "future indefinite",
+    "future continuous",
+    "future perfect continuous"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0035",
+   "kind": null,
+   "topic": "Future Tense",
+   "question": "Choose the Future Perfect Continuous tense of the verb 'Do' (Third person, plural number)",
+   "options": [
+    "They will have been doing.",
+    "They will be doing.",
+    "They will have done.",
+    "They will have to be doing."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0036",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "He said that he – be unable to come. / He said that he – be faithful to his promise. (সে বলল সে তা প্রতিশ্রুতিতে অটল থাকবে)",
+   "options": [
+    "will",
+    "may",
+    "would",
+    "wants"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0037",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "As the sun —, I decided to go out.",
+   "options": [
+    "has shone",
+    "shine",
+    "shines",
+    "was shining"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0038",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "He promised that he — come next Monday.",
+   "options": [
+    "will",
+    "should",
+    "can",
+    "would"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0039",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "Nobody knew that he — face a crisis.",
+   "options": [
+    "can",
+    "may",
+    "will",
+    "would"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0040",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "He said that he (go) home the next day. (সে বলল যে সে পরের দিন বাড়ি যাবে)",
+   "options": [
+    "will go",
+    "goes",
+    "has go",
+    "would go"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0041",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "He said that ——. [সে বলল যে সে পাঁচটায় আসতে পারবে না]",
+   "options": [
+    "he will not come at five",
+    "he may not come at five",
+    "he could not come at five",
+    "he cannot come at five"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0042",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "I could not even imagine ———. The missing clause is:",
+   "options": [
+    "that you deceive me",
+    "that you will deceive me",
+    "that you would deceive me",
+    "that I will deceive you"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0043",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "We hoped that she — able to return in time.",
+   "options": [
+    "will be",
+    "would be",
+    "can be",
+    "likely to be"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0044",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "Father told me that he ---- . (বাবা বললেন যে তিনি আমাকে সাহায্য করবেন)",
+   "options": [
+    "will help me",
+    "would be help me",
+    "will be helping me",
+    "would help me",
+    "had help me"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0045",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "Choose the correct sentence.",
+   "options": [
+    "He thought that it is raining.",
+    "He thought that it will be raining.",
+    "He thought that it will rain.",
+    "He thought that it would rain."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0046",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "I never thought I — you again. (আমি কখনো ভাবিনি তোমার সাথে আবার দেখা হবে)",
+   "options": [
+    "will see",
+    "may see",
+    "would see",
+    "might see"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0047",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "We prayed that she — able to return in time.",
+   "options": [
+    "will be",
+    "may be",
+    "would be",
+    "being"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0048",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "Did you buy any fruit when you – shopping?",
+   "options": [
+    "go",
+    "gone",
+    "were going",
+    "went"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0049",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "I thought that the grass – cutting. (আমি ভেবেছিলাম ঘাসগুলোর ছাঁটাই দরকার)",
+   "options": [
+    "needed",
+    "needs",
+    "need",
+    "had need"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0050",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "We knew he — be angry if we did not finish the work.",
+   "options": [
+    "would",
+    "can",
+    "will",
+    "ought to"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0051",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "We thought that she — the job. (আমরা ভেবেছিলাম সে চাকরিটা পাবে)",
+   "options": [
+    "gets",
+    "is getting",
+    "will get",
+    "would get"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0052",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "As we walked, he — the meaning of the book.",
+   "options": [
+    "explaining",
+    "explain",
+    "explained",
+    "explanation"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0053",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "I asked her if she – before she started to school.",
+   "options": [
+    "could read",
+    "reads",
+    "can read",
+    "is reading",
+    "reading"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0054",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "He said that he —. (সে বলল যে সে যাচ্ছে)",
+   "options": [
+    "is going",
+    "has gone",
+    "was going",
+    "has been going"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0055",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "When I saw her leaving in a hurry, I – her where she was going.",
+   "options": [
+    "have asked",
+    "was asking",
+    "asked",
+    "had asked"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0056",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "Those (be) costly items, she bought. (সে যা কিনলো সেগুলো দামি সামগ্রী ছিল) / They – expensive combs, she knew. / I knew that they – horribly expensive.",
+   "options": [
+    "were",
+    "are",
+    "have been",
+    "had been"
+   ],
+   "correctAnswer": "0",
+   "explanation": "Those/They হচ্ছে plural subject এবং she bought, she knew আছে বিধায় are এর পরিবর্তে were হবে।"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0057",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "Which one of the following is correct?",
+   "options": [
+    "I thought he loves me.",
+    "I thought he loved me.",
+    "I thought he will love me.",
+    "I thought he may love me."
+   ],
+   "correctAnswer": "1",
+   "explanation": "আমি ভেবেছিলাম সে আমাকে ভালোবাসে"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0058",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "It seemed that — . (মনে হল দিনটি কখনোই শেষ হবে না)",
+   "options": [
+    "the day will never end",
+    "the day would never end",
+    "the day never ends",
+    "the day never ended"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0059",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "Ancient people believed that -- with a sun and a moon rotating around it.",
+   "options": [
+    "the earth was the center of the universe",
+    "the earth is the center of the universe",
+    "the center of the universe is earth",
+    "the universe has earth at the center"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0060",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "Which one is the correct sentence?",
+   "options": [
+    "He said that the earth goes round the sun.",
+    "He said that the earth went round the sun.",
+    "He said that the earth had gone round the sun.",
+    "He had said that the earth had been going round the sun."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0061",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "He did not know that the earth (move) around the sun.",
+   "options": [
+    "is move",
+    "moves",
+    "moved",
+    "has moved"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0062",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "Galileo taught that the earth — around the sun.",
+   "options": [
+    "revolves",
+    "revolved",
+    "will be revolving",
+    "have been revolving"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_tense_mcq_0063",
+   "kind": null,
+   "topic": "Sequence of Tenses",
+   "question": "Galileo discovered that the earth ——— the sun.",
+   "options": [
+    "moved round",
+    "moves round",
+    "had moved round",
+    "would move round"
+   ],
+   "correctAnswer": "1"
+  }
+ ]
+}

@@ -1,0 +1,377 @@
+{
+ "sectionId": "english_admission_2nd_voice_change_concept",
+ "updated": "2026-10-23",
+ "items": [
+  {
+   "id": "english_admission_2nd_voice_change_concept_0001",
+   "kind": null,
+   "title": "Active থেকে Passive করার নিয়ম",
+   "body": "Active voice কে নিম্নোক্ত নিয়মে passive voice এ পরিবর্তিত করা হয়।\n❶ Active voice এর object টি passive voice এর subject হয়। Active voice এর object টি personal pronoun হলে passive voice এ তার subjective form ব্যবহার করতে হয়। যেমন: me থাকলে I, him থাকলে He, her থাকলে She, them থাকলে They, us থাকলে We ইত্যাদি\n❷ Active voice এর tense এবং object (passive এর subject ও নিয়ম) অনুসারে auxiliary verb বসে।\n❸ মূল verb এর past participle/V3 হয় এবং তার পরে সাধারণত by বসে। তবে, appropriate prepositions অনুসারে V3 এর পরে to, with, at, in, about ইত্যাদি prepositionও বসতে পারে।\n❹ Active voice এর subject টি passive voice এর object হয় এবং Active voice এর subject টি personal pronoun হলে passive voice এ by/to/with/at/in/about ইত্যাদি এর পরে objective form ব্যবহার করতে হয়। যেমন: I থাকলে me, He থাকলে him, She থাকলে her, They থাকলে them, We থাকলে us ইত্যাদি। কারণ, preposition এর পরে সর্বদাই personal pronoun এর objective form বসে।\nActive: He likes me. Passive : I am liked by him.",
+   "topic": "Active ও Passive Voice — নিয়ম ও চেনা"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0002",
+   "kind": null,
+   "title": "Object singular দেখালেও plural (the + adjective, mice, people, the police)",
+   "body": "Active voice এর object কে passive voice এর subject হিসেবে ব্যবহার করার সময় খুব সতর্ক হতে হয়। কারণ, অনেক object দেখতে singular হলেও আসলে plural হিসেবে ব্যবহৃত হয়। যেমন: the + adjective (the brave, the rich, the poor, the old, the lazy), mice (mouse এর plural), adjective + people (idle people, common people), the police ইত্যাদি।\nActive : We don't like idle people. Passive: Idle people are not liked by us.\nActive : Fortune favours the brave. Passive: The brave are favoured by fortune.\nActive : Cats kill mice. Passive: Mice are killed by cats.\nActive: We informed the police of the matter. Passive: The police were informed of the matter.",
+   "topic": "Active ও Passive Voice — নিয়ম ও চেনা"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0003",
+   "kind": null,
+   "title": "সাহায্যকারী Verb বিহীন Active → Passive (Present/Past Indefinite)",
+   "body": "Active : Subject (Agent-কাজ সম্পাদনকারী) + verb + Object. এক্ষেত্রে verb এর পূর্বে do/does/did + not অথবা, পরে e/es/ed অথবা অনিয়মিত V2 থাকে।\nPassive : Object টি Subject হয় + (am/is/are/was/were) + V3 + by + Subject টি Object হয়।\nN.B. Active voice টি Present tense হলে am/is/are এবং Past tense হলে was/were বসে।\nBBC broadcast the breaking news → The breaking news was broadcast by BBC. প্রথমত, sentence টি past indefinite tense এ আছে এবং news সর্বদাই singular হিসেবে ব্যবহৃত হয় বিধায় এর পরে auxiliary verb হিসেবে was বসবে। দ্বিতীয়ত, broadcast এর Vpp/V3 হচ্ছে broadcast",
+   "topic": "Tense অনুযায়ী Passive (Indefinite • Continuous • Perfect • Future)"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0004",
+   "kind": null,
+   "title": "Am/is/are/was/were + V1+ing যুক্ত Active → Passive (Continuous)",
+   "body": "Active : Subject + am/is/are/was/were + V1+ing + Object.\nPassive : Object টি Subject হয় + am/is/are/was/were + being + V3 + by + Subject টি Object হয়\nN.B. Active voice টি Present continuous হলে am/is/are এবং Past continuous হলে was/were বসে।",
+   "topic": "Tense অনুযায়ী Passive (Indefinite • Continuous • Perfect • Future)"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0005",
+   "kind": null,
+   "title": "Have/Has/had + V3 যুক্ত Active → Passive (Perfect)",
+   "body": "Active : Subject + have/has/had + V3 + Object.\nPassive : Object টি Subject হয় + have/has/had + been + V3 + by + Subject টি Object হয়\nN.B. Active voice টি Present perfect হলে have/has এবং Past perfect হলে had বসে।",
+   "topic": "Tense অনুযায়ী Passive (Indefinite • Continuous • Perfect • Future)"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0006",
+   "kind": null,
+   "title": "Have/has/had + been + V1+ing যুক্ত Active → Passive (Perfect Continuous)",
+   "body": "Active : Subject + have/has/had + been + V1+ing + Object.\nPassive : Object টি Subject হয় + have/has/had + been being + V3 + by + Subject টি Object হয়",
+   "topic": "Tense অনুযায়ী Passive (Indefinite • Continuous • Perfect • Future)"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0007",
+   "kind": null,
+   "title": "Shall/will + V1 যুক্ত Active → Passive (Future Indefinite)",
+   "body": "Active : Sub+ shall/ will + V1 + Object.\nPassive : Object টি Subject হয় + shall/ will + be + V3 + by + Subject টি Object হয়",
+   "topic": "Tense অনুযায়ী Passive (Indefinite • Continuous • Perfect • Future)"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0008",
+   "kind": null,
+   "title": "Shall/will + be + V1+ing যুক্ত Active → Passive (Future Continuous)",
+   "body": "Active : Sub + shall/ will + be + V1+ing + Object\nPassive : Object টি Subject হয় + shall/will + be + being + V3 + by + Subject টি Object হয়",
+   "topic": "Tense অনুযায়ী Passive (Indefinite • Continuous • Perfect • Future)"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0009",
+   "kind": null,
+   "title": "Reflexive Pronoun যুক্ত Active → Passive",
+   "body": "Reflexive pronoun (himself, herself, myself, themselves, ourselves etc.) কখনো Subject হয় না। তাই এদের Active voice হতে Passive voice করার সময় Subject এবং object এর অবস্থান অপরিবর্তিত থাকে।\nActive : Subject + verb + Reflexive Object\nPassive : Subject অপরিবর্তিত + tense অনুযায়ী Auxiliary verb + V3 + by + Reflexive Object",
+   "topic": "Reflexive, Imperative, Interrogative ও বিশেষ Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0010",
+   "kind": null,
+   "title": "Reciprocal pronoun যুক্ত Active → Passive",
+   "body": "Reciprocal pronoun (each other, one another) কখনো Subject হয় না। তাই এদের Active voice হতে Passive voice করার সময় Subject এবং object এর অবস্থান অপরিবর্তিত থাকে।\nActive : Subject + verb + Reciprocal Object\nPassive : Subject অপরিবর্তিত + tense অনুযায়ী Auxiliary verb + V3 + by + Reciprocal Object",
+   "topic": "Reflexive, Imperative, Interrogative ও বিশেষ Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0011",
+   "kind": null,
+   "title": "Imperative: মূল verb দ্বারা শুরু",
+   "body": "মূল verb দ্বারা শুরু হলে Active voice থেকে Passive voice এ পরিবর্তনের নিয়মঃ\nActive: V1 + Object — Passive: Let + Object + be + V3\nActive: Do it/the work. (এটা/কাজ করো) Passive: Let it/the work be done. (এটা/কাজটা করা হোক)\nActive: Eat the cake. (কেকটা খাও) Passive: Let the cake be eaten. (কেকটা খাওয়া হোক)\nতবে যে সকল Imperative Sentence দ্বারা নৈতিক বা বাস্তবিক অপরিহার্য উপদেশ বোঝায় সে সকল ক্ষেত্রে Let না থাকলে should be ব্যবহার করে Passive voice করা যায়।\nActive: Keep your word. Passive: Your word should be kept.\nActive: Obey your teacher. Passive: Your teacher should be obeyed.",
+   "topic": "Reflexive, Imperative, Interrogative ও বিশেষ Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0012",
+   "kind": null,
+   "title": "Imperative: Do not দ্বারা শুরু",
+   "body": "Active : Do not + মূল verb এর base form + Object — Passive : Let not + Object + be + V3\nActive : Do not look down upon the poor. Passive : Let not the poor be looked down upon.\nN.B. Object টি pronoun হলে pronoun এর পরে not বসে। Active : Do not hate him. Passive : Let him not be hated.",
+   "topic": "Reflexive, Imperative, Interrogative ও বিশেষ Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0013",
+   "kind": null,
+   "title": "Imperative: Let + ব্যক্তিবাচক Object",
+   "body": "Let + ব্যক্তিবাচক Object (me, us, them, him, her) দ্বারা শুরু বাক্যের Passive এ রূপান্তর\nActive : Let + ব্যক্তিবাচক Object + V1 (present form) + বস্তুবাচক object\nPassive : Let + বস্তুবাচক object + be + V3 + by + ব্যক্তিবাচক Object",
+   "topic": "Reflexive, Imperative, Interrogative ও বিশেষ Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0014",
+   "kind": null,
+   "title": "Imperative: Never যুক্ত",
+   "body": "Active : Never + মূল verb এর base form + object (noun).\nPassive : Let never + object + be + V3. অথবা, Let + not + object + ever + be + V3.\nActive : Never tell a lie. Passive : Let never a lie be told. অথবা, Let not a lie ever be told.",
+   "topic": "Reflexive, Imperative, Interrogative ও বিশেষ Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0015",
+   "kind": null,
+   "title": "Imperative: Please/Kindly — You are requested to",
+   "body": "সাধারণত Imperative sentence এর Active voice এ Please অথবা Kindly থাকলে Passive voice এ Please অথবা Kindly এর পরিবর্তে You are requested to ব্যবহৃত হয় এবং এর পরে Principal verb থেকে বাকি অংশ অপরিবর্তিত থাকে। Negative বাক্যের ক্ষেত্রে to এর পূর্বে not বসবে। তবে Please/Kindly না থাকলেও বাক্যটি intransitive verb (Go there, Come here) দিয়ে শুরু হলে এবং অনুরোধ বুঝালে এই নিয়মে হতে পারে।\ne.g. Active: Come here. Passive : You are requested to come here.\nব্যতিক্রম: Active: Prepare for the worst. Passive : Be prepared for the worst.\nPassive voice এর শুরুতে You are requested to থাকলে active voice এ You are requested to উঠে যায় এবং transitive verb এর ক্ষেত্রে প্রথমে please/kindly বসে।",
+   "topic": "Reflexive, Imperative, Interrogative ও বিশেষ Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0016",
+   "kind": null,
+   "title": "Imperative: দুইটি object",
+   "body": "Active voice এ Imperative sentence এর verb এর দুইটি object থাকলে passive voice এ Let এর পরে direct object (verb কে কি দিয়ে প্রশ্ন করে যে object পাওয়া যায়/সাধারণত বস্তুবাচক) ব্যবহার করতে হবে এবং indirect object (verb কে কাকে দিয়ে প্রশ্ন করে যে object পাওয়া যায়/সাধারণত ব্যক্তিবাচক) এর পূর্বে to (কে/প্রতি/নিকট বুঝালে) অথবা for (জন্য বুঝালে) ব্যবহার করতে হবে। তবে to/for না ব্যবহার করলেও চলে।\nActive : verb + ind.object + di.object {Give me your watch-আমাকে তোমার ঘড়ি দাও} Passive: Let +di.object + be +V3 + to +ind.object {Let your watch be given to me.}\nActive : verb + indirect object + di. object {Pluck me a flower- আমার জন্য একটি ফুল তোল} Passive: Let +di.object + be +V3+ for + ind.object {Let a flower be plucked for me.}",
+   "topic": "Reflexive, Imperative, Interrogative ও বিশেষ Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0017",
+   "kind": null,
+   "title": "Imperative: Spread & put up — Have দিয়ে শুরু",
+   "body": "Spread & put up ইত্যাদি দ্বারা শুরু imperative Sentence এর Passive টি Let এর পরিবর্তে Have দ্বারা শুরু হয়। তারপর Object এবং তারপর be verb না বসে সরাসরি Past Participle বসে।\nActive: Put up a tent here. (এখানে তাঁবু খাটাও) Passive: Have a tent put up here.",
+   "topic": "Reflexive, Imperative, Interrogative ও বিশেষ Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0018",
+   "kind": null,
+   "title": "Interrogative: Do/Does/Did দ্বারা শুরু",
+   "body": "Active : Do/Does/Did + subject + verb (base form) + object ?\nPassive : am/is/are/was/were + object + V3 + by + subject +? [Do/Does থাকলে am/is/are]\nমনে রাখতে হবে, not সর্বদাই noun এর আগে কিন্তু pronoun এর পরে ব্যবহৃত হয়।",
+   "topic": "Reflexive, Imperative, Interrogative ও বিশেষ Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0019",
+   "kind": null,
+   "title": "Interrogative: Am/Is/Are/Was/Were + verb-ing দ্বারা শুরু",
+   "body": "Active: Am/Is/Are/Was/Were + subject + verb-ing + object +?\nPassive: Am/Is/Are/Was/Were + object + being + V3+ by +subject +?",
+   "topic": "Reflexive, Imperative, Interrogative ও বিশেষ Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0020",
+   "kind": null,
+   "title": "Interrogative: Who যুক্ত",
+   "body": "Passive: By/To/With whom + auxiliary verb (tense অনুযায়ী) + subject + V3 +?\nor, Who + auxiliary verb (tense অনুযায়ী) + subject + V3 + by +?\nN.B. auxiliary verb দুইটি হলে প্রথমটি subject এর পূর্বে এবং দ্বিতীয়টি subject এর পরে বসে।",
+   "topic": "Reflexive, Imperative, Interrogative ও বিশেষ Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0021",
+   "kind": null,
+   "title": "Interrogative: Whom যুক্ত",
+   "body": "Passive: Who + auxiliary verb (tense অনুযায়ী) + V3 +by+ object +?",
+   "topic": "Reflexive, Imperative, Interrogative ও বিশেষ Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0022",
+   "kind": null,
+   "title": "Interrogative: What যুক্ত",
+   "body": "Active : What + do/does/did + subject + verb+? Passive : What + am/is/are/was/were + object + V3 + by + subject +?\nActive : What + verb + object+? Passive : By what + aux. verb + object + V3 +?",
+   "topic": "Reflexive, Imperative, Interrogative ও বিশেষ Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0023",
+   "kind": null,
+   "title": "Interrogative: Why/When/Where/How দ্বারা শুরু",
+   "body": "Active : Why/When/Where/How + auxiliary verb + subject + verb + object +?\nPassive : Why/When/Where/How + auxiliary verb (tense অনুযায়ী) + object + V3 + by +sub +?\nN.B. auxiliary verb দুইটি হলে প্রথমটি subject এর আগে এবং দ্বিতীয়টি subject এর পরে বসে।",
+   "topic": "Reflexive, Imperative, Interrogative ও বিশেষ Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0024",
+   "kind": null,
+   "title": "Please/Kindly + double object — May দিয়ে Passive",
+   "body": "Imperative sentence এ verb + double object এর সাথে Please/Kindly থাকলে Please/Kindly এর পরিবর্তে You are requested to ছাড়াও may ব্যবহার করেও নিম্নোক্তভাবে passive voice করা যায়।\nActive voice : Please/Kindly grant me two days' leave.\nPassive voice 1 : May I please/kindly be granted two days' leave?\nPassive voice 2 : May two days' leave please/kindly be granted (to) me?\nPassive voice 3 : I may please/kindly be granted two days' leave.\nPassive voice 4 : Two days' leave may please/kindly be granted (to) me.",
+   "topic": "Reflexive, Imperative, Interrogative ও বিশেষ Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0025",
+   "kind": null,
+   "title": "Double object যুক্ত Active → Passive",
+   "body": "Double object থাকলে যেকোনো object কে subject হিসেবে গ্রহণ করে active voice কে passive voice এ পরিবর্তন করা যায়। সাধারণত give, send, show, lend, pay, promise, refuse, tell, bring, buy, pluck, make ইত্যাদি verb গুলোর ক্ষেত্রে দুটি object ব্যবহৃত হয়।\nActive : Subject + verb + indirect object (ব্যক্তিবাচক) + direct object (বস্তুবাচক)\nPassive-1: Direct object + Aux. verb + V3 + indirect object + by +subject\nঅথবা, Direct object + Aux. verb + V3 + to (কে/নিকট বুঝালে) + indirect object + by + subject\nPassive-3: Direct object + Aux. verb + V3 + for (জন্য বুঝালে) + indirect object + by + subject\nঅথবা, Indirect object + Aux. verb + V3 + Direct object + by + subject\nকিন্তু made এখানে causative verb হলে, বাক্যটির passive voice হবে- We were made to work by him.",
+   "topic": "by ছাড়া অন্য Preposition, Group Verb ও Double Object"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0026",
+   "kind": null,
+   "title": "by এর পরিবর্তে with / at (annoy, please, surprise …)",
+   "body": "Passive এর ক্ষেত্রে সব সময় by বসে না, বরং by এর পরিবর্তে অন্যান্য preposition যেমন to, at, with, in ইত্যাদি বসতে পারে। Annoy, Charm, Displease, Dissatisfy, Marvel, Please, Shock, Stun, Surprise, Vex ইত্যাদি Verb এর past participle এর পরে ব্যক্তি (person) থাকলে with বসে এবং আচরণ (conduct, behaviour), কর্ম (work), গুণ (beauty) বা কোনো বিষয়, ঘটনা থাকলে at বসে। তবে, প্রশ্নপত্রে আচরণ/কর্মের ক্ষেত্রে at না থাকলে with নিতে হবে।\nActive: He annoyed me. Passive: I was annoyed with him.\nActive: His conduct annoyed me. Passive : I was annoyed at his conduct",
+   "topic": "by ছাড়া অন্য Preposition, Group Verb ও Double Object"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0027",
+   "kind": null,
+   "title": "cover, crowd, fill, seize … + with; contain, embody, include + in",
+   "body": "Passive voice এ cover, crowd, cram, decorate, ornament, fill, seize, throng, ইত্যাদি verb এর past participle এর পরে by এর পরিবর্তে with বসে। Active : Paint covered the lock. Passive : The lock was covered with paint.\nContain, embody, include, subsume ইত্যাদি verb এর Passive form এ in বসে।",
+   "topic": "by ছাড়া অন্য Preposition, Group Verb ও Double Object"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0028",
+   "kind": null,
+   "title": "known to / known by; worried about",
+   "body": "Passive voice এ known এর পরে সাধারণত to বসে এবং worried এর পরে about বসে। তবে স্বকীয়তা বা আত্ম প্রকাশ বুঝাতে known এর পরে by বসে। যেমন: A tree is known by its fruits. (বৃক্ষের পরিচয় ফলে) A man is known by the company he keeps. (সঙ্গ দেখে লোক চেনা যায়)",
+   "topic": "by ছাড়া অন্য Preposition, Group Verb ও Double Object"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0029",
+   "kind": null,
+   "title": "Group verb এর Passive",
+   "body": "Active voice এর verb টি group verb হলে তার সাথে সংযুক্ত preposition টি Passive voice এ সর্বদাই past participle এর সাথে বসে।\nActive : Take care of your health. Passive : Let your health be taken care of.\nActive : He laughed at me. Passive : I was laughed at by him.\nSwear in - শপথ করা; in Dhaka – ঢাকায়। অনুরূপ: This form must be filled in in ink.",
+   "topic": "by ছাড়া অন্য Preposition, Group Verb ও Double Object"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0030",
+   "kind": null,
+   "title": "Modal auxiliary verb এর Passive",
+   "body": "Can, could, may, might, will, would, shall, should, ought to, used to, must ইত্যাদি modal auxiliary verb গুলোর passive এ কোনো পরিবর্তন হয় না।\nActive voice : Subject + Modals + মূল verb এর base form + object\nPassive voice : Object + Modals + be + V3 + by + subject.\nused to: Active: Sub. + used to + verb (base form) +obj. (They used to repair broken cars) Passive : object + used to be + V3 +by + Sub. (Broken cars used to be repaired by them)",
+   "topic": "Modal, going to, have to ও used to — Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0031",
+   "kind": null,
+   "title": "'be going to' এর Passive",
+   "body": "'be going to' এর passive এ going এর কোনো পরিবর্তন হয় না। going to + be + V3 বসে।\nActive : Subject + be verb + going to + present form + object\nPassive : Object + be verb + going to + be + V3 + by + Subject",
+   "topic": "Modal, going to, have to ও used to — Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0032",
+   "kind": null,
+   "title": "am to/is to/are to/have to/has to এর Passive",
+   "body": "Active voice এ am to/is to/are to/have to/has to ইত্যাদি থাকলে Passive voice এ am to/is to/are to/have to/has to এর পরে be বসে এবং be এর পরে মূল verb এর past participle form বসে। যেমন:\nActive : Subject + am to/is to/are to/have to/has to + present form + object\nPassive : Object + am to/is to/are to/have to/has to + be + V3 + by + Subject",
+   "topic": "Modal, going to, have to ও used to — Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0033",
+   "kind": null,
+   "title": "Modal + have + V3 এর Passive",
+   "body": "Active : Subject + modals (must/should/could/ought to) +have + V3 + object\nPassive: Object + modals (must/should/could/ought to)+have +been + V3 + by +subject",
+   "topic": "Modal, going to, have to ও used to — Passive"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0034",
+   "kind": null,
+   "title": "Object + Present participle যুক্ত Active",
+   "body": "Object+Present participle যুক্ত Active voice কে Passive voice এ পরিবর্তনের সময় Present participle (v-ing) থেকে sentence এর অবশিষ্ট বাক্যাংশ অপরিবর্তিত থাকে। শুধুমাত্র present participle এর পূর্ববর্তী বাক্যাংশের passive form হয়ে থাকে। (N.B. by + object সাধারণত বাক্যের শেষে বসে)\nActive : I saw him carrying a basket. Passive: He was seen carrying a basket by me.",
+   "topic": "Quasi-passive, Factitive, Infinitive ও অন্যান্য বিশেষ নিয়ম"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0035",
+   "kind": null,
+   "title": "see, hear, make, help + object + base form",
+   "body": "Active voice এ see, hear, make, help ইত্যাদি verb এর object এর পরে verb এর base form থাকলে Passive voice এ দ্বিতীয় verb (base form) এর পূর্বে উহ্য থাকা to বসাতে হয়। যেমন: Active: He made me drive his car. Passive: I was made to drive his car by him.\nThey made him tell them everything → He was made to tell them everything. প্রশ্নে প্রদত্ত বাক্যে They এবং them একই ব্যক্তিদেরকে বোঝায় তাই Passive এ tell এর পরবর্তী them কে উঠিয়ে দেওয়ার সুযোগ নেই বিধায় by them কে উঠিয়ে দিতে হবে।\nhelp, teach/taught + object এর পরে infinitive থাকলে passive এ infinitive টি অপরিবর্তিত থাকে কিন্তু help এর পরে base form থাকলে passive এ তার পূর্বে to বসে অর্থাৎ to + base form বসে। ব্যতিক্রম: let এর ক্ষেত্রে passive এও to বসে না। AV: He let me go. PV: I was let go (by him).",
+   "topic": "Quasi-passive, Factitive, Infinitive ও অন্যান্য বিশেষ নিয়ম"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0036",
+   "kind": null,
+   "title": "adjective + infinitive",
+   "body": "Active voice এ adjective এর পরে infinitive (to + verb) থাকলে passive voice এ তা অপরিবর্তিত থাকে। শুধুমাত্র adjective এর পূর্ববর্তী বাক্যাংশের passive form হয়ে থাকে।\nActive: I found it easy to do. Passive: It was found easy to do by me.",
+   "topic": "Quasi-passive, Factitive, Infinitive ও অন্যান্য বিশেষ নিয়ম"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0037",
+   "kind": null,
+   "title": "Factitive verb (call, choose, elect, make, name …)",
+   "body": "call, choose, elect, make, name, nominate, select ইত্যাদি factitive verb গুলোর passive voice নিম্নরূপে হয়ে থাকে। মনে রাখা দরকার, Factitive object কখনো Passive voice এর Subject হয় না।\nActive : Subject + factitive verb (past form) + object + Factitive object\nPassive : object + was + factitive verb এর past participle + Factitive object + by + Subject\nActive : They made him king. Passive : He was made king by them. But, King was made by them. (wrong)",
+   "topic": "Quasi-passive, Factitive, Infinitive ও অন্যান্য বিশেষ নিয়ম"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0038",
+   "kind": null,
+   "title": "Acknowledge, believe, report, say, think … + to be",
+   "body": "Acknowledge, assume, believe, claim, estimate, feel, find, know, presume, report, say, think, understand ইত্যাদি verb গুলোর active হতে passive নিম্নোক্ত নিয়মে হয়ে থাকে।\nActive : Subject + -------- think + indirect object (ব্যক্তিবাচক) + to be + direct object.\nPassive : Indirect object + be verb (tense অনুসারে) + V3 + to be + direct object + by+ subject এর object form. (AV: They reported him to be a spy. PV: He was reported to be a spy by them.)",
+   "topic": "Quasi-passive, Factitive, Infinitive ও অন্যান্য বিশেষ নিয়ম"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0039",
+   "kind": null,
+   "title": "Quasi-passive: Complement যুক্ত",
+   "body": "count, feel, look, sell, smell taste, read, sound, write ইত্যাদি Quasi-passive verb গুলোর পরে Complement থাকলে এদের passive voice নিম্নরূপে হয়ে থাকে।\nActive : Subject + Quasi-passive verb + complement (adjective)\nPassive : Subject অপরিবর্তিত + is/was + complement + when (it is/was) + past participle (V3) তবে Subject টি plural হলে is/was এর স্থলে are/were এবং it এর স্থলে they হবে।",
+   "topic": "Quasi-passive, Factitive, Infinitive ও অন্যান্য বিশেষ নিয়ম"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0040",
+   "kind": null,
+   "title": "Quasi-passive: Complement বিহীন",
+   "body": "Active: Subject + is/are + present participle (verb+ing) Passive: Subject + is/are +being+ V3\nActive: The book is printing. (বইটি ছাপা হচ্ছে) Passive: The book is being printed.\nActive: The cow is milking. (গরুটি দুধ দিচ্ছে) Passive: The cow is being milked. (-দোয়ানো হচ্ছে)",
+   "topic": "Quasi-passive, Factitive, Infinitive ও অন্যান্য বিশেষ নিয়ম"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0041",
+   "kind": null,
+   "title": "It is time + to + verb",
+   "body": "Active : It is time + to + verb (V1) + object — Passive: It is time + for +object + to be + V3\ne.g. It is time to do your duty → It is time for your duty to be done.",
+   "topic": "Quasi-passive, Factitive, Infinitive ও অন্যান্য বিশেষ নিয়ম"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0042",
+   "kind": null,
+   "title": "There is … something to do",
+   "body": "Active এ There +is/are/was/were+ something to do থাকলে passive এ to be done করতে হবে\nActive: There is a lot of work to do. Passive: There is a lot of work to be done.\nActive: There is no money to waste. Passive: There is no money to be wasted.\nActive: There is no time to lose. Passive: There is no time to be lost.",
+   "topic": "Quasi-passive, Factitive, Infinitive ও অন্যান্য বিশেষ নিয়ম"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0043",
+   "kind": null,
+   "title": "Complex/Compound sentence এর Passive",
+   "body": "Complex/Compound sentence এর উভয়দিকেই যদি transitive verb থাকে তবে উভয়দিকেই voice পরিবর্তন করতে হয়। উল্লেখ্য, এক্ষেত্রে sentence এর মাঝে that, how, when, since ইত্যাদি থাকে। এই জাতীয় voice গুলো দুই নিয়মে Passive করা হয়ে থাকে। ১ম নিয়মঃ দ্বিতীয় অংশকে it ধরে।\nActive : We know that Columbus discovered America. (= it) Passive: It is known to us that America was discovered by Columbus.\n২য় নিয়মঃ প্রথমে দ্বিতীয় অংশের voice পরিবর্তন করে। এক্ষেত্রে দ্বিতীয় অংশে অবশ্যই transitive verb থাকতে হবে। That America was discovered by Columbus is known to us.\nকিন্তু ২য় অংশে Transitive verb না থাকলে সেই অংশের voice পরিবর্তন হয় না। সেক্ষেত্রে পুরো clause টিই subject হিসেবে এ ব্যবহৃত হয়। যেমন: Active: I know what he thinks. Passive: What he thinks is known to me.\nPassive voice এর complex বা compound sentence এ ভিন্ন ভিন্ন number এর দুটি subject এবং transitive verb থাকলে আলাদা আলাদা auxiliary verb উল্লেখ করতে হয়। Two prisoners were fined and one was released.",
+   "topic": "Complex Sentence, Indefinite Subject ও Subject+verb অপরিবর্তিত"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0044",
+   "kind": null,
+   "title": "One, No one, Nobody, Everyone … Passive এ উঠে যায়",
+   "body": "সাধারণত One, No one, Nobody, Everyone, Everybody ইত্যাদি Indefinite pronoun গুলো Passive voice এ উঠে যায়।",
+   "topic": "Complex Sentence, Indefinite Subject ও Subject+verb অপরিবর্তিত"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0045",
+   "kind": null,
+   "title": "People subject হলে Passive এ উঠে যায়",
+   "body": "People যদি Active voice এর Subject হয় তবে তা Passive voice এ সাধারণত উঠিয়ে দিতে হয়।",
+   "topic": "Complex Sentence, Indefinite Subject ও Subject+verb অপরিবর্তিত"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0046",
+   "kind": null,
+   "title": "Passive থেকে Active: সামঞ্জস্যপূর্ণ Subject",
+   "body": "কতগুলো Passive voice আছে যাদের Active voice করতে হলে সামঞ্জস্যপূর্ণ Subject কে ধরে নিতে হয়।\nPassive: The house was burnt. (বাড়িটি পুড়ে গেল) Active: Fire burnt the house. কারণ, মানুষ আগুন জ্বালাতে বা লাগাতে পারে কিন্তু কেবলমাত্র আগুনই পোড়াতে পারে।\nPassive : Rome was not built in a day. Active: The Romans did not build Rome in a day. কারণ, রোমানরাই (রোমান জাতি) রোম নগরী নির্মাণ করেছিল। [অনুরূপ, পুলিশ গ্রেপ্তার করে, পরিস্থিতি বাধ্য করে]\nPassive: The thief was arrested. Active : The police arrested the thief.\nPassive : I was compelled to do it. Active : Circumstances compelled me to do it.\nPassive : Bangla is spoken in Bangladesh. Active : The people in Bangladesh speak Bangla.\nPassive : The house was blown down. Active : The storm blew down the house.\nPassive : Our army has been defeated. Active : The enemy has defeated our army.",
+   "topic": "Complex Sentence, Indefinite Subject ও Subject+verb অপরিবর্তিত"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0047",
+   "kind": null,
+   "title": "Subject + verb অপরিবর্তিত — Rule-01 (want, wish, like + object + infinitive)",
+   "body": "Love, desire, wish, like, want + object + Infinitive যুক্ত Active কে Passive এ রূপান্তর। Passive এ subject, verb অপরিবর্তিত থাকে + infinitive এর পরের object বসে + to be + V3\nActive : Subject + want---desire + indirect object (ব্যক্তিবাচক) + infinitive (to +base form) + direct object (বস্তুবাচক) {I want him to write the letter.}\nPassive: {Subject +verb অপরিবর্তিত}+ direct object (বস্তুবাচক) +to be +infinitive এর verb এর V3 + by + indirect object (ব্যক্তিবাচক) {I want the letter to be written (by him)}",
+   "topic": "Complex Sentence, Indefinite Subject ও Subject+verb অপরিবর্তিত"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0048",
+   "kind": null,
+   "title": "Subject + verb অপরিবর্তিত — Rule-02 (agree, decide, demand + infinitive)",
+   "body": "Agree/be anxious/arrange/determine/be determined/decide/demand + infinitive +object যুক্ত active voice কে passive voice করার নিয়মটি নিম্নরূপ:\nActive : Subject +agree ----decide/demand + infinitive + object\nPassive : {Subject +verb অপরিবর্তিত}+ (that) + object+ should be + infinitive এর verb এর V3\nN.B. Agree, decide ইত্যাদি + infinitive এর passive voice টি শুরুতে it বসিয়েও করা যায়।",
+   "topic": "Complex Sentence, Indefinite Subject ও Subject+verb অপরিবর্তিত"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0049",
+   "kind": null,
+   "title": "Subject + verb অপরিবর্তিত — Rule-03 (advise, suggest + gerund)",
+   "body": "Advise/ insist/ propose/recommend/suggest + gerund + object যুক্ত active voice কে passive voice করার নিয়মটি নিম্নরূপ:\nActive : Subject + Advise -------- /suggest + gerund + object\nPassive : {Subject +verb অপরিবর্তিত}+ that + object+ should be + gerund এর V3\nActive : He advised cancelling the meeting. Passive : He advised that the meeting should be cancelled.",
+   "topic": "Complex Sentence, Indefinite Subject ও Subject+verb অপরিবর্তিত"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0050",
+   "kind": null,
+   "title": "Subject + verb অপরিবর্তিত — Rule-04 (like, remember, hate, mind + being V3)",
+   "body": "Active: Subject + like/remember/hate/mind + obj1 + (verb +ing) + obj2 + extension.\nPassive: Subject + like/remember/hate/- +being + (verb +ing) এর past participle + extension.\nAV: I hate/don't mind people keeping me waiting. PV: I hate/don't mind being kept waiting.",
+   "topic": "Complex Sentence, Indefinite Subject ও Subject+verb অপরিবর্তিত"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0051",
+   "kind": null,
+   "title": "People/They say … — He is said to be",
+   "body": "Active: People/They say + Subject + be verb + complement (People say he is a fool)\nPassive: Sub + be verb + said + to be/to have been + complement (He is said to be a fool)\nOr: It is said that + subject + be verb + complement (It is said that he is a fool)\nActive এর Subject এবং Obj2 একই ব্যক্তি হলে Passive এ Subject অপরিবর্তিত থাকলে Obj2 উঠে যায়। তাই I যেহেতু Subject হিসেবে অপরিবর্তিত থাকে বলে I কে উঠিয়ে দেওয়ার সুযোগ নেই বিধায় me কে উঠিয়ে দিতে হবে। সাধারণত Active এ people থাকলে Passive এ তা উঠে যায়।",
+   "topic": "Complex Sentence, Indefinite Subject ও Subject+verb অপরিবর্তিত"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0052",
+   "kind": null,
+   "title": "ব্যতিক্রম (Exception) — মুখস্থ রাখার মতো",
+   "body": "কতগুলো ব্যতিক্রম নিয়মের voice আছে যেগুলো সাধারণত কোনো নিয়মে পড়ে না তাই মুখস্থ করতে হবে।\nHe died of fever → He was caused to die of fever.\nHe worked for an hour → An hour was spent by him in working.\nকাজ সম্পাদন করা বুঝায় না বলে have, resemble এদের passive ব্যবহৃত হয় না এবং passive করার দরকারও নেই (I have a cat / I have a red cat — নিয়মবিরুদ্ধ, অপশন বিবেচনায় উত্তর)।",
+   "topic": "ব্যতিক্রম ও মিশ্র অনুশীলন"
+  },
+  {
+   "id": "english_admission_2nd_voice_change_concept_0053",
+   "kind": null,
+   "title": "যে সকল ক্ষেত্রে Passive Sentence ব্যবহৃত হয়",
+   "body": "১. Action Doer জানা না থাকলে অথবা অনির্দিষ্ট হলে - These fine textile materials are made in India.\n২. Doer অজ্ঞাত হলে - They were attacked on the way. Everything was ruined.\n৩. Doer গুরুত্বপূর্ণ না হলে - Ram was told that his English was not satisfactory for college work.\n৪. Action receiver বা ভুক্তভোগীর উপর জোর বোঝালে - A man was knocked down by a lorry here.\n৫. নিমন্ত্রণ, অনুরোধ, ঘোষণা বোঝালে - Passengers are requested not to smoke on the bus.\n৬. নিউজ পেপারের রিপোর্ট বুঝাতে - Dhaka was lashed by a thunder shower on Friday morning.\n৭. সামাজিক ও ঐতিহাসিক গুরুত্ব বুঝালে - America was discovered by Columbus.\n৮. কাজের শেষ বা ফলাফল বুঝালে - The meeting was postponed.\n৯. বৈজ্ঞানিক ব্যাখ্যায় - In an internal-combustion engine the mixture of air and petrol is compressed in the cylinder by a piston.",
+   "topic": "ব্যতিক্রম ও মিশ্র অনুশীলন"
+  }
+ ]
+}

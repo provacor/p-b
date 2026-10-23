@@ -1,0 +1,349 @@
+{
+ "sectionId": "english_admission_2nd_subject_verb_agreement_concept",
+ "updated": "2026-10-23",
+ "items": [
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0001",
+   "kind": null,
+   "title": "Subject-Verb Agreement কী?",
+   "body": "Subject-Verb Agreement হচ্ছে Subject এর number ও person এর উপর নির্ভর করে Verb অনুসারে সঠিক form ব্যবহার করা। তাই Subject-Verb Agreement সাধারণত number ও person এর উপর নির্ভর করে। কারণ, সাধারণত Subject এর number অথবা person পরিবর্তন করা হলে Verb এর রূপ পরিবর্তিত হয়।\nযেমনঃ I am/You are/He is a fool. কিন্তু We/they are fools.; I/We/they/ have guts. কিন্তু He has guts.",
+   "topic": "Subject-Verb Agreement — মৌলিক নিয়ম ও নামবাচক Subject"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0002",
+   "kind": null,
+   "title": "Singular subject — singular verb",
+   "body": "সাধারণত একটি singular subject একটি singular verb গ্রহণ করে। singular subject একটিমাত্র কোনো কিছু (একটিমাত্র ব্যক্তি, বস্তু, বিষয় বা একটি নাম) নির্দেশ করে। Present indefinite tense এ singular verb এর সাথে s বা es যুক্ত হয়। কোনো noun দেখতে plural হলেও তা যদি একটি নাম হয় তবে verb টি singular হবে। যেমনঃ The Sundarbans is a mangrove forest. সুন্দরবন একটি উপকূলীয় বন।\nউল্লেখ্য, like, belong, want, see, hear ইত্যাদি verb এর continuous tense হয় না।",
+   "topic": "Subject-Verb Agreement — মৌলিক নিয়ম ও নামবাচক Subject"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0003",
+   "kind": null,
+   "title": "Mars — গ্রহের নাম, singular verb",
+   "body": "Mars (মঙ্গলগ্রহ) একটি গ্রহের নাম তাই singular verb গ্রহণ করে। যেমনঃ Mars is next planet to Earth. Mars is known as/called the Red Planet. Mars has two moons, one is called Deimos and the other is called Phoboes. Mars takes longer to revolve on its axis than the Earth.\nবাক্যটি বৈজ্ঞানিক সত্য তাই verb টি present indefinite tense এ হবে অর্থাৎ verb টি is হবে, was নয়।",
+   "topic": "Subject-Verb Agreement — মৌলিক নিয়ম ও নামবাচক Subject"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0004",
+   "kind": null,
+   "title": "বিষয়, বই, সিনেমা, দেশ, সংগঠনের নাম — singular verb",
+   "body": "বিষয়ের নাম, বইয়ের নাম, সিনেমার নাম, দেশের নাম, সংগঠনের নাম দেখতে plural হলেও singular verb গ্রহণ করে। যেমনঃ Gulliver's Travels has always been very popular with both adults and children. Star Wars was created by a highly imaginative writer. The United States is a major influence in the United Nations. The United States consists of 50 states and the District of Columbia. The United Nations has replaced for the League of Nations. The United Nations was set up to settle conflicts peacefully. The United Nations is now a force to be reckoned with.\nব্যতিক্রমঃ The Olympic Games সামগ্রিক অর্থে plural verb নেয় কিন্তু একক অর্থে singular verb নেয়। যেমনঃ The Olympics take place every four years. The Olympic Games are held every four years. The Olympic Games were held first in 1896. The Olympics open tomorrow. The Olympics is the biggest sporting event in the world. The Olympic Games always has an official mascot.\nCultural Studies (সাংস্কৃতিক শিক্ষা) একটি বিষয়ের নাম। তাই verb টি singular হবে।\nThe United States (মার্কিন যুক্তরাষ্ট্র) একটি দেশের নাম তাই এর verb টি singular হবে। এক্ষেত্রে 'হওয়া' অর্থে is এবং 'থাকা' অর্থে has ব্যবহৃত হয়।\nArabian Nights (আরব্য রজনী), Gulliver's Travels (গালিভারের ভ্রমণ কাহিনী) হচ্ছে একটি একটি বইয়ের নাম তাই verb টি singular হবে।",
+   "topic": "Subject-Verb Agreement — মৌলিক নিয়ম ও নামবাচক Subject"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0005",
+   "kind": null,
+   "title": "I = letter/vowel হলে is",
+   "body": "I দ্বারা 'আমি' না বুঝিয়ে letter, vowel, symbol বুঝালে I এর পরে is/verb+s/es বসবে। e.g. I is a pronoun. I is a vowel. I is the first person singular number. I stands for 1 (one) in the Roman system.",
+   "topic": "Subject-Verb Agreement — মৌলিক নিয়ম ও নামবাচক Subject"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0006",
+   "kind": null,
+   "title": "uncountable noun — singular verb",
+   "body": "uncountable noun সাধারণত singular verb গ্রহণ করে। যেমনঃ The news is not yet official. Mankind is at stake now. (মানবজাতি এখন সংকটাপন্ন) Mankind has always been obsessed by power.",
+   "topic": "Subject-Verb Agreement — মৌলিক নিয়ম ও নামবাচক Subject"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0007",
+   "kind": null,
+   "title": "Ethics, politics, economics, mathematics … — subject হলে singular",
+   "body": "Ethics, politics, economics, mathematics, statistics, physics, athletics, acoustics, hysterics প্রভৃতি যদি subject/academic discipline (পাঠ্য বিষয়) এর নাম বুঝায় তবে singular verb গ্রহণ করে। কিন্তু এদের পূর্বে determiner (my, his, her, their, Sajal's (name's), no, the ইত্যাদি) থাকলে এদের পরে plural verb বসে। এক্ষেত্রে এরা বিশেষ দৃষ্টান্ত যেমনঃ কারো বা কোনো কিছুর বৈশিষ্ট্য, গুণ বুঝায়।\nPolitics is the business of his life. (রাজনীতিই তার জীবনের কাজ); Politics is popular at this university. His politics are not practical. তার রাজনীতি (= রাজনৈতিক দর্শন/কলাকৌশল) বাস্তবধর্মী নয়।\nEthics deals with moral principles. The ethics of journalism are much debated. There are no ethics in politics. রাজনীতিতে কোনো নীতি নেই।\nEconomics has only recently been recognised as a scientific study. The economics of the project are very encouraging. প্রকল্পটির অর্থনৈতিক পদ্ধতি বেশ উৎসাহদায়ক।\nHis mathematics দ্বারা তার গানিতিক ক্ষমতা বোঝানো হয়েছে। বাক্যের অর্থঃ তার গাণিতিক দক্ষতা দুর্বল।",
+   "topic": "Subject-Verb Agreement — মৌলিক নিয়ম ও নামবাচক Subject"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0008",
+   "kind": null,
+   "title": "Plural subject — plural verb (teeth, mice, deer, bacteria …)",
+   "body": "plural subject সাধারণত plural verb গ্রহণ করে। plural subject একের অধিক কোনো কিছু (ব্যক্তি, বস্তু, বিষয় বা কোনো নাম) নির্দেশ করে। plural verb এর সাথে কখনো s বা es যুক্ত হয় না। কিছু noun এর plural form একই এবং কিছু plural noun দেখতে singular হলেও plural verb নেয়- এই বিষয়টি খেয়াল রাখতে হবে।\nTeeth are covered with a hard substance called enamel. Teeth have a hard surface layer called enamel. My teeth are very sensitive to cold food. Aircraft today use complex avionic systems. What do mice live on? What criteria are used for assessing a student's ability?\nThe fruit are small and round. Fish are abundant in the lake. Fish struggle for survival when the water level drops in the lake. Deer are naturally timid creatures. Only true deer have antlers. Sheep were grazing in the fields. Bacteria grow in profusion in the warm, wet soil. Bacteria are becoming resistant to antibiotics. The bacteria are spread by physical contact.\nmemoranda হচ্ছে memorandum এর plural।",
+   "topic": "Plural Subject, Pair, Adjective ও One and a half"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0009",
+   "kind": null,
+   "title": "দুই অংশের noun (scissors, pants) ও pair of",
+   "body": "যে সকল noun এর দুটো অংশ (two parts) থাকে সেগুলো সাধারণত plural verb নেয় কিন্তু তাদের আগে singular determiner + pair of ব্যবহার করলে singular verb নেয়। These/Those/The + plural noun + plural verb অথবা, A/The/This + pair of + plural noun + singular verb\nThe pants are in the drawer. A/The pair of pants is in the drawer. The pliers are on the table. A/The pair of pliers is on the table. These/The socks are too small for me. This pair of socks is too small for me. The/These scissors are dull. The/This pair of scissors is dull.",
+   "topic": "Plural Subject, Pair, Adjective ও One and a half"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0010",
+   "kind": null,
+   "title": "Adjective কখনো Subject হয় না — শুরুতে Adjective",
+   "body": "Noun, Pronoun অথবা, Noun equivalent কোনো কিছুই কেবলমাত্র বাক্যের Subject হতে পারে। তাই Adjective কখনোই বাক্যের Subject হয় না। বাক্যের শুরুতে Adjective থাকলে Here/There এর নিয়ম অনুসরণ করতে হবে। adjective + singular verb + singular subject; adjective + plural verb + plural subject\nBlessed is he who gets a good wife. Blessed are the poor/the pious/the meek. Uneasy lies the head that wears a crown. Inevitable are the decrees of God. Deafening were the screams of the wounded. Gone are those days when we used to go fishing.",
+   "topic": "Plural Subject, Pair, Adjective ও One and a half"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0011",
+   "kind": null,
+   "title": "One and a half (দেড়)",
+   "body": "'দেড়' অর্থে One and a half + plural noun + plural verb অথবা, A/An (singular noun) and a half + singular verb\nOne and a half hours are allowed for the exam. An hour and a half is allowed for the exam. One and a half years have passed since I last saw her. A year and a half has passed since I last saw her. কিন্তু One and a half lemons was enough.\nউল্লেখ্য, কোনো কিছুর পরিমাণ/একক সমষ্টি বুঝালে One and a half + plural noun + singular verb হয়। One and a half cups is enough sugar. One and a half miles is a long way.",
+   "topic": "Plural Subject, Pair, Adjective ও One and a half"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0012",
+   "kind": null,
+   "title": "If, If only, I wish + were",
+   "body": "If, If only, I wish এর পরে subject এর number ও person যাই হোক না কেন be হিসেবে সর্বদাই were বসে। If I were in your shoes. (আমি যদি তোমার জায়গায় হতাম) I wish it were true. (এটা যদি সত্য হতো)",
+   "topic": "Plural Subject, Pair, Adjective ও One and a half"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0013",
+   "kind": null,
+   "title": "one or two / one or more + plural noun",
+   "body": "one or two অথবা one or more + plural noun বাক্যের subject হলে তা plural verb গ্রহণ করে। (one or two = a few) There are one or two apparent discrepancies between the two reports. There are one or two typing errors in the report. There are one or two companies interested in our products. One or two students from our department have won prizes. One or more cars were parked in front of the house each day. One or more people were killed in the accident.",
+   "topic": "Plural Subject, Pair, Adjective ও One and a half"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0014",
+   "kind": null,
+   "title": "one of / one in + plural noun",
+   "body": "one of এর পরে plural noun এবং singular verb বসে। যেমনঃ One of his parents is blind. One of my friends lives in London. One of their daughters has just got married.\nকিন্তু one in + plural noun এর পরে singular অথবা plural verb বসতে পারে।\nOne in three cars break/breaks down in the first year. One in five people in the country are classed as poor. Apparently one in ten people/one person in ten has problems with reading. One in five hours is/are spent socializing. One in seven accidents is caused by sleepy drivers. One in every three marriages ends in divorce. One in five products was found to be defective. One in six is eligible. One in three people globally do not have access to safe drinking water.",
+   "topic": "Plural Subject, Pair, Adjective ও One and a half"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0015",
+   "kind": null,
+   "title": "and দ্বারা যুক্ত — দুটি আলাদা ব্যক্তি/বস্তু হলে plural",
+   "body": "and দ্বারা যুক্ত একাধিক noun যদি দুটি আলাদা ব্যক্তি বা বস্তু বুঝায় তাহলে এদের verb টি plural হবে। He and I were playing. (সে আর আমি খেলছিলাম) Are your father and mother at home?(তোমার মা-বাবা কি বাড়িতে আছেন?) You and he are birds of the same feather. (তুমি আর সে একই স্বভাবের লোক)",
+   "topic": "and দ্বারা যুক্ত Subject"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0016",
+   "kind": null,
+   "title": "and দ্বারা যুক্ত — একক ব্যক্তি/ভাব/বস্তু হলে singular",
+   "body": "and দ্বারা যুক্ত একাধিক noun যদি একক ব্যক্তি বা একক ভাব/ধারণা/বস্তু বোঝায় তাহলে এদের verb টি singular হবে। মনে রাখুনঃ A & B = C হয় অর্থাৎ দুটি noun যুক্ত হয়ে একক কিছু হলেই verb টি singular হবে।\nযেমনঃ Bread এবং butter বা jelly আলাদা পণ্য বা আলাদা কিনি তাই verb টি plural হবে। কিন্তু নাস্তা খাওয়ার সময় আমরা bread এর সাথে butter বা jelly মিশিয়ে/মাখিয়ে খাই তাই verb টি singular হবে। অনুরূপ আরো দেখে বুঝে নিন\nRice and curry/vegetables is my favourite dish. The horse and carriage (= ঘোড়ার গাড়ি) is at the door. The horse and trap/pony and trap (= ছোট ঘোড়ার গাড়ি) has been waiting (for) a long time. The new bed and breakfast opens this week. The colour and style is a matter of personal taste. Truth and honesty is the best policy. Honour and glory is his reward. A good man and useful citizen has passed away. Breaking and entering is against the law. Loading and unloading ships is fatiguing work. Drinking and driving is dangerous. Drinking and driving costs lives. The rise and fall of the tide is due to lunar influence. ব্যতিক্রমঃ Time and tide wait for none. তবে, Time and tide waits for no man ও ব্যবহৃত হয়।\nbed and breakfast হচ্ছে মূলত রাতে ঘুমানোর জন্য ঘর এবং পরের দিন সকালে নাস্তা সরবাহের একটি সেবা/সার্ভিস।",
+   "topic": "and দ্বারা যুক্ত Subject"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0017",
+   "kind": null,
+   "title": "একই ব্যক্তির দুই পদবী — একটি The",
+   "body": "একই ব্যক্তি দুইটি পদবীর অধিকারী হলে শুধুমাত্র প্রথম পদবীর পূর্বে The বসে এবং verb টি singular হয়। তবে, দুইটি পদবীর অধিকারী দুইজন ব্যক্তি আলাদা আলাদা হলে দুইটির পূর্বেই The বসে এবং verb টি plural হয়।\nThe Headmaster and Chairman was present at the last meeting.\nThe Headmaster and the Chairman were present at the last meeting.",
+   "topic": "and দ্বারা যুক্ত Subject"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0018",
+   "kind": null,
+   "title": "Each, Every, No + noun and noun — singular",
+   "body": "and দ্বারা যুক্ত দুই বা ততোধিক singular noun এর প্রত্যেকটির পূর্বে Each, Every বা No থাকলে verb টি singular হয়। e.g. Each boy and each girl has a pen. Each day and each hour brings its duty. Every leaf and every flower proclaims the glory of Allah/God. Every flower and every leaf has stripped off the tree. Every star and every planet is the handiwork of Allah/God. Each day and each hour reminds us of our short life. No relative and no friend cares for me.\nতবে, তিন অথবা ততোধিক noun থাকলে প্রথমটির পূর্বে Every ব্যবহার করলেই চলে। Every man, woman and child was killed/lost. Every man, woman and child is to be educated. Every man, woman and child is now aware of the terrible consequences of the habit of smoking.\ndress এর passive voice এ preposition 'by' না বসে 'with' বসে।",
+   "topic": "and দ্বারা যুক্ত Subject"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0019",
+   "kind": null,
+   "title": "The + adjective — plural verb",
+   "body": "The + adjective বিশেষ শ্রেণি অর্থে plural common noun হয় তাই এর পরে plural verb বসে। The poor live from hand to mouth. (গরীবেরা দিন আনে দিন খায়) The wise do not talk much. (জ্ঞানীরা বেশি কথা বলেন না) The poor are born to suffer. (গরীবরা কষ্ট ভোগ করার জন্যই জন্মায়) In all ages, the weak are oppressed by the strong. (সর্বকালে/সর্বযুগে দুর্বলেরা সবলদের দ্বারা অত্যাচারিত হয়) The old feel the cold more than the young. The old are not always wiser than the young. The unemployed are losing hope. The rich plan for tomorrow, the poor for today.",
+   "topic": "with, as well as, along with … ও The + adjective"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0020",
+   "kind": null,
+   "title": "with, along with, as well as … — প্রথম noun অনুযায়ী verb",
+   "body": "with, along with, together with, as well as, accompanied with/by, in addition to, and not, including, excluding, but, except দ্বারা যুক্ত একাধিক noun/pronoun এর ক্ষেত্রে পূর্বের বা প্রথম noun/ pronoun অনুযায়ী verb হবে। অর্থাৎ প্রথম noun/pronoun টি singular হলে verb টি singular হবে এবং প্রথম noun/pronoun টি plural হলে verb টি plural হবে। Mrs Rokeya along with her daughters was there. His brothers as well as he are very intelligent. He as well as his brothers is very intelligent.\ndeserve (ডিজার্ভ)- যোগ্য/উপযুক্ত হওয়া। continuous tense এ deserve এর ব্যবহার নেই।\nTogether with দ্বারা যুক্ত একাধিক noun/pronoun এর ক্ষেত্রে পূর্বের noun/pronoun অনুযায়ী verb হবে। হ্যাঁ বোধক Sentence এ already হবে। Sub + have/has + already + past participle + object + Ext. না বোধক Sentence এ yet হবে। Sub + have not/has not + past participle + object + yet.\nতুলনার ক্ষেত্রে more ব্যবহৃত হয়। এই বাক্যে কোনো তুলনা করা হয়নি। তাই more pleasing হবে না। তুলনার ক্ষেত্রে the most ব্যবহৃত হয়। তবে very অর্থে most + adjective, a + most + adjective + noun ব্যবহৃত হয়।",
+   "topic": "with, as well as, along with … ও The + adjective"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0021",
+   "kind": null,
+   "title": "Either—or, Neither—nor, Not only—but also — নিকটতম subject",
+   "body": "Either — or, Neither — nor, or, Not only — but also দ্বারা যুক্ত একাধিক subject এর ক্ষেত্রে verb টি বসে তার নিকটতম subject এর number/person অনুসারে। এক্ষেত্রে assertive sentence এ or, nor, but also এর পরে singular subject থাকলে singular verb হবে এবং plural subject থাকলে plural verb হবে। Either he or his friends are to blame. No damage or injuries were reported. Either the judge or the lawyers ask the witness questions. Neither the carpenters nor the plumber has finished the work. It was a miracle that neither the passengers nor the driver was injured in the car accident.",
+   "topic": "Either…or, Neither…nor, Many a ও Gerund/Infinitive/Clause"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0022",
+   "kind": null,
+   "title": "Many a/an + singular noun + singular verb",
+   "body": "Many a/an (অনেকেই/কত না) এর পরে noun ও verb দুটোই singular হয়। Many a/an + singular noun + singular verb : Many a good man has been destroyed by drink. Many a man has done so. Many a man does not know his own good deeds. Many a man was present there. Many a student has made the same mistake. Many a man runs after money.\nএটি একটি চিরন্তন সত্য। সুতরাং verb এর present indefinite tense হবে। তাই verb হিসেবে is বসবে।",
+   "topic": "Either…or, Neither…nor, Many a ও Gerund/Infinitive/Clause"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0023",
+   "kind": null,
+   "title": "Infinitive, Gerund, Clause subject — singular verb",
+   "body": "Infinitive, Gerund, Clause যদি subject হয় তবে third person singular এর verb নেয়। N.B. Gerund এর plural object থাকলেও singular verb হবে। e.g. Peeling onions makes me cry. Telling lies is a very bad habit. (মিথ্যা বলা খুব বাজে অভ্যাস) Refusing invitations is not always easy.\nবাক্যের subject টি What you say হচ্ছে noun clause সুতরাং verb টি singular হবে। আবার, be verb এর পরে adjective বসে। বাক্যে true (adjective complement) থাকায় verb টি does না হয়ে is হবে।",
+   "topic": "Either…or, Neither…nor, Many a ও Gerund/Infinitive/Clause"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0024",
+   "kind": null,
+   "title": "Time, Distance, Weight, Length, Money — একক হলে singular",
+   "body": "Time, Distance, Weight, Length, Money প্রভৃতি এককের সমষ্টি দেখতে plural হলেও যখন উক্ত সমষ্টিকে একটা unit হিসেবে ধরা হয় তখন সেটি singular verb গ্রহণ করে।\nTwo hours seems a long time to have to wait for the next bus. 40 hours is a fairly average working week for most people. Five years is the maximum sentence for that offence. Fifteen minutes is allowed to each speaker. Six hundred taka is too much for this bag. One thousand taka doesn't buy much nowadays. Fifty pounds is the best I can offer you for the dress. Fifty pounds/dollars does not go very far these days. Hundred miles is a short distance for those who drive fast. Five hundred miles is a long distance to drive in a day.\nকিন্তু সমষ্টিকে একত্রে না বুঝিয়ে আলাদা আলাদাভাবে বুঝালে plural verb গ্রহণ করে।\nTen years have passed since I met you last. Ten thousand taka were scattered on the floor. Four years have passed since that day. Ten years have passed in the twinkling of an eye. Two years have elapsed since the attack. Two hours have elapsed since he fell asleep. Ten years of marriage to him have made her life a misery. One and a half years have passed since I last saw her.",
+   "topic": "Time/Distance/Money ও Preposition-যুক্ত Subject"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0025",
+   "kind": null,
+   "title": "Subject + preposition + noun — প্রথম subject অনুযায়ী verb",
+   "body": "Subject এর সাথে preposition দিয়ে যে শব্দ বা শব্দসমষ্টি যুক্ত থাকে তারা কখনোই verb এর উপর কোনো প্রভাব ফেলে না। তাই সাধারণত preposition (প্রেপজিশন) বা prepositional phrase এর পূর্বের subject অনুসারে verb বসে। অর্থাৎ preposition এর পূর্বের subject টি plural হলে verb টি plural এবং singular হলে verb টি singular হবে। কিন্তু একই sentence এ যদি একাধিক noun এর পূর্বে একাধিক preposition ব্যবহৃত হয় তবে এক্ষেত্রে প্রথম preposition এর পূর্বে ব্যবহৃত noun এর number এর অনুযায়ী verb বসবে।\nDue to (=because of) হচ্ছে preposition--এবং এর পূর্ববর্তী অংশ Poor visibility (ঝাপসা দেখা/দৃষ্টিগ্রাহ্যতা) হচ্ছে singular subject তাই singular verb হবে।",
+   "topic": "Time/Distance/Money ও Preposition-যুক্ত Subject"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0026",
+   "kind": null,
+   "title": "be verb + adjective/complement; The wages of sin",
+   "body": "be verb এর পরে adjective অথবা adverb + adjective অথবা complement noun phrase বসে।\nThe wages of sin is death এটি একটি প্রবাদবাক্য। এখানে wages দ্বারা পরিণাম বুঝাচ্ছে তাই verb টি singular হবে। কিন্তু মজুরি/বেতন (pay) বুঝালে verb plural হয়। যেমনঃ His wages are a dollar per day. His wages are barely enough to keep body and soul together. (তার মজুরি/বেতন তার প্রাণধারণের জন্য যথেষ্ট নয়) Wages are not keeping up with inflation. Wages are failing to keep up with inflation. Wages are paid on Fridays. Prices have risen but wages have not risen proportionately.",
+   "topic": "Time/Distance/Money ও Preposition-যুক্ত Subject"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0027",
+   "kind": null,
+   "title": "One of, Any of, Each of, Either of, Neither of — singular verb",
+   "body": "One of, Any of, Each of, Either of, Neither of যদি subject হিসেবে ব্যবহৃত হলে verb টি singular হবে। অর্থাৎ One/Any/ Each/Either/Neither + of + plural noun + singular verb + ext.\nyet আছে বিধায় present perfect হবে।\neach এর antecedent (পূর্বপদ) পূর্বে plural হলে each + plural verb বসে। We each have our own car.",
+   "topic": "One of, Each of, Neither of ও one of … who"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0028",
+   "kind": null,
+   "title": "one of … who + plural verb; the only one of … who + singular verb",
+   "body": "Rule: Sub + verb + one of + plural noun/pronoun +who/that + plural verb\nExample: He is one of the employees who work overtime regularly. Our organization is just one of many charities that are providing famine relief in the region.\nRule: Sub+verb+ the only one of + plural noun/pronoun +who/that + singular verb\nExample: Nabila is the only one of those students who has proved her performance. He is the only one of the applicants who is fully qualified for the position. This is the only one of his poems that is worth reading.",
+   "topic": "One of, Each of, Neither of ও one of … who"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0029",
+   "kind": null,
+   "title": "Rule of Fraction/Percent",
+   "body": "এক ভগ্নাংশ ব্যতীত সকল ভগ্নাংশ plural হয়ে থাকে। অর্থাৎ লব one এর বেশি হলে হরের plural হবে। যেমনঃ One-third (এক-তৃতীয়াংশ), one-fourth (এক- চতুর্থাংশ), কিন্তু Two-thirds (দুই-তৃতীয়াংশ), Three-fourths (তিন-চতুর্থাংশ), nine-tenths (নয়-দশমাংশ)। উল্লেখ্য, One-third = A third এভাবে লেখা যায়।\n1. Fraction/Percent (%) + of + uncountable noun/singular noun/pronoun + singular verb\n2. Fraction/Percent (%) + of + plural noun/pronoun + plural verb\nOne-third/Two-thirds of the apple is rotten. One-third/Two-thirds of the apples are rotten. Half of the apple is rotten. Half of the apples are rotten. A third (= one-third) of the students are from abroad. Three-fourths of the workers are for the strike. 20 percent of the answer is right. 20 percent of the answers are right.\nCrop হচ্ছে countable noun তাই এর plural হবে। লব (numerator) Two তাই হর (denominator) thirds হবে। The land is used to grow crops. Because of the cold weather the crops are later this year.",
+   "topic": "Fraction, Percent, No ও A lot of"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0030",
+   "kind": null,
+   "title": "Percent — সংখ্যা হলে plural, পরিমাণ হলে singular",
+   "body": "Fraction (ভগ্নাংশ) এবং Percent (শতকরা) এর subject-verb agreement এর নিয়ম একই রকম। Percent (%) দ্বারা সংখ্যা বুঝালে plural verb এবং পরিমাণ বুঝালে singular verb হবে। About 50 percent of the house needs major repair. About 50 percent of the houses need major repair.\nN.B. cardinal number (1, 2, 5 etc.) এর পরে percent বসে। number এর পরে percentage বসে না। Only 10% of the prisoners are well. A high percentage of the female staff are part-time workers.",
+   "topic": "Fraction, Percent, No ও A lot of"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0031",
+   "kind": null,
+   "title": "No + noun",
+   "body": "No + singular/uncountable noun +singular verb; No + plural noun + plural verb\nNo goals were scored in the first half. No objections were raised at the time. No animals were harmed during the making of the film. No pains were spared. There are/were no shops open. In politics, there are no friendships. There are no winners in a divorce. No student is to leave the room. There is no train until tomorrow. There were no suitable candidates for the job. There is no hospital in the immediate vicinity. There was no bus, so we walked home.\nপ্রদত্ত প্রশ্নের বাক্যের In those days নির্দেশ করছে sentence এর verb টির past tense এ হবে।",
+   "topic": "Fraction, Percent, No ও A lot of"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0032",
+   "kind": null,
+   "title": "A lot of / lots of",
+   "body": "A lot of অথবা lots of এর পরে uncountable noun থাকলে singular verb বসবে। A lot of অথবা lots of এর পরে plural noun থাকলে plural verb বসবে।\nThere are lots of fun things to do here. There are lots of surprises in store for visitors to the gallery. Every year a lot of pollution is created, and a lot of trees are cut down. There are lots of/a lot of places to visit in Bangladesh. There are always a lot of exceptions to grammar rules. There are a lot of empty properties in the area. There are a lot of bad people in the world.",
+   "topic": "Fraction, Percent, No ও A lot of"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0033",
+   "kind": null,
+   "title": "It, Who (কে না) subject — singular verb",
+   "body": "It, Who ('কে না' অর্থে) বাক্যের subject হলে এরা সাধারণত singular verb গ্রহণ করে। It is we who are to blame. Who does not love flower? Who does not wish to be happy? তবে who দ্বারা plural নির্দেশ করা হলে plural verb নেয়। We need people who are good at managing. আর unreal past এর ক্ষেত্রে it এর পরে were বসে। I wish it were true. (এটা যদি সত্য হতো)",
+   "topic": "It/Who, Relative pronoun, More than one ও A number of"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0034",
+   "kind": null,
+   "title": "Relative pronoun subject — antecedent অনুসারে verb",
+   "body": "Relative pronoun যদি subject হিসেবে ব্যবহৃত হয় তবে এর পরবর্তী verb টি ঐ relative pronoun এর antecedent এর number ও person অনুসারে হয়ে থাকে। Relative pronoun এর ঠিক পূর্ববর্তী noun বা pronoun কে antecedent বলে। e.g. It is he who is to blame. (সেই-ই দোষী) It is you who are guilty. ভিন্ন person এর দুটি প্রকাশ্য antecedent থাকলে relative pronoun এর verb ও person নিকটতম antecedent অনুসারে হয়। e.g. You are the person who helps me. I am the man who has done it.",
+   "topic": "It/Who, Relative pronoun, More than one ও A number of"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0035",
+   "kind": null,
+   "title": "More than one + singular noun",
+   "body": "More than one + singular noun সাধারণত singular verb গ্রহণ করে কিন্তু More than two/three ইত্যাদি plural verb গ্রহণ করে। More than one person is going to have to find a new job. More than one man was present there. More than two men were present there. আবার, More than one + thousand, hundred + plural noun + plural verb",
+   "topic": "It/Who, Relative pronoun, More than one ও A number of"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0036",
+   "kind": null,
+   "title": "A number of / The number of",
+   "body": "সাধারণত A number of (= some, several, many) এর পর plural noun এবং plural verb বসে কিন্তু The number of এর পর plural noun এবং সাধারণত singular verb বসে।\nউল্লেখ্য, A — number of এর ক্ষেত্রে number এর আগে fantastic/good/great/growing/large/limited/ negligible/record/significant/sizable/small/surprising এমন কোনো একটা adjective বসতে পারে। An — number of এর ক্ষেত্রে equal/increasing/indeterminate/infinite এমন কোনো adjective এবং The — number of এর ক্ষেত্রে actual/exact/growing/increasing/large/requisite এমন কোনো adjective\ne.g. A number of people were present. A number of interesting suggestions have been made. A number of parents have voiced concern about their children's safety. A number of illnesses are entirely avoidable. A number of artefacts were found at the excavation site. A number of simplifications have been made to the taxation system. A significant number of indecent assaults on women go unreported. A small number of children are educated at home. A good number of people are suffering from the disease throughout the world. A limited number of documents from the period are still extant. Unfortunately, a sizable number of our women are deprived of their basic rights. The number of unemployed is rising rapidly. The number of elderly is rising. The number of people present was greater than we expected. The actual number of people killed is not yet known. The exact number of people carrying the virus is unknown. The growing number of visitors is/was damaging the footpaths.\nব্যতিক্রমঃ There/Here + singular verb + a number of + plural noun. e.g. There is a large number of boys in his class. There is an equal number of boys and girls in the class. There has been an increasing number of cases of the disease. There was a record number of confiscations by customs officers last year. There is a growing number of women in high-profile positions of the government.\nতবে এখন There/Here + plural verb + a/any number of + plural noun এর ব্যবহার ব্যাপক প্রচলিত। There are a number of possible remedies to this problem. There are a number of things we need to discuss. There are a number of routes to qualifying as a social worker. There were a number of errors and omissions in the article. There are a number of different points of view on this issue. There are an infinite number of solutions to the problem. There were/are a large number of candidates for the job. There are a large number of potential customers for the new product. There are any number of miracle cures on the market for people gullible enough to buy them. There are only a limited number of jobs/tickets available.\na large number of এর ক্ষেত্রে singular verb এবং The large/requisite number এর ক্ষেত্রে plural verb: A large number of invitations has been sent. They were not able to start the meeting until the requisite number of members were present. Experts believe that the large number of cancer cases in the area are directly related to the new nuclear power station.\nউল্লেখ্য, The number of + plural noun + relative pronoun + plural verb ----- singular verb: The number of residents who have been questioned on this matter is quite small. Today the number of people who enjoy cricket is bigger than that of thirty years ago. I couldn't believe the number of cars that were parked outside the hall. The number of people who fail each year is now in single figures. The number of students who have filled out the admission forms is quite small. The number of cars which are stolen every year has risen.",
+   "topic": "It/Who, Relative pronoun, More than one ও A number of"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0037",
+   "kind": null,
+   "title": "Here/There + verb + subject",
+   "body": "Here/There + singular verb + singular subject, Here/There + plural verb + plural subject. Here is a list of words in alphabetical order. There is a vast array of books on the subject. Here are the keys. There is someone on the phone for you. There are two people waiting outside.",
+   "topic": "Here/There, Few/Many/Some, None ও Everyone"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0038",
+   "kind": null,
+   "title": "Few/Many/Some/Several — plural verb",
+   "body": "Few/Many/Some + plural verb, অথবা Few/Many/Some + plural noun + plural verb; Many/Some/Several of + determiner + plural noun + plural verb; Many are called but few are chosen. Many aspire to greatness but few attain. Many have tried but few have succeeded. Some are born great. Some say one thing, some say another. Several of my friends are learning English to go abroad. Some of his jokes were very rude. Several of the passengers were badly injured. Some of the officials have special privileges. Many of the exhibits were damaged in the fire, and some were totally destroyed.",
+   "topic": "Here/There, Few/Many/Some, None ও Everyone"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0039",
+   "kind": null,
+   "title": "None — singular/plural verb",
+   "body": "None + singular/plural verb ; None of + plural noun + singular/plural verb. বাক্যে None কে নির্দেশকারী plural noun/pronoun থাকলে None এর পরে plural verb বসবে।\nNone are so deaf as those who will not hear. (যারা শুনতে চায় না তাদের মত বধির আর নেই) All the tickets have been sold. There are none left. (= no tickets left) We took a few photographs, but none of them were very good. None but the brave deserves the fair. (None but the brave deserve the fair. এটাও সঠিক)\nNone এর পরে verb টি singular/plural উভয়ই হতে পারে। কিন্তু প্রশ্নে they নির্দেশ করছে None কে তাই None হচ্ছে plural subject এবং পরবর্তী clause টি present tense এ আছে তাই None এর পরে are বসবে।\nNo one of + plural noun + singular verb ; None of + plural noun + singular/plural verb",
+   "topic": "Here/There, Few/Many/Some, None ও Everyone"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0040",
+   "kind": null,
+   "title": "Mathematical calculation — singular verb",
+   "body": "Mathematical calculations যদি word এ প্রকাশ করা হয়, তখন subject টি singular verb গ্রহণ করে। Five and five makes/is/equals ten. Five times two is/equals ten. What is two and two? 2x + y equals/is equal to 7 (2x + y = 7) 6 multiplied by 2 equals 12. 6 divided by 2 equals 3.",
+   "topic": "Here/There, Few/Many/Some, None ও Everyone"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0041",
+   "kind": null,
+   "title": "Everyone, Everybody, Nobody … — singular verb",
+   "body": "Everyone, Everybody, Nobody, No one, Any of, Anybody, Anyone ইত্যাদি হচ্ছে singular এবং এদের পরে সর্বদাই singular verb বসে।",
+   "topic": "Here/There, Few/Many/Some, None ও Everyone"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0042",
+   "kind": null,
+   "title": "Both — plural verb",
+   "body": "Both সবসময় plural verb গ্রহণ করে। e.g. Both were/are good. Both of the women were/are American. Both of them live in New York.",
+   "topic": "Both, Most of, Collective Noun ও Police/People/Cattle"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0043",
+   "kind": null,
+   "title": "Most of — noun অনুসারে verb",
+   "body": "Most of + determiner + uncountable/singular noun হলে singular verb হয়; কিন্তু plural noun হলে plural verb হয়। e.g. Most of the scenes were filmed in a studio. Most of the building is in very bad repair. Most of the buildings are unfit to live in.",
+   "topic": "Both, Most of, Collective Noun ও Police/People/Cattle"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0044",
+   "kind": null,
+   "title": "Team বা দেশের নাম (team অর্থে) — plural verb",
+   "body": "কোনো খেলার দল বা দেশের নাম যখন ঐ দেশের দলকে বোঝায় তখন সাধারণত plural verb হয় (singular ও ব্যবহৃত হতে পারে)। e.g. In cricket, Bangladesh have defeated India several times. Brazil have not won the World Cup since 2002. Brazil are/is playing Italy next week.",
+   "topic": "Both, Most of, Collective Noun ও Police/People/Cattle"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0045",
+   "kind": null,
+   "title": "Police, People, Cattle — plural verb",
+   "body": "Police, People, Cattle — এরা plural collective noun, তাই সবসময় plural verb গ্রহণ করে। e.g. The police were informed of the matter. Cattle are grazing in the field.",
+   "topic": "Both, Most of, Collective Noun ও Police/People/Cattle"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0046",
+   "kind": null,
+   "title": "Collective Noun — একক না সদস্য?",
+   "body": "Collective noun দ্বারা একটি একক (unit) বোঝালে singular verb হয়; কিন্তু তার সদস্যদের আলাদাভাবে বোঝালে plural verb হয়। e.g. Our team is the best. Our team are wearing their new jerseys. Her family doesn't appreciate her. The family have a history of mental disorder. His family are all observant Muslims.",
+   "topic": "Both, Most of, Collective Noun ও Police/People/Cattle"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0047",
+   "kind": null,
+   "title": "Majority — singular না plural?",
+   "body": "Majority সাধারণত singular verb নেয়; কিন্তু majority দ্বারা the greater part/most (অধিকাংশ) বোঝালে plural verb নেয়। e.g. The majority is scanty but sufficient. The majority are in my favour. The majority of my friends agree. আবার majority একা বসলে singular verb নেয়, কিন্তু majority of এর পরে plural noun থাকলে plural verb নেয়। e.g. The majority believes that we are in no danger. The majority of the students believe him to be innocent.",
+   "topic": "Both, Most of, Collective Noun ও Police/People/Cattle"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0048",
+   "kind": null,
+   "title": "Jury — collective noun",
+   "body": "Collective noun দ্বারা সদস্যদের একমত অবস্থা (একক হিসেবে) বোঝালে singular verb হয়। e.g. The jury was unanimous in its decision. (বিচারকমণ্ডলী তাদের সিদ্ধান্তে একমত ছিল)",
+   "topic": "Both, Most of, Collective Noun ও Police/People/Cattle"
+  },
+  {
+   "id": "english_admission_2nd_subject_verb_agreement_concept_0049",
+   "kind": null,
+   "title": "and দ্বারা যুক্ত দুটি আলাদা বস্তু — plural verb",
+   "body": "দুটি আলাদা বস্তু and দ্বারা যুক্ত হলে verb plural হয়। e.g. Fire and water do not agree. (does not নয়)",
+   "topic": "Both, Most of, Collective Noun ও Police/People/Cattle"
+  }
+ ]
+}
