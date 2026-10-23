@@ -157,14 +157,13 @@
       "note": "Not in the syllabus images; added at the user's request together with its notes."
     },
     {
-      "id": "english_2nd_adm_parts_of_speech",
-      "paperId": "english_2nd",
-      "groupId": "english_2nd_admission_top",
+      "id": "english_admission_2nd_parts_of_speech",
+      "paperId": "english_admission_2nd",
+      "groupId": "english_admission_2nd_top",
       "kind": "topic",
       "number": null,
-      "order": 101,
+      "order": 1,
       "name": "Parts of Speech",
-      "sectionTemplate": "english_admission_topic",
       "topics": [],
       "source": {
         "wording": "MBBS Admission English — Topic Priority List (owner, last 12 years' questions)",
@@ -174,14 +173,13 @@
       "verification": "verified"
     },
     {
-      "id": "english_2nd_adm_tense",
-      "paperId": "english_2nd",
-      "groupId": "english_2nd_admission_top",
+      "id": "english_admission_2nd_tense",
+      "paperId": "english_admission_2nd",
+      "groupId": "english_admission_2nd_top",
       "kind": "topic",
       "number": null,
-      "order": 102,
+      "order": 2,
       "name": "Tense",
-      "sectionTemplate": "english_admission_topic",
       "topics": [],
       "source": {
         "wording": "MBBS Admission English — Topic Priority List (owner, last 12 years' questions)",
@@ -191,14 +189,13 @@
       "verification": "verified"
     },
     {
-      "id": "english_2nd_adm_phrases_idioms",
-      "paperId": "english_2nd",
-      "groupId": "english_2nd_admission_top",
+      "id": "english_admission_2nd_phrases_idioms",
+      "paperId": "english_admission_2nd",
+      "groupId": "english_admission_2nd_top",
       "kind": "topic",
       "number": null,
-      "order": 103,
+      "order": 3,
       "name": "Phrases & Idioms",
-      "sectionTemplate": "english_admission_topic",
       "topics": [],
       "source": {
         "wording": "MBBS Admission English — Topic Priority List (owner, last 12 years' questions)",
@@ -208,14 +205,13 @@
       "verification": "verified"
     },
     {
-      "id": "english_2nd_adm_voice_change",
-      "paperId": "english_2nd",
-      "groupId": "english_2nd_admission_top",
+      "id": "english_admission_2nd_voice_change",
+      "paperId": "english_admission_2nd",
+      "groupId": "english_admission_2nd_top",
       "kind": "topic",
       "number": null,
-      "order": 104,
+      "order": 4,
       "name": "Voice Change",
-      "sectionTemplate": "english_admission_topic",
       "topics": [],
       "source": {
         "wording": "MBBS Admission English — Topic Priority List (owner, last 12 years' questions)",
@@ -225,14 +221,13 @@
       "verification": "verified"
     },
     {
-      "id": "english_2nd_adm_pronoun",
-      "paperId": "english_2nd",
-      "groupId": "english_2nd_admission_top",
+      "id": "english_admission_2nd_pronoun",
+      "paperId": "english_admission_2nd",
+      "groupId": "english_admission_2nd_top",
       "kind": "topic",
       "number": null,
-      "order": 105,
+      "order": 5,
       "name": "Pronoun",
-      "sectionTemplate": "english_admission_topic",
       "topics": [],
       "source": {
         "wording": "MBBS Admission English — Topic Priority List (owner, last 12 years' questions)",
@@ -242,14 +237,13 @@
       "verification": "verified"
     },
     {
-      "id": "english_2nd_adm_subject_verb_agreement",
-      "paperId": "english_2nd",
-      "groupId": "english_2nd_admission_top",
+      "id": "english_admission_2nd_subject_verb_agreement",
+      "paperId": "english_admission_2nd",
+      "groupId": "english_admission_2nd_top",
       "kind": "topic",
       "number": null,
-      "order": 106,
+      "order": 6,
       "name": "Subject-Verb Agreement",
-      "sectionTemplate": "english_admission_topic",
       "topics": [],
       "source": {
         "wording": "MBBS Admission English — Topic Priority List (owner, last 12 years' questions)",
@@ -259,14 +253,13 @@
       "verification": "verified"
     },
     {
-      "id": "english_2nd_adm_spelling",
-      "paperId": "english_2nd",
-      "groupId": "english_2nd_admission_imp",
+      "id": "english_admission_2nd_spelling",
+      "paperId": "english_admission_2nd",
+      "groupId": "english_admission_2nd_imp",
       "kind": "topic",
       "number": null,
-      "order": 107,
+      "order": 7,
       "name": "Spelling",
-      "sectionTemplate": "english_admission_topic",
       "topics": [],
       "source": {
         "wording": "MBBS Admission English — Topic Priority List (owner, last 12 years' questions)",
@@ -276,14 +269,13 @@
       "verification": "verified"
     },
     {
-      "id": "english_2nd_adm_translation_proverb",
-      "paperId": "english_2nd",
-      "groupId": "english_2nd_admission_imp",
+      "id": "english_admission_2nd_translation_proverb",
+      "paperId": "english_admission_2nd",
+      "groupId": "english_admission_2nd_imp",
       "kind": "topic",
       "number": null,
-      "order": 108,
+      "order": 8,
       "name": "Translation / Proverb",
-      "sectionTemplate": "english_admission_topic",
       "topics": [],
       "source": {
         "wording": "MBBS Admission English — Topic Priority List (owner, last 12 years' questions)",
@@ -293,14 +285,13 @@
       "verification": "verified"
     },
     {
-      "id": "english_2nd_adm_narration",
-      "paperId": "english_2nd",
-      "groupId": "english_2nd_admission_imp",
+      "id": "english_admission_2nd_narration",
+      "paperId": "english_admission_2nd",
+      "groupId": "english_admission_2nd_imp",
       "kind": "topic",
       "number": null,
-      "order": 109,
+      "order": 9,
       "name": "Narration",
-      "sectionTemplate": "english_admission_topic",
       "topics": [],
       "source": {
         "wording": "MBBS Admission English — Topic Priority List (owner, last 12 years' questions)",
@@ -310,14 +301,13 @@
       "verification": "verified"
     },
     {
-      "id": "english_2nd_adm_identification_of_clause_sentence",
-      "paperId": "english_2nd",
-      "groupId": "english_2nd_admission_imp",
+      "id": "english_admission_2nd_identification_of_clause_sentence",
+      "paperId": "english_admission_2nd",
+      "groupId": "english_admission_2nd_imp",
       "kind": "topic",
       "number": null,
-      "order": 110,
+      "order": 10,
       "name": "Identification of Clause/Sentence",
-      "sectionTemplate": "english_admission_topic",
       "topics": [],
       "source": {
         "wording": "MBBS Admission English — Topic Priority List (owner, last 12 years' questions)",
@@ -327,14 +317,13 @@
       "verification": "verified"
     },
     {
-      "id": "english_2nd_adm_group_verb",
-      "paperId": "english_2nd",
-      "groupId": "english_2nd_admission_imp",
+      "id": "english_admission_2nd_group_verb",
+      "paperId": "english_admission_2nd",
+      "groupId": "english_admission_2nd_imp",
       "kind": "topic",
       "number": null,
-      "order": 111,
+      "order": 11,
       "name": "Group Verb",
-      "sectionTemplate": "english_admission_topic",
       "topics": [],
       "source": {
         "wording": "MBBS Admission English — Topic Priority List (owner, last 12 years' questions)",
@@ -344,14 +333,13 @@
       "verification": "verified"
     },
     {
-      "id": "english_2nd_adm_non_finite_verb",
-      "paperId": "english_2nd",
-      "groupId": "english_2nd_admission_imp",
+      "id": "english_admission_2nd_non_finite_verb",
+      "paperId": "english_admission_2nd",
+      "groupId": "english_admission_2nd_imp",
       "kind": "topic",
       "number": null,
-      "order": 112,
+      "order": 12,
       "name": "Non-finite Verb",
-      "sectionTemplate": "english_admission_topic",
       "topics": [],
       "source": {
         "wording": "MBBS Admission English — Topic Priority List (owner, last 12 years' questions)",
@@ -361,14 +349,13 @@
       "verification": "verified"
     },
     {
-      "id": "english_2nd_adm_determiner",
-      "paperId": "english_2nd",
-      "groupId": "english_2nd_admission_imp",
+      "id": "english_admission_2nd_determiner",
+      "paperId": "english_admission_2nd",
+      "groupId": "english_admission_2nd_imp",
       "kind": "topic",
       "number": null,
-      "order": 113,
+      "order": 13,
       "name": "Determiner",
-      "sectionTemplate": "english_admission_topic",
       "topics": [],
       "source": {
         "wording": "MBBS Admission English — Topic Priority List (owner, last 12 years' questions)",
@@ -378,14 +365,13 @@
       "verification": "verified"
     },
     {
-      "id": "english_2nd_adm_identification_of_phrase",
-      "paperId": "english_2nd",
-      "groupId": "english_2nd_admission_imp",
+      "id": "english_admission_2nd_identification_of_phrase",
+      "paperId": "english_admission_2nd",
+      "groupId": "english_admission_2nd_imp",
       "kind": "topic",
       "number": null,
-      "order": 114,
+      "order": 14,
       "name": "Identification of Phrase",
-      "sectionTemplate": "english_admission_topic",
       "topics": [],
       "source": {
         "wording": "MBBS Admission English — Topic Priority List (owner, last 12 years' questions)",

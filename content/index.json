@@ -450,12 +450,12 @@
       "file": "content/english/english_2nd_antonym_synonym_revision.json",
       "count": 486
     },
-    "english_2nd_adm_phrases_idioms_concept": {
-      "file": "content/english/english_2nd_adm_phrases_idioms_concept.json",
+    "english_admission_2nd_phrases_idioms_concept": {
+      "file": "content/english/english_admission_2nd_phrases_idioms_concept.json",
       "count": 2
     },
-    "english_2nd_adm_phrases_idioms_mcq": {
-      "file": "content/english/english_2nd_adm_phrases_idioms_mcq.json",
+    "english_admission_2nd_phrases_idioms_mcq": {
+      "file": "content/english/english_admission_2nd_phrases_idioms_mcq.json",
       "count": 13
     }
   }
