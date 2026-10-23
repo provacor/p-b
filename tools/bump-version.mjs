@@ -41,6 +41,7 @@ const shell = [
   './', 'index.html', 'manifest.webmanifest', 'icon.svg', `assets/css/app.css?v=${v}`,
   ...walk(join(root, 'assets/js')).map((f) => `${rel(f)}?v=${v}`).sort(),
   ...files('assets/img', /\.(jpe?g|png|webp|svg)$/),
+  'assets/vendor/three.min.js', // the pb logo animations (pbmotion.js) work offline too
 ];
 const swPath = join(root, 'sw.js');
 const sw = readFileSync(swPath, 'utf8')
