@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HTML ল্যাব — ৪র্থ অধ্যায়ের ৮টি সিমুলেশন</title>
+<style>
+  :root {
+    --bg: #0d1017; --panel: #151a24; --panel2: #1c2230; --line: #2a3242; --text: #e9edf4; --muted: #8e98ab;
+    --a: #7ea6ff; --b: #f7c35c; --c: #4fd8c4; --d: #fb8fb0; --e: #6ee7a0; --f: #c49bff;
+    --code-bg: #0b0f17; --page: #ffffff; --page-text: #111827;
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #f4f6fa; --panel: #fff; --panel2: #f1f4f9; --line: #dde3ec; --text: #0f172a; --muted: #5b6577;
+      --a: #3b6cf6; --b: #c58a06; --c: #0f9f8e; --d: #e2457a; --e: #16a34a; --f: #7c3aed; --code-bg: #0f172a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 "Noto Sans Bengali", "Inter", system-ui, sans-serif; }
+  header { padding: 14px 14px 6px; }
+  h1 { margin: 0; font-size: 1.15rem; }
+  header p { margin: 4px 0 0; color: var(--muted); font-size: .82rem; }
+  .tabs { display: flex; gap: 6px; overflow-x: auto; padding: 8px 14px; scrollbar-width: none; position: sticky; top: 0; background: var(--bg); z-index: 2; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tabs button { flex: none; border: 1px solid var(--line); background: var(--panel); color: var(--text); border-radius: 99px; padding: 7px 12px; font: inherit; font-size: .82rem; cursor: pointer; white-space: nowrap; }
+  .tabs button.on { background: var(--a); border-color: transparent; color: #fff; }
+  main { padding: 6px 14px 24px; max-width: 900px; margin: 0 auto; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 12px; }
+  h2 { margin: 2px 0 2px; font-size: 1.05rem; }
+  .sub { color: var(--muted); font-size: .82rem; margin: 0 0 10px; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  .row .gl { width: 100%; font-size: .74rem; color: var(--muted); margin: 2px 0 -4px; }
+  .row button { border: 1px solid var(--line); background: var(--panel2); color: var(--text); border-radius: 10px; padding: 7px 12px; font: inherit; font-size: .85rem; cursor: pointer; }
+  .row button.on { border-color: var(--a); color: var(--a); font-weight: 700; }
+  .ctl { display: grid; gap: 8px; margin-top: 10px; }
+  .ctl label { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; font-size: .84rem; }
+  .ctl label b { color: var(--a); font-variant-numeric: tabular-nums; }
+  .ctl input[type=range] { grid-column: 1 / -1; width: 100%; accent-color: var(--a); }
+  .ctl input[type=text] { grid-column: 1 / -1; width: 100%; font: inherit; padding: 7px 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--panel2); color: var(--text); }
+  .two { display: grid; gap: 10px; grid-template-columns: 1fr; margin-top: 10px; }
+  @media (min-width: 640px) { .two { grid-template-columns: 1fr 1fr; } }
+  .pane { border-radius: 12px; overflow: hidden; border: 1px solid var(--line); }
+  .pane .hd { font-size: .74rem; padding: 5px 10px; background: var(--panel2); color: var(--muted); }
+  pre.code { margin: 0; padding: 10px 12px; background: var(--code-bg); color: #e5e7eb; font: 13px/1.5 ui-monospace, "DejaVu Sans Mono", monospace; overflow-x: auto; white-space: pre; min-height: 60px; }
+  .code .t { color: #f472b6; } .code .at { color: #fbbf24; } .code .v { color: #86efac; }
+  .out { background: var(--page); color: var(--page-text); padding: 12px; min-height: 60px; font-family: "Times New Roman", serif; font-size: 16px; overflow-x: auto; }
+  .out table { border-collapse: separate; }
+  .out td, .out th { border: 1px solid #555; padding: 4px 8px; min-width: 28px; text-align: left; }
+  .out th { text-align: center; }
+  .info { margin-top: 10px; padding: 10px 12px; border-radius: 12px; background: var(--panel2); font-size: .86rem; }
+  .info code { font-family: ui-monospace, monospace; color: var(--c); }
+  .info .big { font-size: 1.05rem; font-weight: 700; }
+  .info .ok { color: var(--e); font-weight: 700; }
+  .info .no { color: var(--d); font-weight: 700; }
+  .note { font-size: .78rem; color: var(--muted); margin-top: 8px; }
+  .bits { display: grid; grid-template-columns: repeat(8, 1fr); gap: 4px; margin-top: 6px; }
+  .bits button { font: 600 15px ui-monospace, monospace; padding: 8px 0; border-radius: 8px; border: 1px solid var(--line); background: var(--panel2); color: var(--muted); cursor: pointer; }
+  .bits button.one { background: var(--a); color: #fff; border-color: transparent; }
+  .bits small { display: block; font: 10px system-ui; opacity: .8; }
+  .octet { margin-top: 8px; }
+  .octet .lb { font-size: .8rem; color: var(--muted); display: flex; justify-content: space-between; }
+  .octet .lb b { color: var(--text); font-variant-numeric: tabular-nums; }
+  .swatch { height: 90px; border-radius: 12px; border: 1px solid var(--line); margin-top: 10px; }
+  svg { width: 100%; height: 260px; display: block; background: var(--panel2); border-radius: 12px; }
+  .chk { display: grid; gap: 6px; margin-top: 10px; }
+  .chk label { display: flex; gap: 8px; align-items: center; font-size: .88rem; padding: 6px 10px; background: var(--panel2); border-radius: 10px; cursor: pointer; }
+</style>
+</head>
+<body>
+<header>
+  <h1>HTML ল্যাব</h1>
+  <p>আইসিটি · ৪র্থ অধ্যায় — নোটের কোড, নিয়ম আর শর্টকাট হাতে-কলমে দেখো। বোতাম চাপো, স্লাইডার টানো; কোড ও ব্রাউজারের আউটপুট সাথে সাথে বদলাবে।</p>
+</header>
+<nav class="tabs" id="tabs"></nav>
+<main><section class="card">
+  <h2 id="title"></h2>
+  <p class="sub" id="sub"></p>
+  <div id="stage"></div>
+  <p class="note" id="note"></p>
+</section></main>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const BN = '০১২৩৪৫৬৭৮৯';
+  const bn = (n) => String(n).replace(/\d/g, (d) => BN[d]);
+  const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  // syntax-colour a block of HTML source for the dark code pane
+  const hl = (src) => esc(src).replace(/(&lt;\/?)([a-zA-Z0-9!]+)((?:\s+[a-z-]+(?:=&quot;[^&]*?&quot;)?)*)\s*(\/?&gt;)/g, (m, o, tag, attrs, c) =>
+    `<span class="t">${o}${tag}</span>` + attrs.replace(/([a-z-]+)(=)(&quot;[^&]*?&quot;)/g, '<span class="at">$1</span>$2<span class="v">$3</span>') + `<span class="t">${c}</span>`);
+  const codeOut = (src, hd1 = 'HTML কোড', hd2 = 'ব্রাউজারে আউটপুট') =>
+    `<div class="two"><div class="pane"><div class="hd">${hd1}</div><pre class="code">${hl(src)}</pre></div>` +
+    `<div class="pane"><div class="hd">${hd2}</div><div class="out">${src}</div></div></div>`;
+  const btns = (group, list, cur) => `<div class="row"><div class="gl">${group}</div>` +
+    list.map(([k, label]) => `<button data-k="${esc(k)}" class="${k === cur ? 'on' : ''}">${label}</button>`).join('') + '</div>';
+  const range = (id, label, min, max, val, step = 1) =>
+    `<label>${label}<b id="${id}v">${bn(val)}</b><input type="range" id="${id}" min="${min}" max="${max}" step="${step}" value="${val}"></label>`;
+
+  // ---------- 1. tag → output ----------
+  const FMT = [
+    ['b', '<b> মোটা'], ['strong', '<strong> গুরুত্বপূর্ণ'], ['i', '<i> বাঁকা'], ['em', '<em> emphasized'],
+    ['u', '<u> আন্ডারলাইন'], ['ins', '<ins> inserted'], ['del', '<del> কাটা দাগ'], ['q', '<q> উদ্ধৃতি'],
+    ['sub', '<sub> নিচে'], ['sup', '<sup> উপরে'], ['pre', '<pre> হুবহু'], ['p', '<p> অনুচ্ছেদ'], ['h', '<h1>–<h6> হেডিং'],
+  ];
+  const FMT_NOTE = {
+    b: 'b = strong — দুটোই বোল্ড দেখায়।', strong: 'strong দেখতে b-এর মতোই মোটা।', i: 'i = em — দুটোই ইটালিক।', em: 'em দেখতে i-এর মতোই বাঁকা।',
+    u: 'u = ins — দুটোই আন্ডারলাইন।', ins: 'ins দেখতে u-এর মতোই আন্ডারলাইন।', del: 'del = delete = মাঝখানে কাটা দাগ।', q: 'q দুই পাশে কোটেশন চিহ্ন বসায়।',
+    sub: 'sub = নিচে (subway = মাটির নিচে) — H<sub>2</sub>O।', sup: 'sup = উপরে (superman = আকাশে) — a<sup>2</sup>।',
+    pre: 'কোডে যত space/নতুন লাইন, pre-তে হুবহু তাই দেখায় — বাকি সব ট্যাগে একাধিক space মিলে একটি space হয়।', p: 'p নতুন অনুচ্ছেদ তৈরি করে (উপরে-নিচে একটু ফাঁকা থাকে)।',
+    h: 'h1 সবচেয়ে বড়, h6 সবচেয়ে ছোট — সংখ্যা যত ছোট, হেডিং তত বড়।',
+  };
+  const tagSim = {
+    title: 'ট্যাগ থেকে আউটপুট', sub: 'একটি ফরম্যাটিং ট্যাগ বাছো — বাঁয়ে কোড, ডানে ব্রাউজার যেভাবে দেখাবে।',
+    note: 'নোট: <br> ও <img> Empty tag — closing লাগে না। একাধিক Enter/space ব্রাউজারে একটি space; ব্যতিক্রম শুধু <pre>।',
+    st: { tag: 'b', text: 'ICT', lvl: 1 },
+    render() {
+      const s = this.st;
+      let src;
+      if (s.tag === 'sub') src = `H<sub>2</sub>O`;
+      else if (s.tag === 'sup') src = `a<sup>2</sup>+b<sup>2</sup>`;
+      else if (s.tag === 'pre') src = `<p>Sany   is   a    good\nboy.</p>\n<pre>Sany   is   a    good\nboy.</pre>`;
+      else if (s.tag === 'h') src = `<h${s.lvl}>${esc(s.text)}</h${s.lvl}>`;
+      else src = `${esc(s.text)} <${s.tag}>${esc(s.text)}</${s.tag}> ${esc(s.text)}`;
+      $('stage').innerHTML = btns('ট্যাগ', FMT.map(([k, l]) => [k, esc(l)]), s.tag) +
+        `<div class="ctl"><label>লেখা<input type="text" id="txt" value="${esc(s.text)}" maxlength="24"></label>` +
+        (s.tag === 'h' ? range('lvl', 'হেডিং লেভেল h', 1, 6, s.lvl) : '') + '</div>' + codeOut(src) +
+        `<div class="info">${FMT_NOTE[s.tag]}</div>`;
+      $('stage').querySelectorAll('.row button').forEach((b) => b.onclick = () => { s.tag = b.dataset.k; this.render(); });
+      $('txt').oninput = (e) => { s.text = e.target.value || 'ICT'; const pos = e.target.selectionStart; this.render(); const t = $('txt'); t.focus(); t.setSelectionRange(pos, pos); };
+      if ($('lvl')) $('lvl').oninput = (e) => { s.lvl = +e.target.value; this.render(); };
+    },
+  };
+
+  // ---------- 2. binary IP ----------
+  const W8 = [128, 64, 32, 16, 8, 4, 2, 1];
+  const ipSim = {
+    title: 'বাইনারি IP → দশমিক', sub: 'প্রতিটি বিটে চাপ দিয়ে 0/1 বদলাও। যে ঘরে 1 আছে, তাদের ঘরের মান যোগ করলেই অকটেটের দশমিক মান।',
+    note: 'IPv4 = 32 bit = 4 Byte = 4 Octet; প্রতিটি অকটেটের মান 0–255। IPv6 = 128 bit।',
+    st: { oct: [24, 15, 26, 30] },
+    render() {
+      const s = this.st;
+      let h = '';
+      s.oct.forEach((v, o) => {
+        h += `<div class="octet"><div class="lb"><span>অকটেট ${bn(o + 1)}</span><b>${W8.map((w) => (v & w ? 1 : 0)).join('')} = ${bn(v)}</b></div><div class="bits">` +
+          W8.map((w, j) => `<button data-o="${o}" data-w="${w}" class="${v & w ? 'one' : ''}">${v & w ? 1 : 0}<small>${w}</small></button>`).join('') + '</div></div>';
+      });
+      const sums = s.oct.map((v) => W8.filter((w) => v & w).join('+') || '0');
+      h += `<div class="ctl">${range('oc', 'যে অকটেট স্লাইডারে বদলাবে', 1, 4, s.pick || 1)}${range('ov', 'তার দশমিক মান', 0, 255, s.oct[(s.pick || 1) - 1])}</div>`;
+      h += `<div class="info"><div class="big">IP → ${s.oct.join('.')}</div>${s.oct.map((v, o) => `${W8.map((w) => (v & w ? 1 : 0)).join('')} → ${sums[o]} = <b>${v}</b>`).join('<br>')}</div>`;
+      h += btns('নমুনা', [['note', 'নোটের উদাহরণ 24.15.26.30'], ['max', 'সর্বোচ্চ 255.255.255.255'], ['zero', 'সব 0']], '');
+      $('stage').innerHTML = h;
+      $('stage').querySelectorAll('.bits button').forEach((b) => b.onclick = () => { s.oct[+b.dataset.o] ^= +b.dataset.w; this.render(); });
+      $('oc').oninput = (e) => { s.pick = +e.target.value; this.render(); };
+      $('ov').oninput = (e) => { s.oct[(s.pick || 1) - 1] = +e.target.value; this.render(); };
+      $('stage').querySelectorAll('.row button').forEach((b) => b.onclick = () => {
+        s.oct = { note: [24, 15, 26, 30], max: [255, 255, 255, 255], zero: [0, 0, 0, 0] }[b.dataset.k]; this.render();
+      });
+    },
+  };
+
+  // ---------- 3. hexa colour ----------
+  const PRESET = [['Black', 0, 0, 0], ['White', 255, 255, 255], ['Red', 255, 0, 0], ['Green', 0, 128, 0], ['Lime', 0, 255, 0], ['Blue', 0, 0, 255],
+    ['Yellow', 255, 255, 0], ['Orange', 255, 165, 0], ['SkyBlue', 135, 206, 235], ['Purple', 128, 0, 128], ['Violet', 238, 130, 238]];
+  const hx = (n) => n.toString(16).toUpperCase().padStart(2, '0');
+  const colSim = {
+    title: 'Hexa code ও RGB রং', sub: 'লাল, সবুজ, নীলের মান (0–255) টানো — #RRGGBB আর rgb() সাথে সাথে তৈরি হবে।',
+    note: '#RRGGBB — প্রথম ২টি Red, মাঝের ২টি Green, শেষ ২টি Blue। 00 = একদম নেই, FF = 255 = পুরো।',
+    st: { r: 255, g: 0, b: 0 },
+    render() {
+      const s = this.st;
+      const hex = `#${hx(s.r)}${hx(s.g)}${hx(s.b)}`;
+      const name = (PRESET.find((p) => p[1] === s.r && p[2] === s.g && p[3] === s.b) || [])[0];
+      const src = `<body bgcolor="${hex}">\n<font color="${hex}">ICT</font>`;
+      $('stage').innerHTML = `<div class="swatch" style="background:${hex}"></div>` +
+        `<div class="ctl">${range('cr', 'Red (লাল)', 0, 255, s.r)}${range('cg', 'Green (সবুজ)', 0, 255, s.g)}${range('cb', 'Blue (নীল)', 0, 255, s.b)}</div>` +
+        `<div class="info"><div class="big">${hex} &nbsp; rgb(${s.r},${s.g},${s.b})</div>` +
+        `Red = ${hx(s.r)} (${s.r}) · Green = ${hx(s.g)} (${s.g}) · Blue = ${hx(s.b)} (${s.b})${name ? `<br>এটি <b>${name}</b>` : ''}</div>` +
+        btns('নোটের রং', PRESET.map((p) => [p[0], p[0]]), name) +
+        `<div class="pane" style="margin-top:10px"><div class="hd">কোডে ব্যবহার</div><pre class="code">${hl(src)}</pre></div>`;
+      ['r', 'g', 'b'].forEach((k) => { $('c' + k).oninput = (e) => { s[k] = +e.target.value; this.render(); }; });
+      $('stage').querySelectorAll('.row button').forEach((b) => b.onclick = () => {
+        const p = PRESET.find((x) => x[0] === b.dataset.k); s.r = p[1]; s.g = p[2]; s.b = p[3]; this.render();
+      });
+    },
+  };
+
+  // ---------- 4. lists ----------
+  const roman = (n) => { const R = [[10, 'x'], [9, 'ix'], [5, 'v'], [4, 'iv'], [1, 'i']]; let o = ''; for (const [v, s] of R) while (n >= v) { o += s; n -= v; } return o; };
+  const listSim = {
+    title: 'লিস্ট: type ও start', sub: 'ol ও ul-এর type বদলাও, start টানো — আউটপুটে মার্কার কী হয় দেখো।',
+    note: 'start-এ সবসময় সংখ্যা দিতে হয়, type যা-ই হোক: type="a" হলে x থেকে শুরু = start="24"; type="I" ও start="4" হলে IV, V, VI…',
+    st: { kind: 'ol', type: '1', start: 1 },
+    render() {
+      const s = this.st;
+      const items = ['Abul', 'Babul', 'Kabul'];
+      const attrs = s.kind === 'ol' ? ` type="${s.type}"${s.start !== 1 ? ` start="${s.start}"` : ''}` : ` type="${s.type}"`;
+      const src = `<${s.kind}${attrs}>\n${items.map((x) => `<li>${x}</li>`).join('\n')}\n</${s.kind}>`;
+      const mk = (n) => ({ 1: n, a: String.fromCharCode(96 + ((n - 1) % 26) + 1), A: String.fromCharCode(64 + ((n - 1) % 26) + 1), i: roman(n), I: roman(n).toUpperCase() }[s.type]);
+      const first = s.kind === 'ol' ? mk(s.start) : '';
+      $('stage').innerHTML = btns('লিস্টের ধরন', [['ol', '<ol> ordered'], ['ul', '<ul> unordered']].map(([k, l]) => [k, esc(l)]), s.kind) +
+        (s.kind === 'ol' ? btns('type', [['1', '1, 2, 3'], ['a', 'a, b, c'], ['A', 'A, B, C'], ['i', 'i, ii, iii'], ['I', 'I, II, III']], s.type) +
+          `<div class="ctl">${range('st', 'start', 1, 26, s.start)}</div>`
+          : btns('type', [['disc', '● disc'], ['circle', '○ circle'], ['square', '■ square']], s.type)) +
+        codeOut(src) +
+        `<div class="info">${s.kind === 'ol' ? `প্রথম আইটেমের মার্কার: <b>${first}</b> (start="${s.start}")` : `ul-এর ডিফল্ট type = disc।`}</div>`;
+      const rows = $('stage').querySelectorAll('.row');
+      rows[0].querySelectorAll('button').forEach((b) => b.onclick = () => { s.kind = b.dataset.k; s.type = s.kind === 'ol' ? '1' : 'disc'; s.start = 1; this.render(); });
+      rows[1].querySelectorAll('button').forEach((b) => b.onclick = () => { s.type = b.dataset.k; this.render(); });
+      if ($('st')) $('st').oninput = (e) => { s.start = +e.target.value; this.render(); };
+    },
+  };
+
+  // ---------- 5. rowspan / colspan ----------
+  const spanSim = {
+    title: 'টেবিল: rowspan ও colspan', sub: 'একটি ঘর বাছো (সারি, কলাম), তারপর rowspan/colspan বাড়াও। ঢাকা পড়া ঘরগুলো কোড থেকে বাদ যায়।',
+    note: 'rowspan = ঘর নিচের দিকে লম্বা (কয়েকটি সারি জুড়ে) · colspan = ঘর ডানে চওড়া। rowspan করা ঘর শুধু প্রথম সারিতে লিখবে।',
+    st: { R: 3, C: 4, r: 1, c: 1, rs: 2, cs: 1 },
+    render() {
+      const s = this.st;
+      s.r = Math.min(s.r, s.R); s.c = Math.min(s.c, s.C);
+      s.rs = Math.min(s.rs, s.R - s.r + 1); s.cs = Math.min(s.cs, s.C - s.c + 1);
+      const covered = (i, j) => i >= s.r && i < s.r + s.rs && j >= s.c && j < s.c + s.cs && !(i === s.r && j === s.c);
+      let src = '<table border="1">\n';
+      const counts = [];
+      for (let i = 1; i <= s.R; i++) {
+        const cells = [];
+        let n = 0;
+        for (let j = 1; j <= s.C; j++) {
+          if (covered(i, j)) continue;
+          const lab = String.fromCharCode(64 + (i - 1) * s.C + j);
+          if (i === s.r && j === s.c) {
+            cells.push(`<td${s.rs > 1 ? ` rowspan="${s.rs}"` : ''}${s.cs > 1 ? ` colspan="${s.cs}"` : ''}>${lab}</td>`);
+            n += s.cs;
+          } else { cells.push(`<td>${lab}</td>`); n += 1; }
+        }
+        const fromAbove = i > s.r && i < s.r + s.rs ? s.cs : 0;
+        counts.push([cells.length, n, fromAbove]);
+        src += `<tr>${cells.join('')}</tr>\n`;
+      }
+      src += '</table>';
+      const chk = counts.map(([k, n, up], i) => `সারি ${bn(i + 1)}: নিজের ঘরের প্রস্থ ${bn(n)}${up ? ` + উপর থেকে আসা ${bn(up)}` : ''} = <b>${bn(n + up)}</b>`).join('<br>');
+      const ok = counts.every(([, n, up]) => n + up === s.C);
+      $('stage').innerHTML = `<div class="ctl">${range('tR', 'মোট সারি', 2, 5, s.R)}${range('tC', 'মোট কলাম', 2, 5, s.C)}` +
+        `${range('tr', 'বাছাই করা ঘরের সারি', 1, s.R, s.r)}${range('tc', 'বাছাই করা ঘরের কলাম', 1, s.C, s.c)}` +
+        `${range('trs', 'rowspan ↕', 1, s.R - s.r + 1, s.rs)}${range('tcs', 'colspan ↔', 1, s.C - s.c + 1, s.cs)}</div>` +
+        codeOut(src) + `<div class="info">${chk}<br>${ok ? `<span class="ok">✔ প্রতিটি সারিতে মোট = ${bn(s.C)} কলাম — টেবিল ঠিক আছে।</span>` : '<span class="no">মিলছে না</span>'}</div>`;
+      [['tR', 'R'], ['tC', 'C'], ['tr', 'r'], ['tc', 'c'], ['trs', 'rs'], ['tcs', 'cs']].forEach(([id, k]) => { $(id).oninput = (e) => { s[k] = +e.target.value; this.render(); }; });
+    },
+  };
+
+  // ---------- 6. transpose ----------
+  const TABLES = {
+    abc: { label: '৩×৩ (A–I)', rows: [['A', 'B', 'C'], ['D', 'E', 'F'], ['G', 'H', 'I']] },
+    marks: { label: 'Marks (Rafi)', html: ['<caption>Marks</caption>\n<tr><th>Name</th><th colspan="2">Subject</th></tr>\n<tr><td rowspan="2">Rafi</td><td>ICT</td><td>95</td></tr>\n<tr><td>Math</td><td>90</td></tr>',
+      '<caption>Marks</caption>\n<tr><th>Name</th><td colspan="2">Rafi</td></tr>\n<tr><th rowspan="2">Subject</th><td>ICT</td><td>Math</td></tr>\n<tr><td>95</td><td>90</td></tr>'] },
+  };
+  const trSim = {
+    title: 'সারি ↔ কলাম রূপান্তর', sub: 'টেবিলের সারিকে কলাম ও কলামকে সারিতে রূপান্তর করো — "ডানে → নিচে, নিচে → ডানে"।',
+    note: 'প্রথম সারির ঘরগুলো হয়ে যায় প্রথম কলাম। একইসাথে rowspan ↔ colspan অদলবদল হয়; row সংখ্যা ↔ column সংখ্যা অদলবদল হয়।',
+    st: { t: 'abc', flip: false },
+    render() {
+      const s = this.st;
+      const T = TABLES[s.t];
+      let body;
+      if (T.rows) {
+        const rows = s.flip ? T.rows[0].map((_, j) => T.rows.map((r) => r[j])) : T.rows;
+        body = rows.map((r) => `<tr>${r.map((x) => `<td>${x}</td>`).join('')}</tr>`).join('\n');
+      } else body = T.html[s.flip ? 1 : 0];
+      const src = `<table border="1">\n${body}\n</table>`;
+      $('stage').innerHTML = btns('টেবিল', Object.entries(TABLES).map(([k, v]) => [k, v.label]), s.t) +
+        btns('অবস্থা', [['0', 'মূল টেবিল'], ['1', 'রূপান্তরিত (সারি ↔ কলাম)']], s.flip ? '1' : '0') + codeOut(src) +
+        `<div class="info">${s.flip ? 'রূপান্তরিত: মূল টেবিলের প্রথম সারি এখন প্রথম কলাম।' : 'মূল টেবিল।'}${T.html ? ' লক্ষ করো: rowspan="2" ↔ colspan="2" অদলবদল হয়েছে।' : ''}</div>`;
+      const rows = $('stage').querySelectorAll('.row');
+      rows[0].querySelectorAll('button').forEach((b) => b.onclick = () => { s.t = b.dataset.k; this.render(); });
+      rows[1].querySelectorAll('button').forEach((b) => b.onclick = () => { s.flip = b.dataset.k === '1'; this.render(); });
+    },
+  };
+
+  // ---------- 7. website structure ----------
+  const STRUCT = {
+    lin: { label: 'লিনিয়ার / সিকুয়েন্স', info: 'পেইজগুলো নির্দিষ্ট ক্রমানুসারে — একটির পর অন্যটি। Next, Previous, First, Last লিংক থাকে (অনলাইন বই, টিউটোরিয়াল)।',
+      nodes: [['Home', 50, 130], ['Page-1', 170, 130], ['Page-2', 290, 130], ['Page-3', 410, 130]], edges: [[0, 1, 1], [1, 2, 1], [2, 3, 1]] },
+    tree: { label: 'হায়ারার্কিক্যাল / ট্রি', info: 'হোমপেইজ থেকে গাছের শাখা-প্রশাখার মতো মূল ধারা ও উপধারায় ভাগ — উপর থেকে নিচে নেভিগেশন (বিশ্ববিদ্যালয়ের সাইট)।',
+      nodes: [['Home', 230, 40], ['A', 90, 130], ['B', 230, 130], ['C', 370, 130], ['A1', 50, 215], ['A2', 130, 215]], edges: [[0, 1], [0, 2], [0, 3], [1, 4], [1, 5]] },
+    hyb: { label: 'হাইব্রিড / কম্বিনেশন', info: 'দুই বা ততোধিক কাঠামোর মিশ্রণ — মেমোরি স্পেস কমানো ও সৌন্দর্য বৃদ্ধির জন্য।',
+      nodes: [['Home', 230, 40], ['A', 110, 125], ['B', 350, 125], ['A1', 70, 215], ['C', 230, 215], ['B1', 390, 215]], edges: [[0, 1], [0, 2], [0, 4], [1, 3], [2, 5], [3, 4, 1], [4, 5, 1]] },
+    web: { label: 'ওয়েবলিংকড / নেটওয়ার্ক', info: 'সবগুলো পেইজ একে অপরের সাথে লিংক থাকে — বড় সাইটে জনপ্রিয়, তবে জটিল ও বেশি মেমোরি লাগে।',
+      nodes: [['Page-1', 130, 60], ['Page-2', 330, 60], ['Page-3', 130, 200], ['Page-4', 330, 200]], edges: [[0, 1, 1], [0, 2, 1], [0, 3, 1], [1, 2, 1], [1, 3, 1], [2, 3, 1]] },
+  };
+  const stSim = {
+    title: 'ওয়েবসাইটের কাঠামো', sub: 'চারটি কাঠামো বাছো — পেইজগুলো কীভাবে লিংক থাকে দেখো; উদ্দীপক শনাক্তের কৌশলও নিচে।',
+    note: 'লিনিয়ার = লাইন (ট্রেনের বগি) · হায়ারার্কিক্যাল = গাছ · ওয়েবলিংকড = জাল · হাইব্রিড = মিশ্র।',
+    st: { k: 'lin' },
+    render() {
+      const s = this.st, S = STRUCT[s.k];
+      const fg = getComputedStyle(document.body).color;
+      let g = `<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="${fg}"/></marker></defs>`;
+      S.edges.forEach(([a, b, both]) => {
+        const [, x1, y1] = S.nodes[a], [, x2, y2] = S.nodes[b];
+        const dx = x2 - x1, dy = y2 - y1, L = Math.hypot(dx, dy), ux = dx / L, uy = dy / L;
+        const pad = Math.abs(ux) > Math.abs(uy) ? 42 : 18;
+        g += `<line x1="${x1 + ux * pad}" y1="${y1 + uy * pad}" x2="${x2 - ux * pad}" y2="${y2 - uy * pad}" stroke="${fg}" stroke-width="1.6" marker-end="url(#ar)"${both ? ' marker-start="url(#ar)"' : ''}/>`;
+      });
+      S.nodes.forEach(([t, x, y], i) => {
+        g += `<rect x="${x - 38}" y="${y - 15}" width="76" height="30" rx="8" fill="${i === 0 && s.k !== 'web' ? '#fde68a' : '#dbeafe'}" stroke="#1e3a8a"/><text x="${x}" y="${y + 5}" text-anchor="middle" font-size="13" fill="#0f172a">${t}</text>`;
+      });
+      $('stage').innerHTML = btns('কাঠামো', Object.entries(STRUCT).map(([k, v]) => [k, v.label]), s.k) +
+        `<svg viewBox="0 0 460 260" style="margin-top:10px">${g}</svg><div class="info"><div class="big">${S.label}</div>${S.info}<br>` +
+        'উদ্দীপকে "Next/Previous" → লিনিয়ার; "সব পেইজ পরস্পর যুক্ত" → ওয়েবলিংকড; "মেমোরি কম + সৌন্দর্য" → হাইব্রিড।</div>';
+      $('stage').querySelectorAll('.row button').forEach((b) => b.onclick = () => { s.k = b.dataset.k; this.render(); });
+    },
+  };
+
+  // ---------- 8. static or dynamic ----------
+  const FEAT = [['db', 'ডেটাবেজ আছে', 1], ['login', 'লগইন করে নিজের তথ্য দেখা', 1], ['comment', 'কমেন্ট / ফেসবুকের মতো ইন্টারেক্টিভ', 1], ['php', 'PHP / ASP / JAVA দিয়ে তৈরি', 1],
+    ['shop', 'ই-কমার্স', 1], ['html', 'শুধু HTML / CSS', 0], ['folio', 'ব্যক্তিগত পোর্টফোলিও', 0]];
+  const sdSim = {
+    title: 'স্ট্যাটিক না ডাইনামিক?', sub: 'উদ্দীপকের বৈশিষ্ট্যগুলো টিক দাও — কোন ধরনের ওয়েবসাইট উপযুক্ত দেখো।',
+    note: 'স্ট্যাটিকের ৫ সুবিধা "SFC-SS": Safe (নিরাপদ) · Fast (দ্রুত লোড) · Cheap (খরচ কম) · Simple (সহজ) · Still (কন্টেন্ট স্থির)। বাকি সব উল্টো = ডাইনামিক।',
+    st: { on: { login: true, db: true } },
+    render() {
+      const s = this.st;
+      const dyn = FEAT.filter(([k, , d]) => d && s.on[k]).length, sta = FEAT.filter(([k, , d]) => !d && s.on[k]).length;
+      const v = dyn ? 'ডাইনামিক' : sta ? 'স্ট্যাটিক' : '—';
+      const rows = [['কন্টেন্ট', 'নির্দিষ্ট থাকে', 'পরিবর্তনশীল / ইন্টারেক্টিভ'], ['ব্রাউজিংয়ে content বদল', 'হয় না', 'হতে পারে'], ['লোড', 'খুব দ্রুত', 'তুলনামূলক বেশি সময়'],
+        ['ডেটাবেজ', 'সাধারণত থাকে না', 'থাকে, কুয়েরিতে কন্টেন্ট তৈরি'], ['নিরাপত্তা', 'বেশি (একমুখী)', 'কম (উভমুখী)'], ['খরচ', 'কম', 'বেশি'], ['তৈরি ও নিয়ন্ত্রণ', 'সহজ', 'জটিল'], ['ভাষা', 'HTML, CSS', 'PHP, ASP, JAVA']];
+      $('stage').innerHTML = `<div class="chk">${FEAT.map(([k, l]) => `<label><input type="checkbox" data-k="${k}" ${s.on[k] ? 'checked' : ''}> ${l}</label>`).join('')}</div>` +
+        `<div class="info"><div class="big">সিদ্ধান্ত: ${v}</div>${dyn ? 'ডেটাবেজ/লগইন/কমেন্ট/PHP-ASP/ই-কমার্স যেকোনো একটি থাকলেই ডাইনামিক।' : sta ? 'শুধু HTML-CSS বা ব্যক্তিগত পোর্টফোলিও → স্ট্যাটিক।' : 'কোনো বৈশিষ্ট্য বাছাই করোনি।'}</div>` +
+        `<div class="pane" style="margin-top:10px"><div class="out" style="font-family:inherit;font-size:13px"><table style="width:100%;border-collapse:collapse">` +
+        `<tr><th>বিষয়</th><th>Static</th><th>Dynamic</th></tr>${rows.map((r) => `<tr>${r.map((c, i) => `<td style="${i && ((i === 1 && v === 'স্ট্যাটিক') || (i === 2 && v === 'ডাইনামিক')) ? 'background:#dcfce7' : ''}">${c}</td>`).join('')}</tr>`).join('')}</table></div></div>`;
+      $('stage').querySelectorAll('input[type=checkbox]').forEach((c) => c.onchange = () => { s.on[c.dataset.k] = c.checked; this.render(); });
+    },
+  };
+
+  const sims = [tagSim, ipSim, colSim, listSim, spanSim, trSim, stSim, sdSim];
+  $('tabs').innerHTML = sims.map((s, i) => `<button data-i="${i}">${bn(i + 1)}. ${s.title}</button>`).join('');
+  $('tabs').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) select(Number(b.dataset.i)); });
+  function select(i) {
+    document.querySelectorAll('#tabs button').forEach((b, j) => b.classList.toggle('on', j === i));
+    const s = sims[i];
+    $('title').textContent = s.title; $('sub').textContent = s.sub; $('note').textContent = s.note;
+    s.render();
+  }
+  select(0);
+})();
+</script>
+</body>
+</html>

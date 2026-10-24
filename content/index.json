@@ -573,6 +573,22 @@
     "english_admission_2nd_identification_of_phrase_mcq": {
       "file": "content/english/english_admission_2nd_identification_of_phrase_mcq.json",
       "count": 65
+    },
+    "ict_1st_ch04_notes": {
+      "file": "content/ict/ict_1st_ch04_notes.json",
+      "count": 1
+    },
+    "ict_1st_ch04_simulation": {
+      "file": "content/ict/ict_1st_ch04_simulation.json",
+      "count": 1
+    },
+    "ict_1st_ch05_notes": {
+      "file": "content/ict/ict_1st_ch05_notes.json",
+      "count": 1
+    },
+    "ict_1st_ch05_simulation": {
+      "file": "content/ict/ict_1st_ch05_simulation.json",
+      "count": 1
     }
   }
 }
