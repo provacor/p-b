@@ -1,0 +1,293 @@
+{
+ "sectionId": "english_admission_2nd_non_finite_verb_concept",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0001",
+   "kind": null,
+   "title": "Verb কী?",
+   "body": "যে word কোনো ব্যক্তি, বস্তু বা স্থান সম্পর্কে বলার জন্য ব্যবহৃত হয় তাকে Verb বলে। Verb হচ্ছে sentence এর অপরিহার্য অংশ (essential part) কারণ, সাধারণত verb ব্যতীত কোনো sentence গঠিত হতে পারে না। Every English sentence must have a verb (প্রত্যেক ইংরেজি বাক্যের একটি ক্রিয়াপদ থাকবে)।",
+   "topic": "Verb — Principal, Auxiliary, Transitive ও Intransitive"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0002",
+   "kind": null,
+   "title": "Principal verb",
+   "body": "যে verb অন্য verb এর সাহায্য ব্যতীত স্বাধীনভাবে বাক্যের অর্থ সম্পন্ন করতে পারে, তাকে Principal verb বা Main verb বলে। যেমন: call, go, work ইত্যাদি। বাক্যে principal verb চেনার উপায়: প্রথমত, কোনো বাক্যে একটিমাত্র verb থাকলে তা অবশ্যই Main/Principal Verb হয়। কেননা, Main/Principal verb ছাড়া কোনো sentence গঠিত হতে পারে না। যেমন: I am in class twelve. I did the work. দ্বিতীয়ত, বাক্যে s/es যুক্ত একটিমাত্র verb থাকলে তা অবশ্যই Main/Principal Verb হয়। কেননা, শুধুমাত্র Principal Verb এর সাথেই s/es যুক্ত হয়। যেমন: Nothing lasts forever. He goes to mosque. তৃতীয়ত, auxiliary verb এর পরবর্তী verb টি Principal verb হয়। যেমন: We should obey the laws.",
+   "topic": "Verb — Principal, Auxiliary, Transitive ও Intransitive"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0003",
+   "kind": null,
+   "title": "Auxiliary verb",
+   "body": "যে verb, principal verb কে Tense, voice এবং Mood গঠনে সাহায্য করে, তাকে Helping verb বা Auxiliary verb বলে। যেমন: He has gone to school (Tense). He was elected chairman (Voice). We should obey the laws of the country (Mood)। ইংরেজি ব্যাকরণে Auxiliary verb এর সংখ্যা মোট ১২টি। যথা: be, have, do, can, may, shall, will, must, dare, need, used to, ought to = ১২। তবে primary auxiliary (= be, do, have) verb এর সংখ্যা ১৪টি। be, have, do verb গুলো principal এবং Auxiliary উভয়রূপেই ব্যবহৃত হয়। বাক্যে একটিমাত্র verb হিসেবে যদি be, have, do verb গুলোর মধ্যে যেকোনো একটি verb ব্যবহৃত তবে তা principal verb হবে। Be verb: am, is, are, was, were, be, being, been; Have verb: have, has, had; Modals: shall, should, will, can, could, may, might; Do verb: do, does, did।",
+   "topic": "Verb — Principal, Auxiliary, Transitive ও Intransitive"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0004",
+   "kind": null,
+   "title": "Transitive verb",
+   "body": "বাক্যের অর্থ সম্পন্ন করতে যে verb এর object প্রয়োজন হয়, তাকে Transitive verb বলে। Transitive verb এর অবশ্যই একটা direct object থাকবে। আর verb এর একটিমাত্র object থাকলে তা direct object হবে। object সর্বদাই noun (phrase)/pronoun হয়। তাই বাক্যে verb এর পরে noun (phrase)/pronoun থাকলে verb টি অবশ্যই transitive verb হবে। সহজ কথায়, সাধারণত যে সকল verb এর পরে it/him বসানো যায় তারাই হচ্ছে Transitive verb (vt) e.g. I like it. I like him. Avoid it. Every mother loves her child. বাক্যে একটিমাত্র verb থাকলে এবং সেটি object নিলে তা Principal verb এবং Transitive verb দুটোই হয়। অপশনে দুটোই থাকলে, object নেয়ার কারণে সুনির্দিষ্টভাবে verb টিকে Transitive verb বিবেচনা করাই উত্তম।",
+   "topic": "Verb — Principal, Auxiliary, Transitive ও Intransitive"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0005",
+   "kind": null,
+   "title": "Intransitive verb",
+   "body": "বাক্যের অর্থ সম্পন্ন করতে যে verb এর object প্রয়োজন হয় না, তাকে Intransitive verb বলে। বাক্যে verb এর পরে কোনো word না থাকলে অথবা verb এর পরে adverb থাকলে অথবা শুধু preposition থাকলে verb টি অবশ্যই Intransitive verb হবে। সহজ কথায়, যে সকল verb এর পরে it নয় বরং here, there বসে তারাই হচ্ছে Intransitive verb (vi) e.g. Come here. Go there. lie, rise, sit হচ্ছে intransitive verb এবং lay, raise, set হচ্ছে transitive verb। intransitive verb গুলো শুধু একা সম্পূর্ণরূপে অর্থ প্রকাশ করতে পারে তাই তাদেরকে complete verb বলে এবং অন্য verb গুলো object/complement ছাড়া সম্পূর্ণরূপে অর্থ প্রকাশ করতে পারে না বলে তারা incomplete verb।",
+   "topic": "Verb — Principal, Auxiliary, Transitive ও Intransitive"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0006",
+   "kind": null,
+   "title": "Direct object ও Indirect object",
+   "body": "Direct object (od): বাক্যে verb এর একটিমাত্র object (ব্যক্তি/বস্তু) থাকলে তা direct object হবে। যেমন: He was reading a book. He likes me. They made him captain. Indirect object (oi): বাক্যে verb এর দুটো object থাকলে সাধারণত প্রথম object টি indirect object (oi) এবং দ্বিতীয় object টি direct object (od) হয়। এক্ষেত্রে সাধারণত verb কে 'কাকে/কার জন্য (to/for whom)' দ্বারা প্রশ্ন করলে উত্তর হিসেবে যে object পাওয়া যায় সেটা indirect object হবে আর 'কি (what)' দ্বারা প্রশ্ন উত্তর হিসেবে যে object পাওয়া যায় সেটা direct object হবে। She gave me a book. Give him the money. He gave the class a tough assignment. Whom do you like most? — এই বাক্যে whom হচ্ছে একমাত্র object তাই এখানে whom হচ্ছে direct object।",
+   "topic": "Object, Complement ও Linking verb"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0007",
+   "kind": null,
+   "title": "Use of Indirect object & direct object",
+   "body": "সাধারণত Indirect object টি direct object এর পূর্বে বসে। এক্ষেত্রে এদের মাঝে কোনো preposition বসে না। ব্যতিক্রম: I presented her with a rose. He provided me with a fan. He supplied us with food. তবে direct object আগে বসলে এবং Indirect object পরে বসলে এর পূর্বে to বসে কিন্তু জন্য বুঝালে for বসে। Sub + verb + oi + od: He gave the class a tough assignment. Sub + verb + od + to/for + oi: Mrs. Walker has returned the wallet to its owner. present (উপহার দেয়া), entrust/invest/trust (দায়িত্ব দেয়া), provide/supply (যোগান দেয়া) + oi + with + od। Rule: Sub + vt + indirect object + direct object।",
+   "topic": "Object, Complement ও Linking verb"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0008",
+   "kind": null,
+   "title": "Complement",
+   "body": "verb এর পরবর্তী adjective (phrase) অথবা noun (phrase) এবং subject যদি একই ব্যক্তি বা বস্তুকে বোঝায় অর্থাৎ একে অপরের পরিপূরক হয় অথবা object পরবর্তী adjective (phrase) অথবা noun (phrase) এবং object যদি একই ব্যক্তি বা বস্তুকে বোঝায় তখন উক্ত adjective অথবা noun (phrase) কে complement বলে। e.g. He became a doctor. He became angry. It was painted red. I painted it red. He called me a fool. object সর্বদাই noun অথবা pronoun হয়; complement সাধারণত noun অথবা adjective হয়। object এবং subject দুটি ভিন্ন সত্তা (He helped me)। তবে, reflexive pronoun সর্বদাই subject এর অভিন্ন সত্তা কিন্তু pronoun বলে সাধারণত object হয় (He killed himself)। subject ও subject complement এবং object ও object complement একই সত্তা (He is a fool. I called him a fool.)",
+   "topic": "Object, Complement ও Linking verb"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0009",
+   "kind": null,
+   "title": "Linking verb",
+   "body": "subject এবং complement এর মধ্যবর্তী verb কে Linking verb বলে। যেমন: to be, become, look, seem, remain, appear, make, run, go, grow, read, turn, taste, feel, smell, weigh constitute, equal, represent ইত্যাদি। He will make a good player. The weather has turned cold. The milk smelled/turned/went sour. A metre equals 39.38 inches. My bags weigh 45kg. তবে to be verb বাদ দিয়ে অন্য কোনো verb, linking verb হতে গেলে তা to be verb এর সমকক্ষ হতে হবে এবং তার পরবর্তী পদটি অবশ্যই adjective হতে হবে এবং adjective এর কাজ করতে হবে। Honey tastes sweet. = Honey is sweet. The dog went mad. = The dog was mad.",
+   "topic": "Object, Complement ও Linking verb"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0010",
+   "kind": null,
+   "title": "Copulative ও Inchoative verb",
+   "body": "Copulative verb: যে সকল Intransitive verb এর পরে adjective বসে আলাদা অর্থ প্রকাশ করে তাদেরকে Copulative verb বলে। এগুলোকে Linking verb ধরা হয়। যেমন: go অর্থ যাওয়া কিন্তু go mad অর্থ পাগল হওয়া (The dog went mad.) come অর্থ আসা কিন্তু come true অর্থ সত্যি হওয়া (My dreams came true.)। Inchoative verb: যে verb কোনো অবস্থার পরিবর্তনের সূচনা, বিকাশ ও পরিণতি ব্যক্ত করে তাকে Inchoative verb বলে। এ শ্রেণির সুপরিচিত verb গুলো হল become, come, go, grow, get, fall, run, turn, wear ইত্যাদি। He got tired. He became rich overnight. He soon fell asleep. It is growing dark.",
+   "topic": "Copulative, Inchoative, Factitive, Cognate, Group, Semi-modal ও Causative verb"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0011",
+   "kind": null,
+   "title": "Factitive ও Cognate verb",
+   "body": "Factitive verb: যখন কোনো transitive verb অতিরিক্ত word এর সাহায্য ছাড়া তার direct object টি দ্বারা পূর্ণ অর্থ প্রকাশ করতে পারে না, তাকে factitive verb বলে। অর্থ সম্পন্ন করতে অতিরিক্ত যে word এর প্রয়োজন হয় তাকে factitive object বা objective complement বলে। যেমন: We call him a fool. They elected him chairman/captain। factitive verb বিশিষ্ট বাক্যগুলোকে passive করলে objective complement টি subjective complement হয়ে যায় এবং verb টি linking verb হয়ে যায়। AV: We call him a genius. PV: He is called a genius. Cognate verb: কোনো intransitive verb তারই noun form অথবা সমজাতীয় কোনো noun কে object রূপে গ্রহণ করলে তাকে cognate verb বলে। আর তার object টিকে cognate object বলে। I live a simple life. I dreamt a wonderful dream. He ran a race. Rani sang a song.",
+   "topic": "Copulative, Inchoative, Factitive, Cognate, Group, Semi-modal ও Causative verb"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0012",
+   "kind": null,
+   "title": "Group verb ও Semi-modal verb",
+   "body": "Group verb: কোনো verb এর পরে preposition বসে transitive verb হয়ে ভিন্ন অর্থ প্রকাশ করলে তাকে phrasal verb/verbal idiom/prepositional verb/group verb বলে। Group verb এর পর object (noun/pronoun) বসলে তা Transitive verb হিসেবে গণ্য হয়। She takes after her mother. Semi-modal verb: Need, Dare, used to ইত্যাদি গুলো modal এবং main verb উভয়রূপে ব্যবহৃত হয়ে থাকে এ কারণে এদেরকে Semi-modal verb বলা হয়। Dare, need এর পরে not + verb এর base form বসলে অথবা interrogative sentence এ এদের পরবর্তী verb এর base form বসলে এরা তখন Modal verb রূপে কাজ করে। কারণ Modal verb এর ন্যায় এদের সাথে s, es বা ing যুক্ত হয় না এবং এদের পরে to বসে না। How dare you touch me? (Modal) He dare not touch me. (Modal) Dare, need এর পূর্বে do not, does not বসলে অথবা এদের সাথে s যুক্ত হলে অথবা এদের সাথে past form হলে অথবা এদের পরে to + verb এর base form বসলে এরা Principal verb হিসেবে ব্যবহৃত হয়।",
+   "topic": "Copulative, Inchoative, Factitive, Cognate, Group, Semi-modal ও Causative verb"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0013",
+   "kind": null,
+   "title": "Common verb ও Causative verb",
+   "body": "Common verb: যে সকল verb দ্বারা subject নিজে কাজ সম্পন্ন করে, তাদেরকে Common verb বলে (He did it)। Causative verb: যে সকল verb দ্বারা subject সরাসরি নিজে কাজ না করে অন্যকে দিয়ে কাজটি করায় তাদেরকে causative verb বলে। যেমন: My mother feeds me. কোনো intransitive verb যখন causative verb রূপে ব্যবহৃত হয় তখন তা transitive verb হয়ে যায়। The horse walks. — He walks the horse. Common → Causative: Eat (খাওয়া) → Feed (খাওয়ানো); Dive (ডুব দেয়া) → Dip (ডুবান); Learn (শেখা) → Teach (শেখা); Fall (পড়ে যাওয়া) → Fell (ফেলে দেয়া); Lie (শুয়ে থাকা) → Lay (শুয়ে থাকা); Know (জানা) → Inform (জানান); See (দেখা) → Show (দেখানো); Remember (স্মরণ করা) → Remind (স্মরণ করে দেয়া); Rise (উঠা) → Raise (উঠানো); Sit (বসা) → Set (স্থাপন করা/বসানো)। যে সকল verb এর causative form নেই তাদের পূর্বে have, get, make ইত্যাদি বসিয়ে Causative verb এর অর্থ প্রকাশ করা হয়। My mother makes me take the medicine. I shall get the work done by him.",
+   "topic": "Copulative, Inchoative, Factitive, Cognate, Group, Semi-modal ও Causative verb"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0014",
+   "kind": null,
+   "title": "Stative verb",
+   "body": "যে verb বাহ্যিকভাবে কাজ করা না বুঝিয়ে বরং অবস্থা বুঝায়, তাকে stative verb (অবস্থাধর্মী ক্রিয়া) বলে। যেমন: See, hear, feel, smell, taste, love, like, hate, believe, forget, appear, to be, remain, have, own, owe, belong, deserve ইত্যাদি। সাধারণত এই verb গুলোর continuous tense হয় না। State of perceiving (Verb of perception): See, hear, feel, smell, taste — Honey tastes sweet. The rose smells sweet. I feel tired। State of mind & emotional state (Non-progressive verb): Love, hate, like, believe, forget, appear — Everybody loves his mother. I often forget your name। State of being (Linking verb): Be, become, remain — We are Bangladeshi. I remain silent all along। এদের সাধারণত Continuous Tense হয় না। State of event (Action verb/Event verb): Laugh, eat, go, know, do — কাজ করা বোঝায়, সকল Tense এ ব্যবহৃত হয়। He goes/is going to school.",
+   "topic": "Stative verb ও Basic Sentence Structure"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0015",
+   "kind": null,
+   "title": "Basic Sentence Structure",
+   "body": "দরকারি Elaborations: S = subject; O = object; N = noun; Lv = linking verb; vt = transitive verb; vi = intransitive verb; C = complement; od = direct object; oi = indirect object। They made Karim the captain = subject + verb + object + complement। He gave me a book = Subject + transitive verb + Indirect object + Direct object। She looks innocent / Bannya has fallen ill = S + LV + Adjective complement। I was walking in the morning = S + VI + Adverbial। My mother named me Aquib = S + VT + Obj. + N. Complement। They elected him their leader = S + V + O + N-complement। He writes a book = S + vt + Direct object। Elena became a doctor = subject + linking verb + noun phrase। She left her luggage behind = S + V + O + Adverbial (কোনো preposition এর পরে noun/pronoun না থাকলে তা adverb/adverbial হিসেবে কাজ করে)। The milk got bad = Sub + linking verb + adj।",
+   "topic": "Stative verb ও Basic Sentence Structure"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0016",
+   "kind": null,
+   "title": "Gerund কী?",
+   "body": "Gerund (জেরান্ড) হচ্ছে verb + ing এবং verb এবং noun এর কাজ করে। কিন্তু এটি মূলত noun এবং বাক্যে একটি সাধারণ noun এর মত ব্যবহৃত হয়। কারণ gerund (জেরান্ড) সর্বদাই noun এর স্থানে ব্যবহৃত হয়। verb থেকে উৎপন্ন হলেও gerund মূলত noun এর কাজ করে বলে gerund কে noun এর সমতুল্য বা অনুরূপ ধরা হয়।",
+   "topic": "Gerund (Verbal noun)"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0017",
+   "kind": null,
+   "title": "Positions of Gerund ১–৩",
+   "body": "gerund মূলত noun তাই noun যে স্থানগুলোতে বসে gerund ও সেই স্থানগুলোতে বসে। ১. Subject of a verb: verb এর subject হিসেবে verb+ing বসলে তা gerund হবে। Working in the morning is good for health. Reading is an excellent habit. ২. Object of a verb: Transitive verb (vt) এর object হিসেবে verb+ing বসলে তা gerund হবে। N.B. সাধারণত যে verb এর পরে it বসে সেটাই vt; e.g. I like it. Avoid it. Start it. Stop it. I enjoy it. He contemplated marrying his cousin. ৩. Object of a preposition: Preposition এর object হিসেবে verb+ing বসলে তা gerund হবে। কিন্তু in, out, inside, outside, about/around এরা adverb হিসেবে কাজ করলে এদের পরের verb+ing টি present participle হবে। যেমন: He walked out smiling. He came in running. He went out crying.",
+   "topic": "Gerund (Verbal noun)"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0018",
+   "kind": null,
+   "title": "good exercise — a বাদ",
+   "body": "Swimming is a good exercise — এক্ষেত্রে a good exercise কথাটি ভুল। সঠিক হচ্ছে good exercise (a বাদে) অথবা a good form of exercise কারণ, 'ব্যায়াম (সুস্থ থাকতে বা শক্তিশালী হতে শারীরিক অথবা মানসিক কাজ)' বুঝাতে exercise কে uncountable noun ধরা হয়। তাই এক্ষেত্রে exercise এর আগে a/an বসে না এবং exercise এর plural হয় না; এক্ষেত্রে exercise কে countable noun করতে exercise এর আগে classifier (form/kind/type) + of ব্যবহৃত হয়। Swimming is great/good exercise. Swimming is a good/great form of exercise. Swimming is my favourite form/kind/type of exercise. He found parking is difficult — found এর পরে that বসবে এবং parking হচ্ছে is এর subject তাই parking হচ্ছে gerund।",
+   "topic": "Gerund (Verbal noun)"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0019",
+   "kind": null,
+   "title": "Positions of Gerund ৪–৭",
+   "body": "৪. Complement of a verb: be verb এর পরে gerund (verb+ing) যা কোনো কাজের নাম বুঝাবে। যেমন: reading, walking, waiting, running, riding, gardening, teaching বসলে তা complement হবে। My favourite activity is reading. Seeing is believing। ৫. As a part of compound noun: a walking stick (= a stick for walking), a swimming pool। ৬. After determiner/adjective: determiner এবং adjective এর পরে noun এর স্থানে verb+ing বসলে তা gerund হবে। e.g. No smoking. No parking. A little learning, some/a lot of shopping। ৭. can't help, can't bear/stand, it's no use/good, worth(adj.) এর পরে verb+ing বসলে তা gerund হবে। e.g. I cannot help smoking. I cannot bear/stand hearing her cry. It is no good/use arguing. There's nothing worth reading in this newspaper. It is no use trying to escape.",
+   "topic": "Gerund (Verbal noun)"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0020",
+   "kind": null,
+   "title": "Infinitive",
+   "body": "Infinitive হচ্ছে verb এর base/basic form অথবা to+base form। এক্ষেত্রে base form কে bare infinitive এবং to সহ থাকলে তাকে to-infinitive/full infinitive বলে। verb এর base form এর পূর্বে 'to' বসে full infinitive গঠন করে। তাই এই to কে Infinitive marker বলে। Infinitive এর use দুই ধরনের। যথা: ১. simple infinitive (এটি noun এর কাজ করে) এবং ২. Gerundial or Qualifying Infinitive। Use of Simple Infinitive: Subject of a verb (To err is human), Object of a verb (He likes to swim), Complement of a verb (To see is to believe), Object of a Preposition (He is about to die), Objective Complement (I saw him go) — simple infinitive উপরোক্ত পাঁচটি স্থানে noun এর মত ব্যবহৃত হয়। Use of Gerundial Infinitive: Adjective: To qualify a noun (This house is to let); Adverb: To qualify verb/adjective (We eat to live. It's good to eat); Absolute: To qualify a sentence (To tell the truth, I don't trust you)।",
+   "topic": "Infinitive"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0021",
+   "kind": null,
+   "title": "Participle ও Present participle",
+   "body": "Participle কাজ করে adjective এবং verb এর। কিন্তু প্রাথমিকভাবে ইহা adjective এবং বাক্যে noun কে qualify করে। Participle তিন প্রকার। যথা: present participle, past participle এবং perfect participle। NOTE: 'Participle' verb, adjective ছাড়াও adverb, preposition এবং conjunction হিসেবেও কাজ করে। Present participle: Present participle হচ্ছে verb + ing যোগে গঠিত এবং adjective এবং verb এর কাজ করে। কিন্তু প্রাথমিকভাবে ইহা adjective এবং বাক্যে noun কে qualify করে।",
+   "topic": "Participle — Present participle"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0022",
+   "kind": null,
+   "title": "Use of Present Participle ১–২",
+   "body": "Use-1: Article এবং noun এর মাঝে verb+ing বসে noun কে modify করলে present participle হবে। এক্ষেত্রে verb থেকে উৎপন্ন হয়ে adjective এর কাজ করে বলে present participle কে verbal adjective বলা হয়। A rolling stone gathers no moss — 'rolling' participle টি noun 'stone' এর পূর্বে বসে stone কে qualify করেছে তাই rolling হচ্ছে adjective। বাক্যের আক্ষরিক অর্থ: গড়ন্ত পাথরে শেওলা জমে না। ভাবার্থ: অস্থির প্রকৃতির লোক কখনো অর্থ সঞ্চয় করতে পারে না। Use-2: Intransitive verb (go, come, die, lie, run etc.) এর পরে present participle বসে। The rain came pouring down in torrents.",
+   "topic": "Participle — Present participle"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0023",
+   "kind": null,
+   "title": "Use of Present Participle ৩–৫",
+   "body": "Use-3: Preposition + possessive এর পরে gerund বসে। e.g. He insisted on my going there. কিন্তু কোন Pronoun এর নির্দিষ্ট possessive না থাকলে তার পরবর্তী verb+ing যুক্ত word টি present participle হবে। e.g. Please oblige me by all leaving the room. (সকলে রুম ত্যাগ করে আমারে উদ্ধার/কৃতার্থ করেন)। Use-4: Adverb দ্বারা verb +ing যদি modified হয় তবে তা present participle হবে। সহজভাবে বলা যায়, Adverb এর পরে verb +ing থাকলে তা present participle হবে। Truly speaking,------- (সত্য বলতে, -----)। Use-5: Simple এ দুটি কাজ থাকলে Simple sentence এর শুরুতে প্রথম কাজটির present participle হয়। Riding a horse he went to a distant place.",
+   "topic": "Participle — Present participle"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0024",
+   "kind": null,
+   "title": "Present বনাম Past Participle — Rule 1 ও 2",
+   "body": "Rule-1: Person কে modify করলে past participle এবং thing কে modify করলে present participle হবে। e.g. I am interested কিন্তু It is interesting. অনুরূপ, I am thrilled কিন্তু It is a thrilling story. I needed something to read in order not to be bored — বাক্যের সঠিক অর্থের জন্য I কে modify করতে হবে। তাই past participle ব্যবহার করতে হবে। boring – বিরক্তিকর, bored – বিরক্ত। Rule-2: noun টি action doer হলে তার পূর্বে present participle বসে। e.g. an interesting man (আনন্দদায়ক ব্যক্তি), an irritating/annoying habit (বিরক্তিকর স্বভাব), a drowning man (নিমজ্জমান/ডুবন্ত ব্যক্তি)। অপরপক্ষে, noun টি action receiver হলে তার পূর্বে past participle বসে। e.g. a burnt child (অগ্নিদগ্ধ বা আগুনে পোড়া শিশু), a written test, spoken English। 'মাতাল' অর্থে drunk এবং drunken দুটোই ব্যবহৃত হয়। Drunk drivers are a menace to everyone. Drunken drivers pose a serious threat to other road users.",
+   "topic": "Present বনাম Past Participle ও Relative + verb"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0025",
+   "kind": null,
+   "title": "Rule 3: Relative pronoun + verb এর পরিবর্তে participle",
+   "body": "Rule-3: Relative pronoun + verb এর পরিবর্তে noun এর পরেই participle বসে। Relative pronoun এর পরবর্তী verb টি Active voice এ থাকলে present participle হবে কিন্তু verb টি Passive voice এ থাকলে past participle হবে। যেমন: There is a man living (= who lives) next door to me. Some of the people invited (= who were invited) to the party can't come. Smoke created (= which is created) by fire pollutes air. The man sitting (= who is sitting) there is happy. fear – নিজে ভয় পাওয়া; frighten – অন্যকে ভয় পাইয়ে দেয়া, ভীত/আতঙ্কিত করা। তাই frightening noises।",
+   "topic": "Present বনাম Past Participle ও Relative + verb"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0026",
+   "kind": null,
+   "title": "এক নজরে Gerund এবং Present Participle এর পার্থক্য",
+   "body": "Gerund: verb+ing যোগে গঠিত এবং সর্বদাই verb এবং noun এর কাজ করে, তবে এটি মূলত noun। Present Participle: verb+ing যোগে গঠিত এবং verb এবং মূলত adjective এর কাজ করে।\n• adjective এর পরে verb+ing থাকলে তা gerund (Structured teaching facilitates learning) | Adverb এর পরে verb+ing থাকলে তা present participle (Truly speaking)।\n• v+ing এর পরে অথবা v+ing + preposition সহযোগে যুক্ত কোনো phrase এর পরে অন্য একটি verb থাকলে v+ing টি gerund (Walking in the morning is good for health; He found that parking is difficult) | অন্য verb না থেকে subject থাকলে present participle (Walking a long way, I found the shop; Parking the car at the gate, he went inside)।\n• Transitive verb (vt) পরে v+ing বসলে gerund (He started teaching Hamlet; I learned drawing) | Intransitive verb (vi) এর পরে অথবা vt + object এর পরে v+ing বসলে present participle (The rain came pouring down; She went away dancing; The girl entered the room laughing)।\n• preposition এর পরে অথবা possessive এর পরে v+ing বসলে gerund (By working hard; He insisted on my going there; Excuse my interrupting you) | objective এর পরে v+ing বসলে present participle (I found him sleeping); কিন্তু যাদের আলাদা possessive নেই (this, that, all etc.) তাদের পরে v+ing present participle।\n• complement হিসেবে v+ing যদি কাজের নাম বোঝায় তবে gerund (Seeing is believing; My favourite activity is reading) | কোন noun বা pronoun এর বিশেষণ বোঝালে present participle (The scenery looks charming; The story was thrilling)।\n• v+ing যদি noun এর পূর্বে বসে compound noun বোঝালে gerund — বাংলায় 'আর' (a sleeping room, a writing table) | article এবং noun মধ্যবর্তী verb+ing বসে noun বাংলায় মান/অন্ত/কর প্রত্যয় নির্দেশ করলে present participle (a drowning (ডুবন্ত) man, a telling (কার্যকর) speech)।\nN.B. continuous tense এ ব্যবহৃত v+ing হচ্ছে present participle (I am working now)।",
+   "topic": "Gerund বনাম Participle, Perfect participle ও Verbal noun"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0027",
+   "kind": null,
+   "title": "Perfect participle ও Verbal noun",
+   "body": "Perfect participle: Having এর পরে যদি Past participle বসে তাহলে তা perfect participle হবে (Having gained truth, keep truth)। Verbal noun: যখন verb+ing (gerund) এর পূর্বে the এবং পরে of বসে তখন তাকে verbal noun বলে। Verbal noun মূলত verb থেকে তৈরী হলেও শুধু noun এর কাজ করে। যেমন: I like the reading of English. আবার, verb + suffix = noun কেও verbal noun বলে। e.g. refuse + al = refusal; discover + y = discovery; Judge + ment = Judgement।",
+   "topic": "Gerund বনাম Participle, Perfect participle ও Verbal noun"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0028",
+   "kind": null,
+   "title": "Participial Prepositions",
+   "body": "barring/excepting/excluding (but, without, apart from, ছাড়া, ব্যতীত, বাদে), concerning/regarding/respecting (about, as to, with respect to, সম্পর্কে, ব্যাপারে), considering/given (for, in view of, বিবেচনায়), Failing (without, না হলে), Following (after, পরে), gone (past, পরে, পেরিয়েছে), counting/including (with, সহ, সমেত), notwithstanding (despite, সত্ত্বেও), pending (until, পর্যন্ত), Saving (but, ব্যতীত, ছাড়া), Touching (with regard to, সম্পর্কে) ইত্যাদি participle গুলো noun phrase এর পূর্বে বসে Preposition হিসেবে কাজ করে। Barring accident, the parcel will arrive tomorrow. Considering the quality, the price is not high. He was released on bail pending further inquiries. It is gone six already. Given his age, he is very active. Touching this matter I have not as yet made up my mind. He took charge of the family business following his father's death.",
+   "topic": "Participial preposition/conjunction ও শনাক্তকরণের বিশেষ নিয়ম"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0029",
+   "kind": null,
+   "title": "Participle as conjunction",
+   "body": "assuming, considering, providing/provided, supposing ইত্যাদি এর পরে clause বসে complex sentence গঠন করলে এরা conjunction হিসেবে কাজ করে। I shall help you provided you obey me.",
+   "topic": "Participial preposition/conjunction ও শনাক্তকরণের বিশেষ নিয়ম"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0030",
+   "kind": null,
+   "title": "Gerund ও Participle শনাক্তকরণের দুটি বিশেষ নিয়ম",
+   "body": "১. Article/Determiner এবং noun এর মাঝে gerund এবং present participle চেনার উপায়: Present participle হলে, Article + noun + is + verb+ing করা যাবে। (এভাবে না করা গেলে তা gerund) Gerund হলে, সাধারণত Article + noun + for + verb+ing করা যাবে। Participle: A swimming snake (= A snake is swimming); Gerund: A swimming pool (= A pool for swimming); Participle: A sleeping baby; Gerund: A sleeping room, A sleeping pill। উল্লেখ্য, এক্ষেত্রে প্রশ্নে part of speech চাইলে অথবা প্রশ্নের অপশনগুলোর মধ্যে adjective উল্লেখ থাকলে gerund এবং participle দুটোই adjective হবে।\n২. complement হিসেবে verb+ing কাজের নাম বুঝালে তা gerund হবে। কিন্তু কাজের নাম না বুঝিয়ে verb+ing দোষ গুণ, গুণ, অবস্থা বর্ণনামূলক শব্দ হলে তা participle হবে। participle যেহেতু adjective তাই এর পূর্বে very বসানো যাবে কিন্তু gerund যেহেতু noun তাই gerund এর পূর্বে very বসানো যাবে না। My favourite activity is reading. His profession is teaching. Examinations are (very) frightening. The discussion was (very) enlightening. শর্টকাট: gerund এর ক্ষেত্রে what দিয়ে আর participle এর ক্ষেত্রে how দিয়ে প্রশ্ন করে উত্তর পাওয়া যাবে। প্রশ্নের অপশনগুলোর মধ্যে complement উল্লেখ থাকলে উত্তর complement হবে। Rule: সাধারণত কোনো noun/pronoun এর পরে verb+ing (modifier) থাকলে তা present participle হবে। e.g. It's Runa speaking. I saw a woman speaking to him.",
+   "topic": "Participial preposition/conjunction ও শনাক্তকরণের বিশেষ নিয়ম"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0031",
+   "kind": null,
+   "title": "Gerund phrase ও lost/retired",
+   "body": "Gerund, object নিলে অথবা এর পরের adjective/adverb দ্বারা modified হলে তা verb এর মতো কাজ করে। কিন্তু উক্ত gerund phrase টি noun (phrase) হিসেবে কাজ করে। যেমন: Repairing a watch is a fiddly job. Heating the clay makes it hard. He started teaching English. He is good at speaking English. lost, retired এরা গঠনগতভাবে past participle আর article এবং noun এর মধ্যবর্তী একমাত্র word টি adjective। ঠিক বাক্য: Dancing is good exercise (a বাদে) অথবা Dancing is a good form/kind/type of exercise।",
+   "topic": "Your Turn — মিশ্র অনুশীলন"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0032",
+   "kind": null,
+   "title": "Conjugation of Verb",
+   "body": "মূল verb থেকে verb এর Past form ও Past participle form এ পরিবর্তনকে conjugation of verb বলে। conjugation of verb বা রূপগত পরিবর্তনের নীতি অনুসারে verb গুলোকে দুইভাগে ভাগ করা হয়। যথা: ❶ Strong verb বা Irregular verb ❷ Weak verb বা Regular verb। Strong verb: যে সকল verb এর অভ্যন্তরীণ vowel এর পরিবর্তনের মাধ্যমে অথবা শেষে n, en, ne ইত্যাদি যোগ করে past form এবং past participle গঠন করা হয় তাদেরকে strong verb বা irregular verb বলে। যেমন: Chide–Chid–Chidden; Cleave–Clove–Cloven; Cling–Clung–Clung, Take–Took–Taken। Weak verb: যে সকল verb এর শেষে d, ed, t ইত্যাদি যোগ করে past form এবং past participle গঠন করা হয় তাদেরকে weak verb বা regular verb বলে। যেমন: Creep–Crept–Crept; Dream–Dreamt–Dreamt etc. verb এর পরে object (noun/pronoun/noun equivalent) না থাকলে verb টি intransitive verb হবে (He was born in 1980)।",
+   "topic": "Conjugation of Verb — Strong/Weak ও V1-V2-V3"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0033",
+   "kind": null,
+   "title": "Conjugation — A, B",
+   "body": "Present form = V1; past form = V2; past participle = V3।\nAbide (থাকা/বাস করা) – Abode – Abode; Awake (জাগানো) – Awoke – Awoken; Arise (ওঠা) – Arose – Arisen; Act – Acted – Acted; Bear (বহন করা/প্রসব করা) – Bore – Borne/Born; Bid (আদেশ করা) – Bade – Bidden; Bind (বাঁধা) – Bound – Bound; Beat (প্রহার করা) – Beat – Beaten; Bite (কামড়ানো) – Bit – Bitten, bit; Become – Became – Become; Bleed (রক্ত বের হওয়া) – Bled – Bled; Befall (ঘটা) – Befell – Befallen; Blow (বাতাস বওয়া) – Blew – Blown; Blend (মিশানো) – Blended – Blended; Break – Broke – Broken; Bless – Blessed – Blessed; Breed (জন্ম দেয়া) – Bred – Bred; Beget (উৎপন্ন করা) – Begot – Begotten; Bring – Brought – Brought; Begin – Began – Begun; Build – Built – Built; Behold (দেখা) – Beheld – Beheld; Bury (কবর দেয়া) – Buried – Buried; Believe – Believed – Believed; Buy – Bought – Bought; Bend (বাঁকানো) – Bent – Bent; Best (পরাজিত করা) – Bested – Bested; Beseech – Besought – Besought।",
+   "topic": "Conjugation of Verb — Strong/Weak ও V1-V2-V3"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0034",
+   "kind": null,
+   "title": "Conjugation — C, D",
+   "body": "Catch – Caught – Caught; Cleave (চিরে ফেলা) – Cleft – Cleft; Chew (চিবানো) – Chewed – Chewed; Cling (লেগে থাকা) – Clung – Clung; Chide (তিরস্কার করা) – Chid – Chidden; Clothe (কাপড় পরা) – Clothed – Clothed; Choose (পছন্দ করা) – Chose – Chosen; Come – Came – Come; Clap (হাততালি দেয়া) – Clapped – Clapped; Dream (স্বপ্ন দেখা) – Dreamt – Dreamt; Dare (সাহস করা) – Dared – Dared; Drink – Drank – Drunk; Deal (ব্যবহার করা) – Dealt – Dealt; Drive – Drove – Driven; Die (মরা) – Died – Died; Dwell (বাস করা) – Dwelt – Dwelt; Dig (খনন করা) – Dug – Dug; Dye (রং করা) – Dyed – Dyed; Draw (অঙ্কন করা) – Drew – Drawn; Deliberate (বিবেচনা করা) – deliberated – deliberated। Die (মরা, মারা যাওয়া) – dies – died – died – dying; Dye (রং করা) – dyes – dyed – dyed – dyeing।",
+   "topic": "Conjugation of Verb — Strong/Weak ও V1-V2-V3"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0035",
+   "kind": null,
+   "title": "Conjugation — E, F",
+   "body": "Eat – Ate – Eaten; Forbear (সহ্য করা) – Forbore – Forborne; Fall (পড়ে যাওয়া) – Fell – Fallen; Forbid (নিষেধ/মানা করা) – Forbade – Forbidden; Feed (খাওয়ানো) – Fed – Fed; Foresee (ভবিষ্যৎ দেখা) – Foresaw – Foreseen; Feel – Felt – Felt; Forget – Forgot – Forgotten; Fell (পতন করা) – Felled – Felled; Forgive (ক্ষমা করা) – Forgave – Forgiven; Fight – Fought – Fought; Forsake (ত্যাগ করা) – Forsook – Forsaken; Find (খোঁজ করা) – Found – Found; Found (স্থাপন করা) – Founded – Founded; Fling (নিক্ষেপ করা) – Flung – Flung; Freeze (জমে যাওয়া) – Froze – Frozen।\nConfusing: Flee (পলায়ন করা) – Fled – Fled; Fly (ওড়া) – Flew – Flown; Flow (প্রবাহিত হওয়া) – Flowed – Flowed; Overflow – Overflowed – Overflowed। Overcome/overthrow (conquer – জয়লাভ করা; defeat – পরাজিত করা), overflow (brim over – কিনারা উপচে পড়া কাটিয়ে উঠা), overpower (overcome – জয়লাভ করা)।",
+   "topic": "Conjugation of Verb — Strong/Weak ও V1-V2-V3"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0036",
+   "kind": null,
+   "title": "Conjugation — G, H, K, L",
+   "body": "Get (পাওয়া) – Got – Got; Lead (নেতৃত্ব দেয়া) – Led – Led; Grow (উৎপন্ন করা) – Grew – Grown; Learn (শেখা) – Learnt/ed – Learnt/ed; Hide (লুকিয়ে রাখা) – Hid – Hidden; Lean (হেলান দেয়া) – Leaned – Leaned; Hold (ধরা) – Held – Held; Leave (ত্যাগ করা) – Left – Left; Kneel (হাঁটু পেতে বসা) – Knelt – Knelt; Lend (ধার দেয়া) – Lent – Lent; Knit (বোনা) – Knit – Knit; Light (আলো জ্বালানো) – Lighted – Lighted; Knock (কড়া নাড়া) – Knocked – Knocked; Load (বোঝাই করা) – Loaded – Loaded; Know (জানা/চেনা) – Knew – Known; Loose (ঢিলে করা) – Loosed – Loosed; Leap (লাফানো) – Leaped – Leaped; Lose (হারিয়ে ফেলা) – Lost – Lost। N.B. Go এর past form হচ্ছে went এবং past participle হচ্ছে gone/been (কোনো স্থানে গিয়ে ফিরে আসা অর্থে)।\nHang (ফাঁসি দেয়া) – Hanged – Hanged; Hang (বস্তু ঝুলানো) – Hung – Hung।",
+   "topic": "Conjugation of Verb — Strong/Weak ও V1-V2-V3"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0037",
+   "kind": null,
+   "title": "Lie ও Lay",
+   "body": "Lie (মিথ্যে বলা) – Lied – Lied; Lie (শুয়ে থাকা, কিছু পড়ে থাকা) – lay – lain; Lay (কিছু রাখা, কাউকে শুয়ে রাখা, ডিম পাড়া) – Laid – Laid। Lie/lied/lay/lain/lying এর পরে preposition/adverb বসে (Active voice এর ক্ষেত্রে প্রযোজ্য) কিন্তু Lay/laid/laying এর পরে noun/pronoun বসে (Active voice এর ক্ষেত্রে প্রযোজ্য)। He lay on the bed in the last noon — সে গতকাল বিকালে বিছানার উপরে শুয়ে ছিল। He has lain in bed — সে বিছানায় শুয়ে রয়েছে। The hen has laid ten eggs — মুরগিটি দশটা ডিম পেড়েছে। He laid the book on the table — সে বইটি টেবিলের উপরে রাখল।",
+   "topic": "Conjugation of Verb — Strong/Weak ও V1-V2-V3"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0038",
+   "kind": null,
+   "title": "Conjugation — R, S",
+   "body": "Rive (ছিন্ন করা) – Rived – Riven; Slip (পা পিছলানো) – Slipped – Slipped; Ride (চড়া) – Rode – Ridden; Smell (ঘ্রাণ নেয়া) – Smelt – Smelt; Ring (ঘন্টা বাজানো) – Rang – Rung; Sow (বপন করা) – Sowed – Sowed; Rise (উদিত হওয়া) – Rose – Risen; Speak – Spoke – Spoken; Run – Ran – Run; Speed (দ্রুত করা) – Sped – Sped; See – Saw – Seen; Spell (বানান করা) – Spelt – Spelt; Seek (খোঁজ করা) – Sought – Sought; Spill (উপচে পড়া) – Spilt – Spilt; Sew (সেলাই করা) – Sewed – Sewed, sewn; Shear (বিভক্ত করা) – Sheared – Shorn/Sheared; Sell – Sold – Sold; Spoil (নষ্ট করা) – Spoiled – Spoiled; Send – Sent – Sent; Spring (লাফ দেয়া) – Sprang – Sprung; Shake (নাড়া দেয়া) – Shook – Shaken; Stand – Stood – Stood; Shave (দাঁড়ি কাটা) – Shaved – Shaved; Steal (চুরি করা) – Stole – Stolen; Spin (সুতা কাটা) – Spun – Spun; Stick (লেগে থাকা) – Stuck – Stuck; Shine (কিরণ দেয়া) – Shone – Shone; Sting (হুল ফোটানো) – Stung – Stung; Shrink (সংকুচিত করা) – Shrank – Shrunk; Stink (দুর্গন্ধ ছড়ানো) – Stank – Stunk; Shoot (গুলি করা) – Shot – Shot; Stride (পা ফেলা) – Strode – Stridden; Sing – Sang – Sung; String (তার লাগানো) – Strung – Strung; Sink (ডুবে যাওয়া) – Sank – Sunk; Strive (সংগ্রাম করা) – Strove – Striven; Sit – Sat – Sat; Swell (ফুলে ওঠা) – Swelled – Swelled; Slay (হত্যা করা) – Slew – Slain; Swim (সাঁতার কাটা) – Swam – Swum; Slide (পিছলে যাওয়া) – Slid – Slid; Swing (দোল খাওয়া) – Swung – Swung; Sling (নিক্ষেপ করা) – Slung – Slung; Swear (শপথ নেয়া) – Swore – Sworn; Slink (সরে পড়া) – Slunk – Slunk; Sweep (ঝাড়ু দেওয়া) – Swept – Swept।",
+   "topic": "Conjugation of Verb — Strong/Weak ও V1-V2-V3"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0039",
+   "kind": null,
+   "title": "Conjugation — T, U, W",
+   "body": "Tear (ছিঁড়ে ফেলা) – tore – torn; Wear (পরিধান করা) – wore – worn; Thrive (সমৃদ্ধ হয়ে ওঠা) – throve – thriven; Welcome (স্বাগত জানানো) – welcomed – welcomed; Throw (নিক্ষেপ করা) – threw – thrown; Weave (বোনা) – wove – woven; Tread (পায়ে মাড়ানো) – trod – trodden; Weep (কাঁদা) – wept – wept; Understand – Understood – understood; Win (জিতে যাওয়া) – won – won; Wind (গুটানো) – wound – wound; Uphold (তুলে ধরা) – upheld – upheld; Wring (মোচড়ানো) – wrung – wrung; Undertake (দায়িত্ব গ্রহণ করা) – undertook – undertaken; Withhold (প্রত্যাহার করা) – withheld – withheld; Wake (জেগে ওঠা) – woke – woke; Wait (দেরি করা) – waited – waited।\nConfusing: Rise (বৃদ্ধি পাওয়া) – Rose – Risen; Raise (উঠানো, বৃদ্ধি করা) – Raised – Raised; Arise (উঠা, উদ্ভূত হওয়া) – Arose – Arisen; Rouse (জাগ্রত করা) – Roused – Roused।",
+   "topic": "Conjugation of Verb — Strong/Weak ও V1-V2-V3"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0040",
+   "kind": null,
+   "title": "past form ও past participle এ রূপ পরিবর্তন হয় না এমন verb",
+   "body": "Rule: কতগুলো verb এর past form এবং past participle এ কোনো রূপ পরিবর্তন হয় না। Bet (বাজী রাখা), Bid (নিলাম ডাকা), Burst (ফেটে পড়া), Cast (নিক্ষেপ করা), Cost (দাম লাগা), Cut (কাটা), Hit (আঘাত করা), Hurt (আঘাত করা), Let (অনুমতি দেওয়া), Put (রাখা), Quit (ছেড়ে দেওয়া), Read (পড়া), Rid (মুক্ত করা), Set (স্থাপন করা), Shed (ঝরানো), Shut (বন্ধ করা), Spread (ছড়িয়ে পড়া), Spit (থুথু ফেলা) – Spat/spit – Spat/spit, Thrust (আচমকা ধাক্কা দেয়া), Broadcast (সম্প্রচার করা), Telecast (টিভিতে প্রচার করা), Beset (ঘেরাও করা)।",
+   "topic": "Conjugation of Verb — Strong/Weak ও V1-V2-V3"
+  },
+  {
+   "id": "english_admission_2nd_non_finite_verb_concept_0041",
+   "kind": null,
+   "title": "Adjective কী?",
+   "body": "Adjective (অ্যাজেকটিভ) সর্বদাই noun/pronoun কে qualify/modify করে অর্থাৎ noun/pronoun এর দোষ, গুণ, অবস্থা, সংখ্যা পরিমাণ প্রকাশ করে বলে একে qualifying/modifying word বা qualifier বলে।",
+   "topic": "Adjective — পরিচিতি"
+  }
+ ]
+}

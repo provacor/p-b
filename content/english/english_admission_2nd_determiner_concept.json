@@ -1,0 +1,265 @@
+{
+ "sectionId": "english_admission_2nd_determiner_concept",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "english_admission_2nd_determiner_concept_0001",
+   "kind": null,
+   "title": "Noun কী?",
+   "body": "Noun শব্দটির অর্থ হচ্ছে নাম। তাই যে word দ্বারা কোনো কিছুর নাম বোঝায় তাকে noun বলে। e.g. Jahangir, Jim, Bangladesh, man, country, team, gold, honesty etc. তাই noun = naming word। যেকোনো part of speech (noun থেকে interjection) এর নামই noun হবে। কারণ, যেকোনো নামই হচ্ছে noun।",
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0002",
+   "kind": null,
+   "title": "Kinds of Nouns",
+   "body": "Noun প্রধানত দুই প্রকার। যথা: I. Concrete Noun (ইন্দ্রিয়গ্রাহ্য/বস্তুবাচক নাম) — যে noun গুলোকে দেখা যায়, স্পর্শ করা যায়, শোনা যায়, যাদের ঘ্রাণ এবং স্বাদ নেয়া যায়। এদের শারীরিক আকৃতি আছে। যেমন: boy, song, flower, milk। II. Abstract Noun (গুণবাচক/ভাববাচক নাম) — যে noun গুলো দ্বারা কোনো কিছুর নিরপেক্ষ দোষ/গুণ, অবস্থা এবং কাজের নাম বোঝায়। এদের শারীরিক আকৃতি নেই। যেমন: softness, wealth, silence, revenge। Noun মোট পাঁচ প্রকার। তবে Modern grammar এ Noun মোট চার প্রকার (Material noun অন্তর্ভুক্ত নেই)। I. Concrete Noun: ❶ Proper Noun (বিশেষ নাম), ❷ Common Noun (জাতিবাচক নাম), ❸ Collective Noun (সমষ্টিবাচক নাম), ❹ Material Noun (বস্তুবাচক নাম); II. Abstract Noun: ❺ Abstract Noun (গুণবাচক বা ভাববাচক নাম)।",
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0003",
+   "kind": null,
+   "title": "Material noun — Traditional বনাম Modern grammar",
+   "body": "অনেক grammarian তাদের প্রদত্ত প্রকারভেদে noun কে ৪ প্রকার লিখেছেন, তাঁরা Material noun কে উল্লেখ করেননি। Modern grammar এ Material noun নেই। এক্ষেত্রে Mass noun/uncount/non-count/uncountable noun এর মধ্যে উক্ত বিষয়টি আলোচনা করা হয়। Orange is my favourite fruit. Mango is my favourite fruit. — Traditional grammar অনুসারে উপরোক্ত বাক্য দুটি সঠিক। এক্ষেত্রে Orange, Mango হচ্ছে Material noun কিন্তু Modern grammar এ বাক্য দুটো ভুল। এক্ষেত্রে orange, mango, apple, banana ইত্যাদি ফলগুলোর নাম সাধারণত common/countable noun ধরা হয়। তাই এদের পূর্বে the বসাতে হবে অথবা এদের plural করতে হবে। এক্ষেত্রে সঠিক বাক্য হবে The orange/The mango is my favourite fruit. অথবা Oranges/Mangoes are my favourite fruit. (এক্ষেত্রে fruit এর plural হবে না)। Apple is my favourite fruit বাক্যটি ভুল; সঠিক বাক্য হচ্ছে The apple is my favourite fruit. অথবা Apples are my favourite fruit.",
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0004",
+   "kind": null,
+   "title": "Proper Noun",
+   "body": "Capital letter সূচিত একটি নির্দিষ্ট ব্যক্তি, বস্তু, স্থান ইত্যাদির নিজস্ব নামকে Proper Noun বলে। e.g. Bangladesh, Karim, Rabindranath, Dhaka, The Padma, Rome, Africa, New Year etc. N.B. সাধারণত Proper Noun এর পূর্বে the বসে না। কিন্তু নদী, সাগর, উপসাগর, মহাসাগর, সংবাদপত্র, জাহাজ, এরোপ্লেন, ট্রেন, বিখ্যাত অট্টালিকা, পর্বতমালা, দ্বীপপুঞ্জ, মরুভূমি, ধর্মগ্রন্থ, দিক ইত্যাদির নাম Proper Noun হলেও এদের পূর্বে the বসে।",
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0005",
+   "kind": null,
+   "title": "Common Noun",
+   "body": "যে সকল Noun দ্বারা নির্দিষ্ট কোনো ব্যক্তি, বস্তু, স্থানের নাম না বুঝিয়ে একজাতীয় সকলকেই বোঝায় তাদেরকে Common Noun বলে। সংখ্যায় একের অধিক বলে এদেরকে গণনা করা যায়। যেমন: man, boy, girl, student, teacher, doctor, book, pencil, pen, candle, cow, sheep, elephant, fish, river, flower, bee, robber (ডাকাত), soldier (সৈনিক), king, capital, city, ring, country, table, chair ইত্যাদি। voice (কথা, কণ্ঠস্বর) এর singular (a voice) এবং plural (voices) হয় তাই এটি Common noun। Proper Noun ও Common Noun এর পার্থক্য: Proper Noun দ্বারা একটি নির্দিষ্ট নাম বুঝায় এবং সর্বদাই Capital Letter দ্বারা শুরু হয় (Dhaka, Rajshahi, The Padma, The Jamuna)। Common Noun দ্বারা নির্দিষ্ট কোনো নাম বুঝায় না একজাতীয় সকলকে বোঝায় বলে একে class noun বলে (City, River) — এরা সংখ্যায় একের অধিক হয় এবং এদের গণনা করা যায়।",
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0006",
+   "kind": null,
+   "title": "Plural Common Noun",
+   "body": "কোনো noun একের অধিক হলেই তাকে Plural Common Noun বলে। আবার, Adjective এর সাথে s যুক্ত হয়ে plural common noun হয় না কিন্তু The + adjective কোনো বিশেষ শ্রেণির সকলকে বোঝালে তাকে Plural Common Noun বলে এবং এর পরবর্তী verb টি plural হয়। There's one law for the rich and another for the poor. (একই অপরাধে ধনীরা পার পায় আর গরীবরা সাজা পায়) The rich plan for tomorrow, the poor for today. The valiant never taste of death but once. The poor live from hand to mouth. (গরীবেরা দিন আনে দিন খায়) The wise do not talk much. The old feel the cold more than the young. The unemployed are losing hope. ব্যতিক্রম: The accused (আসামি/আসামিরা), the deceased (মৃত ব্যক্তি/মৃত ব্যক্তিরা), the undersigned (নিম্নস্বাক্ষরকারী/নিম্নস্বাক্ষরকারীরা) ইত্যাদি এরা singular ও plural উভয়রূপেই ব্যবহৃত হয়। e.g. All the accused have pleaded guilty. The accused was/were released on bail. The deceased was/were employed by the company. We, the undersigned, strongly object to ----.",
+   "topic": "Plural Common ও Collective Noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0007",
+   "kind": null,
+   "title": "Collective Noun",
+   "body": "যে সকল Noun দ্বারা সমজাতীয় কিছু ব্যক্তি, বস্তুর সমষ্টিকে বোঝায় তাদেরকে Collective Noun বলে। অর্থাৎ কিছু Common Noun এর সমষ্টিবাচক নামকে Collective Noun বলে। যেমন: army (সেনাবাহিনী), audience (শ্রোতামণ্ডলী), crowd (জনতা, ভিড়), committee (কমিটি, সমিতি), clergy (যাজকমণ্ডলী), class (শ্রেণি), family (পরিবার), flock (ঝাঁক), herd (পাল), fleet (রণতরীর বহর), jury (বিচারকমণ্ডলী), majority (সংখ্যাগুরু), minority (সংখ্যালঘু), nation, team (দল), mob (উচ্ছৃঙ্খল জনতা), navy (নৌবাহিনী), parliament (সংসদ), public (জনসাধারণ) ইত্যাদি। An army = a collection of soldiers, A fleet = a collection of ships or vessels, A crowd = a collection of people, A crew = A number of sailors. We saw a fleet of ships in the harbour (fleet – collective noun, ships, harbour – common noun). Our class consists of twenty pupils (class – collective noun, pupils – common noun). N.B. cattle (গবাদিপশু), (the) police, people, poultry, vermin এসব collective noun গঠনে singular কিন্তু plural হিসেবে ব্যবহৃত হয়। Cattle are grazing in the field. The police were informed yesterday.",
+   "topic": "Plural Common ও Collective Noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0008",
+   "kind": null,
+   "title": "Collective Noun এর উদাহরণ তালিকা",
+   "body": "A batch of students (ছাত্রদের দল); A school/shoal of fish (মাছের ঝাঁক); A bevy of ladies/beauties (সুন্দরীদের সম্মিলন); A flight/swarm of locusts (পঙ্গপালের দল); A regiment/squadron/troop/an army of soldiers (এক দল সৈন্য); A flock of birds/sheep (পাখির ঝাঁক/ভেড়ার পাল); A swarm of flies/bees; A team of players; A hive of bees (চাকের মৌমাছির ঝাঁক); A herd of cows/cattle; A band of pilgrims (তীর্থযাত্রীর দল); A drove/herd of cattle; A band of musicians; A herd of swine/deer; A bouquet of flowers (ফুলের তোড়া); A pack of hounds (শিকারি কুকুরের দল); A bunch of keys/flowers; A pack of wolves; A bunch of bananas (কলার ছড়া); A pack of asses; A bunch of grapes; A gang/band of robbers; A collection of relics; A pair of shoes; A crowd of passengers; A board of directors; A heap of files; A cluster of words; A pile of books; A grove of trees (তরুদল, কুঞ্জবন); A suit of clothes; A clump of trees/bamboos; A troop of horses; A gathering of people; A troop of monkeys; A throng/crowd of people; A litter of puppies (কুকুর ছানার দল); A brood of chickens (মুরগীর ছানার ঝাঁক); A string/train of camels; A galaxy of talents; A clump/row of trees; A galaxy of stars; A posse of constables; A host of sparrows; A multitude of people; A flight/volley/shower/quiver of arrows; A panel of experts; A pride of lions; A squad of homeguards; A wad of banknotes (নোটের গাঁটি/তাড়া)। partridge (তিতির পাখি), covey (তিতির পাখির ঝাঁক), gaggle (রাজহংসীর ঝাঁক), school (মাছের ঝাঁক); Pride হচ্ছে সিংহের (lion) দল বা ময়ূরের (peacock) ঝাঁক। Cutlery হচ্ছে knives, forks, spoons, and other eating utensils এর collective noun; Crockery হচ্ছে Plates, cups, dishes ইত্যাদি এর collective noun; Eatery – রেস্টুরেন্ট বা ভোজনালয়।",
+   "topic": "Plural Common ও Collective Noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0009",
+   "kind": null,
+   "title": "Common Noun ও Collective Noun এর পার্থক্য; Noun of multitude",
+   "body": "Common noun দ্বারা কোনো একটি শ্রেণির সাধারণ নাম নির্দেশ করে; সাধারণত Common noun এর সাথে s/es যুক্ত হয়ে plural common noun হয়। আবার The + adjective আকারেও plural common noun হয় (Book, Player, Sheep)। Collective noun দ্বারা Common noun এর সমষ্টি নির্দেশ করে; শেষে s/es যুক্ত হয়ে কখনো plural collective noun হয় না। collective noun এর সাথে s/es যুক্ত হলে তা common noun হয় (Library, Pile; Team, Squad; Flock)। Noun of multitude: Collective noun এর সদস্যদের মধ্যে বিভাজন সৃষ্টি হলে তাদেরকে একত্রে না বুঝিয়ে প্রত্যেককে আলাদাভাবে বা স্বতন্ত্রভাবে বুঝায় এবং এই বিভাজিত সমষ্টিকে Noun of multitude বলে। Collective noun হচ্ছে অবিভক্ত সমষ্টি এবং এর verb ও pronoun দুটোই singular হয়ে থাকে। e.g. The jury is/was unanimous in its decision. কিন্তু Noun of multitude এর verb এবং pronoun দুটোই plural হয়ে থাকে। e.g. The jury are/were divided in their opinions. The jury have argued for five hours. লক্ষণীয়, themselves হচ্ছে jury এর plural reflexive pronoun তাই jury এর verb টি অবশ্যই plural হবে।",
+   "topic": "Plural Common ও Collective Noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0010",
+   "kind": null,
+   "title": "Material Noun",
+   "body": "যে সকল Noun দ্বারা কোনো পদার্থের পৃথিবীতে বিদ্যমান সম্পূর্ণ অস্তিত্বকে অবিভাজ্যভাবে বোঝায় এবং যাদেরকে সংখ্যা দ্বারা গণনা করা যায় না কিন্তু একক দ্বারা পরিমাপ করা যায়, তাদেরকে Material Noun বলে। যেমন: Diamond, Gold, Iron, Water, Oil, Rice, Paper, Milk, Salt, Brick ইত্যাদি। আবার, যে material বা পদার্থ দ্বারা কোনো জিনিস গঠিত হয় তাকে Material Noun বলে। Material Noun থেকে উৎপন্ন বস্তুতে উক্ত material অপরিবর্তিত থাকলে এবং উৎপন্ন বস্তুটি গণনা করা গেলে তা Common noun হবে। যেমন: This ring is made of gold. [ring এ এর উপাদান gold অপরিবর্তিত থাকে। তাই gold হচ্ছে Material noun আর ring হচ্ছে গণনাযোগ্য তাই এটি Common noun] Material Noun এর অপর নাম Mass noun। Common Noun ও Material Noun এর পার্থক্য: Common noun দ্বারা Material noun থেকে উৎপন্ন গণনাযোগ্য জিনিস বুঝায় (Ring, Necklace; Book, Envelope; River; Sheep)। Material noun দ্বারা Common noun এর উপাদান বুঝায় যা অগণনাযোগ্য এবং পরিমাণবাচক (Gold, Diamond, Silver; Paper; Water; Mutton (ভেড়ার মাংস): Sheep এর উপাদান)।",
+   "topic": "Material ও Abstract Noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0011",
+   "kind": null,
+   "title": "Abstract noun",
+   "body": "যে সকল noun দ্বারা দোষ, গুণ, অবস্থা ও কাজের নাম বোঝায়, তাদেরকে Abstract noun বলে এবং এদের শেষে ce, cy, th, ty, ness, ment, hood, tion, sion, ship, dom, ry ইত্যাদি 'suffix' থাকে। Abstract noun কে সাধারণত পঞ্চ ইন্দ্রিয় (চোখ, নাক, কান, জিহ্বা, ত্বক) দ্বারা শনাক্ত করা যায় না। Ce: choice, obedience, defence, prudence; ness: kindness, forgiveness, happiness; Cy: decency, infancy, lunacy, urgency; sion: passion, conclusion, conversion; Th: strength, truth, youth, length, width; tion: ration, repetition, affection, emotion; Ty: beauty, honesty, humility, poverty; ship: friendship, kingship, ownership; Ion: union, opinion, action, revision; tude: magnitude, servitude, solitude; Al: denial, approval, removal, arrival; hood: manhood, motherhood, childhood; Age: marriage, bondage, courage, rage; dom: wisdom, martyrdom, freedom; ry: bravery, slavery, victory, beggary; mony: parsimony, matrimony, testimony; Ism: heroism, patriotism, socialism; red: kindred, hatred; Ure: pleasure, seizure, measure; ment: agreement, judgement, argument। N.B. Arts এবং sciences এর নামগুলো Abstract noun হবে। e.g. music, grammar, chemistry ইত্যাদি।",
+   "topic": "Material ও Abstract Noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0012",
+   "kind": null,
+   "title": "Formation of Abstract Nouns",
+   "body": "Adjective, Verb এবং Common Noun থেকে Abstract Noun গঠিত হতে পারে।\nAdjective → Abstract: Cruel – cruelty; Long – length; Proud – pride; Honest – honesty; Broad – breadth; Hot – heat; Humble – humility; Deep – depth; Wise – wisdom; Sleepy – sleepiness; True – truth; Brave – bravery; Bitter – bitterness; Wide – width; High – height; Dark – darkness; Young – youth; Sole – solitude; Cold – coldness; Just – justice; Poor – poverty, poorness; Great – greatness; Prudent – prudence।\nCommon → Abstract: Boy – boyhood; Agent – agency; Friend – friendship; Child – childhood; Infant – infancy; Owner – ownership; Man – manhood; Regent – regency; King – kingship; Mother – motherhood; Bankrupt – bankruptcy; Author – authorship; Hero – heroism; Pirate – piracy; Captain – captaincy, captainship; Patriot – patriotism; Coward – cowardice; Rascal – rascality; Enemy – enmity; Slave – slavery; Pilgrim – pilgrimage; Thief – theft; Beggar – beggary; Glutton – gluttony; Bond – bondage; Rogue – roguery।\nVerb → Abstract: Defend – defence; Please – pleasure; Starve – starvation; Hate – hatred; Judge – judgement; Act – action; Choose – choice; Protect – protection; Know – knowledge; Live – life; Depart – departure; Persevere – perseverance; Move – motion; Obey – obedience; Flatter – flattery; See – sight; Succeed – success; Converse – conversation; Think – thought; Steal – stealth; Discover – discovery; Free – freedom; Pursue – pursuit; Occupy – occupation, occupancy; Seize – seizure; Relieve – relief; Advise – advice; Believe – belief; Expect – expectation, expectancy; Laugh – laughter; Die – death।\nনিম্নোক্ত শব্দগুলোর Verb এবং Abstract noun একই form হয়ে থাকে: Love, Desire, Hope, Help, Fear, Step, Touch, Regret, Taste, Run, Sleep, Cry, Sob, Stay, Stop, Order, Rise, Fall, Ride, Work ইত্যাদি (এবং Laugh, Move)।",
+   "topic": "Material ও Abstract Noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0013",
+   "kind": null,
+   "title": "Different kinds of Nouns (পূর্ববর্তী প্রশ্ন অনুসারে)",
+   "body": "Proper Noun: The Ittefaq, Bashar, Bangladesh, Rahim, Shamim, June। Common Noun: Ring, River, Book, Man, Boy, Girl, Child, Children, City, Bank, Harbour, Pupils, Infant (শিশু), Sailors, Fighter, College, Doctor, Soldier, Island, Month, Envelope, Pirate (জলদস্যু)। Collective Noun: Army, Audience, Cattle, Class, Committee, Crew, Family, Flock, Fleet, Gang, Herd, Infantry (পদাতিক বাহিনী), Jury, Library (বইয়ের সংগ্রহ), Pack, School/shoal (মাছের ঝাঁক), Team। Material Noun: Water, Wood, Paper, Steel, Milk, Salt, Iron। Abstract noun: Agency (প্রতিনিধিত্ব), Death, Honesty, Length, Height, Unity, Poverty, Youth, Kindness, Childhood, Manhood, Studentship, Humility, Friendship, Roguery (দুষ্টামি), Truth, Theft, Victory।",
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0014",
+   "kind": null,
+   "title": "Transformation of Nouns — Proper noun → Common noun",
+   "body": "Proper noun, Material noun, Abstract noun কে দুইটি উপায়ে Common noun করা যায়। প্রথমত, এদের পূর্বে articles (a, an, the) বসিয়ে এবং দ্বিতীয়ত, এদেরকে plural বা বহুবচনে রূপান্তরিত করে। কিন্তু Collective noun কে শুধুমাত্র plural করে (পূর্বে সংখ্যাবাচক শব্দ বসিয়ে অথবা s/es যুক্ত করে) common noun করা যায়। Rule-01: সাদৃশ্য তুলনা করলে তুলনীয় Proper noun টি Common noun হয়ে যায় এবং এক্ষেত্রে Common noun টির পূর্বে article বসে। স্থানের নাম দ্বারা নির্দিষ্ট করে বুঝালে the এবং অনির্দিষ্ট বা অনেকের মত একজন বুঝালে a/an বসে। Nelson Mandela is an Abraham Lincoln in his ideals. Bankim Chandra is the Scott of Bengal. He thinks he is a Rabindranath. A Newton is not born every year. Rule-02: একই নামের একাধিক বা অনেককে বোঝায়। এক্ষেত্রে Proper noun টির plural হয়। I know the Rahims of your village. There are two Saifuls in my class.",
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0015",
+   "kind": null,
+   "title": "Abstract noun → Common noun",
+   "body": "Rule-01: abstract noun এর পূর্বে the বসিয়ে নির্দিষ্ট করলে abstract noun টি common noun হয়ে যায়। They praised the honesty of the boy. The kindness of Mohsin has become a proverb. Rule-02: যখন abstract noun দ্বারা কোনো গুণ না বুঝিয়ে ঐ গুণসম্পন্ন ব্যক্তিকে বোঝায় তখন তা common noun হয়ে যায়। এক্ষেত্রে abstract noun টির পূর্বে article বসে অথবা abstract noun টির plural হয়। He is a justice of the peace. There are four justices present. [বাক্যে justice এর অর্থ judge (বিচারক)] She is a beauty. (a beautiful lady – সুন্দর নারী) He is a danger (বিপজ্জনক ব্যক্তি) to the country.",
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0016",
+   "kind": null,
+   "title": "Material noun → Common noun; Collective → Common",
+   "body": "Material noun becomes Common noun — Rule-01: Material noun এর পূর্বে The বসিয়ে নির্দিষ্ট করলে Material noun টি common noun হয়ে যায়। The water of the Ganga is sacred. The gold of South Africa is pure. Rule-02: যখন Material noun দ্বারা কোনো উপাদান না বুঝিয়ে উপাদানে তৈরী জিনিস বোঝায় তখন তা common noun হয়ে যায়। এক্ষেত্রে Material noun টির পূর্বে article বসে অথবা plural হয়। He was put in irons (chain made of iron). He bought an iron (calender made of iron). Drive the nail (pin made of iron) into the table. [iron (লোহা) হচ্ছে material noun কিন্তু irons (শেকল), an iron (ইস্ত্রি) এবং nail (পেরেক) গণনাযোগ্য বিধায় এরা হচ্ছে common noun]। Collective noun becomes Common noun — Rule: Collective noun এর পূর্বে সংখ্যাবাচক শব্দ বসালে অথবা s/es যুক্ত করলে তা common noun হয়ে যায়। e.g. The armies of the allies came in time. Twelve teams will participate in the tournament. class, public সাধারণত collective noun কিন্তু এদের plural করায় এরা common noun হয়েছে।",
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0017",
+   "kind": null,
+   "title": "Common → Proper, Common → Abstract, Abstract → Proper",
+   "body": "Common noun becomes Proper noun — Rule: Common noun দ্বারা একটি নির্দিষ্ট কোনো নাম বুঝালে এবং তা Capital letter দ্বারা শুরু হলে তা Proper noun হয়ে যায়। Our Father (= God) will save us. The United States of America is a rich state. Common noun becomes Abstract noun — Rule: common noun টি দ্বারা অভ্যন্তরীণ গুণ বোঝালে তা Abstract noun হয়ে যায়। এক্ষেত্রে common noun টির পূর্বে the এবং পরে in থাকে। e.g. Check the beast in you. (তোমার পশুত্বকে দমন কর) The mother in her arose at the sight of the poor boy. The father in him could not bear the sight. Abstract noun becomes Proper noun — Rule: Abstract noun টিতে ব্যক্তি বৈশিষ্ট্য আরোপ করা হলে (personify করা হলে) এবং capital letter এ লিখলে তা Proper noun হয়ে যায়। e.g. He is not the favoured child of Fortune. Let not Ambition mock their useful toil. Death lays his icy hands on kings.",
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0018",
+   "kind": null,
+   "title": "একই শব্দ অর্থভেদে ভিন্ন noun",
+   "body": "He feeds his poultry every day. (collective noun) He eats poultry every week. (material noun) Fish live in water. (common noun) Fish is good for food. (material noun) I like green mangoes. (common noun) Mango is my favourite fruit. (material noun) N.B. খাদ্য বুঝালে noun টি material noun হয়। Fish, Mango, poultry (হাঁস-মুরগীর মাংস) দ্বারা খাদ্য বুঝাচ্ছে। তাই, যেকোনো animal এর মাংস সাধারণত material noun হবে। যেমন: beef (গরুর মাংস), mutton (ভেড়ার মাংস)। Infant, Anxious (adj), Grand (adj) এর Abstract Noun হচ্ছে যথাক্রমে Infancy, Anxiety, Grandeur। Journey হচ্ছে গণনাযোগ্য তাই common noun/countable noun – A journey by bus/train/boat etc. Life is often likened to a journey. I love going on long journeys. Have a safe journey! archipelago = দ্বীপপুঞ্জ (A group of islands)।",
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0019",
+   "kind": null,
+   "title": "Countable ও Uncountable noun",
+   "body": "Countable noun: যে সকল noun কে গণনা করা যায়। যেমন: book, pen, boy, star, foe (শত্রু), student, chair ইত্যাদি। countable noun গুলোর পূর্বে a/an, numbers বসানো যায় এবং এদের plural করা যায়। Uncountable noun: যে সকল noun কে গণনা করা যায় না (পদার্থ, দোষ, গুণ, কাজ ইত্যাদির নাম)। যেমন: accommodation, advice, news, bread, equipment, furniture, fun (মজা), luck, information, knowledge, baggage, luggage (মালপত্র), poetry (কাব্য), homework, scenery, travel, traffic (যানবাহন), work, progress, hair, money, food, rice, salt, water, rain, cement, gold, milk ইত্যাদি। uncountable noun এর পূর্বে a/an, numbers বসে না এবং এদের plural হয় না। N.B. American English এ countable noun কে বলা হয় count noun এবং uncountable/uncount noun কে বলা হয় Non-count noun। Note: কিছু uncountable noun শুধু singular noun হিসেবে ব্যবহৃত হয়, কিন্তু এদের plural হয় না। যেমন: education, knowledge, sleep, help ইত্যাদি। e.g. Did you have a good sleep? Your advice was a big help. A good education is the gateway to success. He acquired a knowledge of English.",
+   "topic": "Countable, Uncountable ও Mass noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0020",
+   "kind": null,
+   "title": "Mass noun",
+   "body": "1. Uncountable noun কে mass noun বলা হয়। যেমন: happiness, china (চিনামাটি) ইত্যাদি। 2. যে noun গুলো সাধারণত uncountable কিন্তু ভিন্ন প্রকারের বা এককের বুঝাতে এদের plural করা যায় অথবা এদের পূর্বে a/an বসানো যায়। যেমন: coffee/tea (I drank some coffee/tea. I ordered two coffees/teas = two cups of coffee/tea) bread (The shop sells several different breads.) Soap (Wash your hands with soap and water. You should choose a mild soap. Some soaps are strongly perfumed.) sugar (How many sugars do you take in coffee?) অর্থাৎ mass noun এমন উভয়ভাবে ব্যবহৃত হয়। আবার, the + adjective এ adjective টি mass noun হতে পারে। e.g. It was a good mix of the old and the new. money (অর্থ) এর countable noun হচ্ছে a coin, a note, a sum a dollar, a euro, a taka ইত্যাদি; এগুলো গণনা করা যায় কিন্তু money গণনাযোগ্য নয়। তাই money হচ্ছে uncountable noun। বিভিন্ন প্রকারের খাবার বুঝাতে countable হিসেবে food এর plural হয় (I'm allergic to certain foods)। fun হচ্ছে uncountable তাই fun এর পূর্বে a/an বসে না এবং fun এর plural হয় না (We made fun of it. Sailing is good fun)। Star হচ্ছে countable noun। Advertising (বিজ্ঞাপন দেওয়া) হচ্ছে কাজের নাম তাই এটি Non-count noun।",
+   "topic": "Countable, Uncountable ও Mass noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0021",
+   "kind": null,
+   "title": "Uncountable এর আলাদা Countable রূপ ও Classifier",
+   "body": "কতগুলো Uncountable noun এর আলাদা Countable noun ব্যবহার করা হয়। আবার, Uncountable noun এর পূর্বে piece, item, slice, bar, loaf, ear, clap, flash, game ইত্যাদি বসিয়ে Countable noun করা হয়ে থাকে। Accommodation – a place to live, a house; Knowledge – a fact; Baggage/luggage – a bag/suitcase/trunk; Progress – an advance; Bread – a loaf (of bread), a roll; Publicity – an advertisement; Equipment – a tool; Rain – a shower, a downpour; Furniture – a chair, a table, a bench; Research – an experiment; Machinery – A machine; Traffic – a car, a bus; Poetry – a poem; Travel – a journey, a trip; Money – a coin, a note, a sum, a dollar, a euro, a taka; Vocabulary – a word, an expression; Work – a job, a task। Rule: বাংলায় একটা/দুইটা উপদেশ/সাবান/রুটি/আসবাবপত্র বলা যায় কিন্তু ইংরেজিতে সংখ্যাবাচক প্রকাশ করতে এসব uncountable noun এর পূর্বে classifier (piece, item, slice, bar, loaf, ear, clap, flash, spoonful, bit, pair etc.) + of ব্যবহার করে countable noun করতে হয়। যেমন: Let me give you a piece of advice; He ate six pieces/loaves/slices of bread; I need a piece/an item/a bit of information। A piece of advice – Two pieces of advice; A piece of music; A piece of bread; A loaf of bread – Two loaves of bread; A piece of furniture; A slice of bread; A piece of luggage; A piece of news; A piece of jewelry; A piece of toast; A clap of thunder; A bar of soap; A bolt of lighting; An ear of corn – Two ears of corn; A piece of equipment; A piece/an item of information।",
+   "topic": "Countable, Uncountable ও Mass noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0022",
+   "kind": null,
+   "title": "Determiner",
+   "body": "যে word/phrase কোনো noun (phrase) এর পূর্বে বসে ঐ noun কে শনাক্ত করে সেটার অর্থকে নির্দিষ্ট বা সীমিত করে অর্থাৎ noun টিকে কীভাবে ব্যবহার করা হচ্ছে তা দেখায় তাকে Determiner/Determinative বলা হয়। Determiner সাধারণত কোনো noun এর পূর্বে বসে ঐ noun টির নির্দিষ্টতা, অনির্দিষ্টতা, সংখ্যা, পরিমাণ, নৈকট্য, দূরত্ব ইত্যাদি নির্দেশ করে। Determiner এর main function দুইটি: referring and quantifying। Determiner গুলো সাধারণত noun phrase এর শুরুতে বসে কিন্তু Determiner গুলো Adjective নয়। Traditional English grammar এ article, adjective of quantity, adjective of number এবং pronominal adjective (demonstrative/distributive/possessive/interrogative/relative/exclamatory adjective) গুলোকে limiting adjective বলা হয় কিন্তু Modern English grammar এগুলোকে determiner বলা হয় অর্থাৎ determiner গুলো এখন আর adjective নয়।",
+   "topic": "Determiner — সংজ্ঞা, তালিকা ও ক্রম"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0023",
+   "kind": null,
+   "title": "Determiners এর তালিকা ও ক্রম",
+   "body": "Articles: a, an, the (vowel এর আগে বসলে উচ্চারণ 'দি' কিন্তু consonant এর আগে 'দা')। Demonstratives: this, these, that, those। Possessives: my, our, your, their, his, her, its, Jahangir's etc.। Interrogatives: what, which, whose। Cardinal Numbers/Numerals: one, two, three … ten etc.। Ordinal Numbers/Numerals: first, second, third … eighth etc.। General Ordinals: last, next, other, the other etc.। Quantifiers: all, another, both, any, no, some, each, every, either, neither, enough, several, (a) little, much, many, (a) few, more, less, most, a good/great deal of, a large/great amount of, a number of, numbers of, a lot of, lots of, plenty of etc. (এরা পরিমাণ অথবা অনির্দিষ্ট সংখ্যা নির্দেশ করে)। Noun phrase এর শুরুতে একাধিক determiner বসলে তারা একটা fixed order অনুসারে বসে। Order of determiner: ❶ quantifier ❷ article ❸ demonstrative ❹ possessive ❺ number। Referring determiners: the, this, that, these, those, my, his, her etc.; Quantifying determiners: some, many, enough, most, another etc.। quantifying determiner সাধারণত referring determiner এর পূর্বে বসে। e.g. All my money is lost. আবার, quantifying determiner + of + referring determiner এভাবে ব্যবহার করা যায়। Some of his friends are media people. Many of the people present there were very angry. Specific determiners: The, this, that, these, those, my, your, his, her, its, our, their etc.। General determiners: a, an, any, another, other, each, every, either, neither, both, no, all, some, several, enough, such, (a) few, (a) little, many, much, more, most।",
+   "topic": "Determiner — সংজ্ঞা, তালিকা ও ক্রম"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0024",
+   "kind": null,
+   "title": "Predeterminer",
+   "body": "যে word কোনো determiner পূর্বে ব্যবহৃত হয় তাকে predeterminer বলে। যেমন: All, half, both, many, such, what, quite, rather, once, twice, double ইত্যাদি predeterminer হতে পারে। All his money, All the furniture, Half a loaf, many a man, once a day, What a nuisance!, such an idiot, both my parents, quite a risk, rather a difficult question, double the number। Noun (phrase) এর পূর্বে বসার ক্রম (order) অনুসারে determiner এর তিনটি subcategory করা হয়। যথা: predeterminer, central determiner, postdeterminer (All my three brothers are doctors.)। All the four pens এই noun phrase টির শুরুতে All the four বসে pens এর সংখ্যাকে নির্দিষ্ট করেছে তাই এরা determiners হবে। (এখানে All – predeterminer, the – central determiner, four – postdeterminer) এ ধরনের প্রশ্নের অপশনে Determiner এবং Adjective দুটোই থাকলে উত্তর Determiner দিতে হবে। Quantifying determiner (One/another/few/most/many/some/much etc.) + of + referring determiner (the, this, my etc) + plural noun; e.g. Most of the people I had invited turned up. One of my best friends is getting married today. All হচ্ছে predeterminer/quantifier, এটি আরেকটি determiner/possessive এর আগে বসে। তাই All বসবে his এর আগে এবং money হচ্ছে uncountable noun তাই এর পরে verb টি singular হবে (All his money is kept in the bank)।",
+   "topic": "Determiner — সংজ্ঞা, তালিকা ও ক্রম"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0025",
+   "kind": null,
+   "title": "Determiners with Countable and Uncountable noun",
+   "body": "Determiner with countable nouns | Determiner with uncountable nouns: A, an, the, some, any, one/two/three, each | The, some, any (in negatives or questions); None of, none + 0, no (= not any) + noun | None of, none + 0, no (= not any) + noun; This, that [+singular], these, those [+ plural] | This, that, a great/good deal of; A few, few, too few, very few | A little, little, very little, too little; Many, as many as, several, either, neither | Much, too much, as much as; Fewer, Fewer --- than, no fewer than | Less, Less --- than, no less than; A lot of, lots of, plenty of, more --- than | A lot of, lots of, plenty of, more --- than; A (large/great/good) number of, the number of | A (large/small) amount/quantity of।",
+   "topic": "Countable/Uncountable noun এর সাথে Determiner"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0026",
+   "kind": null,
+   "title": "সফলভাবে Determiner প্রয়োগের নিয়ম ১–৬",
+   "body": "১: Much, little, a little, less, least এই determiner গুলো শুধুমাত্র uncountable noun এর সাথে ব্যবহৃত হয়। Add a little salt. We get so little light in this room. I had less money than I thought. ২: a/an, one, another, each, every, either, neither এই determiner গুলো শুধুমাত্র singular countable noun এর সাথে ব্যবহৃত হয়। Would you like another cup of tea? Life gets more expensive every day. There were shops on either side of the street (both অর্থে). He checked each document carefully. Every child needs affection. Neither answer is correct. ৩: This, that এই determiner গুলো singular countable noun এবং uncountable noun এর সাথে ব্যবহৃত হয়। That film was fantastic. This furniture is so ugly! ৪: Both, many, (a) few, several, these, those, the numbers (two, three, four etc.) এই determiner গুলো শুধুমাত্র plural noun এর সাথে ব্যবহৃত হয়। I just have a few photos of my parents. Hold on with both hands. Several items were missing. Gone are those days when we used to go fishing. ৫: any, all, enough, no, some, more, most, zero determiner এই determiner গুলো plural countable noun এবং uncountable noun উভয়ের সাথে ব্যবহৃত হয়। He left no instructions. There's no ice/milk in the fridge. Most items of jewellery are made from gold. Most gold is used to make jewellery. He has got more bags/luggage than me. All children should receive education. All meat is rich in protein. Do you have enough clothes? We don't have enough furniture. Animals are afraid of fire (zero determiner)। ৬: The, no, any, some, such, possessives, what, whose এই determiner গুলো singular, plural, countable অথবা uncountable noun এর সাথে ব্যবহৃত হয়। He has no wife. He has no children. We have no accurate information. What time is it? What subjects are you studying?",
+   "topic": "Countable/Uncountable noun এর সাথে Determiner"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0027",
+   "kind": null,
+   "title": "Each piece of furniture, information, some, hair, No fewer than",
+   "body": "Each এর পরে singular countable noun বসে এবং furniture হচ্ছে uncountable noun বিধায় Each এবং furniture একসাথে বসবে না। তাই furniture এর countable noun করতে হবে অর্থাৎ piece of furniture ব্যবহার করতে হবে। সুতরাং Each piece of furniture হবে। information হচ্ছে uncount noun তাই এর plural হবে না এবং এর পূর্বে many বসে না, much বসে। another এর পরে singular count noun বসে। some new shoes অথবা some new pairs of shoes হবে। ইতিবাচক উত্তর প্রত্যাশিত প্রশ্নে some ব্যবহৃত হয় (Would you like some sugar/milk in your coffee?)। listen to music অথবা some pieces of music হবে। some pieces/slices of cheese হবে। hair হবে (সামগ্রিক অর্থে hair হচ্ছে uncountable noun)। আশ্চর্যজনক অভিব্যক্তি রূপে 'কমপক্ষে' অর্থে No fewer than + number + plural noun (No fewer than fifty students were present)।",
+   "topic": "Countable/Uncountable noun এর সাথে Determiner"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0028",
+   "kind": null,
+   "title": "Classifier: sheet, bunch, bundle, block, bit, spoonful, sack, reel",
+   "body": "a sheet of paper/glass, a bunch of grapes/bananas/flowers/keys, a block of wood/ice/concrete/stone, a bundle of clothes/newspapers/books/sticks, a bit of cake, a bit of news/information। spoonful – এক চামচ পরিমাণ (a spoonful of sugar); handful – ১. এক মুঠো (a handful of rice); ২. অল্প সংখ্যক (a handful of people); mouthful – এক গ্রাস, a mouthful of bread, a few mouthfuls of meat। a sack (এক বস্তা পরিমাণ) of potatoes/coal/flour, a reel of cotton/film/string/tape/thread।",
+   "topic": "Countable/Uncountable noun এর সাথে Determiner"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0029",
+   "kind": null,
+   "title": "Use of determiners — No.01: a/an/the ও uncountable",
+   "body": "সাধারণত countable noun এর পূর্বে a, an, the বসে। কিন্তু Uncountable noun এর পূর্বে a, an বসে না কিন্তু নির্দিষ্ট অর্থে the বসে এবং Countable noun এর plural হয় কিন্তু uncountable noun এর plural হয় না। সবগুলো আসবাবপত্রকে নির্দিষ্ট করে বুঝালে- The furniture was covered in dust and cobwebs. কিন্তু একটাকে নির্দিষ্ট করে বুঝালে- The piece of furniture serves a dual purpose as a cupboard and as a table.",
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0030",
+   "kind": null,
+   "title": "No.02–No.04: a few, a little, few, little, the few, the little",
+   "body": "No.02: অল্প কয়েকটি অর্থে Countable noun এর পূর্বে a few বসে এবং অল্প একটু বা সামান্য পরিমাণ অর্থে Uncountable noun এর পূর্বে a little বসে। a few বা a little উভয়ের অর্থই হচ্ছে some (অল্প কয়েকটি বা অল্প পরিমাণ)। I have a few friends in the city. I have a little money in my pocket. No.03: নগণ্য বা নেই বললেই চলে এমন (almost no) অর্থে Countable noun এর পূর্বে few এবং Uncountable noun এর পূর্বে little বসে। few = not many, hardly any; little = not much, hardly any, almost no. তবে, little অর্থে very little এবং few অর্থে very few ও ব্যবহার করা যায়। No.04: বেশি সংখ্যক নয় কিন্তু সবগুলোই অর্থে countable noun এর পূর্বে the few বসে এবং বেশি পরিমাণ নয় কিন্তু সবটুকুই অর্থে Uncountable noun এর পূর্বে the little বসে এবং বাক্যটি negative + affirmative বাক্যের সমন্বয়। the few = not many but all there are; the little = not much but all there are।",
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0031",
+   "kind": null,
+   "title": "No.05–No.08: many/much, too many/too much, some/a lot of, only",
+   "body": "No.05: অনেকগুলি অর্থে Countable noun এর পূর্বে many এবং অনেকটা অর্থে Uncountable noun এর পূর্বে much বসে। সচরাচর প্রশ্নবোধক (questions) ও না-বোধক (negatives) বাক্যে many/much ব্যবহৃত হয়। No.06: অত্যন্ত বেশি বা অত্যধিক সংখ্যক অর্থে Countable noun এর পূর্বে too many এবং অত্যন্ত বেশি বা অত্যধিক পরিমাণ অর্থে Uncountable noun এর পূর্বে too much বসে। China has too many people. Too much indulgence has spoiled the boy. Too many cooks spoil the broth/soup. No.07: অবশ্য countable noun এবং uncountable noun উভয় প্রকার Noun এর পূর্বে 'কিছু' অর্থে some এবং 'প্রচুর/অনেক' অর্থে a lot of/lots of/plenty of (a large number or amount of, much) বসে। তবে প্রচুর অর্থে a good/great deal of সাধারণত uncountable noun এর পূর্বে বসে এবং এটাই বেশি নিয়মানুগ ও যথাযথ (formal)। No.08: Only এর পরে সর্বদাই a few বা a little ব্যবহৃত হয়। তবে countable noun এর পূর্বে a few এবং uncountable noun এর পূর্বে a little বসে। e.g. Only a few of our customers have accounts. crop হচ্ছে countable noun তাই এর plural হচ্ছে crops।",
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0032",
+   "kind": null,
+   "title": "No.09–No.11: fewer/less, No fewer than, the fewest/the least",
+   "body": "No.09: Fewer এবং less হচ্ছে যথাক্রমে few এবং little এর comparative degree। তুলনামূলক কম সংখ্যক অর্থে countable noun এর পূর্বে Fewer এবং তুলনামূলক কম পরিমাণ অর্থে uncountable noun এর পূর্বে less বসে। No.10: তবে আশ্চর্যজনক অভিব্যক্তি হিসেবে 'কমপক্ষে' অর্থে No fewer than/No less than ব্যবহৃত হয়। No fewer than fifty men were present there. No less than fifty kilograms of sugar was wasted. No.11: the fewest + plural countable noun; the least + uncountable noun। I have been to the fewest places. (আমি সবচেয়ে কম জায়গায় গিয়েছি) He has the least experience. (তার সবচেয়ে কম অভিজ্ঞতা আছে)",
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0033",
+   "kind": null,
+   "title": "No.12–No.14: Many of/Much of, too many…too few, as many/much as",
+   "body": "No.12: – মধ্যে অনেকেই: Many of + plural countable noun; Much of + uncountable noun। Many of them know magic. Much of the food is stale. No.13: মেরু বৈষম্য বা তুলনামূলক চরম বিপরীত সংখ্যা বা পরিমাণ বুঝাতে too many/much ----- too few/little ব্যবহার করা হয়। too many/few + plural countable noun এবং too much/little + uncountable noun। Expected level এর চেয়ে অনেক বেশি অর্থে too many/much এবং অনেক কম অর্থে too few/little ব্যবহৃত হয়। Too much money chasing too few goods causes inflation. No.14: আশ্চর্যজনকভাবে বিরাট/অল্প সংখ্যক বোঝাতে নির্দিষ্ট সংখ্যা উল্লেখ থাকলে as many/few as + সংখ্যা + plural noun, বিরাট/অল্প পরিমাণ বোঝাতে সংখ্যা (অর্থ, ওজন, দূরত্ব নির্দেশক) থাকলে as much/little as ব্যবহৃত হয়। কিন্তু সংখ্যা উল্লেখ না থাকলে (এত/যত বেশি/কম অর্থে) as many/few/much/little + noun + (as) ব্যবহৃত হয়। As many as 6000 people may have been infected with the disease. As few as 10% of patients have benefited from the treatment. As many species of fish have been identified.",
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0034",
+   "kind": null,
+   "title": "No.15: some, any, no",
+   "body": "countable noun এবং uncountable noun উভয় প্রকার noun এর পূর্বে 'কিছু' অর্থে some এবং 'কোনো' অর্থে any, 'নেই' অর্থে no বসে। সাধারণত হ্যাঁবোধক বাক্যে some এবং না-বোধক ও প্রশ্নবোধক বাক্যে any বসে। I spent some time with the patient. (আমি রোগীটির সাথে কিছু সময় কাটালাম) [sometime, some times নয়] তবে প্রশ্নের হাঁ-সূচক উত্তর প্রত্যাশা করলে প্রশ্নবোধক বাক্যেও some বসে। 'যেকোনো' অর্থে হ্যাঁবোধক বাক্যে singular count noun এর পূর্বে any বসে কিন্তু 'কোনো' অর্থে না-বোধক ও প্রশ্নবোধক বাক্যে plural noun এর পূর্বে any বসে। Would you like some milk in your coffee? You can't go without any shoes. Any man can do it.",
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0035",
+   "kind": null,
+   "title": "No.16–No.17: A number of / The number of; Most",
+   "body": "No.16: অধিক/অল্প সংখ্যক (many, some) অর্থে A (large/small) number of এবং নির্দিষ্ট সংখ্যা বোঝাতে the number of শুধুমাত্র countable noun এর পূর্বে বসে। বি.দ্র. A এবং number/amount/quantity এর মাঝে big/little বসে না, large/small বসে। অর্থাৎ A large amount of money (big amount নয়)। A number of + plural noun + plural verb; The number of + plural noun + singular verb। বাক্যটির verb হচ্ছে singular (is) তাই এর পূর্বে many/a number of হবে না। people হচ্ছে plural noun বিধায় এর পূর্বে a great deal of বসবে না। কারণ, a great deal of + uncountable noun। No.17: Most (+noun), the most (many, much এর superlative), Most of the এরা countable noun এবং uncountable noun উভয়ের পূর্বে বসে। N.B. Most + plural noun, Most of এর পূর্বে the বসে না। e.g. Most tourists don't visit this part of the town. (The most tourists নয়)",
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0036",
+   "kind": null,
+   "title": "Compound noun",
+   "body": "একাধিক word যুক্ত হয়ে noun এর কাজ করলে তাকে compound noun বলে। সাধারণত নিম্নোক্ত উপায়ে compound noun গঠিত হয়। Noun + noun: River bank, Postman, College library, Headmaster, Classroom; Noun + gerund: Hand writing, Lorry driving, Weight lifting, Fruit picking; Gerund + noun: Waiting list, Swimming pool, Driving licence, Writing table; Adjective + noun: Sweetheart (প্রিয়/প্রিয়া), Blackboard, Shorthand; Preposition + noun: Afternoon, Outlaw (ফেরারি আসামি), Bypass, Down fall (পতন); Adverb + verb: Income, Outcome (ফলাফল), Outset (শুরু), Outcry (ভয়ার্ত চিৎকার); Noun + verb: Sunrise, Haircut (চুল ছাঁটাইয়ের ধরন), Headache (মাথাব্যথা); Verb + noun: Call girl (পতিতা), Pickpocket (পকেটমার), Watchdog (প্রহরী-কুকুর)।",
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun"
+  },
+  {
+   "id": "english_admission_2nd_determiner_concept_0037",
+   "kind": null,
+   "title": "works, Several, take a decision",
+   "body": "Book, piece of music, painting ইত্যাদি অর্থে work (count noun) এর plural হচ্ছে works। Several এর অর্থ দুইয়ের অধিক কিন্তু অনেক নয়, কয়েক তাই এটি শুধু plural noun এর ক্ষেত্রে বসে। take a decision/take decisions = সিদ্ধান্ত নেয়া। প্রশ্নবোধক বাক্যে some এর স্থলে any হবে (Are there any roses in the garden?)।",
+   "topic": "Your Turn — মিশ্র অনুশীলন"
+  }
+ ]
+}

@@ -1,17 +1,17 @@
 // Subject overview, chapter workspace and the curriculum map (Study tab).
 
-import { icon } from '../icons.js?v=202610232008';
-import { esc, plural, ring, bar, chapterCard, sectionCard, subjectGlyph, chapterEyebrow, chapterNo, pad2, emptyState } from '../components.js?v=202610232008';
-import { progressOf } from '../progress.js?v=202610232008';
-import { contentCount, chapterCount } from '../model.js?v=202610232008';
-import { lastVisit } from './shared.js?v=202610232008';
-import { videosBlock } from './videos.js?v=202610232008';
-import { alarmsBlock } from './alarms.js?v=202610232008';
-import { hasFullMapSync } from './mindmap.js?v=202610232008';
-import { conceptsOfChapter } from '../concepts.js?v=202610232008';
-import { tocCard } from './topic.js?v=202610232008';
-import { gamesBanner } from './games.js?v=202610232008';
-import { offlineOf } from '../learn.js?v=202610232008';
+import { icon } from '../icons.js?v=202610240533';
+import { esc, plural, ring, bar, chapterCard, sectionCard, subjectGlyph, chapterEyebrow, chapterNo, pad2, emptyState } from '../components.js?v=202610240533';
+import { progressOf } from '../progress.js?v=202610240533';
+import { contentCount, chapterCount } from '../model.js?v=202610240533';
+import { lastVisit } from './shared.js?v=202610240533';
+import { videosBlock } from './videos.js?v=202610240533';
+import { alarmsBlock } from './alarms.js?v=202610240533';
+import { hasFullMapSync } from './mindmap.js?v=202610240533';
+import { conceptsOfChapter } from '../concepts.js?v=202610240533';
+import { tocCard } from './topic.js?v=202610240533';
+import { gamesBanner } from './games.js?v=202610240533';
+import { offlineOf } from '../learn.js?v=202610240533';
 
 const subjectCrumb = (s) => [s.name, `#/s/${s.id}`];
 

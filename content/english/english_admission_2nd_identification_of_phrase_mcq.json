@@ -1,0 +1,866 @@
+{
+ "sectionId": "english_admission_2nd_identification_of_phrase_mcq",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0001",
+   "kind": null,
+   "topic": "Phrase — সংজ্ঞা ও চেনার উপায়",
+   "question": "A group of words that does not make a complete sense and does not contain a finite verb is-",
+   "options": [
+    "sentence",
+    "phrase",
+    "idiom",
+    "clause"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0002",
+   "kind": null,
+   "topic": "Phrase — সংজ্ঞা ও চেনার উপায়",
+   "question": "What is phrase?",
+   "options": [
+    "A group of words to express certain idea.",
+    "Nouns and verbs are combined together to express certain idea.",
+    "Nouns and adjectives are combined together to express certain ideas.",
+    "A group of related words used as single parts of speech."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0003",
+   "kind": null,
+   "topic": "Phrase — সংজ্ঞা ও চেনার উপায়",
+   "question": "'One fine morning' is-",
+   "options": [
+    "an idiom",
+    "a phrase",
+    "a clause",
+    "a sentence"
+   ],
+   "correctAnswer": "1",
+   "explanation": "One fine morning একটি শব্দগুচ্ছ এবং এতে finite verb নেই তাই এটি একটি phrase।"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0004",
+   "kind": null,
+   "topic": "Noun Phrase",
+   "question": "The central part of a noun phrase is mainly a —.",
+   "options": [
+    "Pronoun",
+    "Adjective",
+    "Noun",
+    "Adverb"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0005",
+   "kind": null,
+   "topic": "Noun Phrase",
+   "question": "'A charming girl' is a/an-",
+   "options": [
+    "noun phrase",
+    "adjective phrase",
+    "Prepositional phrase",
+    "adverbial phrase"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0006",
+   "kind": null,
+   "topic": "Noun Phrase",
+   "question": "'To win a prize is my ambition.' The phrase 'To win a prize' is a/an-",
+   "options": [
+    "adjective phrase",
+    "noun phrase",
+    "adverb phrase",
+    "conjunctional phrase"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0007",
+   "kind": null,
+   "topic": "Noun Phrase",
+   "question": "The boy wants to go home. Identify the phrase 'to go home'",
+   "options": [
+    "noun phrase",
+    "adjective phrase",
+    "adverb phrase",
+    "prepositional phrase"
+   ],
+   "correctAnswer": "0",
+   "explanation": "to go home হচ্ছে wants এর object ('কি চাই?' এর উত্তর) তাই এটি noun phrase।"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0008",
+   "kind": null,
+   "topic": "Noun Phrase",
+   "question": "The man wants something to eat. The phrase 'something to eat' is a/an -",
+   "options": [
+    "prepositional phrase",
+    "adverbial phrase",
+    "adjective phrase",
+    "noun phrase"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0009",
+   "kind": null,
+   "topic": "Noun Phrase",
+   "question": "I like singing in the bath. The phrase 'singing in the bath' is a/an -",
+   "options": [
+    "prepositional phrase",
+    "adverbial phrase",
+    "adjective phrase",
+    "noun phrase"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0010",
+   "kind": null,
+   "topic": "Noun Phrase",
+   "question": "Qualifying in the admission test is not easy. The phrase 'Qualifying in the admission test' is-",
+   "options": [
+    "main clause",
+    "noun clause",
+    "adjective clause",
+    "adverbial clause"
+   ],
+   "correctAnswer": "1",
+   "explanation": "প্রশ্নের অপশনে ভুল আছে, clause এর পরিবর্তে phrase হবে। সঠিক উত্তর হবে noun phrase।"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0011",
+   "kind": null,
+   "topic": "Noun Phrase",
+   "question": "Bipul is a man of letters. (বিপুল একজন বিদ্বান লোক) 'a man of letters' is a/an-",
+   "options": [
+    "Noun phrase",
+    "Verbal phrase",
+    "Adjective phrase",
+    "Infinitive phrase"
+   ],
+   "correctAnswer": "0",
+   "explanation": "man of letters = scholar।"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0012",
+   "kind": null,
+   "topic": "Noun Phrase",
+   "question": "He is an eyesore to me. (সে আমার চক্ষুশূল) এই বাক্যে eyesore শব্দটি কোন phrase?",
+   "options": [
+    "Prepositional phrase",
+    "Adjective phrase",
+    "Adverbial phrase",
+    "Noun phrase"
+   ],
+   "correctAnswer": "3",
+   "explanation": "eyesore একটি noun এবং article ও preposition এর মাঝে noun বসে তাই এটি noun phrase।"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0013",
+   "kind": null,
+   "topic": "Noun Phrase",
+   "question": "I have no kith and kin in this town. 'kith and kin' is a/an-",
+   "options": [
+    "Noun phrase",
+    "Prepositional phrase",
+    "Adjective phrase",
+    "Conjunctional phrase"
+   ],
+   "correctAnswer": "0",
+   "explanation": "kith and kin (আত্মীয়স্বজন) এর অর্থ relative যা একটি noun এবং no ও preposition এর মাঝে বসেছে তাই noun phrase।"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0014",
+   "kind": null,
+   "topic": "Adjective ও Verbal Phrase",
+   "question": "A woman with a veil over her body approached the doctor. The phrase 'with a veil over her body' is-",
+   "options": [
+    "Verbal phrase",
+    "Adverbial phrase",
+    "Adjective phrase",
+    "Prepositional phrase"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0015",
+   "kind": null,
+   "topic": "Adjective ও Verbal Phrase",
+   "question": "A thing of beauty is a joy forever. The phrase 'of beauty' is-",
+   "options": [
+    "Noun phrase",
+    "Verbal phrase",
+    "Prepositional phrase",
+    "Adjective phrase"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0016",
+   "kind": null,
+   "topic": "Adjective ও Verbal Phrase",
+   "question": "A man in great difficulties came to me for help. 'in great difficulties' is a/an-",
+   "options": [
+    "Prepositional phrase",
+    "Adverb phrase",
+    "Noun phrase",
+    "Adjective phrase"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0017",
+   "kind": null,
+   "topic": "Adjective ও Verbal Phrase",
+   "question": "There is no hard and fast rule in film making. The part 'hard and fast' is –",
+   "options": [
+    "prepositional phrase",
+    "adjective phrase",
+    "adverbial phrase",
+    "noun phrase"
+   ],
+   "correctAnswer": "1",
+   "explanation": "hard and fast এর অর্থ fixed, obvious যা adjective এবং no ও noun (rule) এর মাঝে বসেছে তাই adjective phrase।"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0018",
+   "kind": null,
+   "topic": "Adjective ও Verbal Phrase",
+   "question": "The people in the room stood up to greet him. In this sentence the part 'in the room' is —",
+   "options": [
+    "a prepositional clause",
+    "an adjective phrase",
+    "an adjective clause",
+    "an adverbial phrase"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0019",
+   "kind": null,
+   "topic": "Adjective ও Verbal Phrase",
+   "question": "The scientist doing the research in the laboratory is my teacher. The part 'doing the research in the laboratory' is",
+   "options": [
+    "noun phrase",
+    "an adjective phrase",
+    "a conjunctional phrase",
+    "an adverbial phrase"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0020",
+   "kind": null,
+   "topic": "Adjective ও Verbal Phrase",
+   "question": "Raju looked for his car. What kind of phrase is 'look for'?",
+   "options": [
+    "conjunctional phrase",
+    "prepositional phrase",
+    "adverb phrase",
+    "verbal phrase"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0021",
+   "kind": null,
+   "topic": "Adjective ও Verbal Phrase",
+   "question": "Do on your shirt. 'Do on' is a/an --- phrase.",
+   "options": [
+    "Noun",
+    "Prepositional",
+    "Adverbial",
+    "Verbal"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0022",
+   "kind": null,
+   "topic": "Adverbial ও Prepositional Phrase",
+   "question": "'He ran with great speed.' The part 'with great speed' is a-",
+   "options": [
+    "noun phrase",
+    "adverb phrase",
+    "adjective phrase",
+    "participle phrase"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0023",
+   "kind": null,
+   "topic": "Adverbial ও Prepositional Phrase",
+   "question": "He worked with all sincerity. The phrase 'with all sincerity' is",
+   "options": [
+    "A noun phrase",
+    "An adjective phrase",
+    "An infinitive phrase",
+    "An adverbial phrase"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0024",
+   "kind": null,
+   "topic": "Adverbial ও Prepositional Phrase",
+   "question": "I worked on without any protest. (আমি নির্বিঘ্নে কাজ চালিয়ে গেলাম) Find out the phrase 'without any protest'.",
+   "options": [
+    "Adjective phrase",
+    "Adverbial phrase",
+    "Conjunctional phrase",
+    "Interjectional phrase"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0025",
+   "kind": null,
+   "topic": "Adverbial ও Prepositional Phrase",
+   "question": "He is in the room. (সে ঘরের মধ্যে আছে) 'in the room' is-",
+   "options": [
+    "prepositional clause",
+    "adverbial adjunct",
+    "adjective complement",
+    "object complement"
+   ],
+   "correctAnswer": "1",
+   "explanation": "Adjunct হচ্ছে adverb/adverbial phrase।"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0026",
+   "kind": null,
+   "topic": "Adverbial ও Prepositional Phrase",
+   "question": "He lives in the suburb of Dhaka. The phrase 'in the suburb of Dhaka' is-",
+   "options": [
+    "a noun phrase",
+    "an adjective phrase",
+    "an adverbial phrase",
+    "an infinitive phrase"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0027",
+   "kind": null,
+   "topic": "Adverbial ও Prepositional Phrase",
+   "question": "He is out and out a gentleman. What type of phrase is 'out and out'?",
+   "options": [
+    "noun phrase",
+    "adverbial phrase",
+    "prepositional phrase",
+    "adjective phrase"
+   ],
+   "correctAnswer": "1",
+   "explanation": "out and out = thoroughly, completely = adverb; তাই adverb phrase।"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0028",
+   "kind": null,
+   "topic": "Adverbial ও Prepositional Phrase",
+   "question": "The phrase 'very often' in 'I spoke to him very often' is a —",
+   "options": [
+    "Adjective phrase",
+    "Noun phrase",
+    "Adverb phrase",
+    "Prepositional phrase"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0029",
+   "kind": null,
+   "topic": "Adverbial ও Prepositional Phrase",
+   "question": "'Please try to think out of the box.' The part 'out of the box' is-",
+   "options": [
+    "Prepositional phrase",
+    "Adjective phrase",
+    "Verb phrase",
+    "Conjunctional phrase"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0030",
+   "kind": null,
+   "topic": "Adverbial ও Prepositional Phrase",
+   "question": "The girl in green is my cousin. Functionally, the phrase 'in green' is a/an-",
+   "options": [
+    "noun phrase",
+    "adjective phrase",
+    "adverbial phrase",
+    "prepositional phrase"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0031",
+   "kind": null,
+   "topic": "Adverbial ও Prepositional Phrase",
+   "question": "We were waiting for the bus. The part 'for the bus' is (options: noun/infinitive/prepositional/verb) —",
+   "options": [
+    "a noun phrase",
+    "an infinitive phrase",
+    "a prepositional phrase",
+    "a verb phrase"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0032",
+   "kind": null,
+   "topic": "Adverbial ও Prepositional Phrase",
+   "question": "We were waiting for the bus. The part 'for the bus' is (options: noun/adverbial/prepositional/verb) -",
+   "options": [
+    "a noun phrase",
+    "an adverbial phrase",
+    "a prepositional phrase",
+    "a verb phrase"
+   ],
+   "correctAnswer": "1",
+   "explanation": "এরা গঠনগতভাবে prepositional phrase কিন্তু functionally adverbial phrase তাই অপশনে adverbial phrase উল্লেখ থাকলে উত্তর adverbial phrase হবে।"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0033",
+   "kind": null,
+   "topic": "Adverbial ও Prepositional Phrase",
+   "question": "He is a man of friendly nature. The phrase 'of friendly nature' is——",
+   "options": [
+    "noun phrase",
+    "adjective phrase",
+    "adverbial phrase",
+    "prepositional phrase"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0034",
+   "kind": null,
+   "topic": "Adverbial ও Prepositional Phrase",
+   "question": "Raihan stood in front of me. Identify the phrase 'in front of'.",
+   "options": [
+    "Noun phrase",
+    "Verbal phrase",
+    "Prepositional phrase",
+    "Adjective phrase"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0035",
+   "kind": null,
+   "topic": "Adverbial ও Prepositional Phrase",
+   "question": "He was absent on account of illness. Identify the phrase 'on account of':",
+   "options": [
+    "Noun phrase",
+    "Verbal phrase",
+    "Prepositional phrase",
+    "Adjective phrase"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0036",
+   "kind": null,
+   "topic": "Adverbial ও Prepositional Phrase",
+   "question": "'The book on the table is mine.' Here 'on the table' functions like —",
+   "options": [
+    "a noun",
+    "an adverb",
+    "an adjective",
+    "a preposition"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0037",
+   "kind": null,
+   "topic": "Conjunctional, Interjectional, Infinitive ও Participle Phrase",
+   "question": "Fahim as well as his friends has decided to visit London. Here, 'as well as' is a -",
+   "options": [
+    "Conjunctional phrase",
+    "verb phrase",
+    "gerund phrase",
+    "adverb phrase"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0038",
+   "kind": null,
+   "topic": "Conjunctional, Interjectional, Infinitive ও Participle Phrase",
+   "question": "Identify the phrase 'as much as': I drank water as much as I could.",
+   "options": [
+    "Interjectional phrase",
+    "Adverbial phrase",
+    "Prepositional phrase",
+    "Conjunctional phrase"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0039",
+   "kind": null,
+   "topic": "Conjunctional, Interjectional, Infinitive ও Participle Phrase",
+   "question": "Identify the phrase 'What a pity!': What a pity! The man is dead.",
+   "options": [
+    "Interjectional phrase",
+    "Adverbial phrase",
+    "Prepositional phrase",
+    "Conjunctional phrase"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0040",
+   "kind": null,
+   "topic": "Conjunctional, Interjectional, Infinitive ও Participle Phrase",
+   "question": "What type of phrase is 'Oh dear me!' in: Oh dear me! What shall I do?",
+   "options": [
+    "Adverbial phrase",
+    "Interjectional phrase",
+    "Prepositional phrase",
+    "Exclamatory phrase"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0041",
+   "kind": null,
+   "topic": "Conjunctional, Interjectional, Infinitive ও Participle Phrase",
+   "question": "I am glad to know your success. The phrase 'to know your success' is-",
+   "options": [
+    "infinitive phrase as an adjective",
+    "infinitive phrase as a post-modifier of an adjective",
+    "infinitive phrase as an intransitive verb",
+    "infinitive phrase as a transitive verb"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0042",
+   "kind": null,
+   "topic": "Conjunctional, Interjectional, Infinitive ও Participle Phrase",
+   "question": "Loudly knocking at the door, he demanded admission. The phrase 'knocking at the door' is-",
+   "options": [
+    "Noun phrase",
+    "Adjective phrase",
+    "Adverb phrase",
+    "Participle phrase"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0043",
+   "kind": null,
+   "topic": "Conjunctional, Interjectional, Infinitive ও Participle Phrase",
+   "question": "While hiking through the woods yesterday, we saw a tiger. The phrase 'hiking through the woods yesterday' is-",
+   "options": [
+    "Prepositional phrase",
+    "Adverbial phrase",
+    "Participle phrase",
+    "Noun phrase"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0044",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "I have a boat made of wood. The phrase 'made of wood' is",
+   "options": [
+    "an adverbial phrase",
+    "perfect participle phrase",
+    "present participle phrase",
+    "past participle phrase"
+   ],
+   "correctAnswer": "3",
+   "explanation": "noun কে modify কারী participle phrase টি adjective phrase হয় তাই অপশনে adjective phrase থাকলে উত্তর adjective phrase হবে।"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0045",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "We must buy the tickets next week. The phrase 'next week' is-",
+   "options": [
+    "object",
+    "noun",
+    "adverbial",
+    "complement"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0046",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "He waited in front of the house. The words 'in front of' make a/an:",
+   "options": [
+    "preposition",
+    "adverbial",
+    "adjective",
+    "conjunction"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0047",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "Everything that he did was open and above board. What type of phrase is 'above board'?",
+   "options": [
+    "prepositional phrase",
+    "noun phrase",
+    "adverbial phrase",
+    "adjective phrase"
+   ],
+   "correctAnswer": "3",
+   "explanation": "above board এখানে everything কে modify করেছে এবং open (adjective) এর সাথে and যোগে parallel তাই adjective phrase।"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0048",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "The elm tree has been standing in front of our house for 30 years. The phrase 'in front of our house' is-",
+   "options": [
+    "an adjective phrase",
+    "a prepositional phrase",
+    "a noun phrase",
+    "an adverbial phrase"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0049",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "The press club in front of the secretariat building is an age-old building. The phrase 'in front of the secretariat building' is-",
+   "options": [
+    "an adjective phrase",
+    "a prepositional phrase",
+    "an adverbial phrase",
+    "a conjunctional phrase"
+   ],
+   "correctAnswer": "0",
+   "explanation": "noun এর পরবর্তী prepositional phrase + (pro)noun হচ্ছে adjective phrase।"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0050",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "They arrived home safe and sound. Identify the phrase 'safe and sound':",
+   "options": [
+    "noun phrase",
+    "adjective phrase",
+    "complex phrase",
+    "adverbial phrase"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0051",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "They love each other heart and soul. 'heart and soul' is a/an:",
+   "options": [
+    "noun phrase",
+    "adjective phrase",
+    "complex phrase",
+    "adverbial phrase"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0052",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "Dipta went to Australia to receive higher education. The phrase 'to receive higher education' is-",
+   "options": [
+    "Noun phrase",
+    "Adverbial phrase",
+    "adjective phrase",
+    "Prepositional phrase"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0053",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "The train is moving fast enough. The phrase 'fast enough' is:",
+   "options": [
+    "adjective phrase",
+    "verb phrase",
+    "adverbial phrase",
+    "prepositional phrase"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0054",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "The rich look down upon the poor. The phrase 'look down upon' is",
+   "options": [
+    "Noun phrase",
+    "Adverbial phrase",
+    "Verbal phrase",
+    "Prepositional phrase"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0055",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "Last week he received the amount. (গত সপ্তাহে সে টাকাটি পেয়েছিল) 'Last week' is-",
+   "options": [
+    "adjectival phrase",
+    "relative phrase",
+    "adverbial phrase",
+    "subordinating phrase"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0056",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "They rested at sunset. Here \"at sunset\" is a/an",
+   "options": [
+    "Adjective clause",
+    "Noun clause",
+    "Adverb clause",
+    "Adverb phrase"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0057",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "Our class begins in January. Name the phrase 'in January'.",
+   "options": [
+    "noun phrase",
+    "prepositional phrase",
+    "adverbial phrase",
+    "verbal phrase"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0058",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "What is true about a phrase?",
+   "options": [
+    "it expresses a single idea",
+    "it forms a complete sentence",
+    "it is incompatible with a clause",
+    "it is synonymous with a clause"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0059",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "Which of the following sentences has prepositional phrase?",
+   "options": [
+    "To walk in the morning is a good exercise.",
+    "Lenin was a leader second to none.",
+    "Mother asked Runa to iron the dried clothes.",
+    "He worked in the teeth of all dangers."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0060",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "Which one of the following phrases is an example of a noun phrase?",
+   "options": [
+    "Asraful was the man of the match (the man of the match)",
+    "The girl in yellow is my sister (in yellow)",
+    "The teacher is in the class (in the class)",
+    "What is lotted cannot be blotted (cannot be blotted)"
+   ],
+   "correctAnswer": "0",
+   "explanation": "a) noun phrase b) adjective phrase c) adverbial phrase d) verbal phrase।"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0061",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "Even a man in the street has some money. 'a man in the street' is a/an – phrase.",
+   "options": [
+    "Conjunctional",
+    "Adjective",
+    "Noun",
+    "Prepositional"
+   ],
+   "correctAnswer": "2",
+   "explanation": "শুধু 'in the street' অংশ হলে উত্তর হতো adjective phrase।"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0062",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "The beggar in front of the gate looked very hungry. Functionally, the phrase 'in front of the gate' is a/an:",
+   "options": [
+    "adverbial phrase",
+    "adjective phrase",
+    "noun phrase",
+    "prepositional phrase"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0063",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "The book borrowed from the library is lost. The part 'borrowed from the library' is-",
+   "options": [
+    "Noun phrase",
+    "Adverb phrase",
+    "Adjective phrase",
+    "Verb phrase"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0064",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "They hired a huge beautiful home. The words 'a huge beautiful home' are",
+   "options": [
+    "Adjective phrase",
+    "Adverb phrase",
+    "Prepositional phrase",
+    "Noun phrase"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_mcq_0065",
+   "kind": null,
+   "topic": "Overview — মিশ্র অনুশীলন",
+   "question": "To read newspaper is a good habit. Here 'to read newspaper' is -",
+   "options": [
+    "Adjective phrase",
+    "Adverbial phrase",
+    "Noun phrase",
+    "Conjunctional phrase"
+   ],
+   "correctAnswer": "2"
+  }
+ ]
+}

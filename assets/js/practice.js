@@ -1,18 +1,18 @@
 // Event handling for the practice tools (exam, review, flashcards, bookmarks & notes,
 // board filter, AI marking, daily goal & reminders, offline chapters).
 
-import { icon } from './icons.js?v=202610232008';
+import { icon } from './icons.js?v=202610240533';
 import {
   indexItems, itemRef, rightIndex, recordAttempt, srsReview, srsDue, srsAdd, saveExam, toggleBookmark,
   noteOf, setNote, goalState, setGoal, todayStr, offlineOf, setOffline, isMcq,
-} from './learn.js?v=202610232008';
-import { recordMcqMistake } from './mistakes.js?v=202610232008';
-import { addTask, todayKey } from './mission.js?v=202610232008';
-import { gradeCq, shrinkImage, AiError, ERRORS } from './ai.js?v=202610232008';
-import { exam, filterPool, poolFor, deck, savedState, grading, bn } from './views/practice.js?v=202610232008';
-import { setBoardFilter } from './views/section.js?v=202610232008';
-import { DATA_FILES } from './model.js?v=202610232008';
-import { tocOf } from './views/topic.js?v=202610232008';
+} from './learn.js?v=202610240533';
+import { recordMcqMistake } from './mistakes.js?v=202610240533';
+import { addTask, todayKey } from './mission.js?v=202610240533';
+import { gradeCq, shrinkImage, AiError, ERRORS } from './ai.js?v=202610240533';
+import { exam, filterPool, poolFor, deck, savedState, grading, bn } from './views/practice.js?v=202610240533';
+import { setBoardFilter } from './views/section.js?v=202610240533';
+import { DATA_FILES } from './model.js?v=202610240533';
+import { tocOf } from './views/topic.js?v=202610240533';
 
 let model;
 let ui; // { rerender, toast }
