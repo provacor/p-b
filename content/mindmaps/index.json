@@ -11,6 +11,9 @@
   "english_2nd_preposition": "content/mindmaps/english_2nd_preposition.json",
   "english_2nd_right_form_of_verbs": "content/mindmaps/english_2nd_right_form_of_verbs.json",
   "ict_1st_ch04": "content/mindmaps/ict_1st_ch04.json",
-  "ict_1st_ch05": "content/mindmaps/ict_1st_ch05.json"
+  "ict_1st_ch05": "content/mindmaps/ict_1st_ch05.json",
+  "english_2nd_narration": "content/mindmaps/english_2nd_narration.json",
+  "english_2nd_sentence_connectors": "content/mindmaps/english_2nd_sentence_connectors.json",
+  "english_2nd_completing_sentence": "content/mindmaps/english_2nd_completing_sentence.json"
  }
 }

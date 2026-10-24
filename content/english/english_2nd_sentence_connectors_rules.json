@@ -1,0 +1,104 @@
+{
+ "sectionId": "english_2nd_sentence_connectors_rules",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "english_2nd_sentence_connectors_rules_0001",
+   "kind": null,
+   "title": "সংযোজন / অন্তর্ভুক্তিকরণ (Addition)",
+   "body": "দুটি শব্দ, বাক্যাংশ বা বাক্যকে যোগ করতে এই Connector বসে। and সাধারণ যোগ; both…and দুটিকেই ধরে; or / either…or / neither…nor বিকল্প বা নেতিবাচক যোগ; not only…but also / as well as গুরুত্বসহ যোগ; besides, moreover, furthermore, also, in addition আগের কথার সঙ্গে নতুন তথ্য জুড়ে দেয়; similarly, likewise সাদৃশ্য দেখিয়ে যোগ করে।\n\nকাঠামো / ফর্মুলা:\nA and B • both A and B • either A or B • neither A nor B • not only A but also B • A as well as B • S + V. Moreover / Besides / In addition, S + V.\n\nধরনগুলো:\n• and\n• both … and\n• or / either … or / neither … nor\n• not only … but also\n• as well as\n• besides / moreover / furthermore / also\n• in addition\n• again / too / even\n• similarly / likewise",
+   "topic": "পর্ব ১ — সংযোজন ও বৈসাদৃশ্য (Addition • Contrast)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_rules_0002",
+   "kind": null,
+   "title": "বৈসাদৃশ্য / বিরোধ (Contrast)",
+   "body": "আগের কথার বিপরীত বা অপ্রত্যাশিত কিছু বলতে Contrast Connector বসে। while / whereas দুটি বিপরীত তথ্য পাশাপাশি রাখে; though / although (যদিও) পরে full clause নেয় এবং একই বাক্যে but বসে না; nevertheless, yet, still (তবুও); but সরাসরি বিরোধ; on the other hand / on the contrary বিপরীত দিক; however, anyway আগের কথার বিপরীতে নতুন মত; instead / rather বদলে অন্য কিছু।\n\nকাঠামো / ফর্মুলা:\nS + V, while / whereas S + V • Though / Although S + V, S + V • S + V; nevertheless / however, S + V • S + V but S + V • On the one hand … on the other hand …\n\nধরনগুলো:\n• while / whereas\n• though / although\n• nevertheless / yet / still\n• instead / rather\n• but\n• on the other hand / on the contrary / in contrast\n• however / anyway",
+   "topic": "পর্ব ১ — সংযোজন ও বৈসাদৃশ্য (Addition • Contrast)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_rules_0003",
+   "kind": null,
+   "title": "উদ্দেশ্য (Purpose)",
+   "body": "কোনো কাজ কী উদ্দেশ্যে করা হয়েছে তা বোঝাতে এই Connector। so that / in order that এর পরে full clause (S + can/may/could/would + V); in order to / with a view to এর পরে verb (to-infinitive) বা V-ing।\n\nকাঠামো / ফর্মুলা:\nS + V + so that + S + can/may/could/would + V • S + V + in order to + V₁ • S + V + with a view to + V-ing\n\nধরনগুলো:\n• so that / in order that\n• in order to / with a view to",
+   "topic": "পর্ব ২ — উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_rules_0004",
+   "kind": null,
+   "title": "শর্ত (Condition)",
+   "body": "শর্ত ও তার ফল বোঝাতে এই Connector। if / even if সম্ভাব্য বা অসম্ভাব্য শর্ত; unless = if…not (নেতিবাচক শর্ত; পরে নিজে not বসে না); otherwise = না হলে; until / till কোনো সময়সীমা পর্যন্ত; only কেবল তখনই; in that case সেক্ষেত্রে।\n\nকাঠামো / ফর্মুলা:\nIf + present, S + will + V • Unless + affirmative = If + negative • S + V; otherwise, S + would/may + V • S + V + until / till + S + V\n\nধরনগুলো:\n• otherwise\n• if / even if / in that case\n• unless\n• until / till\n• only",
+   "topic": "পর্ব ২ — উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_rules_0005",
+   "kind": null,
+   "title": "সময় ও স্থান (Time & Place)",
+   "body": "ঘটনার কখন ও কোথায় তা বোঝায়। when / whenever / as soon as / while / as — একই সময়ে ঘটনা; before / after — আগে/পরে; then, later, subsequently — পরবর্তী ধাপ; at first, firstly, first of all, secondly, thirdly, finally, at last — ক্রমানুসারে সাজানো; at present, now, nowadays, currently — বর্তমান; sometimes, often, usually, generally — ঘটনার পুনরাবৃত্তি; where / wherever — স্থান।\n\nকাঠামো / ফর্মুলা:\nS + V when / while / as S + V • Before / After S + V, S + V • Firstly … Secondly … Finally, S + V • where / wherever S + V\n\nধরনগুলো:\n• when / whenever / as soon as\n• while (সময়) / as (সময়)\n• before / after\n• then / later / subsequently\n• at first / firstly / first of all / to begin with\n• secondly / thirdly / fifthly\n• finally / at last\n• at present / now / nowadays / currently\n• sometimes / often / usually / generally\n• where",
+   "topic": "পর্ব ২ — উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_rules_0006",
+   "kind": null,
+   "title": "কারণ (Cause / Reason)",
+   "body": "কোনো ঘটনার কারণ বোঝাতে এই Connector। because / since / as পরে full clause নেয়; due to / because of / owing to পরে noun বা noun phrase নেয়; it is because কারণ নির্দেশক গঠন; why কারণ-ভিত্তিক প্রশ্ন বা সম্পর্কিত clause গঠন করে।\n\nকাঠামো / ফর্মুলা:\nS + V because / since / as + S + V • S + V because of / due to + noun • This is why … / The reason why …\n\nধরনগুলো:\n• because / as / since\n• it is because / this is because\n• due to / because of\n• why",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_rules_0007",
+   "kind": null,
+   "title": "ফলাফল (Result)",
+   "body": "আগের ঘটনার ফল বা পরিণতি বোঝাতে এই Connector। so (দুটি clause-এর মাঝে, আগে কমা); therefore, hence, accordingly, thus, consequently, as a result (নতুন বাক্য বা সেমিকোলনের পরে, কমাসহ); that's why / for this reason কারণ-নির্ভর ফল; in this way, thereby উপায়ের ফল; eventually অবশেষে; naturally স্বাভাবিকভাবেই।\n\nকাঠামো / ফর্মুলা:\nS + V, so + S + V • S + V. Therefore / Hence / Thus / Consequently / As a result, S + V • That's why + S + V\n\nধরনগুলো:\n• so / therefore / hence / accordingly\n• as a result / consequently / eventually\n• thus / in this way / thereby\n• that's why / this is why / for this reason\n• naturally",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_rules_0008",
+   "kind": null,
+   "title": "উদাহরণ (Exemplification)",
+   "body": "আগের কথাকে উদাহরণ দিয়ে বোঝাতে এই Connector। for example / for instance — একটি নির্দিষ্ট উদাহরণ; such as / like — noun-এর তালিকা; particularly / especially / in particular — বিশেষ কিছুকে আলাদা করে দেখানো।\n\nকাঠামো / ফর্মুলা:\nS + V. For example / For instance, S + V • noun + such as A, B and C • S + V, especially /\nparticularly + noun\n\nধরনগুলো:\n• for example / for instance\n• such as / like\n• particularly / especially / in particular",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_rules_0009",
+   "kind": null,
+   "title": "ব্যাখ্যা (Explanation)",
+   "body": "আগের কথার অর্থ আরও সহজে বা অন্যভাবে বলতে এই Connector। that is / that is to say / in other words পরে ব্যাখ্যা বা পুনর্কথন আসে।\n\nকাঠামো / ফর্মুলা:\nS + V; that is, … • S + V. In other words, …\n\nধরনগুলো:\n• that is / in other words",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_rules_0010",
+   "kind": null,
+   "title": "গুরুত্ব ও জোর (Emphasis)",
+   "body": "কোনো তথ্যের সত্যতা বা গুরুত্ব জোর দিয়ে বলতে এই Connector। indeed, no doubt, undoubtedly, obviously — নিঃসন্দেহে; in fact, actually, as a matter of fact — প্রকৃ তপক্ষে; truly speaking, to tell the truth — সত্যি কথা বলতে।\n\nকাঠামো / ফর্মুলা:\nIndeed / In fact / Actually, S + V • S + V; in fact, S + V\n\nধরনগুলো:\n• indeed / no doubt / undoubtedly / obviously\n• in fact / actually / as a matter of fact\n• truly speaking / to tell the truth",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_rules_0011",
+   "kind": null,
+   "title": "সারমর্ম (Summation)",
+   "body": "লেখার শেষ বা সারাংশ বোঝাতে এই Connector। above all, most importantly — সবচেয়ে গুরুত্বপূর্ণ কথা; after all, on the whole — সবকিছু ভেবে; to conclude, in short, in conclusion, in a word — উপসংহার।\n\nকাঠামো / ফর্মুলা:\nTo conclude / In short / On the whole, S + V\n\nধরনগুলো:\n• above all / most importantly\n• after all / on the whole\n• to conclude / in short",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_rules_0012",
+   "kind": null,
+   "title": "ধরন / তুলনা (Manner & Type)",
+   "body": "such…as = এ ধরনের…যেমন; as = যেমন / হিসেবে / যেভাবে (as usual, as if)। পরের অংশ আগের বিশেষ্যের ধরন নির্দেশ করে।\n\nকাঠামো / ফর্মুলা:\nsuch + noun + as + noun/clause • as + clause • as if + clause\n\nধরনগুলো:\n• such … as / such … that\n• as (যেমন) / as if / as usual",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_rules_0013",
+   "kind": null,
+   "title": "Relative ও অন্যান্য Connector (that, who, which, what, whether)",
+   "body": "বাক্যের দুই অংশ জোড়া লাগাতে বা তথ্য যোগ করতে এই Connector। that — clause জোড়া (বিশেষত noun clause); who / whom / whose — ব্যক্তি সম্পর্কে ; which — বস্তু সম্পর্কে ; what / whatever — 'যা'; whether / if — 'কি না'; rather than — তার বদলে।\n\nকাঠামো / ফর্মুলা:\nnoun + who / whom / whose + V • noun + which + V • S + V + that + S + V • S + V + whether / if + S + V\n\nধরনগুলো:\n• that\n• who / whom / whose\n• which\n• what / whatever\n• whether / if",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_rules_0014",
+   "kind": null,
+   "title": "অন্যান্য Adverb ও Phrase Connector",
+   "body": "বইয়ের Glance ছকের এমন সব Connector যা উপরের Rule-গুলোতে পড়ে না: unfortunately, fortunately, surprisingly (মনোভাব প্রকাশ), in this respect, here, according to ইত্যাদি। প্যাসেজের অর্থ ও আগের বাক্যের সঙ্গে সম্পর্ক দেখে এগুলো বসাও।\n\nকাঠামো / ফর্মুলা:\nAdverb / Phrase, S + V\n\nধরনগুলো:\n• অন্যান্য Adverb ও Phrase (unfortunately, fortunately, surprisingly, here…)",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  }
+ ]
+}

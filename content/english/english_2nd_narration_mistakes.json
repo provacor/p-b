@@ -1,0 +1,216 @@
+{
+ "sectionId": "english_2nd_narration_mistakes",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "english_2nd_narration_mistakes_0001",
+   "kind": null,
+   "title": "Reporting Verb বদল (say / tell)",
+   "body": "ভুল: He said me that he was ill.\nসঠিক: He told me that he was ill.",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0002",
+   "kind": null,
+   "title": "Reporting Verb বদল (say / tell)",
+   "body": "ভুল: He told to me that …\nসঠিক: He told me that …",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0003",
+   "kind": null,
+   "title": "Reporting Verb বদল (say / tell)",
+   "body": "ভুল: He said to me that (Indirect-এ)\nসঠিক: He told me that",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0004",
+   "kind": null,
+   "title": "Pronoun (Person) বদল",
+   "body": "ভুল: He said to me, “I am happy.” → He told me that I was happy.\nসঠিক: …that he was happy.",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0005",
+   "kind": null,
+   "title": "Pronoun (Person) বদল",
+   "body": "ভুল: He said to me, “You are late.” → …that you were late.\nসঠিক: …that I was late.",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0006",
+   "kind": null,
+   "title": "Pronoun (Person) বদল",
+   "body": "ভুল: The teacher said, “We are mortal.” → … they are mortal.\nসঠিক: …we are mortal (মানবজাতি → অপরিবর্তিত)",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0007",
+   "kind": null,
+   "title": "Tense বদল",
+   "body": "ভুল: He said, “The sun rises in the east.” → … the sun rose.\nসঠিক: … the sun rises in the east.",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0008",
+   "kind": null,
+   "title": "Tense বদল",
+   "body": "ভুল: Shamim said, “I had done it.” → … had had done.\nসঠিক: … he had done it.",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0009",
+   "kind": null,
+   "title": "Tense বদল",
+   "body": "ভুল: Rahat has said, “I have done my duty.” → … had done.\nসঠিক: … he has done his duty.",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0010",
+   "kind": null,
+   "title": "সময় ও স্থানের শব্দ বদল",
+   "body": "ভুল: … that he would do it now.\nসঠিক: … then.",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0011",
+   "kind": null,
+   "title": "সময় ও স্থানের শব্দ বদল",
+   "body": "ভুল: … that he would come tomorrow.\nসঠিক: … the next day.",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0012",
+   "kind": null,
+   "title": "সময় ও স্থানের শব্দ বদল",
+   "body": "ভুল: I gave him this computer\nসঠিক: I had given him the computer.",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0013",
+   "kind": null,
+   "title": "Assertive Sentence (বিবৃতিমূলক বাক্য)",
+   "body": "ভুল: He said that he had better to go.\nসঠিক: …had better go.",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0014",
+   "kind": null,
+   "title": "Assertive Sentence (বিবৃতিমূলক বাক্য)",
+   "body": "ভুল: I knew that I use to live…\nসঠিক: …I used to live in a village.",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0015",
+   "kind": null,
+   "title": "Assertive Sentence (বিবৃতিমূলক বাক্য)",
+   "body": "ভুল: He said to me, “You might post the letter.” → He told me that I might post the letter.\nসঠিক: (request) He asked me to post the letter for him.",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0016",
+   "kind": null,
+   "title": "Interrogative Sentence (প্রশ্নবোধক বাক্য)",
+   "body": "ভুল: He asked me where do I live.\nসঠিক: He asked me where I lived.",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0017",
+   "kind": null,
+   "title": "Interrogative Sentence (প্রশ্নবোধক বাক্য)",
+   "body": "ভুল: He asked me what if I wanted.\nসঠিক: He asked me what I wanted. (wh থাকলে if নয়)",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0018",
+   "kind": null,
+   "title": "Interrogative Sentence (প্রশ্নবোধক বাক্য)",
+   "body": "ভুল: He asked me if will I go.\nসঠিক: He asked me if I would go.",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0019",
+   "kind": null,
+   "title": "Imperative Sentence (আদেশ / অনুরোধ / উপদেশ)",
+   "body": "ভুল: He told me that to do it.\nসঠিক: He told me to do it.",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0020",
+   "kind": null,
+   "title": "Imperative Sentence (আদেশ / অনুরোধ / উপদেশ)",
+   "body": "ভুল: He told me don’t to do this.\nসঠিক: He told me not to do this.",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0021",
+   "kind": null,
+   "title": "Imperative Sentence (আদেশ / অনুরোধ / উপদেশ)",
+   "body": "ভুল: He said let’s give a party.\nসঠিক: He suggested giving a party.",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0022",
+   "kind": null,
+   "title": "Optative Sentence (কামনা / প্রার্থনা)",
+   "body": "ভুল: He prayed that Allah may bless me.\nসঠিক: …Allah might bless me.",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0023",
+   "kind": null,
+   "title": "Optative Sentence (কামনা / প্রার্থনা)",
+   "body": "ভুল: He said that Allah might bless me.\nসঠিক: He prayed that Allah might bless me.",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0024",
+   "kind": null,
+   "title": "Exclamatory Sentence (বিস্ময়সূচক বাক্য)",
+   "body": "ভুল: He exclaimed that how beautiful it was.\nসঠিক: … that it was very beautiful.",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0025",
+   "kind": null,
+   "title": "Exclamatory Sentence (বিস্ময়সূচক বাক্য)",
+   "body": "ভুল: He said that Alas he had lost.\nসঠিক: He exclaimed with sorrow that he had lost.",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0026",
+   "kind": null,
+   "title": "Must ও বিশেষ শব্দ (Thank you, Good-bye…)",
+   "body": "ভুল: He said, “I must go now.” → … he must go then.\nসঠিক: … he had to go then.",
+   "topic": "পর্ব ৩ — অতিরিক্ত নিয়ম — Must, বিশেষ শব্দ ও Passage Narration"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0027",
+   "kind": null,
+   "title": "Must ও বিশেষ শব্দ (Thank you, Good-bye…)",
+   "body": "ভুল: He said to me, “Thank you.” → He said that thank me.\nসঠিক: He thanked me.",
+   "topic": "পর্ব ৩ — অতিরিক্ত নিয়ম — Must, বিশেষ শব্দ ও Passage Narration"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0028",
+   "kind": null,
+   "title": "Must ও বিশেষ শব্দ (Thank you, Good-bye…)",
+   "body": "ভুল: He said, “Good-bye, brothers.”\nসঠিক: He bade his brothers good-bye.",
+   "topic": "পর্ব ৩ — অতিরিক্ত নিয়ম — Must, বিশেষ শব্দ ও Passage Narration"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0029",
+   "kind": null,
+   "title": "অতিরিক্ত নিয়ম ও Passage Narration",
+   "body": "ভুল: He said that sorry he could not go.\nসঠিক: He expressed his regret and said that he could not go.",
+   "topic": "পর্ব ৩ — অতিরিক্ত নিয়ম — Must, বিশেষ শব্দ ও Passage Narration"
+  },
+  {
+   "id": "english_2nd_narration_mistakes_0030",
+   "kind": null,
+   "title": "অতিরিক্ত নিয়ম ও Passage Narration",
+   "body": "ভুল: The boy said that his name was Zafi. (উত্তর হলে)\nসঠিক: The student replied that his name was Zafi.",
+   "topic": "পর্ব ৩ — অতিরিক্ত নিয়ম — Must, বিশেষ শব্দ ও Passage Narration"
+  }
+ ]
+}

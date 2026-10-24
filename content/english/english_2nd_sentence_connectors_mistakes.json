@@ -1,0 +1,160 @@
+{
+ "sectionId": "english_2nd_sentence_connectors_mistakes",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0001",
+   "kind": null,
+   "title": "সংযোজন / অন্তর্ভুক্তিকরণ (Addition)",
+   "body": "ভুল: Both he or she came\nসঠিক: Both he and she came",
+   "topic": "পর্ব ১ — সংযোজন ও বৈসাদৃশ্য (Addition • Contrast)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0002",
+   "kind": null,
+   "title": "সংযোজন / অন্তর্ভুক্তিকরণ (Addition)",
+   "body": "ভুল: Neither he or she came\nসঠিক: Neither he nor she came",
+   "topic": "পর্ব ১ — সংযোজন ও বৈসাদৃশ্য (Addition • Contrast)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0003",
+   "kind": null,
+   "title": "সংযোজন / অন্তর্ভুক্তিকরণ (Addition)",
+   "body": "ভুল: Not only he and she\nসঠিক: Not only he but also she",
+   "topic": "পর্ব ১ — সংযোজন ও বৈসাদৃশ্য (Addition • Contrast)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0004",
+   "kind": null,
+   "title": "বৈসাদৃশ্য / বিরোধ (Contrast)",
+   "body": "ভুল: Though he is poor, but he is honest\nসঠিক: Though he is poor, he is honest",
+   "topic": "পর্ব ১ — সংযোজন ও বৈসাদৃশ্য (Addition • Contrast)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0005",
+   "kind": null,
+   "title": "বৈসাদৃশ্য / বিরোধ (Contrast)",
+   "body": "ভুল: He is rich. Although he is unhappy (আলাদা বাক্যের শুরুতে অর্থহীন)\nসঠিক: He is rich. However, he is unhappy",
+   "topic": "পর্ব ১ — সংযোজন ও বৈসাদৃশ্য (Addition • Contrast)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0006",
+   "kind": null,
+   "title": "উদ্দেশ্য (Purpose)",
+   "body": "ভুল: He studies so that to pass\nসঠিক: He studies so that he can pass / in order to pass",
+   "topic": "পর্ব ২ — উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0007",
+   "kind": null,
+   "title": "উদ্দেশ্য (Purpose)",
+   "body": "ভুল: with a view to buy\nসঠিক: with a view to buying",
+   "topic": "পর্ব ২ — উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0008",
+   "kind": null,
+   "title": "শর্ত (Condition)",
+   "body": "ভুল: Unless you do not work, you will fail\nসঠিক: Unless you work, you will fail",
+   "topic": "পর্ব ২ — উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0009",
+   "kind": null,
+   "title": "শর্ত (Condition)",
+   "body": "ভুল: Study; if not you fail\nসঠিক: Study; otherwise you will fail",
+   "topic": "পর্ব ২ — উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0010",
+   "kind": null,
+   "title": "শর্ত (Condition)",
+   "body": "ভুল: Wait here unless I return\nসঠিক: until I return",
+   "topic": "পর্ব ২ — উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0011",
+   "kind": null,
+   "title": "সময় ও স্থান (Time & Place)",
+   "body": "ভুল: While I reached\nসঠিক: When I reached (while শুধু চলমান কাজে)",
+   "topic": "পর্ব ২ — উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0012",
+   "kind": null,
+   "title": "সময় ও স্থান (Time & Place)",
+   "body": "ভুল: The place when I was born\nসঠিক: The place where I was born",
+   "topic": "পর্ব ২ — উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0013",
+   "kind": null,
+   "title": "কারণ (Cause / Reason)",
+   "body": "ভুল: He was absent because his illness\nসঠিক: because of his illness",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0014",
+   "kind": null,
+   "title": "কারণ (Cause / Reason)",
+   "body": "ভুল: Due to he was ill\nসঠিক: Because he was ill",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0015",
+   "kind": null,
+   "title": "ফলাফল (Result)",
+   "body": "ভুল: He was ill, therefore he stayed (কমা দিয়ে joining)\nসঠিক: He was ill; therefore, he stayed / He was ill, so he stayed",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0016",
+   "kind": null,
+   "title": "ফলাফল (Result)",
+   "body": "ভুল: Because he was ill, so he stayed\nসঠিক: একটিই ব্যবহার করো",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0017",
+   "kind": null,
+   "title": "উদাহরণ (Exemplification)",
+   "body": "ভুল: ... fruits for example orange (কমা ছাড়া)\nসঠিক: ..., for example, orange / such as orange",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0018",
+   "kind": null,
+   "title": "উদাহরণ (Exemplification)",
+   "body": "ভুল: Such as-এর পরে পূর্ণ বাক্য\nসঠিক: noun/noun phrase",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0019",
+   "kind": null,
+   "title": "সারমর্ম (Summation)",
+   "body": "ভুল: First of all শেষে বসানো\nসঠিক: Finally / To conclude",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0020",
+   "kind": null,
+   "title": "ধরন / তুলনা (Manner & Type)",
+   "body": "ভুল: such a man that everyone respects (অর্থ আলাদা: ফল)\nসঠিক: such a man as everyone respects (ধরন)",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0021",
+   "kind": null,
+   "title": "Relative ও অন্যান্য Connector (that, who, which, what, whether)",
+   "body": "ভুল: The man which came\nসঠিক: The man who came",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_mistakes_0022",
+   "kind": null,
+   "title": "Relative ও অন্যান্য Connector (that, who, which, what, whether)",
+   "body": "ভুল: I don't know that he will come\nসঠিক: whether he will come",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  }
+ ]
+}

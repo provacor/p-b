@@ -261,6 +261,31 @@
         "এক্সপ্রেশন, স্টেটমেন্ট, লুপ",
         "অ্যারে ও অন্যান্য"
       ]
+    },
+    "english_2nd_narration": {
+      "topics": [
+        "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান",
+        "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory",
+        "পর্ব ৩ — অতিরিক্ত নিয়ম — Must, বিশেষ শব্দ ও Passage Narration"
+      ]
+    },
+    "english_2nd_sentence_connectors": {
+      "topics": [
+        "পর্ব ১ — সংযোজন ও বৈসাদৃশ্য (Addition • Contrast)",
+        "পর্ব ২ — উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)",
+        "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)",
+        "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+      ]
+    },
+    "english_2nd_completing_sentence": {
+      "topics": [
+        "পর্ব ১ — সময়বাচক Clause (Time)",
+        "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)",
+        "পর্ব ৩ — শর্তবাচক Clause (Conditionals)",
+        "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)",
+        "পর্ব ৫ — Relative ও Noun Clause",
+        "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+      ]
     }
   }
 }

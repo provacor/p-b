@@ -653,6 +653,86 @@
     "ict_1st_ch05_revision": {
       "file": "content/ict/ict_1st_ch05_revision.json",
       "count": 15
+    },
+    "english_2nd_narration_notes": {
+      "file": "content/english/english_2nd_narration_notes.json",
+      "count": 1
+    },
+    "english_2nd_narration_rules": {
+      "file": "content/english/english_2nd_narration_rules.json",
+      "count": 11
+    },
+    "english_2nd_narration_examples": {
+      "file": "content/english/english_2nd_narration_examples.json",
+      "count": 10
+    },
+    "english_2nd_narration_practice": {
+      "file": "content/english/english_2nd_narration_practice.json",
+      "count": 296
+    },
+    "english_2nd_narration_mistakes": {
+      "file": "content/english/english_2nd_narration_mistakes.json",
+      "count": 30
+    },
+    "english_2nd_narration_revision": {
+      "file": "content/english/english_2nd_narration_revision.json",
+      "count": 14
+    },
+    "english_2nd_sentence_connectors_notes": {
+      "file": "content/english/english_2nd_sentence_connectors_notes.json",
+      "count": 1
+    },
+    "english_2nd_sentence_connectors_rules": {
+      "file": "content/english/english_2nd_sentence_connectors_rules.json",
+      "count": 14
+    },
+    "english_2nd_sentence_connectors_examples": {
+      "file": "content/english/english_2nd_sentence_connectors_examples.json",
+      "count": 14
+    },
+    "english_2nd_sentence_connectors_practice": {
+      "file": "content/english/english_2nd_sentence_connectors_practice.json",
+      "count": 516
+    },
+    "english_2nd_sentence_connectors_board": {
+      "file": "content/english/english_2nd_sentence_connectors_board.json",
+      "count": 627
+    },
+    "english_2nd_sentence_connectors_mistakes": {
+      "file": "content/english/english_2nd_sentence_connectors_mistakes.json",
+      "count": 22
+    },
+    "english_2nd_sentence_connectors_revision": {
+      "file": "content/english/english_2nd_sentence_connectors_revision.json",
+      "count": 17
+    },
+    "english_2nd_completing_sentence_notes": {
+      "file": "content/english/english_2nd_completing_sentence_notes.json",
+      "count": 1
+    },
+    "english_2nd_completing_sentence_rules": {
+      "file": "content/english/english_2nd_completing_sentence_rules.json",
+      "count": 56
+    },
+    "english_2nd_completing_sentence_examples": {
+      "file": "content/english/english_2nd_completing_sentence_examples.json",
+      "count": 56
+    },
+    "english_2nd_completing_sentence_practice": {
+      "file": "content/english/english_2nd_completing_sentence_practice.json",
+      "count": 835
+    },
+    "english_2nd_completing_sentence_board": {
+      "file": "content/english/english_2nd_completing_sentence_board.json",
+      "count": 89
+    },
+    "english_2nd_completing_sentence_mistakes": {
+      "file": "content/english/english_2nd_completing_sentence_mistakes.json",
+      "count": 77
+    },
+    "english_2nd_completing_sentence_revision": {
+      "file": "content/english/english_2nd_completing_sentence_revision.json",
+      "count": 59
     }
   }
 }
