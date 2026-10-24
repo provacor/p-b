@@ -20,8 +20,8 @@
 //   anything with ≥2 steps      → put the steps in order
 //   mind map                    → hint → topic, node → branch, recall
 
-import { isMcq, rightIndex } from './learn.js?v=202610241225';
-import { tocOf } from './views/topic.js?v=202610241225';
+import { isMcq, rightIndex } from './learn.js?v=202610241252';
+import { tocOf } from './views/topic.js?v=202610241252';
 
 export const SOURCES = [
   { id: 'mcq', emoji: '📝', name: 'MCQ' },

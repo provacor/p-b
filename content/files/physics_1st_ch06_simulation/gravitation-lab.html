@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>মহাকর্ষ ল্যাব — ৬ষ্ঠ অধ্যায়ের ১০টি সিমুলেশন</title>
+<style>
+  :root {
+    --bg: #0d1017; --panel: #151a24; --panel2: #1c2230; --line: #2a3242; --text: #e9edf4; --muted: #8e98ab;
+    --a: #7ea6ff; --b: #f7c35c; --c: #4fd8c4; --d: #fb8fb0; --e: #6ee7a0; --grid: rgba(255,255,255,.06);
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #f4f6fa; --panel: #fff; --panel2: #f1f4f9; --line: #dde3ec; --text: #0f172a; --muted: #5b6577;
+      --a: #3b6cf6; --b: #c58a06; --c: #0f9f8e; --d: #e2457a; --e: #16a34a; --grid: rgba(15,23,42,.07); }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 "Noto Sans Bengali", "Inter", system-ui, sans-serif; }
+  header { padding: 14px 14px 6px; }
+  h1 { margin: 0; font-size: 1.15rem; }
+  header p { margin: 4px 0 0; color: var(--muted); font-size: .82rem; }
+  .tabs { display: flex; gap: 6px; overflow-x: auto; padding: 8px 14px; scrollbar-width: none; position: sticky; top: 0; background: var(--bg); z-index: 2; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tabs button { flex: none; border: 1px solid var(--line); background: var(--panel); color: var(--text); border-radius: 99px; padding: 7px 12px; font: inherit; font-size: .82rem; cursor: pointer; white-space: nowrap; }
+  .tabs button.on { background: var(--a); border-color: transparent; color: #fff; }
+  main { padding: 6px 14px 24px; max-width: 900px; margin: 0 auto; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 12px; }
+  h2 { margin: 2px 0 2px; font-size: 1.05rem; }
+  .sub { color: var(--muted); font-size: .82rem; margin: 0 0 10px; }
+  canvas { width: 100%; height: 260px; display: block; background: var(--panel2); border-radius: 12px; touch-action: none; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  .row button { border: 1px solid var(--line); background: var(--panel2); color: var(--text); border-radius: 10px; padding: 7px 12px; font: inherit; font-size: .85rem; cursor: pointer; }
+  .row button.on { border-color: var(--a); color: var(--a); }
+  .ctl { display: grid; gap: 8px; margin-top: 10px; }
+  .ctl label { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; font-size: .84rem; }
+  .ctl label b { color: var(--a); font-variant-numeric: tabular-nums; }
+  .ctl input[type=range] { grid-column: 1 / -1; width: 100%; accent-color: var(--a); }
+  .info { margin-top: 10px; padding: 10px 12px; border-radius: 12px; background: var(--panel2); font-size: .86rem; }
+  .info code { font-family: ui-monospace, monospace; color: var(--c); }
+  .info .big { font-size: 1.05rem; font-weight: 700; }
+  .legend { display: flex; flex-wrap: wrap; gap: 10px; font-size: .78rem; color: var(--muted); margin-top: 8px; }
+  .legend i { display: inline-block; width: 14px; height: 3px; border-radius: 2px; vertical-align: middle; margin-right: 4px; }
+  .note { font-size: .78rem; color: var(--muted); margin-top: 8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>মহাকর্ষ ল্যাব</h1>
+  <p>পদার্থবিজ্ঞান ১ম পত্র · ৬ষ্ঠ অধ্যায় (মহাকর্ষ ও অভিকর্ষ) — নোটের প্রতিটি সূত্রের হাতে-কলমে সিমুলেশন। স্লাইডার বদলে দেখো কী হয়।</p>
+</header>
+<nav class="tabs" id="tabs"></nav>
+<main><section class="card">
+  <h2 id="title"></h2>
+  <p class="sub" id="sub"></p>
+  <canvas id="cv"></canvas>
+  <div class="legend" id="legend"></div>
+  <div class="row" id="buttons"></div>
+  <div class="ctl" id="ctl"></div>
+  <div class="info" id="info"></div>
+  <p class="note" id="note"></p>
+</section></main>
+
+<script>
+(() => {
+  const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+  const cv = document.getElementById('cv');
+  const ctx = cv.getContext('2d');
+  const bn = (x, d = 2) => {
+    const s = typeof x === 'number' ? (Number.isInteger(x) ? String(x) : x.toFixed(d)) : String(x);
+    return s.replace(/\d/g, (c) => '০১২৩৪৫৬৭৮৯'[c]);
+  };
+  const TAU = Math.PI * 2;
+
+  // ---------- drawing helpers ----------
+  function grid(w, h, midY = h / 2) {
+    ctx.strokeStyle = css('--grid'); ctx.lineWidth = 1;
+    for (let x = 0; x < w; x += 40) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, h); ctx.stroke(); }
+    for (let y = midY % 40; y < h; y += 40) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(w, y); ctx.stroke(); }
+    ctx.strokeStyle = css('--line'); ctx.beginPath(); ctx.moveTo(0, midY); ctx.lineTo(w, midY); ctx.stroke();
+  }
+  function curve(fn, x0, x1, color, width = 2.4, step = 2) {
+    ctx.strokeStyle = color; ctx.lineWidth = width; ctx.beginPath();
+    for (let x = x0; x <= x1; x += step) { const y = fn(x); x === x0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y); }
+    ctx.stroke();
+  }
+  function dot(x, y, r, color) { ctx.fillStyle = color; ctx.beginPath(); ctx.arc(x, y, r, 0, TAU); ctx.fill(); }
+  function text(s, x, y, color = css('--muted'), size = 12, align = 'left') {
+    ctx.fillStyle = color; ctx.font = `${size}px "Noto Sans Bengali", system-ui, sans-serif`; ctx.textAlign = align; ctx.fillText(s, x, y);
+  }
+  function arrowLine(x1, y1, x2, y2, color, label) {
+    ctx.strokeStyle = color; ctx.fillStyle = color; ctx.lineWidth = 1.5;
+    ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
+    for (const [ax, ay, bx] of [[x1, y1, x2], [x2, y2, x1]]) {
+      const d = Math.sign(bx - ax) || 1;
+      ctx.beginPath(); ctx.moveTo(ax, ay); ctx.lineTo(ax + 7 * d, ay - 4); ctx.lineTo(ax + 7 * d, ay + 4); ctx.fill();
+    }
+    if (label) text(label, (x1 + x2) / 2, y1 - 6, color, 12, 'center');
+  }
+
+  // ---------- constants & helpers ----------
+  const G = 6.67e-11, ME = 6e24, RE = 6.4e6, g0 = 9.8;
+  const sup = (s) => String(s).replace(/[-0-9]/g, (c) => '⁻⁰¹²³⁴⁵⁶⁷⁸⁹'['-0123456789'.indexOf(c)]);
+  const sci = (x, d = 2) => {
+    if (x === 0) return '০';
+    const e = Math.floor(Math.log10(Math.abs(x)));
+    if (e >= -2 && e <= 4) return bn(x, d);
+    return `${bn(x / 10 ** e, d)} × ১০${sup(e)}`;
+  };
+  function axes(x0, y0, x1, y1, xl, yl) {
+    ctx.strokeStyle = css('--line'); ctx.lineWidth = 1.2;
+    ctx.beginPath(); ctx.moveTo(x0, y1); ctx.lineTo(x0, y0); ctx.lineTo(x1, y0); ctx.stroke();
+    text(xl, x1, y0 + 14, css('--muted'), 11, 'right');
+    text(yl, x0 + 4, y1 + 10, css('--muted'), 11, 'left');
+  }
+  function arrow(x1, y1, x2, y2, color, w = 2) {
+    const a = Math.atan2(y2 - y1, x2 - x1), L = Math.hypot(x2 - x1, y2 - y1);
+    if (L < 1) return;
+    ctx.strokeStyle = color; ctx.fillStyle = color; ctx.lineWidth = w;
+    ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
+    const s = Math.min(9, L * 0.5);
+    ctx.beginPath(); ctx.moveTo(x2, y2);
+    ctx.lineTo(x2 - s * Math.cos(a - 0.4), y2 - s * Math.sin(a - 0.4));
+    ctx.lineTo(x2 - s * Math.cos(a + 0.4), y2 - s * Math.sin(a + 0.4)); ctx.fill();
+  }
+  function ring(x, y, r, color, w = 1.5, dash) {
+    ctx.strokeStyle = color; ctx.lineWidth = w; ctx.setLineDash(dash ?? []);
+    ctx.beginPath(); ctx.arc(x, y, r, 0, TAU); ctx.stroke(); ctx.setLineDash([]);
+  }
+  function planet(x, y, r) {
+    const gr = ctx.createRadialGradient(x - r * 0.3, y - r * 0.3, r * 0.1, x, y, r);
+    gr.addColorStop(0, css('--c')); gr.addColorStop(1, css('--a'));
+    ctx.fillStyle = gr; ctx.beginPath(); ctx.arc(x, y, r, 0, TAU); ctx.fill();
+  }
+
+  // ---------- simulations ----------
+  const S = [];
+
+  S.push({
+    id: 'newton', tab: '১. মহাকর্ষ সূত্র',
+    title: 'নিউটনের মহাকর্ষ সূত্র: F = G m₁m₂/d²',
+    sub: 'দুটি বস্তু পরস্পরকে সমান ও বিপরীত বলে আকর্ষণ করে (ক্রিয়া-প্রতিক্রিয়া)। বল ভরদ্বয়ের গুণফলের সমানুপাতিক ও দূরত্বের বর্গের ব্যস্তানুপাতিক; মাধ্যমের উপর নির্ভর করে না।',
+    controls: [['m1', 'ভর m₁', 0.1, 1000, 0.1, 0.1, 'kg'], ['m2', 'ভর m₂', 0.1, 1000, 0.1, 0.2, 'kg'], ['d', 'দূরত্ব d', 0.2, 10, 0.1, 1, 'm']],
+    legend: [['--a', 'm₁'], ['--b', 'm₂'], ['--d', 'আকর্ষণ বল'], ['--e', 'F–d লেখচিত্র']],
+    draw(w, h, t, p) {
+      const F = G * p.m1 * p.m2 / p.d ** 2;
+      const top = h * 0.42, cx = w / 2, sep = 30 + (p.d / 10) * (w * 0.6);
+      const r1 = 8 + 18 * Math.cbrt(p.m1 / 1000), r2 = 8 + 18 * Math.cbrt(p.m2 / 1000);
+      const xa = cx - sep / 2, xb = cx + sep / 2;
+      ctx.strokeStyle = css('--line'); ctx.setLineDash([4, 4]); ctx.beginPath(); ctx.moveTo(xa, top); ctx.lineTo(xb, top); ctx.stroke(); ctx.setLineDash([]);
+      dot(xa, top, r1, css('--a')); dot(xb, top, r2, css('--b'));
+      const L = Math.max(6, Math.min(sep / 2 - 6, 8 * (Math.log10(F) + 14)));
+      arrow(xa + r1, top, xa + r1 + L, top, css('--d'), 3); arrow(xb - r2, top, xb - r2 - L, top, css('--d'), 3);
+      text(`d = ${bn(p.d, 1)} m`, cx, top + 34, css('--muted'), 12, 'center');
+      // F–d graph
+      const gx0 = 40, gy0 = h - 14, gx1 = w - 14, gy1 = h * 0.62;
+      axes(gx0, gy0, gx1, gy1, 'd →', 'F');
+      const Fmax = G * p.m1 * p.m2 / 0.2 ** 2;
+      const X = (d) => gx0 + (d - 0.2) / 9.8 * (gx1 - gx0), Y = (f) => gy0 - Math.sqrt(f / Fmax) * (gy0 - gy1);
+      curve((x) => Y(G * p.m1 * p.m2 / (0.2 + (x - gx0) / (gx1 - gx0) * 9.8) ** 2), gx0, gx1, css('--e'), 2);
+      dot(X(p.d), Y(F), 5, css('--d'));
+      const F2 = G * p.m1 * p.m2 / (p.d * 2) ** 2;
+      this.info = `<span class="big">F = G m₁m₂/d² = ${sci(F, 3)} N</span><br>দূরত্ব দ্বিগুণ (${bn(p.d * 2, 1)} m) করলে F = ${sci(F2, 3)} N — চার ভাগের এক ভাগ। দূরত্ব অর্ধেক হলে বল চারগুণ।<br>দুই বস্তুর উপর বল সমান ও বিপরীত — m₁ ও m₂ এর তীরের দৈর্ঘ্য সবসময় সমান। (লেখচিত্রের উল্লম্ব অক্ষ √F স্কেলে)`;
+    },
+  });
+
+  S.push({
+    id: 'fall', tab: '২. পড়ন্ত বস্তু',
+    title: 'পড়ন্ত বস্তুর সূত্র: v ∝ t, h ∝ t²',
+    sub: 'বায়ুশূন্য স্থানে স্থির অবস্থা থেকে পড়ন্ত সব বস্তু সমান সময়ে সমান দূরত্ব অতিক্রম করে (গিনি ও পালক পরীক্ষা)। বাতাসে প্লবতা ও বাধার জন্য হালকা পালক দেরিতে পড়ে।',
+    controls: [['H', 'উচ্চতা', 5, 80, 1, 20, 'm'], ['gg', 'অভিকর্ষজ ত্বরণ g', 1.6, 25, 0.1, 9.8, 'm s⁻²']],
+    buttons: [['vac', 'বায়ুশূন্য', true, false, 'med'], ['air', 'বাতাসে', false, false, 'med']],
+    legend: [['--b', 'গিনি (মুদ্রা)'], ['--c', 'পালক'], ['--muted', 'সমান সময় ব্যবধানে অবস্থান']],
+    draw(w, h, t, p, b) {
+      const air = b.med === 'air';
+      const tFall = Math.sqrt(2 * p.H / p.gg);
+      const period = (air ? p.H / 1.2 + 1 : tFall) + 1.2;
+      const tt = (t % period);
+      const yCoin = Math.min(p.H, 0.5 * p.gg * tt * tt);
+      // feather: terminal velocity model a = g - k v^2
+      const vt = air ? 1.2 : Infinity;
+      let yF;
+      if (!air) yF = yCoin;
+      else {
+        const tau = vt / p.gg;
+        yF = Math.min(p.H, (vt ** 2 / p.gg) * Math.log(Math.cosh(tt / tau)));
+      }
+      const top = 24, bot = h - 20, sc = (bot - top) / p.H;
+      const xc = w * 0.3, xf = w * 0.5;
+      ctx.strokeStyle = css('--line'); ctx.beginPath(); ctx.moveTo(20, bot); ctx.lineTo(w * 0.62, bot); ctx.stroke();
+      // equal time ticks for coin
+      const n = 6;
+      for (let i = 1; i <= n; i++) {
+        const ti = tFall * i / n, yi = 0.5 * p.gg * ti * ti;
+        ctx.strokeStyle = css('--grid'); ctx.beginPath(); ctx.moveTo(xc - 18, top + yi * sc); ctx.lineTo(xc + 18, top + yi * sc); ctx.stroke();
+      }
+      dot(xc, top + yCoin * sc, 9, css('--b'));
+      ctx.save(); ctx.translate(xf, top + yF * sc); ctx.rotate(air ? Math.sin(t * 5) * 0.5 : 0);
+      ctx.fillStyle = css('--c'); ctx.beginPath(); ctx.ellipse(0, 0, 16, 5, 0, 0, TAU); ctx.fill(); ctx.restore();
+      // v–t and h–t graphs
+      const gx0 = w * 0.66, gx1 = w - 12, gyA0 = h * 0.45, gyA1 = 16, gyB0 = h - 16, gyB1 = h * 0.56;
+      axes(gx0, gyA0, gx1, gyA1, 't', 'v');
+      axes(gx0, gyB0, gx1, gyB1, 't', 'h');
+      const tx = (s) => gx0 + (s / tFall) * (gx1 - gx0);
+      curve((x) => gyA0 - ((x - gx0) / (gx1 - gx0)) * (gyA0 - gyA1), gx0, gx1, css('--b'), 2);
+      curve((x) => gyB0 - ((x - gx0) / (gx1 - gx0)) ** 2 * (gyB0 - gyB1), gx0, gx1, css('--b'), 2);
+      const tc = Math.min(tt, tFall);
+      dot(tx(tc), gyA0 - (tc / tFall) * (gyA0 - gyA1), 4, css('--d'));
+      dot(tx(tc), gyB0 - (tc / tFall) ** 2 * (gyB0 - gyB1), 4, css('--d'));
+      this.info = `<span class="big">t = √(2h/g) = ${bn(tFall)} s;  v = gt = ${bn(p.gg * tFall, 1)} m/s</span><br>এখন: t = ${bn(tc)} s, v = ${bn(p.gg * tc, 1)} m/s, পতিত দূরত্ব = ${bn(yCoin, 1)} m।<br>${air ? 'বাতাসে পালকের উপর প্লবতা ও বাতাসের বাধা ওজনের বিপরীতে কাজ করে — তাই পালক দেরিতে মাটিতে পৌঁছায়।' : 'বায়ুশূন্য স্থানে গিনি আর পালক একসাথে পড়ে — g বস্তুর ভর, আকার বা উপাদানের উপর নির্ভর করে না।'} সমান সময় ব্যবধানে অতিক্রান্ত দূরত্ব ১ : ৩ : ৫ … অনুপাতে বাড়ে (h ∝ t²)।`;
+    },
+  });
+
+  S.push({
+    id: 'gplanet', tab: '৩. গ্রহের g',
+    title: 'অভিকর্ষজ ত্বরণ: g = GM/R² = (4/3)πGρR',
+    sub: 'গ্রহের পৃষ্ঠে g নির্ভর করে গ্রহের ভর ও ব্যাসার্ধের উপর। ভর ধ্রুব হলে g ∝ 1/R²; গড় ঘনত্ব ধ্রুব হলে g ∝ ρR।',
+    controls: [['mf', 'ভর (পৃথিবীর কত গুণ)', 0.01, 5, 0.01, 1, '×'], ['rf', 'ব্যাসার্ধ (পৃথিবীর কত গুণ)', 0.2, 3, 0.01, 1, '×'], ['m', 'বস্তুর ভর m', 1, 100, 1, 75, 'kg']],
+    legend: [['--a', 'গ্রহ'], ['--muted', 'তুলনার জন্য পৃথিবীর মাপ'], ['--d', 'ওজন W = mg']],
+    draw(w, h, t, p) {
+      const M = ME * p.mf, R = RE * p.rf;
+      const g = G * M / R ** 2, rho = M / ((4 / 3) * Math.PI * R ** 3);
+      const cx = w * 0.3, cy = h * 0.55, base = Math.min(h * 0.22, w * 0.14);
+      ring(cx, cy, base, css('--muted'), 1, [4, 4]);
+      planet(cx, cy, base * p.rf);
+      const rr = base * p.rf;
+      dot(cx, cy - rr - 7, 6, css('--b'));
+      arrow(cx, cy - rr - 7, cx, cy - rr - 7 + Math.min(60, 4 + g * 3), css('--d'), 3);
+      // bar compare
+      const bx = w * 0.62, bw = w * 0.32, by = h * 0.2;
+      const gEarth = G * ME / RE ** 2;
+      const bars = [['পৃথিবী', gEarth, '--muted'], ['এই গ্রহ', g, '--a']];
+      const gmax = Math.max(gEarth, g) * 1.15;
+      bars.forEach(([lab, val, c], i) => {
+        const y = by + i * 46;
+        text(lab, bx, y - 4, css('--muted'), 12);
+        ctx.fillStyle = css(c); ctx.fillRect(bx, y, (val / gmax) * bw, 18);
+        text(`${bn(val)} m s⁻²`, bx + 4, y + 13, '#fff', 11);
+      });
+      this.info = `<span class="big">g = GM/R² = ${bn(g)} m s⁻²</span>  (পৃথিবীর ${bn(g / gEarth)} গুণ)<br>গড় ঘনত্ব ρ = ${sci(rho, 2)} kg m⁻³ → (4/3)πGρR = ${bn((4 / 3) * Math.PI * G * rho * R)} m s⁻² (একই মান)<br>${bn(p.m, 0)} kg বস্তুর ওজন W = mg = ${bn(p.m * g, 1)} N; ভর কিন্তু সব গ্রহে ${bn(p.m, 0)} kg-ই থাকে।`;
+    },
+  });
+
+  S.push({
+    id: 'height', tab: '৪. উচ্চতা ও গভীরতা',
+    title: 'উচ্চতা ও গভীরতায় g এর পরিবর্তন',
+    sub: "উচ্চতায়: g' = (R/(R+h))² g, h ≪ R হলে g' = (1 − 2h/R) g। গভীরতায়: g' = (1 − h/R) g। ভূপৃষ্ঠে g সর্বোচ্চ, কেন্দ্রে শূন্য।",
+    controls: [['r', 'কেন্দ্র থেকে দূরত্ব r', 0, 4, 0.01, 1.5, 'R']],
+    legend: [['--e', 'ভেতরে: সরলরেখা g′ ∝ (R − h)'], ['--a', 'বাইরে: g′ ∝ 1/(R + h)²'], ['--b', 'আসন্ন মান (1 − 2h/R)g']],
+    draw(w, h, t, p) {
+      const gx0 = 44, gx1 = w - 16, gy0 = h - 26, gy1 = 18;
+      axes(gx0, gy0, gx1, gy1, 'কেন্দ্র থেকে দূরত্ব →', "g′");
+      const X = (r) => gx0 + (r / 4) * (gx1 - gx0), Y = (v) => gy0 - v * (gy0 - gy1) * 0.92;
+      const gf = (r) => (r <= 1 ? r : 1 / r ** 2);
+      curve((x) => Y(Math.min(1, (x - gx0) / (gx1 - gx0) * 4)), gx0, X(1), css('--e'), 2.6);
+      curve((x) => Y(gf((x - gx0) / (gx1 - gx0) * 4)), X(1), gx1, css('--a'), 2.6);
+      ctx.setLineDash([5, 4]);
+      curve((x) => Y(Math.max(0, 1 - 2 * ((x - gx0) / (gx1 - gx0) * 4 - 1))), X(1), X(1.5), css('--b'), 1.6);
+      ctx.setLineDash([]);
+      for (const [r, s] of [[0.5, 'R/2'], [1, 'R'], [1.5, '3R/2'], [2, '2R'], [3, '3R']]) text(s, X(r), gy0 + 14, css('--muted'), 11, 'center');
+      for (const v of [0.25, 0.44, 0.5, 1]) text(`${bn(v)}g`, gx0 - 4, Y(v) + 4, css('--muted'), 10, 'right');
+      const r = p.r, gv = gf(r);
+      ctx.strokeStyle = css('--d'); ctx.setLineDash([3, 3]); ctx.beginPath(); ctx.moveTo(X(r), gy0); ctx.lineTo(X(r), Y(gv)); ctx.stroke(); ctx.setLineDash([]);
+      dot(X(r), Y(gv), 6, css('--d'));
+      let s;
+      if (r < 1) {
+        const hd = 1 - r;
+        s = `<span class="big">গভীরতা h = ${bn(hd)}R = ${bn(hd * 6400, 0)} km → g′ = (1 − h/R)g = ${bn(gv * g0)} m s⁻²</span><br>g′ = (4/3)πGρ(R − h) — কেন্দ্র থেকে দূরত্বের সমানুপাতিক। উপরের খোলকের লব্ধি আকর্ষণ শূন্য, তাই শুধু ভেতরের ভর M′ কাজ করে।`;
+      } else if (r === 1) {
+        s = `<span class="big">ভূপৃষ্ঠে g = ${bn(g0)} m s⁻² — সর্বোচ্চ মান</span>`;
+      } else {
+        const hh = r - 1, approx = 1 - 2 * hh;
+        s = `<span class="big">উচ্চতা h = ${bn(hh)}R = ${bn(hh * 6400, 0)} km → g′ = (R/(R+h))²g = ${bn(gv * g0)} m s⁻² (${bn(gv)}g)</span><br>আসন্ন সূত্র (1 − 2h/R)g = ${approx > 0 ? bn(approx * g0) + ' m s⁻²' : 'অর্থহীন'} — h ≪ R হলেই কেবল কাছাকাছি (এখানে ত্রুটি ${bn(Math.abs(approx - gv) / gv * 100, 1)}%)।`;
+      }
+      const n = 1 / Math.max(gv, 1e-9);
+      this.info = s + (gv > 0 && r !== 1 ? `<br>এখানে g′ পৃষ্ঠের 1/${bn(n, 2)} অংশ। শর্টকাট: উচ্চতায় h = (√n − 1)R, গভীরতায় d = ((n − 1)/n)R।` : '');
+    },
+  });
+
+  S.push({
+    id: 'lat', tab: '৫. অক্ষাংশ ও ঘূর্ণন',
+    title: "আহ্নিক গতি ও অক্ষাংশে g: g′ = g − ω²R cos²λ",
+    sub: 'পৃথিবীর ঘূর্ণনের জন্য λ অক্ষাংশে বস্তু r = R cosλ ব্যাসার্ধের বৃত্তে ঘোরে। মেরুতে (λ = 90°) g′ = g সর্বোচ্চ; বিষুবে (λ = 0°) g′ = g − ω²R সর্বনিম্ন।',
+    controls: [['lam', 'অক্ষাংশ λ', 0, 90, 1, 23, '°'], ['T', 'আহ্নিক আবর্তনকাল T', 1.4, 48, 0.1, 24, 'ঘণ্টা'], ['m', 'বস্তুর ভর m', 1, 100, 1, 50, 'kg']],
+    legend: [['--a', 'পৃথিবী'], ['--b', 'r = R cosλ'], ['--d', 'বস্তু']],
+    draw(w, h, t, p) {
+      const cx = w * 0.3, cy = h / 2, Rp = Math.min(h * 0.4, w * 0.25);
+      const lam = p.lam * Math.PI / 180, om = TAU / (p.T * 3600);
+      ring(cx, cy, Rp, css('--a'), 2);
+      ctx.strokeStyle = css('--muted'); ctx.setLineDash([4, 4]);
+      ctx.beginPath(); ctx.moveTo(cx, cy - Rp - 14); ctx.lineTo(cx, cy + Rp + 14); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(cx - Rp, cy); ctx.lineTo(cx + Rp, cy); ctx.stroke(); ctx.setLineDash([]);
+      const px = cx + Rp * Math.cos(lam), py = cy - Rp * Math.sin(lam);
+      ctx.strokeStyle = css('--b'); ctx.lineWidth = 1.5;
+      ctx.beginPath(); ctx.ellipse(cx, py, Rp * Math.cos(lam), Math.max(1, Rp * Math.cos(lam) * 0.18), 0, 0, TAU); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(cx, py); ctx.lineTo(px, py); ctx.stroke();
+      ctx.strokeStyle = css('--muted'); ctx.beginPath(); ctx.moveTo(cx, cy); ctx.lineTo(px, py); ctx.stroke();
+      ctx.beginPath(); ctx.arc(cx, cy, 22, -lam, 0); ctx.stroke();
+      text('λ', cx + 26, cy - 6, css('--muted'), 12);
+      const ang = t * 1.2, bx = cx + Rp * Math.cos(lam) * Math.cos(ang), byy = py + Rp * Math.cos(lam) * 0.18 * Math.sin(ang);
+      dot(bx, byy, 4, css('--d')); dot(px, py, 6, css('--d'));
+      arrow(px, py, px + (cx - px) * 0.25, py + (cy - py) * 0.25, css('--e'), 2);
+      const gp = g0 - om * om * RE * Math.cos(lam) ** 2;
+      const dg = g0 - gp, wZero = Math.sqrt(g0 / RE);
+      const bx0 = w * 0.62, bw = w * 0.32;
+      text('λ অক্ষাংশে g′', bx0, h * 0.25 - 6, css('--muted'), 12);
+      ctx.fillStyle = css('--a'); ctx.fillRect(bx0, h * 0.25, Math.max(0, gp / g0) * bw, 16);
+      text(`${bn(gp, 4)} m s⁻²`, bx0 + 4, h * 0.25 + 12, '#fff', 11);
+      text('মেরুতে g', bx0, h * 0.25 + 40, css('--muted'), 12);
+      ctx.fillStyle = css('--muted'); ctx.fillRect(bx0, h * 0.25 + 46, bw, 16);
+      text(`${bn(g0, 2)} m s⁻²`, bx0 + 4, h * 0.25 + 58, '#fff', 11);
+      this.info = `<span class="big">ω = 2π/T = ${sci(om, 3)} rad s⁻¹;  g′ = g − ω²R cos²λ = ${bn(gp, 4)} m s⁻²</span><br>Δg = ω²R cos²λ = ${sci(dg, 3)} m s⁻²;  ${bn(p.m, 0)} kg বস্তুর ওজন কমে ΔW = mΔg = ${bn(p.m * dg, 3)} N।<br>বিষুবীয় অঞ্চলে ওজন শূন্য হতে হলে ω = √(g/R) = ${sci(wZero, 3)} rad s⁻¹ — বর্তমানের প্রায় ${bn(wZero / (TAU / 86400), 1)} গুণ (T ≈ ${bn(TAU / wZero / 3600, 2)} ঘণ্টা)।`;
+    },
+  });
+
+  S.push({
+    id: 'field', tab: '৬. প্রাবল্য ও বিভব',
+    title: 'মহাকর্ষীয় প্রাবল্য E = GM/r² ও বিভব V = −GM/r',
+    sub: 'বিভব সর্বদা ঋণাত্মক, অসীমে সর্বোচ্চ (শূন্য)। E = −dV/dr। নিরেট গোলকের ভেতরে E = (GM/a³)r; ফাঁপা গোলকের ভেতরে প্রাবল্য শূন্য ও বিভব ধ্রুব।',
+    controls: [['r', 'কেন্দ্র থেকে দূরত্ব r', 0, 5, 0.01, 2, 'a']],
+    buttons: [['solid', 'নিরেট গোলক', true, false, 'kind'], ['hollow', 'ফাঁপা গোলক', false, false, 'kind']],
+    legend: [['--a', 'প্রাবল্য E'], ['--d', 'বিভব V'], ['--muted', 'গোলকের পৃষ্ঠ (r = a)']],
+    draw(w, h, t, p, b) {
+      const hollow = b.kind === 'hollow';
+      const gx0 = 40, gx1 = w - 16, mid = h * 0.5, top = 16, bot = h - 20;
+      ctx.strokeStyle = css('--line'); ctx.beginPath(); ctx.moveTo(gx0, top); ctx.lineTo(gx0, bot); ctx.moveTo(gx0, mid); ctx.lineTo(gx1, mid); ctx.stroke();
+      const X = (r) => gx0 + (r / 5) * (gx1 - gx0), R = (x) => (x - gx0) / (gx1 - gx0) * 5;
+      const E = (r) => (r < 1 ? (hollow ? 0 : r) : 1 / r ** 2);
+      const V = (r) => (r < 1 ? (hollow ? -1 : -(3 - r * r) / 2) : -1 / r);
+      const sy = (mid - top) * 0.9, sv = (bot - mid) / 1.6;
+      ctx.strokeStyle = css('--muted'); ctx.setLineDash([3, 4]); ctx.beginPath(); ctx.moveTo(X(1), top); ctx.lineTo(X(1), bot); ctx.stroke(); ctx.setLineDash([]);
+      text('a', X(1) + 3, mid + 13, css('--muted'), 11);
+      text('E', gx0 + 4, top + 10, css('--a'), 12); text('V', gx0 + 4, bot - 2, css('--d'), 12);
+      if (hollow) { curve(() => mid, gx0, X(1), css('--a'), 2.4); curve((x) => mid - E(R(x)) * sy, X(1), gx1, css('--a'), 2.4); }
+      else curve((x) => mid - E(R(x)) * sy, gx0, gx1, css('--a'), 2.4);
+      curve((x) => mid - V(R(x)) * sv, gx0, gx1, css('--d'), 2.4);
+      const r = p.r;
+      dot(X(r), mid - E(r) * sy, 5, css('--a')); dot(X(r), mid - V(r) * sv, 5, css('--d'));
+      const where = r < 1 ? 'ভেতরে' : r === 1 ? 'পৃষ্ঠে' : 'বাইরে';
+      const fE = r < 1 ? (hollow ? '0' : '(GM/a³) r') : 'GM/r²';
+      const fV = r < 1 ? (hollow ? 'ধ্রুব (পৃষ্ঠের মানের সমান)' : '−GM(3a² − r²)/2a³') : '−GM/r';
+      this.info = `<span class="big">${hollow ? 'ফাঁপা' : 'নিরেট'} গোলকের ${where} (r = ${bn(r)}a): E = ${fE}, V = ${fV}</span><br>পৃষ্ঠের মানের তুলনায়: E = ${bn(E(r))} × GM/a², V = ${bn(V(r))} × GM/a।<br>প্রাবল্য ভেক্টর (একক N kg⁻¹) — এর মান অভিকর্ষজ ত্বরণের সমান। বিভব স্কেলার (একক J kg⁻¹); ${r < 1 ? 'গোলকের ভেতরে বিভব সবচেয়ে কম (সবচেয়ে ঋণাত্মক)।' : 'দূরত্ব বাড়লে বিভব বাড়ে এবং অসীমে শূন্য হয়।'}`;
+    },
+  });
+
+  S.push({
+    id: 'neutral', tab: '৭. নিরপেক্ষ বিন্দু',
+    title: 'দুটি বস্তুর মাঝে প্রাবল্য শূন্য হওয়ার বিন্দু',
+    sub: 'M₁ ও M₂ এর সংযোগ রেখায় যে বিন্দুতে GM₁/x² = GM₂/(d − x)², সেখানে লব্ধি প্রাবল্য শূন্য। এমন বিন্দু একটিই — ছোট বস্তুর কাছে। সংযোগ রেখার যেকোনো বিন্দুতে বিভব V = V₁ + V₂।',
+    controls: [['q', 'ভরের অনুপাত M₂/M₁', 0.0025, 1, 0.0025, 0.0125, ''], ['x', 'P বিন্দুর অবস্থান (M₁ থেকে)', 0.02, 0.98, 0.01, 0.5, 'd']],
+    legend: [['--a', 'M₁ এর প্রাবল্য E₁'], ['--b', 'M₂ এর প্রাবল্য E₂'], ['--e', 'নিরপেক্ষ বিন্দু'], ['--d', 'লব্ধি প্রাবল্য']],
+    draw(w, h, t, p) {
+      const xa = 40, xb = w - 40, y = h * 0.35, L = xb - xa;
+      const r1 = 22, r2 = Math.max(5, 22 * Math.cbrt(p.q));
+      planet(xa, y, r1); dot(xb, y, r2, css('--b'));
+      text('M₁', xa, y + r1 + 16, css('--muted'), 12, 'center'); text('M₂', xb, y + r2 + 16, css('--muted'), 12, 'center');
+      const xn = 1 / (1 + Math.sqrt(p.q));
+      ctx.strokeStyle = css('--e'); ctx.setLineDash([4, 4]); ctx.beginPath(); ctx.moveTo(xa + xn * L, y - 40); ctx.lineTo(xa + xn * L, h - 12); ctx.stroke(); ctx.setLineDash([]);
+      const E1 = 1 / p.x ** 2, E2 = p.q / (1 - p.x) ** 2, net = E1 - E2;
+      const px = xa + p.x * L, sc = 26;
+      dot(px, y, 5, css('--d'));
+      arrow(px, y - 12, px - Math.min(90, sc * Math.log10(1 + E1)), y - 12, css('--a'), 2);
+      arrow(px, y + 12, px + Math.min(90, sc * Math.log10(1 + E2)), y + 12, css('--b'), 2);
+      // net field graph
+      const gy = h * 0.78, amp = h * 0.18;
+      ctx.strokeStyle = css('--line'); ctx.beginPath(); ctx.moveTo(xa, gy); ctx.lineTo(xb, gy); ctx.stroke();
+      curve((X) => { const s = (X - xa) / L; const n = 1 / s ** 2 - p.q / (1 - s) ** 2; return gy + Math.max(-amp, Math.min(amp, Math.sign(n) * Math.log10(1 + Math.abs(n)) * amp / 3)); }, xa + 6, xb - 6, css('--d'), 2);
+      text('লব্ধি প্রাবল্য (M₁ এর দিকে = নিচে)', xa, gy - amp + 4, css('--muted'), 11);
+      this.info = `<span class="big">নিরপেক্ষ বিন্দু: M₁ থেকে x = d/(1 + √(M₂/M₁)) = ${bn(xn, 3)}d</span><br>P বিন্দুতে E₁ : E₂ = ${bn(E1 / E2, 2)} : ১ → লব্ধি প্রাবল্য ${Math.abs(net) / E1 < 0.02 ? 'প্রায় শূন্য' : net > 0 ? 'M₁ এর দিকে' : 'M₂ এর দিকে'}।<br>সূর্য-পৃথিবী বা পৃথিবী-চাঁদের ক্ষেত্রেও একই হিসাব (পৃথিবী-চাঁদ: M₂/M₁ = 7.4 × 10²²/6 × 10²⁴ ≈ ০.০১২৩)।`;
+    },
+  });
+
+  // Newton's cannon: horizontal launch, scaled units (R = 1, GM = 1 → circular v = 1, escape √2)
+  let cannon = { key: '', path: [] };
+  function cannonPath(u) {
+    const pts = []; let x = 0, y = 1.02, vx = u * 1 / Math.sqrt(1.02), vy = 0; const dt = 0.004;
+    for (let i = 0; i < 60000; i++) {
+      const r = Math.hypot(x, y); if (r < 1 || r > 6) break;
+      const a = -1 / r ** 3;
+      vx += a * x * dt / 2; vy += a * y * dt / 2; x += vx * dt; y += vy * dt;
+      const r2 = Math.hypot(x, y), a2 = -1 / r2 ** 3; vx += a2 * x * dt / 2; vy += a2 * y * dt / 2;
+      if (i % 6 === 0) pts.push([x, y]);
+      if (i > 500 && Math.hypot(x, y - 1.02) < 0.01 && pts.length > 50) { pts.closed = true; break; }
+    }
+    return pts;
+  }
+  S.push({
+    id: 'escape', tab: '৮. মুক্তিবেগ ও পরিণতি',
+    title: 'নিক্ষিপ্ত বস্তুর বেগ ও পরিণতি; মুক্তিবেগ vₑ = √(2gR)',
+    sub: 'ভূপৃষ্ঠের কাছ থেকে অনুভূমিকভাবে ছোড়া বস্তু: v < 7.88 km/s হলে ফিরে আসে, v = 7.88 km/s এ বৃত্তাকার, এর বেশি কিন্তু 11.2 km/s এর কম হলে উপবৃত্তাকার, 11.2 km/s এ অধিবৃত্তাকার, তার বেশি হলে পরাবৃত্ত পথে পৃথিবী ছেড়ে যায়।',
+    controls: [['v', 'নিক্ষেপ বেগ v', 3, 14, 0.01, 7.88, 'km/s']],
+    legend: [['--a', 'পৃথিবী'], ['--d', 'বস্তুর পথ'], ['--muted', 'বৃত্তাকার কক্ষপথ (7.88 km/s)']],
+    note: 'নোট: পথগুলো GM/r² বলে সংখ্যাগতভাবে হিসাব করা। ছন্দ — “উপকারীর চাঁদা ফাঁকি অধিকারের পরাজয়”: উপবৃত্ত → চাঁদের মতো উপগ্রহ → ফোকাসে রেখে উপবৃত্ত → অধিবৃত্ত → পরাবৃত্ত।',
+    draw(w, h, t, p) {
+      // map the notes' thresholds (7.88 km/s circular, 11.2 km/s escape) onto u = 1 and u = √2
+      const u = p.v <= 7.88 ? p.v / 7.88 : 1 + (p.v - 7.88) / (11.2 - 7.88) * (Math.SQRT2 - 1);
+      const key = u.toFixed(4);
+      if (cannon.key !== key) { cannon = { key, path: cannonPath(u) }; cannon.t0 = t; }
+      const cx = w / 2, cy = h * 0.55, sc = Math.min(h, w) * 0.17;
+      ring(cx, cy, sc * 1.02, css('--muted'), 1, [4, 4]);
+      planet(cx, cy, sc);
+      const pts = cannon.path, n = Math.min(pts.length, Math.floor((t - cannon.t0) * 90));
+      ctx.strokeStyle = css('--d'); ctx.lineWidth = 2.2; ctx.beginPath();
+      for (let i = 0; i < n; i++) { const [x, y] = pts[i]; const X = cx + x * sc, Y = cy - y * sc; i ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); }
+      ctx.stroke();
+      if (n > 0) { const [x, y] = pts[Math.min(n, pts.length) - 1]; dot(cx + x * sc, cy - y * sc, 5, css('--b')); }
+      if (n >= pts.length && t - cannon.t0 > pts.length / 90 + 1.5) cannon.t0 = t;
+      let fate;
+      if (p.v < 7.87) fate = 'উপবৃত্তাকার পথে পৃথিবীতে ফিরে আসবে';
+      else if (p.v <= 7.89) fate = 'বৃত্তাকার পথে পৃথিবী প্রদক্ষিণ করবে — চাঁদের মতো উপগ্রহে পরিণত হবে';
+      else if (p.v < 11.19) fate = 'পৃথিবীকে একটি ফোকাসে রেখে উপবৃত্তাকার পথে প্রদক্ষিণ করবে';
+      else if (p.v <= 11.21) fate = 'অধিবৃত্তাকার পথে পৃথিবী ছেড়ে যাবে';
+      else fate = 'পরাবৃত্ত পথে পৃথিবী ছেড়ে চলে যাবে';
+      const ve = Math.sqrt(2 * g0 * RE) / 1000;
+      this.info = `<span class="big">v = ${bn(p.v)} km/s → ${fate}</span><br>vₑ = √(2gR) = √(2 × ৯.৮ × ৬.৪ × ১০⁶) = ${bn(ve, 2)} km/s; কক্ষীয় বেগ √(gR) = ${bn(ve / Math.SQRT2, 2)} km/s → vₑ = √2 × কক্ষীয় বেগ।<br>মুক্তিবেগ বস্তুর ভর বা নিক্ষেপের দিকের উপর নির্ভর করে না — নির্ভর করে গ্রহের ভর ও ব্যাসার্ধের উপর।`;
+    },
+  });
+
+  S.push({
+    id: 'satellite', tab: '৯. কৃত্রিম উপগ্রহ',
+    title: 'কৃত্রিম উপগ্রহের বেগ, পর্যায়কাল ও শক্তি',
+    sub: 'v = √(GM/(R+h)), T = 2π(R+h)^{3/2}/√(GM)। গতিশক্তি Eₖ = GMm/2(R+h), বিভব শক্তি Eₚ = −GMm/(R+h), মোট শক্তি E = −GMm/2(R+h)। কক্ষীয় বেগ উপগ্রহের ভরের উপর নির্ভর করে না।',
+    controls: [['h', 'উচ্চতা h', 200, 42000, 100, 36000, 'km'], ['m', 'উপগ্রহের ভর m', 50, 2000, 50, 200, 'kg']],
+    legend: [['--a', 'পৃথিবী'], ['--d', 'উপগ্রহের কক্ষপথ'], ['--muted', 'ভূ-স্থির কক্ষপথ (T = 24 ঘণ্টা)'], ['--e', 'Eₖ'], ['--b', 'Eₚ'], ['--c', 'E']],
+    draw(w, h, t, p) {
+      const r = RE + p.h * 1000;
+      const v = Math.sqrt(G * ME / r), T = TAU * r ** 1.5 / Math.sqrt(G * ME);
+      const Ek = G * ME * p.m / (2 * r), Ep = -G * ME * p.m / r, Et = Ep + Ek;
+      const rGeo = Math.cbrt(G * ME * 86400 ** 2 / (4 * Math.PI ** 2));
+      const cx = w * 0.3, cy = h / 2, maxR = Math.min(h * 0.46, w * 0.28), sc = maxR / (RE + 42000e3);
+      ring(cx, cy, rGeo * sc, css('--muted'), 1, [4, 4]);
+      planet(cx, cy, RE * sc);
+      ring(cx, cy, r * sc, css('--d'), 1.6);
+      const ang = -t * TAU / (T / 3600) * 0.5;
+      dot(cx + r * sc * Math.cos(ang), cy + r * sc * Math.sin(ang), 5, css('--b'));
+      // energy bars
+      const bx = w * 0.62, bw = w * 0.34, zero = bx + bw * 0.5, Emax = Math.abs(Ep) * 1.05;
+      ctx.strokeStyle = css('--line'); ctx.beginPath(); ctx.moveTo(zero, h * 0.18); ctx.lineTo(zero, h * 0.18 + 110); ctx.stroke();
+      [['Eₖ', Ek, '--e'], ['Eₚ', Ep, '--b'], ['E', Et, '--c']].forEach(([lab, val, c], i) => {
+        const y = h * 0.2 + i * 36, len = (val / Emax) * bw * 0.5;
+        ctx.fillStyle = css(c); ctx.fillRect(Math.min(zero, zero + len), y, Math.abs(len), 16);
+        text(`${lab} = ${sci(val, 2)} J`, bx, y - 3, css('--muted'), 11);
+      });
+      const hr = T / 3600;
+      this.info = `<span class="big">v = ${bn(v / 1000, 3)} km/s;  T = ${bn(hr, 2)} ঘণ্টা</span>${Math.abs(hr - 24) < 0.25 ? ' — <b>ভূ-স্থির উপগ্রহ</b> (পার্কিং কক্ষপথ)' : ''}<br>ভূ-স্থির কক্ষপথ: h = (GMT²/4π²)^{1/3} − R = ${bn((rGeo - RE) / 1000, 0)} km (≈ 3.6 × 10⁴ km)।<br>Eₖ = −E এবং Eₚ = 2E — মোট শক্তি ঋণাত্মক, মানে উপগ্রহ পৃথিবীর সাথে আবদ্ধ। এই উচ্চতায় মুক্তিবেগ = √2 × ${bn(v / 1000, 2)} = ${bn(Math.SQRT2 * v / 1000, 2)} km/s (কক্ষীয় বেগের চেয়ে ৪১.৪২% বেশি)।`;
+    },
+  });
+
+  function keplerE(M, e) { let E = M; for (let i = 0; i < 12; i++) E -= (E - e * Math.sin(E) - M) / (1 - e * Math.cos(E)); return E; }
+  S.push({
+    id: 'kepler', tab: '১০. কেপলারের সূত্র',
+    title: 'কেপলারের তিন সূত্র (E A T): উপবৃত্ত, ক্ষেত্রফল, পর্যায়কাল',
+    sub: '১ম: গ্রহ সূর্যকে উপবৃত্তের এক ফোকাসে রেখে ঘোরে। ২য়: সমান সময়ে সমান ক্ষেত্রফল (কৌণিক ভরবেগের সংরক্ষণ, v₁r₁ = v₂r₂)। ৩য়: T² ∝ a³।',
+    controls: [['e', 'উৎকেন্দ্রিকতা e', 0, 0.85, 0.01, 0.5, ''], ['a', 'অর্ধ-পরাক্ষ a (পৃথিবীর কক্ষের কত গুণ)', 0.3, 3, 0.01, 1, '×']],
+    legend: [['--b', 'সূর্য (ফোকাস)'], ['--d', 'গ্রহ'], ['--a', 'সমান সময়ে অতিক্রান্ত ক্ষেত্রফল']],
+    draw(w, h, t, p) {
+      const e = p.e, A = Math.min(w * 0.42, h * 0.8 / Math.sqrt(1 - e * e) / 2) * 0.95, B = A * Math.sqrt(1 - e * e);
+      const cx = w / 2 + A * e * 0, cy = h / 2, fx = cx + A * e;
+      const pos = (E) => [cx + A * Math.cos(E), cy - B * Math.sin(E)];
+      const Tsim = 6 * p.a ** 1.5, nSec = 10;
+      for (let k = 0; k < nSec; k += 2) {
+        ctx.fillStyle = css('--a'); ctx.globalAlpha = 0.22; ctx.beginPath(); ctx.moveTo(fx, cy);
+        for (let j = 0; j <= 30; j++) { const M = TAU * (k + j / 30) / nSec; const [x, y] = pos(keplerE(M, e)); ctx.lineTo(x, y); }
+        ctx.closePath(); ctx.fill(); ctx.globalAlpha = 1;
+      }
+      ctx.strokeStyle = css('--d'); ctx.lineWidth = 1.6; ctx.beginPath(); ctx.ellipse(cx, cy, A, B, 0, 0, TAU); ctx.stroke();
+      dot(fx, cy, 9, css('--b')); dot(cx - A * e, cy, 2.5, css('--muted'));
+      const M = TAU * ((t / Tsim) % 1), [x, y] = pos(keplerE(M, e));
+      ctx.strokeStyle = css('--muted'); ctx.beginPath(); ctx.moveTo(fx, cy); ctx.lineTo(x, y); ctx.stroke();
+      dot(x, y, 6, css('--d'));
+      text('অনুসূর', cx + A + 4, cy - 6, css('--muted'), 11); text('অপসূর', cx - A - 4, cy - 6, css('--muted'), 11, 'right');
+      const r1 = 1 - e, r2 = 1 + e, Ty = p.a ** 1.5;
+      this.info = `<span class="big">r₁ = a(1 − e) = ${bn(r1 * p.a)}, r₂ = a(1 + e) = ${bn(r2 * p.a)}, গড় দূরত্ব = a = ${bn(p.a)}</span><br>v₁r₁ = v₂r₂ → অনুসূরে বেগ অপসূরের ${bn(r2 / r1)} গুণ — রঙিন প্রতিটি খণ্ড সমান সময়ে অতিক্রান্ত, ক্ষেত্রফলও সমান।<br>T² ∝ a³: পর্যায়কাল = ${bn(Ty)} বছর = ${bn(Ty * 365, 0)} দিন। (a = ০.৫ হলে প্রায় ১২৯ দিনে বছর।) পর্যায়কাল গ্রহের ভরের উপর নির্ভর করে না।`;
+    },
+  });
+
+  // ---------- runner ----------
+  let cur = null, params = {}, btn = {}, t0 = performance.now(), paused = false;
+  const $ = (id) => document.getElementById(id);
+  $('tabs').innerHTML = S.map((s, i) => `<button data-i="${i}">${s.tab}</button>`).join('');
+  $('tabs').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) select(Number(b.dataset.i)); });
+
+  function select(i) {
+    cur = S[i];
+    document.querySelectorAll('#tabs button').forEach((b, j) => b.classList.toggle('on', j === i));
+    $('title').textContent = cur.title;
+    $('sub').textContent = cur.sub;
+    params = {}; btn = {};
+    $('ctl').innerHTML = cur.controls.map(([k, label, min, max, step, val, unit]) => {
+      params[k] = val;
+      return `<label>${label}<b id="v_${k}">${bn(val, step < 0.01 ? 3 : step < 1 ? 2 : 0)} ${unit}</b><input type="range" min="${min}" max="${max}" step="${step}" value="${val}" data-k="${k}" data-u="${unit}" data-s="${step}"></label>`;
+    }).join('');
+    $('buttons').innerHTML = `<button data-b="pause">${paused ? '▶ চালাও' : '⏸ থামাও'}</button>` + (cur.buttons ?? []).map(([k, label, on, isAction, group]) => {
+      if (group) { if (on) btn[group] = k; } else if (!isAction) btn[k] = on;
+      return `<button data-b="${k}" ${group ? `data-g="${group}"` : ''} ${isAction ? 'data-a="1"' : ''} class="${on ? 'on' : ''}">${label}</button>`;
+    }).join('');
+    $('legend').innerHTML = (cur.legend ?? []).map(([c, l]) => `<span><i style="background:var(${c})"></i>${l}</span>`).join('');
+    $('note').textContent = cur.note ?? 'নোট: পর্দায় দেখানোর জন্য গতি ধীর/স্কেল ছোট করা হয়েছে; হিসাবগুলো সূত্র অনুযায়ী আসল মানে (G = 6.67 × 10⁻¹¹ N m² kg⁻², M = 6 × 10²⁴ kg, R = 6.4 × 10⁶ m, g = 9.8 m s⁻²)।';
+    resize();
+  }
+
+  $('ctl').addEventListener('input', (e) => {
+    const r = e.target; if (!r.dataset.k) return;
+    params[r.dataset.k] = Number(r.value);
+    const s = Number(r.dataset.s);
+    $(`v_${r.dataset.k}`).textContent = `${bn(Number(r.value), s < 0.01 ? 3 : s < 1 ? 2 : 0)} ${r.dataset.u}`;
+  });
+  $('buttons').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if (!b) return;
+    const k = b.dataset.b;
+    if (k === 'pause') { paused = !paused; b.textContent = paused ? '▶ চালাও' : '⏸ থামাও'; return; }
+    if (b.dataset.a) { cur.action?.call(cur, k, params); return; }
+    if (b.dataset.g) { btn[b.dataset.g] = k; document.querySelectorAll(`[data-g="${b.dataset.g}"]`).forEach((x) => x.classList.toggle('on', x === b)); return; }
+    btn[k] = !btn[k]; b.classList.toggle('on', btn[k]);
+  });
+
+  let W = 0, H = 0, simT = 0, last = performance.now();
+  function resize() {
+    const dpr = Math.min(2, window.devicePixelRatio || 1);
+    W = cv.clientWidth; H = cv.clientHeight;
+    cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  window.addEventListener('resize', resize);
+  function frame(now) {
+    const dt = Math.min(0.1, (now - last) / 1000); last = now;
+    if (!paused) simT += dt;
+    if (cur) {
+      ctx.clearRect(0, 0, W, H);
+      cur.draw(W, H, simT, params, btn);
+      $('info').innerHTML = cur.info ?? '';
+    }
+    requestAnimationFrame(frame);
+  }
+  select(0);
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>
