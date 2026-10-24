@@ -1,52 +1,52 @@
 // App shell: boot, routing, page transitions and interactions. Views live in ./views.
 
-import { DATA_FILES, buildModel, attachContent } from './model.js?v=202610241631';
-import { toggleItemDone, progressOf, resetProgress } from './progress.js?v=202610241631';
-import { buildIndex } from './search.js?v=202610241631';
-import { recordVisit, recordDone, addSearch, clearSearches, resetActivity } from './activity.js?v=202610241631';
-import { applyTheme, setTheme, toggleTheme } from './theme.js?v=202610241631';
-import { icon } from './icons.js?v=202610241631';
-import { crumbs, emptyState, brandMark } from './components.js?v=202610241631';
-import { homeView } from './views/home.js?v=202610241631';
-import { subjectView, chapterView, studyMap } from './views/study.js?v=202610241631';
-import { sectionView } from './views/section.js?v=202610241631';
-import { searchView, resultsHtml, searchState } from './views/search.js?v=202610241631';
-import { progressView } from './views/progress.js?v=202610241631';
-import { moreView } from './views/more.js?v=202610241631';
-import { missionView, missionState } from './views/mission.js?v=202610241631';
-import { addTask, toggleTask, deleteTask, moveTask, setNote, todayKey, tasksOf } from './mission.js?v=202610241631';
-import { startAlarms, addAlarm, removeAlarm, stopAlarm, restartAlarm, setKeepAwake, MAX_MINUTES } from './alarms.js?v=202610241631';
-import { profileView } from './views/profile.js?v=202610241631';
-import { startLeaderboard } from './leaderboard.js?v=202610241631';
-import { addVideo, deleteVideo } from './videos.js?v=202610241631';
-import { aiView, aiState, messageHtml, pendingHtml } from './views/ai.js?v=202610241631';
-import { ask, saveSettings, clearChat, shrinkImage, AiError, ERRORS } from './ai.js?v=202610241631';
-import { renderMarkdown, typesetMath } from './markdown.js?v=202610241631';
-import { a11yView } from './views/a11y.js?v=202610241631';
-import { a11y, setA11y, applyA11y, applyBrightness, motionReduced, speak, stopSpeaking, isSpeaking, canListen, listen, voiceCommand } from './a11y.js?v=202610241631';
-import { speakBtn } from './views/ai.js?v=202610241631';
-import { setConcepts } from './concepts.js?v=202610241631';
-import { setSearchModel } from './views/search.js?v=202610241631';
-import { mistakesView, mistakeState } from './views/mistakes.js?v=202610241631';
-import { recordMcqMistake, addManualMistake, updateMistake, deleteMistake, mistakeById } from './mistakes.js?v=202610241631';
-import { classifyMistake } from './ai.js?v=202610241631';
-import { graphView, graphState } from './views/graph.js?v=202610241631';
-import { plannerView, plannerState, planSummary } from './views/planner.js?v=202610241631';
-import { buildPlan, clearPlan, autoRebuild } from './planner.js?v=202610241631';
-import { focusView, focusState, clock } from './views/focus.js?v=202610241631';
-import { focusRun, startFocus, togglePause, endFocus, reviewFocus, noteLeave, rewake, elapsedMs, totalMs } from './focus.js?v=202610241631';
-import { backupView } from './views/backup.js?v=202610241631';
-import { mindmapView, mindmapAction, outlineToggle, mapIndex } from './views/mindmap.js?v=202610241631';
-import { makeBackup, readBackup, restore, saveOrShare } from './backup.js?v=202610241631';
-import { topicView, loadToc } from './views/topic.js?v=202610241631';
-import { gamesView, playView } from './views/games.js?v=202610241631';
-import { loadGameMaps, initGameData } from './gamedata.js?v=202610241631';
-import { initPractice, noteMcqAnswer } from './practice.js?v=202610241631';
-import { practiceView, examView, insightsView, reviewView, cardsView, savedView, gradeView } from './views/practice.js?v=202610241631';
-import { srsAdd } from './learn.js?v=202610241631';
-import { initHandsfree, hfAfterRender, startFromRoute } from './handsfree.js?v=202610241631';
-import { playMotion } from './pbmotion.js?v=202610241631';
-import { getProfile, updateProfile, imageToAvatar, startUsage } from './profile.js?v=202610241631';
+import { DATA_FILES, buildModel, attachContent } from './model.js?v=202610241647';
+import { toggleItemDone, progressOf, resetProgress } from './progress.js?v=202610241647';
+import { buildIndex } from './search.js?v=202610241647';
+import { recordVisit, recordDone, addSearch, clearSearches, resetActivity } from './activity.js?v=202610241647';
+import { applyTheme, setTheme, toggleTheme } from './theme.js?v=202610241647';
+import { icon } from './icons.js?v=202610241647';
+import { crumbs, emptyState, brandMark } from './components.js?v=202610241647';
+import { homeView } from './views/home.js?v=202610241647';
+import { subjectView, chapterView, studyMap } from './views/study.js?v=202610241647';
+import { sectionView } from './views/section.js?v=202610241647';
+import { searchView, resultsHtml, searchState } from './views/search.js?v=202610241647';
+import { progressView } from './views/progress.js?v=202610241647';
+import { moreView } from './views/more.js?v=202610241647';
+import { missionView, missionState } from './views/mission.js?v=202610241647';
+import { addTask, toggleTask, deleteTask, moveTask, setNote, todayKey, tasksOf } from './mission.js?v=202610241647';
+import { startAlarms, addAlarm, removeAlarm, stopAlarm, restartAlarm, setKeepAwake, MAX_MINUTES } from './alarms.js?v=202610241647';
+import { profileView } from './views/profile.js?v=202610241647';
+import { startLeaderboard } from './leaderboard.js?v=202610241647';
+import { addVideo, deleteVideo } from './videos.js?v=202610241647';
+import { aiView, aiState, messageHtml, pendingHtml } from './views/ai.js?v=202610241647';
+import { ask, saveSettings, clearChat, shrinkImage, AiError, ERRORS } from './ai.js?v=202610241647';
+import { renderMarkdown, typesetMath } from './markdown.js?v=202610241647';
+import { a11yView } from './views/a11y.js?v=202610241647';
+import { a11y, setA11y, applyA11y, applyBrightness, motionReduced, speak, stopSpeaking, isSpeaking, canListen, listen, voiceCommand } from './a11y.js?v=202610241647';
+import { speakBtn } from './views/ai.js?v=202610241647';
+import { setConcepts } from './concepts.js?v=202610241647';
+import { setSearchModel } from './views/search.js?v=202610241647';
+import { mistakesView, mistakeState, topicOptions } from './views/mistakes.js?v=202610241647';
+import { recordMcqMistake, addManualMistake, updateMistake, deleteMistake, mistakeById } from './mistakes.js?v=202610241647';
+import { classifyMistake } from './ai.js?v=202610241647';
+import { graphView, graphState } from './views/graph.js?v=202610241647';
+import { plannerView, plannerState, planSummary } from './views/planner.js?v=202610241647';
+import { buildPlan, clearPlan, autoRebuild } from './planner.js?v=202610241647';
+import { focusView, focusState, clock } from './views/focus.js?v=202610241647';
+import { focusRun, startFocus, togglePause, endFocus, reviewFocus, noteLeave, rewake, elapsedMs, totalMs } from './focus.js?v=202610241647';
+import { backupView } from './views/backup.js?v=202610241647';
+import { mindmapView, mindmapAction, outlineToggle, mapIndex } from './views/mindmap.js?v=202610241647';
+import { makeBackup, readBackup, restore, saveOrShare } from './backup.js?v=202610241647';
+import { topicView, loadToc } from './views/topic.js?v=202610241647';
+import { gamesView, playView } from './views/games.js?v=202610241647';
+import { loadGameMaps, initGameData } from './gamedata.js?v=202610241647';
+import { initPractice, noteMcqAnswer } from './practice.js?v=202610241647';
+import { practiceView, examView, insightsView, reviewView, cardsView, savedView, gradeView } from './views/practice.js?v=202610241647';
+import { srsAdd } from './learn.js?v=202610241647';
+import { initHandsfree, hfAfterRender, startFromRoute } from './handsfree.js?v=202610241647';
+import { playMotion } from './pbmotion.js?v=202610241647';
+import { getProfile, updateProfile, imageToAvatar, startUsage } from './profile.js?v=202610241647';
 
 const $view = document.getElementById('view');
 const $crumbs = document.getElementById('crumbs');
@@ -128,6 +128,10 @@ async function boot() {
     if (e.target.matches('[data-bright]')) {
       setA11y({ bright: Number(e.target.value) });
       document.querySelectorAll('[data-bright-set]').forEach((c) => c.classList.toggle('on', Number(c.dataset.brightSet) === Number(e.target.value)));
+    }
+    if (e.target.matches('[data-mk-form-ch]')) {
+      const sel = e.target.form?.querySelector('[data-mk-form-tp]');
+      if (sel) { sel.innerHTML = e.target.value ? topicOptions(e.target.value) : ''; sel.hidden = !sel.options.length; }
     }
     if (e.target.matches('[data-mk-kind]')) {
       updateMistake(e.target.dataset.mkKind, { kind: e.target.value || null });
@@ -393,7 +397,7 @@ function onSubmit(e) {
   const f = e.target;
   if (f.matches('[data-mk-form]')) {
     e.preventDefault();
-    addManualMistake({ chapterId: f.chapter.value, question: f.question.value, myAnswer: f.mine.value, rightAnswer: f.right.value, kind: f.kind.value });
+    addManualMistake({ chapterId: f.chapter.value, topicId: f.topic?.value || null, question: f.question.value, myAnswer: f.mine.value, rightAnswer: f.right.value, kind: f.kind.value });
     toast(`${icon('check')}<span>ভুলের খাতায় যোগ হয়েছে</span>`);
     mistakeState.filter = 'open';
     rerender();
@@ -672,9 +676,12 @@ function onAiClick(t) {
 }
 
 function onToolsClick(t) {
-  const el = t.closest('[data-mk-filter],[data-mk-filter-kind],[data-mk-ai],[data-mk-retry],[data-mk-answer],[data-mk-fix],[data-mk-del],[data-kg-subject],[data-kg-node],[data-plan-days],[data-plan-ai],[data-plan-clear],[data-fx-min],[data-fx-sound],[data-fx-task],[data-fx-pause],[data-fx-stop]');
+  const el = t.closest('[data-mk-subj],[data-mk-ch],[data-mk-tp],[data-mk-filter],[data-mk-filter-kind],[data-mk-ai],[data-mk-retry],[data-mk-answer],[data-mk-fix],[data-mk-del],[data-kg-subject],[data-kg-node],[data-plan-days],[data-plan-ai],[data-plan-clear],[data-fx-min],[data-fx-sound],[data-fx-task],[data-fx-pause],[data-fx-stop]');
   if (!el) return false;
   const d = el.dataset;
+  if (d.mkSubj) { Object.assign(mistakeState, { subject: d.mkSubj, chapter: null, topic: 'all' }); rerender(); return true; }
+  if ('mkCh' in d) { Object.assign(mistakeState, { chapter: d.mkCh || null, topic: 'all' }); rerender(); return true; }
+  if (d.mkTp) { mistakeState.topic = d.mkTp; rerender(); return true; }
   if (d.mkFilter) { mistakeState.filter = d.mkFilter; rerender(); return true; }
   if (d.mkFilterKind) { mistakeState.kind = d.mkFilterKind; rerender(); return true; }
   if (d.mkAi) {

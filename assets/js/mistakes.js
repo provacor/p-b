@@ -34,22 +34,25 @@ export const mistakes = () => list;
 export const mistakeById = (id) => list.find((m) => m.id === id);
 export const openMistakes = () => list.filter((m) => !m.resolved);
 
-// A wrong MCQ answer. The same question answered wrong again bumps its count instead.
-export function recordMcqMistake({ itemId, sectionId, chapterId, question, options, chosen, correct, explanation }) {
-  const old = list.find((m) => m.itemId === itemId);
+// A wrong MCQ answer (source 'mcq'), a wrong answer in a game ('game') or a card the student
+// could not recall ('recall'). The same question answered wrong again bumps its count instead.
+// topicId is the সূচিপত্র topic (content/toc.json); when it is missing the view looks it up.
+export function recordMcqMistake({ itemId, sectionId, chapterId, topicId, topicName, question, options, chosen, correct, explanation, source = 'mcq' }) {
+  const old = itemId ? list.find((m) => m.itemId === itemId) : null;
   if (old) {
-    Object.assign(old, { chosen, at: Date.now(), times: (old.times ?? 1) + 1, resolved: false });
+    Object.assign(old, { chosen: chosen ?? null, at: Date.now(), times: (old.times ?? 1) + 1, resolved: false });
+    if (topicId && !old.topicId) Object.assign(old, { topicId, topicName: topicName ?? old.topicName ?? null });
   } else {
-    list.unshift({ id: uid(), source: 'mcq', itemId, sectionId, chapterId, question, options, chosen, correct, explanation: explanation ?? '', kind: null, reason: '', times: 1, resolved: false, at: Date.now() });
+    list.unshift({ id: uid(), source, itemId, sectionId: sectionId ?? null, chapterId: chapterId ?? null, topicId: topicId ?? null, topicName: topicName ?? null, question, options: options ?? null, chosen: chosen ?? null, correct, explanation: explanation ?? '', kind: null, reason: '', times: 1, resolved: false, at: Date.now() });
   }
   save();
   return old ?? list[0];
 }
 
-export function addManualMistake({ chapterId, question, myAnswer, rightAnswer, kind }) {
+export function addManualMistake({ chapterId, topicId, question, myAnswer, rightAnswer, kind }) {
   const q = String(question ?? '').trim();
   if (!q) return null;
-  const m = { id: uid(), source: 'manual', chapterId: chapterId || null, question: q.slice(0, 2000), myAnswer: String(myAnswer ?? '').trim().slice(0, 1000), rightAnswer: String(rightAnswer ?? '').trim().slice(0, 1000), kind: kind || null, reason: '', times: 1, resolved: false, at: Date.now() };
+  const m = { id: uid(), source: 'manual', chapterId: chapterId || null, topicId: topicId || null, question: q.slice(0, 2000), myAnswer: String(myAnswer ?? '').trim().slice(0, 1000), rightAnswer: String(rightAnswer ?? '').trim().slice(0, 1000), kind: kind || null, reason: '', times: 1, resolved: false, at: Date.now() };
   list.unshift(m);
   save();
   return m;
