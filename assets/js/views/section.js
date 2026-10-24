@@ -1,10 +1,11 @@
 // Section screen: the content of one chapter section (Notes, MCQ, Simulation, …).
 
-import { icon } from '../icons.js?v=202610241732';
-import { esc, plural, bar, ring, sectionHue, chapterEyebrow, chapterNo, pad2, emptyState } from '../components.js?v=202610241732';
-import { progressOf, isItemDone } from '../progress.js?v=202610241732';
-import { hfActive } from '../handsfree.js?v=202610241732';
-import { isBookmarked, noteOf } from '../learn.js?v=202610241732';
+import { icon } from '../icons.js?v=202610241739';
+import { esc, plural, bar, ring, sectionHue, chapterEyebrow, chapterNo, pad2, emptyState } from '../components.js?v=202610241739';
+import { progressOf, isItemDone } from '../progress.js?v=202610241739';
+import { hfActive } from '../handsfree.js?v=202610241739';
+import { isBookmarked, noteOf } from '../learn.js?v=202610241739';
+import { richText } from '../richtext.js?v=202610241739';
 
 const FORMAT = {
   pdf: { icon: 'file', open: 'Open PDF', label: 'PDF' },
@@ -64,7 +65,7 @@ function derivationCard(it, n) {
 }
 // Graph / diagram: an inline SVG shipped with the content (repo-authored, not user input).
 function figureCard(it, n) {
-  return shell(it, n, `<h3 class="qa-title">${esc(it.title)}</h3><figure class="fig-wrap">${it.figure}</figure>${it.body ? txt(it.body) : ''}`);
+  return shell(it, n, `<h3 class="qa-title">${esc(it.title)}</h3><figure class="fig-wrap">${it.figure}</figure>${it.body ? richText(it.body) : ''}`);
 }
 
 export function itemCard(it, sec, n) {
@@ -89,7 +90,7 @@ export function itemCard(it, sec, n) {
           <p class="item-meta">${meta.map((m) => `<span>${esc(m)}</span>`).join('')}</p>
         </div>
       </div>
-      ${it.body ? `<div class="item-body">${esc(it.body)}</div>` : ''}${noteBox(it)}
+      ${it.body ? `<div class="item-body">${richText(it.body)}</div>` : ''}${noteBox(it)}
       ${embed}
       <div class="item-foot">
         ${it.file ? `<a class="btn btn-primary tap" href="${src}" target="_blank" rel="noopener">${icon(it.format === 'html' ? 'expand' : 'file')}<span>${f.open}</span></a>` : ''}
