@@ -1,0 +1,585 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>রাসায়নিক পরিবর্তন ল্যাব — ৪র্থ অধ্যায়ের সিমুলেশন</title>
+<style>
+  :root {
+    --bg: #0d1017; --panel: #151a24; --panel2: #1c2230; --line: #2a3242; --text: #e9edf4; --muted: #8e98ab;
+    --a: #7ea6ff; --b: #f7c35c; --c: #4fd8c4; --d: #fb8fb0; --e: #6ee7a0; --grid: rgba(255,255,255,.06);
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #f4f6fa; --panel: #fff; --panel2: #f1f4f9; --line: #dde3ec; --text: #0f172a; --muted: #5b6577;
+      --a: #3b6cf6; --b: #c58a06; --c: #0f9f8e; --d: #e2457a; --e: #16a34a; --grid: rgba(15,23,42,.07); }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 "Noto Sans Bengali", "Inter", system-ui, sans-serif; }
+  header { padding: 14px 14px 6px; }
+  h1 { margin: 0; font-size: 1.15rem; }
+  header p { margin: 4px 0 0; color: var(--muted); font-size: .82rem; }
+  .tabs { display: flex; gap: 6px; overflow-x: auto; padding: 8px 14px; scrollbar-width: none; position: sticky; top: 0; background: var(--bg); z-index: 2; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tabs button { flex: none; border: 1px solid var(--line); background: var(--panel); color: var(--text); border-radius: 99px; padding: 7px 12px; font: inherit; font-size: .82rem; cursor: pointer; white-space: nowrap; }
+  .tabs button.on { background: var(--a); border-color: transparent; color: #fff; }
+  main { padding: 6px 14px 24px; max-width: 900px; margin: 0 auto; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 12px; }
+  h2 { margin: 2px 0 2px; font-size: 1.05rem; }
+  .sub { color: var(--muted); font-size: .82rem; margin: 0 0 10px; }
+  canvas { width: 100%; height: 260px; display: block; background: var(--panel2); border-radius: 12px; touch-action: none; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  .row button { border: 1px solid var(--line); background: var(--panel2); color: var(--text); border-radius: 10px; padding: 7px 12px; font: inherit; font-size: .85rem; cursor: pointer; }
+  .row button.on { border-color: var(--a); color: var(--a); }
+  .ctl { display: grid; gap: 8px; margin-top: 10px; }
+  .ctl label { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; font-size: .84rem; }
+  .ctl label b { color: var(--a); font-variant-numeric: tabular-nums; }
+  .ctl input[type=range] { grid-column: 1 / -1; width: 100%; accent-color: var(--a); }
+  .info { margin-top: 10px; padding: 10px 12px; border-radius: 12px; background: var(--panel2); font-size: .86rem; }
+  .info code { font-family: ui-monospace, monospace; color: var(--c); }
+  .info .big { font-size: 1.05rem; font-weight: 700; }
+  .legend { display: flex; flex-wrap: wrap; gap: 10px; font-size: .78rem; color: var(--muted); margin-top: 8px; }
+  .legend i { display: inline-block; width: 14px; height: 3px; border-radius: 2px; vertical-align: middle; margin-right: 4px; }
+  .note { font-size: .78rem; color: var(--muted); margin-top: 8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>রাসায়নিক পরিবর্তন ল্যাব</h1>
+  <p>রসায়ন ১ম পত্র · ৪র্থ অধ্যায় (রাসায়নিক পরিবর্তন) — নোটের সূত্র ও পরীক্ষাগুলোর হাতে-কলমে সিমুলেশন। স্লাইডার আর বোতাম বদলে দেখো কী হয়।</p>
+</header>
+<nav class="tabs" id="tabs"></nav>
+<main><section class="card">
+  <h2 id="title"></h2>
+  <p class="sub" id="sub"></p>
+  <canvas id="cv"></canvas>
+  <div class="legend" id="legend"></div>
+  <div class="row" id="buttons"></div>
+  <div class="ctl" id="ctl"></div>
+  <div class="info" id="info"></div>
+  <p class="note" id="note"></p>
+</section></main>
+
+<script>
+(() => {
+  const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+  const cv = document.getElementById('cv');
+  const ctx = cv.getContext('2d');
+  const bn = (x, d = 2) => {
+    const s = typeof x === 'number' ? (Number.isInteger(x) ? String(x) : x.toFixed(d)) : String(x);
+    return s.replace(/\d/g, (c) => '০১২৩৪৫৬৭৮৯'[c]);
+  };
+  const TAU = Math.PI * 2;
+
+  // ---------- drawing helpers ----------
+  function grid(w, h, midY = h / 2) {
+    ctx.strokeStyle = css('--grid'); ctx.lineWidth = 1;
+    for (let x = 0; x < w; x += 40) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, h); ctx.stroke(); }
+    for (let y = midY % 40; y < h; y += 40) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(w, y); ctx.stroke(); }
+    ctx.strokeStyle = css('--line'); ctx.beginPath(); ctx.moveTo(0, midY); ctx.lineTo(w, midY); ctx.stroke();
+  }
+  function curve(fn, x0, x1, color, width = 2.4, step = 2) {
+    ctx.strokeStyle = color; ctx.lineWidth = width; ctx.beginPath();
+    for (let x = x0; x <= x1; x += step) { const y = fn(x); x === x0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y); }
+    ctx.stroke();
+  }
+  function dot(x, y, r, color) { ctx.fillStyle = color; ctx.beginPath(); ctx.arc(x, y, r, 0, TAU); ctx.fill(); }
+  function text(s, x, y, color = css('--muted'), size = 12, align = 'left') {
+    ctx.fillStyle = color; ctx.font = `${size}px "Noto Sans Bengali", system-ui, sans-serif`; ctx.textAlign = align; ctx.fillText(s, x, y);
+  }
+  function arrowLine(x1, y1, x2, y2, color, label) {
+    ctx.strokeStyle = color; ctx.fillStyle = color; ctx.lineWidth = 1.5;
+    ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
+    for (const [ax, ay, bx] of [[x1, y1, x2], [x2, y2, x1]]) {
+      const d = Math.sign(bx - ax) || 1;
+      ctx.beginPath(); ctx.moveTo(ax, ay); ctx.lineTo(ax + 7 * d, ay - 4); ctx.lineTo(ax + 7 * d, ay + 4); ctx.fill();
+    }
+    if (label) text(label, (x1 + x2) / 2, y1 - 6, color, 12, 'center');
+  }
+
+  // ---------- helpers ----------
+  const sup = (s) => String(s).replace(/[-+0-9]/g, (c) => '⁻⁺⁰¹²³⁴⁵⁶⁷⁸⁹'['-+0123456789'.indexOf(c)]);
+  const sci = (x, d = 2) => {
+    if (!isFinite(x)) return '—';
+    if (x === 0) return '০';
+    let e = Math.floor(Math.log10(Math.abs(x)));
+    if (e >= -2 && e <= 4) return bn(x, d);
+    let m = x / 10 ** e;
+    if (Math.abs(m) >= 10 - 0.5 * 10 ** -d) { m /= 10; e += 1; }
+    return `${bn(m, d)} × ১০${sup(e)}`;
+  };
+  function axes(x0, y0, x1, y1, xl, yl) {
+    ctx.strokeStyle = css('--line'); ctx.lineWidth = 1.2;
+    ctx.beginPath(); ctx.moveTo(x0, y1); ctx.lineTo(x0, y0); ctx.lineTo(x1, y0); ctx.stroke();
+    text(xl, x1, y0 + 14, css('--muted'), 11, 'right');
+    text(yl, x0 + 4, y1 + 10, css('--muted'), 11, 'left');
+  }
+  function arrow(x1, y1, x2, y2, color, w = 2) {
+    const a = Math.atan2(y2 - y1, x2 - x1), L = Math.hypot(x2 - x1, y2 - y1);
+    if (L < 1) return;
+    ctx.strokeStyle = color; ctx.fillStyle = color; ctx.lineWidth = w;
+    ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
+    const s = Math.min(9, L * 0.5);
+    ctx.beginPath(); ctx.moveTo(x2, y2);
+    ctx.lineTo(x2 - s * Math.cos(a - 0.4), y2 - s * Math.sin(a - 0.4));
+    ctx.lineTo(x2 - s * Math.cos(a + 0.4), y2 - s * Math.sin(a + 0.4)); ctx.fill();
+  }
+  function ring(x, y, r, color, w = 1.5, dash) {
+    ctx.strokeStyle = color; ctx.lineWidth = w; ctx.setLineDash(dash ?? []);
+    ctx.beginPath(); ctx.arc(x, y, r, 0, TAU); ctx.stroke(); ctx.setLineDash([]);
+  }
+  function rrect(x, y, w, h, r) { ctx.beginPath(); ctx.roundRect(x, y, w, h, r); }
+  // test tube / beaker: liquid colour, optional precipitate colour, ring colour, bubbles
+  function tube(x, y, w, h, o, t) {
+    const lh = h * (o.level ?? 0.62);
+    ctx.save();
+    rrect(x, y, w, h, [0, 0, w / 2, w / 2]); ctx.clip();
+    ctx.fillStyle = o.liquid ?? 'rgba(160,190,230,.18)'; ctx.fillRect(x, y + h - lh, w, lh);
+    if (o.ppt) { ctx.fillStyle = o.ppt; ctx.fillRect(x, y + h - lh * 0.32, w, lh * 0.32);
+      for (let i = 0; i < 18; i++) dot(x + ((i * 37) % 97) / 97 * w, y + h - lh * (0.32 + ((i * 53) % 61) / 61 * 0.5), 1.6, o.ppt); }
+    if (o.ring) { ctx.fillStyle = o.ring; ctx.fillRect(x, y + h - lh * 0.55, w, 7); }
+    if (o.bubbles) for (let i = 0; i < 7; i++) { const yy = y + h - ((t * 40 + i * 23) % lh); ring(x + w * (0.25 + 0.5 * ((i * 41) % 13) / 13), yy, 2.2, css('--muted'), 1); }
+    ctx.restore();
+    ctx.strokeStyle = css('--muted'); ctx.lineWidth = 1.6; rrect(x, y, w, h, [0, 0, w / 2, w / 2]); ctx.stroke();
+  }
+  const R_J = 8.314, R_L = 0.0821;
+  const ln10 = Math.LN10;
+  function graph(x0, y0, x1, y1, fns, xmax, ymax, xl, yl) {
+    axes(x0, y0, x1, y1, xl, yl);
+    fns.forEach(([f, col, w2]) => curve((x) => y0 - Math.max(0, Math.min(1.05, f((x - x0) / (x1 - x0) * xmax) / ymax)) * (y0 - y1), x0, x1, col, w2 ?? 2.4));
+  }
+
+  // ---------- simulations ----------
+  const S = [];
+
+  S.push({
+    id: 'order', tab: '১. বিক্রিয়ার ক্রম ও অর্ধায়ু',
+    title: 'শূন্য, প্রথম ও দ্বিতীয় ক্রম বিক্রিয়া: ঘনমাত্রা বনাম সময়',
+    sub: 'শূন্য ক্রম: x = kt, t½ = a/2k। প্রথম ক্রম: k = (1/t) ln a/(a − x), t½ = 0.693/k — প্রাথমিক ঘনমাত্রার উপর নির্ভর করে না। দ্বিতীয় ক্রম: k = (1/t)·x/a(a − x), t½ = 1/ka।',
+    controls: [['a', 'প্রাথমিক ঘনমাত্রা a', 0.2, 2, 0.05, 1, 'mol/L'], ['k', 'হার ধ্রুবক k (সংখ্যাগত মান)', 0.02, 0.5, 0.01, 0.1, ''], ['t', 'সময় t', 0, 60, 0.5, 10, 's']],
+    buttons: [['z', 'শূন্য ক্রম', false, false, 'ord'], ['f', 'প্রথম ক্রম', true, false, 'ord'], ['s', 'দ্বিতীয় ক্রম', false, false, 'ord']],
+    legend: [['--a', '[A] বনাম t'], ['--d', 'এখনকার সময়'], ['--b', 'অর্ধায়ু t½']],
+    draw(w, h, t, p, b) {
+      const { a, k } = p, ord = b.ord;
+      const C = (tt) => ord === 'z' ? Math.max(0, a - k * tt) : ord === 'f' ? a * Math.exp(-k * tt) : a / (1 + k * a * tt);
+      const half = ord === 'z' ? a / (2 * k) : ord === 'f' ? 0.693 / k : 1 / (k * a);
+      const gx0 = 40, gx1 = w - 16, gy0 = h - 24, gy1 = 16, tmax = 60;
+      graph(gx0, gy0, gx1, gy1, [[C, css('--a')]], tmax, 2.05, 't →', '[A]');
+      const X = (tt) => gx0 + tt / tmax * (gx1 - gx0), Y = (c) => gy0 - c / 2.05 * (gy0 - gy1);
+      if (half <= tmax) { ctx.strokeStyle = css('--b'); ctx.setLineDash([4, 4]); ctx.beginPath(); ctx.moveTo(X(half), gy0); ctx.lineTo(X(half), Y(a / 2)); ctx.lineTo(gx0, Y(a / 2)); ctx.stroke(); ctx.setLineDash([]); text('t½', X(half), gy0 + 12, css('--b'), 11, 'center'); }
+      dot(X(p.t), Y(C(p.t)), 6, css('--d'));
+      const unit = ord === 'z' ? 'mol L⁻¹ s⁻¹' : ord === 'f' ? 's⁻¹' : 'L mol⁻¹ s⁻¹';
+      const x = a - C(p.t);
+      this.info = `<span class="big">t = ${bn(p.t, 1)} s-এ [A] = ${bn(C(p.t), 3)} mol/L (বিক্রিয়া হয়েছে x = ${bn(x, 3)}); t½ = ${bn(half, 2)} s</span><br>k-এর একক: ${unit}। ${ord === 'f' ? 'a বদলে দেখো — প্রথম ক্রমে t½ একই থাকে, এবং বিক্রিয়া কখনো পুরোপুরি শেষ হয় না।' : ord === 'z' ? 'শূন্য ক্রমে হার ঘনমাত্রার উপর নির্ভর করে না — রেখাটি সরল; t½ = a/2k।' : 'দ্বিতীয় ক্রমে a বাড়ালে t½ কমে (t½ = 1/ka)।'}`;
+    },
+  });
+
+  S.push({
+    id: 'arr', tab: '২. আরহেনিয়াস ও সক্রিয়ণ শক্তি',
+    title: 'আরহেনিয়াস সমীকরণ: k = A·e^(−Ea/RT)',
+    sub: 'Ea কম হলে k বেশি — বিক্রিয়া দ্রুত। তাপমাত্রা বাড়লে বেশি অণু সক্রিয়ণ শক্তি পায়। ln k বনাম 1/T লেখচিত্র সরলরেখা, ঢাল = −Ea/R। তাপমাত্রা গুণাঙ্ক = k(t+10)/k(t)।',
+    controls: [['Ea', 'সক্রিয়ণ শক্তি Ea', 10, 150, 1, 55, 'kJ/mol'], ['T', 'তাপমাত্রা', 250, 450, 1, 300, 'K']],
+    legend: [['--a', 'ln k বনাম 1/T'], ['--d', 'এখনকার তাপমাত্রা']],
+    draw(w, h, t, p) {
+      const Ea = p.Ea * 1000, f = (T) => Math.exp(-Ea / (R_J * T));
+      const gx0 = 46, gx1 = w - 16, gy0 = h - 24, gy1 = 16;
+      axes(gx0, gy0, gx1, gy1, '1/T →', 'ln k');
+      const u0 = 1 / 450, u1 = 1 / 250, lk = (u) => -Ea / R_J * u;
+      const ylo = lk(u1), yhi = lk(u0);
+      const X = (u) => gx0 + (u - u0) / (u1 - u0) * (gx1 - gx0), Y = (v) => gy0 - (v - ylo) / (yhi - ylo + 1e-9) * (gy0 - gy1) * 0.9;
+      curve((x) => Y(lk(u0 + (x - gx0) / (gx1 - gx0) * (u1 - u0))), gx0, gx1, css('--a'), 2.6);
+      dot(X(1 / p.T), Y(lk(1 / p.T)), 6, css('--d'));
+      const ratio = f(p.T + 10) / f(p.T);
+      this.info = `<span class="big">e^(−Ea/RT) = ${sci(f(p.T), 3)} — অর্থাৎ প্রতি ${sci(1 / f(p.T), 2)}টি সংঘর্ষের ১টির যথেষ্ট শক্তি আছে</span><br>${bn(p.T, 0)} K থেকে ${bn(p.T + 10, 0)} K করলে k বাড়ে ${bn(ratio, 2)} গুণ (তাপমাত্রা গুণাঙ্ক)। ঢাল = −Ea/R = ${sci(-Ea / R_J, 3)} K; log k-এর জন্য ঢাল = −Ea/2.303R। নোটে: বেশিরভাগ বিক্রিয়ায় 27°C-এ Ea প্রায় 55 kJ/mol।`;
+    },
+  });
+
+  S.push({
+    id: 'profile', tab: '৩. শক্তি চিত্র ও প্রভাবক',
+    title: 'বিক্রিয়ার শক্তি চিত্র: Ea = Ex − EA, ΔH = EB − EA',
+    sub: 'EA = বিক্রিয়কের, EB = উৎপাদের, Ex = সক্রিয় জটিল যৌগের স্থিতিশক্তি। তাপোৎপাদীতে EB < EA (ΔH ঋণাত্মক), তাপহারীতে EB > EA। প্রভাবক কম শক্তির বিকল্প পথ তৈরি করে (Ea′ < Ea), কিন্তু ΔH ও সাম্যাবস্থা বদলায় না।',
+    controls: [['EA', 'বিক্রিয়কের শক্তি EA', 0, 200, 1, 100, 'kJ'], ['EB', 'উৎপাদের শক্তি EB', 0, 200, 1, 40, 'kJ'], ['Ex', 'শীর্ষবিন্দুর শক্তি Ex', 50, 300, 1, 220, 'kJ'], ['cat', 'প্রভাবক Ea কতটা কমায়', 0, 100, 1, 50, 'kJ']],
+    buttons: [['catOn', 'প্রভাবক যোগ', true, false]],
+    legend: [['--a', 'প্রভাবক ছাড়া'], ['--e', 'প্রভাবকসহ'], ['--d', 'বিক্রিয়া কণা']],
+    draw(w, h, t, p, b) {
+      const EA = p.EA, EB = p.EB, Ex = Math.max(p.Ex, EA + 1, EB + 1), Exc = Math.max(EA, EB, Ex - p.cat) + 0.5;
+      const x0 = 40, x1 = w - 20, y0 = h - 20, y1 = 18, Y = (e) => y0 - e / 300 * (y0 - y1);
+      const path = (peak) => (x) => { const u = (x - x0) / (x1 - x0); if (u < 0.25) return Y(EA); if (u > 0.75) return Y(EB); const v = (u - 0.25) / 0.5; const base = EA + (EB - EA) * v; return Y(base + (peak - base) * Math.sin(Math.PI * v) ** 2 * 1); };
+      axes(x0, y0, x1, y1, 'বিক্রিয়ার অগ্রগতি →', 'E');
+      curve(path(Ex), x0, x1, css('--a'), 2.6);
+      if (b.catOn) curve(path(Exc), x0, x1, css('--e'), 2.2);
+      const u = ((t * 0.15) % 1), xx = x0 + u * (x1 - x0);
+      dot(xx, path(b.catOn ? Exc : Ex)(xx) - 6, 5, css('--d'));
+      [['EA', EA], ['EB', EB], ['Ex', Ex]].forEach(([l, e]) => text(l, x1 + 2, Y(e) + 4, css('--muted'), 10, 'right'));
+      const dH = EB - EA, Ea = Ex - EA, Eac = Exc - EA;
+      this.info = `<span class="big">Ea = Ex − EA = ${bn(Ea, 0)} kJ${b.catOn ? `; প্রভাবকসহ Ea′ = ${bn(Eac, 0)} kJ` : ''} · ΔH = EB − EA = ${bn(dH, 0)} kJ → ${dH < 0 ? 'তাপোৎপাদী' : dH > 0 ? 'তাপহারী' : 'ΔH শূন্য'}</span><br>পশ্চাৎ বিক্রিয়ার Ea = Ex − EB = ${bn(Ex - EB, 0)} kJ। প্রভাবক দুই দিকের Ea সমান পরিমাণে কমায়, তাই সাম্যাবস্থা বদলায় না — শুধু দ্রুত পৌঁছায়।`;
+    },
+  });
+
+  const RXN = {
+    nh3: { eq: 'N₂ + 3H₂ ⇌ 2NH₃', dn: -2, dH: -92.2, r: [['N₂', 1], ['H₂', 3]], pr: [['NH₃', 2]] },
+    no2: { eq: 'N₂O₄ ⇌ 2NO₂', dn: 1, dH: 58.6, r: [['N₂O₄', 1]], pr: [['NO₂', 2]] },
+    hi: { eq: 'H₂ + I₂ ⇌ 2HI', dn: 0, dH: 51.9, r: [['H₂', 1], ['I₂', 1]], pr: [['HI', 2]] },
+    pcl5: { eq: 'PCl₅ ⇌ PCl₃ + Cl₂', dn: 1, dH: null, r: [['PCl₅', 1]], pr: [['PCl₃', 1], ['Cl₂', 1]] },
+    so3: { eq: '2SO₂ + O₂ ⇌ 2SO₃', dn: -1, dH: -192.46, r: [['SO₂', 2], ['O₂', 1]], pr: [['SO₃', 2]] },
+  };
+  S.push({
+    id: 'lechat', tab: '৪. লা-শাতেলিয়ার নীতি',
+    title: 'সাম্যাবস্থার উপর তাপমাত্রা, চাপ ও ঘনমাত্রার প্রভাব',
+    sub: 'সাম্যাবস্থায় কোনো নিয়ামক বদলালে সাম্য এমন দিকে সরে যাতে পরিবর্তনের ফল প্রশমিত হয়। তাপমাত্রা বাড়ালে তাপ শোষণের দিকে; চাপ বাড়ালে কম গ্যাসীয় মোলের দিকে; বিক্রিয়ক বাড়ালে সামনে।',
+    controls: [['dT', 'তাপমাত্রার পরিবর্তন', -100, 100, 5, 0, '°C'], ['dP', 'চাপের গুণক', 0.25, 4, 0.05, 1, '×'], ['dr', 'বিক্রিয়ক যোগ/অপসারণ', -50, 50, 5, 0, '%'], ['dp', 'উৎপাদ যোগ/অপসারণ', -50, 50, 5, 0, '%']],
+    buttons: Object.entries(RXN).map(([k, r], i) => [k, r.eq, i === 0, false, 'rx']).concat([['catal', 'প্রভাবক যোগ', false, false]]),
+    legend: [['--a', 'বিক্রিয়ক'], ['--b', 'উৎপাদ']],
+    note: 'নোট: ছবিতে বারগুলো সাম্যের সরণের দিক বোঝাতে আনুমানিক; দিক ও ΔH নোটের নিয়ম ও মান অনুযায়ী। (N₂O₄ ⇌ 2NO₂ ও H₂ + I₂ ⇌ 2HI তাপহারী, ΔH নোটের kcal মান থেকে kJ-এ।)',
+    draw(w, h, t, p, b) {
+      const r = RXN[b.rx];
+      const votes = [];
+      if (p.dT !== 0 && r.dH !== null) { const s = Math.sign(p.dT) * Math.sign(r.dH); votes.push([s, `তাপমাত্রা ${p.dT > 0 ? 'বাড়ানো' : 'কমানো'} → ${s > 0 ? 'সামনে (→)' : 'পেছনে (←)'}; K ${s > 0 ? 'বাড়ে' : 'কমে'}`]); }
+      if (p.dP !== 1) { const s = r.dn === 0 ? 0 : (p.dP > 1 ? -Math.sign(r.dn) : Math.sign(r.dn)); votes.push([s, `চাপ ${p.dP > 1 ? 'বাড়ানো' : 'কমানো'} → ${s === 0 ? 'কোনো প্রভাব নেই (Δn = 0)' : s > 0 ? 'সামনে (→)' : 'পেছনে (←)'}`]); }
+      if (p.dr !== 0) votes.push([Math.sign(p.dr), `বিক্রিয়ক ${p.dr > 0 ? 'যোগ' : 'অপসারণ'} → ${p.dr > 0 ? 'সামনে (→)' : 'পেছনে (←)'}`]);
+      if (p.dp !== 0) votes.push([-Math.sign(p.dp), `উৎপাদ ${p.dp > 0 ? 'যোগ' : 'অপসারণ'} → ${p.dp > 0 ? 'পেছনে (←)' : 'সামনে (→)'}`]);
+      if (b.catal) votes.push([0, 'প্রভাবক → সাম্যাবস্থা বদলায় না, শুধু দ্রুত পৌঁছায়']);
+      const net = votes.reduce((s, v) => s + v[0], 0);
+      const shift = Math.max(-1, Math.min(1, net * 0.35));
+      const ease = 0.5 - 0.5 * Math.cos(Math.min(1, (t % 6) / 3) * Math.PI);
+      const prodFrac = 0.5 + 0.35 * shift * ease;
+      const bx = 30, bw = w - 60, by = 50;
+      ctx.fillStyle = css('--a'); ctx.fillRect(bx, by, bw * (1 - prodFrac), 34);
+      ctx.fillStyle = css('--b'); ctx.fillRect(bx + bw * (1 - prodFrac), by, bw * prodFrac, 34);
+      text(r.r.map((x) => x[0]).join(' + '), bx + 6, by + 22, '#fff', 13);
+      text(r.pr.map((x) => x[0]).join(' + '), bx + bw - 6, by + 22, '#fff', 13, 'right');
+      text(r.eq + `   (Δn = ${bn(r.dn, 0)}${r.dH !== null ? `, ΔH = ${bn(r.dH, 1)} kJ` : ''})`, w / 2, 30, css('--text'), 13, 'center');
+      const dir = net > 0 ? 'সামনের দিকে (উৎপাদ বাড়ে)' : net < 0 ? 'পেছনের দিকে (বিক্রিয়ক বাড়ে)' : 'কোনো নিট সরণ নেই';
+      arrow(w / 2 - 40 * Math.sign(net || 0.0001) * (net ? 1 : 0), by + 70, w / 2 + 40 * (net ? Math.sign(net) : 0), by + 70, css('--d'), 3);
+      this.info = `<span class="big">নিট ফল: ${dir}</span><br>${votes.length ? votes.map((v) => '• ' + v[1]).join('<br>') : 'কোনো নিয়ামক বদলানো হয়নি — স্লাইডার নাড়াও।'}${r.dH === null ? '<br>(PCl₅-এর ΔH নোটে দেওয়া নেই — তাই তাপমাত্রার প্রভাব দেখানো হয়নি।)' : ''}`;
+    },
+  });
+
+  const KPKC = [['N₂ + O₂ ⇌ 2NO', 0], ['H₂ + I₂ ⇌ 2HI', 0], ['PCl₅ ⇌ PCl₃ + Cl₂', 1], ['COCl₂ ⇌ CO + Cl₂', 1], ['2SO₃ ⇌ 2SO₂ + O₂', 1], ['N₂ + 3H₂ ⇌ 2NH₃', -2], ['2NO₂ ⇌ N₂O₄', -1], ['2NH₃ ⇌ N₂ + 3H₂', 2]];
+  S.push({
+    id: 'kpkc', tab: '৫. Kp ও Kc',
+    title: 'Kp = Kc(RT)^Δn',
+    sub: 'Δn = গ্যাসীয় উৎপাদের মোল − গ্যাসীয় বিক্রিয়কের মোল; R = 0.0821 L atm K⁻¹ mol⁻¹, T কেলভিনে। Δn > 0 হলে Kp > Kc, Δn < 0 হলে Kp < Kc, Δn = 0 হলে সমান ও এককহীন।',
+    controls: [['lk', 'log₁₀ Kc', -6, 6, 0.1, 0, ''], ['T', 'তাপমাত্রা T', 273, 1273, 1, 623, 'K']],
+    buttons: KPKC.map(([e], i) => [String(i), e, i === 2, false, 'rx']),
+    legend: [['--a', 'Kc'], ['--b', 'Kp']],
+    draw(w, h, t, p, b) {
+      const [eq, dn] = KPKC[+b.rx];
+      const Kc = 10 ** p.lk, Kp = Kc * (R_L * p.T) ** dn;
+      const lo = -10, hi = 10, X = (v) => 30 + (Math.log10(v) - lo) / (hi - lo) * (w - 60);
+      ctx.strokeStyle = css('--line'); ctx.beginPath(); ctx.moveTo(30, h * 0.6); ctx.lineTo(w - 30, h * 0.6); ctx.stroke();
+      for (let e = lo; e <= hi; e += 2) { text(`১০${sup(e)}`, X(10 ** e), h * 0.6 + 16, css('--muted'), 10, 'center'); }
+      dot(X(Kc), h * 0.6, 7, css('--a')); text('Kc', X(Kc), h * 0.6 - 12, css('--a'), 12, 'center');
+      dot(X(Math.max(1e-10, Math.min(1e10, Kp))), h * 0.6, 7, css('--b')); text('Kp', X(Math.max(1e-10, Math.min(1e10, Kp))), h * 0.6 - 26, css('--b'), 12, 'center');
+      text(eq + `   Δn = ${bn(dn, 0)}`, w / 2, 28, css('--text'), 14, 'center');
+      const ku = dn === 0 ? 'এককহীন' : `(mol L⁻¹)${sup(dn)}`, pu = dn === 0 ? 'এককহীন' : `atm${sup(dn)}`;
+      this.info = `<span class="big">Kp = Kc × (${bn(R_L, 4)} × ${bn(p.T, 0)})${sup(dn)} = ${sci(Kc, 2)} × ${sci((R_L * p.T) ** dn, 3)} = ${sci(Kp, 3)}</span><br>Kc-এর একক ${ku}, Kp-এর একক ${pu}। ${dn > 0 ? 'Δn > 0 → Kp > Kc' : dn < 0 ? 'Δn < 0 → Kp < Kc' : 'Δn = 0 → Kp = Kc'}। উল্টো দিকে: Kc = Kp(RT)^−Δn।`;
+    },
+  });
+
+  S.push({
+    id: 'q', tab: '৬. বিক্রিয়া কোশেন্ট Q',
+    title: 'Qc বনাম Kc: বিক্রিয়া কোন দিকে যাবে? (H₂ + I₂ ⇌ 2HI)',
+    sub: 'Qc = [HI]²/([H₂][I₂]) — যেকোনো মুহূর্তের ঘনমাত্রা দিয়ে। Qc < Kc হলে সামনে, Qc > Kc হলে পেছনে, Qc = Kc হলে সাম্যাবস্থা। Kc > 10³ হলে উৎপাদ বেশি, < 10⁻³ হলে বিক্রিয়ক বেশি।',
+    controls: [['Kc', 'Kc', 1, 100, 0.5, 49, ''], ['h2', '[H₂]', 0.05, 2, 0.05, 1, 'M'], ['i2', '[I₂]', 0.05, 2, 0.05, 1, 'M'], ['hi', '[HI]', 0, 4, 0.05, 1, 'M']],
+    legend: [['--a', 'H₂'], ['--c', 'I₂'], ['--b', 'HI']],
+    note: 'নোট: Kc-এর মান উদাহরণ হিসেবে বদলানো যায়; হিসাবটি সমীকরণ অনুযায়ী আসল সমাধান।',
+    draw(w, h, t, p) {
+      const Q = p.hi ** 2 / (p.h2 * p.i2), K = p.Kc;
+      // solve extent x: (hi + 2x)^2 = K (h2 - x)(i2 - x)
+      const f = (x) => (p.hi + 2 * x) ** 2 - K * (p.h2 - x) * (p.i2 - x);
+      let lo = -p.hi / 2, hi2 = Math.min(p.h2, p.i2);
+      for (let i = 0; i < 80; i++) { const m = (lo + hi2) / 2; (f(m) > 0) ? (hi2 = m) : (lo = m); }
+      const x = (lo + hi2) / 2;
+      const eqv = [p.h2 - x, p.i2 - x, p.hi + 2 * x], now = [p.h2, p.i2, p.hi];
+      const ease = 0.5 - 0.5 * Math.cos(Math.min(1, (t % 6) / 3) * Math.PI);
+      const cols = ['--a', '--c', '--b'], names = ['H₂', 'I₂', 'HI'];
+      const bw = (w - 80) / 3, base = h - 30, sc = (h - 70) / 4.2;
+      names.forEach((n, i) => {
+        const v = now[i] + (eqv[i] - now[i]) * ease;
+        ctx.fillStyle = css(cols[i]); ctx.fillRect(40 + i * bw + bw * 0.2, base - v * sc, bw * 0.6, v * sc);
+        text(`${n}: ${bn(v, 3)}`, 40 + i * bw + bw / 2, base + 16, css('--text'), 12, 'center');
+      });
+      const dir = Math.abs(Q - K) / K < 0.01 ? 'সাম্যাবস্থায় আছে' : Q < K ? 'সামনের দিকে যাবে (HI বাড়বে)' : 'পেছনের দিকে যাবে (HI কমবে)';
+      this.info = `<span class="big">Qc = ${bn(Q, 3)} ${Q < K ? '<' : Q > K ? '>' : '='} Kc = ${bn(K, 1)} → বিক্রিয়া ${dir}</span><br>সাম্যাবস্থায়: [H₂] = ${bn(eqv[0], 3)}, [I₂] = ${bn(eqv[1], 3)}, [HI] = ${bn(eqv[2], 3)} M (যাচাই: [HI]²/[H₂][I₂] = ${bn(eqv[2] ** 2 / (eqv[0] * eqv[1]), 2)})। Δn = 0, তাই এখানে চাপের প্রভাব নেই।`;
+    },
+  });
+
+  const ACIDS = { sa: ['তীব্র একপ্রোটিক এসিড (HCl)', 'acid', 1, null], sd: ['তীব্র দ্বিপ্রোটিক এসিড (H₂SO₄)', 'acid', 2, null], wa: ['দুর্বল এসিড (CH₃COOH, Ka = 1.8 × 10⁻⁵)', 'acid', 1, 1.8e-5], sb: ['তীব্র ক্ষার (NaOH)', 'base', 1, null], sb2: ['তীব্র দ্বি-অম্লীয় ক্ষার (Ca(OH)₂)', 'base', 2, null], wb: ['দুর্বল ক্ষার (NH₄OH, Kb = 1.8 × 10⁻⁵)', 'base', 1, 1.8e-5] };
+  const PHBAND = [[0, 2, 'তীব্র অম্লীয়'], [2, 4, 'মধ্যম অম্লীয়'], [4, 7, 'মৃদু অম্লীয়'], [7, 7.0001, 'প্রশম'], [7, 10, 'মৃদু ক্ষারীয়'], [10, 12, 'মধ্যম ক্ষারীয়'], [12, 14.01, 'তীব্র ক্ষারীয়']];
+  S.push({
+    id: 'ph', tab: '৭. pH হিসাব',
+    title: 'pH = −log[H⁺], pOH = −log[OH⁻], pH + pOH = 14',
+    sub: 'তীব্র এসিড/ক্ষার: [H⁺] বা [OH⁻] = তুল্যসংখ্যা × ঘনমাত্রা। দুর্বল এসিড/ক্ষার: অসওয়াল্ডের সূত্রে α = √(Ka/C), [H⁺] = αC। [H⁺] ১০ গুণ বাড়লে pH ১ কমে।',
+    controls: [['lc', 'ঘনমাত্রা (log₁₀ M)', -6, 0, 0.05, -2, '']],
+    buttons: Object.entries(ACIDS).map(([k, a], i) => [k, a[0], i === 0, false, 'kind']),
+    legend: [['--d', 'এখনকার pH']],
+    draw(w, h, t, p, b) {
+      const [name, typ, eqv, K] = ACIDS[b.kind];
+      const C = 10 ** p.lc;
+      let ion, alpha = 1;
+      if (K) { alpha = Math.min(1, (-K + Math.sqrt(K * K + 4 * K * C)) / (2 * C)); ion = alpha * C; } else ion = eqv * C;
+      let pH = typ === 'acid' ? -Math.log10(ion) : 14 + Math.log10(ion);
+      pH = Math.max(0, Math.min(14, pH));
+      const x0 = 20, x1 = w - 20, y = h * 0.45;
+      const g = ctx.createLinearGradient(x0, 0, x1, 0);
+      ['#e53935', '#fb8c00', '#fdd835', '#43a047', '#1e88e5', '#5e35b1'].forEach((c, i) => g.addColorStop(i / 5, c));
+      ctx.fillStyle = g; ctx.fillRect(x0, y - 16, x1 - x0, 32);
+      for (let v = 0; v <= 14; v += 1) text(bn(v, 0), x0 + v / 14 * (x1 - x0), y + 32, css('--muted'), 10, 'center');
+      const px = x0 + pH / 14 * (x1 - x0);
+      arrow(px, y - 46, px, y - 18, css('--text'), 3);
+      const band = PHBAND.find(([a, b2]) => pH >= a && pH < b2) ?? PHBAND[6];
+      text(`pH ${bn(pH, 2)}`, px, y - 52, css('--text'), 14, 'center');
+      this.info = `<span class="big">${name}, C = ${sci(C, 2)} M → ${typ === 'acid' ? '[H⁺]' : '[OH⁻]'} = ${sci(ion, 3)} M → pH = ${bn(pH, 2)} (${band[2]})</span><br>${K ? `বিয়োজন মাত্রা α = ${bn(alpha * 100, 3)}% — দ্রবণ লঘু করলে α বাড়ে (α ∝ 1/√C)। ` : `তুল্যসংখ্যা ${bn(eqv, 0)}। `}${typ === 'acid' ? `pOH = ${bn(14 - pH, 2)}` : `pOH = ${bn(14 - pH, 2)}`}। শর্টকাট: 0.001 M HCl → pH = ৩; 0.005 M H₂SO₄ → 0.005 × 2 = 0.01 → pH = ২।`;
+    },
+  });
+
+  S.push({
+    id: 'ostwald', tab: '৮. অসওয়াল্ডের লঘুকরণ সূত্র',
+    title: 'দুর্বল এসিডের বিয়োজন মাত্রা: α ∝ 1/√C',
+    sub: 'নির্দিষ্ট তাপমাত্রায় দুর্বল তড়িৎবিশ্লেষ্যের বিয়োজন মাত্রা মোলার ঘনমাত্রার বর্গমূলের ব্যস্তানুপাতিক। Ka = α²C/(1 − α) ≈ α²C। শুধু দুর্বল তড়িৎবিশ্লেষ্যে প্রযোজ্য।',
+    controls: [['lk', 'log₁₀ Ka', -10, -2, 0.05, -4.74, ''], ['lc', 'ঘনমাত্রা C (log₁₀ M)', -5, 0, 0.05, -1, '']],
+    legend: [['--a', 'নির্ভুল α'], ['--b', 'আসন্ন α = √(Ka/C)'], ['--d', 'এখনকার অবস্থা']],
+    draw(w, h, t, p) {
+      const Ka = 10 ** p.lk;
+      const ex = (C) => (-Ka + Math.sqrt(Ka * Ka + 4 * Ka * C)) / (2 * C), ap = (C) => Math.min(1, Math.sqrt(Ka / C));
+      const gx0 = 40, gx1 = w - 16, gy0 = h - 24, gy1 = 16;
+      axes(gx0, gy0, gx1, gy1, 'log C →', 'α');
+      const Cof = (x) => 10 ** (-5 + (x - gx0) / (gx1 - gx0) * 5);
+      curve((x) => gy0 - ap(Cof(x)) * (gy0 - gy1), gx0, gx1, css('--b'), 1.6);
+      curve((x) => gy0 - ex(Cof(x)) * (gy0 - gy1), gx0, gx1, css('--a'), 2.6);
+      const C = 10 ** p.lc, a = ex(C);
+      dot(gx0 + (p.lc + 5) / 5 * (gx1 - gx0), gy0 - a * (gy0 - gy1), 6, css('--d'));
+      const pH = -Math.log10(a * C);
+      this.info = `<span class="big">Ka = ${sci(Ka, 2)}, C = ${sci(C, 2)} M → α = ${bn(a * 100, 3)}%, [H⁺] = αC = ${sci(a * C, 3)} M, pH = ${bn(pH, 2)}</span><br>আসন্ন সূত্র √(Ka/C) = ${bn(ap(C) * 100, 3)}%${ap(C) > 0.05 ? ' — α বড় হলে আসন্ন মান ভুল হয়, তখন Ka = α²C/(1 − α) ব্যবহার করতে হয়' : ''}। নোটের উদাহরণ: 0.1 M CH₃COOH (Ka = 1.8 × 10⁻⁵) → pH 2.87।`;
+    },
+  });
+
+  const BUF = [['ফরমিক এসিড / সোডিয়াম ফরমেট', 3.75], ['অ্যাসিটিক এসিড / সোডিয়াম অ্যাসিটেট', 4.75], ['NaH₂PO₄ / Na₂HPO₄', 7.21], ['NH₄Cl / NH₃', 9.25]];
+  S.push({
+    id: 'buffer', tab: '৯. বাফার দ্রবণ',
+    title: 'বাফার: pH = pKa + log[লবণ]/[এসিড]',
+    sub: 'মৃদু এসিড ও তার অনুবন্ধী ক্ষারকের মিশ্রণে সামান্য এসিড বা ক্ষার যোগ করলে pH প্রায় বদলায় না। কার্যকর সীমা pH = pKa ± 1 ([লবণ]/[এসিড] = 0.1–10); অনুপাত 1 হলে বাফার ক্ষমতা সর্বোচ্চ।',
+    controls: [['na', 'দুর্বল এসিডের মোল', 0.01, 0.2, 0.005, 0.1, 'mol'], ['ns', 'লবণের মোল', 0.01, 0.2, 0.005, 0.1, 'mol'], ['add', 'যোগ করা HCl (−) বা NaOH (+)', -0.05, 0.05, 0.001, 0.01, 'mol']],
+    buttons: BUF.map(([n], i) => [String(i), n, i === 1, false, 'buf']),
+    legend: [['--a', 'বাফার দ্রবণের pH'], ['--d', '১ লিটার বিশুদ্ধ পানির pH']],
+    draw(w, h, t, p, b) {
+      const [name, pKa] = BUF[+b.buf];
+      const pH0 = pKa + Math.log10(p.ns / p.na);
+      const na2 = p.na - p.add, ns2 = p.ns + p.add;
+      const valid = na2 > 0 && ns2 > 0;
+      const pH1 = valid ? pKa + Math.log10(ns2 / na2) : (na2 <= 0 ? 14 + Math.log10(Math.max(1e-7, -na2)) : -Math.log10(Math.max(1e-7, -ns2)));
+      const w0 = 7, w1 = p.add === 0 ? 7 : p.add > 0 ? 14 + Math.log10(p.add) : -Math.log10(-p.add);
+      const x0 = 30, x1 = w - 30, X = (v) => x0 + v / 14 * (x1 - x0);
+      [[0.32, pH0, pH1, '--a', 'বাফার'], [0.7, w0, w1, '--d', 'পানি']].forEach(([fy, a0, a1, c, l]) => {
+        const y = h * fy;
+        ctx.strokeStyle = css('--line'); ctx.beginPath(); ctx.moveTo(x0, y); ctx.lineTo(x1, y); ctx.stroke();
+        for (let v = 0; v <= 14; v += 2) text(bn(v, 0), X(v), y + 16, css('--muted'), 10, 'center');
+        dot(X(a0), y, 5, css('--muted')); arrow(X(a0), y - 10, X(a1), y - 10, css(c), 2.5); dot(X(a1), y, 7, css(c));
+        text(`${l}: ${bn(a0, 2)} → ${bn(a1, 2)}`, x0, y - 22, css('--text'), 12);
+      });
+      ctx.fillStyle = 'rgba(126,166,255,.12)'; ctx.fillRect(X(pKa - 1), h * 0.32 - 8, X(pKa + 1) - X(pKa - 1), 16);
+      this.info = `<span class="big">${name} (pKa ${bn(pKa, 2)}): pH ${bn(pH0, 2)} → ${bn(pH1, 2)} (পরিবর্তন ${bn(Math.abs(pH1 - pH0), 2)})</span><br>একই পরিমাণ ${p.add >= 0 ? 'NaOH' : 'HCl'} বিশুদ্ধ পানিতে দিলে pH বদলায় ${bn(Math.abs(w1 - w0), 2)} একক। ${valid ? (Math.abs(Math.log10(ns2 / na2)) <= 1 ? 'অনুপাত 0.1–10-এর মধ্যে — বাফার কার্যকর।' : 'অনুপাত 0.1–10-এর বাইরে — বাফার ক্ষমতা ফুরিয়ে আসছে।') : 'যোগ করা এসিড/ক্ষার বাফারের সামর্থ্যের চেয়ে বেশি — বাফার ভেঙে গেছে।'} এসিড দিলে: CH₃COO⁻ + H⁺ → CH₃COOH; ক্ষার দিলে: CH₃COOH + OH⁻ → CH₃COO⁻ + H₂O।`;
+    },
+  });
+
+  S.push({
+    id: 'mix', tab: '১০. মিশ্রণের pH',
+    title: 'এসিড ও ক্ষার মেশালে মিশ্রণের pH',
+    sub: 'ধাপ: ① এসিড ও ক্ষারের মোল (তুল্য) বের করো ② প্রশমনের পর কোনটি অবশিষ্ট দেখো ③ তীব্র অবশিষ্ট থাকলে তার ঘনমাত্রা থেকে pH; দুর্বল এসিড ও তার লবণ থাকলে বাফার — হেন্ডারসন সমীকরণ।',
+    controls: [['Va', 'এসিডের আয়তন', 10, 300, 5, 100, 'mL'], ['Ca', 'এসিডের ঘনমাত্রা', 0.01, 1, 0.01, 0.1, 'M'], ['Vb', 'NaOH এর আয়তন', 10, 300, 5, 50, 'mL'], ['Cb', 'NaOH এর ঘনমাত্রা', 0.01, 1, 0.01, 0.1, 'M']],
+    buttons: [['HCl', 'HCl (তীব্র)', true, false, 'ac'], ['H2SO4', 'H₂SO₄ (তীব্র, দ্বিপ্রোটিক)', false, false, 'ac'], ['AcOH', 'CH₃COOH (দুর্বল, pKa 4.75)', false, false, 'ac']],
+    legend: [['--a', 'এসিড'], ['--b', 'ক্ষার'], ['--d', 'মিশ্রণ']],
+    draw(w, h, t, p, b) {
+      const eqv = b.ac === 'H2SO4' ? 2 : 1;
+      const nA = eqv * p.Ca * p.Va / 1000, nB = p.Cb * p.Vb / 1000, V = (p.Va + p.Vb) / 1000;
+      let pH, kind;
+      if (b.ac === 'AcOH') {
+        if (nB < nA - 1e-12) { pH = nB > 1e-12 ? 4.75 + Math.log10(nB / (nA - nB)) : -Math.log10(Math.sqrt(1.8e-5 * nA / V)); kind = nB > 1e-12 ? 'বাফার (CH₃COOH + CH₃COONa অবশিষ্ট) — অম্লীয়' : 'শুধু দুর্বল এসিড'; }
+        else if (Math.abs(nB - nA) < 1e-12) { const Cs = nA / V, Kb = 1e-14 / 1.8e-5; pH = 14 + Math.log10(Math.sqrt(Kb * Cs)); kind = 'সমতুল্য বিন্দু — শুধু CH₃COONa, তাই ক্ষারীয়'; }
+        else { pH = 14 + Math.log10((nB - nA) / V); kind = 'NaOH অবশিষ্ট — ক্ষারীয়'; }
+      } else {
+        if (Math.abs(nA - nB) < 1e-12) { pH = 7; kind = 'পূর্ণ প্রশমন — নিরপেক্ষ'; }
+        else if (nA > nB) { pH = -Math.log10((nA - nB) / V); kind = 'এসিড অবশিষ্ট — অম্লীয়'; }
+        else { pH = 14 + Math.log10((nB - nA) / V); kind = 'ক্ষার অবশিষ্ট — ক্ষারীয়'; }
+      }
+      pH = Math.max(0, Math.min(14, pH));
+      const tw = Math.min(70, w * 0.16);
+      tube(w * 0.06, 34, tw, h - 70, { liquid: 'rgba(229,57,53,.35)', level: p.Va / 300 * 0.8 + 0.1 }, t);
+      tube(w * 0.28, 34, tw, h - 70, { liquid: 'rgba(30,136,229,.35)', level: p.Vb / 300 * 0.8 + 0.1 }, t);
+      arrow(w * 0.45, h / 2, w * 0.55, h / 2, css('--muted'), 2);
+      const hue = pH < 7 ? `rgba(229,57,53,${0.15 + (7 - pH) / 14})` : `rgba(30,136,229,${0.15 + (pH - 7) / 14})`;
+      tube(w * 0.62, 34, tw * 1.5, h - 70, { liquid: hue, level: (p.Va + p.Vb) / 600 * 0.8 + 0.1 }, t);
+      text(`pH ${bn(pH, 2)}`, w * 0.62 + tw * 0.75, 26, css('--text'), 13, 'center');
+      this.info = `<span class="big">এসিডের তুল্য মোল ${sci(nA, 3)}, ক্ষারের ${sci(nB, 3)} → ${kind}, pH = ${bn(pH, 2)}</span><br>মোট আয়তন ${bn(V * 1000, 0)} mL। দুর্বল এসিড অবশিষ্ট থাকলে লবণসহ বাফার হয় — তখন pH = pKa + log(n_লবণ/n_এসিড)।`;
+    },
+  });
+
+  const NEUT = [['HCl + NaOH', -57.34], ['H₂SO₄ + NaOH', -57.44], ['HNO₃ + NaOH', -57.35], ['HCl + KOH', -57.43], ['HF + NaOH', -68.6], ['HNO₃ + KOH', -58.03], ['CH₃COOH + NaOH', -55.14], ['CH₃COOH + NH₄OH', -50.4]];
+  S.push({
+    id: 'neut', tab: '১১. প্রশমন তাপ',
+    title: 'প্রশমন তাপ ও ক্যালরিমিটারে তাপমাত্রা বৃদ্ধি',
+    sub: '১ মোল পানি তৈরিতে উদ্ভূত তাপ = প্রশমন তাপ। তীব্র এসিড + তীব্র ক্ষার ≈ −57.3 kJ; দুর্বল এসিড বা ক্ষার থাকলে কম (বিয়োজনে কিছু শক্তি খরচ হয়); HF + NaOH সর্বাধিক −68.6 kJ।',
+    controls: [['V', 'প্রতিটি দ্রবণের আয়তন', 25, 500, 5, 100, 'mL'], ['C', 'প্রতিটির ঘনমাত্রা', 0.1, 2, 0.05, 1, 'M']],
+    buttons: NEUT.map(([n], i) => [String(i), n, i === 0, false, 'pair']),
+    legend: [['--d', 'থার্মোমিটার']],
+    note: 'নোট: দ্রবণের ঘনত্ব 1 g/mL ও আপেক্ষিক তাপ 4.186 J g⁻¹ °C⁻¹ (1 ক্যালরি = 4.186 J) ধরে আনুমানিক তাপমাত্রা বৃদ্ধি।',
+    draw(w, h, t, p, b) {
+      const [name, dH] = NEUT[+b.pair];
+      const n = p.C * p.V / 1000, q = -dH * 1000 * n, m = 2 * p.V, dT = q / (m * 4.186);
+      const bars = NEUT.map(([nn, v]) => [nn, -v]);
+      const bx = 20, bw = w * 0.55, by = 16, rowh = (h - 30) / bars.length;
+      bars.forEach(([nn, v], i) => { const y = by + i * rowh; ctx.fillStyle = i === +b.pair ? css('--d') : css('--a'); ctx.globalAlpha = i === +b.pair ? 1 : 0.5; ctx.fillRect(bx, y, (v / 70) * bw, rowh * 0.6); ctx.globalAlpha = 1; text(`${nn}  ${bn(-v, 2)}`, bx + 4, y + rowh * 0.5, '#fff', 10); });
+      const tx = w * 0.8, ty0 = h - 30, ty1 = 24, fill = Math.min(1, (dT * Math.min(1, (t % 5) / 2.5)) / 15);
+      ctx.strokeStyle = css('--muted'); ctx.lineWidth = 2; rrect(tx - 8, ty1, 16, ty0 - ty1, 8); ctx.stroke();
+      ctx.fillStyle = css('--d'); ctx.fillRect(tx - 4, ty0 - (0.15 + 0.85 * fill) * (ty0 - ty1 - 10), 8, (0.15 + 0.85 * fill) * (ty0 - ty1 - 10)); dot(tx, ty0, 10, css('--d'));
+      this.info = `<span class="big">${name}: ΔH = ${bn(dH, 2)} kJ/mol; ${bn(n, 3)} mol পানি তৈরিতে তাপ = ${bn(q / 1000, 2)} kJ</span><br>${bn(m, 0)} g মিশ্রণের তাপমাত্রা বাড়ে প্রায় ΔT = q/(m·c) = ${bn(dT, 2)} °C। প্রশমন বিক্রিয়া সবসময় তাপোৎপাদী।`;
+    },
+  });
+
+  const BE = { 'H–H': 436, 'Cl–Cl': 243, 'H–Cl': 432, 'C–H': 413, 'O=O': 496, 'C=O': 724, 'O–H': 463, 'N≡N': 945, 'N–H': 388, 'C=C': 612, 'C–C': 338, 'C–Cl': 328 };
+  const BRX = [
+    ['H₂ + Cl₂ → 2HCl', [['H–H', 1], ['Cl–Cl', 1]], [['H–Cl', 2]]],
+    ['N₂ + 3H₂ → 2NH₃', [['N≡N', 1], ['H–H', 3]], [['N–H', 6]]],
+    ['CH₄ + 2O₂ → CO₂ + 2H₂O', [['C–H', 4], ['O=O', 2]], [['C=O', 2], ['O–H', 4]]],
+    ['CH₂=CH₂ + H₂ → CH₃–CH₃', [['C=C', 1], ['C–H', 4], ['H–H', 1]], [['C–C', 1], ['C–H', 6]]],
+    ['CH₄ + Cl₂ → CH₃Cl + HCl', [['C–H', 4], ['Cl–Cl', 1]], [['C–H', 3], ['C–Cl', 1], ['H–Cl', 1]]],
+  ];
+  S.push({
+    id: 'bond', tab: '১২. বন্ধন শক্তি থেকে ΔH',
+    title: 'বিক্রিয়া তাপ = ভাঙা বন্ধনের শক্তি − গঠিত বন্ধনের শক্তি',
+    sub: 'বন্ধন ভাঙতে শক্তি লাগে (তাপহারী), বন্ধন গঠনে শক্তি নির্গত হয় (তাপোৎপাদী)। নোটের গড় বন্ধন শক্তির ছক (kJ/mol) দিয়ে হিসাব।',
+    controls: [],
+    buttons: BRX.map(([n], i) => [String(i), n, i === 0, false, 'rx']),
+    legend: [['--d', 'ভাঙা বন্ধন (শক্তি শোষণ)'], ['--e', 'গঠিত বন্ধন (শক্তি নির্গমন)']],
+    note: 'নোট: গড় বন্ধন শক্তি দিয়ে হিসাব আসন্ন — পরীক্ষালব্ধ ΔH থেকে কিছুটা আলাদা হতে পারে (যেমন H₂ + Cl₂ → 2HCl-এর ΔH নোটে −184 kJ)।',
+    draw(w, h, t, p, b) {
+      const [name, br, fm] = BRX[+b.rx];
+      const Eb = br.reduce((s, [k, n]) => s + BE[k] * n, 0), Ef = fm.reduce((s, [k, n]) => s + BE[k] * n, 0), dH = Eb - Ef;
+      const x0 = 50, y0 = h - 30, top = 16, mx = Math.max(Eb, Ef) * 1.15, Y = (e) => y0 - (e / mx) * (y0 - top) * 0.9 - 0;
+      const base = Y(Ef) + (Y(0) - Y(Ef)) * 0; // reactants at energy Ef baseline for visual
+      const lv = (y, l, col, xa, xb) => { ctx.strokeStyle = col; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(xa, y); ctx.lineTo(xb, y); ctx.stroke(); text(l, (xa + xb) / 2, y - 6, col, 11, 'center'); };
+      const yR = Y(Math.max(0, Ef - Eb) + 0), yAtoms = Y(Math.max(Eb, Ef)), yP = Y(Math.max(0, Eb - Ef));
+      void base;
+      lv(yR, 'বিক্রিয়ক', css('--a'), x0, x0 + w * 0.22);
+      lv(yAtoms, 'মুক্ত পরমাণু', css('--muted'), x0 + w * 0.3, x0 + w * 0.52);
+      lv(yP, 'উৎপাদ', css('--b'), x0 + w * 0.6, w - 20);
+      arrow(x0 + w * 0.26, yR, x0 + w * 0.26, yAtoms + 4, css('--d'), 2.5);
+      arrow(x0 + w * 0.56, yAtoms, x0 + w * 0.56, yP - 4, css('--e'), 2.5);
+      text(`+${bn(Eb, 0)}`, x0 + w * 0.26 + 6, (yR + yAtoms) / 2, css('--d'), 12);
+      text(`−${bn(Ef, 0)}`, x0 + w * 0.56 + 6, (yAtoms + yP) / 2, css('--e'), 12);
+      const lst = (arr) => arr.map(([k, n]) => `${n > 1 ? bn(n, 0) + ' × ' : ''}${k} (${bn(BE[k], 0)})`).join(' + ');
+      this.info = `<span class="big">${name}: ΔH = ${bn(Eb, 0)} − ${bn(Ef, 0)} = ${bn(dH, 0)} kJ → ${dH < 0 ? 'তাপোৎপাদী' : 'তাপহারী'}</span><br>ভাঙে: ${lst(br)}<br>গড়ে: ${lst(fm)}`;
+    },
+  });
+
+  S.push({
+    id: 'green', tab: '১৩. এটম ইকোনমি ও ই-ফ্যাক্টর',
+    title: 'গ্রিন কেমিস্ট্রি: %AE ও E-factor',
+    sub: '%AE = কাঙ্ক্ষিত উৎপাদের ভর × 100 ÷ সব উৎপাদের মোট ভর; যত বেশি তত গ্রিনার। E-factor = বর্জ্যের ভর ÷ উৎপাদের ভর; আদর্শ মান 0। উদাহরণ: ইথিলিন অক্সাইড উৎপাদনের দুই পথ।',
+    controls: [['waste', 'শিল্পে বর্জ্যের ভর', 0, 50, 0.5, 1, 'kg'], ['prod', 'উৎপাদের ভর', 1, 50, 0.5, 5, 'kg']],
+    buttons: [['old', 'প্রচলিত: C₂H₄ + Cl₂ + Ca(OH)₂', true, false, 'route'], ['new', 'গ্রিনার: C₂H₄ + ½O₂ —Ag→', false, false, 'route']],
+    legend: [['--e', 'কাঙ্ক্ষিত উৎপাদ C₂H₄O'], ['--d', 'বর্জ্য/উপজাত']],
+    draw(w, h, t, p, b) {
+      const M = { C: 12, H: 1, O: 16, Cl: 35.5, Ca: 40 };
+      const EO = 2 * M.C + 4 * M.H + M.O, CaCl2 = M.Ca + 2 * M.Cl, H2O = 2 * M.H + M.O;
+      const parts = b.route === 'old' ? [['C₂H₄O', EO, '--e'], ['CaCl₂', CaCl2, '--d'], ['H₂O', H2O, '--d']] : [['C₂H₄O', EO, '--e']];
+      const tot = parts.reduce((s, x) => s + x[1], 0), AE = EO / tot * 100;
+      let x = 30; const bw = w - 60, y = 40;
+      parts.forEach(([n, m, c]) => { const ww = m / tot * bw; ctx.fillStyle = css(c); ctx.fillRect(x, y, ww - 2, 40); if (ww > 40) text(`${n} ${bn(m, 1)}`, x + 6, y + 25, '#fff', 12); x += ww; });
+      const E = p.waste / p.prod;
+      const gx = 30, gy = h - 40, gw = w - 60;
+      ctx.fillStyle = css('--panel'); ctx.fillRect(gx, gy, gw, 16);
+      ctx.fillStyle = E < 0.5 ? css('--e') : E < 5 ? css('--b') : css('--d'); ctx.fillRect(gx, gy, Math.min(1, E / 10) * gw, 16);
+      text('E-factor', gx, gy - 6, css('--muted'), 11);
+      this.info = `<span class="big">%AE = ${bn(EO, 0)} × 100 ÷ ${bn(tot, 1)} = ${bn(AE, 1)}%${AE === 100 ? ' — কোনো উপজাত নেই, সবচেয়ে গ্রিন' : ''}</span><br>E-factor = ${bn(p.waste, 1)} kg ÷ ${bn(p.prod, 1)} kg = ${bn(E, 2)} ${E === 0 ? '(আদর্শ)' : ''}। নোটের উদাহরণ: 5 kg উৎপাদে 1 kg বর্জ্য → 0.2। আদর্শ শিল্পে Atom Economy 70–90%।`;
+    },
+  });
+
+  S.push({
+    id: 'cfc', tab: '১৪. CFC নম্বর ↔ সংকেত',
+    title: 'CFC/HCFC নম্বর থেকে সংকেত: নম্বর + 90 → C, H, F',
+    sub: 'নম্বরের সাথে 90 যোগ করো; ১ম অঙ্ক = C, ২য় = H, ৩য় = F সংখ্যা; C-এর বাকি যোজনী Cl দিয়ে পূর্ণ। উদাহরণ: CFC-11 → 101 → CFCl₃।',
+    controls: [['num', 'CFC/HCFC নম্বর', 10, 152, 1, 11, '']],
+    legend: [['--a', 'C'], ['--c', 'H'], ['--e', 'F'], ['--b', 'Cl']],
+    draw(w, h, t, p) {
+      const v = p.num + 90, s = String(v).padStart(3, '0');
+      const C = +s[0], H = +s[1], F = +s[2];
+      const valence = 2 * C + 2, Cl = valence - H - F;
+      const ok = C >= 1 && Cl >= 0;
+      const sub = (n) => n > 1 ? String(n).replace(/\d/g, (d) => '₀₁₂₃₄₅₆₇₈₉'[d]) : '';
+      const formula = ok ? `C${sub(C)}${H ? 'H' + sub(H) : ''}${Cl ? 'Cl' + sub(Cl) : ''}${F ? 'F' + sub(F) : ''}` : '—';
+      const items = [['C', C, '--a'], ['H', H, '--c'], ['F', F, '--e'], ['Cl', Math.max(0, Cl), '--b']];
+      const bw = (w - 60) / 4;
+      items.forEach(([n, c, col], i) => { for (let k = 0; k < c; k++) dot(40 + i * bw + bw / 2 + ((k % 3) - 1) * 18, h - 50 - Math.floor(k / 3) * 22, 9, css(col)); text(`${n}: ${bn(c, 0)}`, 40 + i * bw + bw / 2, h - 18, css('--text'), 12, 'center'); });
+      text(`${bn(p.num, 0)} + ৯০ = ${bn(v, 0)}`, w / 2, 34, css('--muted'), 14, 'center');
+      text(formula, w / 2, 70, css('--text'), 22, 'center');
+      this.info = ok
+        ? `<span class="big">${H > 0 ? 'HCFC' : 'CFC'}-${bn(p.num, 0)} → C = ${bn(C, 0)}, H = ${bn(H, 0)}, F = ${bn(F, 0)}, Cl = ${bn(Cl, 0)} → ${formula}</span><br>উল্টো নিয়ম: CFC-abc-এ a = C − 1, b = H + 1, c = F। ${H > 0 ? 'H থাকলে HCFC — ওজোন স্তরের কম ক্ষতি করে, জীবনকাল 2–10 বছর।' : 'H নেই — পূর্ণ CFC, জীবনকাল প্রায় 100 বছর।'}`
+        : `<span class="big">এই নম্বরে বৈধ সংকেত হয় না (H + F কার্বনের যোজনীর চেয়ে বেশি)</span>`;
+    },
+  });
+
+  // ---------- runner ----------
+  let cur = null, params = {}, btn = {}, t0 = performance.now(), paused = false;
+  const $ = (id) => document.getElementById(id);
+  $('tabs').innerHTML = S.map((s, i) => `<button data-i="${i}">${s.tab}</button>`).join('');
+  $('tabs').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) select(Number(b.dataset.i)); });
+
+  function select(i) {
+    cur = S[i];
+    document.querySelectorAll('#tabs button').forEach((b, j) => b.classList.toggle('on', j === i));
+    $('title').textContent = cur.title;
+    $('sub').textContent = cur.sub;
+    params = {}; btn = {};
+    $('ctl').innerHTML = cur.controls.map(([k, label, min, max, step, val, unit]) => {
+      params[k] = val;
+      return `<label>${label}<b id="v_${k}">${bn(val, step < 0.01 ? 3 : step < 1 ? 2 : 0)} ${unit}</b><input type="range" min="${min}" max="${max}" step="${step}" value="${val}" data-k="${k}" data-u="${unit}" data-s="${step}"></label>`;
+    }).join('');
+    $('buttons').innerHTML = `<button data-b="pause">${paused ? '▶ চালাও' : '⏸ থামাও'}</button>` + (cur.buttons ?? []).map(([k, label, on, isAction, group]) => {
+      if (group) { if (on) btn[group] = k; } else if (!isAction) btn[k] = on;
+      return `<button data-b="${k}" ${group ? `data-g="${group}"` : ''} ${isAction ? 'data-a="1"' : ''} class="${on ? 'on' : ''}">${label}</button>`;
+    }).join('');
+    $('legend').innerHTML = (cur.legend ?? []).map(([c, l]) => `<span><i style="background:var(${c})"></i>${l}</span>`).join('');
+    $('note').textContent = cur.note ?? 'নোট: হিসাবগুলো নোটের সূত্র অনুযায়ী; ছবি ও রং বোঝানোর জন্য আনুমানিক।';
+    cv.style.height = (cur.height ?? 260) + 'px';
+    resize();
+  }
+
+  $('ctl').addEventListener('input', (e) => {
+    const r = e.target; if (!r.dataset.k) return;
+    params[r.dataset.k] = Number(r.value);
+    const s = Number(r.dataset.s);
+    $(`v_${r.dataset.k}`).textContent = `${bn(Number(r.value), s < 0.01 ? 3 : s < 1 ? 2 : 0)} ${r.dataset.u}`;
+  });
+  $('buttons').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if (!b) return;
+    const k = b.dataset.b;
+    if (k === 'pause') { paused = !paused; b.textContent = paused ? '▶ চালাও' : '⏸ থামাও'; return; }
+    if (b.dataset.a) { cur.action?.call(cur, k, params); return; }
+    if (b.dataset.g) { btn[b.dataset.g] = k; document.querySelectorAll(`[data-g="${b.dataset.g}"]`).forEach((x) => x.classList.toggle('on', x === b)); return; }
+    btn[k] = !btn[k]; b.classList.toggle('on', btn[k]);
+  });
+
+  let W = 0, H = 0, simT = 0, last = performance.now();
+  function resize() {
+    const dpr = Math.min(2, window.devicePixelRatio || 1);
+    W = cv.clientWidth; H = cv.clientHeight;
+    cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  window.addEventListener('resize', resize);
+  function frame(now) {
+    const dt = Math.min(0.1, (now - last) / 1000); last = now;
+    if (!paused) simT += dt;
+    if (cur) {
+      ctx.clearRect(0, 0, W, H);
+      cur.draw(W, H, simT, params, btn);
+      $('info').innerHTML = cur.info ?? '';
+    }
+    requestAnimationFrame(frame);
+  }
+  select(0);
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

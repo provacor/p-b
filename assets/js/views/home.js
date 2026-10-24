@@ -1,13 +1,13 @@
 // Home: personal dashboard + subject cards. Every number shown is real.
 
-import { icon } from '../icons.js?v=202610241613';
-import { esc, ring, subjectCard, subjectGlyph, sectionHue, chapterEyebrow } from '../components.js?v=202610241613';
-import { todayStats, streak, recentVisits } from '../activity.js?v=202610241613';
-import { progressOf } from '../progress.js?v=202610241613';
-import { continueTarget, subjectContinue, totals, greeting } from './shared.js?v=202610241613';
-import { srsDue } from '../learn.js?v=202610241613';
-import { goalCard, weakTopics } from './practice.js?v=202610241613';
-import { gamesHomeCard, fillGamesHomeCard } from './games.js?v=202610241613';
+import { icon } from '../icons.js?v=202610241631';
+import { esc, ring, subjectCard, subjectGlyph, sectionHue, chapterEyebrow } from '../components.js?v=202610241631';
+import { todayStats, streak, recentVisits } from '../activity.js?v=202610241631';
+import { progressOf } from '../progress.js?v=202610241631';
+import { continueTarget, subjectContinue, totals, greeting } from './shared.js?v=202610241631';
+import { srsDue } from '../learn.js?v=202610241631';
+import { goalCard, weakTopics } from './practice.js?v=202610241631';
+import { gamesHomeCard, fillGamesHomeCard } from './games.js?v=202610241631';
 
 export function homeView(model) {
   const t = totals(model);

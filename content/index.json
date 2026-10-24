@@ -749,6 +749,14 @@
     "chemistry_1st_ch02_simulation": {
       "file": "content/chemistry/chemistry_1st_ch02_simulation.json",
       "count": 1
+    },
+    "chemistry_1st_ch04_notes": {
+      "file": "content/chemistry/chemistry_1st_ch04_notes.json",
+      "count": 1
+    },
+    "chemistry_1st_ch04_simulation": {
+      "file": "content/chemistry/chemistry_1st_ch04_simulation.json",
+      "count": 1
     }
   }
 }
