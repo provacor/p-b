@@ -1,0 +1,151 @@
+{
+  "sectionId": "chemistry_1st_ch02_reaction",
+  "updated": "2026-10-24",
+  "items": [
+    {
+      "id": "chemistry_1st_ch02_reaction_0001",
+      "kind": null,
+      "topic": "পরমাণু ও তার মৌলিক কণিকাসমূহ",
+      "title": "কৃত্রিম নিউক্লিয়ার বিক্রিয়া",
+      "formulas": [
+        "²⁷₁₃Al + ⁴₂He → ³⁰₁₅P + ¹₀n"
+      ],
+      "note": "প্রোটন সংখ্যা ও ভর সংখ্যা উভয় পাশে সমান থাকে।"
+    },
+    {
+      "id": "chemistry_1st_ch02_reaction_0002",
+      "kind": null,
+      "topic": "পরমাণু ও তার মৌলিক কণিকাসমূহ",
+      "title": "থোরিয়ামের তেজস্ক্রিয় ক্ষয় শ্রেণি",
+      "formulas": [
+        "²³²₉₀Th —α→ ²²⁸₈₈Ra —β→ ²²⁸₈₉Ac —β→ ²²⁸₉₀Th —α→ ²²⁴₈₈Ra —α→ ²²⁰₈₆Rn"
+      ],
+      "note": "α নিঃসরণে ভর 4 ও পারমাণবিক সংখ্যা 2 কমে; β নিঃসরণে পারমাণবিক সংখ্যা 1 বাড়ে।"
+    },
+    {
+      "id": "chemistry_1st_ch02_reaction_0003",
+      "kind": null,
+      "topic": "দ্রাব্যতা ও দ্রাব্যতা গুণফল",
+      "title": "AgCl এর জটিল আয়ন গঠন",
+      "formulas": [
+        "AgCl(s) ⇌ Ag⁺(aq) + Cl⁻(aq)  (অদ্রবণীয়)",
+        "Ag⁺(aq) + 2NH₃(aq) → [Ag(NH₃)₂]⁺(aq)  (দ্রবণীয়)",
+        "AgCl(s) + 2NH₄OH(aq) → [Ag(NH₃)₂]Cl(aq) + 2H₂O(l)"
+      ],
+      "note": "অতিরিক্ত NH₃ এ জটিল আয়ন সৃষ্টি হওয়ায় AgCl এর দ্রাব্যতা বেড়ে যায়।"
+    },
+    {
+      "id": "chemistry_1st_ch02_reaction_0004",
+      "kind": null,
+      "topic": "দ্রাব্যতা ও দ্রাব্যতা গুণফল",
+      "title": "সম-আয়ন প্রভাবে NaCl কেলাসন",
+      "formulas": [
+        "NaCl ⇌ Na⁺ + Cl⁻",
+        "HCl ⟶ H⁺ + Cl⁻"
+      ],
+      "note": "Cl⁻ সমআয়ন বাড়ায় সাম্যাবস্থা পেছনে সরে এবং বিশুদ্ধ NaCl অধঃক্ষিপ্ত হয়।"
+    },
+    {
+      "id": "chemistry_1st_ch02_reaction_0005",
+      "kind": null,
+      "topic": "দ্রাব্যতা ও দ্রাব্যতা গুণফল",
+      "title": "HgI₂ এর সাথে KI",
+      "formulas": [
+        "HgI₂ ⇌ Hg²⁺ + 2I⁻;  KI ⟶ K⁺ + I⁻",
+        "HgI₂ + KI ⟶ K₂[HgI₄]"
+      ]
+    },
+    {
+      "id": "chemistry_1st_ch02_reaction_0006",
+      "kind": null,
+      "topic": "শিখা পরীক্ষা, আয়ন শনাক্তকরণ",
+      "title": "Na⁺ শনাক্তকরণ বিক্রিয়া",
+      "formulas": [
+        "2NaCl(aq) + K₂H₂Sb₂O₇(aq) → Na₂H₂Sb₂O₇(s)↓ (সাদা) + 2KCl(aq)"
+      ]
+    },
+    {
+      "id": "chemistry_1st_ch02_reaction_0007",
+      "kind": null,
+      "topic": "শিখা পরীক্ষা, আয়ন শনাক্তকরণ",
+      "title": "Cl⁻ শনাক্তকরণ বিক্রিয়া",
+      "formulas": [
+        "Cl⁻(aq) + AgNO₃(aq) → AgCl(s)↓ (সাদা) + NO₃⁻(aq)",
+        "AgCl(s) + HNO₃(aq) → কোন বিক্রিয়া হয় না",
+        "AgCl(s) + 2NH₄OH(aq) → [Ag(NH₃)₂]Cl(aq) + 2H₂O(l)"
+      ]
+    },
+    {
+      "id": "chemistry_1st_ch02_reaction_0008",
+      "kind": null,
+      "topic": "শিখা পরীক্ষা, আয়ন শনাক্তকরণ",
+      "title": "SO₄²⁻ শনাক্তকরণ বিক্রিয়া",
+      "formulas": [
+        "SO₄²⁻(aq) + Ba(NO₃)₂(aq) → BaSO₄(s)↓ (সাদা) + 2NO₃⁻(aq)",
+        "BaSO₄(s) + HCl(aq) → অদ্রবণীয়"
+      ]
+    },
+    {
+      "id": "chemistry_1st_ch02_reaction_0009",
+      "kind": null,
+      "topic": "শিখা পরীক্ষা, আয়ন শনাক্তকরণ",
+      "title": "CO₃²⁻ শনাক্তকরণ বিক্রিয়া",
+      "formulas": [
+        "CO₃²⁻(aq) + Ba(NO₃)₂(aq) → BaCO₃(s)↓ (সাদা)",
+        "BaCO₃(s) + 2HCl(aq) → BaCl₂(aq) + CO₂(g) + H₂O(l)"
+      ]
+    },
+    {
+      "id": "chemistry_1st_ch02_reaction_0010",
+      "kind": null,
+      "topic": "শিখা পরীক্ষা, আয়ন শনাক্তকরণ",
+      "title": "Al³⁺ শনাক্তকরণ বিক্রিয়া",
+      "formulas": [
+        "Al³⁺(aq) + 3NH₄OH(aq) → Al(OH)₃(s) + 3NH₄⁺(aq)",
+        "Al³⁺ + 3NaOH → Al(OH)₃ (সাদা) + 3Na⁺",
+        "Al(OH)₃ + NaOH → NaAl(OH)₄ (বর্ণহীন)",
+        "NaAl(OH)₄ + NH₄Cl —তাপ→ Al(OH)₃↓ (সাদা জেলী) + NaCl + NH₃ + H₂O"
+      ]
+    },
+    {
+      "id": "chemistry_1st_ch02_reaction_0011",
+      "kind": null,
+      "topic": "শিখা পরীক্ষা, আয়ন শনাক্তকরণ",
+      "title": "Cu²⁺ ও NH₄OH",
+      "formulas": [
+        "2CuSO₄ + 2NH₄OH → CuSO₄.Cu(OH)₂ (হালকা নীল অধঃক্ষেপ) + (NH₄)₂SO₄",
+        "CuSO₄.Cu(OH)₂ + (NH₄)₂SO₄ + 6NH₄OH → 2[Cu(NH₃)₄]SO₄ (গাঢ় নীল দ্রবণ) + 8H₂O"
+      ]
+    },
+    {
+      "id": "chemistry_1st_ch02_reaction_0012",
+      "kind": null,
+      "topic": "শিখা পরীক্ষা, আয়ন শনাক্তকরণ",
+      "title": "Cu²⁺ ও পটাশিয়াম ফেরোসায়ানাইড",
+      "formulas": [
+        "2CuSO₄(aq) + K₄[Fe(CN)₆](aq) → Cu₂[Fe(CN)₆]↓ (লালচে বাদামী) + 2K₂SO₄(aq)"
+      ]
+    },
+    {
+      "id": "chemistry_1st_ch02_reaction_0013",
+      "kind": null,
+      "topic": "শিখা পরীক্ষা, আয়ন শনাক্তকরণ",
+      "title": "Fe²⁺ ও NH₄OH",
+      "formulas": [
+        "FeSO₄(aq) + 2NH₄OH(aq) → Fe(OH)₂(s) (সবুজ অধঃক্ষেপ) + (NH₄)₂SO₄(aq)"
+      ]
+    },
+    {
+      "id": "chemistry_1st_ch02_reaction_0014",
+      "kind": null,
+      "topic": "শিখা পরীক্ষা, আয়ন শনাক্তকরণ",
+      "title": "নেসলার বিকারক প্রস্তুতি",
+      "formulas": [
+        "HgCl₂ + 2KI → HgI₂ (লাল)↓ + 2KCl",
+        "HgI₂ + 2KI → K₂[HgI₄]",
+        "(K₂[HgI₄] + NaOH/KOH) → নেসলার বিকারক"
+      ],
+      "note": "মারকিউরিক ক্লোরাইড দ্রবণে KI যোগে লাল HgI₂ পড়ে; অধিক KI তে দ্রবীভূত হয়ে K₂[HgI₄] হয়; NaOH বা KOH দিয়ে ক্ষারীয় করলে নেসলার দ্রবণ।"
+    }
+  ]
+}

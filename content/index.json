@@ -757,6 +757,46 @@
     "chemistry_1st_ch04_simulation": {
       "file": "content/chemistry/chemistry_1st_ch04_simulation.json",
       "count": 1
+    },
+    "chemistry_1st_ch02_mcq": {
+      "file": "content/chemistry/chemistry_1st_ch02_mcq.json",
+      "count": 158
+    },
+    "chemistry_1st_ch02_cq": {
+      "file": "content/chemistry/chemistry_1st_ch02_cq.json",
+      "count": 37
+    },
+    "chemistry_1st_ch02_ka": {
+      "file": "content/chemistry/chemistry_1st_ch02_ka.json",
+      "count": 39
+    },
+    "chemistry_1st_ch02_kha": {
+      "file": "content/chemistry/chemistry_1st_ch02_kha.json",
+      "count": 40
+    },
+    "chemistry_1st_ch02_formula": {
+      "file": "content/chemistry/chemistry_1st_ch02_formula.json",
+      "count": 12
+    },
+    "chemistry_1st_ch02_concept": {
+      "file": "content/chemistry/chemistry_1st_ch02_concept.json",
+      "count": 35
+    },
+    "chemistry_1st_ch02_reaction": {
+      "file": "content/chemistry/chemistry_1st_ch02_reaction.json",
+      "count": 14
+    },
+    "chemistry_1st_ch02_identification": {
+      "file": "content/chemistry/chemistry_1st_ch02_identification.json",
+      "count": 26
+    },
+    "chemistry_1st_ch02_mistakes": {
+      "file": "content/chemistry/chemistry_1st_ch02_mistakes.json",
+      "count": 17
+    },
+    "chemistry_1st_ch02_revision": {
+      "file": "content/chemistry/chemistry_1st_ch02_revision.json",
+      "count": 6
     }
   }
 }

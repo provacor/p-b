@@ -4,8 +4,8 @@
 // Only the name (when the person chose to show it) and the seconds are sent;
 // the photo never leaves the device. Off until firebase-config.js is filled in.
 
-import { firebaseConfig } from './firebase-config.js?v=202610241647';
-import { getProfile, weekSeconds, weekKey } from './profile.js?v=202610241647';
+import { firebaseConfig } from './firebase-config.js?v=202610241732';
+import { getProfile, weekSeconds, weekKey } from './profile.js?v=202610241732';
 
 const SDK = 'https://www.gstatic.com/firebasejs/10.12.2';
 export const leaderboardReady = () => !!firebaseConfig;
