@@ -1,0 +1,210 @@
+{
+ "sectionId": "ict_1st_ch05_mistakes",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "ict_1st_ch05_mistakes_0001",
+   "kind": null,
+   "title": "scanf-এ & বাদ",
+   "body": "ভুল: scanf(\"%d\",a);\nসঠিক: scanf(\"%d\",&a); — & ছাড়া scanf ঠিকানা পায় না, প্রোগ্রাম ক্র্যাশ/ভুল মান।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0002",
+   "kind": null,
+   "title": "printf-এ & দেওয়া",
+   "body": "ভুল: printf(\"%d\",&a);\nসঠিক: printf(\"%d\",a); — & দিলে মানের বদলে ঠিকানা ছাপে।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0003",
+   "kind": null,
+   "title": "switch-এ break ভুলে যাওয়া",
+   "body": "ভুল: case-এর শেষে break না দেওয়া — পরের সব case চলে (fall-through)।\nসঠিক: প্রতিটি case-এর শেষে break;"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0004",
+   "kind": null,
+   "title": "if(a=5)",
+   "body": "ভুল: if(a=5) — = হলো মান বসানো, তুলনা নয়।\nসঠিক: if(a==5)"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0005",
+   "kind": null,
+   "title": "পূর্ণসংখ্যা ভাগে গড়",
+   "body": "ভুল: avg=sum/3; (int sum) — পূর্ণসংখ্যা ভাগে দশমিক হারায়।\nসঠিক: avg=sum/3.0"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0006",
+   "kind": null,
+   "title": "(1/2)*b*h",
+   "body": "ভুল: area = (1/2)*b*h; — 1/2 = 0।\nসঠিক: area = 0.5*b*h;"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0007",
+   "kind": null,
+   "title": "9/5*c+32",
+   "body": "ভুল: f = 9/5*c+32; — 9/5 = 1।\nসঠিক: f = 9*c/5+32;"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0008",
+   "kind": null,
+   "title": "গুণফলে S=0",
+   "body": "ভুল: গুণফলে S=0 দিয়ে শুরু — 0 × যেকোনো = 0।\nসঠিক: গুণে S=1, যোগে S=0।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0009",
+   "kind": null,
+   "title": "do-while-এর শেষে ;",
+   "body": "ভুল: do-while-এর শেষে ; না দেওয়া — Syntax error।\nসঠিক: }while(i<=n);"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0010",
+   "kind": null,
+   "title": "for-এ কমা",
+   "body": "ভুল: for(i=1, i<=n, i++)\nসঠিক: for(i=1; i<=n; i++) — for-এ ঠিক দুটি সেমিকোলন লাগে।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0011",
+   "kind": null,
+   "title": "লুপে i++ ভুলে যাওয়া",
+   "body": "ভুল: লুপে counter আপডেট না করা — অসীম লুপ।\nসঠিক: প্রতি ধাপে counter আপডেট।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0012",
+   "kind": null,
+   "title": "চলকের নাম",
+   "body": "ভুল: চলকের নামে স্পেস/বিন্দু/keyword — নিয়মবিরুদ্ধ।\nসঠিক: অক্ষর/_ দিয়ে শুরু; শুধু A-Z a-z 0-9 _"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0013",
+   "kind": null,
+   "title": "স্টেটমেন্টের শেষে ;",
+   "body": "ভুল: sum=a+b — স্টেটমেন্টের শেষে ; বাদ, Syntax error।\nসঠিক: sum=a+b;"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0014",
+   "kind": null,
+   "title": "অ্যারের শেষ index",
+   "body": "ভুল: int A[10] -এ A[10] ব্যবহার।\nসঠিক: শেষ index 9 — 0 থেকে 9।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0015",
+   "kind": null,
+   "title": "গুণ চিহ্ন বাদ",
+   "body": "ভুল: 2a, ab লেখা — C-তে গুণ চিহ্ন বাদ চলে না।\nসঠিক: 2*a, a*b"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0016",
+   "kind": null,
+   "title": "float-এ abs()",
+   "body": "ভুল: float-এ abs() — abs() শুধু int।\nসঠিক: fabs()"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0017",
+   "kind": null,
+   "title": "\"১০০-এর ছোট\"",
+   "body": "ভুল: অ্যালগরিদমে \"১০০-এর চেয়ে ছোট হলে\" অথচ ১০০ ছাপাতে হবে — শেষ মান বাদ পড়ে।\nসঠিক: \"ছোট বা সমান\" (≤)।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0018",
+   "kind": null,
+   "title": "Compiler ও Interpreter গুলিয়ে ফেলা",
+   "body": "ভুল: দুটোকে একই ধরা।\nসঠিক: Compiler পুরো প্রোগ্রাম একসাথে; Interpreter লাইন-বাই-লাইন।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0019",
+   "kind": null,
+   "title": "উচ্চস্তরের ভাষা যন্ত্র নির্ভর নয়",
+   "body": "ভুল: উচ্চস্তরের ভাষা \"যন্ত্র নির্ভর\"।\nসঠিক: যন্ত্র নির্ভর নয় (Portable)।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0020",
+   "kind": null,
+   "title": "তিনটির বৃহত্তম — ধাপ-৪",
+   "body": "ভুল: ধাপ-৪-এ \"৬ নং ধাপে যাও\" নেই।\nসঠিক: ৪ক ও ৪খ উভয় শাখায় \"৬ নং ধাপে যাও\"।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0021",
+   "kind": null,
+   "title": "Assembler-এর কার্যপদ্ধতি",
+   "body": "ভুল: Assembler-এর কার্যপদ্ধতি \"ছোট\"।\nসঠিক: কার্যপদ্ধতি সহজ।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0022",
+   "kind": null,
+   "title": "হেরনের সূত্রে s",
+   "body": "ভুল: s = (a+b+c)/3\nসঠিক: s = (a+b+c)/2"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0023",
+   "kind": null,
+   "title": "% চিহ্নের অর্থ",
+   "body": "ভুল: '%' = Modulus বা Absolute value।\nসঠিক: format-এ % = specifier চিহ্ন; অপারেটর % = ভাগশেষ; Absolute = abs/fabs।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0024",
+   "kind": null,
+   "title": "void main বানান",
+   "body": "ভুল: viod main()\nসঠিক: void main()"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0025",
+   "kind": null,
+   "title": "graphics.h বানান",
+   "body": "ভুল: graphic.h\nসঠিক: graphics.h"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0026",
+   "kind": null,
+   "title": "math.h-এ Cot, Sec, Cosec",
+   "body": "ভুল: math.h-এ Cot, Sec, Cosec আছে।\nসঠিক: নেই — 1/tan, 1/cos, 1/sin।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0027",
+   "kind": null,
+   "title": "int-এর আকার",
+   "body": "ভুল: int = 4 byte (এক জায়গায়)।\nসঠিক: বোর্ডে 2 byte; gcc-তে 4 byte।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0028",
+   "kind": null,
+   "title": "অ্যাসেম্বলির অসুবিধা",
+   "body": "ভুল: অ্যাসেম্বলির অসুবিধা: \"লাইন-বাই-লাইন অনুবাদ, প্রতিবার অনুবাদ\"।\nসঠিক: এগুলো Interpreter-এর বৈশিষ্ট্য; Assembler একবারে Object code বানায়।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0029",
+   "kind": null,
+   "title": "মিড লেভেল ভাষা",
+   "body": "ভুল: মিড লেভেল: FORTRAN, COBOL।\nসঠিক: FORTRAN, COBOL = উচ্চস্তরের; মিড লেভেল = C।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0030",
+   "kind": null,
+   "title": "Interpreter-এর উদাহরণ",
+   "body": "ভুল: Interpreter উদাহরণে Pascal।\nসঠিক: Pascal কম্পাইলড; Interpreter = Python, BASIC।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0031",
+   "kind": null,
+   "title": "ফ্লোচার্টে সাবরুটিন প্রতীক",
+   "body": "ভুল: ফ্লোচার্টে নলাকার (Cylinder) = Subroutine।\nসঠিক: Subroutine = দুই পাশে দাগযুক্ত আয়তক্ষেত্র; Cylinder = Storage/Database।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0032",
+   "kind": null,
+   "title": "double-এর নির্ভুলতা",
+   "body": "ভুল: double = ৩৭০০০+ অঙ্ক।\nসঠিক: ~১৫–১৬ অঙ্ক নির্ভুলতা, পরিসর ~10³⁰⁸।"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0033",
+   "kind": null,
+   "title": "ধ্রুবক ঘোষণা",
+   "body": "ভুল: Pie = 3.1416;\nসঠিক: #define PI 3.1416 বা const float PI"
+  },
+  {
+   "id": "ict_1st_ch05_mistakes_0034",
+   "kind": null,
+   "title": "গ্রেডিং ছক",
+   "body": "ভুল: ≥80 → A+, ≥70 → A, ≥50 → A-, নইলে Fail।\nসঠিক: 80–100 A+, 70–79 A, 60–69 A-, 50–59 B, 40–49 C, 33–39 D, 0–32 F।"
+  }
+ ]
+}

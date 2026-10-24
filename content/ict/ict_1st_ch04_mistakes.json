@@ -1,0 +1,198 @@
+{
+ "sectionId": "ict_1st_ch04_mistakes",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "ict_1st_ch04_mistakes_0001",
+   "kind": null,
+   "title": "HTML একটি প্রোগ্রামিং ভাষা নয়",
+   "body": "ভুল: HTML একটি প্রোগ্রামিং ভাষা।\nসঠিক: HTML একটি Markup Language — এতে লজিক/শর্ত/লুপ নেই।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0002",
+   "kind": null,
+   "title": "Empty tag-এর closing নেই",
+   "body": "ভুল: <br></br>, <img></img>\nসঠিক: <br>, <img …> — Empty tag-এর closing নেই।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0003",
+   "kind": null,
+   "title": "title শুধু head-এ",
+   "body": "ভুল: <title> body-তে লেখা।\nসঠিক: <head><title>…</title></head> — title শুধু head-এর অংশ।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0004",
+   "kind": null,
+   "title": "attribute শুধু opening tag-এ",
+   "body": "ভুল: closing tag-এ attribute লেখা।\nসঠিক: <td align=\"center\">…</td> — attribute শুধু opening tag-এ বসে।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0005",
+   "kind": null,
+   "title": "caption টেবিলের ভিতরে",
+   "body": "ভুল: caption টেবিলের বাইরে (আগে) লেখা।\nসঠিক: <table><caption>… — caption টেবিলের অংশ, table-এর ভিতরে প্রথম লাইনে।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0006",
+   "kind": null,
+   "title": "rowspan ঘর আবার লেখা",
+   "body": "ভুল: rowspan করা ঘর আবার নিচের সারিতে লেখা।\nসঠিক: শুধু প্রথম সারিতে লিখবে — নইলে ঘর দ্বিগুণ হয়ে টেবিল ভেঙে যায়।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0007",
+   "kind": null,
+   "title": "ট্যাগ/অ্যাট্রিবিউটের বানান",
+   "body": "ভুল: hight, tittle, haef, vedio, bgcolour, text area\nসঠিক: height, title, href, video, bgcolor, textarea — ব্রাউজার ভুল বানান চেনে না।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0008",
+   "kind": null,
+   "title": "sub ও sup উল্টে ফেলা",
+   "body": "ভুল: H₂O-তে 2 উপরে লেখার জন্য sup।\nসঠিক: নিচে = sub, উপরে = sup।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0009",
+   "kind": null,
+   "title": "ol-এ start-এ বর্ণ",
+   "body": "ভুল: start=\"x\"\nসঠিক: start=\"24\" — start-এ বর্ণ চলে না, সবসময় সংখ্যা।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0010",
+   "kind": null,
+   "title": "Google ব্রাউজার নয়",
+   "body": "ভুল: Google একটি ব্রাউজার।\nসঠিক: Google = সার্চ ইঞ্জিন/কোম্পানি; ব্রাউজার = Google Chrome।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0011",
+   "kind": null,
+   "title": "URL-এর পূর্ণরূপ",
+   "body": "ভুল: Unifrom Resource Locator\nসঠিক: Uniform Resource Locator"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0012",
+   "kind": null,
+   "title": "ASP-এর পূর্ণরূপ",
+   "body": "ভুল: ASP = Active Server Process Pages\nসঠিক: ASP = Active Server Pages"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0013",
+   "kind": null,
+   "title": "Tag কী দ্বারা গঠিত",
+   "body": "ভুল: Tag কতগুলো \"keyboard\" দ্বারা গঠিত।\nসঠিক: Tag কতগুলো keyword দ্বারা গঠিত।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0014",
+   "kind": null,
+   "title": "সরকারি পোর্টালের ঠিকানা",
+   "body": "ভুল: bangladesh.gov\nসঠিক: bangladesh.gov.bd"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0015",
+   "kind": null,
+   "title": "সফলতা নিরূপণের সূচক",
+   "body": "ভুল: KIP অনুসারে সফলতা নিরূপণ।\nসঠিক: KPI (Key Performance Indicator)।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0016",
+   "kind": null,
+   "title": "হেডিং ট্যাগ বন্ধ করা",
+   "body": "ভুল: <h1>…</h2>\nসঠিক: <h1>…</h1>"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0017",
+   "kind": null,
+   "title": "br লেখার নিয়ম",
+   "body": "ভুল: br দুইভাবে: <br>, </br>\nসঠিক: <br> বা <br/>"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0018",
+   "kind": null,
+   "title": "বেগুনী ও Violet-এর কোড",
+   "body": "ভুল: Purple = #EE82EE\nসঠিক: Purple = #800080; #EE82EE = Violet"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0019",
+   "kind": null,
+   "title": "সবুজ ও Lime-এর কোড",
+   "body": "ভুল: Green = #00FF00\nসঠিক: Green = #008000; #00FF00 = Lime"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0020",
+   "kind": null,
+   "title": "নীল ও সাদার কোড",
+   "body": "ভুল: নীল = #00FF00; সাদা = #FFFFFFF\nসঠিক: নীল = #0000FF; সাদা = #FFFFFF"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0021",
+   "kind": null,
+   "title": "font size-এর মান",
+   "body": "ভুল: font +1→14, +2→16, +3→18; font size=\"20\"\nসঠিক: size 1–7, ডিফল্ট 3 (20 দিলে 7 ধরে)।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0022",
+   "kind": null,
+   "title": "sub list কোথায়",
+   "body": "ভুল: sub list li বন্ধের পরে।\nসঠিক: sub list parent li-এর ভিতরে।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0023",
+   "kind": null,
+   "title": "td-এর ডিফল্ট align",
+   "body": "ভুল: rowspan default top, colspan default left।\nসঠিক: td ডিফল্ট: আনুভূমিক left, উল্লম্ব middle।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0024",
+   "kind": null,
+   "title": "Network ID ও Host ID",
+   "body": "ভুল: ১ম ২ octet সবসময় Network ID।\nসঠিক: এটি উদাহরণ মাত্র; ক্লাস/সাবনেট ভেদে বদলায়।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0025",
+   "kind": null,
+   "title": "Attribute কোথায় থাকে",
+   "body": "ভুল: Attribute \"Start Tag-এ নির্দিষ্ট করে দেওয়া থাকে না\"।\nসঠিক: Attribute সবসময় Start Tag-এ থাকে।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0026",
+   "kind": null,
+   "title": "link ও meta Empty tag",
+   "body": "ভুল: <link>…</link>, <meta>…</meta>\nসঠিক: link, meta Empty tag — closing নেই।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0027",
+   "kind": null,
+   "title": "HTTP-এর ধরন",
+   "body": "ভুল: request respond protocol\nসঠিক: request–response protocol — ক্লায়েন্ট request পাঠায়, সার্ভার response ফেরত দেয়।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0028",
+   "kind": null,
+   "title": "MySQL-এর বানান",
+   "body": "ভুল: MSQL\nসঠিক: MySQL"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0029",
+   "kind": null,
+   "title": "ul-এর type",
+   "body": "ভুল: <ul style=\"circle\">\nসঠিক: <ul type=\"circle\">"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0030",
+   "kind": null,
+   "title": "select ও option",
+   "body": "ভুল: select-এর attribute Option।\nসঠিক: option একটি ট্যাগ; value তার attribute।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0031",
+   "kind": null,
+   "title": "Google Chrome একটি ব্রাউজার",
+   "body": "ভুল: \"Google, Chrome\" আলাদা ব্রাউজার।\nসঠিক: Google Chrome একটি ব্রাউজার।"
+  },
+  {
+   "id": "ict_1st_ch04_mistakes_0032",
+   "kind": null,
+   "title": "width-এ px",
+   "body": "ভুল: width=\"100px\"\nসঠিক: width=\"100\" (px লাগে না)।"
+  }
+ ]
+}

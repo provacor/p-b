@@ -589,6 +589,70 @@
     "ict_1st_ch05_simulation": {
       "file": "content/ict/ict_1st_ch05_simulation.json",
       "count": 1
+    },
+    "ict_1st_ch04_mcq": {
+      "file": "content/ict/ict_1st_ch04_mcq.json",
+      "count": 200
+    },
+    "ict_1st_ch04_cq": {
+      "file": "content/ict/ict_1st_ch04_cq.json",
+      "count": 22
+    },
+    "ict_1st_ch04_ka": {
+      "file": "content/ict/ict_1st_ch04_ka.json",
+      "count": 42
+    },
+    "ict_1st_ch04_kha": {
+      "file": "content/ict/ict_1st_ch04_kha.json",
+      "count": 52
+    },
+    "ict_1st_ch04_formula": {
+      "file": "content/ict/ict_1st_ch04_formula.json",
+      "count": 4
+    },
+    "ict_1st_ch04_concept": {
+      "file": "content/ict/ict_1st_ch04_concept.json",
+      "count": 91
+    },
+    "ict_1st_ch04_mistakes": {
+      "file": "content/ict/ict_1st_ch04_mistakes.json",
+      "count": 32
+    },
+    "ict_1st_ch04_revision": {
+      "file": "content/ict/ict_1st_ch04_revision.json",
+      "count": 9
+    },
+    "ict_1st_ch05_mcq": {
+      "file": "content/ict/ict_1st_ch05_mcq.json",
+      "count": 197
+    },
+    "ict_1st_ch05_cq": {
+      "file": "content/ict/ict_1st_ch05_cq.json",
+      "count": 32
+    },
+    "ict_1st_ch05_ka": {
+      "file": "content/ict/ict_1st_ch05_ka.json",
+      "count": 60
+    },
+    "ict_1st_ch05_kha": {
+      "file": "content/ict/ict_1st_ch05_kha.json",
+      "count": 60
+    },
+    "ict_1st_ch05_formula": {
+      "file": "content/ict/ict_1st_ch05_formula.json",
+      "count": 8
+    },
+    "ict_1st_ch05_concept": {
+      "file": "content/ict/ict_1st_ch05_concept.json",
+      "count": 73
+    },
+    "ict_1st_ch05_mistakes": {
+      "file": "content/ict/ict_1st_ch05_mistakes.json",
+      "count": 34
+    },
+    "ict_1st_ch05_revision": {
+      "file": "content/ict/ict_1st_ch05_revision.json",
+      "count": 15
     }
   }
 }

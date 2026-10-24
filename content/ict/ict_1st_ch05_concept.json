@@ -1,0 +1,517 @@
+{
+ "sectionId": "ict_1st_ch05_concept",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "ict_1st_ch05_concept_0001",
+   "kind": null,
+   "topic": "প্রোগ্রাম ও প্রোগ্রামিং ভাষা",
+   "title": "প্রোগ্রাম",
+   "body": "সমস্যা সমাধানে ধারাবাহিক নির্দেশের সমষ্টি — অপর নাম Software, Application (App)"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0002",
+   "kind": null,
+   "topic": "প্রোগ্রাম ও প্রোগ্রামিং ভাষা",
+   "title": "প্রোগ্রামিং ভাষা",
+   "body": "যে ভাষায় Program লেখা হয় — C, C++, C#, Java, Python, Basic, Fortran, Cobol"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0003",
+   "kind": null,
+   "topic": "প্রোগ্রাম ও প্রোগ্রামিং ভাষা",
+   "title": "A → F → C",
+   "body": "Algorithm (পরিকল্পনা) → Flowchart (নকশা) → C Coding (নির্মাণ)"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0004",
+   "kind": null,
+   "topic": "প্রোগ্রাম ও প্রোগ্রামিং ভাষা",
+   "title": "প্রবর্তক",
+   "body": "Ada Lovelace — Bernoulli Number-এর প্রোগ্রাম"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0005",
+   "kind": null,
+   "topic": "প্রোগ্রাম ও প্রোগ্রামিং ভাষা",
+   "title": "IPO",
+   "body": "Input → Process → Output"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0006",
+   "kind": null,
+   "topic": "কোড ও ভাষার স্তর",
+   "title": "Source code",
+   "body": "programming language-এ লেখা — উৎস প্রোগ্রাম"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0007",
+   "kind": null,
+   "topic": "কোড ও ভাষার স্তর",
+   "title": "Object code",
+   "body": "রূপান্তরের পর 0,1 কোড — বস্তু প্রোগ্রাম"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0008",
+   "kind": null,
+   "topic": "কোড ও ভাষার স্তর",
+   "title": "মেশিন বনাম উচ্চস্তর",
+   "body": "মেশিন: সরাসরি বোঝে, অনুবাদ লাগে না, কঠিন, ভুল বেশি • উচ্চস্তর: অনুবাদ লাগে, সহজ, ডিবাগ সহজ"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0009",
+   "kind": null,
+   "topic": "কোড ও ভাষার স্তর",
+   "title": "মিড লেভেল",
+   "body": "নিম্নস্তর ও উচ্চস্তর দুই গুণ — C"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0010",
+   "kind": null,
+   "topic": "কোড ও ভাষার স্তর",
+   "title": "কম্পিউটার সংগঠন",
+   "body": "Input → CPU (ALU + Control Unit + Memory) → Output"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0011",
+   "kind": null,
+   "topic": "কোড ও ভাষার স্তর",
+   "title": "মেমোরি",
+   "body": "Volatile: RAM • Non-volatile: ROM, HDD, SSD, DVD, USB"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0012",
+   "kind": null,
+   "topic": "৫ প্রজন্ম",
+   "title": "৫ প্রজন্ম",
+   "body": "মেশিন → অ্যাসেম্বলি → হাই → ভেরি হাই → ন্যাচারাল"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0013",
+   "kind": null,
+   "topic": "৫ প্রজন্ম",
+   "title": "1GL (1945–1950)",
+   "body": "Machine Language — 0 ও 1; দ্রুত, অল্প মেমোরি, যন্ত্র নির্ভর"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0014",
+   "kind": null,
+   "topic": "৫ প্রজন্ম",
+   "title": "2GL (1950–1960)",
+   "body": "Assembly — নেমোনিক (ADD, SUB, MOV); অনুবাদক Assembler; যন্ত্র নির্ভর"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0015",
+   "kind": null,
+   "topic": "৫ প্রজন্ম",
+   "title": "অ্যাসেম্বলি নির্দেশের ৪ অংশ",
+   "body": "Label → Op-code → Operand → Comment"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0016",
+   "kind": null,
+   "topic": "৫ প্রজন্ম",
+   "title": "3GL (1960–1970)",
+   "body": "High Level — Fortran, Basic, Pascal, Cobol, C, C++, Java; যন্ত্র নির্ভর নয়"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0017",
+   "kind": null,
+   "topic": "৫ প্রজন্ম",
+   "title": "4GL (1970–1980)",
+   "body": "Very High Level — ডেটাবেজ (SQL)"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0018",
+   "kind": null,
+   "topic": "৫ প্রজন্ম",
+   "title": "5GL (1980–বর্তমান)",
+   "body": "Natural Language — AI: PROLOG, LISP, Mercury"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0019",
+   "kind": null,
+   "topic": "অনুবাদক প্রোগ্রাম",
+   "title": "Assembler",
+   "body": "অ্যাসেম্বলি → মেশিন ভাষা"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0020",
+   "kind": null,
+   "topic": "অনুবাদক প্রোগ্রাম",
+   "title": "Compiler",
+   "body": "পুরো প্রোগ্রাম একসাথে • Object code • সেকেন্ডারি মেমোরিতে • বড়, বেশি মেমোরি, ধীর ডিবাগিং — C, C++"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0021",
+   "kind": null,
+   "topic": "অনুবাদক প্রোগ্রাম",
+   "title": "Interpreter",
+   "body": "লাইন-বাই-লাইন • ছোট, কম মেমোরি, ভুল সংশোধন সহজ, প্রতিবার অনুবাদ — Python, BASIC"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0022",
+   "kind": null,
+   "topic": "প্রোগ্রাম তৈরির ৭ ধাপ",
+   "title": "প্রোগ্রাম তৈরির ৭ ধাপ",
+   "body": "নির্দিষ্টকরণ → বিশ্লেষণ → ডিজাইন → কোডিং → বাস্তবায়ন → ডকুমেন্টেশন → রক্ষণাবেক্ষণ"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0023",
+   "kind": null,
+   "topic": "প্রোগ্রাম তৈরির ৭ ধাপ",
+   "title": "প্রোগ্রাম ডিজাইন",
+   "body": "অ্যালগরিদম ও ফ্লোচার্ট — সবচেয়ে গুরুত্বপূর্ণ ধাপ"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0024",
+   "kind": null,
+   "topic": "প্রোগ্রাম তৈরির ৭ ধাপ",
+   "title": "আদর্শ প্রোগ্রাম",
+   "body": "সহজ, কম মেমোরি, কম সময়, সম্প্রসারণযোগ্য, সহজে ডিবাগ"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0025",
+   "kind": null,
+   "topic": "প্রোগ্রাম তৈরির ৭ ধাপ",
+   "title": "ভুল",
+   "body": "Syntax (কম্পাইল হয় না) • Logical (চলে কিন্তু ভুল ফল) • Data/Runtime"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0026",
+   "kind": null,
+   "topic": "প্রোগ্রাম তৈরির ৭ ধাপ",
+   "title": "Bug ও Debugging",
+   "body": "প্রোগ্রামের ভুল • ভুল খুঁজে সংশোধন"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0027",
+   "kind": null,
+   "topic": "প্রোগ্রাম তৈরির ৭ ধাপ",
+   "title": "Dry Run",
+   "body": "কম্পিউটার ছাড়া হাতে-কলমে নমুনা ডেটা দিয়ে যাচাই"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0028",
+   "kind": null,
+   "topic": "অ্যালগরিদম ও ফ্লোচার্ট",
+   "title": "Algorithm",
+   "body": "ধারাবাহিক নির্দেশের লিখিত রূপ — Start → Input → Process → Output → End"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0029",
+   "kind": null,
+   "topic": "অ্যালগরিদম ও ফ্লোচার্ট",
+   "title": "Flowchart",
+   "body": "অ্যালগরিদমের চিত্ররূপ — প্রবাহের দিক বোঝা যায়"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0030",
+   "kind": null,
+   "topic": "অ্যালগরিদম ও ফ্লোচার্ট",
+   "title": "প্রতীক",
+   "body": "ডিম্ব = শুরু/শেষ • সামান্তরিক = Input/Output • আয়ত = Process • হীরা = সিদ্ধান্ত • বৃত্ত = সংযোগ • তীর = প্রবাহ • ষড়ভুজ = লুপ • দুই পাশে দাগযুক্ত আয়ত = সাবরুটিন"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0031",
+   "kind": null,
+   "topic": "অ্যালগরিদম ও ফ্লোচার্ট",
+   "title": "৫ মৌলিক ছাঁচ",
+   "body": "Sequential • Decision • Looping • Jump/Branching • Subroutine"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0032",
+   "kind": null,
+   "topic": "সমাধানকৃত সমস্যা",
+   "title": "সূত্রভিত্তিক",
+   "body": "ত্রিভুজ ½bh • বৃত্ত 3.14×r×r • যোগফল/গড় • হেরন s=(a+b+c)/2"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0033",
+   "kind": null,
+   "topic": "সমাধানকৃত সমস্যা",
+   "title": "তাপমাত্রা",
+   "body": "C/5 = (F−32)/9 = (K−273)/5 • F = 9*C/5 + 32 • C = 5*(F−32)/9"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0034",
+   "kind": null,
+   "topic": "সমাধানকৃত সমস্যা",
+   "title": "সিদ্ধান্ত",
+   "body": "বৃহত্তম/ক্ষুদ্রতম (> ↔ <) • ধনাত্মক/ঋণাত্মক/শূন্য • জোড়-বিজোড় (N%2) • ছোট/বড় হাতের অক্ষর"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0035",
+   "kind": null,
+   "topic": "সমাধানকৃত সমস্যা",
+   "title": "Leap Year",
+   "body": "(Y%400==0) || (Y%4==0 && Y%100!=0)"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0036",
+   "kind": null,
+   "topic": "সমাধানকৃত সমস্যা",
+   "title": "GCD",
+   "body": "R = L%S; L = S; S = R — যতক্ষণ R ≠ 0"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0037",
+   "kind": null,
+   "topic": "সমাধানকৃত সমস্যা",
+   "title": "Factorial",
+   "body": "S = 1 থেকে শুরু; S = S*K"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0038",
+   "kind": null,
+   "topic": "সমাধানকৃত সমস্যা",
+   "title": "লুপ",
+   "body": "শুরু, শর্ত, কাজ, বাড়াও — ১–১০০ (i=1,i+1) • জোড় (i=2,i+2) • বিজোড় (i=1,i+2)"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0039",
+   "kind": null,
+   "topic": "সমাধানকৃত সমস্যা",
+   "title": "সিরিজ-সমষ্টি",
+   "body": "যোগে S=0, গুণে S=1 • ১ম পদ = শুরু • ২য় − ১ম = step • বর্গ K*K, ঘন K*K*K"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0040",
+   "kind": null,
+   "topic": "C ভাষা",
+   "title": "ইতিহাস",
+   "body": "Dennis Ritchie, 1972, Bell Labs • BCPL → B → C • মিড লেভেল • Compiler"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0041",
+   "kind": null,
+   "topic": "C ভাষা",
+   "title": "বৈশিষ্ট্য",
+   "body": "main() থেকে শুরু • { } • প্রতি লাইনে ; • case sensitive • Portable"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0042",
+   "kind": null,
+   "topic": "C ভাষা",
+   "title": "গঠনের ৬ অংশ",
+   "body": "Documentation → Link → Definition → Global → main() → Subprogram"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0043",
+   "kind": null,
+   "topic": "C ভাষা",
+   "title": "হেডার ফাইল",
+   "body": "stdio.h (printf, scanf) • conio.h • math.h (pow, sqrt, cbrt, fabs, sin, log) • string.h • stdlib.h (abs)"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0044",
+   "kind": null,
+   "topic": "C ভাষা",
+   "title": "main-এর রূপ",
+   "body": "main() • void main() • int main() — return 0;"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0045",
+   "kind": null,
+   "topic": "ডেটা টাইপ, চলক, ধ্রুবক",
+   "title": "ডেটা টাইপ",
+   "body": "char 1 byte %c • int 2 byte (বোর্ড; gcc 4) %d • float 4 byte %f • double 8 byte %lf"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0046",
+   "kind": null,
+   "topic": "ডেটা টাইপ, চলক, ধ্রুবক",
+   "title": "শ্রেণিবিভাগ",
+   "body": "Built-in (char, int, float, double) • User-defined (structure, union, enum) • Derived (Array, Pointer, Function)"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0047",
+   "kind": null,
+   "topic": "ডেটা টাইপ, চলক, ধ্রুবক",
+   "title": "চলক",
+   "body": "মান পরিবর্তনশীল — int a = 10;"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0048",
+   "kind": null,
+   "topic": "ডেটা টাইপ, চলক, ধ্রুবক",
+   "title": "ধ্রুবক",
+   "body": "মান অপরিবর্তিত — #define PI 3.1416 বা const float PI"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0049",
+   "kind": null,
+   "topic": "ডেটা টাইপ, চলক, ধ্রুবক",
+   "title": "নামকরণের নিয়ম",
+   "body": "অক্ষর/_ দিয়ে শুরু • A-Z a-z 0-9 _ • স্পেস/চিহ্ন/keyword নিষেধ • সর্বোচ্চ ৩১ অক্ষর"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0050",
+   "kind": null,
+   "topic": "ইনপুট-আউটপুট",
+   "title": "Format specifier",
+   "body": "%d int • %f float • %c char • %lf double • %s string"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0051",
+   "kind": null,
+   "topic": "ইনপুট-আউটপুট",
+   "title": "scanf",
+   "body": "চলকের আগে & (ঠিকানা) — scanf(\"%d\", &a);"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0052",
+   "kind": null,
+   "topic": "ইনপুট-আউটপুট",
+   "title": "printf",
+   "body": "& লাগে না — printf(\"%d\", a); • %.2f দুই দশমিক"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0053",
+   "kind": null,
+   "topic": "ইনপুট-আউটপুট",
+   "title": "Escape sequence",
+   "body": "\\n নতুন লাইন • \\t ট্যাব • \\\" কোটেশন • \\\\ ব্যাকস্ল্যাশ • \\0 null"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0054",
+   "kind": null,
+   "topic": "ইনপুট-আউটপুট",
+   "title": "Comment",
+   "body": "// এক লাইন • /* … */ বহু লাইন"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0055",
+   "kind": null,
+   "topic": "অপারেটর",
+   "title": "অপারেটর",
+   "body": "Sum = a + b — + অপারেটর, a, b অপারেন্ড"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0056",
+   "kind": null,
+   "topic": "অপারেটর",
+   "title": "প্রকার",
+   "body": "Arithmetic + − * / % • Relational < <= > >= == != • Logical && || ! • Assignment = += −= • ++ −− • Bitwise & | ^ ~ << >>"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0057",
+   "kind": null,
+   "topic": "অপারেটর",
+   "title": "Unary/Binary/Ternary",
+   "body": "১টি / ২টি / ৩টি operand — (a>b) ? a : b"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0058",
+   "kind": null,
+   "topic": "অপারেটর",
+   "title": "ভাগ",
+   "body": "int/int = int: 17/5 = 3 • 17%5 = 2 • দশমিক চাইলে 3.0"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0059",
+   "kind": null,
+   "topic": "অপারেটর",
+   "title": "i++ বনাম ++i",
+   "body": "Post: আগে ব্যবহার পরে বাড়ে • Pre: আগে বাড়ে"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0060",
+   "kind": null,
+   "topic": "অপারেটর",
+   "title": "শিফট",
+   "body": "<<n = ×2ⁿ • >>n = ÷2ⁿ"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0061",
+   "kind": null,
+   "topic": "অপারেটর",
+   "title": "গাণিতিক → C",
+   "body": "× → * • aᵐ → pow(a,m) • √x → sqrt(x) • = তুলনা → =="
+  },
+  {
+   "id": "ict_1st_ch05_concept_0062",
+   "kind": null,
+   "topic": "শর্ত ও লুপ",
+   "title": "if / if-else",
+   "body": "শর্ত সত্য হলে এক কাজ, মিথ্যা হলে অন্য"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0063",
+   "kind": null,
+   "topic": "শর্ত ও লুপ",
+   "title": "else-if ladder",
+   "body": "ধারাবাহিক বহু শর্ত — গ্রেড: 80 A+, 70 A, 60 A-, 50 B, 40 C, 33 D, নইলে F"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0064",
+   "kind": null,
+   "topic": "শর্ত ও লুপ",
+   "title": "switch",
+   "body": "int/char চলকের নির্দিষ্ট মান • প্রতি case-এ break, নইলে fall-through"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0065",
+   "kind": null,
+   "topic": "শর্ত ও লুপ",
+   "title": "while",
+   "body": "শর্ত আগে — ০ বার চলতে পারে (Entry-controlled)"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0066",
+   "kind": null,
+   "topic": "শর্ত ও লুপ",
+   "title": "do-while",
+   "body": "body আগে — কমপক্ষে ১ বার; শেষে ;"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0067",
+   "kind": null,
+   "topic": "শর্ত ও লুপ",
+   "title": "for",
+   "body": "for(init; condition; update) — ঠিক ২টি সেমিকোলন"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0068",
+   "kind": null,
+   "topic": "শর্ত ও লুপ",
+   "title": "break বনাম continue",
+   "body": "break = লুপ থেকে বের • continue = এই ধাপ বাদ"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0069",
+   "kind": null,
+   "topic": "শর্ত ও লুপ",
+   "title": "Infinite loop",
+   "body": "শর্ত সবসময় সত্য — while(1), for(;;)"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0070",
+   "kind": null,
+   "topic": "ফাংশন, অ্যারে, স্ট্রিং",
+   "title": "Function",
+   "body": "Library (printf, sqrt) • User-defined • void = কিছু ফেরত দেয় না"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0071",
+   "kind": null,
+   "topic": "ফাংশন, অ্যারে, স্ট্রিং",
+   "title": "Array",
+   "body": "একই ধরনের ডেটার সংগ্রহ — int A[10] → index 0–9"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0072",
+   "kind": null,
+   "topic": "ফাংশন, অ্যারে, স্ট্রিং",
+   "title": "2D Array",
+   "body": "int matrix[2][3] → ২ সারি × ৩ কলাম"
+  },
+  {
+   "id": "ict_1st_ch05_concept_0073",
+   "kind": null,
+   "topic": "ফাংশন, অ্যারে, স্ট্রিং",
+   "title": "String",
+   "body": "char-এর Array — শেষে \\0, %s"
+  }
+ ]
+}
