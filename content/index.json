@@ -733,6 +733,14 @@
     "english_2nd_completing_sentence_revision": {
       "file": "content/english/english_2nd_completing_sentence_revision.json",
       "count": 59
+    },
+    "physics_1st_ch06_notes": {
+      "file": "content/physics/physics_1st_ch06_notes.json",
+      "count": 1
+    },
+    "physics_1st_ch06_simulation": {
+      "file": "content/physics/physics_1st_ch06_simulation.json",
+      "count": 1
     }
   }
 }

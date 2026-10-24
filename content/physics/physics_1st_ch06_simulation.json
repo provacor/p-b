@@ -1,0 +1,13 @@
+{
+  "sectionId": "physics_1st_ch06_simulation",
+  "updated": "2026-10-24",
+  "items": [
+    {
+      "id": "physics_1st_ch06_simulation_0001",
+      "kind": null,
+      "title": "মহাকর্ষ ল্যাব — ১০টি সিমুলেশন (মহাকর্ষ সূত্র · পড়ন্ত বস্তু · গ্রহের g · উচ্চতা ও গভীরতা · অক্ষাংশ ও ঘূর্ণন · প্রাবল্য ও বিভব · নিরপেক্ষ বিন্দু · মুক্তিবেগ · কৃত্রিম উপগ্রহ · কেপলারের সূত্র)",
+      "format": "html",
+      "file": "content/files/physics_1st_ch06_simulation/gravitation-lab.html"
+    }
+  ]
+}

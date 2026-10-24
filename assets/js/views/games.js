@@ -1,10 +1,10 @@
 // Game zone screens: all chapters (#/games), a chapter's hub (#/games/<ch>), one topic's games
 // for a content type (#/games/<ch>/<topic>/<source>), and the play screen (#/play/<ch>/<topic>/<mode>).
 
-import { icon } from '../icons.js?v=202610241225';
-import { esc, ring, bar, chapterEyebrow, chapterNo, pad2, emptyState } from '../components.js?v=202610241225';
-import { topicsOf, topicName, questionsOf, recallOf, ordersOf, factIds, sourcesOf, hasGameData, SOURCES, sourceMeta } from '../gamedata.js?v=202610241225';
-import { MODES, SPECIAL, modeCount, levelsOf, levelKey, levelUnlocked, starsOf, bestOf, isMastered, playerLevel, xp, soundOn, startGame, bn, parseMode, modeKey } from '../games.js?v=202610241225';
+import { icon } from '../icons.js?v=202610241252';
+import { esc, ring, bar, chapterEyebrow, chapterNo, pad2, emptyState } from '../components.js?v=202610241252';
+import { topicsOf, topicName, questionsOf, recallOf, ordersOf, factIds, sourcesOf, hasGameData, SOURCES, sourceMeta } from '../gamedata.js?v=202610241252';
+import { MODES, SPECIAL, modeCount, levelsOf, levelKey, levelUnlocked, starsOf, bestOf, isMastered, playerLevel, xp, soundOn, startGame, bn, parseMode, modeKey } from '../games.js?v=202610241252';
 
 export const hasGames = (ch) => ch?.level === 'chapter' && hasGameData(ch.id);
 
