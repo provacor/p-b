@@ -1,0 +1,101 @@
+{
+ "sectionId": "english_2nd_narration_revision",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "english_2nd_narration_revision_0001",
+   "kind": null,
+   "title": "৫ ধাপের Master Shortcut — যেকোনো Narration প্রশ্ন সমাধানের উপায়",
+   "body": "① বাক্যের ধরন চেনো: তথ্য/ঘটনা → Assertive (Rule ৫); প্রশ্ন (?) → Interrogative (Rule ৬); আদেশ/অনুরোধ/Let’s → Imperative (Rule ৭); May/Long live → Optative (Rule ৮); Alas/What/How/! → Exclamatory (Rule ৯)।\n② Reporting verb ঠিক করো (Rule ১): said to → told; প্রশ্নে asked; আদেশে ordered/advised/requested; কামনায় prayed/wished; বিস্ময়ে exclaimed with …।\n③ Connector বসাও: Assertive → that; Yes/No → if/whether; Wh → সেই wh-word; Imperative → to (Negative → not to); Exclamatory → that।\n④ তিন জিনিস মেলাও: Person (১ম→Subject, ২য়→Object, ৩য়→অপরিবর্তিত — Rule ২), Tense (Reporting verb Past হলে এক ধাপ পেছনে — Rule ৩), সময়/স্থান (now→then, here→there — Rule ৪)।\n⑤ বিশেষ শব্দ দেখো (Rule ১০, ১১): Must, Thank you, Good morning, Sorry, Sir, By Allah, Yes/No উত্তর। তারপর বাক্য জোরে পড়ে সবুজ উত্তর মিলাও।"
+  },
+  {
+   "id": "english_2nd_narration_revision_0002",
+   "kind": null,
+   "title": "Reporting Verb বদল (say / tell)",
+   "body": "চেনার কৌশল: Reporting verb-এর পরে to থাকলে (said to) Assertive বাক্যে told লেখো। Question হলে asked / enquired of, Imperative হলে told / ordered / advised / requested, Optative হলে prayed / wished, Exclamatory হলে exclaimed with joy/sorrow।\nমনে রাখার ট্রিক: ছড়া: “SAID TO গেলে TOLD হয়, TO আর থাকে না; SAY-এর পরে OBJECT নেই, TELL-এর পরে চাই-ই চাই!”",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_revision_0003",
+   "kind": null,
+   "title": "Pronoun (Person) বদল",
+   "body": "চেনার কৌশল: ১ম–২য়–৩য় ক্রম মনে রাখো: ১ম person = আমি (বক্তার নিজের) → বক্তার সঙ্গে মেলাও; ২য় person = তুমি → শ্রোতার সঙ্গে মেলাও; ৩য় person = অন্য কেউ → বদলাবে না। Proper noun থাকলে pronoun-এর পাশে (A)/(S) চিহ্ন দিয়ে বোঝাও কে কাকে।\nমনে রাখার ট্রিক: ছড়া: “১ম SUBJECT-এর, ২য় OBJECT-এর, ৩য় নিজে নিজে; তিনের নিয়ম মনে রাখলে ভুল হবে না কোনোদিনে!”",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_revision_0004",
+   "kind": null,
+   "title": "Tense বদল",
+   "body": "চেনার কৌশল: ধাপ ১: Reporting verb দেখো। Present/Future → থামো, শুধু person বদলাও। Past → ধাপ ২: reported verb-কে এক ধাপ past-এ নাও। ধাপ ৩: বিশেষ ক্ষেত্র — চিরন্তন সত্য (the sun rises), Unreal past (wish, would rather, it is time), When-clause-এর Past Indefinite/Continuous, Past Perfect — এগুলো ছুঁয়ো না।\nমনে রাখার ট্রিক: ছড়া: “PAST এলে পেছনে যাও — AM IS WAS, HAVE হয় HAD; PAST PERFECT থাকে স্থির, সত্যি কথা বদলায় না ভাই!”",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_revision_0005",
+   "kind": null,
+   "title": "সময় ও স্থানের শব্দ বদল",
+   "body": "চেনার কৌশল: বাক্যে now / here / this / today / tomorrow / yesterday / ago / last দেখলে এই Rule-এ নজর দাও। this + noun (adjective) → the + noun; একা this → it; these subject → they, object → them। here-এর অর্থ বুঝে phrase-ও হয় (stay here → stay with him)।\nমনে রাখার ট্রিক: ছড়া: “NOW-এর THEN, HERE-এর THERE; TODAY-এর THAT DAY, TOMORROW NEXT DAY ভাই!”",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_revision_0006",
+   "kind": null,
+   "title": "Assertive Sentence (বিবৃতিমূলক বাক্য)",
+   "body": "চেনার কৌশল: বাক্য যদি ঘটনা বা তথ্য জানায় (প্রশ্ন বা আদেশ নয়) → Assertive → that। had better থাকলে অপরিবর্তিত (বা advise to); might (সম্ভাবনা) অপরিবর্তিত, কিন্তু request হলে asked … to; ought to/should উপদেশ হলে advised … to; If I were you → advised … to; used to, could অপরিবর্তিত।\nমনে রাখার ট্রিক: ছড়া: “ঘটনা বললে THAT বসে — Tense, Person, Time মিলাও; HAD BETTER, USED TO, COULD, ছেড়ে দাও!”",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_revision_0007",
+   "kind": null,
+   "title": "Interrogative Sentence (প্রশ্নবোধক বাক্য)",
+   "body": "চেনার কৌশল: প্রশ্নের শুরুতে auxiliary (do/does/is/are/will/can) → if/whether; শুরুতে wh-word → সেই wh-word; Can you … please? বা Could you …? → অনুরোধ → asked … to; Shall I bring…? → offered; Shall we …? → suggested; Will you stand still? (আদেশ) → told/ordered … to; Would you come for lunch? → invited; ছোট tag (aren’t you?) → asked whether/if it was true that …।\nমনে রাখার ট্রিক: ছড়া: “AUX শুরু IF-WHETHER, WH থাকলে WH-ই চল; ? বাদ, সোজা order — SUBJECT আগে, VERB তার পর!”",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_revision_0008",
+   "kind": null,
+   "title": "Imperative Sentence (আদেশ / অনুরোধ / উপদেশ)",
+   "body": "চেনার কৌশল: বাক্য Verb-এর V₁ দিয়ে শুরু (Do, Study, Go…) বা Please থাকলে → Imperative। Order/command → ordered/commanded; Please → requested; উপদেশ → advised; Negative (Don’t, Never) → not to; Let’s → suggested/proposed।\nমনে রাখার ট্রিক: ছড়া: “THAT নয়, TO বসাও; DON’T গেলে NOT TO পাও; LET’S এলে PROPOSE করো, ভুল হবে না আর কখনও!”",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_revision_0009",
+   "kind": null,
+   "title": "Optative Sentence (কামনা / প্রার্থনা)",
+   "body": "চেনার কৌশল: বাক্যের শুরুতে May থাকলে Optative। Allah/God-কে নিয়ে প্রার্থনা হলে prayed, সাধারণ শুভকামনায় wished। reported speech-এ may → might।\nমনে রাখার ট্রিক: ছড়া: “MAY থাকলে PRAYED/WISHED, THAT বসাও, MIGHT লেখো; কামনার বাক্য এমনই — এটা-ই মনে রেখো!”",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_revision_0010",
+   "kind": null,
+   "title": "Exclamatory Sentence (বিস্ময়সূচক বাক্য)",
+   "body": "চেনার কৌশল: বাক্যে ! চিহ্ন এবং Alas, Hurrah, Bravo, What a…, How… থাকলে Exclamatory। Alas → sorrow, Hurrah/Bravo → joy/applauded, What/How → very/great, Happy Eid/Good luck → wished, Welcome → welcomed, Damn! → swore।\nমনে রাখার ট্রিক: ছড়া: “ALAS-এ SORROW, HURRAH-এ JOY; WHAT/HOW-এর জায়গায় VERY বসাও, কাজ শেষ, ভাই-বোন!”",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_revision_0011",
+   "kind": null,
+   "title": "Must ও বিশেষ শব্দ (Thank you, Good-bye…)",
+   "body": "চেনার কৌশল: Must-এর পরে কাজটা এখনকার প্রয়োজন হলে had to; নৈতিক নিয়ম (obey your parents) হলে must থাকে। Direct-এর পুরো বাক্যটা শুধু Thank you / Good-bye / Good morning হলে verb নিজেই বদলে যায়, that বসে না।\nমনে রাখার ট্রিক: ছড়া: “MUST-এর PAST নেই, HAD TO ধার করে; নিয়মের MUST নড়ে না, নীতির কথা তাই রয়ে যায় ভাই!”",
+   "topic": "পর্ব ৩ — অতিরিক্ত নিয়ম — Must, বিশেষ শব্দ ও Passage Narration"
+  },
+  {
+   "id": "english_2nd_narration_revision_0012",
+   "kind": null,
+   "title": "অতিরিক্ত নিয়ম ও Passage Narration",
+   "body": "চেনার কৌশল: নির্দিষ্ট কিছু শব্দ দেখলেই নিয়ম চেনো — By Allah → Swearing; Sir → politely; Sorry → expressed regret; Congratulation → congratulated; Yes/No → replied that…; ?-সহ assertive → Being surprised।\nমনে রাখার ট্রিক: ছড়া: “THANK-এ THANKED, SORRY-তে REGRET; SIR-এ POLITELY, ঠিক মনে রেখো সবটা-ই কিন্তু!”",
+   "topic": "পর্ব ৩ — অতিরিক্ত নিয়ম — Must, বিশেষ শব্দ ও Passage Narration"
+  },
+  {
+   "id": "english_2nd_narration_revision_0013",
+   "kind": null,
+   "title": "দ্রুত ছক — বাক্য থেকে Reporting verb ও Connector",
+   "body": "Direct-এর ধরন: Assertive\nReporting verb: said / told\nConnector: that\n\nDirect-এর ধরন: Yes/No Question\nReporting verb: asked / enquired of\nConnector: if / whether\n\nDirect-এর ধরন: Wh-Question\nReporting verb: asked / wanted to know\nConnector: wh-word\n\nDirect-এর ধরন: Order / Request / Advice\nReporting verb: ordered / requested / advised\nConnector: to + V₁ (not to)\n\nDirect-এর ধরন: Let’s…\nReporting verb: suggested / proposed\nConnector: V-ing বা that … should\n\nDirect-এর ধরন: May … (Optative)\nReporting verb: prayed / wished\nConnector: that … might\n\nDirect-এর ধরন: Alas / What / How (Exclamatory)\nReporting verb: exclaimed with joy/sorrow/surprise\nConnector: that … very/great"
+  },
+  {
+   "id": "english_2nd_narration_revision_0014",
+   "kind": null,
+   "title": "Rule ও প্রশ্ন-সংখ্যা",
+   "body": "Rule: ১\nবিষয়: Reporting Verb বদল (say / tell)\nপ্রশ্ন: ৬\n\nRule: ২\nবিষয়: Pronoun (Person) বদল\nপ্রশ্ন: ১৩\n\nRule: ৩\nবিষয়: Tense বদল\nপ্রশ্ন: ৪২\n\nRule: ৪\nবিষয়: সময় ও স্থানের শব্দ বদল\nপ্রশ্ন: ১৮\n\nRule: ৫\nবিষয়: Assertive Sentence (বিবৃতিমূলক বাক্য)\nপ্রশ্ন: ৩৮\n\nRule: ৬\nবিষয়: Interrogative Sentence (প্রশ্নবোধক বাক্য)\nপ্রশ্ন: ৪১\n\nRule: ৭\nবিষয়: Imperative Sentence (আদেশ / অনুরোধ / উপদেশ)\nপ্রশ্ন: ৩০\n\nRule: ৮\nবিষয়: Optative Sentence (কামনা / প্রার্থনা)\nপ্রশ্ন: ৬\n\nRule: ৯\nবিষয়: Exclamatory Sentence (বিস্ময়সূচক বাক্য)\nপ্রশ্ন: ৪১\n\nRule: ১০\nবিষয়: Must ও বিশেষ শব্দ (Thank you, Good-bye…)\nপ্রশ্ন: ১৭\n\nRule: ১১\nবিষয়: অতিরিক্ত নিয়ম ও Passage Narration\nপ্রশ্ন: ৪৪"
+  }
+ ]
+}

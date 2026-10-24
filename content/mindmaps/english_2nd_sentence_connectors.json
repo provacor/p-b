@@ -1,0 +1,106 @@
+{
+ "chapterId": "english_2nd_sentence_connectors",
+ "source": "english_2nd_sentence_connectors_notes_0001",
+ "updated": "2026-10-24",
+ "note": "Built from the chapter's notes PDF.",
+ "root": {
+  "text": "Sentence Connectors",
+  "children": [
+   {
+    "text": "সংযোজন ও বৈসাদৃশ্য (Addition • Contrast)",
+    "children": [
+     {
+      "text": "সংযোজন / অন্তর্ভুক্তিকরণ (Addition)",
+      "hint": "ফাঁকার আগের ও পরের অংশ একই দিকের (positive+positive) হলে যোগের Connector। শুরুতে ফাঁকা + কমা (,) → Moreover / Furthermore / In addition / Besides। দুই শব্দের মাঝে → and / or / as well as। ফাঁকার আগে both/either/neither/not only থাকলে জোড়া পূরণ করো: and / or / nor / but also।",
+      "id": "n.1.1"
+     },
+     {
+      "text": "বৈসাদৃশ্য / বিরোধ (Contrast)",
+      "hint": "ফাঁকার আগে-পরে উল্টো অর্থ (rich ↔ poor, passed ↔ failed) → while / whereas / but / however। 'যদিও… তবুও' ভাব → though / although (একই বাক্যে) বা nevertheless / yet / still (পরের বাক্যে)। ফাঁকার পরে of that / this থাকলে → instead / rather।",
+      "id": "n.1.2"
+     }
+    ],
+    "id": "n.1"
+   },
+   {
+    "text": "উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)",
+    "children": [
+     {
+      "text": "উদ্দেশ্য (Purpose)",
+      "hint": "ফাঁকার পরে subject + modal (can/may/could) → so that / in order that। ফাঁকার পরে to + verb → in order (to)। V-ing থাকলে → with a view to।",
+      "id": "n.2.1"
+     },
+     {
+      "text": "শর্ত (Condition)",
+      "hint": "'নইলে / তা না হলে' অর্থ, ফাঁকার আগে ; (সেমিকোলন) → otherwise। বাক্যে negative অর্থ থাকলেও ক্রিয়া affirmative → unless। 'পর্যন্ত' → until / till। বাক্যের শুরুতে 'যদি' → if।",
+      "id": "n.2.2"
+     },
+     {
+      "text": "সময় ও স্থান (Time & Place)",
+      "hint": "ক্রম-ভাব (প্রথমে, তারপর, শেষে) → first of all / at first / secondly / then / finally / at last। 'এখন/বর্তমানে' → now / nowadays / at present। 'কখনো কখনো, প্রায়ই' → sometimes / often / usually। দুটি ঘটনা একসঙ্গে চললে → while / as। স্থান-নির্দেশ → where / wherever।",
+      "id": "n.2.3"
+     }
+    ],
+    "id": "n.2"
+   },
+   {
+    "text": "কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)",
+    "children": [
+     {
+      "text": "কারণ (Cause / Reason)",
+      "hint": "ফাঁকার পরে S + V (clause) → because / since / as। ফাঁকার পরে noun / V-ing → because of / due to / owing to। 'কেন' অর্থ → why।",
+      "id": "n.3.1"
+     },
+     {
+      "text": "ফলাফল (Result)",
+      "hint": "প্রথম অংশ কারণ, দ্বিতীয় অংশ ফল — মাঝের ফাঁকা → so / therefore / hence / thus। ফাঁকার আগে 'as' না থাকলে এবং 'ফলে/তাই' অর্থ → as a result / consequently। 'এইভাবে' → in this way / thus। 'এ কারণেই' → that's why / for this reason।",
+      "id": "n.3.2"
+     },
+     {
+      "text": "উদাহরণ (Exemplification)",
+      "hint": "ফাঁকার পরে পূর্ণ বাক্য (কমাসহ) → for example / for instance। ফাঁকার পরে শুধু noun-এর তালিকা → such as / like। 'বিশেষ করে' অর্থ → especially / particularly।",
+      "id": "n.3.3"
+     },
+     {
+      "text": "ব্যাখ্যা (Explanation)",
+      "hint": "ফাঁকার পরে আগের কথাই সহজ করে বলা হলে → that is / in other words।",
+      "id": "n.3.4"
+     }
+    ],
+    "id": "n.3"
+   },
+   {
+    "text": "গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)",
+    "children": [
+     {
+      "text": "গুরুত্ব ও জোর (Emphasis)",
+      "hint": "ফাঁকার আগের বাক্যের তথ্যকে আরও জোরালো করে বললে → indeed / in fact / actually। 'সত্যি কথা' → truly speaking / to tell the truth। 'নিশ্চিতভাবে' → undoubtedly / obviously।",
+      "id": "n.4.1"
+     },
+     {
+      "text": "সারমর্ম (Summation)",
+      "hint": "অনুচ্ছেদের একেবারে শেষ বাক্যে ফাঁকা থাকলে প্রায়ই → above all / in short / to conclude / on the whole।",
+      "id": "n.4.2"
+     },
+     {
+      "text": "ধরন / তুলনা (Manner & Type)",
+      "hint": "ফাঁকার আগে such থাকলে উত্তর সাধারণত as।",
+      "id": "n.4.3"
+     },
+     {
+      "text": "Relative ও অন্যান্য Connector (that, who, which, what, whether)",
+      "hint": "ফাঁকার আগে ব্যক্তি → who/whom/whose; বস্তু → which/that। 'কি না' অর্থ → whether / if। 'যা কিছু ' → what / whatever।",
+      "id": "n.4.4"
+     },
+     {
+      "text": "অন্যান্য Adverb ও Phrase Connector",
+      "hint": "আগের বাক্যের প্রতিক্রিয়া বা মনোভাব (দুঃখজনকভাবে, সৌভাগ্যবশত) → unfortunately / fortunately / surprisingly। অন্য কোনো Rule না মিললে এই Rule দেখো।",
+      "id": "n.4.5"
+     }
+    ],
+    "id": "n.4"
+   }
+  ],
+  "id": "n"
+ }
+}

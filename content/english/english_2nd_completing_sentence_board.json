@@ -1,0 +1,807 @@
+{
+ "sectionId": "english_2nd_completing_sentence_board",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "english_2nd_completing_sentence_board_0001",
+   "kind": null,
+   "question": "I met some of my school friends at the reunion. It was nearly ten years since ____.",
+   "answer": "we had met last",
+   "board": "ময়মনসিংহ বোর্ড ২০২৫",
+   "year": "2025",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0002",
+   "kind": null,
+   "question": "Rudaba could not recognise me at first. It was many years since ____.",
+   "answer": "we had seen each other",
+   "board": "সিলেট বোর্ড ২০২৫",
+   "year": "2025",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0003",
+   "kind": null,
+   "question": "Time flies very fast. Five years have passed since ____.",
+   "answer": "I went to my village home",
+   "board": "কুমিল্লা বোর্ড ২০২৫",
+   "year": "2025",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0004",
+   "kind": null,
+   "question": "I miss my maternal grandmother a lot. 15 years have passed since ____.",
+   "answer": "she passed away",
+   "board": "চট্টগ্রাম বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0005",
+   "kind": null,
+   "question": "My grandmother lives in a village. It is many years since ____.",
+   "answer": "I visited her last",
+   "board": "যশোর বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0006",
+   "kind": null,
+   "question": "My friend lived in New Zealand. It is many years since ____.",
+   "answer": "I met him last",
+   "board": "রাজশাহী বোর্ড ২০১৭",
+   "year": "2017",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0007",
+   "kind": null,
+   "question": "The train will start at 10 a.m. Now, it is 09:55 a.m. So, walk fast lest ____.",
+   "answer": "you should miss the train",
+   "board": "ঢাকা বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0008",
+   "kind": null,
+   "question": "Lock the door and keep the key in a safe place lest ____.",
+   "answer": "someone should find the key easily/you might lose the key",
+   "board": "ময়মনসিংহ বোর্ড ২০২৪ (+আরও ১ বার)",
+   "year": "2024",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0009",
+   "kind": null,
+   "question": "You should remember that if you do not work hard, you will have a chance to fail in the exam. Work hard lest ____.",
+   "answer": "you should fail in the exam",
+   "board": "দিনাজপুর বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0010",
+   "kind": null,
+   "question": "Study sincerely lest ____.",
+   "answer": "you might fail in the exam / you should cut a sorry figure in the exam",
+   "board": "চট্টগ্রাম বোর্ড ২০২৪ (+আরও ২ বার)",
+   "year": "2024",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0011",
+   "kind": null,
+   "question": "The girl returned home before evening lest ____.",
+   "answer": "she should/might face night stalkers",
+   "board": "বরিশাল বোর্ড ২০২৪ (+আরও ১ বার)",
+   "year": "2024",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0012",
+   "kind": null,
+   "question": "The old man is very weak. He walks very slowly lest ____.",
+   "answer": "he should fall down",
+   "board": "ময়মনসিংহ বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0013",
+   "kind": null,
+   "question": "The thief was afraid of police. He ran away lest ____.",
+   "answer": "he should be arrested",
+   "board": "রাজশাহী বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0014",
+   "kind": null,
+   "question": "They had to put on warm clothes so that ____.",
+   "answer": "they could keep their bodies warm / they could keep their bodies warm/they could protect themselves from coldness",
+   "board": "ঢাকা বোর্ড ২০২৫ (+আরও ১ বার)",
+   "year": "2025",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0015",
+   "kind": null,
+   "question": "They work hard so that ____.",
+   "answer": "they can grow a good amount of crops",
+   "board": "কুমিল্লা বোর্ড ২০২৫ (+আরও ১ বার)",
+   "year": "2025",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0016",
+   "kind": null,
+   "question": "Ayesha is a bright student. She studies hard so that ____.",
+   "answer": "she can make a good result",
+   "board": "ময়মনসিংহ বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0017",
+   "kind": null,
+   "question": "Early rising is good for health. You should rise early so that ____.",
+   "answer": "you can be healthy and active",
+   "board": "দিনাজপুর বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0018",
+   "kind": null,
+   "question": "Nurjahan studies medicine so that ____.",
+   "answer": "she can become a doctor",
+   "board": "চট্টগ্রাম বোর্ড ২০২৪ (+আরও ১ বার)",
+   "year": "2024",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0019",
+   "kind": null,
+   "question": "Industry is the key to success. We work hard so that ____.",
+   "answer": "we can shine/succeed in life",
+   "board": "কুমিল্লা বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0020",
+   "kind": null,
+   "question": "Milk is rich in food values. We should take milk everyday so that ____.",
+   "answer": "we can ensure our good health",
+   "board": "সিলেট বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0021",
+   "kind": null,
+   "question": "He studied hard so that ____.",
+   "answer": "he could make a brilliant result in the exam",
+   "board": "বরিশাল বোর্ড ২০২৪ (+আরও ১ বার)",
+   "year": "2024",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0022",
+   "kind": null,
+   "question": "Our freedom fighters risked their lives in the war of liberation so that ____.",
+   "answer": "they could make our country independent / they could make our country independent/Bangladesh could become an independent state",
+   "board": "বরিশাল বোর্ড ২০২৩ (+আরও ১ বার)",
+   "year": "2023",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0023",
+   "kind": null,
+   "question": "He went to London so that ____. He was devoted to study.",
+   "answer": "he could study there",
+   "board": "সিলেট বোর্ড ২০১৬",
+   "year": "2016",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0024",
+   "kind": null,
+   "question": "The book was so captivating that ____.",
+   "answer": "I couldn't sleep before finishing it",
+   "board": "ময়মনসিংহ বোর্ড ২০২৫ (+আরও ১ বার)",
+   "year": "2025",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0025",
+   "kind": null,
+   "question": "Mitu is so intelligent that ____.",
+   "answer": "she completes her every work in time",
+   "board": "বরিশাল বোর্ড ২০২৫",
+   "year": "2025",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0026",
+   "kind": null,
+   "question": "I'm so tired that ____. Please, take a rickshaw right now.",
+   "answer": "I can hardly walk",
+   "board": "কুমিল্লা বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0027",
+   "kind": null,
+   "question": "Time is so valuable that ____.",
+   "answer": "we must use it wisely / we should not waste it / we must use it wisely/we must not waste a single moment",
+   "board": "যশোর বোর্ড ২০২৪ (+আরও ৩ বার)",
+   "year": "2024",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0028",
+   "kind": null,
+   "question": "Kiran got a foreign scholarship. She was so happy that ____.",
+   "answer": "she could not hold her tears",
+   "board": "ময়মনসিংহ বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0029",
+   "kind": null,
+   "question": "Rima is a good singer. She sings so well that ____.",
+   "answer": "we cannot drive away our attention from her singing",
+   "board": "যশোর বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0030",
+   "kind": null,
+   "question": "Once there was a farmer who had three sons. They were so lazy that ____.",
+   "answer": "they passed most of their time without work",
+   "board": "রাজশাহী বোর্ড ২০১৭",
+   "year": "2017",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0031",
+   "kind": null,
+   "question": "We were supposed to start our journey the next day. But it was so hot that ____.",
+   "answer": "we could not bear the temperature",
+   "board": "যশোর বোর্ড ২০১৭",
+   "year": "2017",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0032",
+   "kind": null,
+   "question": "He is so short that ____.",
+   "answer": "he cannot reach the ceiling",
+   "board": "বরিশাল বোর্ড ২০১৬ (+আরও ১ বার)",
+   "year": "2016",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0033",
+   "kind": null,
+   "question": "If I win the lottery, ____.",
+   "answer": "I will buy a new car",
+   "board": "বরিশাল বোর্ড ২০২৫ (+আরও ১ বার)",
+   "year": "2025",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0034",
+   "kind": null,
+   "question": "If you do not learn English, ____.",
+   "answer": "you will lag behind",
+   "board": "বরিশাল বোর্ড ২০২৫",
+   "year": "2025",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0035",
+   "kind": null,
+   "question": "Mira sings very well. If she gets opportunity, ____.",
+   "answer": "she will/can show her talent on a larger stage/she will be a famous singer",
+   "board": "ঢাকা বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0036",
+   "kind": null,
+   "question": "Honesty is the best policy. If you maintain honesty, ____.",
+   "answer": "you will be respected",
+   "board": "ঢাকা বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0037",
+   "kind": null,
+   "question": "A student should not memorize any answer blindly. If he memorizes the answer without knowing the meaning, ____.",
+   "answer": "he will forget the content soon",
+   "board": "কুমিল্লা বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0038",
+   "kind": null,
+   "question": "If we lose the morning hours of life, ____.",
+   "answer": "we will suffer in the long run/we may fail to achieve success",
+   "board": "ঢাকা বোর্ড ২০২৩ (+আরও ১ বার)",
+   "year": "2023",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0039",
+   "kind": null,
+   "question": "If I were a rich man, ____.",
+   "answer": "I would help the poor",
+   "board": "যশোর বোর্ড ২০২৫ (+আরও ১ বার)",
+   "year": "2025",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0040",
+   "kind": null,
+   "question": "He likes photography very much. But unfortunately he has lost his camera. If he had the camera, ____.",
+   "answer": "he would take pictures",
+   "board": "কুমিল্লা বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0041",
+   "kind": null,
+   "question": "Many illiterate people do not have any knowledge of health. If they were educated, ____.",
+   "answer": "they could maintain a healthy lifestyle",
+   "board": "যশোর বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0042",
+   "kind": null,
+   "question": "The condition of Mitu's father was not well. If I knew his mobile number, ____.",
+   "answer": "I would call him to know his well-being",
+   "board": "ঢাকা বোর্ড ২০১৯",
+   "year": "2019",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0043",
+   "kind": null,
+   "question": "If ____, I would have joined your birthday celebration.",
+   "answer": "I had got some free time",
+   "board": "কুমিল্লা বোর্ড ২০২৫",
+   "year": "2025",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0044",
+   "kind": null,
+   "question": "She has got GPA 4.50. If ____ more seriously, she would have got GPA 5 in the exam.",
+   "answer": "she had studied",
+   "board": "চট্টগ্রাম বোর্ড ২০১৭",
+   "year": "2017",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0045",
+   "kind": null,
+   "question": "There was a little rain yesterday. If it had rained heavily, ____.",
+   "answer": "the roads would/might have been inundated/flooded",
+   "board": "ময়মনসিংহ বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0046",
+   "kind": null,
+   "question": "If I had been hungry, ____. But I am not hungry at all.",
+   "answer": "I would/could have eaten food",
+   "board": "রাজশাহী বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0047",
+   "kind": null,
+   "question": "Had I been a millionaire, ____.",
+   "answer": "I would have fulfilled my dream",
+   "board": "বরিশাল বোর্ড ২০২৫ (+আরও ১ বার)",
+   "year": "2025",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0048",
+   "kind": null,
+   "question": "Had he studied seriously, ____.",
+   "answer": "he would have got GPA 5.00",
+   "board": "ময়মনসিংহ বোর্ড ২০২৪ (+আরও ১ বার)",
+   "year": "2024",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0049",
+   "kind": null,
+   "question": "Had you sought my help, ____.",
+   "answer": "I would have definitely helped you / I would definitely have helped you",
+   "board": "ময়মনসিংহ বোর্ড ২০২৪ (+আরও ১ বার)",
+   "year": "2024",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0050",
+   "kind": null,
+   "question": "He was not hungry at all. Had he been hungry, ____.",
+   "answer": "he would have ordered a meal for himself",
+   "board": "বরিশাল বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0051",
+   "kind": null,
+   "question": "____ as if she were a mad girl.",
+   "answer": "She talks/She behaves/She shouts",
+   "board": "রাজশাহী বোর্ড ২০২৫ (+আরও ১ বার)",
+   "year": "2025",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0052",
+   "kind": null,
+   "question": "He is a quack but he talks to the patients as if ____.",
+   "answer": "he were an MBBS/were a qualified doctor",
+   "board": "বরিশাল বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0053",
+   "kind": null,
+   "question": "She spoke as if ____. She was actually a quack.",
+   "answer": "she had been a specialist",
+   "board": "রাজশাহী বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0054",
+   "kind": null,
+   "question": "He behaved as if ____.",
+   "answer": "he had won the lottery / he had been a celebrity / he had gone mad/he had not recognized me",
+   "board": "বরিশাল বোর্ড ২০১৯ (+আরও ২ বার)",
+   "year": "2019",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0055",
+   "kind": null,
+   "question": "He feigns as though ____.",
+   "answer": "he were injured/he knew everything",
+   "board": "রাজশাহী বোর্ড ২০২৪ (+আরও ১ বার)",
+   "year": "2024",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0056",
+   "kind": null,
+   "question": "He was a petty clerk. But he behaved as though ____.",
+   "answer": "he had been the boss/owner of the company",
+   "board": "সিলেট বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0057",
+   "kind": null,
+   "question": "There are many helpless people around us. I wish ____.",
+   "answer": "I could help them all",
+   "board": "কুমিল্লা বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0058",
+   "kind": null,
+   "question": "Childhood is the golden period of life. I wish ____.",
+   "answer": "I were a child again",
+   "board": "রাজশাহী বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0059",
+   "kind": null,
+   "question": "My friend is going to the USA. I wish ____.",
+   "answer": "I could go with him",
+   "board": "যশোর বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0060",
+   "kind": null,
+   "question": "I wish ____. I would express my feelings in my poems.",
+   "answer": "I were a poet",
+   "board": "ময়মনসিংহ বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0061",
+   "kind": null,
+   "question": "There are so many poor people in our country. I wish ____.",
+   "answer": "I could provide them with food and money",
+   "board": "দিনাজপুর বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0062",
+   "kind": null,
+   "question": "I am fond of cricket. I wish ____ like Shakib Al Hasan.",
+   "answer": "I could be a cricketer",
+   "board": "চট্টগ্রাম বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0063",
+   "kind": null,
+   "question": "Rupa has gained weight. It is high time ____.",
+   "answer": "she started dieting and exercising",
+   "board": "ময়মনসিংহ বোর্ড ২০২৫",
+   "year": "2025",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0064",
+   "kind": null,
+   "question": "It is 10 O'clock now. Our train will start exactly at 11 O'clock. It is high time ____.",
+   "answer": "we departed for the station",
+   "board": "দিনাজপুর বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0065",
+   "kind": null,
+   "question": "Trees are very important for our existence on earth. It is high time ____.",
+   "answer": "we took measures to protect them and plant more trees",
+   "board": "যশোর বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0066",
+   "kind": null,
+   "question": "Corruption is an obstacle to our national development. It is high time ____.",
+   "answer": "we stood against it/we raised our voice against it",
+   "board": "চট্টগ্রাম বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0067",
+   "kind": null,
+   "question": "The amount of waste is growing rapidly all over the world and polluting the environment. It is high time ____.",
+   "answer": "we reduced the amount of our waste",
+   "board": "ময়মনসিংহ বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0068",
+   "kind": null,
+   "question": "Corruption is a curse. It is high time ____.",
+   "answer": "the government took stern steps against corruption",
+   "board": "রাজশাহী বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0069",
+   "kind": null,
+   "question": "Overeating is harmful to health. It is high time ____.",
+   "answer": "we stopped overeating",
+   "board": "দিনাজপুর বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0070",
+   "kind": null,
+   "question": "It is high time ____. It is detrimental to health.",
+   "answer": "you gave up smoking",
+   "board": "যশোর বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0071",
+   "kind": null,
+   "question": "Most of the rivers are getting polluted day by day. It is high time ____.",
+   "answer": "we took necessary steps to protect these rivers from pollution",
+   "board": "সিলেট বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0072",
+   "kind": null,
+   "question": "Zillur and Ashraf were lucky. No sooner had they reached the station than ____.",
+   "answer": "the guard whistled to start the train",
+   "board": "চট্টগ্রাম বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0073",
+   "kind": null,
+   "question": "The beggar was very hungry. No sooner had he got a piece of loaf on the road than ____.",
+   "answer": "he began eating",
+   "board": "ঢাকা বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0074",
+   "kind": null,
+   "question": "No sooner had I reached the college than ____.",
+   "answer": "the rain started",
+   "board": "দিনাজপুর বোর্ড ২০২৩ (+আরও ১ বার)",
+   "year": "2023",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0075",
+   "kind": null,
+   "question": "No sooner had she crossed the main gate than ____.",
+   "answer": "she met with an accident / she met with the accident",
+   "board": "বরিশাল বোর্ড ২০২৩ (+আরও ১ বার)",
+   "year": "2023",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0076",
+   "kind": null,
+   "question": "No sooner had he reached the station than ____.",
+   "answer": "the train left",
+   "board": "বরিশাল বোর্ড ২০১৯ (+আরও ১ বার)",
+   "year": "2019",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0077",
+   "kind": null,
+   "question": "Last week, my friend Hasan met with an accident. No sooner had I heard the news than ____.",
+   "answer": "I rushed to see him",
+   "board": "বরিশাল বোর্ড ২০১৭",
+   "year": "2017",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0078",
+   "kind": null,
+   "question": "No sooner had we reached there than ____. Unless we went there earlier, we would miss the beginning of the programme.",
+   "answer": "the programme began",
+   "board": "রাজশাহী বোর্ড ২০১৬",
+   "year": "2016",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0079",
+   "kind": null,
+   "question": "Scarcely had we got out of home when ____.",
+   "answer": "the rain started",
+   "board": "রাজশাহী বোর্ড ২০২৪ (+আরও ১ বার)",
+   "year": "2024",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0080",
+   "kind": null,
+   "question": "Scarcely had the teacher gone out of the room when ____.",
+   "answer": "the students started talking",
+   "board": "যশোর বোর্ড ২০২৪ (+আরও ১ বার)",
+   "year": "2024",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0081",
+   "kind": null,
+   "question": "My brother had no job then. He went to Dhaka with a view to ____.",
+   "answer": "finding a suitable job",
+   "board": "বরিশাল বোর্ড ২০২৫",
+   "year": "2025",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0082",
+   "kind": null,
+   "question": "You ought to read your texts again and again with a view to ____.",
+   "answer": "understanding it properly / understanding them properly",
+   "board": "দিনাজপুর বোর্ড ২০২৪ (+আরও ২ বার)",
+   "year": "2024",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0083",
+   "kind": null,
+   "question": "The poor man knocked at the door. He came to me with a view to ____.",
+   "answer": "asking for help",
+   "board": "যশোর বোর্ড ২০২৪",
+   "year": "2024",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0084",
+   "kind": null,
+   "question": "My brother will come to Rajshahi from Dhaka. So I have to go to station with a view to ____.",
+   "answer": "receiving him",
+   "board": "ঢাকা বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0085",
+   "kind": null,
+   "question": "Mr. John is very interested in tourism. He wants to visit Bangladesh with a view to ____.",
+   "answer": "enjoying the natural beauty of the country",
+   "board": "সিলেট বোর্ড ২০২৩",
+   "year": "2023",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0086",
+   "kind": null,
+   "question": "I was really in a great danger. He came here with a view to ____.",
+   "answer": "helping me",
+   "board": "ঢাকা বোর্ড ২০১৯",
+   "year": "2019",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0087",
+   "kind": null,
+   "question": "All of us have to work hard with a view to ____.",
+   "answer": "gaining success / shining in life",
+   "board": "সিলেট বোর্ড ২০১৭ (+আরও ২ বার)",
+   "year": "2017",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0088",
+   "kind": null,
+   "question": "They came to you with a view to ____, but you scolded them without any reason.",
+   "answer": "seeking your help",
+   "board": "ঢাকা বোর্ড ২০১৬ (+আরও ১ বার)",
+   "year": "2016",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_board_0089",
+   "kind": null,
+   "question": "Fahem was really in a great danger. He came to you with a view to ____, but you disappointed him.",
+   "answer": "getting help from you",
+   "board": "যশোর বোর্ড ২০১৬",
+   "year": "2016",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  }
+ ]
+}

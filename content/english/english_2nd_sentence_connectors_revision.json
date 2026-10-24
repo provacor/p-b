@@ -1,0 +1,122 @@
+{
+ "sectionId": "english_2nd_sentence_connectors_revision",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "english_2nd_sentence_connectors_revision_0001",
+   "kind": null,
+   "title": "৫ ধাপের Master Shortcut — যেকোনো Connector-ফাঁকা চেনার উপায়",
+   "body": "① আগের ও পরের অংশের সম্পর্ক ধরো। একই দিকের নতুন তথ্য → Rule ১ (Addition); উল্টো অর্থ → Rule ৩ (Contrast); কারণ → Rule ৭; ফল → Rule ৮।\n② ফাঁকার পরে কী আছে দেখো। পূর্ণ clause (S + V) → because, though, so that, while; শুধু noun → because of, due to, such as; V-ing/to-verb → with a view to, in order to।\n③ ফাঁকা বাক্যের কোথায়? শুরুতে + কমা → Moreover, However, Therefore, For example, Firstly; দুই অংশের মাঝে → and, but, so, while, because।\n④ ক্রম বা উপসংহার? প্যাসেজের প্রথম দিকে → Firstly, At first, To begin with; মাঝে → Secondly, Then, Besides; শেষ দিকে → Finally, Above all, In short, To conclude।\n⑤ উত্তর বসিয়ে পুরো প্যাসেজ জোরে পড়ো; অর্থ ও কমা-যতিচিহ্ন মেলে কি না দেখো, তারপর সবুজ উত্তরের সঙ্গে মিলাও; ভুল হলে ⚠ Common Mistake বক্স আবার পড়ো।"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_revision_0002",
+   "kind": null,
+   "title": "সংযোজন / অন্তর্ভুক্তিকরণ (Addition)",
+   "body": "চেনার কৌশল: ফাঁকার আগের ও পরের অংশ একই দিকের (positive+positive) হলে যোগের Connector। শুরুতে ফাঁকা + কমা (,) → Moreover / Furthermore / In addition / Besides। দুই শব্দের মাঝে → and / or / as well as। ফাঁকার আগে both/either/neither/not only থাকলে জোড়া পূরণ করো: and / or / nor / but also।\nমনে রাখার ট্রিক: ছড়া: “BOTH-এর সাথে AND, EITHER-এর সাথে OR, NEITHER-এর সাথে NOR — NOT ONLY-র পরে BUT ALSO, জোড়া মেলাও ঠিকঠাক!”",
+   "topic": "পর্ব ১ — সংযোজন ও বৈসাদৃশ্য (Addition • Contrast)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_revision_0003",
+   "kind": null,
+   "title": "বৈসাদৃশ্য / বিরোধ (Contrast)",
+   "body": "চেনার কৌশল: ফাঁকার আগে-পরে উল্টো অর্থ (rich ↔ poor, passed ↔ failed) → while / whereas / but / however। 'যদিও… তবুও' ভাব → though / although (একই বাক্যে) বা nevertheless / yet / still (পরের বাক্যে)। ফাঁকার পরে of that / this থাকলে → instead / rather।\nমনে রাখার ট্রিক: ছড়া: “THOUGH থাকলে BUT নয়, HOWEVER-এ কমা রয়, WHILE-এ দুই দিক দেখায়, ON THE OTHER HAND ঘুরিয়ে বলায়।”",
+   "topic": "পর্ব ১ — সংযোজন ও বৈসাদৃশ্য (Addition • Contrast)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_revision_0004",
+   "kind": null,
+   "title": "উদ্দেশ্য (Purpose)",
+   "body": "চেনার কৌশল: ফাঁকার পরে subject + modal (can/may/could) → so that / in order that। ফাঁকার পরে to + verb → in order (to)। V-ing থাকলে → with a view to।\nমনে রাখার ট্রিক: ছড়া: “CLAUSE-এ SO THAT, VERB-এ IN ORDER TO, V-ing-এ WITH A VIEW TO — তিনে উদ্দেশ্য নিশ্চিত হও।”",
+   "topic": "পর্ব ২ — উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_revision_0005",
+   "kind": null,
+   "title": "শর্ত (Condition)",
+   "body": "চেনার কৌশল: 'নইলে / তা না হলে' অর্থ, ফাঁকার আগে ; (সেমিকোলন) → otherwise। বাক্যে negative অর্থ থাকলেও ক্রিয়া affirmative → unless। 'পর্যন্ত' → until / till। বাক্যের শুরুতে 'যদি' → if।\nমনে রাখার ট্রিক: ছড়া: “UNLESS-এর ঘরে NOT নেই, OTHERWISE মানে ‘না হলে’ তাই, UNTIL মানে ‘পর্যন্ত’ ভাই।”",
+   "topic": "পর্ব ২ — উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_revision_0006",
+   "kind": null,
+   "title": "সময় ও স্থান (Time & Place)",
+   "body": "চেনার কৌশল: ক্রম-ভাব (প্রথমে, তারপর, শেষে) → first of all / at first / secondly / then / finally / at last। 'এখন/বর্তমানে' → now / nowadays / at present। 'কখনো কখনো, প্রায়ই' → sometimes / often / usually। দুটি ঘটনা একসঙ্গে চললে → while / as। স্থান-নির্দেশ → where / wherever।\nমনে রাখার ট্রিক: ছড়া: “FIRST → SECOND → THEN → FINALLY, ক্রম মানলে ঠিক সবই; NOWADAYS, AT PRESENT, বর্তমানে — SOMETIMES, OFTEN, বারবার জানে।”",
+   "topic": "পর্ব ২ — উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_revision_0007",
+   "kind": null,
+   "title": "কারণ (Cause / Reason)",
+   "body": "চেনার কৌশল: ফাঁকার পরে S + V (clause) → because / since / as। ফাঁকার পরে noun / V-ing → because of / due to / owing to। 'কেন' অর্থ → why।\nমনে রাখার ট্রিক: ছড়া: “CLAUSE হলে BECAUSE, NOUN হলে BECAUSE OF — সহজ এই হিসাবটাই মাথায় রাখো ভালো।”",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_revision_0008",
+   "kind": null,
+   "title": "ফলাফল (Result)",
+   "body": "চেনার কৌশল: প্রথম অংশ কারণ, দ্বিতীয় অংশ ফল — মাঝের ফাঁকা → so / therefore / hence / thus। ফাঁকার আগে 'as' না থাকলে এবং 'ফলে/তাই' অর্থ → as a result / consequently। 'এইভাবে' → in this way / thus। 'এ কারণেই' → that's why / for this reason।\nমনে রাখার ট্রিক: ছড়া: “SO মাঝে কমা ধরে, THEREFORE শুরুতে বসে, CONSEQUENTLY, AS A RESULT — ফলাফলের তালিকা সাথে।”",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_revision_0009",
+   "kind": null,
+   "title": "উদাহরণ (Exemplification)",
+   "body": "চেনার কৌশল: ফাঁকার পরে পূর্ণ বাক্য (কমাসহ) → for example / for instance। ফাঁকার পরে শুধু noun-এর তালিকা → such as / like। 'বিশেষ করে' অর্থ → especially / particularly।\nমনে রাখার ট্রিক: ছড়া: “পুরো বাক্যে FOR EXAMPLE, ফলের তালিকায় SUCH AS, বিশেষ বোঝাতে ESPECIALLY।”",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_revision_0010",
+   "kind": null,
+   "title": "ব্যাখ্যা (Explanation)",
+   "body": "চেনার কৌশল: ফাঁকার পরে আগের কথাই সহজ করে বলা হলে → that is / in other words।\nমনে রাখার ট্রিক: ছড়া: “ধরি না বুঝি, IN OTHER WORDS, THAT IS বলি — সহজ করে বলি।”",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_revision_0011",
+   "kind": null,
+   "title": "গুরুত্ব ও জোর (Emphasis)",
+   "body": "চেনার কৌশল: ফাঁকার আগের বাক্যের তথ্যকে আরও জোরালো করে বললে → indeed / in fact / actually। 'সত্যি কথা' → truly speaking / to tell the truth। 'নিশ্চিতভাবে' → undoubtedly / obviously।\nমনে রাখার ট্রিক: ছড়া: “IN FACT, ACTUALLY — আসল কথা, INDEED, NO DOUBT — নিশ্চিত যথা।”",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_revision_0012",
+   "kind": null,
+   "title": "সারমর্ম (Summation)",
+   "body": "চেনার কৌশল: অনুচ্ছেদের একেবারে শেষ বাক্যে ফাঁকা থাকলে প্রায়ই → above all / in short / to conclude / on the whole।\nমনে রাখার ট্রিক: ছড়া: “শেষ বাক্যে IN SHORT, ABOVE ALL সবার উপরে, TO CONCLUDE টানে শেষের ছেদ।”",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_revision_0013",
+   "kind": null,
+   "title": "ধরন / তুলনা (Manner & Type)",
+   "body": "চেনার কৌশল: ফাঁকার আগে such থাকলে উত্তর সাধারণত as।\nমনে রাখার ট্রিক: ছড়া: “SUCH আছে যেখানে, AS বসে সেখানে।”",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_revision_0014",
+   "kind": null,
+   "title": "Relative ও অন্যান্য Connector (that, who, which, what, whether)",
+   "body": "চেনার কৌশল: ফাঁকার আগে ব্যক্তি → who/whom/whose; বস্তু → which/that। 'কি না' অর্থ → whether / if। 'যা কিছু ' → what / whatever।\nমনে রাখার ট্রিক: ছড়া: “মানুষে WHO, বস্তুতে WHICH, ‘কি না’-তে WHETHER।”",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_revision_0015",
+   "kind": null,
+   "title": "অন্যান্য Adverb ও Phrase Connector",
+   "body": "চেনার কৌশল: আগের বাক্যের প্রতিক্রিয়া বা মনোভাব (দুঃখজনকভাবে, সৌভাগ্যবশত) → unfortunately / fortunately / surprisingly। অন্য কোনো Rule না মিললে এই Rule দেখো।\nমনে রাখার ট্রিক: ছড়া: “মনের ভাব FORTUNATELY, UNFORTUNATELY — সুখ-দুঃখের তালিকা এভাবেই।”",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_revision_0016",
+   "kind": null,
+   "title": "দ্রুত ছক — সম্পর্ক অনুযায়ী Connector",
+   "body": "সম্পর্ক: যোগ\nRule: ১\nসাধারণ Connector: and, moreover, besides, furthermore, in addition\n\nসম্পর্ক: বিরোধ\nRule: ৩\nসাধারণ Connector: but, however, though, while, nevertheless, on the other hand\n\nসম্পর্ক: উদ্দেশ্য\nRule: ৪\nসাধারণ Connector: so that, in order to, with a view to\n\nসম্পর্ক: শর্ত\nRule: ৫\nসাধারণ Connector: if, unless, otherwise, until\n\nসম্পর্ক: সময় / ক্রম\nRule: ৬\nসাধারণ Connector: when, while, then, firstly, finally, at last, now, sometimes\n\nসম্পর্ক: কারণ\nRule: ৭\nসাধারণ Connector: because, since, as, due to, because of\n\nসম্পর্ক: ফল\nRule: ৮\nসাধারণ Connector: so, therefore, thus, hence, as a result, consequently\n\nসম্পর্ক: উদাহরণ / ব্যাখ্যা\nRule: ৯–১০\nসাধারণ Connector: for example, such as, that is, in other words\n\nসম্পর্ক: জোর / সারমর্ম\nRule: ১১–১২\nসাধারণ Connector: in fact, indeed, above all, in short, to conclude"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_revision_0017",
+   "kind": null,
+   "title": "Sentence Connectors at a Glance — ছক",
+   "body": "ধরন: Similarity\nConnector: similarly, likewise, in the same way\n\nধরন: Contrast\nConnector: but, yet, however, nevertheless, on the other hand, in contrast, whereas, while\n\nধরন: Result\nConnector: so, therefore, consequently, as a result, thus, hence, accordingly\n\nধরন: Addition and Listing\nConnector: and, also, moreover, furthermore, in addition, besides, firstly, secondly, finally\n\nধরন: Time\nConnector: when, while, before, after, then, meanwhile, afterwards, at last\n\nধরন: Exemplification\nConnector: for example, for instance, such as\n\nধরন: Particularization\nConnector: in particular, particularly, especially\n\nধরন: Explanation\nConnector: that is, in other words, that is to say\n\nধরন: Emphasis\nConnector: indeed, in fact, actually, as a matter of fact, truly speaking\n\nধরন: Refutation / Correction\nConnector: on the contrary, rather, at least\n\nধরন: Reformulation\nConnector: in other words, to put it differently\n\nধরন: Transition\nConnector: by the way, incidentally, now\n\nধরন: Alternative\nConnector: or, otherwise, alternatively\n\nধরন: Negative Condition\nConnector: otherwise, if not, unless\n\nধরন: Summation\nConnector: in short, to conclude, in conclusion, to sum up, above all"
+  }
+ ]
+}

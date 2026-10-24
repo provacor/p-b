@@ -1,0 +1,328 @@
+{
+ "chapterId": "english_2nd_completing_sentence",
+ "source": "english_2nd_completing_sentence_notes_0001",
+ "updated": "2026-10-24",
+ "note": "Built from the chapter's notes PDF.",
+ "root": {
+  "text": "Completing Sentence",
+  "children": [
+   {
+    "text": "সময়বাচক Clause (Time)",
+    "children": [
+     {
+      "text": "Till / Until (যতক্ষণ না…)",
+      "hint": "ফাঁকা অংশ till/until-এর পরে হলে এমন একটি ঘটনা লেখো যা ঘটলে কাজটি থামবে (bell rings, I return, rain stops)। ফাঁকা আগে হলে বলো কাজটি কী চলছিল (We walked / Wait here)।",
+      "id": "n.1.1"
+     },
+     {
+      "text": "When (যখন … তখন)",
+      "hint": "বাক্যে When আছে → দুই অংশের Tense মিলাও। ফাঁকা অংশের verb যেন When-clause-এর tense-এর সঙ্গে মিলে (Past হলে Past, Present হলে Present/Will)।",
+      "id": "n.1.2"
+     },
+     {
+      "text": "After (পরে / যখন … তখন)",
+      "hint": "After-clause আগে ঘটেছে — তাই ফাঁকা অংশে পরে ঘটা কাজ লেখো। ফাঁকা After-এর পরে হলে আগের কাজ (had + V3 / have + V3) লেখো।",
+      "id": "n.1.3"
+     },
+     {
+      "text": "While (যখন; কোনো কাজ চলাকালীন)",
+      "hint": "‘চলছিল’ ভাব দেখলে while। ফাঁকা অংশে was/were + V-ing বা is going on বসাও; অথবা সংক্ষিপ্তঘটনা (heard a sound, I saw)।",
+      "id": "n.1.4"
+     },
+     {
+      "text": "While / Whereas (অন্যদিকে, পক্ষান্তরে, অথচ)",
+      "hint": "আগের অংশে ‘ভালো’ থাকলে পরে ‘খারাপ’ (বা উল্টো) লেখো — অর্থ উল্টে দাও।",
+      "id": "n.1.5"
+     },
+     {
+      "text": "Before (পূর্বে, আগে)",
+      "hint": "যে ঘটনা আগে ঘটেছে সেখানে had + V3; পরের ঘটনা (before-এর পরে) Past Simple (rang, left, started)।",
+      "id": "n.1.6"
+     },
+     {
+      "text": "As (যেমন / সময়ের সাথে সাথে)",
+      "hint": "“যখন/ঠিক যেমন” অর্থ খোঁজো; ফাঁকা অংশে একই সময়ে ঘটা বা অনুরূপ কাজ লেখো।",
+      "id": "n.1.7"
+     },
+     {
+      "text": "As soon as (যেই মাত্র … সেই মাত্র)",
+      "hint": "‘শুনেই / দেখেই / এসেই’ ভাব পেলে as soon as। ফাঁকা অংশে সঙ্গে সঙ্গে ঘটা কাজ লেখো (it began raining, he ran away)।",
+      "id": "n.1.8"
+     },
+     {
+      "text": "As long as (যতক্ষণ পর্যন্ত; যতদিন)",
+      "hint": "ফাঁকা অংশে সময়-সীমাবদ্ধ শর্ত লেখো (we could / you are honest / I live)।",
+      "id": "n.1.9"
+     },
+     {
+      "text": "Whenever (যখনই … তখনই)",
+      "hint": "পুনরাবৃত্তি/অভ্যাস → ফাঁকা অংশে Present Simple (he makes a noise, I buy something)।",
+      "id": "n.1.10"
+     },
+     {
+      "text": "It is / was … since (… সময় ধরে / … পর)",
+      "hint": "বাক্যে It is/It was + … years + since দেখলে → ফাঁকা অংশে last-যুক্ত ঘটনা লেখো: Present হলে Past Simple (I met him last), Past হলে had + V3 (we had met last)।",
+      "id": "n.1.11"
+     }
+    ],
+    "id": "n.1"
+   },
+   {
+    "text": "কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)",
+    "children": [
+     {
+      "text": "Because / As / Since (যেহেতু … সেহেতু)",
+      "hint": "‘কারণ ভাবো’: ফাঁকা অংশ কারণ হলে কেন ঘটেছে লেখো; ফল হলে কী ঘটেছে লেখো। Since-এর অর্থ time নয় — কারণ।",
+      "id": "n.2.1"
+     },
+     {
+      "text": "Lest (নচেৎ, পাছে, যাতে না)",
+      "hint": "বাক্যে ‘সাবধান/তাড়াতাড়ি/মনোযোগী হও’ ভাব থাকলে ফাঁকা অংশে you should + খারাপ পরিণতি লেখো (fail, miss the train, lag behind)।",
+      "id": "n.2.2"
+     },
+     {
+      "text": "So that / In order that / That (যাতে)",
+      "hint": "আগের verb Present হলে can, Past হলে could বসাও (Tense মিল)। উদ্দেশ্য ইতিবাচক হবে (can succeed, can be healthy)।",
+      "id": "n.2.3"
+     },
+     {
+      "text": "So … that (এত … যে)",
+      "hint": "ফাঁকা that-এর পরে হলে ফলাফল লেখো (সাধারণত negative বা চরম ফল)। ফাঁকা so-এর পরে হলে adjective লেখো (so intelligent / so weak)।",
+      "id": "n.2.4"
+     },
+     {
+      "text": "So much / So many … that (এত বেশি … যে)",
+      "hint": "ফাঁকা that-এর পরে ফলাফল লেখো (I am grateful to him, I can never forget him)।",
+      "id": "n.2.5"
+     },
+     {
+      "text": "Too … to / … enough to (এত … যে করা যায় না / যথেষ্ট … করার জন্য)",
+      "hint": "too … for-এর পরে object (me, him, us) তারপর to + V1। ফাঁকা অংশ: for me to carry / to understand।",
+      "id": "n.2.6"
+     }
+    ],
+    "id": "n.2"
+   },
+   {
+    "text": "শর্তবাচক Clause (Conditionals)",
+    "children": [
+     {
+      "text": "If + Present, Future (First Conditional)",
+      "hint": "If-clause-এ Present, তাই ফাঁকা (principal) অংশে will + V1; ফাঁকা অংশ if-clause হলে Present Simple লেখো।",
+      "id": "n.3.1"
+     },
+     {
+      "text": "If + Present, may/might/can/must/should",
+      "hint": "ফলাফল ‘করতেই হবে/পারবে/হতে পারে’ বোঝালে modal বসাও; verb সবসময় V1।",
+      "id": "n.3.2"
+     },
+     {
+      "text": "If + Past Simple, would/could/might (Second Conditional)",
+      "hint": "‘এখন নেই, থাকলে হতো’ ভাব → If + Past, would + V1। ফাঁকা অংশ main হলে would/could + V1; if-clause হলে Past Simple/were।",
+      "id": "n.3.3"
+     },
+     {
+      "text": "If + Past Perfect, would/could/might have + V3 (Third Conditional)",
+      "hint": "‘যদি তখন করতাম, তাহলে হতো’ → দুই অংশেই V3 আছে। ফাঁকা অংশ main হলে would have + V3; if-clause হলে had + V3।",
+      "id": "n.3.4"
+     },
+     {
+      "text": "Had + Subject + V3, … would have + V3 (If-ছাড়া Inversion)",
+      "hint": "বাক্য শুরু Had দিয়ে ও কমা পর্যন্ত → ফাঁকা অংশে would have + V3 লেখো (অর্থ: সেটা হলে এটা হতো)।",
+      "id": "n.3.5"
+     },
+     {
+      "text": "If / Whether (কিনা অর্থে — Noun Clause)",
+      "hint": "‘আসবে কিনা, করবে কিনা’ অর্থ হলে whether/if; ফাঁকা অংশে subject + verb + or not লেখো।",
+      "id": "n.3.6"
+     },
+     {
+      "text": "Unless (যদি না / না হলে)",
+      "hint": "Unless-clause আগে → ফাঁকা অংশে negative/ব্যর্থতার ফল (you will fail, you cannot succeed)। ফাঁকা Unless-এর পরে → positive কাজ (you work hard, you hurry up)।",
+      "id": "n.3.7"
+     },
+     {
+      "text": "In case (যদি কোনো কিছু ঘটে — আগাম সতর্ক তা)",
+      "hint": "ফাঁকা অংশে সম্ভাব্য সমস্যা/প্রয়োজন লেখো (it rains, you need help, you face any problem)।",
+      "id": "n.3.8"
+     },
+     {
+      "text": "Provided / Provided that / Providing that (যদি/তবে শর্ত থাকে যে)",
+      "hint": "ফাঁকা অংশে পূরণযোগ্য শর্ত লেখো (he studies well, you perform well, you meet the requirements)।",
+      "id": "n.3.9"
+     },
+     {
+      "text": "But for (… না থাকলে/না হলে)",
+      "hint": "But for-এর পর কমা-র ডান দিকে might/would/could (not) have + V3 বসাও — কারণ ঘটনাটি ঘটেনি।",
+      "id": "n.3.10"
+     }
+    ],
+    "id": "n.3"
+   },
+   {
+    "text": "বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)",
+    "children": [
+     {
+      "text": "As if / As though (যেন)",
+      "hint": "মূল verb Present → ফাঁকা অংশে were/Past; মূল verb Past → had been / had + V3।",
+      "id": "n.4.1"
+     },
+     {
+      "text": "As … as (সমান/মতো)",
+      "hint": "ফাঁকা অংশ ঠিক দুই as-এর মাঝে হলে adjective লেখো (clever/intelligent/studious); শেষ as-এর পরে হলে subject (we are) লেখো।",
+      "id": "n.4.2"
+     },
+     {
+      "text": "Though / Although / Even though (যদিও … তবুও)",
+      "hint": "আগের অংশ ‘ভালো/শক্তিশালী’ হলে ফাঁকা অংশে ‘ফল উল্টো’ লেখো (ধনী কিন্তু অসৎ; দ্রুত হাঁটলাম কিন্তু ট্রেন পেলাম না)।",
+      "id": "n.4.3"
+     },
+     {
+      "text": "Would that / I wish / Were / Had (যদি এমন হতো)",
+      "hint": "বাক্যে I wish/Would that দেখলে → ফাঁকা অংশে I/he/she/it-এর পরেও were অথবা could + V1 (ইচ্ছা ‘করতে পারতাম’) লেখো।",
+      "id": "n.4.4"
+     },
+     {
+      "text": "Would rather … than (বরং … তবু নয়)",
+      "hint": "ফাঁকা অংশ ‘than’-এর পরে হলে V1 + object (খারাপ বিকল্)প লিখো — to ছাড়া।",
+      "id": "n.4.5"
+     },
+     {
+      "text": "Had better (বরং ভালো)",
+      "hint": "ফাঁকা অংশে V1 + extension (take some rest, start now) লেখো।",
+      "id": "n.4.6"
+     },
+     {
+      "text": "It is high time / It is time (এখনই উপযুক্ত সময়)",
+      "hint": "‘এখনই করা উচিত’ ভাব → ফাঁকা অংশে we/you/they + V2 লেখো (took, stopped, raised, gave up)।",
+      "id": "n.4.7"
+     },
+     {
+      "text": "No sooner … than / Scarcely/Hardly … when (… না হতেই …)",
+      "hint": "No sooner → than; Scarcely/Hardly/Barely → when। ফাঁকা অংশ than/when-এর পরে হলে Past Simple (rushed, began, left) লেখো।",
+      "id": "n.4.8"
+     },
+     {
+      "text": "Let alone (… তো দূরের কথা)",
+      "hint": "আগের বাক্য negative → ফাঁকা অংশে আরও বড়/কঠিন কিছু লেখো (a motorcycle, 80 marks)।",
+      "id": "n.4.9"
+     },
+     {
+      "text": "But / Or / Otherwise / Neither…nor / Not only…but also (সংযোজক clause)",
+      "hint": "ফাঁকা অংশে সমান গঠন রাখো। or/otherwise-এর পরে খারাপ পরিণতি লেখো; but-এর পরে বিপরীত তথ্য।",
+      "id": "n.4.10"
+     },
+     {
+      "text": "The … the … (যত … তত …)",
+      "hint": "প্রথম অংশে The-comparative থাকলে ফাঁকা অংশেও the + comparative (more/better/healthier) দিয়ে শুরু করো।",
+      "id": "n.4.11"
+     }
+    ],
+    "id": "n.4"
+   },
+   {
+    "text": "Relative ও Noun Clause",
+    "children": [
+     {
+      "text": "Whom / Who (যাকে … তাকে)",
+      "hint": "whom-এর পরে সাধারণত subject + verb (I like, we met)।",
+      "id": "n.5.1"
+     },
+     {
+      "text": "Whose (যার … / যাদের …)",
+      "hint": "whose-এর পরে একটি noun, তারপর verb: The man whose son is a doctor…",
+      "id": "n.5.2"
+     },
+     {
+      "text": "Whoever (যে-ই)",
+      "hint": "ফাঁকা অংশে ‘যে-ই হও — করা যাবে না/করতে হবে’ ভাবের clause লেখো।",
+      "id": "n.5.3"
+     },
+     {
+      "text": "Which / That / Who (Relative Clause)",
+      "hint": "আগের noun দেখো: ব্যক্তি → who, বস্তু/প্রাণী → which/that। ফাঁকা অংশে Relative-এর পরের verb/অংশ লেখো; verb Antecedent-এর number-এর সাথে মিলবে।",
+      "id": "n.5.4"
+     },
+     {
+      "text": "What (যা … তা)",
+      "hint": "What-clause-এর পরে ফাঁকা অংশে verb/ক্রিয়া লেখো (cannot be blotted); What-এর পরে ফাঁকা হলে subject + verb।",
+      "id": "n.5.5"
+     },
+     {
+      "text": "Whatever (যা-ই)",
+      "hint": "ফাঁকা অংশে whatever-clause-এর verb লেখো (is false/is true)।",
+      "id": "n.5.6"
+     },
+     {
+      "text": "Where / Wherever (যেখানে … সেখানে)",
+      "hint": "ফাঁকা অংশে স্থান-সংক্রান্ত কাজ লেখো (trains stop, dead bodies are buried, danger is feared)।",
+      "id": "n.5.7"
+     },
+     {
+      "text": "When (সময়বাচক Noun-এর পরে: the time/year/day when)",
+      "hint": "ফাঁকা অংশের আগে the year/the day/the date when থাকলে সেই সময়ে কী ঘটেছিল তা লেখো।",
+      "id": "n.5.8"
+     },
+     {
+      "text": "How (যেভাবে, কীভাবে)",
+      "hint": "ফাঁকা অংশে subject + verb লেখো (the man died, he did the work); How to + V1-ও চলে।",
+      "id": "n.5.9"
+     },
+     {
+      "text": "However (যতই … হোক না কেন)",
+      "hint": "ফাঁকা অংশে ‘তবুও পারবে না/করতে হবে’ ভাব লেখো।",
+      "id": "n.5.10"
+     },
+     {
+      "text": "Why (কেন, কী কারণে)",
+      "hint": "ফাঁকা অংশে subject + verb + extension লেখো (he came here, he went there)।",
+      "id": "n.5.11"
+     },
+     {
+      "text": "Noun Clause (that / wh-clause + বাক্যের অংশ)",
+      "hint": "‘that’-এর পরে একটি পূর্ণ বাক্য (subject + verb) বসবে। বাক্যের tense মূল verb-এর সঙ্গে মিলবে (confessed that she had…)।",
+      "id": "n.5.12"
+     }
+    ],
+    "id": "n.5"
+   },
+   {
+    "text": "Phrase, Gerund, Infinitive ও প্রবাদ",
+    "children": [
+     {
+      "text": "With a view to (উদ্দেশ্যে) + V-ing",
+      "hint": "‘to’-এর পরেও V-ing (finding, helping, seeking, solving)। ফাঁকা অংশের শুরু V-ing দিয়ে করো।",
+      "id": "n.6.1"
+     },
+     {
+      "text": "Gerund (V-ing) — Preposition / Would you mind / avoid / used to",
+      "hint": "ফাঁকা অংশের আগে mind / avoid / used to / of / by / without / to (prep) থাকলে V-ing দাও।",
+      "id": "n.6.2"
+     },
+     {
+      "text": "Infinitive (to + V1) — অভিপ্রায়/কর্তব্য/in order to",
+      "hint": "ফাঁকা অংশে to + V1 দিয়ে কাজের উদ্দেশ্য লিখো; ‘in order’-এর পরেও to + V1।",
+      "id": "n.6.3"
+     },
+     {
+      "text": "Prepositional Phrase (Despite / In spite of / Because of / Without)",
+      "hint": "আগের অংশ prepositional phrase হলে ফাঁকা অংশে পূর্ণ clause (subject + verb) লেখো, বৈপরীত্য/কারণ অনুযায়ী।",
+      "id": "n.6.4"
+     },
+     {
+      "text": "Noun / Adjective / Adverbial Phrase পূরণ",
+      "hint": "ফাঁকা অংশের আগে/পরে verb আছে কিনা দেখো: Subject পূরণ হলে ‘কে/কী’ লেখো; Object পূরণ হলে ‘কাকে/কী’ লেখো।",
+      "id": "n.6.5"
+     },
+     {
+      "text": "Proverb / Saying (প্রবাদ-প্রবচন)",
+      "hint": "প্রবাদ চিনতে পারলে সবটা মনে করো: Man proposes, God disposes • A stitch in time saves nine • Slow but steady wins the race • Honesty is the best policy।",
+      "id": "n.6.6"
+     }
+    ],
+    "id": "n.6"
+   }
+  ],
+  "id": "n"
+ }
+}

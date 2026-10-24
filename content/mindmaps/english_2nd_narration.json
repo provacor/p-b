@@ -1,0 +1,85 @@
+{
+ "chapterId": "english_2nd_narration",
+ "source": "english_2nd_narration_notes_0001",
+ "updated": "2026-10-24",
+ "note": "Built from the chapter's notes PDF.",
+ "root": {
+  "text": "Narration / Speech",
+  "children": [
+   {
+    "text": "সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান",
+    "children": [
+     {
+      "text": "Reporting Verb বদল (say / tell)",
+      "hint": "Reporting verb-এর পরে to থাকলে (said to) Assertive বাক্যে told লেখো। Question হলে asked / enquired of, Imperative হলে told / ordered / advised / requested, Optative হলে prayed / wished, Exclamatory হলে exclaimed with joy/sorrow।",
+      "id": "n.1.1"
+     },
+     {
+      "text": "Pronoun (Person) বদল",
+      "hint": "১ম–২য়–৩য় ক্রম মনে রাখো: ১ম person = আমি (বক্তার নিজের) → বক্তার সঙ্গে মেলাও; ২য় person = তুমি → শ্রোতার সঙ্গে মেলাও; ৩য় person = অন্য কেউ → বদলাবে না। Proper noun থাকলে pronoun-এর পাশে (A)/(S) চিহ্ন দিয়ে বোঝাও কে কাকে।",
+      "id": "n.1.2"
+     },
+     {
+      "text": "Tense বদল",
+      "hint": "ধাপ ১: Reporting verb দেখো। Present/Future → থামো, শুধু person বদলাও। Past → ধাপ ২: reported verb-কে এক ধাপ past-এ নাও। ধাপ ৩: বিশেষ ক্ষেত্র — চিরন্তন সত্য (the sun rises), Unreal past (wish, would rather, it is time), When-clause-এর Past Indefinite/Continuous, Past Perfect — এগুলো ছুঁয়ো না।",
+      "id": "n.1.3"
+     },
+     {
+      "text": "সময় ও স্থানের শব্দ বদল",
+      "hint": "বাক্যে now / here / this / today / tomorrow / yesterday / ago / last দেখলে এই Rule-এ নজর দাও। this + noun (adjective) → the + noun; একা this → it; these subject → they, object → them। here-এর অর্থ বুঝে phrase-ও হয় (stay here → stay with him)।",
+      "id": "n.1.4"
+     }
+    ],
+    "id": "n.1"
+   },
+   {
+    "text": "বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory",
+    "children": [
+     {
+      "text": "Assertive Sentence (বিবৃতিমূলক বাক্য)",
+      "hint": "বাক্য যদি ঘটনা বা তথ্য জানায় (প্রশ্ন বা আদেশ নয়) → Assertive → that। had better থাকলে অপরিবর্তিত (বা advise to); might (সম্ভাবনা) অপরিবর্তিত, কিন্তু request হলে asked … to; ought to/should উপদেশ হলে advised … to; If I were you → advised … to; used to, could অপরিবর্তিত।",
+      "id": "n.2.1"
+     },
+     {
+      "text": "Interrogative Sentence (প্রশ্নবোধক বাক্য)",
+      "hint": "প্রশ্নের শুরুতে auxiliary (do/does/is/are/will/can) → if/whether; শুরুতে wh-word → সেই wh-word; Can you … please? বা Could you …? → অনুরোধ → asked … to; Shall I bring…? → offered; Shall we …? → suggested; Will you stand still? (আদেশ) → told/ordered … to; Would you come for lunch? → invited; ছোট tag ",
+      "id": "n.2.2"
+     },
+     {
+      "text": "Imperative Sentence (আদেশ / অনুরোধ / উপদেশ)",
+      "hint": "বাক্য Verb-এর V₁ দিয়ে শুরু (Do, Study, Go…) বা Please থাকলে → Imperative। Order/command → ordered/commanded; Please → requested; উপদেশ → advised; Negative (Don’t, Never) → not to; Let’s → suggested/proposed।",
+      "id": "n.2.3"
+     },
+     {
+      "text": "Optative Sentence (কামনা / প্রার্থনা)",
+      "hint": "বাক্যের শুরুতে May থাকলে Optative। Allah/God-কে নিয়ে প্রার্থনা হলে prayed, সাধারণ শুভকামনায় wished। reported speech-এ may → might।",
+      "id": "n.2.4"
+     },
+     {
+      "text": "Exclamatory Sentence (বিস্ময়সূচক বাক্য)",
+      "hint": "বাক্যে ! চিহ্ন এবং Alas, Hurrah, Bravo, What a…, How… থাকলে Exclamatory। Alas → sorrow, Hurrah/Bravo → joy/applauded, What/How → very/great, Happy Eid/Good luck → wished, Welcome → welcomed, Damn! → swore।",
+      "id": "n.2.5"
+     }
+    ],
+    "id": "n.2"
+   },
+   {
+    "text": "অতিরিক্ত নিয়ম — Must, বিশেষ শব্দ ও Passage Narration",
+    "children": [
+     {
+      "text": "Must ও বিশেষ শব্দ (Thank you, Good-bye…)",
+      "hint": "Must-এর পরে কাজটা এখনকার প্রয়োজন হলে had to; নৈতিক নিয়ম (obey your parents) হলে must থাকে। Direct-এর পুরো বাক্যটা শুধু Thank you / Good-bye / Good morning হলে verb নিজেই বদলে যায়, that বসে না।",
+      "id": "n.3.1"
+     },
+     {
+      "text": "অতিরিক্ত নিয়ম ও Passage Narration",
+      "hint": "নির্দিষ্ট কিছু শব্দ দেখলেই নিয়ম চেনো — By Allah → Swearing; Sir → politely; Sorry → expressed regret; Congratulation → congratulated; Yes/No → replied that…; ?-সহ assertive → Being surprised।",
+      "id": "n.3.2"
+     }
+    ],
+    "id": "n.3"
+   }
+  ],
+  "id": "n"
+ }
+}

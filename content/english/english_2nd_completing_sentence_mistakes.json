@@ -1,0 +1,545 @@
+{
+ "sectionId": "english_2nd_completing_sentence_mistakes",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0001",
+   "kind": null,
+   "title": "Till / Until (যতক্ষণ না…)",
+   "body": "ভুল: Stay here until I do not return\nসঠিক: Stay here until I return/come back",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0002",
+   "kind": null,
+   "title": "Till / Until (যতক্ষণ না…)",
+   "body": "ভুল: until the rain will stop\nসঠিক: until the rain stops (Future নয়, Present)",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0003",
+   "kind": null,
+   "title": "When (যখন … তখন)",
+   "body": "ভুল: When he will come, I shall go\nসঠিক: When he comes, I shall go",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0004",
+   "kind": null,
+   "title": "When (যখন … তখন)",
+   "body": "ভুল: When I was a child, I am active\nসঠিক: …I was active",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0005",
+   "kind": null,
+   "title": "After (পরে / যখন … তখন)",
+   "body": "ভুল: After he will come, we start\nসঠিক: After he comes, we shall start",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0006",
+   "kind": null,
+   "title": "After (পরে / যখন … তখন)",
+   "body": "ভুল: He died after he was admitted\nসঠিক: …after he had been admitted",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0007",
+   "kind": null,
+   "title": "While (যখন; কোনো কাজ চলাকালীন)",
+   "body": "ভুল: While I walked in the garden… (চলমান কাজ)\nসঠিক: While I was walking…",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0008",
+   "kind": null,
+   "title": "While (যখন; কোনো কাজ চলাকালীন)",
+   "body": "ভুল: While reading, he disturbed me\nসঠিক: He disturbed me while I was reading",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0009",
+   "kind": null,
+   "title": "While / Whereas (অন্যদিকে, পক্ষান্তরে, অথচ)",
+   "body": "ভুল: I am punctual while my brother is also punctual (বৈপরীত্য নেই)\nসঠিক: …while my brother is not so",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0010",
+   "kind": null,
+   "title": "Before (পূর্বে, আগে)",
+   "body": "ভুল: He closed the door before he had left\nসঠিক: He had closed the door before he left",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0011",
+   "kind": null,
+   "title": "As soon as (যেই মাত্র … সেই মাত্র)",
+   "body": "ভুল: As soon as he will come, I will go\nসঠিক: As soon as he comes, I shall go",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0012",
+   "kind": null,
+   "title": "As long as (যতক্ষণ পর্যন্ত; যতদিন)",
+   "body": "ভুল: as long that\nসঠিক: as long as (দুটো as লাগবে)",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0013",
+   "kind": null,
+   "title": "Whenever (যখনই … তখনই)",
+   "body": "ভুল: Whenever he came here, he will meet me\nসঠিক: Whenever he comes here, he meets me",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0014",
+   "kind": null,
+   "title": "It is / was … since (… সময় ধরে / … পর)",
+   "body": "ভুল: It is long since I have met him\nসঠিক: It is long since I met him last",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0015",
+   "kind": null,
+   "title": "It is / was … since (… সময় ধরে / … পর)",
+   "body": "ভুল: It was five years since we met\nসঠিক: …since we had met last",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0016",
+   "kind": null,
+   "title": "Because / As / Since (যেহেতু … সেহেতু)",
+   "body": "ভুল: Because he was ill, so he stayed home (দুটি conjunction)\nসঠিক: Because he was ill, he stayed home",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0017",
+   "kind": null,
+   "title": "Lest (নচেৎ, পাছে, যাতে না)",
+   "body": "ভুল: lest you should not fail\nসঠিক: lest you should fail",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0018",
+   "kind": null,
+   "title": "Lest (নচেৎ, পাছে, যাতে না)",
+   "body": "ভুল: lest you will fail\nসঠিক: lest you should/might fail",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0019",
+   "kind": null,
+   "title": "So that / In order that / That (যাতে)",
+   "body": "ভুল: He studied hard so that he can pass\nসঠিক: …so that he could pass",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0020",
+   "kind": null,
+   "title": "So that / In order that / That (যাতে)",
+   "body": "ভুল: so that he will succeed\nসঠিক: so that he can succeed",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0021",
+   "kind": null,
+   "title": "So … that (এত … যে)",
+   "body": "ভুল: so weak which he cannot walk\nসঠিক: so weak that he cannot walk",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0022",
+   "kind": null,
+   "title": "So … that (এত … যে)",
+   "body": "ভুল: so weak that he can walk (অর্থ মেলে না)\nসঠিক: …cannot walk",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0023",
+   "kind": null,
+   "title": "So much / So many … that (এত বেশি … যে)",
+   "body": "ভুল: so much books\nসঠিক: so many books",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0024",
+   "kind": null,
+   "title": "Too … to / … enough to (এত … যে করা যায় না / যথেষ্ট … করার জন্য)",
+   "body": "ভুল: too heavy to not carry\nসঠিক: too heavy to carry",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0025",
+   "kind": null,
+   "title": "Too … to / … enough to (এত … যে করা যায় না / যথেষ্ট … করার জন্য)",
+   "body": "ভুল: too heavy for I to carry\nসঠিক: for me to carry",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0026",
+   "kind": null,
+   "title": "If + Present, Future (First Conditional)",
+   "body": "ভুল: If it will rain, I shall stay\nসঠিক: If it rains, I shall stay",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0027",
+   "kind": null,
+   "title": "If + Present, Future (First Conditional)",
+   "body": "ভুল: If you worked hard, you will pass\nসঠিক: If you work hard…",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0028",
+   "kind": null,
+   "title": "If + Present, may/might/can/must/should",
+   "body": "ভুল: you must worked hard\nসঠিক: you must work hard (modal-এর পরে V1)",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0029",
+   "kind": null,
+   "title": "If + Past Simple, would/could/might (Second Conditional)",
+   "body": "ভুল: If I was a bird\nসঠিক: If I were a bird",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0030",
+   "kind": null,
+   "title": "If + Past Simple, would/could/might (Second Conditional)",
+   "body": "ভুল: I would flew\nসঠিক: I would fly",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0031",
+   "kind": null,
+   "title": "If + Past Perfect, would/could/might have + V3 (Third Conditional)",
+   "body": "ভুল: If I would have known\nসঠিক: If I had known",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0032",
+   "kind": null,
+   "title": "If + Past Perfect, would/could/might have + V3 (Third Conditional)",
+   "body": "ভুল: I would have tell\nসঠিক: I would have told",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0033",
+   "kind": null,
+   "title": "Had + Subject + V3, … would have + V3 (If-ছাড়া Inversion)",
+   "body": "ভুল: Had he got the job, he would helped\nসঠিক: …he would have helped",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0034",
+   "kind": null,
+   "title": "If / Whether (কিনা অর্থে — Noun Clause)",
+   "body": "ভুল: I don't know whether will he come\nসঠিক: …whether he will come or not",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0035",
+   "kind": null,
+   "title": "Unless (যদি না / না হলে)",
+   "body": "ভুল: Unless you do not study, you will fail (double negative)\nসঠিক: Unless you study, you will fail",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0036",
+   "kind": null,
+   "title": "In case (যদি কোনো কিছু ঘটে — আগাম সতর্ক তা)",
+   "body": "ভুল: in case it will rain\nসঠিক: in case it rains",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0037",
+   "kind": null,
+   "title": "Provided / Provided that / Providing that (যদি/তবে শর্ত থাকে যে)",
+   "body": "ভুল: provided if you…\nসঠিক: provided (that) you… (if আবার বসে না)",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0038",
+   "kind": null,
+   "title": "But for (… না থাকলে/না হলে)",
+   "body": "ভুল: But for your help, I succeeded\nসঠিক: …I could not have succeeded",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0039",
+   "kind": null,
+   "title": "As if / As though (যেন)",
+   "body": "ভুল: as if he is a doctor (অবাস্তব)\nসঠিক: as if he were a doctor",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0040",
+   "kind": null,
+   "title": "As if / As though (যেন)",
+   "body": "ভুল: He behaved as if he was …\nসঠিক: …as if he had been",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0041",
+   "kind": null,
+   "title": "As … as (সমান/মতো)",
+   "body": "ভুল: as taller as he\nসঠিক: as tall as he (Positive degree)",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0042",
+   "kind": null,
+   "title": "Though / Although / Even though (যদিও … তবুও)",
+   "body": "ভুল: Though he is rich, but he is unhappy\nসঠিক: Though he is rich, he is unhappy",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0043",
+   "kind": null,
+   "title": "Would that / I wish / Were / Had (যদি এমন হতো)",
+   "body": "ভুল: I wish I was a bird\nসঠিক: I wish I were a bird",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0044",
+   "kind": null,
+   "title": "Would that / I wish / Were / Had (যদি এমন হতো)",
+   "body": "ভুল: I wish I can fly\nসঠিক: I wish I could fly",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0045",
+   "kind": null,
+   "title": "Would rather … than (বরং … তবু নয়)",
+   "body": "ভুল: I would rather starve than to steal\nসঠিক: …than steal",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0046",
+   "kind": null,
+   "title": "Had better (বরং ভালো)",
+   "body": "ভুল: had better to go\nসঠিক: had better go",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0047",
+   "kind": null,
+   "title": "Had better (বরং ভালো)",
+   "body": "ভুল: had better gone\nসঠিক: had better go",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0048",
+   "kind": null,
+   "title": "It is high time / It is time (এখনই উপযুক্ত সময়)",
+   "body": "ভুল: It is high time we start\nসঠিক: It is high time we started",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0049",
+   "kind": null,
+   "title": "It is high time / It is time (এখনই উপযুক্ত সময়)",
+   "body": "ভুল: It is high time we will start\nসঠিক: …we started",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0050",
+   "kind": null,
+   "title": "No sooner … than / Scarcely/Hardly … when (… না হতেই …)",
+   "body": "ভুল: No sooner had he come when…\nসঠিক: …than he left",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0051",
+   "kind": null,
+   "title": "No sooner … than / Scarcely/Hardly … when (… না হতেই …)",
+   "body": "ভুল: than he had left\nসঠিক: than he left",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0052",
+   "kind": null,
+   "title": "Let alone (… তো দূরের কথা)",
+   "body": "ভুল: He can buy a bicycle, let alone a motor cycle (positive)\nসঠিক: He cannot buy a bicycle, let alone…",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0053",
+   "kind": null,
+   "title": "But / Or / Otherwise / Neither…nor / Not only…but also (সংযোজক clause)",
+   "body": "ভুল: neither…or\nসঠিক: neither…nor",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0054",
+   "kind": null,
+   "title": "But / Or / Otherwise / Neither…nor / Not only…but also (সংযোজক clause)",
+   "body": "ভুল: not only educated but also he is dedicated\nসঠিক: not only educated but also dedicated (parallel)",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0055",
+   "kind": null,
+   "title": "The … the … (যত … তত …)",
+   "body": "ভুল: The sooner we get up, we get more time\nসঠিক: …the more time we get",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0056",
+   "kind": null,
+   "title": "Whom / Who (যাকে … তাকে)",
+   "body": "ভুল: The boy whom is my friend\nসঠিক: The boy who is my friend / whom I like",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0057",
+   "kind": null,
+   "title": "Whose (যার … / যাদের …)",
+   "body": "ভুল: whose he father\nসঠিক: whose father",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0058",
+   "kind": null,
+   "title": "Whoever (যে-ই)",
+   "body": "ভুল: Whoever is you are\nসঠিক: Whoever you are",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0059",
+   "kind": null,
+   "title": "Which / That / Who (Relative Clause)",
+   "body": "ভুল: The man which came\nসঠিক: The man who/that came",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0060",
+   "kind": null,
+   "title": "Which / That / Who (Relative Clause)",
+   "body": "ভুল: the people who is honest\nসঠিক: the people who are honest",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0061",
+   "kind": null,
+   "title": "What (যা … তা)",
+   "body": "ভুল: I like what that you have done\nসঠিক: I like what you have done",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0062",
+   "kind": null,
+   "title": "Whatever (যা-ই)",
+   "body": "ভুল: Whatever he says are false\nসঠিক: …is false",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0063",
+   "kind": null,
+   "title": "Where / Wherever (যেখানে … সেখানে)",
+   "body": "ভুল: a place when villagers gather\nসঠিক: a place where villagers gather",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0064",
+   "kind": null,
+   "title": "When (সময়বাচক Noun-এর পরে: the time/year/day when)",
+   "body": "ভুল: 1971 is the year where we won\nসঠিক: 1971 is the year when we won",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0065",
+   "kind": null,
+   "title": "How (যেভাবে, কীভাবে)",
+   "body": "ভুল: I know how did he do\nসঠিক: I know how he did it",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0066",
+   "kind": null,
+   "title": "However (যতই … হোক না কেন)",
+   "body": "ভুল: However strong but you\nসঠিক: However strong you may be, you…",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0067",
+   "kind": null,
+   "title": "Why (কেন, কী কারণে)",
+   "body": "ভুল: I know why did he come\nসঠিক: I know why he came",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0068",
+   "kind": null,
+   "title": "Noun Clause (that / wh-clause + বাক্যের অংশ)",
+   "body": "ভুল: He confessed that to commit the mistake\nসঠিক: …that he committed the mistake",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0069",
+   "kind": null,
+   "title": "With a view to (উদ্দেশ্যে) + V-ing",
+   "body": "ভুল: with a view to find a job\nসঠিক: with a view to finding a job",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0070",
+   "kind": null,
+   "title": "Gerund (V-ing) — Preposition / Would you mind / avoid / used to",
+   "body": "ভুল: Would you mind to open\nসঠিক: Would you mind opening",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0071",
+   "kind": null,
+   "title": "Gerund (V-ing) — Preposition / Would you mind / avoid / used to",
+   "body": "ভুল: used to wake up (অভ্যস্ত)\nসঠিক: used to waking up",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0072",
+   "kind": null,
+   "title": "Infinitive (to + V1) — অভিপ্রায়/কর্তব্য/in order to",
+   "body": "ভুল: wants becoming a doctor\nসঠিক: wants to become a doctor",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0073",
+   "kind": null,
+   "title": "Prepositional Phrase (Despite / In spite of / Because of / Without)",
+   "body": "ভুল: In spite of he was poor\nসঠিক: In spite of being poor / his poverty",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0074",
+   "kind": null,
+   "title": "Prepositional Phrase (Despite / In spite of / Because of / Without)",
+   "body": "ভুল: because of he was ill\nসঠিক: because he was ill",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0075",
+   "kind": null,
+   "title": "Noun / Adjective / Adverbial Phrase পূরণ",
+   "body": "ভুল: Many educated people is unemployed\nসঠিক: Many educated people are unemployed (subject-verb agreement)",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0076",
+   "kind": null,
+   "title": "Proverb / Saying (প্রবাদ-প্রবচন)",
+   "body": "ভুল: United we stand, divided we fell\nসঠিক: …divided we fall",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_mistakes_0077",
+   "kind": null,
+   "title": "Proverb / Saying (প্রবাদ-প্রবচন)",
+   "body": "ভুল: time and tide wait for anyone\nসঠিক: …wait for none",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  }
+ ]
+}

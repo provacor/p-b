@@ -1,0 +1,83 @@
+{
+ "sectionId": "english_2nd_narration_rules",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "english_2nd_narration_rules_0001",
+   "kind": null,
+   "title": "Reporting Verb বদল (say / tell)",
+   "body": "Reporting verb হিসেবে say Direct ও Indirect দুই speech-এই থাকে, কিন্তু tell সাধারণত Indirect-এ আসে এবং তার পরে অবশ্যই object বসে। Direct-এ said to থাকলে Indirect-এ told হয়; তখন object-এর আগে আর to বসে না। প্রশ্ন, আদেশ, অনুরোধ, কামনা ইত্যাদি অনুযায়ী reporting verb আরও বদলে যায় (asked, ordered, advised, prayed, exclaimed…)।\n\nকাঠামো / ফর্মুলা:\nsaid / says → said / says (object নেই) • said to / says to → told / tells + object • Inverted comma তুলে → that + reported speech\n\nধরনগুলো:\n• Indirectsay → say / say to → tell (Reporting verb বদল) • Direct →\n• Directsay → say / say to → tell (Reporting verb বদল) • Indirect →",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_rules_0002",
+   "kind": null,
+   "title": "Pronoun (Person) বদল",
+   "body": "Indirect করার সময় Reported speech-এর pronoun বদলে যায়: First person (I, we, my, our) → reporting verb-এর Subject-এর person; Second person (you, your) → reporting verb-এর Object-এর person; Third person (he, she, they, it) → পরিবর্তন নেই। ব্যতিক্রম: মানবজাতি বোঝাতে we বদলায় না; বক্তা ও শ্রোতা দুজনকে বোঝালে we থেকে যায়; Editorial-এর we → it। Subject/Object না থাকলে the speaker / the person spoken to বসাও।\n\nকাঠামো / ফর্মুলা:\n1st → Subject-এর অনুযায়ী • 2nd → Object-এর অনুযায়ী • 3rd → No change\nReported Speech-এর Reporting Verb-এর First person Subject অনুসারে Second person Object অনুসারে\nThird person No change\n\nধরনগুলো:\n• IndirectReported speech-এর First person → Reporting verb-এর Subject • Direct →\n• DirectReported speech-এর First person → Reporting verb-এর Subject • Indirect →\n• Second person → Reporting verb-এর Object • Direct → Indirect\n• Second person → Reporting verb-এর Object • Indirect → Direct\n• Third person → কোনো পরিবর্তন নেই • Direct → Indirect\n• Third person → কোনো পরিবর্তন নেই • Indirect → Direct\n• Speaker/Listener উল্লেখ নেই • Direct → Indirect\n• ব্যতিক্রম — We (মানবজাতি / বক্তা+শ্রোতা / Editorial) • Direct → Indirect\n• ব্যতিক্রম — We (মানবজাতি / বক্তা+শ্রোতা / Editorial) • Indirect → Direct",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_rules_0003",
+   "kind": null,
+   "title": "Tense বদল",
+   "body": "Reporting verb Past হলে Reported speech-এর verb-এর tense এক ধাপ পেছনে যায় (Present → Past, Past → Past Perfect)। Reporting verb Present বা Future হলে tense বদলায় না। চিরন্তন সত্য, ইতিহাসের তথ্য ও habitual সত্যে tense অপরিবর্তিত থাকে। Past Perfect / Past Perfect Continuous আর বদলায় না। Direct Indirect am/is/are was/were have/has had was/were · had had been · had do/does · did did · had + V₃ shall/will · can · may should/would · could · might V₁ (Present Indefinite) V₂ am/is/are + V-ing was/were + V-ing have/has + V₃ had + V₃ V₂ (Past Indefinite) had + V₃\n\nকাঠামো / ফর্মুলা:\nReporting verb Present/Future → No change • Reporting verb Past → একধাপ পেছনে\n\nধরনগুলো:\n• Reporting verb Present/Future → Tense অপরিবর্তিত • Direct → Indirect\n• Reporting verb Present/Future → Tense অপরিবর্তিত • Indirect → Direct\n• Reporting verb Past + Present tense → Past • Direct → Indirect\n• Reporting verb Past + Present tense → Past • Indirect → Direct\n• Reported speech-ও Past → Past Perfect • Direct → Indirect\n• Reported speech-ও Past → Past Perfect • Indirect → Direct\n• Modal — shall/will, can, may • Direct → Indirect\n• Modal — shall/will, can, may • Indirect → Direct\n• চিরন্তন সত্য — Tense অপরিবর্তিত • Direct → Indirect\n• চিরন্তন সত্য — Tense অপরিবর্তিত • Indirect → Direct\n• Past Continuous / When-clause বিশেষ নিয়ম • Direct → Indirect\n• Past Continuous / When-clause বিশেষ নিয়ম • Indirect → Direct\n• Unreal Past (wish, would rather, it is time) • Direct → Indirect\n• Unreal Past (wish, would rather, it is time) • Indirect → Direct",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_rules_0004",
+   "kind": null,
+   "title": "সময় ও স্থানের শব্দ বদল",
+   "body": "Indirect করার সময় নৈকট্যবাচক শব্দ (now, here, this, today…) দূরত্ববাচক শব্দে বদলে যায় (then, there, that, that day…)। এই বদল নির্ভর করে বক্তা কোথায় বা কখন বলছে তার ওপর; তাই এখনকার ও তখনকার পরিস্থিতি মিলিয়ে দেখো। this/these adjective হলে the, pronoun হলে it/they/them, সময়বাচক হলে that হয়। Direct Indirect now then here there today / tomorrow / that day / the next day / the yesterday previous day last night / week / the previous night / week / month month ago · this · these before · that · those come go / arrive thus · hence so · thence\n\nকাঠামো / ফর্মুলা:\nnow → then • here → there • today → that day • tomorrow → the next day • yesterday → the previous day • this → that/the/it\n\nধরনগুলো:\n• this → that (সময়সূচক) • Direct → Indirect\n• this → that (সময়সূচক) • Indirect → Direct\n• this/these → the (adjective হিসেবে) • Direct → Indirect\n• this/these → the (adjective হিসেবে) • Indirect → Direct\n• this/these → it/they/them (pronoun হিসেবে) • Direct → Indirect\n• this/these → it/they/them (pronoun হিসেবে) • Indirect → Direct\n• Indirecthere → there, today/tomorrow → that day/next day • Direct →\n• Directhere → there, today/tomorrow → that day/next day • Indirect →\n• here → বিভিন্ন phrase (with him …) • Direct → Indirect\n• here → বিভিন্ন phrase (with him …) • Indirect → Direct\n• this one / these ones — the one(s) near … • Direct → Indirect\n• this one / these ones — the one(s) near … • Indirect → Direct",
+   "topic": "পর্ব ১ — সাধারণ নিয়ম — Reporting verb • Person • Tense • সময়/স্থান"
+  },
+  {
+   "id": "english_2nd_narration_rules_0005",
+   "kind": null,
+   "title": "Assertive Sentence (বিবৃতিমূলক বাক্য)",
+   "body": "Reported speech যদি Assertive (বিবৃতিমূলক) হয়, তাহলে Inverted comma তুলে that বসে। বইয়ের Rule ১ অনুযায়ী: said (object ছাড়া) → said; said to → told; Reporting verb Past না হলে tense অপরিবর্তিত। এর সঙ্গে আলাদা নিয়ম আছে had better, might, ought to/should, If I were you, used to, could-এর জন্য।\n\nকাঠামো / ফর্মুলা:\nSubject + said/told (+ object) + that + reported subject + verb (tense/person মিলিয়ে)\n\nধরনগুলো:\n• Rule ১ — say/said, tell/told, that বসানো • Direct → Indirect\n• Rule ১ — say/said, tell/told, that বসানো • Indirect → Direct\n• Rule ২ — had better • Direct → Indirect\n• Rule ২ — had better • Indirect → Direct\n• Rule ৩ — might • Direct → Indirect\n• Rule ৩ — might • Indirect → Direct\n• Rule ৪ — ought to / should • Direct → Indirect\n• Rule ৫ — If I were you • Direct → Indirect\n• Rule ৬ — used to (অপরিবর্তিত) • Direct → Indirect\n• Rule ৬ — used to (অপরিবর্তিত) • Indirect → Direct\n• Rule ৭ — could (অপরিবর্তিত) • Direct → Indirect\n• Rule ৭ — could (অপরিবর্তিত) • Indirect → Direct",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_rules_0006",
+   "kind": null,
+   "title": "Interrogative Sentence (প্রশ্নবোধক বাক্য)",
+   "body": "Question-এর ক্ষেত্রে reporting verb হয় asked / enquired of / wanted to know ইত্যাদি। Yes/No প্রশ্ন (do, does, is, will…) হলে reported-এর আগে if / whether বসে; Wh-question (who, what, where, why, how) হলে নিজের wh-শব্দই conjunction হয়, if/whether বসে না। প্রশ্নবোধক চিহ্ন (?) উঠে যায়, বাক্যের word order Subject + verb হয়ে Assertive-এর মতো হয়। অনুরোধ, offer, suggestion, command, invitation-ও প্রশ্নের চেহারায় আসতে পারে।\n\nকাঠামো / ফর্মুলা:\nSubject + asked + object + if/whether + reported subject + verb (Yes/No) • Subject + asked + object + wh-word + subject + verb (Wh) • … asked + object + to + V₁ (অনুরোধ)\n\nধরনগুলো:\n• Yes/No Question — if / whether • Direct → Indirect\n• Yes/No Question — if / whether • Indirect → Direct\n• Wh-Question — who/what/where/why… • Direct → Indirect\n• Wh-Question — who/what/where/why… • Indirect → Direct\n• Interrogative adjective / request (ask … to) • Direct → Indirect\n• Interrogative adjective / request (ask … to) • Indirect → Direct\n• Shall I/we — advice ও instruction • Direct → Indirect\n• Shall I/we — advice ও instruction • Indirect → Direct\n• Offer — offered • Direct → Indirect\n• Offer — offered • Indirect → Direct\n• Suggestion — suggested • Direct → Indirect\n• Suggestion — suggested • Indirect → Direct\n• Command — told/ordered • Direct → Indirect\n• Invitation — invited • Direct → Indirect\n• Tag Question • Direct → Indirect",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_rules_0007",
+   "kind": null,
+   "title": "Imperative Sentence (আদেশ / অনুরোধ / উপদেশ)",
+   "body": "Imperative বাক্যে reporting verb বদলে হয় told / ordered / commanded / advised / requested / forbade / begged / urged ইত্যাদি। that বসে না; বসে to + V₁। Negative হলে not to + V₁ বসে (do উঠে যায়)। সম্বোধন থাকলে Addressing … as … গঠন বসে। Let us / Let’s থাকলে suggested/proposed (+ gerund / that … should); Let him/me/them থাকলে told/wished/begged … might।\n\nকাঠামো / ফর্মুলা:\nSubject + told/ordered/advised/requested + object + (not) to + V₁ • Addressing + object + as + noun, subject + verb + to… • Let’s → suggested/proposed + V-ing / that … should\n\nধরনগুলো:\n• Rule ১ — order / advise / request / forbid • Direct → Indirect\n• Rule ১ — order / advise / request / forbid • Indirect → Direct\n• Rule ২ — Negative imperative (not to) • Direct → Indirect\n• Rule ২ — Negative imperative (not to) • Indirect → Direct\n• Rule ৩ — সম্বোধনসহ (Addressing … as) • Direct → Indirect\n• Rule ৩ — সম্বোধনসহ (Addressing … as) • Indirect → Direct\n• Rule ৪ — Let us / Let’s • Direct → Indirect\n• Rule ৪ — Let us / Let’s • Indirect → Direct\n• Rule ৫ — Let him/me/them • Direct → Indirect\n• Rule ৫ — Let him/me/them • Indirect → Direct",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_rules_0008",
+   "kind": null,
+   "title": "Optative Sentence (কামনা / প্রার্থনা)",
+   "body": "Optative বাক্য (May …, Long live …, God save …) কামনা, বাসনা বা প্রার্থনা বোঝায়। Indirect-এ reporting verb হয় prayed বা wished, তার পরে that বসে, এবং reported speech-এর subject-এর পর may / might বসে (tense অনুযায়ী might)।\n\nকাঠামো / ফর্মুলা:\nSubject + prayed / wished + that + reported subject + might + V₁\n\nধরনগুলো:\n• May + subject — pray / wish that … might • Direct → Indirect\n• May + subject — pray / wish that … might • Indirect → Direct",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_rules_0009",
+   "kind": null,
+   "title": "Exclamatory Sentence (বিস্ময়সূচক বাক্য)",
+   "body": "Exclamatory বাক্যে আনন্দ হলে exclaimed with joy, দুঃখ হলে exclaimed with sorrow/grief, বিস্ময় হলে exclaimed with surprise/wonder। এরপর that বসে এবং What / How পাল্টে very / great / much বসে। অন্য interjection (Bravo, Fie, Good Heavens, Ugh, Liar…) অনুযায়ী আলাদা verb (applauded, called, swore, wished, welcomed…) হয়।\n\nকাঠামো / ফর্মুলা:\nSubject + exclaimed with joy/sorrow/surprise + that + reported subject + verb + very/great + adjective\n\nধরনগুলো:\n• Alas! — exclaimed with sorrow • Direct → Indirect\n• Alas! — exclaimed with sorrow • Indirect → Direct\n• What / How — very / great • Direct → Indirect\n• What / How — very / great • Indirect → Direct\n• Bravo / Fie / Good Heavens … • Direct → Indirect\n• Bravo / Fie / Good Heavens … • Indirect → Direct\n• Good! / Ugh! — exclamation of … • Direct → Indirect\n• Good! / Ugh! — exclamation of … • Indirect → Direct\n• IndirectWish / curse / call / welcome / swear • Direct →\n• →WishDirect/ curse / call / welcome / swear • Indirect",
+   "topic": "পর্ব ২ — বাক্যের ধরন অনুযায়ী — Assertive • Interrogative • Imperative • Optative • Exclamatory"
+  },
+  {
+   "id": "english_2nd_narration_rules_0010",
+   "kind": null,
+   "title": "Must ও বিশেষ শব্দ (Thank you, Good-bye…)",
+   "body": "Must-এর past form নেই, তাই সাধারণ বাধ্যবাধকতায় had to হয়; ভবিষ্যৎ বাধ্যবাধকতায় (First person) would have to; চিরকালীন/নৈতিক বাধ্যবাধকতায় must অপরিবর্তিত থাকে। এছাড়া Direct-এ Thank you, Good-bye, Good morning থাকলে সেগুলো আলাদা reporting verb-এ রূপ নেয় (thanked, bade … good-bye, wished…)।\n\nকাঠামো / ফর্মুলা:\nmust → had to • must (ভবিষ্যৎ) → would have to • must (চিরকালীন) → must • Thank you → thanked • Good-bye → bade • Good morning → wished\n\nধরনগুলো:\n• Must → had to • Direct → Indirect\n• Must → had to • Indirect → Direct\n• Must → would have to (ভবিষ্যৎ) • Direct → Indirect\n• Must → would have to (ভবিষ্যৎ) • Indirect → Direct\n• Must — চিরকালীন বাধ্যবাধকতা (অপরিবর্তিত) • Direct → Indirect\n• Must — চিরকালীন বাধ্যবাধকতা (অপরিবর্তিত) • Indirect → Direct\n• Thank you → thanked • Direct → Indirect\n• Thank you → thanked • Indirect → Direct\n• Good-bye → bade … good-bye • Direct → Indirect\n• Good-bye → bade … good-bye • Indirect → Direct\n• Good morning → wished • Direct → Indirect\n• Good morning → wished • Indirect → Direct\n• দুজনই Proper noun — (A)/(S) চিহ্ন • Direct → Indirect\n• Reporting verb নেই — the speaker said • Direct → Indirect",
+   "topic": "পর্ব ৩ — অতিরিক্ত নিয়ম — Must, বিশেষ শব্দ ও Passage Narration"
+  },
+  {
+   "id": "english_2nd_narration_rules_0011",
+   "kind": null,
+   "title": "অতিরিক্ত নিয়ম ও Passage Narration",
+   "body": "বইয়ের অতিরিক্ত নিয়ম — Swearing (By Allah), বাক্যের শুরুর phrase (Turning to…), Assertive হয়েও প্রশ্নবোধক (Being surprised), অসম্পূর্ণ বাক্য, the speaker/listener, Yes/No উত্তর, Sir → politely, Sorry → expressed regret, Congratulation, Good morning, Good-bye, Addressing as, Excuse me → drew attention। এছাড়া Passage Narration-এর নিয়ম: reporting verb যেখানেই থাক Indirect-এ reported speech-এর আগে বসে; vocative case reporting verb-এর পরে যায়; দ্বিতীয় বক্তার উত্তর হলে replied that; একই বক্তার পরবর্তী উক্তি হলে also added / further asked।\n\nকাঠামো / ফর্মুলা:\nSwearing by Allah, subject + said that … • Phrase, subject + reporting verb + … • Being surprised, … asked if • replied that / also added / further asked\n\nধরনগুলো:\n• Swearing — By Allah / By God • Direct → Indirect\n• Phrase (Turning to…, looking at…) বাক্যের শুরুতে • Direct → Indirect\n• Phrase (Turning to…, looking at…) বাক্যের শুরুতে • Indirect → Direct\n• Assertive form কিন্তু প্রশ্নবোধক — Being surprised • Direct → Indirect\n• Assertive form কিন্তু প্রশ্নবোধক — Being surprised • Indirect → Direct\n• অসম্পূর্ণ বাক্য (phrase) → পূর্ণাঙ্গ • Direct → Indirect\n• অসম্পূর্ণ বাক্য (phrase) → পূর্ণাঙ্গ • Indirect → Direct\n• the speaker / the listener • Direct → Indirect\n• চিরন্তন সত্য • Direct → Indirect\n• চিরন্তন সত্য • Indirect → Direct\n• Yes / No উত্তর • Direct → Indirect\n• Yes / No উত্তর • Indirect → Direct\n• Sir / Madam → politely / respectfully • Direct → Indirect\n• Sorry → expressed regret • Direct → Indirect\n• Sorry → expressed regret • Indirect → Direct\n• Thank you / Congratulation • Direct → Indirect\n• Thank you / Congratulation • Indirect → Direct\n• Good morning / afternoon / evening • Direct → Indirect\n• Good morning / afternoon / evening • Indirect → Direct\n• Good night / Good-bye / Farewell • Direct → Indirect\n• Good night / Good-bye / Farewell • Indirect → Direct\n• সম্বোধন — Addressing him as … • Direct → Indirect\n• Excuse me / Listen / Hello — drew attention • Direct → Indirect\n• Excuse me / Listen / Hello — drew attention • Indirect → Direct\n• Passage — Reporting verb reported-এর আগে • Direct → Indirect\n• Passage — Reporting verb reported-এর আগে • Indirect → Direct\n• Passage — দ্বিতীয় বক্তার উত্তর (replied that) • Direct → Indirect\n• Passage — দ্বিতীয় বক্তার উত্তর (replied that) • Indirect → Direct\n• Passage — Vocative case • Direct → Indirect\n• Passage — Vocative case • Indirect → Direct\n• Passage — also added / further asked • Direct → Indirect\n• Passage — also added / further asked • Indirect → Direct\n• Passage — What about …? → wanted to know • Direct → Indirect\n• Passage — What about …? → wanted to know • Indirect → Direct",
+   "topic": "পর্ব ৩ — অতিরিক্ত নিয়ম — Must, বিশেষ শব্দ ও Passage Narration"
+  }
+ ]
+}

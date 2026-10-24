@@ -1,0 +1,104 @@
+{
+ "sectionId": "english_2nd_sentence_connectors_examples",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "english_2nd_sentence_connectors_examples_0001",
+   "kind": null,
+   "title": "সংযোজন / অন্তর্ভুক্তিকরণ (Addition)",
+   "body": "He is intelligent and hardworking.\nBoth he and his sister are present.\nMoreover, the house is cheap.",
+   "topic": "পর্ব ১ — সংযোজন ও বৈসাদৃশ্য (Addition • Contrast)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_examples_0002",
+   "kind": null,
+   "title": "বৈসাদৃশ্য / বিরোধ (Contrast)",
+   "body": "He has passed the examination, while his sister has failed.\nAlthough he is rich, he is not happy.\nIt was raining; nevertheless, we went out.",
+   "topic": "পর্ব ১ — সংযোজন ও বৈসাদৃশ্য (Addition • Contrast)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_examples_0003",
+   "kind": null,
+   "title": "উদ্দেশ্য (Purpose)",
+   "body": "He works hard so that he can pass.\nWe eat in order to live.\nHe saved money with a view to buying a car.",
+   "topic": "পর্ব ২ — উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_examples_0004",
+   "kind": null,
+   "title": "শর্ত (Condition)",
+   "body": "Study hard; otherwise, you may fail.\nUnless you work hard, you will fail.\nWait here until I return.",
+   "topic": "পর্ব ২ — উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_examples_0005",
+   "kind": null,
+   "title": "সময় ও স্থান (Time & Place)",
+   "body": "When I reached, the train had left.\nFirst of all, wash your hands. Then, eat. Finally, drink water.\nThis is the village where I was born.",
+   "topic": "পর্ব ২ — উদ্দেশ্য, শর্ত, সময় ও স্থান (Purpose • Condition • Time • Place)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_examples_0006",
+   "kind": null,
+   "title": "কারণ (Cause / Reason)",
+   "body": "He failed because he did not study.\nThe match was cancelled due to the rain.",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_examples_0007",
+   "kind": null,
+   "title": "ফলাফল (Result)",
+   "body": "It was raining, so we stayed home.\nHe worked hard. As a result, he got GPA 5.",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_examples_0008",
+   "kind": null,
+   "title": "উদাহরণ (Exemplification)",
+   "body": "Many fruits are rich in vitamin C, such as orange and guava.\nFor example, honesty is a virtue.",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_examples_0009",
+   "kind": null,
+   "title": "ব্যাখ্যা (Explanation)",
+   "body": "He is a bibliophile; that is, he loves books.",
+   "topic": "পর্ব ৩ — কারণ, ফলাফল, উদাহরণ ও ব্যাখ্যা (Cause • Result • Example • Explanation)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_examples_0010",
+   "kind": null,
+   "title": "গুরুত্ব ও জোর (Emphasis)",
+   "body": "Trees are vital. In fact, we cannot live without them.",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_examples_0011",
+   "kind": null,
+   "title": "সারমর্ম (Summation)",
+   "body": "Above all, we must plant more trees.\nIn short, trees are our best friends.",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_examples_0012",
+   "kind": null,
+   "title": "ধরন / তুলনা (Manner & Type)",
+   "body": "He is such a man as everyone respects.",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_examples_0013",
+   "kind": null,
+   "title": "Relative ও অন্যান্য Connector (that, who, which, what, whether)",
+   "body": "The man who came is my uncle.\nThis is the book which I bought.\nI don't know whether he will come.",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  },
+  {
+   "id": "english_2nd_sentence_connectors_examples_0014",
+   "kind": null,
+   "title": "অন্যান্য Adverb ও Phrase Connector",
+   "body": "Unfortunately, many people ignore trees.\nSurprisingly, it worked.",
+   "topic": "পর্ব ৪ — গুরুত্ব, সারমর্ম, ধরন ও অন্যান্য (Emphasis • Summation • Manner • Others)"
+  }
+ ]
+}

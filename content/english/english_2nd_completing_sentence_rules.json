@@ -1,0 +1,398 @@
+{
+ "sectionId": "english_2nd_completing_sentence_rules",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "english_2nd_completing_sentence_rules_0001",
+   "kind": null,
+   "title": "Till / Until (যতক্ষণ না…)",
+   "body": "till / until মানে “যতক্ষণ না / যতক্ষণ পর্যন্ত না”। কোনো কাজ বা ঘটনা শেষ না হওয়া পর্যন্ত চলতে থাকলে এটি বসে। Until-এর পরে সাধারণত affirmative clause বসে (not/never বসে না); Till-এর পরে negative-ও আসতে পারে।\n\nকাঠামো / ফর্মুলা:\nPrincipal clause + till/until + affirmative clause Present/Future-এ: …until + Present Simple | Past-এ: …until + Past Simple\n\nধরনগুলো:\n• Till/Until + clause পূরণ (ফাঁকা Till/Until-এর ঠিক পরে)\n• Principal clause পূরণ → Till/Until-clause পরে দেওয়া",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0002",
+   "kind": null,
+   "title": "When (যখন … তখন)",
+   "body": "when দুটি ঘটনার একই সময়/একটির পরে আরেকটি বোঝায়। When-clause (subordinate) আগে বসলে শেষে কমা (,) দিতে হয়; পরে বসলে কমা লাগে না। Tense মিল: When + Past → Past, When + Present → Present/Future।\n\nকাঠামো / ফর্মুলা:\nWhen + subordinate clause, + principal clause Principal clause + when + subordinate clause When+Past+Past • When+Present+Present • When+Present+Future\n\nধরনগুলো:\n• When + clause পূরণ (ফাঁকা When-এর ঠিক পরে)\n• অন্যান্য গঠন\n• When-clause আগে দেওয়া → Principal clause পূরণ\n• Principal clause পূরণ → When-clause পরে দেওয়া",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0003",
+   "kind": null,
+   "title": "After (পরে / যখন … তখন)",
+   "body": "after = “পরে”। যে কাজ আগে হয় সেটি after-clause-এ, পরেরটি principal clause-এ। Past-এর ক্ষেত্রে After + Past Perfect (had + V3), Past Simple। Future-এ After + Present, Future।\n\nকাঠামো / ফর্মুলা:\nAfter + Present, … will + V1 | After + Past Perfect, … Past Simple\nPrincipal clause (Past Simple) + after + Past Perfect\n\nধরনগুলো:\n• After + clause পূরণ (ফাঁকা After-এর ঠিক পরে)\n• After-clause আগে দেওয়া → Principal clause পূরণ\n• Principal clause পূরণ → After-clause পরে দেওয়া",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0004",
+   "kind": null,
+   "title": "While (যখন; কোনো কাজ চলাকালীন)",
+   "body": "while = “যখন/ঠিক সেই সময়” — একটি কাজ চলার মধ্যে আরেকটি ঘটলে। While-এর পরে Continuous (was/were + V-ing, is/are + V-ing) বা Simple বসে। While-এ ‘অন্যদিকে/ পক্ষান্তরে’ অর্থ (Rule 5-এর অংশ) থাকলে বিপরীতধর্মী clause আসে।\n\nকাঠামো / ফর্মুলা:\nWhile + past/present continuous, + past/present simple\nPast/present simple + while + past/present continuous\n\nধরনগুলো:\n• While + clause পূরণ (ফাঁকা While-এর ঠিক পরে)\n• While-clause-সহ পুরো অংশ পূরণ\n• অন্যান্য গঠন\n• While-clause আগে দেওয়া → Principal clause পূরণ",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0005",
+   "kind": null,
+   "title": "While / Whereas (অন্যদিকে, পক্ষান্তরে, অথচ)",
+   "body": "এখানে while/whereas সময় নয়, বৈপরীত্য (contrast) বোঝায়: একজন এক রকম, অন্যজন তার উল্টো। এর পরের clause সাধারণত বিপরীতধর্মী হয়।\n\nকাঠামো / ফর্মুলা:\nClause 1 + while/whereas + বিপরীত clause\n\nধরনগুলো:\n• While/Whereas + clause পূরণ (ফাঁকা While/Whereas-এর ঠিক পরে)",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0006",
+   "kind": null,
+   "title": "Before (পূর্বে, আগে)",
+   "body": "before দুটি ঘটনার মধ্যে আগে কোনটি ঘটেছে তা বোঝায়। Past-এ আগের ঘটনায় had + V3 (Past Perfect), পরেরটিতে Past Simple। Future-এ আগে Future, পরে Present।\n\nকাঠামো / ফর্মুলা:\nPast Perfect (had + V3) + before + Past Simple Past Simple + before + Past Perfect (কখনো)\n\nধরনগুলো:\n• Before + clause পূরণ (ফাঁকা Before-এর ঠিক পরে)\n• Principal clause পূরণ → Before-clause পরে দেওয়া",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0007",
+   "kind": null,
+   "title": "As (যেমন / সময়ের সাথে সাথে)",
+   "body": "as এখানে “যখন; সময়ের সাথে সাথে; যেমন…তেমন” অর্থে বসে। একটি ঘটনা চলতে চলতে আরেকটি ঘটলে বা তুলনা/ধরন বোঝাতে as ব্যবহার হয়।\n\nকাঠামো / ফর্মুলা:\nAs + clause, + principal clause • Principal clause + as + clause\n\nধরনগুলো:\n• As-clause আগে দেওয়া → Principal clause পূরণ\n• As + clause পূরণ (ফাঁকা As-এর ঠিক পরে)",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0008",
+   "kind": null,
+   "title": "As soon as (যেই মাত্র … সেই মাত্র)",
+   "body": "একটি কাজ শেষ হতে না হতেই আরেকটি শুরু হলে as soon as বসে। দুটি কাজ প্রায় একসাথে — প্রথমটির সাথে সাথেই দ্বিতীয়টি।\n\nকাঠামো / ফর্মুলা:\nAs soon as + subordinate clause, + principal clause\nPrincipal clause + as soon as + subordinate clause\n\nধরনগুলো:\n• As soon as + clause পূরণ (ফাঁকা As soon as-এর ঠিক পরে)\n• As soon as-clause আগে দেওয়া → Principal clause পূরণ\n• Principal clause পূরণ → As soon as-clause পরে দেওয়া",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0009",
+   "kind": null,
+   "title": "As long as (যতক্ষণ পর্যন্ত; যতদিন)",
+   "body": "as long as = “যতক্ষণ/যতদিন … ততক্ষণ/ততদিন”। শর্তসহ সময়সীমা বোঝায় (প্রায় if-এর মতো)।\n\nকাঠামো / ফর্মুলা:\nPrincipal clause + as long as + subordinate clause\n\nধরনগুলো:\n• As long as + clause পূরণ (ফাঁকা As long as-এর ঠিক পরে)\n• অন্যান্য গঠন",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0010",
+   "kind": null,
+   "title": "Whenever (যখনই … তখনই)",
+   "body": "whenever = যতবার/যখনই। অভ্যাস বা পুনরাবৃত্ত ঘটনা বোঝায়; তাই দুই অংশেই Present Simple বসে।\n\nকাঠামো / ফর্মুলা:\nWhenever + Present Simple, + Present Simple Present Simple + whenever + Present Simple\n\nধরনগুলো:\n• অন্যান্য গঠন\n• Whenever-clause আগে দেওয়া → Principal clause পূরণ\n• Whenever + clause পূরণ (ফাঁকা Whenever-এর ঠিক পরে)\n• Principal clause পূরণ → Whenever-clause পরে দেওয়া",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0011",
+   "kind": null,
+   "title": "It is / was … since (… সময় ধরে / … পর)",
+   "body": "‘কতদিন আগে কিছু ঘটেছিল’ বোঝাতে It is (a long time/many years) since + Past Simple। Past-এ বললে It was … since + Past Perfect (had + V3)। এখানে since-এর পরে clause।\n\nকাঠামো / ফর্মুলা:\nIt is/has been + সময় + since + Past Indefinite It was + সময় + since + Past Perfect\nTime + have/has passed + since + Past Indefinite\n\nধরনগুলো:\n• It was … since + Past Perfect (had + V3)\n• It is/has been … since + Past Indefinite",
+   "topic": "পর্ব ১ — সময়বাচক Clause (Time)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0012",
+   "kind": null,
+   "title": "Because / As / Since (যেহেতু … সেহেতু)",
+   "body": "because/as/since কারণ বোঝায়। Because সাধারণত principal clause-এর পরে; As/Since সাধারণত শুরুতে (কমা সহ)। কারণ-clause + ফল-clause — দুটি মিলে অর্থপূর্ণ হতে হবে।\n\nকাঠামো / ফর্মুলা:\nAs/Since + কারণ clause, + ফল clause ফল clause + because + কারণ clause\n\nধরনগুলো:\n• Because/As/Since + clause পূরণ (ফাঁকা Because/As/Since-এর ঠিক পরে)\n• Because/As/Since-clause আগে দেওয়া → Principal clause পূরণ\n• অন্যান্য গঠন\n• Because/As/Since-clause-সহ পুরো অংশ পূরণ",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0013",
+   "kind": null,
+   "title": "Lest (নচেৎ, পাছে, যাতে না)",
+   "body": "lest নিজেই negative অর্থ দেয় (‘যাতে না…’)। তাই lest + subject + should/might + V1। Lest-এর পরে not বসে না। বাক্যের আগের অংশ সাধারণত Imperative/সাবধানবাণী।\n\nকাঠামো / ফর্মুলা:\nImperative / Past clause + lest + subject + should/might + V1 (modern usage-এ should বাধ্যতামূলক নয়)\n\nধরনগুলো:\n• lest + subject + should/might + V1",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0014",
+   "kind": null,
+   "title": "So that / In order that / That (যাতে)",
+   "body": "so that উদ্দেশ্য (Purpose) বোঝায়। Present Tense → can/may + V1; Past Tense → could/might + V1। ফাঁকা অংশ ‘উদ্দেশ্য’ হবে — যা করার জন্য কাজটি করা হয়েছে।\n\nকাঠামো / ফর্মুলা:\nPresent clause + so that + subject + can/may + V1\nPast clause + so that + subject + could/might + V1\n\nধরনগুলো:\n• So that + clause পূরণ (ফাঁকা So that-এর ঠিক পরে)\n• অন্যান্য গঠন\n• So that-clause-সহ পুরো অংশ পূরণ",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0015",
+   "kind": null,
+   "title": "So … that (এত … যে)",
+   "body": "so + adjective/adverb + that — ফলাফল বোঝায়। বাক্য ভাগ: so-এর পরে গুণ/ক্রিয়াবিশেষণ, that-এর পরে ফলাফলযুক্ত clause। ফলাফল negative হলে can/could + not/never/hardly + V1।\n\nকাঠামো / ফর্মুলা:\nSubject + be/verb + so + adj/adv + that + subject + can/could (not) + V1\n\nধরনগুলো:\n• So…that + clause পূরণ (ফাঁকা So…that-এর ঠিক পরে)\n• So…that-clause-সহ পুরো অংশ পূরণ",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0016",
+   "kind": null,
+   "title": "So much / So many … that (এত বেশি … যে)",
+   "body": "পরিমাণ বোঝাতে so much + uncountable, সংখ্যা বোঝাতে so many + countable; তারপর that + ফলাফল clause।\n\nকাঠামো / ফর্মুলা:\nSubject + verb + so much/so many + (noun) + that + result clause\n\nধরনগুলো:\n• So much…that + clause পূরণ (ফাঁকা So much…that-এর ঠিক পরে)",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0017",
+   "kind": null,
+   "title": "Too … to / … enough to (এত … যে করা যায় না / যথেষ্ট … করার জন্য)",
+   "body": "too + adj/adv + (for sb) + to + V1 — নেতিবাচক ফল (‘এত বেশি … যে পারে না’)। adj + enough + to + V1 — ইতিবাচক (‘যথেষ্ট … করতে পারে’)। Too-এর নিজেই negative অর্থ আছে, তাই not বসে না।\n\nকাঠামো / ফর্মুলা:\nSubject + be + too + adj + (for + object) + to + V1 Subject + be + adj + enough + to + V1\n\nধরনগুলো:\n• too + adj/adv (+ for sb) + to + V1\n• adj + enough + to + V1",
+   "topic": "পর্ব ২ — কারণ, উদ্দেশ্য ও ফল (Reason • Purpose • Result)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0018",
+   "kind": null,
+   "title": "If + Present, Future (First Conditional)",
+   "body": "যে শর্ত পূরণ হওয়া সম্ভব/বাস্তব তা বোঝাতে If + Present Simple; ফলাফল will/shall/can/may + V1। এটি ভবিষ্যতের সম্ভাব্য ঘটনা।\n\nকাঠামো / ফর্মুলা:\nIf + Present Simple, subject + will/shall/can/may + V1\nঅথবা: subject + will + V1 + if + Present Simple\n\nধরনগুলো:\n• If-clause আগে দেওয়া → Principal clause পূরণ\n• If + clause পূরণ (ফাঁকা If-এর ঠিক পরে)\n• অন্যান্য গঠন",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0019",
+   "kind": null,
+   "title": "If + Present, may/might/can/must/should",
+   "body": "শর্ত সম্ভব; ফলাফলে may/might (সম্ভাবনা), can (সামর্থ্য/অনুমতি), must/should/have to (বাধ্যবাধকতা) বসে।\n\nকাঠামো / ফর্মুলা:\nIf + Present Simple, subject + may/might/can/must/should + V1 Principal clause + if + Present\n\nধরনগুলো:\n• If-clause-সহ পুরো অংশ পূরণ\n• If-clause আগে দেওয়া → Principal clause পূরণ\n• অন্যান্য গঠন\n• If + clause পূরণ (ফাঁকা If-এর ঠিক পরে)",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0020",
+   "kind": null,
+   "title": "If + Past Simple, would/could/might (Second Conditional)",
+   "body": "যে শর্ত বাস্তবের বিপরীত বা অসম্ভব/কল্নাপ (বর্তমান/ভবিষ্যতে), সেখানে If + Past Simple, ফলাফলে would/could/might + V1। If-clause-এ be-verb সবসময় were।\n\nকাঠামো / ফর্মুলা:\nIf + Past Simple (were), subject + would/could/might + V1\n\nধরনগুলো:\n• If-clause আগে দেওয়া → Principal clause পূরণ\n• If + clause পূরণ (ফাঁকা If-এর ঠিক পরে)",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0021",
+   "kind": null,
+   "title": "If + Past Perfect, would/could/might have + V3 (Third Conditional)",
+   "body": "যে শর্ত অতীতে পূরণ হয়নি এবং এখন আর পূরণ সম্ভব নয়, সেখানে If + had + V3; ফলাফলে would/could/might + have + V3। এটি অতীতের আফসোস/অবাস্তব অতীত।\n\nকাঠামো / ফর্মুলা:\nIf + had + V3, subject + would/could/might have + V3\n\nধরনগুলো:\n• If + clause পূরণ (ফাঁকা If-এর ঠিক পরে)\n• If-clause আগে দেওয়া → Principal clause পূরণ\n• If-clause-সহ পুরো অংশ পূরণ\n• অন্যান্য গঠন",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0022",
+   "kind": null,
+   "title": "Had + Subject + V3, … would have + V3 (If-ছাড়া Inversion)",
+   "body": "Third Conditional-এ if বাদ দিয়ে had-কে শুরুতে বসানো যায়: Had + subject + V3। মনের অপূর্ণ কামনা/বাসনা বোঝায়। ফলাফলে would/could/might have + V3 (কখনো Second Conditional-এ Had I the wings…, I would fly)।\n\nকাঠামো / ফর্মুলা:\nHad + subject + V3 (…), subject + would/could/might + have + V3 (= If + subject + had + V3)\n\nধরনগুলো:\n• Had-clause আগে দেওয়া → Principal clause পূরণ\n• Had-clause-সহ পুরো অংশ পূরণ",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0023",
+   "kind": null,
+   "title": "If / Whether (কিনা অর্থে — Noun Clause)",
+   "body": "if/whether এখানে শর্ত নয়, “কিনা” অর্থে বসে (ask, know, doubt, wonder-এর পরে)। Whether-এর সাথে or not আসতে পারে। Clause-এর word order: subject + verb (প্রশ্নের মতো উল্টো নয়)।\n\nকাঠামো / ফর্মুলা:\nask/know/wonder + if/whether + subject + verb (+ or not)\n\nধরনগুলো:\n• If/Whether + clause পূরণ (ফাঁকা If/Whether-এর ঠিক পরে)",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0024",
+   "kind": null,
+   "title": "Unless (যদি না / না হলে)",
+   "body": "unless = if … not। Unless নিজেই negative অর্থ বহন করে, তাই Unless-এর পরের clause affirmative; আবার principal clause সাধারণত negative বা ক্ষতি/ব্যর্থতার ফল। Present-এ Unless + Present, Future/can/will।\n\nকাঠামো / ফর্মুলা:\nUnless + affirmative clause, + principal clause (negative অর্থ)\nPrincipal clause + unless + affirmative clause\n\nধরনগুলো:\n• Unless-clause আগে দেওয়া → Principal clause পূরণ\n• Unless + clause পূরণ (ফাঁকা Unless-এর ঠিক পরে)\n• Unless-clause-সহ পুরো অংশ পূরণ",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0025",
+   "kind": null,
+   "title": "In case (যদি কোনো কিছু ঘটে — আগাম সতর্ক তা)",
+   "body": "in case সম্ভাব্য পরিস্থিতির জন্য আগে থেকে প্রস্তুতি বোঝায় (If-এর মতো ‘যদি’ নয়, বরং ‘যাতে প্রয়োজনে পাই’)। Present-এ Present Simple; Past-এ Past Simple।\n\nকাঠামো / ফর্মুলা:\nPrincipal clause + in case + subordinate clause In case + subordinate clause, + principal clause\n\nধরনগুলো:\n• In case + clause পূরণ (ফাঁকা In case-এর ঠিক পরে)\n• In case-clause আগে দেওয়া → Principal clause পূরণ",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0026",
+   "kind": null,
+   "title": "Provided / Provided that / Providing that (যদি/তবে শর্ত থাকে যে)",
+   "body": "provided (that) একটি শর্ত আরোপ করে — ‘তবে শর্ত এই যে’। এর পরে শর্ত-পূরণকারী clause বসে। অর্থ if-এর কাছাকাছি, কিন্তু আরও জোরালো শর্ত।\n\nকাঠামো / ফর্মুলা:\nPrincipal clause + provided (that) + condition clause\n\nধরনগুলো:\n• Provided-clause আগে দেওয়া → Principal clause পূরণ\n• Provided + clause পূরণ (ফাঁকা Provided-এর ঠিক পরে)",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0027",
+   "kind": null,
+   "title": "But for (… না থাকলে/না হলে)",
+   "body": "But for + noun/gerund = ‘… না থাকলে’ (Without)। এর পরের principal clause would/could/might (have) + V3। অর্থ: ‘তোমার সহযোগিতা না পেলে’ — Third Conditional-এর ছোট রূপ।\n\nকাঠামো / ফর্মুলা:\nBut for + noun, subject + would/could/might (have + V3)\n\nধরনগুলো:\n• মূল গঠন",
+   "topic": "পর্ব ৩ — শর্তবাচক Clause (Conditionals)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0028",
+   "kind": null,
+   "title": "As if / As though (যেন)",
+   "body": "বাস্তবের বিপরীত তুলনা বা ধারণা বোঝাতে as if / as though। Present-এর আগে → as if + Past/were; Past-এর আগে → as if + Past Perfect (had + V3)। be-verb হলে সবসময় were।\n\nকাঠামো / ফর্মুলা:\nPresent + as if/as though + Past Simple / were Past + as if/as though + had + V3 / had been\n\nধরনগুলো:\n• as if + past/were\n• as though + past/were",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0029",
+   "kind": null,
+   "title": "As … as (সমান/মতো)",
+   "body": "as + adjective/adverb (positive degree) + as সমান তুলনা বোঝায়। হ্যাঁ-বোধক বাক্যে বসে; দুই as-এর মাঝে adjective-এর মূল রূপ থাকবে।\n\nকাঠামো / ফর্মুলা:\nSubject + be + as + adjective + as + object/clause\n\nধরনগুলো:\n• মূল গঠন",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0030",
+   "kind": null,
+   "title": "Though / Although / Even though (যদিও … তবুও)",
+   "body": "Though/Although/Even though দুটি বিপরীতধর্মী ভাব জোড়ে। Though-clause-এর পরে principal clause বসে এবং তার অর্থ উল্টো/অপ্রত্যাশিত। বাংলায় ‘যদিও’ থাকলেও ইংরেজিতে but বসে না।\n\nকাঠামো / ফর্মুলা:\nThough/Although/Even though + subordinate clause, + বিপরীত principal clause\nPrincipal clause + though + subordinate clause\n\nধরনগুলো:\n• Though\n• Although\n• Even though\n• Though-clause (অন্যান্য)",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0031",
+   "kind": null,
+   "title": "Would that / I wish / Were / Had (যদি এমন হতো)",
+   "body": "অবাস্তব বা অসম্ভব ইচ্ছা প্রকাশে ব্যবহৃত। be-verb হলে সবসময় were; অন্য verb হলে could/would + V1; অতীতের আফসোসে Had + V3 / would have + V3।\n\nকাঠামো / ফর্মুলা:\nI wish / Would that + subject + were / could + V1 Were + subject… ! • Had + subject + V3, … would have + V3\n\nধরনগুলো:\n• I wish + subject + were/could\n• Would that + subject + could/were\n• Wish-গঠন\n• If only + past",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0032",
+   "kind": null,
+   "title": "Would rather … than (বরং … তবু নয়)",
+   "body": "পছন্দ বা বিকল্পের মধ্যে একটিকে বেছে নেওয়া: would rather + V1 + than + V1। দুই পাশেই verb-এর মূল রূপ; to বসে না।\n\nকাঠামো / ফর্মুলা:\nSubject + would rather + V1 + than + V1\n\nধরনগুলো:\n• মূল গঠন",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0033",
+   "kind": null,
+   "title": "Had better (বরং ভালো)",
+   "body": "উপদেশ/সতর্কবাণী বোঝাতে had better + V1। Had better-এর পরে verb-এর মূল রূপ; past participle নয়। Negative: had better not + V1।\n\nকাঠামো / ফর্মুলা:\nSubject + had better (not) + V1\n\nধরনগুলো:\n• মূল গঠন",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0034",
+   "kind": null,
+   "title": "It is high time / It is time (এখনই উপযুক্ত সময়)",
+   "body": "কাজটি করার সময় ইতোমধ্যে হয়ে গেছে — আর দেরি নয়। তাই It is high time + subject + Past Simple verb (অর্থ Present হলেও verb Past)। বিকল্:প It is high time + to + V1।\n\nকাঠামো / ফর্মুলা:\nIt is (high) time + subject + V2 (Past Simple) + extension\nIt is high time + to + V1\n\nধরনগুলো:\n• মূল গঠন",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0035",
+   "kind": null,
+   "title": "No sooner … than / Scarcely/Hardly … when (… না হতেই …)",
+   "body": "একটি ঘটনা ঘটতে না ঘটতেই আরেকটি ঘটলে এই গঠন। প্রথম অংশে Past Perfect (had + subject + V3) ও inversion (had আগে); দ্বিতীয় অংশে Past Simple। No sooner-এর সাথে than; Scarcely/Hardly-এর সাথে when (বা before)।\n\nকাঠামো / ফর্মুলা:\nNo sooner + had + subject + V3 + than + subject + V2\nScarcely / Hardly + had + subject + V3 + when/before + subject + V2\n\nধরনগুলো:\n• No sooner had … than …\n• Scarcely had … when …\n• Hardly/Barely had … when/before …",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0036",
+   "kind": null,
+   "title": "Let alone (… তো দূরের কথা)",
+   "body": "আগের অংশে ছোট/সহজ কিছু পারে না/নেই বলে পরে বড় জিনিসের কথা বলাই বাহুল্য বোঝাতে let alone। সাধারণত negative বাক্যের পরে বসে।\n\nকাঠামো / ফর্মুলা:\nNegative clause (ছোট বিষয়) + let alone + (বড় বিষয়)\n\nধরনগুলো:\n• মূল গঠন",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0037",
+   "kind": null,
+   "title": "But / Or / Otherwise / Neither…nor / Not only…but also (সংযোজক clause)",
+   "body": "Coordinate conjunction দুটি সমমানের অংশ জোড়ে : but (বৈপরীত্য), or/otherwise (বিকল্/প না হলে), neither…nor, not only…but also (দুটিই)। দুই অংশের গঠন যেন সমান (parallel) হয়।\n\nকাঠামো / ফর্মুলা:\nA + but + B (বিপরীত) • Imperative + or/otherwise + ফল • Not only A but also B\n\nধরনগুলো:\n• neither…nor / not only…but also\n• but + clause/phrase\n• or / otherwise + clause",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0038",
+   "kind": null,
+   "title": "The … the … (যত … তত …)",
+   "body": "The + comparative … the + comparative … — একটি বাড়লে আরেকটিও বাড়ে/কমে। দুই অংশেই comparative degree।\n\nকাঠামো / ফর্মুলা:\nThe + comparative + subject + verb, the + comparative + subject + verb\n\nধরনগুলো:\n• মূল গঠন",
+   "topic": "পর্ব ৪ — বৈপরীত্য ও বিশেষ কাঠামো (Contrast • Special Structures)"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0039",
+   "kind": null,
+   "title": "Whom / Who (যাকে … তাকে)",
+   "body": "whom/who ব্যক্তির জন্য Relative Pronoun। Whom = object; Who = subject (কথ্যে who-ও চলে)। Singular ও plural দুই ক্ষেত্রেই।\n\nকাঠামো / ফর্মুলা:\nAntecedent (ব্যক্তি) + whom/who + subject + verb\n\nধরনগুলো:\n• মূল গঠন",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0040",
+   "kind": null,
+   "title": "Whose (যার … / যাদের …)",
+   "body": "whose ব্যক্তি, বস্তু বা প্রাণীর অধিকার/সম্ন্ধব (-র, -এর) বোঝায়। Singular ও plural দুই ক্ষেত্রেই।\n\nকাঠামো / ফর্মুলা:\nNoun + whose + noun + verb\n\nধরনগুলো:\n• মূল গঠন",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0041",
+   "kind": null,
+   "title": "Whoever (যে-ই)",
+   "body": "whoever = ‘যে-ই হোক না কেন’; যেকোনো ব্যক্তি বোঝায়। Whoever-clause-এর পর principal clause।\n\nকাঠামো / ফর্মুলা:\nWhoever + subject/verb, + principal clause\n\nধরনগুলো:\n• মূল গঠন",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0042",
+   "kind": null,
+   "title": "Which / That / Who (Relative Clause)",
+   "body": "Relative Pronoun পূর্ববর্তী noun-কে বর্ণনা করে। who = ব্যক্তি; which = বস্তু/প্রাণী/দেশ (non-defining-এও); that = ব্যক্তি/ বস্তু/প্রাণী (দেশ নয়)। Relative clause-এ আবার একটি subject/verb আসে।\n\nকাঠামো / ফর্মুলা:\nNoun + who/which/that + (subject) + verb + extension\n\nধরনগুলো:\n• Relative clause (সর্বনাম উহ্য/অন্য গঠন)\n• who — ব্যক্তি\n• which — বস্তু/প্রাণী\n• that — ব্যক্তি/বস্তু",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0043",
+   "kind": null,
+   "title": "What (যা … তা)",
+   "body": "what = that which (যা)। এটি বিষয়/বস্তু বোঝায় এবং Noun Clause গঠন করে। What থাকলে আর that/which বসে না।\n\nকাঠামো / ফর্মুলা:\nWhat + subject/verb (noun clause) + main verb\n\nধরনগুলো:\n• মূল গঠন",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0044",
+   "kind": null,
+   "title": "Whatever (যা-ই)",
+   "body": "whatever = ‘যা-ই হোক না কেন’; যেকোনো বস্তু/বিষয়।\n\nকাঠামো / ফর্মুলা:\nWhatever + subject + verb, + main clause\n\nধরনগুলো:\n• মূল গঠন",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0045",
+   "kind": null,
+   "title": "Where / Wherever (যেখানে … সেখানে)",
+   "body": "where/wherever স্থান বোঝায়। Where-clause-এ subject + verb আসে। Wherever = যেখানেই হোক।\n\nকাঠামো / ফর্মুলা:\nPlace noun + where + subject + verb • Principal clause + wherever + clause\n\nধরনগুলো:\n• Where + clause পূরণ (ফাঁকা Where-এর ঠিক পরে)\n• Where-clause-সহ পুরো অংশ পূরণ\n• অন্যান্য গঠন",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0046",
+   "kind": null,
+   "title": "When (সময়বাচক Noun-এর পরে: the time/year/day when)",
+   "body": "‘সময়’ বোঝায় এমন noun (time, year, day, date, moment)-এর পরে when বসে; তখন when-clause ঐ noun-কে বর্ণনা করে (Relative adverb)।\n\nকাঠামো / ফর্মুলা:\ntime/year/day/date + when + subject + verb\n\nধরনগুলো:\n• When + clause পূরণ (ফাঁকা When-এর ঠিক পরে)",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0047",
+   "kind": null,
+   "title": "How (যেভাবে, কীভাবে)",
+   "body": "how পদ্ধতি, ধরন, প্রক্রিয়া বোঝায়। Noun clause-এ how-এর পরে subject + verb (প্রশ্নের উল্টো গঠন নয়)।\n\nকাঠামো / ফর্মুলা:\nKnow/tell/show + how + subject + verb\n\nধরনগুলো:\n• মূল গঠন",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0048",
+   "kind": null,
+   "title": "However (যতই … হোক না কেন)",
+   "body": "however + adjective/adverb + subject + may be — ‘যতই … হোক না কেন, তবুও’। এরপর principal clause।\n\nকাঠামো / ফর্মুলা:\nHowever + adjective + subject + may/verb, + principal clause\n\nধরনগুলো:\n• মূল গঠন",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0049",
+   "kind": null,
+   "title": "Why (কেন, কী কারণে)",
+   "body": "why কারণ বোঝায়; Noun clause-এ why-এর পরে subject + verb।\n\nকাঠামো / ফর্মুলা:\nKnow/tell + why + subject + verb • the reason why + subject + verb\n\nধরনগুলো:\n• মূল গঠন",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0050",
+   "kind": null,
+   "title": "Noun Clause (that / wh-clause + বাক্যের অংশ)",
+   "body": "যে clause বাক্যে Noun-এর কাজ করে (Subject/Object/Complement) তাকে Noun Clause বলে। এটি that/what/when/where/why/how/whether দিয়ে শুরু হয়। ‘that’ প্রায়ই say, know, confess, proverb, hope-এর পরে বসে।\n\nকাঠামো / ফর্মুলা:\nVerb + that + subject + verb It is + adjective/noun + that + clause\n\nধরনগুলো:\n• that-clause (noun clause)\n• Noun Clause / Phrase পূরণ (Subject, Verb, Object)",
+   "topic": "পর্ব ৫ — Relative ও Noun Clause"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0051",
+   "kind": null,
+   "title": "With a view to (উদ্দেশ্যে) + V-ing",
+   "body": "with a view to = ‘উদ্দেশ্যে’। এখানে to একটি preposition, তাই এর পরে verb-এর -ing (Gerund) বসে — verb-এর base form নয়।\n\nকাঠামো / ফর্মুলা:\nPrincipal clause + with a view to + V-ing + extension\n\nধরনগুলো:\n• মূল গঠন",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0052",
+   "kind": null,
+   "title": "Gerund (V-ing) — Preposition / Would you mind / avoid / used to",
+   "body": "Preposition-এর পরে verb থাকলে তা V-ing (Gerund) হয়। এছাড়া Would you mind, Could you avoid, be used to, cannot help, look forward to, instead of, avoid, enjoy-এর পরেও V-ing বসে।\n\nকাঠামো / ফর্মুলা:\nPreposition/Verb-এর পরে → V-ing\nWould you mind + V-ing ? • be used to + V-ing • avoid + V-ing\n\nধরনগুলো:\n• Would you mind / Could you + V-ing\n• Preposition/Verb-এর পরে V-ing (Gerund)\n• be used to / avoid / cannot help + V-ing",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0053",
+   "kind": null,
+   "title": "Infinitive (to + V1) — অভিপ্রায়/কর্তব্য/in order to",
+   "body": "to + verb-এর মূল রূপ অভিপ্রায়, লক্ষ্য, বা কোনো noun/adjective-এর পরে বসে। in order to উদ্দেশ্য বোঝায়। want, hope, try, need, wish, ask-এর পরে to-infinitive।\n\nকাঠামো / ফর্মুলা:\nVerb/Adjective + to + V1 Subject + verb + in order to + V1\n\nধরনগুলো:\n• to + V1 (Infinitive)\n• in order to + V1",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0054",
+   "kind": null,
+   "title": "Prepositional Phrase (Despite / In spite of / Because of / Without)",
+   "body": "Preposition + noun/V-ing মিলে Prepositional Phrase। Despite/In spite of = ‘সত্ত্বেও’ (বৈপরীত্য), Because of/Due to = ‘কারণে’, Without = ‘ছাড়া’। এদের পরে clause নয়, noun বা V-ing বসে।\n\nকাঠামো / ফর্মুলা:\nDespite / In spite of + noun / V-ing (the fact that + clause)\nBecause of / Due to + noun/V-ing • Without + noun/V-ing\n\nধরনগুলো:\n• Despite / In spite of + noun/V-ing\n• Because of / Due to + noun\n• Without / In lieu of / In the event of\n• Verb/Noun-এর সঙ্গে ঠিক Preposition (rely on, believe in, source of…)",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0055",
+   "kind": null,
+   "title": "Noun / Adjective / Adverbial Phrase পূরণ",
+   "body": "শব্দগুচ্ছ (phrase) বাক্যে noun, adjective বা adverb-এর কাজ করে। ফাঁকা অংশে Subject/Object/Complement হিসেবে উপযুক্ত Noun Phrase বসাতে হয়।\n\nকাঠামো / ফর্মুলা:\nSubject (Noun Phrase) + verb • verb + Noun Phrase (object)\nadjective + noun • preposition + noun\n\nধরনগুলো:\n• Object / Complement হিসেবে Noun Phrase পূরণ\n• Subject হিসেবে Noun Phrase পূরণ",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  },
+  {
+   "id": "english_2nd_completing_sentence_rules_0056",
+   "kind": null,
+   "title": "Proverb / Saying (প্রবাদ-প্রবচন)",
+   "body": "There goes a proverb / A proverb goes / It is said that + প্রবাদ। ফাঁকা অংশে প্রবাদের বাকি অংশ লিখতে হয়। প্রবাদ হুবহু মুখস্থ রাখতে হয় — এতে পরিবর্তন চলে না।\n\nকাঠামো / ফর্মুলা:\nThere goes a proverb that + প্রবাদ বাক্য প্রবাদের প্রথম অংশ দেওয়া → দ্বিতীয় অংশ পূরণ\n\nধরনগুলো:\n• There goes a proverb/saying that + clause\n• প্রবাদ/বাক্যাংশ সরাসরি পূরণ",
+   "topic": "পর্ব ৬ — Phrase, Gerund, Infinitive ও প্রবাদ"
+  }
+ ]
+}
