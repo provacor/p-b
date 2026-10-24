@@ -1,0 +1,13 @@
+{
+  "sectionId": "chemistry_1st_ch02_simulation",
+  "updated": "2026-10-24",
+  "items": [
+    {
+      "id": "chemistry_1st_ch02_simulation_0001",
+      "kind": null,
+      "title": "গুণগত রসায়ন ল্যাব — ১৫টি সিমুলেশন (দ্রাব্যতা ও তাপমাত্রা · Ksp · অধঃক্ষেপ · সম-আয়ন প্রভাব · হেনরির সূত্র · ক্রোমাটোগ্রাফি · রাদারফোর্ড পরীক্ষা · বোর মডেল · H-বর্ণালি · কোয়ান্টাম সংখ্যা · ইলেকট্রন বিন্যাস · তড়িৎচুম্বকীয় বর্ণালি · শিখা পরীক্ষা · সিক্ত পরীক্ষা · তেজস্ক্রিয় ক্ষয়)",
+      "format": "html",
+      "file": "content/files/chemistry_1st_ch02_simulation/qualitative-lab.html"
+    }
+  ]
+}

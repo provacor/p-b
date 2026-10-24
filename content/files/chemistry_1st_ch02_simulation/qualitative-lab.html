@@ -1,0 +1,680 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>গুণগত রসায়ন ল্যাব — ২য় অধ্যায়ের সিমুলেশন</title>
+<style>
+  :root {
+    --bg: #0d1017; --panel: #151a24; --panel2: #1c2230; --line: #2a3242; --text: #e9edf4; --muted: #8e98ab;
+    --a: #7ea6ff; --b: #f7c35c; --c: #4fd8c4; --d: #fb8fb0; --e: #6ee7a0; --grid: rgba(255,255,255,.06);
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #f4f6fa; --panel: #fff; --panel2: #f1f4f9; --line: #dde3ec; --text: #0f172a; --muted: #5b6577;
+      --a: #3b6cf6; --b: #c58a06; --c: #0f9f8e; --d: #e2457a; --e: #16a34a; --grid: rgba(15,23,42,.07); }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 "Noto Sans Bengali", "Inter", system-ui, sans-serif; }
+  header { padding: 14px 14px 6px; }
+  h1 { margin: 0; font-size: 1.15rem; }
+  header p { margin: 4px 0 0; color: var(--muted); font-size: .82rem; }
+  .tabs { display: flex; gap: 6px; overflow-x: auto; padding: 8px 14px; scrollbar-width: none; position: sticky; top: 0; background: var(--bg); z-index: 2; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tabs button { flex: none; border: 1px solid var(--line); background: var(--panel); color: var(--text); border-radius: 99px; padding: 7px 12px; font: inherit; font-size: .82rem; cursor: pointer; white-space: nowrap; }
+  .tabs button.on { background: var(--a); border-color: transparent; color: #fff; }
+  main { padding: 6px 14px 24px; max-width: 900px; margin: 0 auto; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 12px; }
+  h2 { margin: 2px 0 2px; font-size: 1.05rem; }
+  .sub { color: var(--muted); font-size: .82rem; margin: 0 0 10px; }
+  canvas { width: 100%; height: 260px; display: block; background: var(--panel2); border-radius: 12px; touch-action: none; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  .row button { border: 1px solid var(--line); background: var(--panel2); color: var(--text); border-radius: 10px; padding: 7px 12px; font: inherit; font-size: .85rem; cursor: pointer; }
+  .row button.on { border-color: var(--a); color: var(--a); }
+  .ctl { display: grid; gap: 8px; margin-top: 10px; }
+  .ctl label { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; font-size: .84rem; }
+  .ctl label b { color: var(--a); font-variant-numeric: tabular-nums; }
+  .ctl input[type=range] { grid-column: 1 / -1; width: 100%; accent-color: var(--a); }
+  .info { margin-top: 10px; padding: 10px 12px; border-radius: 12px; background: var(--panel2); font-size: .86rem; }
+  .info code { font-family: ui-monospace, monospace; color: var(--c); }
+  .info .big { font-size: 1.05rem; font-weight: 700; }
+  .legend { display: flex; flex-wrap: wrap; gap: 10px; font-size: .78rem; color: var(--muted); margin-top: 8px; }
+  .legend i { display: inline-block; width: 14px; height: 3px; border-radius: 2px; vertical-align: middle; margin-right: 4px; }
+  .note { font-size: .78rem; color: var(--muted); margin-top: 8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>গুণগত রসায়ন ল্যাব</h1>
+  <p>রসায়ন ১ম পত্র · ২য় অধ্যায় (গুণগত রসায়ন) — নোটের সূত্র ও পরীক্ষাগুলোর হাতে-কলমে সিমুলেশন। স্লাইডার আর বোতাম বদলে দেখো কী হয়।</p>
+</header>
+<nav class="tabs" id="tabs"></nav>
+<main><section class="card">
+  <h2 id="title"></h2>
+  <p class="sub" id="sub"></p>
+  <canvas id="cv"></canvas>
+  <div class="legend" id="legend"></div>
+  <div class="row" id="buttons"></div>
+  <div class="ctl" id="ctl"></div>
+  <div class="info" id="info"></div>
+  <p class="note" id="note"></p>
+</section></main>
+
+<script>
+(() => {
+  const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+  const cv = document.getElementById('cv');
+  const ctx = cv.getContext('2d');
+  const bn = (x, d = 2) => {
+    const s = typeof x === 'number' ? (Number.isInteger(x) ? String(x) : x.toFixed(d)) : String(x);
+    return s.replace(/\d/g, (c) => '০১২৩৪৫৬৭৮৯'[c]);
+  };
+  const TAU = Math.PI * 2;
+
+  // ---------- drawing helpers ----------
+  function grid(w, h, midY = h / 2) {
+    ctx.strokeStyle = css('--grid'); ctx.lineWidth = 1;
+    for (let x = 0; x < w; x += 40) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, h); ctx.stroke(); }
+    for (let y = midY % 40; y < h; y += 40) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(w, y); ctx.stroke(); }
+    ctx.strokeStyle = css('--line'); ctx.beginPath(); ctx.moveTo(0, midY); ctx.lineTo(w, midY); ctx.stroke();
+  }
+  function curve(fn, x0, x1, color, width = 2.4, step = 2) {
+    ctx.strokeStyle = color; ctx.lineWidth = width; ctx.beginPath();
+    for (let x = x0; x <= x1; x += step) { const y = fn(x); x === x0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y); }
+    ctx.stroke();
+  }
+  function dot(x, y, r, color) { ctx.fillStyle = color; ctx.beginPath(); ctx.arc(x, y, r, 0, TAU); ctx.fill(); }
+  function text(s, x, y, color = css('--muted'), size = 12, align = 'left') {
+    ctx.fillStyle = color; ctx.font = `${size}px "Noto Sans Bengali", system-ui, sans-serif`; ctx.textAlign = align; ctx.fillText(s, x, y);
+  }
+  function arrowLine(x1, y1, x2, y2, color, label) {
+    ctx.strokeStyle = color; ctx.fillStyle = color; ctx.lineWidth = 1.5;
+    ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
+    for (const [ax, ay, bx] of [[x1, y1, x2], [x2, y2, x1]]) {
+      const d = Math.sign(bx - ax) || 1;
+      ctx.beginPath(); ctx.moveTo(ax, ay); ctx.lineTo(ax + 7 * d, ay - 4); ctx.lineTo(ax + 7 * d, ay + 4); ctx.fill();
+    }
+    if (label) text(label, (x1 + x2) / 2, y1 - 6, color, 12, 'center');
+  }
+
+  // ---------- helpers ----------
+  const sup = (s) => String(s).replace(/[-+0-9]/g, (c) => '⁻⁺⁰¹²³⁴⁵⁶⁷⁸⁹'['-+0123456789'.indexOf(c)]);
+  const sci = (x, d = 2) => {
+    if (!isFinite(x)) return '—';
+    if (x === 0) return '০';
+    let e = Math.floor(Math.log10(Math.abs(x)));
+    if (e >= -2 && e <= 4) return bn(x, d);
+    let m = x / 10 ** e;
+    if (Math.abs(m) >= 10 - 0.5 * 10 ** -d) { m /= 10; e += 1; }
+    return `${bn(m, d)} × ১০${sup(e)}`;
+  };
+  function axes(x0, y0, x1, y1, xl, yl) {
+    ctx.strokeStyle = css('--line'); ctx.lineWidth = 1.2;
+    ctx.beginPath(); ctx.moveTo(x0, y1); ctx.lineTo(x0, y0); ctx.lineTo(x1, y0); ctx.stroke();
+    text(xl, x1, y0 + 14, css('--muted'), 11, 'right');
+    text(yl, x0 + 4, y1 + 10, css('--muted'), 11, 'left');
+  }
+  function arrow(x1, y1, x2, y2, color, w = 2) {
+    const a = Math.atan2(y2 - y1, x2 - x1), L = Math.hypot(x2 - x1, y2 - y1);
+    if (L < 1) return;
+    ctx.strokeStyle = color; ctx.fillStyle = color; ctx.lineWidth = w;
+    ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
+    const s = Math.min(9, L * 0.5);
+    ctx.beginPath(); ctx.moveTo(x2, y2);
+    ctx.lineTo(x2 - s * Math.cos(a - 0.4), y2 - s * Math.sin(a - 0.4));
+    ctx.lineTo(x2 - s * Math.cos(a + 0.4), y2 - s * Math.sin(a + 0.4)); ctx.fill();
+  }
+  function ring(x, y, r, color, w = 1.5, dash) {
+    ctx.strokeStyle = color; ctx.lineWidth = w; ctx.setLineDash(dash ?? []);
+    ctx.beginPath(); ctx.arc(x, y, r, 0, TAU); ctx.stroke(); ctx.setLineDash([]);
+  }
+  function rrect(x, y, w, h, r) { ctx.beginPath(); ctx.roundRect(x, y, w, h, r); }
+  // test tube / beaker: liquid colour, optional precipitate colour, ring colour, bubbles
+  function tube(x, y, w, h, o, t) {
+    const lh = h * (o.level ?? 0.62);
+    ctx.save();
+    rrect(x, y, w, h, [0, 0, w / 2, w / 2]); ctx.clip();
+    ctx.fillStyle = o.liquid ?? 'rgba(160,190,230,.18)'; ctx.fillRect(x, y + h - lh, w, lh);
+    if (o.ppt) { ctx.fillStyle = o.ppt; ctx.fillRect(x, y + h - lh * 0.32, w, lh * 0.32);
+      for (let i = 0; i < 18; i++) dot(x + ((i * 37) % 97) / 97 * w, y + h - lh * (0.32 + ((i * 53) % 61) / 61 * 0.5), 1.6, o.ppt); }
+    if (o.ring) { ctx.fillStyle = o.ring; ctx.fillRect(x, y + h - lh * 0.55, w, 7); }
+    if (o.bubbles) for (let i = 0; i < 7; i++) { const yy = y + h - ((t * 40 + i * 23) % lh); ring(x + w * (0.25 + 0.5 * ((i * 41) % 13) / 13), yy, 2.2, css('--muted'), 1); }
+    ctx.restore();
+    ctx.strokeStyle = css('--muted'); ctx.lineWidth = 1.6; rrect(x, y, w, h, [0, 0, w / 2, w / 2]); ctx.stroke();
+  }
+  const SYM = 'H He Li Be B C N O F Ne Na Mg Al Si P S Cl Ar K Ca Sc Ti V Cr Mn Fe Co Ni Cu Zn Ga Ge As Se Br Kr Rb Sr Y Zr Nb Mo Tc Ru Rh Pd Ag Cd In Sn Sb Te I Xe Cs Ba La Ce Pr Nd Pm Sm Eu Gd Tb Dy Ho Er Tm Yb Lu Hf Ta W Re Os Ir Pt Au Hg Tl Pb Bi Po At Rn Fr Ra Ac Th Pa U Np Pu Am Cm Bk Cf Es Fm Md No Lr Rf Db Sg Bh Hs Mt Ds Rg Cn Nh Fl Mc Lv Ts Og'.split(' ');
+  const LET = 'spdf';
+
+  // ---------- simulations ----------
+  const S = [];
+
+  S.push({
+    id: 'temp', tab: '১. দ্রাব্যতা ও তাপমাত্রা',
+    title: 'তাপমাত্রায় দ্রাব্যতা ও শীতল করলে অধঃক্ষেপ',
+    sub: 'তাপহারী (ΔH +ve) লবণে তাপ বাড়লে দ্রাব্যতা বাড়ে (KNO₃, NaNO₃, AgNO₃…); তাপোৎপাদী লবণে কমে (Li₂SO₄, Ca(OH)₂…); গ্লোবার লবণে 32.4°C পর্যন্ত বাড়ে, পরে কমে। গরম সম্পৃক্ত দ্রবণ ঠান্ডা করলে বাড়তি দ্রব অধঃক্ষিপ্ত হয়।',
+    controls: [['S1', '60°C তাপমাত্রায় দ্রাব্যতা', 20, 200, 1, 120, 'g/100 g'], ['S2', '40°C তাপমাত্রায় দ্রাব্যতা', 5, 200, 1, 80, 'g/100 g'], ['m', 'সম্পৃক্ত দ্রবণের ভর', 50, 1000, 10, 500, 'g']],
+    buttons: [['endo', 'তাপহারী', true, false, 'kind'], ['exo', 'তাপোৎপাদী', false, false, 'kind'], ['glauber', 'গ্লোবার লবণ', false, false, 'kind']],
+    legend: [['--a', 'দ্রাব্যতা বক্ররেখা'], ['--d', 'অধঃক্ষিপ্ত কেলাস']],
+    draw(w, h, t, p, b) {
+      const gx0 = 34, gx1 = w * 0.55, gy0 = h - 22, gy1 = 16;
+      axes(gx0, gy0, gx1, gy1, 'T →', 'S');
+      const kind = b.kind;
+      const f = (u) => kind === 'endo' ? 0.15 + 0.75 * u * u : kind === 'exo' ? 0.85 - 0.6 * u : (u < 0.45 ? 0.2 + 1.5 * u : 0.875 - 0.5 * (u - 0.45));
+      curve((x) => gy0 - f((x - gx0) / (gx1 - gx0)) * (gy0 - gy1), gx0, gx1, css('--a'), 2.6);
+      if (kind === 'glauber') text('32.4°C', gx0 + 0.45 * (gx1 - gx0), gy1 + 8, css('--muted'), 11, 'center');
+      // beaker with crystals
+      const hot = Math.max(p.S1, p.S2), cold = Math.min(p.S1, p.S2);
+      const cooling = p.S1 >= p.S2;
+      const ppt = (hot - cold) / (100 + hot) * p.m;
+      const bx = w * 0.64, bw = w * 0.3, by = 30, bh = h - 60;
+      const phase = (t % 6) / 6;
+      tube(bx, by, bw, bh, { liquid: 'rgba(126,166,255,.22)', level: 0.75 }, t);
+      const nCr = Math.min(40, Math.round(ppt / 4) * Math.min(1, phase * 2));
+      for (let i = 0; i < nCr; i++) { const cx = bx + 8 + ((i * 29) % 100) / 100 * (bw - 16), cy = by + bh - 8 - ((i * 17) % 30) / 30 * 26;
+        ctx.fillStyle = css('--d'); ctx.save(); ctx.translate(cx, cy); ctx.rotate(0.785); ctx.fillRect(-3, -3, 6, 6); ctx.restore(); }
+      text(cooling ? `60°C → 40°C` : `40°C → 60°C`, bx + bw / 2, by - 8, css('--muted'), 12, 'center');
+      this.info = `<span class="big">অধঃক্ষেপ = (${bn(hot, 0)} − ${bn(cold, 0)}) ÷ (১০০ + ${bn(hot, 0)}) × ${bn(p.m, 0)} = ${bn(ppt, 2)} g</span><br>${bn(100 + hot, 0)} g দ্রবণে ${bn(hot - cold, 0)} g দ্রব বাড়তি থাকে — তাই ${bn(p.m, 0)} g দ্রবণে আনুপাতিক হিসাব। ${cooling ? '' : '(উল্টো দিকে গরম করলে অধঃক্ষেপ পড়ে না, বরং আরও দ্রব যোগ করতে হয়: ' + bn((hot - cold) / (100 + cold) * p.m, 2) + ' g।) '}<br>ভুল কোরো না: ‘100 g দ্রাবক’ ও ‘100 g দ্রবণ’ এক নয় — সম্পৃক্ত দ্রবণের ভর = 100 + S।`;
+    },
+  });
+
+  S.push({
+    id: 'ksp', tab: '২. Ksp ও দ্রাব্যতা',
+    title: 'দ্রাব্যতা গুণফল: AxBy হলে Ksp = xˣ·yʸ·S^(x+y)',
+    sub: 'AB → S², AB₂/A₂B → 4S³, AB₃ → 27S⁴, A₂B₃/A₃B₂ → 108S⁵। উল্টো দিক: S = (Ksp/xˣyʸ)^(1/(x+y))। Ksp-এর একক mol^(x+y) L^−(x+y)।',
+    controls: [['lk', 'log₁₀ Ksp', -20, -2, 0.1, -10, '']],
+    buttons: [['AB', 'AB (AgCl)', true, false, 'type'], ['AB2', 'AB₂ (CaF₂, PbI₂)', false, false, 'type'], ['AB3', 'AB₃ (Fe(OH)₃)', false, false, 'type'], ['A2B3', 'A₂B₃ (Bi₂S₃)', false, false, 'type']],
+    legend: [['--a', 'ক্যাটায়নের ঘনমাত্রা'], ['--b', 'অ্যানায়নের ঘনমাত্রা']],
+    draw(w, h, t, p, b) {
+      const [x, y] = { AB: [1, 1], AB2: [1, 2], AB3: [1, 3], A2B3: [2, 3] }[b.type];
+      const Ksp = 10 ** p.lk, coef = x ** x * y ** y, S = (Ksp / coef) ** (1 / (x + y));
+      const ca = x * S, cb = y * S;
+      const lo = -12, X = (v) => 40 + ((Math.log10(v) - lo) / (0 - lo)) * (w - 60);
+      text('লগ স্কেলে ঘনমাত্রা (mol/L)', 40, 20, css('--muted'), 11);
+      for (let e = lo; e <= 0; e += 2) { const xx = X(10 ** e); ctx.strokeStyle = css('--grid'); ctx.beginPath(); ctx.moveTo(xx, 28); ctx.lineTo(xx, h - 20); ctx.stroke(); text(`১০${sup(e)}`, xx, h - 6, css('--muted'), 10, 'center'); }
+      [['S', S, '--c'], [`ক্যাটায়ন = ${x === 1 ? '' : x}S`, ca, '--a'], [`অ্যানায়ন = ${y === 1 ? '' : y}S`, cb, '--b']].forEach(([l, v, c], i) => {
+        const yy = 44 + i * 52;
+        ctx.fillStyle = css(c); ctx.fillRect(40, yy, Math.max(2, X(v) - 40), 22);
+        text(`${l} = ${sci(v, 3)} mol/L`, 44, yy - 5, css('--muted'), 12);
+      });
+      const u = x + y;
+      this.info = `<span class="big">Ksp = ${sci(Ksp, 2)} mol${sup(u)} L${sup(-u)} → S = (Ksp/${bn(coef, 0)})^(১/${bn(u, 0)}) = ${sci(S, 3)} mol/L</span><br>যাচাই: ${x === 1 ? '' : `(${x}S)${sup(x)} × `}${x === 1 ? 'S' : ''}${y === 1 ? ' × S' : ` × (${y}S)${sup(y)}`} = ${bn(coef, 0)}S${sup(u)}। একই Ksp-তে সংকেত বদলালে দ্রাব্যতা বদলায় — তাই ভিন্ন ধরনের লবণের দ্রাব্যতা শুধু Ksp দেখে তুলনা করা যায় না।`;
+    },
+  });
+
+  S.push({
+    id: 'ppt', tab: '৩. অধঃক্ষেপ পড়বে কি?',
+    title: 'দুটি দ্রবণ মেশালে অধঃক্ষেপ: Kip বনাম Ksp',
+    sub: '① মেশানোর পর নতুন আয়তনে প্রতিটি আয়নের ঘনমাত্রা (M₁V₁ = M₂V₂) ② Kip হিসাব ③ Kip > Ksp হলে অধঃক্ষেপ পড়বে, Kip ≤ Ksp হলে পড়বে না। উদাহরণ: Ba(NO₃)₂ + Na₂SO₄ → BaSO₄ (Ksp = 1.1 × 10⁻¹⁰)।',
+    controls: [['l1', 'Ba(NO₃)₂ এর ঘনমাত্রা (log₁₀ M)', -7, -1, 0.1, -4, ''], ['V1', 'Ba(NO₃)₂ এর আয়তন', 10, 500, 10, 100, 'mL'], ['l2', 'Na₂SO₄ এর ঘনমাত্রা (log₁₀ M)', -7, -1, 0.1, -5, ''], ['V2', 'Na₂SO₄ এর আয়তন', 10, 500, 10, 100, 'mL']],
+    legend: [['--a', 'Ba²⁺ দ্রবণ'], ['--b', 'SO₄²⁻ দ্রবণ'], ['--d', 'BaSO₄ অধঃক্ষেপ']],
+    draw(w, h, t, p) {
+      const Ksp = 1.1e-10, c1 = 10 ** p.l1, c2 = 10 ** p.l2, V = p.V1 + p.V2;
+      const ba = c1 * p.V1 / V, so = c2 * p.V2 / V, Kip = ba * so, wrong = c1 * c2;
+      const yes = Kip > Ksp;
+      const tw = Math.min(70, w * 0.16), th = h - 70;
+      tube(w * 0.08, 30, tw, th, { liquid: 'rgba(126,166,255,.28)', level: p.V1 / 500 * 0.85 + 0.05 }, t);
+      tube(w * 0.30, 30, tw, th, { liquid: 'rgba(247,195,92,.25)', level: p.V2 / 500 * 0.85 + 0.05 }, t);
+      arrow(w * 0.47, h / 2, w * 0.58, h / 2, css('--muted'), 2);
+      tube(w * 0.64, 30, tw * 1.6, th, { liquid: 'rgba(160,190,230,.22)', level: V / 1000 * 0.85 + 0.05, ppt: yes ? '#f4f4f4' : null }, t);
+      text('Ba(NO₃)₂', w * 0.08 + tw / 2, 22, css('--a'), 11, 'center');
+      text('Na₂SO₄', w * 0.30 + tw / 2, 22, css('--b'), 11, 'center');
+      text(yes ? 'সাদা BaSO₄ অধঃক্ষেপ' : 'স্বচ্ছ — অধঃক্ষেপ নেই', w * 0.64 + tw * 0.8, 22, yes ? css('--d') : css('--e'), 11, 'center');
+      this.info = `<span class="big">মিশ্রণের পর [Ba²⁺] = ${sci(ba, 2)}, [SO₄²⁻] = ${sci(so, 2)} mol/L → Kip = ${sci(Kip, 2)}</span><br>${yes ? `Kip > Ksp (${sci(Ksp, 1)}) → অধঃক্ষেপ পড়বে (অতিপৃক্ত)।` : Math.abs(Kip - Ksp) / Ksp < 0.05 ? 'Kip ≈ Ksp → সম্পৃক্ত, সাম্যাবস্থা।' : `Kip < Ksp (${sci(Ksp, 1)}) → অধঃক্ষেপ পড়বে না (অসম্পৃক্ত)।`}<br>সাধারণ ভুল: মেশানোর আগের ঘনমাত্রা দিয়ে গুণ করলে ${sci(wrong, 2)} আসে — ${(wrong > Ksp) !== yes ? '<b>এখানে সেই ভুলে উত্তরই উল্টে যেত!</b>' : 'আয়তন বাড়ায় আসল Kip কম।'}`;
+    },
+  });
+
+  S.push({
+    id: 'common', tab: '৪. সম-আয়ন প্রভাব',
+    title: 'সম-আয়ন প্রভাব: দ্রাব্যতা কমে, Ksp ধ্রুব থাকে',
+    sub: 'AB লবণের সম্পৃক্ত দ্রবণে সম আয়নবিশিষ্ট তীব্র তড়িৎবিশ্লেষ্য যোগ করলে Ksp স্থির রাখতে কিছু লবণ অধঃক্ষিপ্ত হয় — দ্রাব্যতা কমে। S(S + c) = Ksp।',
+    controls: [['lk', 'log₁₀ Ksp (AB লবণ)', -16, -4, 0.1, -10, ''], ['lc', 'যোগ করা সম আয়নের ঘনমাত্রা c (log₁₀ M)', -8, 0, 0.1, -3, '']],
+    legend: [['--a', 'দ্রাব্যতা S বনাম c'], ['--d', 'এখনকার অবস্থা'], ['--muted', 'বিশুদ্ধ পানিতে S = √Ksp']],
+    draw(w, h, t, p) {
+      const Ksp = 10 ** p.lk, sol = (c) => (-c + Math.sqrt(c * c + 4 * Ksp)) / 2;
+      const S0 = Math.sqrt(Ksp), c = 10 ** p.lc, S = sol(c);
+      const gx0 = 46, gx1 = w - 16, gy0 = h - 24, gy1 = 16;
+      axes(gx0, gy0, gx1, gy1, 'log c →', 'log S');
+      const ylo = p.lk - 0.5 - 0, yhi = Math.log10(S0) + 0.5;
+      const X = (lc) => gx0 + (lc + 8) / 8 * (gx1 - gx0), Y = (ls) => gy0 - (ls - ylo) / (yhi - ylo) * (gy0 - gy1);
+      ctx.setLineDash([4, 4]); curve(() => Y(Math.log10(S0)), gx0, gx1, css('--muted'), 1.2); ctx.setLineDash([]);
+      curve((x) => Y(Math.log10(sol(10 ** ((x - gx0) / (gx1 - gx0) * 8 - 8)))), gx0, gx1, css('--a'), 2.6);
+      dot(X(p.lc), Y(Math.log10(S)), 6, css('--d'));
+      this.info = `<span class="big">বিশুদ্ধ পানিতে S = √Ksp = ${sci(S0, 2)} → c = ${sci(c, 1)} M যোগে S = ${sci(S, 2)} mol/L</span><br>দ্রাব্যতা ${bn(S0 / S, 1)} গুণ কমেছে, কিন্তু Ksp = S(S + c) = ${sci(S * (S + c), 2)} — একই আছে। বিশুদ্ধ NaCl কেলাসনে HCl যোগ করার কারণও এটাই (Cl⁻ সম আয়ন)।`;
+    },
+  });
+
+  S.push({
+    id: 'henry', tab: '৫. হেনরির সূত্র',
+    title: 'চাপে গ্যাসের দ্রাব্যতা: S = K_H·P',
+    sub: 'স্থির তাপমাত্রায় তরলে কোনো গ্যাসের দ্রাব্যতা এর উপর প্রযুক্ত চাপের সমানুপাতিক। কোমল পানীয়ের বোতলের ছিপি খুললে চাপ কমে, তাই CO₂ বুদবুদ হয়ে বেরিয়ে যায়। কঠিন ও তরলের দ্রাব্যতায় চাপের প্রভাব নেই।',
+    controls: [['KH', 'হেনরির ধ্রুবক K_H', 0.005, 0.1, 0.0005, 0.0175, 'M/atm'], ['P1', 'ছিপি খোলার আগে চাপ', 1, 5, 0.05, 2.65, 'atm'], ['P2', 'ছিপি খোলার পর চাপ', 0.5, 2, 0.05, 1.05, 'atm'], ['V', 'পানীয়ের আয়তন', 50, 1000, 10, 250, 'mL']],
+    buttons: [['open', 'ছিপি খোলা', true, false]],
+    legend: [['--a', 'পানীয়'], ['--muted', 'CO₂ বুদবুদ']],
+    draw(w, h, t, p, b) {
+      const open = b.open;
+      const P = open ? Math.min(p.P1, p.P2) : p.P1;
+      const S = p.KH * P, dn = p.KH * Math.max(0, p.P1 - p.P2) * p.V / 1000;
+      const bx = w * 0.12, bw = Math.min(90, w * 0.2), by = 40, bh = h - 64;
+      tube(bx, by, bw, bh, { liquid: 'rgba(250,140,90,.35)', level: 0.8, bubbles: open }, t);
+      ctx.fillStyle = css('--b'); if (!open) ctx.fillRect(bx + bw * 0.2, by - 12, bw * 0.6, 12);
+      else { ctx.save(); ctx.translate(bx + bw, by - 18); ctx.rotate(0.6); ctx.fillRect(0, 0, bw * 0.6, 10); ctx.restore(); }
+      const gx0 = w * 0.45, gx1 = w - 16, gy0 = h - 24, gy1 = 20;
+      axes(gx0, gy0, gx1, gy1, 'P (atm) →', 'S');
+      const X = (pp) => gx0 + pp / 5 * (gx1 - gx0), Y = (s) => gy0 - s / (0.1 * 5) * (gy0 - gy1);
+      curve((x) => Y(p.KH * (x - gx0) / (gx1 - gx0) * 5), gx0, gx1, css('--a'), 2.4);
+      dot(X(p.P1), Y(p.KH * p.P1), 5, css('--b')); dot(X(p.P2), Y(p.KH * p.P2), 5, css('--e'));
+      this.info = `<span class="big">S = K_H·P = ${sci(p.KH, 4)} × ${bn(P, 2)} = ${sci(S, 4)} mol/L</span><br>চাপ ${bn(p.P1, 2)} → ${bn(p.P2, 2)} atm হলে ΔS = K_H·ΔP = ${sci(p.KH * (p.P1 - p.P2), 4)} mol/L; ${bn(p.V, 0)} mL পানীয় থেকে বের হবে ${sci(dn, 4)} mol CO₂।`;
+    },
+  });
+
+  const CHROM = [['alkene', 'অ্যালকিন', 0.85, '#7ea6ff'], ['ketone', 'কিটোন', 0.7, '#4fd8c4'], ['ald', 'অ্যালডিহাইড', 0.58, '#6ee7a0'], ['amine', 'অ্যামিন', 0.45, '#f7c35c'], ['alc', 'অ্যালকোহল', 0.3, '#fb8fb0'], ['acid', 'অ্যাসিড', 0.15, '#c792ea']];
+  S.push({
+    id: 'chrom', tab: '৬. ক্রোমাটোগ্রাফি ও Rf',
+    title: 'পাতলা স্তর ক্রোমাটোগ্রাফি: Rf = দ্রবের দূরত্ব ÷ দ্রাবকের দূরত্ব',
+    sub: 'যে উপাদান যত পোলার (অ্যালকিন < কিটোন < অ্যালডিহাইড < অ্যামিন < অ্যালকোহল < অ্যাসিড), স্থির দশায় তত বেশি অধিশোষিত হয় — তত ধীরে চলে, Rf তত কম। দূরত্ব মাপতে হয় বেসলাইন থেকে।',
+    controls: [['pol', 'সচল দশার (দ্রাবকের) পোলারিটি', 0.5, 2, 0.05, 1, '×']],
+    buttons: CHROM.map(([k, l], i) => [k, l, i % 2 === 0, false]),
+    legend: [['--muted', 'বেসলাইন ও দ্রাবক-প্রান্ত']],
+    note: 'নোট: স্পটগুলোর Rf মান উদাহরণ হিসেবে ধরা — নোটের পোলারিটি ক্রম মেনে। দ্রাবক বদলালে Rf বদলায়।',
+    draw(w, h, t, p, b) {
+      const px = w * 0.08, pw = w * 0.5, py = 14, ph = h - 28, base = py + ph - 26, top = py + 14;
+      ctx.fillStyle = css('--panel'); rrect(px, py, pw, ph, 6); ctx.fill(); ctx.strokeStyle = css('--line'); ctx.stroke();
+      const cyc = 9, u = Math.min(1, (t % cyc) / 6);
+      const front = base - u * (base - top);
+      ctx.fillStyle = 'rgba(126,166,255,.10)'; ctx.fillRect(px + 1, front, pw - 2, py + ph - front - 1);
+      ctx.strokeStyle = css('--muted'); ctx.setLineDash([4, 3]);
+      ctx.beginPath(); ctx.moveTo(px, base); ctx.lineTo(px + pw, base); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(px, front); ctx.lineTo(px + pw, front); ctx.stroke(); ctx.setLineDash([]);
+      const on = CHROM.filter(([k]) => b[k]);
+      const rows = [];
+      on.forEach(([k, l, rf0, col], i) => {
+        const rf = Math.max(0.03, Math.min(0.97, 1 - (1 - rf0) / p.pol));
+        const sx = px + pw * (i + 1) / (on.length + 1), sy = base - rf * (base - front);
+        dot(sx, base, 2, css('--muted'));
+        ctx.globalAlpha = 0.85; ctx.fillStyle = col; ctx.beginPath(); ctx.ellipse(sx, sy, 8, 6, 0, 0, TAU); ctx.fill(); ctx.globalAlpha = 1;
+        rows.push([l, rf, col]);
+      });
+      rows.forEach(([l, rf, col], i) => { const y = 24 + i * 22; dot(w * 0.64, y - 4, 5, col); text(`${l}: Rf = ${bn(rf, 2)}`, w * 0.64 + 12, y, css('--text'), 12); });
+      text('বেসলাইন', px + pw + 4, base + 4, css('--muted'), 10); text('দ্রাবক-প্রান্ত', px + pw + 4, front + 4, css('--muted'), 10);
+      this.info = `<span class="big">Rf = স্পটের দূরত্ব ÷ দ্রাবক-প্রান্তের দূরত্ব (দুটোই বেসলাইন থেকে)</span><br>দ্রাবক যতদূর ওঠে, স্পটগুলো আনুপাতিকভাবে ততদূর ওঠে — তাই Rf ধ্রুব, এককহীন এবং ≤ ১। সচল দশা বেশি পোলার হলে সব উপাদান বেশি দূর যায় (Rf বাড়ে)।`;
+    },
+  });
+
+  // Rutherford scattering
+  let alphas = [], tally = { s: 0, d: 0, b: 0 }, lastKey = '';
+  S.push({
+    id: 'ruth', tab: '৭. রাদারফোর্ড পরীক্ষা',
+    title: 'স্বর্ণপাতে α-কণা বিচ্ছুরণ',
+    sub: 'অধিকাংশ α-কণা না বেঁকে সোনার পাত ভেদ করে যায়; অল্প কিছু বেঁকে যায়; খুবই অল্প (প্রায় ২০,০০০-এ ১টি) সরাসরি ফিরে আসে। সিদ্ধান্ত: পরমাণুর অধিকাংশ স্থান ফাঁকা, কেন্দ্রে ক্ষুদ্র, ভারী, ধনাত্মক নিউক্লিয়াস।',
+    controls: [['rate', 'α-কণা প্রতি সেকেন্ডে', 5, 80, 1, 30, '']],
+    buttons: [['rutherford', 'নিউক্লিয়ার মডেল', true, false, 'model'], ['thomson', 'থমসন (Plum-pudding) মডেল', false, false, 'model'], ['reset', '↺ গণনা শূন্য', false, true]],
+    legend: [['--b', 'α-কণা (⁴₂He²⁺)'], ['--d', 'স্বর্ণ নিউক্লিয়াস'], ['--e', 'ZnS পর্দা']],
+    action(k) { if (k === 'reset') { alphas = []; tally = { s: 0, d: 0, b: 0 }; } },
+    draw(w, h, t, p, b) {
+      const nuc = b.model === 'rutherford';
+      if (lastKey !== b.model) { alphas = []; tally = { s: 0, d: 0, b: 0 }; lastKey = b.model; }
+      const fx = w * 0.45, cols = 4, rows = 7, gap = (h - 20) / rows;
+      const nuclei = [];
+      for (let c = 0; c < cols; c++) for (let r = 0; r < rows; r++) nuclei.push([fx + c * 14, 10 + gap * (r + 0.5) + (c % 2) * gap / 2]);
+      ctx.fillStyle = 'rgba(247,195,92,.12)'; ctx.fillRect(fx - 10, 0, cols * 14 + 6, h);
+      if (nuc) nuclei.forEach(([x, y]) => dot(x, y, 2.2, css('--d')));
+      else nuclei.forEach(([x, y]) => { ctx.fillStyle = 'rgba(251,143,176,.18)'; ctx.beginPath(); ctx.arc(x, y, gap / 2, 0, TAU); ctx.fill(); });
+      ctx.strokeStyle = css('--e'); ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(fx, h / 2, Math.min(w, h) * 0.46, -1.2, 1.2); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(6, 4); ctx.lineTo(6, h - 4); ctx.stroke();
+      if (Math.random() < p.rate / 60) alphas.push({ x: 10, y: 10 + Math.random() * (h - 20), vx: 220, vy: 0, tr: [] });
+      const K = 9000;
+      for (const a of alphas) {
+        for (let s = 0; s < 8; s++) {
+          if (nuc) for (const [nx, ny] of nuclei) {
+            const dx = a.x - nx, dy = a.y - ny, r2 = dx * dx + dy * dy;
+            if (r2 < 900) { const r = Math.sqrt(Math.max(r2, 1)); const f = K / (r2 + 1) / 120; a.vx += f * dx / r; a.vy += f * dy / r; }
+          }
+          a.x += a.vx / 480; a.y += a.vy / 480;
+        }
+        a.tr.push([a.x, a.y]); if (a.tr.length > 40) a.tr.shift();
+      }
+      alphas = alphas.filter((a) => {
+        const out = a.x > w + 5 || a.x < 0 || a.y < -5 || a.y > h + 5;
+        if (out) { const ang = Math.abs(Math.atan2(a.vy, a.vx)) * 180 / Math.PI; if (ang > 90) tally.b++; else if (ang > 2) tally.d++; else tally.s++; }
+        return !out;
+      });
+      for (const a of alphas) {
+        ctx.strokeStyle = 'rgba(247,195,92,.35)'; ctx.lineWidth = 1; ctx.beginPath(); a.tr.forEach(([x, y], i) => i ? ctx.lineTo(x, y) : ctx.moveTo(x, y)); ctx.stroke();
+        dot(a.x, a.y, 2.6, css('--b'));
+      }
+      const tot = tally.s + tally.d + tally.b || 1;
+      this.info = `<span class="big">সোজা চলে গেছে: ${bn(tally.s, 0)} · বেঁকেছে: ${bn(tally.d, 0)} · ফিরে এসেছে: ${bn(tally.b, 0)}</span> (মোট ${bn(tot, 0)})<br>${nuc ? 'ক্ষুদ্র নিউক্লিয়াসের খুব কাছ দিয়ে গেলেই কেবল তীব্র বিকর্ষণ — তাই বেশিরভাগ কণা সোজা যায়, অল্প কিছু বেঁকে বা ফিরে আসে। (সিমুলেশনে নিউক্লিয়াস বড় করে দেখানো, তাই ফেরার হার আসলের চেয়ে বেশি।)' : 'থমসন মডেলে ধনাত্মক চার্জ সমস্ত পরমাণুতে ছড়ানো — কোনো কণা বড় কোণে বাঁকে না বা ফিরে আসে না। পরীক্ষার ফলাফলের সাথে মেলে না।'}`;
+    },
+  });
+
+  const ION = ['H', 'He⁺', 'Li²⁺', 'Be³⁺'];
+  S.push({
+    id: 'bohr', tab: '৮. বোর মডেল',
+    title: 'বোর মডেল: rₙ, Eₙ, vₙ',
+    sub: 'ইলেকট্রন নির্দিষ্ট শক্তির স্থির কক্ষপথে শক্তি বিকিরণ না করে ঘোরে; mvr = nh/2π। rₙ = 0.529 n²/Z Å, Eₙ = −13.6 Z²/n² eV = −2.18 × 10⁻¹⁸ Z²/n² J, vₙ = 2.18 × 10⁶ Z/n m/s। শুধু এক-ইলেকট্রনবিশিষ্ট H, He⁺, Li²⁺, Be³⁺-এ প্রযোজ্য।',
+    controls: [['Z', 'Z (H, He⁺, Li²⁺, Be³⁺)', 1, 4, 1, 1, ''], ['n', 'কক্ষপথ n', 1, 6, 1, 2, '']],
+    legend: [['--d', 'নিউক্লিয়াস'], ['--a', 'কক্ষপথ'], ['--b', 'ইলেকট্রন']],
+    draw(w, h, t, p) {
+      const cx = w * 0.32, cy = h / 2, R = Math.min(h * 0.46, w * 0.3), Z = p.Z, n = p.n;
+      const rmax = 36 / Z;
+      for (let k = 1; k <= 6; k++) ring(cx, cy, Math.max(3, R * (k * k / Z) / rmax), k === n ? css('--a') : css('--line'), k === n ? 2 : 1);
+      dot(cx, cy, 5, css('--d'));
+      const rr = Math.max(3, R * (n * n / Z) / rmax), om = 2 * Z / n ** 3;
+      dot(cx + rr * Math.cos(t * om * 3), cy + rr * Math.sin(t * om * 3), 5, css('--b'));
+      // energy ladder
+      const lx = w * 0.7, lw = w * 0.24, ly0 = 18, ly1 = h - 18;
+      const Y = (E) => ly0 + (1 - E / (-13.6 * Z * Z)) * 0 + (E / (-13.6 * Z * Z)) * (ly1 - ly0);
+      for (let k = 1; k <= 6; k++) { const E = -13.6 * Z * Z / k ** 2; ctx.strokeStyle = k === n ? css('--a') : css('--line'); ctx.lineWidth = k === n ? 2.5 : 1; ctx.beginPath(); ctx.moveTo(lx, Y(E)); ctx.lineTo(lx + lw, Y(E)); ctx.stroke(); text(`n=${bn(k, 0)}`, lx - 4, Y(E) + 4, css('--muted'), 10, 'right'); }
+      text('০ eV', lx + lw, ly0 - 4, css('--muted'), 10, 'right');
+      const r = 0.529 * n * n / Z, E = -13.6 * Z * Z / n ** 2, v = 2.18e6 * Z / n;
+      this.info = `<span class="big">${ION[Z - 1]}, n = ${bn(n, 0)}: r = ${bn(r, 3)} Å, E = ${bn(E, 2)} eV (${sci(E * 1.602e-19, 3)} J), v = ${sci(v, 3)} m/s</span><br>r ∝ n²/Z, E ∝ −Z²/n², v ∝ Z/n। আয়নীকরণ শক্তি = ${bn(-E, 2)} eV (n = ${bn(n, 0)} থেকে)। H-এর ১ম কক্ষপথ থেকে আয়নীকরণ শক্তি 1312 kJ/mol।`;
+    },
+  });
+
+  const SERIES = ['লাইমেন', 'বামার', 'প্যাশ্চেন', 'ব্র্যাকেট', 'ফুন্ড', 'হামফ্রিস'];
+  function visColor(nm) {
+    const V = [[380, 424, '#8b5cf6'], [424, 450, '#4f46e5'], [450, 500, '#38bdf8'], [500, 575, '#22c55e'], [575, 590, '#facc15'], [590, 647, '#fb923c'], [647, 780, '#ef4444']];
+    const f = V.find(([a, b2]) => nm >= a && nm < b2); return f ? f[2] : null;
+  }
+  const VISN = [[380, 424, 'বেগুনি'], [424, 450, 'নীল'], [450, 500, 'আসমানি'], [500, 575, 'সবুজ'], [575, 590, 'হলুদ'], [590, 647, 'কমলা'], [647, 780, 'লাল']];
+  S.push({
+    id: 'hspec', tab: '৯. H-বর্ণালি',
+    title: 'হাইড্রোজেন বর্ণালি: ν̄ = R_H Z² (1/n₁² − 1/n₂²)',
+    sub: 'উচ্চ শক্তিস্তর n₂ থেকে নিম্ন n₁-এ নামলে ফোটন বিকিরিত হয়। n₁ = 1 লাইমেন (UV), 2 বামার (দৃশ্যমান), 3 প্যাশ্চেন, 4 ব্র্যাকেট, 5 ফুন্ড, 6 হামফ্রিস (IR)। R_H = 109678 cm⁻¹।',
+    controls: [['n1', 'নিম্ন স্তর n₁', 1, 6, 1, 2, ''], ['n2', 'উচ্চ স্তর n₂', 2, 9, 1, 3, ''], ['Z', 'Z', 1, 3, 1, 1, '']],
+    legend: [['--a', 'শক্তিস্তর'], ['--d', 'নির্বাচিত রূপান্তর']],
+    draw(w, h, t, p) {
+      const RH = 109678, n1 = p.n1, n2 = Math.max(p.n2, p.n1 + 1), Z = p.Z;
+      const nb = RH * Z * Z * (1 / n1 ** 2 - 1 / n2 ** 2), lam = 1e7 / nb, E = 6.626e-34 * 3e8 / (lam * 1e-9);
+      const lx = 20, lw = w * 0.36, top = 14, bot = h * 0.62;
+      const Y = (k) => top + (1 / k ** 2) * (bot - top);
+      for (let k = 1; k <= 9; k++) { ctx.strokeStyle = css('--line'); ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(lx, Y(k)); ctx.lineTo(lx + lw, Y(k)); ctx.stroke(); }
+      [1, 2, 3, 4].forEach((k) => text(`n=${bn(k, 0)}`, lx + lw + 4, Y(k) + 4, css('--muted'), 10));
+      const col = visColor(lam) ?? css('--d');
+      arrow(lx + lw * 0.6, Y(n2), lx + lw * 0.6, Y(n1) - 2, col, 2.6);
+      // series lines on a wavelength strip
+      const sx0 = 20, sx1 = w - 20, sy = h * 0.8;
+      const lams = []; for (let k = n1 + 1; k <= 20; k++) lams.push(1e7 / (RH * Z * Z * (1 / n1 ** 2 - 1 / k ** 2)));
+      const lmin = 1e7 / (RH * Z * Z / n1 ** 2), lmax = lams[0];
+      const X = (l) => sx0 + (Math.log(l) - Math.log(lmin * 0.95)) / (Math.log(lmax * 1.05) - Math.log(lmin * 0.95)) * (sx1 - sx0);
+      ctx.fillStyle = css('--panel2'); ctx.fillRect(sx0, sy - 18, sx1 - sx0, 36);
+      lams.forEach((l, i) => { ctx.strokeStyle = visColor(l) ?? css('--muted'); ctx.lineWidth = i + n1 + 1 === n2 ? 3 : 1.2; ctx.beginPath(); ctx.moveTo(X(l), sy - 18); ctx.lineTo(X(l), sy + 18); ctx.stroke(); });
+      text(`সিরিজ সীমা ${bn(lmin, 1)} nm`, sx0, sy + 32, css('--muted'), 10);
+      text(`১ম রেখা ${bn(lmax, 1)} nm`, sx1, sy + 32, css('--muted'), 10, 'right');
+      const region = lam < 380 ? 'অতিবেগুনি' : lam <= 780 ? 'দৃশ্যমান' : 'অবলোহিত';
+      const vn = VISN.find(([a, b2]) => lam >= a && lam < b2);
+      this.info = `<span class="big">${SERIES[n1 - 1]} সিরিজ, ${bn(n2, 0)} → ${bn(n1, 0)}: ν̄ = ${bn(nb, 0)} cm⁻¹, λ = ${bn(lam, 1)} nm (${region}${vn ? ', ' + vn[2] : ''})</span><br>ফোটনের শক্তি E = hc/λ = ${sci(E, 3)} J = ${bn(E / 1.602e-19, 2)} eV। প্রথম রেখা (n₁ + 1 → n₁): R_H(2n₁+1)/[n₁²(n₁+1)²]; সিরিজ সীমা: R_H/n₁²।`;
+    },
+  });
+
+  const PM = { 0: 'px', 1: 'py', '-1': 'pz' }, DM = { '-2': 'dxy', '-1': 'dyz', 1: 'dzx', 2: 'dx²−y²', 0: 'dz²' };
+  S.push({
+    id: 'qn', tab: '১০. কোয়ান্টাম সংখ্যা',
+    title: 'চারটি কোয়ান্টাম সংখ্যা ও অরবিটালের আকৃতি',
+    sub: 'n = 1, 2, 3…; l = 0 থেকে n − 1 (s, p, d, f); m = −l থেকে +l (2l + 1 টি); s = +½ বা −½। শক্তিস্তরে অরবিটাল n², ইলেকট্রন 2n²; উপস্তরে ইলেকট্রন 2(2l + 1)।',
+    controls: [['n', 'প্রধান কোয়ান্টাম সংখ্যা n', 1, 4, 1, 3, ''], ['l', 'সহকারী কোয়ান্টাম সংখ্যা l', 0, 3, 1, 1, ''], ['m', 'চৌম্বকীয় কোয়ান্টাম সংখ্যা m', -3, 3, 1, 0, '']],
+    buttons: [['up', 's = +½', true, false, 'spin'], ['down', 's = −½', false, false, 'spin']],
+    legend: [['--a', 'ধনাত্মক লোব'], ['--d', 'ঋণাত্মক লোব']],
+    note: 'নোট: p ও d অরবিটালের কোনটির m কত — নোটের প্রথা (px = 0, py = +1, pz = −1; dxy = −2, dyz = −1, dzx = +1, dx²−y² = +2, dz² = 0) অনুযায়ী দেখানো।',
+    draw(w, h, t, p, b) {
+      const { n, l, m } = p;
+      const errs = [];
+      if (l > n - 1) errs.push(`l (${bn(l, 0)}) অবশ্যই n − 1 (${bn(n - 1, 0)}) এর সমান বা কম`);
+      if (Math.abs(m) > l) errs.push(`|m| (${bn(Math.abs(m), 0)}) অবশ্যই l (${bn(l, 0)}) এর চেয়ে বড় হতে পারে না`);
+      const cx = w * 0.32, cy = h / 2, R = Math.min(h, w * 0.6) * 0.36;
+      ctx.strokeStyle = css('--grid'); ctx.beginPath(); ctx.moveTo(cx - R * 1.2, cy); ctx.lineTo(cx + R * 1.2, cy); ctx.moveTo(cx, cy - R * 1.2); ctx.lineTo(cx, cy + R * 1.2); ctx.stroke();
+      const lobe = (ang, len, col) => { ctx.save(); ctx.translate(cx, cy); ctx.rotate(ang); ctx.fillStyle = col; ctx.globalAlpha = 0.75; ctx.beginPath(); ctx.ellipse(len / 2, 0, len / 2, len / 4.2, 0, 0, TAU); ctx.fill(); ctx.restore(); };
+      let name = '';
+      if (!errs.length) {
+        const sc = R * (0.55 + 0.15 * n);
+        if (l === 0) { ctx.fillStyle = css('--a'); ctx.globalAlpha = 0.7; ctx.beginPath(); ctx.arc(cx, cy, sc * 0.6, 0, TAU); ctx.fill(); ctx.globalAlpha = 1; name = `${n}s`; }
+        else if (l === 1) { const nm = PM[m]; const ang = nm === 'px' ? 0 : nm === 'py' ? -Math.PI / 2 : -Math.PI / 4; lobe(ang, sc, css('--a')); lobe(ang + Math.PI, sc, css('--d')); name = `${n}${nm}`; if (nm === 'pz') text('z অক্ষ (তির্যকে দেখানো)', cx, cy + R * 1.15, css('--muted'), 10, 'center'); }
+        else if (l === 2) {
+          const nm = DM[m]; name = `${n}${nm}`;
+          if (nm === 'dz²') { lobe(-Math.PI / 2, sc, css('--a')); lobe(Math.PI / 2, sc, css('--a')); ctx.strokeStyle = css('--d'); ctx.lineWidth = 6; ctx.beginPath(); ctx.ellipse(cx, cy, sc * 0.45, sc * 0.12, 0, 0, TAU); ctx.stroke(); }
+          else { const off = nm === 'dx²−y²' ? 0 : Math.PI / 4; for (let k = 0; k < 4; k++) lobe(off + k * Math.PI / 2, sc * 0.95, k % 2 ? css('--d') : css('--a')); }
+        } else { for (let k = 0; k < 6; k++) lobe(k * Math.PI / 3, sc * 0.8, k % 2 ? css('--d') : css('--a')); name = `${n}f`; }
+        ctx.globalAlpha = 1;
+      }
+      text(errs.length ? 'অসম্ভব সেট' : name, cx, 22, errs.length ? css('--d') : css('--text'), 16, 'center');
+      const s = b.spin === 'up' ? '+½' : '−½';
+      this.info = errs.length
+        ? `<span class="big">(n = ${bn(n, 0)}, l = ${bn(l, 0)}, m = ${bn(m, 0)}, s = ${s}) — সম্ভব নয়</span><br>${errs.join('; ')}। শর্ত: n ≥ 1, 0 ≤ l ≤ n − 1, |m| ≤ l, s = ±½।`
+        : `<span class="big">${name} অরবিটাল (${LET[l]} উপস্তর) — সেট (${bn(n, 0)}, ${bn(l, 0)}, ${bn(m, 0)}, ${s}) সম্ভব</span><br>n = ${bn(n, 0)} স্তরে উপস্তর ${bn(n, 0)}টি, অরবিটাল n² = ${bn(n * n, 0)}টি, ইলেকট্রন 2n² = ${bn(2 * n * n, 0)}টি · ${LET[l]} উপস্তরে অরবিটাল 2l + 1 = ${bn(2 * l + 1, 0)}টি, ইলেকট্রন ${bn(2 * (2 * l + 1), 0)}টি, নোডাল তল ${bn(l, 0)}টি।`;
+    },
+  });
+
+  const ORDER = [[1, 0], [2, 0], [2, 1], [3, 0], [3, 1], [4, 0], [3, 2], [4, 1], [5, 0], [4, 2], [5, 1]];
+  const EXC = { 24: { '3d': 5, '4s': 1 }, 29: { '3d': 10, '4s': 1 }, 41: { '4d': 4, '5s': 1 }, 42: { '4d': 5, '5s': 1 }, 44: { '4d': 7, '5s': 1 }, 45: { '4d': 8, '5s': 1 }, 46: { '4d': 10, '5s': 0 }, 47: { '4d': 10, '5s': 1 } };
+  function config(Z) {
+    const occ = {}; let left = Z;
+    for (const [n, l] of ORDER) { const k = `${n}${LET[l]}`, c = Math.min(left, 2 * (2 * l + 1)); occ[k] = c; left -= c; if (!left) break; }
+    if (EXC[Z]) Object.assign(occ, EXC[Z]);
+    return occ;
+  }
+  S.push({
+    id: 'config', tab: '১১. ইলেকট্রন বিন্যাস',
+    title: 'আউফবাউ, হুন্ড ও পাউলির নীতিতে ইলেকট্রন বিন্যাস',
+    sub: 'আউফবাউ: (n + l) কম যে অরবিটালের তাতে আগে, সমান হলে কম n আগে। হুন্ড: সমশক্তির অরবিটালে আগে একা একা, একই স্পিনে। পাউলি: এক অরবিটালে সর্বোচ্চ ২টি, বিপরীত স্পিনে। ব্যতিক্রম: Cr, Cu, Nb, Mo, Ru, Rh, Pd, Ag।',
+    controls: [['Z', 'পারমাণবিক সংখ্যা Z', 1, 54, 1, 26, ''], ['q', 'আয়নের আধান', -3, 3, 1, 0, '']],
+    legend: [['--a', '↑ স্পিন'], ['--b', '↓ স্পিন']],
+    height: 300,
+    draw(w, h, t, p) {
+      const Z = p.Z, q = p.q, neutral = config(Z);
+      let occ = { ...neutral };
+      if (q > 0) { // remove from highest n first, then highest l
+        let r = q; const keys = Object.keys(occ).filter((k) => occ[k] > 0).sort((a, b2) => (b2[0] - a[0]) || (LET.indexOf(b2[1]) - LET.indexOf(a[1])));
+        for (const k of keys) { const d = Math.min(r, occ[k]); occ[k] -= d; r -= d; if (!r) break; }
+      } else if (q < 0) occ = config(Z - q);
+      const ne = Object.values(occ).reduce((a, c) => a + c, 0);
+      const subs = ORDER.map(([n, l]) => `${n}${LET[l]}`).filter((k) => k in occ && (occ[k] > 0 || k in neutral));
+      let x = 12, y = 30; const bx = Math.max(14, Math.min(24, (w - 24) / 16));
+      let unp = 0;
+      for (const k of subs) {
+        const l = LET.indexOf(k[1]), o = 2 * l + 1, e = occ[k] ?? 0;
+        if (x + o * bx > w - 12) { x = 12; y += 62; }
+        text(k + (e ? sup(e) : '⁰'), x, y - 8, css('--muted'), 12);
+        for (let i = 0; i < o; i++) {
+          ctx.strokeStyle = css('--line'); ctx.lineWidth = 1.2; ctx.strokeRect(x + i * bx, y, bx, bx * 1.3);
+          const up = e >= i + 1, dn = e > o + i;
+          if (up) arrow(x + i * bx + bx * 0.35, y + bx * 1.15, x + i * bx + bx * 0.35, y + bx * 0.15, css('--a'), 1.6);
+          if (dn) arrow(x + i * bx + bx * 0.65, y + bx * 0.15, x + i * bx + bx * 0.65, y + bx * 1.15, css('--b'), 1.6);
+        }
+        unp += e <= o ? e : 2 * o - e;
+        x += o * bx + 12;
+      }
+      const str = subs.filter((k) => occ[k] > 0).map((k) => k + sup(occ[k])).join(' ');
+      const nmax = Math.max(...Object.keys(neutral).filter((k) => neutral[k] > 0).map((k) => +k[0]));
+      const last = ORDER.map(([n, l]) => `${n}${LET[l]}`).filter((k) => neutral[k] > 0).pop();
+      const block = last[1];
+      const ns = neutral[`${nmax}s`] ?? 0, np = neutral[`${nmax}p`] ?? 0, dkey = `${nmax - 1}d`;
+      const grp = Z === 2 ? 18 : block === 's' ? ns : block === 'p' ? 10 + ns + np : block === 'd' ? (neutral[dkey] ?? 0) + ns : 3;
+      const ionName = q === 0 ? SYM[Z - 1] : `${SYM[Z - 1]}${q > 0 ? sup(q > 1 ? q : '') + '⁺' : sup(-q > 1 ? -q : '') + '⁻'}`;
+      this.info = `<span class="big">${ionName} (Z = ${bn(Z, 0)}, ইলেকট্রন ${bn(ne, 0)}টি): ${str}</span><br>অযুগ্ম ইলেকট্রন ${bn(unp, 0)}টি → ${unp ? 'প্যারাম্যাগনেটিক' : 'ডায়াম্যাগনেটিক'}। মৌলটি পর্যায় ${bn(nmax, 0)}, গ্রুপ ${bn(grp, 0)}, ${block}-ব্লক।${EXC[Z] ? ' <b>ব্যতিক্রমী বিন্যাস</b> — পূর্ণ/অর্ধপূর্ণ d অরবিটাল বেশি স্থিতিশীল।' : ''}${q > 0 ? ' ক্যাটায়নে ইলেকট্রন আগে সর্বোচ্চ n-এর অরবিটাল (যেমন 4s) থেকে বের হয়।' : ''}`;
+    },
+  });
+
+  const EMR = [[0, 5e-13, 'মহাজাগতিক রশ্মি', '—'], [5e-13, 1e-11, 'গামা রশ্মি', 'টিউমার-ক্যান্সার চিকিৎসা, খাদ্যশস্যে অণুজীব ধ্বংস'], [1e-11, 1e-8, 'রঞ্জন রশ্মি (X-ray)', 'দেহের অভ্যন্তরের ছবি, ফুসফুস ও কিডনির অবস্থা, এক্স-রে ক্রিস্টেলোগ্রাফি'], [1e-8, 3.8e-7, 'অতিবেগুনি (UV)', 'জাল টাকা/পাসপোর্ট শনাক্তকরণ, জীবাণুনাশ (240–280 nm), Vitamin-D'], [3.8e-7, 7.8e-7, 'দৃশ্যমান', 'দর্শন, সালোকসংশ্লেষণ, বর্ণ নির্ধারণ'], [7.8e-7, 1e-3, 'অবলোহিত (IR)', 'রিমোট কন্ট্রোল, নাইট ভিশন, ফিজিওথেরাপি, কার্যকরী মূলক শনাক্তকরণ'], [1e-3, 1, 'মাইক্রোওয়েভ', 'Wi-Fi, মোবাইল সিগন্যাল, মাইক্রো ওভেন, রাডার'], [1, 1e9, 'রেডিও তরঙ্গ', 'রেডিও-টিভির সিগন্যাল, MRI']];
+  S.push({
+    id: 'em', tab: '১২. তড়িৎচুম্বকীয় বর্ণালি',
+    title: 'c = νλ, ν̄ = 1/λ, E = hν = hc/λ',
+    sub: 'তরঙ্গদৈর্ঘ্য বাড়ার ক্রম: মহাজাগতিক < γ < X-ray < UV < দৃশ্যমান < IR < মাইক্রোওয়েভ < রেডিও। উল্টো দিকে কম্পাঙ্ক ও শক্তি বাড়ে।',
+    controls: [['ll', 'log₁₀ λ (মিটার)', -13, 4, 0.01, -6.3, '']],
+    legend: [['--muted', 'অঞ্চলের সীমা']],
+    draw(w, h, t, p) {
+      const lam = 10 ** p.ll, nu = 3e8 / lam, nb = 1 / (lam * 100), E = 6.626e-34 * nu, nm = lam * 1e9;
+      const x0 = 14, x1 = w - 14, y = h * 0.42, X = (l) => x0 + (Math.log10(l) + 13) / 17 * (x1 - x0);
+      EMR.forEach(([a, b2, name], i) => {
+        const xa = X(Math.max(a, 1e-13)), xb = X(Math.min(b2, 1e4));
+        ctx.fillStyle = i % 2 ? css('--panel') : css('--panel2'); ctx.fillRect(xa, y - 22, xb - xa, 44);
+        if (i === 4) { const g = ctx.createLinearGradient(xa, 0, xb, 0); ['#8b5cf6', '#4f46e5', '#38bdf8', '#22c55e', '#facc15', '#fb923c', '#ef4444'].forEach((c, k) => g.addColorStop(k / 6, c)); ctx.fillStyle = g; ctx.fillRect(xa, y - 22, Math.max(2, xb - xa), 44); }
+        ctx.strokeStyle = css('--muted'); ctx.beginPath(); ctx.moveTo(xa, y - 26); ctx.lineTo(xa, y + 26); ctx.stroke();
+      });
+      ['γ', 'X', 'UV', '', 'IR', 'μ', 'রেডিও'].forEach((s, i) => { const [a, b2] = EMR[i + 1]; text(s, (X(a) + X(Math.min(b2, 1e4))) / 2, y + 40, css('--muted'), 11, 'center'); });
+      const xx = X(lam); arrow(xx, y - 50, xx, y - 24, css('--d'), 2.5);
+      // wave drawing
+      const amp = 16, yy = h * 0.82, k = TAU / Math.max(6, Math.min(w, 6 + (p.ll + 13) / 17 * 140));
+      curve((x) => yy - amp * Math.sin(k * x - t * 4), 10, w - 10, visColor(nm) ?? css('--a'), 2);
+      const reg = EMR.find(([a, b2]) => lam >= a && lam < b2);
+      const vn = VISN.find(([a, b2]) => nm >= a && nm < b2);
+      this.info = `<span class="big">λ = ${sci(lam, 2)} m${nm < 1e6 ? ` (${sci(nm, 2)} nm)` : ''} → ${reg[2]}${vn ? ' — ' + vn[2] : ''}</span><br>ν = c/λ = ${sci(nu, 2)} Hz · ν̄ = 1/λ = ${sci(nb, 2)} cm⁻¹ · E = hν = ${sci(E, 2)} J = ${sci(E / 1.602e-19, 2)} eV${nm < 1e5 ? ` = ${sci(119627 / nm, 2)} kJ/mol` : ''}<br>ব্যবহার: ${reg[3]}`;
+    },
+  });
+
+  const FLAME = { 'Li⁺': ['ক্রিমসন রেড (লাল)', '#dc143c', 'বর্ণহীন', null], 'Na⁺': ['সোনালী হলুদ', '#ffc300', 'বর্ণহীন', null], 'K⁺': ['হালকা বেগুনি', '#b388ff', 'গোলাপী লাল', '#ff5c8a'], 'Rb⁺': ['লালচে বেগুনী', '#c2185b', '—', null], 'Cs⁺': ['নীল', '#3d7bff', '—', null], 'Ca²⁺': ['ইটের মতো লাল', '#e2552f', 'হালকা সবুজ', '#9be59b'], 'Sr²⁺': ['ক্রিমসন লাল', '#e0115f', 'লালচে বেগুনি', '#b0306f'], 'Ba²⁺': ['হলুদাভ (কাঁচা আপেলের মতো) সবুজ', '#b5e61d', 'নীলাভ সবুজ', '#2bb5a0'], 'Cu²⁺': ['নীলাভ সবুজ', '#1fc7a8', 'বর্ণহীন', null], 'Pb²⁺': ['সাদাটে নীল', '#a9c7ff', '—', null], 'As³⁺': ['নীল', '#4466ff', 'বেগুনি', '#8f5cff'], 'Mg²⁺': ['বর্ণহীন', null, 'বর্ণহীন', null] };
+  S.push({
+    id: 'flame', tab: '১৩. শিখা পরীক্ষা',
+    title: 'শিখা পরীক্ষা: প্লাটিনাম তার, গাঢ় HCl, অনুজ্জ্বল শিখা',
+    sub: 'লবণ লাগানো প্লাটিনাম তার বুনসেন বার্নারের অনুজ্জ্বল শিখায় ধরলে উত্তেজিত ইলেকট্রন নিচে নামার সময় নির্দিষ্ট রঙের আলো দেয়। কোবাল্ট নীল কাচ Na-এর হলুদ আলো শোষণ করে। Be ও Mg শিখায় রং দেয় না।',
+    controls: [],
+    buttons: [...Object.keys(FLAME).map((k, i) => [k, k, i === 1, false, 'ion']), ['cobalt', 'কোবাল্ট নীল কাচ', false, false]],
+    legend: [],
+    draw(w, h, t, p, b) {
+      const [eye, ec, cob, cc] = FLAME[b.ion];
+      const col = b.cobalt ? cc : ec;
+      const cx = w * 0.3, base = h - 30;
+      ctx.fillStyle = css('--muted'); ctx.fillRect(cx - 14, base, 28, 26);
+      for (let i = 0; i < 3; i++) {
+        const fl = 1 + 0.08 * Math.sin(t * 9 + i);
+        ctx.fillStyle = i === 0 ? 'rgba(80,120,255,.35)' : (col ?? 'rgba(130,160,255,.25)');
+        ctx.globalAlpha = i === 0 ? 1 : 0.55;
+        ctx.beginPath(); ctx.ellipse(cx, base - (h * 0.32) * fl * (1 - i * 0.2) / 2 - 2, 20 - i * 4, (h * 0.32) * fl * (1 - i * 0.2) / 2 + 2, 0, 0, TAU); ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+      ctx.strokeStyle = '#ccc'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(w * 0.62, h * 0.25); ctx.lineTo(cx + 4, h * 0.5); ctx.stroke(); dot(cx + 4, h * 0.5, 3, '#eee');
+      if (b.cobalt) { ctx.fillStyle = 'rgba(40,70,220,.25)'; ctx.fillRect(cx - 60, 10, 120, h - 20); ctx.strokeStyle = 'rgba(40,70,220,.6)'; ctx.strokeRect(cx - 60, 10, 120, h - 20); }
+      text(b.ion, w * 0.72, h * 0.45, css('--text'), 22, 'center');
+      this.info = `<span class="big">${b.ion}: খালি চোখে ${eye}; কোবাল্ট নীল কাচে ${cob}</span><br>ছন্দ: “সানি আর সুনীল বলল কালকে তাস পেটাবে” — Na সোনালী, Pb নীল, Ba হলুদাভ সবুজ, Ca ইটের লাল, Cu সবুজ, K বেগুনি। Na শিখা 590 nm।`;
+    },
+  });
+
+  const WET = {
+    'Cu²⁺': [['NH₄OH (অল্প → বেশি)', { ppt: '#9ecbff' }, { liquid: 'rgba(30,80,255,.7)' }, 'প্রথমে হালকা নীল অধঃক্ষেপ, পরে গাঢ় নীল দ্রবণ [Cu(NH₃)₄]²⁺'], ['K₄[Fe(CN)₆]', { ppt: '#8b3a1a' }, null, 'লালচে বাদামী অধঃক্ষেপ Cu₂[Fe(CN)₆]'], ['KI', { ppt: '#f2f2f2', liquid: 'rgba(120,60,20,.6)' }, null, 'সাদা CuI অধঃক্ষেপ, দ্রবণ গাঢ় বাদামি']],
+    'Fe²⁺': [['NH₄OH', { ppt: '#3f8f3f' }, null, 'সবুজ Fe(OH)₂ অধঃক্ষেপ'], ['K₃[Fe(CN)₆]', { ppt: '#1a2a9a' }, null, 'গাঢ় নীল অধঃক্ষেপ (টার্নবুলস ব্লু)'], ['K₄[Fe(CN)₆]', { ppt: '#9ec3ff' }, null, 'হালকা নীল অধঃক্ষেপ'], ['NH₄CNS', {}, null, 'বর্ণহীন']],
+    'Fe³⁺': [['NH₄OH', { ppt: '#8b4513' }, null, 'বাদামী Fe(OH)₃ অধঃক্ষেপ'], ['K₃[Fe(CN)₆]', { liquid: 'rgba(140,80,30,.55)' }, null, 'বাদামী দ্রবণ'], ['K₄[Fe(CN)₆]', { ppt: '#1a2a9a' }, null, 'গাঢ় নীল অধঃক্ষেপ (প্রুসিয়ান ব্লু)'], ['NH₄CNS', { liquid: 'rgba(170,0,20,.8)' }, null, 'রক্ত লাল দ্রবণ Fe(CNS)₃']],
+    'Zn²⁺': [['NH₄OH', { ppt: '#f2f2f2' }, {}, 'সাদা Zn(OH)₂, অতিরিক্ত NH₄OH-এ [Zn(NH₃)₄]²⁺ হয়ে দ্রবীভূত'], ['K₄[Fe(CN)₆]', { ppt: '#f2f2f2' }, null, 'সাদা Zn₂[Fe(CN)₆] অধঃক্ষেপ']],
+    'Al³⁺': [['NH₄OH', { ppt: 'rgba(240,240,240,.75)' }, null, 'সাদা জেলীর ন্যায় Al(OH)₃ অধঃক্ষেপ']],
+    'Ca²⁺': [['NH₄OH', {}, null, 'কোনো বিক্রিয়া ঘটে না'], ['(NH₄)₂C₂O₄', { ppt: '#f7f7f7' }, null, 'সাদা সূক্ষ্ম গুঁড়ার CaC₂O₄ অধঃক্ষেপ']],
+    'Na⁺': [['K₂H₂Sb₂O₇', { ppt: '#f2f2f2' }, null, 'সাদা Na₂H₂Sb₂O₇ অধঃক্ষেপ']],
+    'NH₄⁺': [['নেসলার (K₂[HgI₄] + KOH)', { ppt: '#8b4a16' }, null, 'বাদামি অধঃক্ষেপ']],
+    'Ba²⁺': [['K₂CrO₄', { ppt: '#f5d000' }, null, 'হলুদ BaCrO₄ অধঃক্ষেপ']],
+    'Cl⁻': [['AgNO₃', { ppt: '#f5f5f5' }, {}, 'সাদা AgCl — NH₄OH-এ দ্রবণীয়']],
+    'Br⁻': [['AgNO₃', { ppt: '#f3eaa0' }, null, 'হালকা হলুদ AgBr — NH₄OH-এ আংশিক দ্রবণীয়']],
+    'I⁻': [['AgNO₃', { ppt: '#f2d000' }, null, 'গাঢ় হলুদ AgI — NH₄OH-এ অদ্রবণীয়']],
+    'SO₄²⁻': [['Ba(NO₃)₂ → লঘু HCl', { ppt: '#f5f5f5' }, null, 'সাদা BaSO₄, HCl-এ দ্রবীভূত হয় না'], ['লেড অ্যাসিটেট', { ppt: '#f5f5f5' }, null, 'সাদা PbSO₄']],
+    'CO₃²⁻': [['Ba(NO₃)₂ → লঘু HCl', { ppt: '#f5f5f5' }, { bubbles: true }, 'সাদা BaCO₃, HCl-এ CO₂ বুদবুদসহ দ্রবীভূত'], ['লেড অ্যাসিটেট', { ppt: '#f5f5f5' }, null, 'সাদা PbCO₃']],
+    'NO₃⁻': [['FeSO₄ + গাঢ় H₂SO₄', { ring: '#7a3b12' }, null, 'বাদামী বলয় [Fe(H₂O)₅NO]SO₄']],
+    'S²⁻': [['লেড অ্যাসিটেট', { ppt: '#111' }, null, 'কালো PbS অধঃক্ষেপ'], ['সোডিয়াম নাইট্রোপ্রুসাইড', { liquid: 'rgba(170,40,170,.7)' }, null, 'গোলাপি/বেগুনি বর্ণ']],
+  };
+  S.push({
+    id: 'wet', tab: '১৪. সিক্ত পরীক্ষা',
+    title: 'দ্রবণে আয়ন শনাক্তকরণ — সিক্ত পরীক্ষা',
+    sub: 'আয়ন বেছে নাও — প্রতিটি বিকারকের টেস্টটিউবে কী দেখা যায়। ফেরো-ফেরি ক্রস নিয়ম: Fe²⁺ + ফেরিসায়ানাইড (K₃) এবং Fe³⁺ + ফেরোসায়ানাইড (K₄) → গাঢ় নীল।',
+    controls: [],
+    buttons: Object.keys(WET).map((k, i) => [k, k, i === 0, false, 'ion']),
+    legend: [],
+    height: 280,
+    draw(w, h, t, p, b) {
+      const tests = WET[b.ion], n = tests.length, phase = Math.min(1, (t % 7) / 3);
+      const tw = Math.min(56, w / (n * 2.2)), gap = (w - n * tw) / (n + 1);
+      const lines = [];
+      tests.forEach(([reagent, o1, o2, obs], i) => {
+        const x = gap + i * (tw + gap), o = phase < 0.5 || !o2 ? o1 : { ...o1, ...o2 };
+        const view = phase < 0.15 ? {} : o;
+        tube(x, 40, tw, h - 110, { liquid: 'rgba(160,190,230,.2)', ...view, level: 0.6 }, t);
+        text(reagent.length > 14 ? reagent.slice(0, 14) + '…' : reagent, x + tw / 2, 28, css('--muted'), 10, 'center');
+        text(`${bn(i + 1, 0)}`, x + tw / 2, h - 56, css('--text'), 13, 'center');
+        lines.push(`${bn(i + 1, 0)}. ${reagent} → ${obs}`);
+      });
+      this.info = `<span class="big">${b.ion}</span><br>${lines.join('<br>')}`;
+    },
+  });
+
+  S.push({
+    id: 'decay', tab: '১৫. তেজস্ক্রিয় ক্ষয়',
+    title: 'α ও β ক্ষয়: (Z, A) কীভাবে বদলায়',
+    sub: 'α বের হলে Z − 2, A − 4; β বের হলে Z + 1, A একই; γ-তে কিছু বদলায় না। α সংখ্যা = ΔA/4, β সংখ্যা = Zনতুন + 2α − Zআগের। উদাহরণ: ²²⁸₉₀Th → ²¹²₈₃Bi (৪টি α, ১টি β)।',
+    controls: [['Z', 'মূল মৌলের Z', 80, 100, 1, 90, ''], ['A', 'মূল মৌলের A', 200, 250, 1, 228, ''], ['na', 'α কণার সংখ্যা', 0, 8, 1, 4, ''], ['nb', 'β কণার সংখ্যা', 0, 8, 1, 1, '']],
+    legend: [['--b', 'α ধাপ'], ['--a', 'β ধাপ'], ['--d', 'শেষ নিউক্লাইড']],
+    draw(w, h, t, p) {
+      const steps = []; let Z = p.Z, A = p.A; steps.push([Z, A]);
+      for (let i = 0; i < p.na; i++) { Z -= 2; A -= 4; steps.push([Z, A, 'α']); }
+      for (let i = 0; i < p.nb; i++) { Z += 1; steps.push([Z, A, 'β']); }
+      const gx0 = 40, gx1 = w - 16, gy0 = h - 26, gy1 = 16;
+      axes(gx0, gy0, gx1, gy1, 'Z →', 'N = A − Z');
+      const zs = steps.map((s) => s[0]), ns = steps.map((s) => s[1] - s[0]);
+      const zmin = Math.min(...zs) - 2, zmax = Math.max(...zs) + 2, nmin = Math.min(...ns) - 3, nmax = Math.max(...ns) + 3;
+      const X = (z) => gx0 + (z - zmin) / (zmax - zmin) * (gx1 - gx0), Y = (nn) => gy0 - (nn - nmin) / (nmax - nmin) * (gy0 - gy1);
+      for (let i = 1; i < steps.length; i++) { const [z0, a0] = steps[i - 1], [z1, a1, k] = steps[i]; arrow(X(z0), Y(a0 - z0), X(z1), Y(a1 - z1), k === 'α' ? css('--b') : css('--a'), 2); }
+      steps.forEach(([z, a], i) => { dot(X(z), Y(a - z), i === steps.length - 1 ? 6 : 3.5, i === steps.length - 1 ? css('--d') : css('--muted')); });
+      const [z0, a0] = steps[0];
+      text(`${SYM[z0 - 1]}-${a0}`, X(z0) + 6, Y(a0 - z0) - 6, css('--text'), 11);
+      text(`${SYM[Z - 1] ?? '?'}-${A}`, X(Z) + 8, Y(A - Z) + 4, css('--d'), 12);
+      const chk = (p.A - A) / 4, beta = Z + 2 * chk - p.Z;
+      this.info = `<span class="big">${sup(p.A)}${SYM[p.Z - 1]} (Z = ${bn(p.Z, 0)}) → ${bn(p.na, 0)}α + ${bn(p.nb, 0)}β → ${sup(A)}${SYM[Z - 1] ?? '?'} (Z = ${bn(Z, 0)})</span><br>যাচাই: α = (${bn(p.A, 0)} − ${bn(A, 0)})/4 = ${bn(chk, 0)}; β = ${bn(Z, 0)} + 2×${bn(chk, 0)} − ${bn(p.Z, 0)} = ${bn(beta, 0)}। উপরের (ভর) ও নিচের (Z) সংখ্যার যোগফল দুই পাশে সমান থাকে।`;
+    },
+  });
+
+  // ---------- runner ----------
+  let cur = null, params = {}, btn = {}, t0 = performance.now(), paused = false;
+  const $ = (id) => document.getElementById(id);
+  $('tabs').innerHTML = S.map((s, i) => `<button data-i="${i}">${s.tab}</button>`).join('');
+  $('tabs').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) select(Number(b.dataset.i)); });
+
+  function select(i) {
+    cur = S[i];
+    document.querySelectorAll('#tabs button').forEach((b, j) => b.classList.toggle('on', j === i));
+    $('title').textContent = cur.title;
+    $('sub').textContent = cur.sub;
+    params = {}; btn = {};
+    $('ctl').innerHTML = cur.controls.map(([k, label, min, max, step, val, unit]) => {
+      params[k] = val;
+      return `<label>${label}<b id="v_${k}">${bn(val, step < 0.01 ? 3 : step < 1 ? 2 : 0)} ${unit}</b><input type="range" min="${min}" max="${max}" step="${step}" value="${val}" data-k="${k}" data-u="${unit}" data-s="${step}"></label>`;
+    }).join('');
+    $('buttons').innerHTML = `<button data-b="pause">${paused ? '▶ চালাও' : '⏸ থামাও'}</button>` + (cur.buttons ?? []).map(([k, label, on, isAction, group]) => {
+      if (group) { if (on) btn[group] = k; } else if (!isAction) btn[k] = on;
+      return `<button data-b="${k}" ${group ? `data-g="${group}"` : ''} ${isAction ? 'data-a="1"' : ''} class="${on ? 'on' : ''}">${label}</button>`;
+    }).join('');
+    $('legend').innerHTML = (cur.legend ?? []).map(([c, l]) => `<span><i style="background:var(${c})"></i>${l}</span>`).join('');
+    $('note').textContent = cur.note ?? 'নোট: হিসাবগুলো নোটের সূত্র অনুযায়ী; ছবি ও রং বোঝানোর জন্য আনুমানিক।';
+    cv.style.height = (cur.height ?? 260) + 'px';
+    resize();
+  }
+
+  $('ctl').addEventListener('input', (e) => {
+    const r = e.target; if (!r.dataset.k) return;
+    params[r.dataset.k] = Number(r.value);
+    const s = Number(r.dataset.s);
+    $(`v_${r.dataset.k}`).textContent = `${bn(Number(r.value), s < 0.01 ? 3 : s < 1 ? 2 : 0)} ${r.dataset.u}`;
+  });
+  $('buttons').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if (!b) return;
+    const k = b.dataset.b;
+    if (k === 'pause') { paused = !paused; b.textContent = paused ? '▶ চালাও' : '⏸ থামাও'; return; }
+    if (b.dataset.a) { cur.action?.call(cur, k, params); return; }
+    if (b.dataset.g) { btn[b.dataset.g] = k; document.querySelectorAll(`[data-g="${b.dataset.g}"]`).forEach((x) => x.classList.toggle('on', x === b)); return; }
+    btn[k] = !btn[k]; b.classList.toggle('on', btn[k]);
+  });
+
+  let W = 0, H = 0, simT = 0, last = performance.now();
+  function resize() {
+    const dpr = Math.min(2, window.devicePixelRatio || 1);
+    W = cv.clientWidth; H = cv.clientHeight;
+    cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  window.addEventListener('resize', resize);
+  function frame(now) {
+    const dt = Math.min(0.1, (now - last) / 1000); last = now;
+    if (!paused) simT += dt;
+    if (cur) {
+      ctx.clearRect(0, 0, W, H);
+      cur.draw(W, H, simT, params, btn);
+      $('info').innerHTML = cur.info ?? '';
+    }
+    requestAnimationFrame(frame);
+  }
+  select(0);
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>
