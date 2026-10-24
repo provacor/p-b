@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C প্রোগ্রামিং ল্যাব — ৫ম অধ্যায়ের ৯টি সিমুলেশন</title>
+<style>
+  :root {
+    --bg: #0d1017; --panel: #151a24; --panel2: #1c2230; --line: #2a3242; --text: #e9edf4; --muted: #8e98ab;
+    --a: #7ea6ff; --b: #f7c35c; --c: #4fd8c4; --d: #fb8fb0; --e: #6ee7a0; --f: #c49bff; --code-bg: #0b0f17;
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #f4f6fa; --panel: #fff; --panel2: #f1f4f9; --line: #dde3ec; --text: #0f172a; --muted: #5b6577;
+      --a: #3b6cf6; --b: #c58a06; --c: #0f9f8e; --d: #e2457a; --e: #16a34a; --f: #7c3aed; --code-bg: #0f172a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 "Noto Sans Bengali", "Inter", system-ui, sans-serif; }
+  header { padding: 14px 14px 6px; }
+  h1 { margin: 0; font-size: 1.15rem; }
+  header p { margin: 4px 0 0; color: var(--muted); font-size: .82rem; }
+  .tabs { display: flex; gap: 6px; overflow-x: auto; padding: 8px 14px; scrollbar-width: none; position: sticky; top: 0; background: var(--bg); z-index: 2; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tabs button { flex: none; border: 1px solid var(--line); background: var(--panel); color: var(--text); border-radius: 99px; padding: 7px 12px; font: inherit; font-size: .82rem; cursor: pointer; white-space: nowrap; }
+  .tabs button.on { background: var(--a); border-color: transparent; color: #fff; }
+  main { padding: 6px 14px 24px; max-width: 900px; margin: 0 auto; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 12px; }
+  h2 { margin: 2px 0 2px; font-size: 1.05rem; }
+  .sub { color: var(--muted); font-size: .82rem; margin: 0 0 10px; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  .row .gl { width: 100%; font-size: .74rem; color: var(--muted); margin: 2px 0 -4px; }
+  .row button { border: 1px solid var(--line); background: var(--panel2); color: var(--text); border-radius: 10px; padding: 7px 12px; font: inherit; font-size: .85rem; cursor: pointer; }
+  .row button.on { border-color: var(--a); color: var(--a); font-weight: 700; }
+  .ctl { display: grid; gap: 8px; margin-top: 10px; }
+  .ctl label { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; font-size: .84rem; }
+  .ctl label b { color: var(--a); font-variant-numeric: tabular-nums; }
+  .ctl input[type=range] { grid-column: 1 / -1; width: 100%; accent-color: var(--a); }
+  .two { display: grid; gap: 10px; grid-template-columns: 1fr; margin-top: 10px; }
+  @media (min-width: 640px) { .two { grid-template-columns: 1fr 1fr; } }
+  .pane { border-radius: 12px; overflow: hidden; border: 1px solid var(--line); }
+  .pane .hd { font-size: .74rem; padding: 5px 10px; background: var(--panel2); color: var(--muted); }
+  pre.code, pre.term { margin: 0; padding: 10px 12px; background: var(--code-bg); color: #e5e7eb; font: 13px/1.5 ui-monospace, "DejaVu Sans Mono", monospace; overflow-x: auto; white-space: pre; min-height: 60px; }
+  pre.term { color: #86efac; white-space: pre-wrap; word-break: break-word; }
+  .code .k { color: #f472b6; } .code .s { color: #86efac; } .code .p { color: #c4b5fd; } .code .n { color: #fbbf24; }
+  .info { margin-top: 10px; padding: 10px 12px; border-radius: 12px; background: var(--panel2); font-size: .86rem; }
+  .info code { font-family: ui-monospace, monospace; color: var(--c); }
+  .info .big { font-size: 1.05rem; font-weight: 700; }
+  .info .ok { color: var(--e); font-weight: 700; }
+  .info .no { color: var(--d); font-weight: 700; }
+  .note { font-size: .78rem; color: var(--muted); margin-top: 8px; }
+  table.tr { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: .84rem; font-variant-numeric: tabular-nums; }
+  table.tr th, table.tr td { border: 1px solid var(--line); padding: 4px 8px; text-align: center; }
+  table.tr th { background: var(--panel2); font-weight: 600; }
+  table.tr tr.hi td { background: rgba(110, 231, 160, .15); font-weight: 700; }
+  svg { width: 100%; display: block; background: var(--panel2); border-radius: 12px; margin-top: 10px; }
+  .bitrow { display: grid; grid-template-columns: 70px repeat(8, 1fr) 60px; gap: 3px; align-items: center; font: 14px ui-monospace, monospace; margin-top: 4px; }
+  .bitrow span { text-align: center; padding: 5px 0; border-radius: 6px; background: var(--panel2); }
+  .bitrow span.one { background: var(--a); color: #fff; }
+  .bitrow .lb { background: none; text-align: left; font-size: .78rem; color: var(--muted); font-family: inherit; }
+  .bitrow .dv { background: none; font-weight: 700; }
+</style>
+</head>
+<body>
+<header>
+  <h1>C প্রোগ্রামিং ল্যাব</h1>
+  <p>আইসিটি · ৫ম অধ্যায় — নোটের লুপ, সিরিজ, সূত্র, শর্ত আর অপারেটরগুলো চালিয়ে দেখো। স্লাইডার টানলে কোড, আউটপুট আর ট্রেস টেবিল সাথে সাথে বদলাবে।</p>
+</header>
+<nav class="tabs" id="tabs"></nav>
+<main><section class="card">
+  <h2 id="title"></h2>
+  <p class="sub" id="sub"></p>
+  <div id="stage"></div>
+  <p class="note" id="note"></p>
+</section></main>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const BN = '০১২৩৪৫৬৭৮৯';
+  const bn = (n) => String(n).replace(/\d/g, (d) => BN[d]);
+  const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const KW = /\b(int|float|char|double|void|return|if|else|for|while|do|switch|case|break|default|continue)\b/g;
+  const hl = (src) => esc(src).split('\n').map((ln) => {
+    if (/^\s*#/.test(ln)) return `<span class="p">${ln}</span>`;
+    const parts = ln.split(/(&quot;|")/);
+    let out = '', inS = false;
+    ln.split(/("(?:[^"\\]|\\.)*")/).forEach((seg, i) => { out += i % 2 ? `<span class="s">${seg}</span>` : seg.replace(KW, '<span class="k">$1</span>'); });
+    return out;
+  }).join('\n');
+  const codeOut = (src, out, inp = '—') => `<div class="two"><div class="pane"><div class="hd">C কোড</div><pre class="code">${hl(src)}</pre></div>` +
+    `<div class="pane"><div class="hd">আউটপুট (ইনপুট: ${esc(inp)})</div><pre class="term">${esc(out)}</pre></div></div>`;
+  const btns = (group, list, cur) => `<div class="row"><div class="gl">${group}</div>` +
+    list.map(([k, label]) => `<button data-k="${k}" class="${k === cur ? 'on' : ''}">${label}</button>`).join('') + '</div>';
+  const range = (id, label, min, max, val, step = 1) =>
+    `<label>${label}<b id="${id}v">${bn(val)}</b><input type="range" id="${id}" min="${min}" max="${max}" step="${step}" value="${val}"></label>`;
+  const trTable = (head, rows, hi = -1) => `<table class="tr"><tr>${head.map((h) => `<th>${h}</th>`).join('')}</tr>` +
+    rows.map((r, i) => `<tr class="${i === hi ? 'hi' : ''}">${r.map((c) => `<td>${c}</td>`).join('')}</tr>`).join('') + '</table>';
+  const bindRanges = (sim, map) => map.forEach(([id, k]) => { $(id).oninput = (e) => { sim.st[k] = +e.target.value; sim.render(); }; });
+  const bindRow = (idx, fn) => $('stage').querySelectorAll('.row')[idx].querySelectorAll('button').forEach((b) => b.onclick = () => fn(b.dataset.k));
+  const f2 = (x) => (Math.round(x * 100) / 100).toFixed(2);
+
+  // ---------- 1. loop tracer ----------
+  const LOOPS = {
+    all: ['১–১০০ সব', 1, 1, 100, 'i'], even: ['জোড়', 2, 2, 100, 'i'], odd: ['বিজোড়', 1, 2, 100, 'i'],
+    five: ['৫-এর গুণিতক', 5, 5, 100, 'i'], sq: ['বর্গ (i*i)', 1, 1, 10, 'i*i'], down: ['১০০ থেকে ১ উল্টো', 100, -1, 1, 'i'], bd: ['"Bangladesh" n বার', 1, 1, 12, 'BD'],
+  };
+  const loopSim = {
+    title: 'লুপ ট্রেসার', sub: 'লুপের ৪টি জিনিস — শুরু, শর্ত, কাজ, বাড়াও। একটি সমস্যা বাছো, তারপর মান টেনে দেখো কয়বার চলে ও কী ছাপে।',
+    note: 'অ্যালগরিদমে "১০০-এর চেয়ে ছোট বা সমান" (i ≤ 100) লিখবে — শুধু "ছোট" লিখলে i = 100 হলে লুপ থেমে যায়, 100 ছাপা হয় না।',
+    st: { k: 'all', start: 1, step: 1, end: 100, le: 1 },
+    render() {
+      const s = this.st, L = LOOPS[s.k];
+      const down = s.step < 0;
+      const vals = [];
+      for (let i = s.start, g = 0; (down ? (s.le ? i >= s.end : i > s.end) : (s.le ? i <= s.end : i < s.end)) && g < 500; i += s.step, g++) vals.push(i);
+      const op = down ? (s.le ? '>=' : '>') : (s.le ? '<=' : '<');
+      const upd = s.step === 1 ? 'i++' : s.step === -1 ? 'i--' : `i = i ${down ? '-' : '+'} ${Math.abs(s.step)}`;
+      const body = L[4] === 'BD' ? 'printf("Bangladesh\\n");' : `printf("%d ", ${L[4]});`;
+      const src = `#include <stdio.h>\nint main()\n{\n    int i;\n    for (i = ${s.start}; i ${op} ${s.end}; ${upd})\n        ${body}\n    return 0;\n}`;
+      const out = L[4] === 'BD' ? vals.map(() => 'Bangladesh').join('\n') : vals.map((i) => (L[4] === 'i*i' ? i * i : i)).join(' ');
+      const rows = vals.slice(0, 6).map((i, n) => [bn(n + 1), i, `${i} ${op} ${s.end} → সত্য`, L[4] === 'BD' ? 'Bangladesh' : (L[4] === 'i*i' ? i * i : i)]);
+      const last = vals.length ? vals[vals.length - 1] + s.step : s.start;
+      rows.push(['…', last, `${last} ${op} ${s.end} → মিথ্যা`, 'লুপ শেষ']);
+      $('stage').innerHTML = btns('সমস্যা', Object.entries(LOOPS).map(([k, v]) => [k, v[0]]), s.k) +
+        `<div class="ctl">${range('ls', 'শুরু (i = …)', -5, 100, s.start)}${range('lp', 'বাড়াও / কমাও (step)', -5, 10, s.step)}${range('le', 'শেষ সীমা', 1, 100, s.end)}</div>` +
+        btns('শর্ত', [['1', down ? 'বড় বা সমান (≥)' : 'ছোট বা সমান (≤)'], ['0', down ? 'শুধু বড় (>)' : 'শুধু ছোট (<)']], String(s.le)) +
+        codeOut(src, out || '(কিছুই ছাপা হয়নি)') + trTable(['ধাপ', 'i', 'শর্ত', 'ছাপা'], rows, rows.length - 1) +
+        `<div class="info">লুপটি <b>${bn(vals.length)}</b> বার চলেছে।${s.step === 0 ? ' <span class="no">step = 0 → i কখনো বদলায় না → অসীম লুপ (এখানে ৫০০-তে থামানো হয়েছে)।</span>' : ''}</div>`;
+      bindRow(0, (k) => { const v = LOOPS[k]; Object.assign(s, { k, start: v[1], step: v[2], end: v[3], le: 1 }); this.render(); });
+      bindRow(1, (k) => { s.le = +k; this.render(); });
+      bindRanges(this, [['ls', 'start'], ['lp', 'step'], ['le', 'end']]);
+    },
+  };
+
+  // ---------- 2. series sum ----------
+  const SER = {
+    s1: ['1+2+3+…+N', 0, 1, 1, (k) => k, 'S = S + K'], s2: ['2+4+6+…+N', 0, 2, 2, (k) => k, 'S = S + K'], s3: ['1+3+5+…+N', 0, 1, 2, (k) => k, 'S = S + K'],
+    q1: ['1²+2²+3²+…+N²', 0, 1, 1, (k) => k * k, 'S = S + K*K'], q2: ['1²+3²+5²+…+N²', 0, 1, 2, (k) => k * k, 'S = S + K*K'], q3: ['2²+4²+6²+…+N²', 0, 2, 2, (k) => k * k, 'S = S + K*K'],
+    c1: ['1³+2³+3³+…+N³', 0, 1, 1, (k) => k * k * k, 'S = S + K*K*K'], m5: ['5+10+15+…+N', 0, 5, 5, (k) => k, 'S = S + K'], h: ['1.5+2.5+3.5+…+N', 0, 1.5, 1, (k) => k, 'S = S + K'],
+    fa: ['N! = 1×2×…×N', 1, 1, 1, (k) => k, 'S = S * K'],
+  };
+  const serSim = {
+    title: 'সিরিজ-সমষ্টি', sub: 'একটি ধারা বাছো, N টানো — S ও K কীভাবে বদলায় তা ট্রেস টেবিলে (Dry Run) দেখো।',
+    note: 'সিরিজ দেখে ৩টা জিনিস: ১ম পদ = K-এর শুরুর মান · ২য় পদ − ১ম পদ = step · বর্গ/ঘন হলে K*K বা K*K*K। যোগে শুরু S = 0, গুণে S = 1 (ভুলে S = 0 দিলে গুণফল সবসময় 0)।',
+    st: { k: 's1', n: 10 },
+    render() {
+      const s = this.st, R = SER[s.k];
+      const fact = s.k === 'fa';
+      if (fact) s.n = Math.min(s.n, 12);
+      let S = R[1];
+      const rows = [['শুরু', '—', `S = ${S}`, `K = ${R[2]}`]];
+      let k = R[2], step = 0;
+      while (k <= s.n && step < 200) {
+        const t = R[4](k), old = S;
+        S = fact ? S * t : S + t;
+        S = Math.round(S * 100) / 100;
+        step++;
+        if (step <= 6) rows.push([bn(step), `${k} > ${s.n}? না`, `${old} ${fact ? '×' : '+'} ${t} = ${S}`, `K = ${Math.round((k + R[3]) * 10) / 10}`]);
+        k = Math.round((k + R[3]) * 10) / 10;
+      }
+      if (step > 6) rows.push(['…', '', '', '']);
+      rows.push([bn(step + 1), `${k} > ${s.n}? হ্যাঁ`, `থামে → S = ${S}`, '']);
+      const isF = R[2] % 1 !== 0;
+      const src = `#include <stdio.h>\nint main()\n{\n    int N;\n    ${isF ? 'float S = 0, K;' : `int K, S;`}\n    scanf("%d", &N);\n` +
+        `    ${isF ? '' : `S = ${R[1]};\n    `}for (K = ${R[2]}; K <= N; K = K + ${R[3]})\n        ${R[5].replace(/ /g, '') .replace('S=', 'S = ')};\n    printf("${isF ? '%.1f' : '%d'}", S);\n    return 0;\n}`;
+      $('stage').innerHTML = btns('ধারা', Object.entries(SER).map(([key, v]) => [key, v[0]]), s.k) +
+        `<div class="ctl">${range('sn', 'N', 1, fact ? 12 : 30, s.n)}</div>` + codeOut(src, isF ? S.toFixed(1) : String(S), String(s.n)) +
+        trTable(['ধাপ', 'K > N ?', fact ? 'S = S*K' : 'S = S+K', 'K-এর আপডেট'], rows, rows.length - 1) +
+        `<div class="info">শুরু: S = ${R[1]}, K = ${R[2]} · লুপে: ${R[5]} · K = K + ${R[3]} · থামার শর্ত K ≤ N মিথ্যা হলে।` +
+        (s.k === 's1' ? `<br>যাচাই: N(N+1)/2 = ${s.n}×${s.n + 1}/2 = <b>${s.n * (s.n + 1) / 2}</b>` : '') +
+        (s.k === 'q1' ? `<br>যাচাই: N(N+1)(2N+1)/6 = <b>${s.n * (s.n + 1) * (2 * s.n + 1) / 6}</b>` : '') +
+        (s.k === 'c1' ? `<br>যাচাই: [N(N+1)/2]² = <b>${(s.n * (s.n + 1) / 2) ** 2}</b>` : '') + '</div>';
+      bindRow(0, (k) => { s.k = k; this.render(); });
+      bindRanges(this, [['sn', 'n']]);
+    },
+  };
+
+  // ---------- 3. temperature ----------
+  const tSim = {
+    title: 'তাপমাত্রা রূপান্তর', sub: 'সেলসিয়াস টানো — একটি মূল সূত্র থেকেই F ও K বের হয়। "ফাঁদ" চাপলে int ভাগের ভুল দেখবে।',
+    note: 'মূল সূত্র: C/5 = (F−32)/9 = (K−273)/5। C-তে 9/5 = 1 (int ভাগ) — তাই F = 9/5*C + 32 লিখলে ভুল; আগে গুণ করো (9*C/5) বা 9.0/5 লেখো।',
+    st: { c: 37, trap: 0 },
+    render() {
+      const s = this.st;
+      const F = 9 * s.c / 5 + 32, K = s.c + 273, Fbad = Math.trunc(9 / 5) * s.c + 32;
+      const src = `#include <stdio.h>\nint main()\n{\n    float c, f, k;\n    scanf("%f", &c);\n    f = ${s.trap ? '9/5*c + 32;      /* ভুল */' : '((9 * c) / 5) + 32;'}\n    k = c + 273;\n    printf("F = %.2f, K = %.2f", f, k);\n    return 0;\n}`;
+      const out = `F = ${f2(s.trap ? Fbad : F)}, K = ${f2(K)}`;
+      const rows = [['C → F', 'F = 9*C/5 + 32', f2(F)], ['C → K', 'K = C + 273', f2(K)], ['F → C', 'C = 5*(F−32)/9', f2(5 * (F - 32) / 9)],
+        ['F → K', 'K = 5*(F−32)/9 + 273', f2(5 * (F - 32) / 9 + 273)], ['K → C', 'C = K − 273', f2(K - 273)], ['K → F', 'F = 9*(K−273)/5 + 32', f2(9 * (K - 273) / 5 + 32)]];
+      $('stage').innerHTML = `<div class="ctl">${range('tc', 'সেলসিয়াস C', -40, 200, s.c)}</div>` +
+        btns('কোড', [['0', 'সঠিক কোড'], ['1', 'ফাঁদ: 9/5*c']], String(s.trap)) + codeOut(src, out, String(s.c)) +
+        trTable(['রূপান্তর', 'সূত্র (C Expression)', 'মান'], rows) +
+        `<div class="info">${s.trap ? `<span class="no">9/5 = 1 (int ভাগ) → F = 1×${s.c} + 32 = ${Fbad}, অথচ সঠিক F = ${f2(F)}।</span>` : `<span class="ok">C = ${s.c} → F = ${f2(F)}, K = ${f2(K)}</span>`}` +
+        `<br>প্রতিপাদন: C/5 = (F−32)/9 ⇒ 5(F−32) = 9C ⇒ F = 9C/5 + 32</div>`;
+      bindRow(0, (k) => { s.trap = +k; this.render(); });
+      bindRanges(this, [['tc', 'c']]);
+    },
+  };
+
+  // ---------- 4. flowchart: largest / smallest of three ----------
+  const fcSim = {
+    title: 'ফ্লোচার্টে বৃহত্তম', sub: 'A, B, C টানো — ফ্লোচার্টের কোন পথ ধরে উত্তর বের হয় তা হাইলাইট দেখো। ক্ষুদ্রতমের জন্য শুধু > এর জায়গায় <।',
+    note: 'প্রতীক: ডিম্ব = শুরু/শেষ · সামান্তরিক = Input/Output · হীরা = সিদ্ধান্ত · বৃত্ত = সংযোগ। ধাপ-৪-এর দুই শাখার শেষে "৬ নং ধাপে যাও" লিখতে ভুলবে না।',
+    st: { a: 12, b: 45, c: 30, mode: 'max' },
+    render() {
+      const s = this.st, mx = s.mode === 'max', op = mx ? '>' : '<';
+      const cmp = (x, y) => (mx ? x > y : x < y);
+      const d1 = cmp(s.a, s.b), d2 = d1 ? cmp(s.a, s.c) : cmp(s.b, s.c);
+      const res = d1 ? (d2 ? 'A' : 'C') : (d2 ? 'B' : 'C');
+      const val = { A: s.a, B: s.b, C: s.c }[res];
+      const fg = getComputedStyle(document.body).color, on = '#16a34a';
+      const path = new Set(['st', 'in', 'd1', d1 ? 'y1' : 'n1', d1 ? 'd2r' : 'd2l', 'p' + res + (res === 'C' ? (d1 ? 'r' : 'l') : ''), 'end']);
+      const box = (id, x, y, w, h, t, shape) => {
+        const c = path.has(id) ? on : fg, sw = path.has(id) ? 2.6 : 1.2;
+        if (shape === 'term') return `<rect x="${x - w / 2}" y="${y - h / 2}" width="${w}" height="${h}" rx="${h / 2}" fill="#fde68a" stroke="${c}" stroke-width="${sw}"/><text x="${x}" y="${y + 4}" text-anchor="middle" font-size="12" fill="#0f172a">${t}</text>`;
+        if (shape === 'io') return `<polygon points="${x - w / 2 + 10},${y - h / 2} ${x + w / 2 + 10},${y - h / 2} ${x + w / 2 - 10},${y + h / 2} ${x - w / 2 - 10},${y + h / 2}" fill="#dbeafe" stroke="${c}" stroke-width="${sw}"/><text x="${x}" y="${y + 4}" text-anchor="middle" font-size="12" fill="#0f172a">${t}</text>`;
+        return `<polygon points="${x},${y - h / 2} ${x + w / 2},${y} ${x},${y + h / 2} ${x - w / 2},${y}" fill="#fee2e2" stroke="${c}" stroke-width="${sw}"/><text x="${x}" y="${y + 4}" text-anchor="middle" font-size="12" fill="#0f172a">${t}</text>`;
+      };
+      const ln = (id, pts, lab, lx, ly) => `<polyline points="${pts}" fill="none" stroke="${path.has(id) ? on : fg}" stroke-width="${path.has(id) ? 2.6 : 1.2}"/>${lab ? `<text x="${lx}" y="${ly}" font-size="11" fill="${fg}">${lab}</text>` : ''}`;
+      const svg = `<svg viewBox="0 0 520 380">` +
+        ln('st', '260,38 260,58') + ln('in', '260,82 260,100') + ln('y1', '310,125 400,125 400,165', 'Yes', 330, 118) + ln('n1', '210,125 120,125 120,165', 'No', 170, 118) +
+        ln('pA', '450,190 470,190 470,250', 'Yes', 452, 183) + ln('pCr', '400,215 400,235 300,235 300,250', 'No', 404, 230) +
+        ln('pB', '70,190 50,190 50,250', 'Yes', 26, 183) + ln('pCl', '120,215 120,235 220,235 220,250', 'No', 124, 230) +
+        ln('end', '260,300 260,325') +
+        box('st', 260, 25, 90, 26, 'Start', 'term') + box('in', 260, 70, 130, 26, 'Input A, B, C', 'io') + box('d1', 260, 125, 100, 50, `A ${op} B ?`) +
+        box('d2r', 400, 190, 100, 50, `A ${op} C ?`) + box('d2l', 120, 190, 100, 50, `B ${op} C ?`) +
+        box('pA', 470, 265, 80, 26, 'Print A', 'io') + box('pCr', 300, 265, 80, 26, 'Print C', 'io') + box('pB', 50, 265, 80, 26, 'Print B', 'io') + box('pCl', 220, 265, 80, 26, 'Print C', 'io') +
+        `<circle cx="260" cy="300" r="8" fill="none" stroke="${fg}"/>` + box('end', 260, 340, 90, 26, 'End', 'term') + '</svg>';
+      const word = mx ? 'Largest' : 'Smallest';
+      const src = `if (A ${op} B)\n{\n    if (A ${op} C) printf("${word} = %d", A);\n    else       printf("${word} = %d", C);\n}\nelse\n{\n    if (B ${op} C) printf("${word} = %d", B);\n    else       printf("${word} = %d", C);\n}`;
+      $('stage').innerHTML = btns('কী খুঁজবে', [['max', 'বৃহত্তম (>)'], ['min', 'ক্ষুদ্রতম (<)']], s.mode) +
+        `<div class="ctl">${range('fa', 'A', 0, 99, s.a)}${range('fb', 'B', 0, 99, s.b)}${range('fc', 'C', 0, 99, s.c)}</div>` + svg +
+        codeOut(src, `${word} = ${val}`, `${s.a} ${s.b} ${s.c}`) +
+        `<div class="info">A ${op} B? ${d1 ? 'হ্যাঁ' : 'না'} → ${d1 ? 'A' : 'B'} ${op} C? ${d2 ? 'হ্যাঁ' : 'না'} → <b>Print ${res} = ${val}</b></div>`;
+      bindRow(0, (k) => { s.mode = k; this.render(); });
+      bindRanges(this, [['fa', 'a'], ['fb', 'b'], ['fc', 'c']]);
+    },
+  };
+
+  // ---------- 5. leap year ----------
+  const lySim = {
+    title: 'Leap Year', sub: 'বছর টানো — তিনটি শর্ত একে একে যাচাই হয়ে সিদ্ধান্ত বের হবে।',
+    note: '"৪০০ হলে নিশ্চিত, ১০০ হলে বাদ, ৪ হলে হ্যাঁ" — শর্ত: (Y%400 == 0) || (Y%4 == 0 && Y%100 != 0)।',
+    st: { y: 1900 },
+    render() {
+      const y = this.st.y, a = y % 400 === 0, b = y % 4 === 0, c = y % 100 !== 0, leap = a || (b && c);
+      const src = `#include <stdio.h>\nint main()\n{\n    int year;\n    scanf("%d", &year);\n    if (year % 400 == 0)\n        printf("%d Leap year", year);\n    else\n    {\n        if (year % 100 != 0 && year % 4 == 0)\n            printf("%d Leap year", year);\n        else\n            printf("%d not leap year", year);\n    }\n    return 0;\n}`;
+      $('stage').innerHTML = `<div class="ctl">${range('ly', 'বছর (Y)', 1600, 2400, y)}</div>` +
+        btns('নমুনা', [['1900', '1900'], ['2000', '2000'], ['2024', '2024'], ['2023', '2023'], ['2100', '2100']], String(y)) +
+        trTable(['শর্ত', 'হিসাব', 'ফল'], [['Y % 400 == 0', `${y} % 400 = ${y % 400}`, a ? 'সত্য' : 'মিথ্যা'], ['Y % 4 == 0', `${y} % 4 = ${y % 4}`, b ? 'সত্য' : 'মিথ্যা'], ['Y % 100 != 0', `${y} % 100 = ${y % 100}`, c ? 'সত্য' : 'মিথ্যা']]) +
+        codeOut(src, `${y} ${leap ? 'Leap year' : 'not leap year'}`, String(y)) +
+        `<div class="info"><div class="big ${leap ? 'ok' : 'no'}">${y} ${leap ? 'Leap Year' : 'Leap Year নয়'}</div>${a ? '৪০০ দিয়ে বিভাজ্য → নিশ্চিত Leap।' : b && !c ? '৪ দিয়ে বিভাজ্য কিন্তু ১০০ দিয়েও (৪০০ দিয়ে নয়) → বাদ।' : b ? '৪ দিয়ে বিভাজ্য, ১০০ দিয়ে নয় → Leap।' : '৪ দিয়েই বিভাজ্য নয় → Leap নয়।'}</div>`;
+      bindRow(0, (k) => { this.st.y = +k; this.render(); });
+      bindRanges(this, [['ly', 'y']]);
+    },
+  };
+
+  // ---------- 6. GCD ----------
+  const gSim = {
+    title: 'GCD ট্রেস (গ.সা.গু)', sub: 'L ও S টানো — ইউক্লিডীয় পদ্ধতিতে R = L % S, L = S, S = R যতক্ষণ R ≠ 0।',
+    note: 'অ্যালগরিদমে R = 0 হলে S ছাপা হয়; C কোডে লুপের ভেতরেই L = S হয়ে যায় বলে শেষে L ছাপা হয় — দুটো একই মান।',
+    st: { L: 30, S: 4 },
+    render() {
+      let L = this.st.L, S = this.st.S;
+      const rows = [];
+      let R, g = 0;
+      do { R = L % S; rows.push([bn(++g), `${L} % ${S}`, R, S, R]); L = S; S = R; } while (R !== 0 && g < 30);
+      const src = `#include <stdio.h>\nint main()\n{\n    int L, S, R;\n    scanf("%d", &L);\n    scanf("%d", &S);\n    do\n    {\n        R = L % S;\n        L = S;\n        S = R;\n    } while (R != 0);\n    printf("GCD = %d", L);\n    return 0;\n}`;
+      $('stage').innerHTML = `<div class="ctl">${range('gl', 'L', 1, 200, this.st.L)}${range('gs', 'S', 1, 200, this.st.S)}</div>` +
+        btns('নমুনা', [['30,4', 'L=30, S=4'], ['48,18', 'L=48, S=18'], ['17,5', 'L=17, S=5']], `${this.st.L},${this.st.S}`) +
+        trTable(['ধাপ', 'R = L % S', 'R', 'নতুন L = S', 'নতুন S = R'], rows, rows.length - 1) + codeOut(src, `GCD = ${L}`, `${this.st.L} ${this.st.S}`) +
+        `<div class="info"><div class="big">গ.সা.গু = ${L}</div>${bn(g)} বার ঘুরে R = 0 হয়েছে।</div>`;
+      bindRow(0, (k) => { const [a, b] = k.split(',').map(Number); this.st.L = a; this.st.S = b; this.render(); });
+      bindRanges(this, [['gl', 'L'], ['gs', 'S']]);
+    },
+  };
+
+  // ---------- 7. operators ----------
+  const opSim = {
+    title: 'অপারেটর ও int ভাগ', sub: 'a, b টানো — int/int ভাগ, ভাগশেষ, (float) ভাগ, i++ বনাম ++i আর ternary একসাথে দেখো।',
+    note: 'int/int = int: 17/5 = 3; ভাগশেষ 17%5 = 2; % শুধু পূর্ণসংখ্যায়। দশমিক চাইলে (float)a/b বা 3.0 লেখো। (1/2)*b*h = 0, তাই 0.5*b*h লেখো।',
+    st: { a: 17, b: 5, i: 5 },
+    render() {
+      const { a, b, i } = this.st;
+      const q = Math.trunc(a / b), r = a % b;
+      const rows = [['a / b', `${a}/${b}`, q, 'int ভাগ — দশমিক বাদ'], ['a % b', `${a}%${b}`, r, 'ভাগশেষ (Modulus)'], ['(float)a / b', `${a}.0/${b}`, (a / b).toFixed(2), 'দশমিকসহ'],
+        ['(1/2)*a*b', '0 * …', 0, 'ফাঁদ: 1/2 = 0'], ['0.5*a*b', `0.5×${a}×${b}`, 0.5 * a * b, 'সঠিক'], ['(a > b) ? a : b', a > b ? 'সত্য' : 'মিথ্যা', a > b ? a : b, 'Ternary — বড়টি'],
+        ['x = i++', `x = ${i}`, `x=${i}, i=${i + 1}`, 'Post: আগে ব্যবহার, পরে বাড়ে'], ['x = ++i', `i = ${i + 1}`, `x=${i + 1}, i=${i + 1}`, 'Pre: আগে বাড়ে, পরে ব্যবহার']];
+      const src = `int a = ${a}, b = ${b}, i = ${i}, x;\nprintf("a/b = %d\\n", a / b);\nprintf("a%%b = %d\\n", a % b);\nprintf("%.2f\\n", (float)a / b);\nx = i++;  printf("x=%d i=%d\\n", x, i);\ni = ${i};\nx = ++i;  printf("x=%d i=%d\\n", x, i);\nprintf("max = %d", (a > b) ? a : b);`;
+      const out = `a/b = ${q}\na%b = ${r}\n${(a / b).toFixed(2)}\nx=${i} i=${i + 1}\nx=${i + 1} i=${i + 1}\nmax = ${a > b ? a : b}`;
+      $('stage').innerHTML = `<div class="ctl">${range('oa', 'a', 0, 60, a)}${range('ob', 'b', 1, 20, b)}${range('oi', 'i', 0, 20, i)}</div>` +
+        trTable(['Expression', 'হিসাব', 'ফল', 'মন্তব্য'], rows) + codeOut(src, out);
+      bindRanges(this, [['oa', 'a'], ['ob', 'b'], ['oi', 'i']]);
+    },
+  };
+
+  // ---------- 8. bitwise ----------
+  const W8 = [128, 64, 32, 16, 8, 4, 2, 1];
+  const bitRow = (lab, v) => `<div class="bitrow"><span class="lb">${lab}</span>${W8.map((w) => `<span class="${v & w ? 'one' : ''}">${v & w ? 1 : 0}</span>`).join('')}<span class="dv">${v}</span></div>`;
+  const bSim = {
+    title: 'বিটওয়াইজ শিফট ও AND/OR/XOR', sub: 'দুটি সংখ্যা ও শিফট n টানো — বিটগুলো কীভাবে সরে বা মেলে দেখো।',
+    note: '<< n = ×2ⁿ (বামে সরে), >> n = ÷2ⁿ (ডানে সরে)। AND = দুটোই ১ হলে ১; OR = যেকোনো ১ হলে ১; XOR = ভিন্ন হলে ১। C-তে ^ মানে XOR, ঘাত নয়।',
+    st: { a: 10, b: 6, n: 1 },
+    render() {
+      const { a, b, n } = this.st;
+      $('stage').innerHTML = `<div class="ctl">${range('ba', 'a', 0, 255, a)}${range('bb', 'b', 0, 255, b)}${range('bn', 'শিফট n', 0, 4, n)}</div>` +
+        `<div class="info">${bitRow('a', a)}${bitRow(`a << ${n}`, (a << n) & 255)}${bitRow(`a >> ${n}`, a >> n)}</div>` +
+        `<div class="info">${bitRow('a', a)}${bitRow('b', b)}${bitRow('a & b', a & b)}${bitRow('a | b', a | b)}${bitRow('a ^ b', a ^ b)}</div>` +
+        `<div class="info">a << ${n} = ${a} × ${2 ** n} = <b>${a * 2 ** n}</b>${a * 2 ** n > 255 ? ' (৮ বিটে না ধরায় উপরের বিট বাদ দেখানো হয়েছে)' : ''} · a >> ${n} = ${a} ÷ ${2 ** n} = <b>${a >> n}</b></div>`;
+      bindRanges(this, [['ba', 'a'], ['bb', 'b'], ['bn', 'n']]);
+    },
+  };
+
+  // ---------- 9. while vs do-while ----------
+  const wSim = {
+    title: 'while বনাম do-while', sub: 'i-এর শুরুর মান টানো — শর্ত শুরুতেই মিথ্যা হলে কোন লুপ কতবার চলে দেখো।',
+    note: 'while: শর্ত আগে (Entry-controlled) — ০ বারও চলতে পারে। do-while: body আগে, শর্ত পরে (Exit-controlled) — কমপক্ষে ১ বার চলবেই; শেষে ; আবশ্যক।',
+    st: { i: 10, lim: 5, brk: 0 },
+    render() {
+      const { i, lim } = this.st;
+      let w = 0; for (let k = i; k < lim && w < 100; k++) w++;
+      let d = 0, k = i; do { d++; k++; } while (k < lim && d < 100);
+      const src = `int i = ${i};\nwhile (i < ${lim})\n{\n    printf("while ran\\n");\n    i++;\n}\ni = ${i};\ndo\n{\n    printf("do-while ran\\n");\n    i++;\n} while (i < ${lim});`;
+      const out = `${'while ran\n'.repeat(Math.min(w, 8))}${w > 8 ? '…\n' : ''}${'do-while ran\n'.repeat(Math.min(d, 8))}${d > 8 ? '…' : ''}`.trim();
+      let bo = '', co = '';
+      for (let j = 0; j < 10; j++) { if (j === 5) break; bo += j + ' '; }
+      for (let j = 0; j < 10; j++) { if (j === 5) continue; co += j + ' '; }
+      $('stage').innerHTML = `<div class="ctl">${range('wi', 'i-এর শুরুর মান', 0, 15, i)}${range('wl', 'শর্ত: i < …', 1, 15, lim)}</div>` + codeOut(src, out || '(কিছুই ছাপা হয়নি)') +
+        trTable(['লুপ', 'শর্ত কখন যাচাই', 'কতবার চলল'], [['while', 'আগে', bn(w)], ['do-while', 'পরে', bn(d)]]) +
+        `<div class="info">${i >= lim ? `<span class="no">শুরুতেই ${i} < ${lim} মিথ্যা</span> → while একবারও চলেনি, do-while ঠিক ১ বার চলেছে।` : 'শর্ত শুরুতে সত্য হলে দুটো লুপ একই সংখ্যক বার চলে।'}` +
+        `<br>break (i == 5): <code>${bo.trim()}</code> — লুপ থেকে বের · continue (i == 5): <code>${co.trim()}</code> — শুধু ৫ বাদ</div>`;
+      bindRanges(this, [['wi', 'i'], ['wl', 'lim']]);
+    },
+  };
+
+  const sims = [loopSim, serSim, tSim, fcSim, lySim, gSim, opSim, bSim, wSim];
+  $('tabs').innerHTML = sims.map((s, i) => `<button data-i="${i}">${bn(i + 1)}. ${s.title}</button>`).join('');
+  $('tabs').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) select(Number(b.dataset.i)); });
+  function select(i) {
+    document.querySelectorAll('#tabs button').forEach((b, j) => b.classList.toggle('on', j === i));
+    const s = sims[i];
+    $('title').textContent = s.title; $('sub').textContent = s.sub; $('note').textContent = s.note;
+    s.render();
+  }
+  select(0);
+})();
+</script>
+</body>
+</html>

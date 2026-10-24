@@ -1,0 +1,529 @@
+{
+ "chapterId": "ict_1st_ch04",
+ "source": "ict_1st_ch04_notes_0001",
+ "updated": "2026-10-24",
+ "note": "Built from the chapter's notes PDF.",
+ "root": {
+  "text": "ওয়েব ডিজাইন পরিচিতি ও HTML",
+  "children": [
+   {
+    "text": "পূর্ণরূপ (Abbreviation)",
+    "hint": "MCQ-তে সরাসরি আসে",
+    "children": [
+     {
+      "text": "HTML",
+      "hint": "Hyper Text Markup Language — ওয়েবপেইজ তৈরির মার্কআপ ভাষা",
+      "id": "n.1.1"
+     },
+     {
+      "text": "URL",
+      "hint": "Uniform Resource Locator — ফাইল/তথ্যের সঠিক ঠিকানা",
+      "id": "n.1.2"
+     },
+     {
+      "text": "WWW",
+      "hint": "World Wide Web — জনক টিম বার্নার্স-লি",
+      "id": "n.1.3"
+     },
+     {
+      "text": "DNS",
+      "hint": "Domain Name System — IP ↔ ডোমেইন নেইম অনুবাদ করে",
+      "id": "n.1.4"
+     },
+     {
+      "text": "HTTP / HTTPS",
+      "hint": "Hyper Text Transfer Protocol (Secure) — client–server তথ্য আদান-প্রদান",
+      "id": "n.1.5"
+     },
+     {
+      "text": "FTP / SMTP",
+      "hint": "File Transfer Protocol (ফাইল) • Simple Mail Transfer Protocol (ই-মেইল)",
+      "id": "n.1.6"
+     },
+     {
+      "text": "CSS / PHP / ASP",
+      "hint": "Cascading Style Sheet • Hypertext Preprocessor • Active Server Pages",
+      "id": "n.1.7"
+     },
+     {
+      "text": "ICANN / ISP",
+      "hint": "Internet Corporation for Assigned Names and Numbers (ডোমেইন নিয়ন্ত্রণ) • Internet Service Provider",
+      "id": "n.1.8"
+     },
+     {
+      "text": "SEO / KPI",
+      "hint": "Search Engine Optimization • Key Performance Indicator",
+      "id": "n.1.9"
+     },
+     {
+      "text": "ছবির ফরম্যাট",
+      "hint": "JPG/JPEG = Joint Photographic Experts Group • PNG = Portable Network Graphics • GIF = Graphics Interchange Format • BMP = Bitmap Image File",
+      "id": "n.1.10"
+     }
+    ],
+    "id": "n.1"
+   },
+   {
+    "text": "ওয়েবের ইতিহাস ও মৌলিক ধারণা",
+    "children": [
+     {
+      "text": "সময়রেখা",
+      "hint": "1989 টিম বার্নার্স-লি WWW-এর ধারণা (CERN) • 1990 প্রথম ব্রাউজার ও HTML • 6 August 1991 প্রথম ওয়েবসাইট • সর্বশেষ HTML5",
+      "id": "n.2.1"
+     },
+     {
+      "text": "টিম বার্নার্স-লি",
+      "hint": "HTML-এর জনক ও WWW-এর জনক",
+      "id": "n.2.2"
+     },
+     {
+      "text": "Hypertext / Hyperlink / Hypermedia",
+      "hint": "লিখিত তথ্য (লিংকসহ) • যে ঠিকানায় Hypertext পাওয়া যায় • ছবি, অডিও, ভিডিও",
+      "id": "n.2.3"
+     },
+     {
+      "text": "ওয়েব ব্রাউজার",
+      "hint": "ওয়েবপেইজ খুঁজে দেখার সফটওয়্যার: Google Chrome, Opera, Mozilla Firefox, Safari, Mosaic, Microsoft Edge",
+      "id": "n.2.4"
+     },
+     {
+      "text": "সার্চ ইঞ্জিন ও ওয়েব সার্ভার",
+      "hint": "Google, Bing, Yahoo, Ask.com • সার্ভার = যেখানে ওয়েবসাইট হোস্ট করা হয়",
+      "id": "n.2.5"
+     },
+     {
+      "text": "ওয়েবপেইজ",
+      "hint": "ইন্টারনেট সার্ভারে রাখা ওয়েব ডকুমেন্ট যা ব্রাউজারে দেখা যায়",
+      "id": "n.2.6"
+     },
+     {
+      "text": "ওয়েবসাইট",
+      "hint": "একই ডোমেইনের অধীনে পরস্পর সম্পর্কযুক্ত ওয়েবপেইজের সমষ্টি",
+      "id": "n.2.7"
+     },
+     {
+      "text": "হোমপেইজ",
+      "hint": "ওয়েবসাইটে ঢুকলে প্রথম যে পেইজ দেখা যায় (Index Page, index.html)",
+      "id": "n.2.8"
+     },
+     {
+      "text": "ওয়েব পোর্টাল",
+      "hint": "গুরুত্বপূর্ণ তথ্য ও লিংক সাজানো বিশেষ ওয়েবপেইজ — bangladesh.gov.bd",
+      "id": "n.2.9"
+     },
+     {
+      "text": "প্রোটোকল",
+      "hint": "কম্পিউটারের মধ্যে ডেটা আদান-প্রদানের নিয়মনীতি — http, https, FTP, SMTP",
+      "id": "n.2.10"
+     }
+    ],
+    "id": "n.2"
+   },
+   {
+    "text": "স্ট্যাটিক বনাম ডাইনামিক",
+    "children": [
+     {
+      "text": "স্ট্যাটিক",
+      "hint": "লোডের পর পরিবর্তন হয় না • HTML, CSS • ব্যক্তিগত সাইট • বেশি নিরাপদ (একমুখী) • দ্রুত লোড • খরচ কম • তৈরি সহজ • ডেটাবেজ সাধারণত থাকে না",
+      "id": "n.3.1"
+     },
+     {
+      "text": "ডাইনামিক",
+      "hint": "ব্যবহারকারী অনুযায়ী পরিবর্তন হয় • PHP, ASP, JAVA • ফেসবুক, Joomla, WordPress • কম নিরাপদ (উভমুখী) • ধীর • ডেটাবেজ থাকে • খরচ বেশি",
+      "id": "n.3.2"
+     },
+     {
+      "text": "সূত্র SFC-SS",
+      "hint": "স্ট্যাটিক = Safe, Fast, Cheap, Simple, Still",
+      "id": "n.3.3"
+     }
+    ],
+    "id": "n.3"
+   },
+   {
+    "text": "ওয়েবসাইটের কাঠামো",
+    "hint": "হোম পেইজ → মূল ধারার পেইজ → উপধারার পেইজ",
+    "children": [
+     {
+      "text": "লিনিয়ার / সিকুয়েন্স",
+      "hint": "নির্দিষ্ট ক্রমানুসারে — Next, Previous, First, Last লিংক (অনলাইন বই)",
+      "id": "n.4.1"
+     },
+     {
+      "text": "হায়ারার্কিক্যাল / ট্রি",
+      "hint": "গাছের মতো শাখা-প্রশাখা; উপর থেকে নিচে (বিশ্ববিদ্যালয় সাইট)",
+      "id": "n.4.2"
+     },
+     {
+      "text": "হাইব্রিড / কম্বিনেশন",
+      "hint": "দুই বা ততোধিক কাঠামোর মিশ্রণ — মেমোরি কম, সৌন্দর্য বৃদ্ধি",
+      "id": "n.4.3"
+     },
+     {
+      "text": "ওয়েবলিংকড / নেটওয়ার্ক",
+      "hint": "সব পেইজ পরস্পর যুক্ত — জটিল, বেশি মেমোরি",
+      "id": "n.4.4"
+     }
+    ],
+    "id": "n.4"
+   },
+   {
+    "text": "ওয়েব ডিজাইনিং",
+    "hint": "ওয়েবসাইটের বাহ্যিক রূপ ও কার্যকারিতা নির্ধারণ",
+    "children": [
+     {
+      "text": "৭ ধাপ",
+      "hint": "পরিকল্পনা → ইনফরমেশন আর্কিটেকচার → ডিজাইন (ওয়্যারফ্রেম) → প্রোগ্রামিং → টেস্টিং → গণযোগাযোগ → সফলতা নিরূপণ (KPI)",
+      "id": "n.5.1"
+     },
+     {
+      "text": "ওয়্যারফ্রেম",
+      "hint": "কাগজে-কলমে আঁকা ডিজাইন — পেজ স্কিম্যাটিক বা স্ক্রিন ব্লুপ্রিন্ট",
+      "id": "n.5.2"
+     },
+     {
+      "text": "৪ মূলনীতি",
+      "hint": "যৌক্তিকতা, সহজবোধ্যতা, সামঞ্জস্যতা, সহজ প্রাপ্যতা",
+      "id": "n.5.3"
+     }
+    ],
+    "id": "n.5"
+   },
+   {
+    "text": "IP, Domain, URL",
+    "children": [
+     {
+      "text": "IP Address",
+      "hint": "IPv4 = 32 bit (4 octet, প্রতিটি 0–255) • IPv6 = 128 bit",
+      "id": "n.6.1"
+     },
+     {
+      "text": "বাইনারি → দশমিক",
+      "hint": "128 64 32 16 8 4 2 1 — যে ঘরে 1 তাদের যোগফল; 00011000.00001111.00011010.00011110 = 24.15.26.30",
+      "id": "n.6.2"
+     },
+     {
+      "text": "Domain Name",
+      "hint": "IP-এর আলফা-নিউমেরিক নাম • নিয়ন্ত্রণকারী ICANN",
+      "id": "n.6.3"
+     },
+     {
+      "text": "ডোমেইনের অংশ",
+      "hint": "টপ লেভেল (.com/.bd) • সেকেন্ড লেভেল (প্রতিষ্ঠানের নাম) • হোস্ট নেইম (www)",
+      "id": "n.6.4"
+     },
+     {
+      "text": "TLD",
+      "hint": ".com বাণিজ্যিক • .net নেটওয়ার্ক • .edu শিক্ষা • .gov সরকারি • .int আন্তর্জাতিক • .mil সামরিক • .org অলাভজনক",
+      "id": "n.6.5"
+     },
+     {
+      "text": "URL-এর ৩ অংশ",
+      "hint": "Protocol • Host Name • Directory Path (File Name)",
+      "id": "n.6.6"
+     },
+     {
+      "text": "HTTP / HTTPS / FTP",
+      "hint": "request–response protocol • নিরাপদ (Secure) HTTP • ফাইল আদান-প্রদান",
+      "id": "n.6.7"
+     }
+    ],
+    "id": "n.6"
+   },
+   {
+    "text": "হোস্টিং ও পাবলিশিং",
+    "children": [
+     {
+      "text": "ওয়েব হোস্টিং",
+      "hint": "ওয়েবের ফাইল সার্ভারে রাখা — সাধারণত ISP দেয়",
+      "id": "n.7.1"
+     },
+     {
+      "text": "উইন্ডোজ বনাম লিনাক্স",
+      "hint": "Windows → ASP + SQL Server • Linux → PHP + MySQL",
+      "id": "n.7.2"
+     },
+     {
+      "text": "সাইট পাবলিশের ৪ ধাপ",
+      "hint": "ডোমেইন নেইম রেজিস্ট্রেশন → ওয়েবপেইজ ডিজাইন → হোস্টিং → সার্চ ইঞ্জিনে যুক্ত করা (SEO)",
+      "id": "n.7.3"
+     },
+     {
+      "text": "ডোমেইন বনাম হোস্টিং",
+      "hint": "ডোমেইন = সাইটের নাম/ঠিকানা • হোস্টিং = ফাইল রাখার জায়গা",
+      "id": "n.7.4"
+     }
+    ],
+    "id": "n.7"
+   },
+   {
+    "text": "HTML পরিচিতি",
+    "hint": "Markup Language — প্রোগ্রামিং ভাষা নয়",
+    "children": [
+     {
+      "text": "মৌলিক তথ্য",
+      "hint": "Text editor (Notepad) দিয়ে লেখা • .html / .htm • case sensitive নয় • ১৯৯০-এ টিম বার্নার্স-লি",
+      "id": "n.8.1"
+     },
+     {
+      "text": "৫ সুবিধা",
+      "hint": "সহজ • সব ব্রাউজার সমর্থন • ফ্রি এডিটর • অডিও-ভিডিও যুক্ত করা যায় • ইউজার ফ্রেন্ডলি",
+      "id": "n.8.2"
+     },
+     {
+      "text": "Tag",
+      "hint": "সাংকেতিক চিহ্ন — angle bracket < > এর ভিতরে keyword; শেষ বোঝাতে /",
+      "id": "n.8.3"
+     },
+     {
+      "text": "Container tag",
+      "hint": "Opening ও Closing দুটোই আছে — <b>, <html>, <p>, <table>",
+      "id": "n.8.4"
+     },
+     {
+      "text": "Empty tag",
+      "hint": "শুধু Opening — BHIM-IL: br, hr, img, meta, input, link",
+      "id": "n.8.5"
+     },
+     {
+      "text": "Element",
+      "hint": "Start tag + Content + Closing tag",
+      "id": "n.8.6"
+     },
+     {
+      "text": "Attribute",
+      "hint": "Name ও Value — সবসময় Opening tag-এর ভিতরে, যেমন align=\"center\"",
+      "id": "n.8.7"
+     }
+    ],
+    "id": "n.8"
+   },
+   {
+    "text": "মৌলিক কাঠামো ও টেক্সট",
+    "children": [
+     {
+      "text": "Basic tag",
+      "hint": "<!DOCTYPE html> • <html> • <head> • <title> (head-এর মাঝে) • <body>",
+      "id": "n.9.1"
+     },
+     {
+      "text": "Head ও Body Section",
+      "hint": "Head: title, style, link, meta — পেইজে দেখা যায় না • Body: ব্রাউজারে যা দেখা যায়",
+      "id": "n.9.2"
+     },
+     {
+      "text": "Paragraph ও Break",
+      "hint": "<p> নতুন অনুচ্ছেদ • <br> নতুন লাইন • একাধিক space/Enter = একটি space",
+      "id": "n.9.3"
+     },
+     {
+      "text": "<pre>",
+      "hint": "Preformatted — যেমন লেখা তেমনই দেখায়",
+      "id": "n.9.4"
+     },
+     {
+      "text": "Heading h1–h6",
+      "hint": "h1 সবচেয়ে বড়, h6 সবচেয়ে ছোট",
+      "id": "n.9.5"
+     },
+     {
+      "text": "Comment",
+      "hint": "<!-- comments --> — ব্রাউজার দেখায় না",
+      "id": "n.9.6"
+     },
+     {
+      "text": "Formatting tag",
+      "hint": "b/strong মোটা • i/em বাঁকা • u/ins আন্ডারলাইন • sub নিচে • sup উপরে • del কাটা • q উদ্ধৃতি",
+      "id": "n.9.7"
+     }
+    ],
+    "id": "n.9"
+   },
+   {
+    "text": "Font, রং ও ব্যাকগ্রাউন্ড",
+    "children": [
+     {
+      "text": "<font>",
+      "hint": "Attribute: face (ফন্ট), size (1–7, ডিফল্ট 3; +n/−n), color",
+      "id": "n.10.1"
+     },
+     {
+      "text": "রং-এর ৩ পদ্ধতি",
+      "hint": "নাম • Hexa code #RRGGBB • rgb(r,g,b)",
+      "id": "n.10.2"
+     },
+     {
+      "text": "Hexa code",
+      "hint": "লাল #FF0000 • সবুজ #008000 (Lime #00FF00) • নীল #0000FF • সাদা #FFFFFF • কালো #000000 • হলুদ #FFFF00 • বেগুনী #800080",
+      "id": "n.10.3"
+     },
+     {
+      "text": "bgcolor",
+      "hint": "<body bgcolor=\"yellow\"> — পেইজের ব্যাকগ্রাউন্ড",
+      "id": "n.10.4"
+     },
+     {
+      "text": "বাংলা লেখা",
+      "hint": "MS Word-এ লিখে font face=\"SutonnyMJ\" ট্যাগের মাঝে পেস্ট",
+      "id": "n.10.5"
+     }
+    ],
+    "id": "n.10"
+   },
+   {
+    "text": "লিস্ট",
+    "children": [
+     {
+      "text": "ol",
+      "hint": "Ordered list — type: 1, a, A, i, I • start সবসময় সংখ্যা (x = 24)",
+      "id": "n.11.1"
+     },
+     {
+      "text": "ul",
+      "hint": "Unordered list — type: disc (ডিফল্ট), circle, square",
+      "id": "n.11.2"
+     },
+     {
+      "text": "li",
+      "hint": "প্রতিটি উপাদান",
+      "id": "n.11.3"
+     },
+     {
+      "text": "dl, dt, dd",
+      "hint": "Definition list — term ও description",
+      "id": "n.11.4"
+     },
+     {
+      "text": "Nested list",
+      "hint": "list-এর ভিতরে sub list — parent <li>-এর ভিতরে",
+      "id": "n.11.5"
+     }
+    ],
+    "id": "n.11"
+   },
+   {
+    "text": "ছবি, অডিও, ভিডিও",
+    "children": [
+     {
+      "text": "<img>",
+      "hint": "Empty tag • src (বাধ্যতামূলক), alt, width, height, border, title",
+      "id": "n.12.1"
+     },
+     {
+      "text": "ফোল্ডারের ছবি",
+      "hint": "src=\"A/B/folder.jpg\" — যত ফোল্ডার তত /",
+      "id": "n.12.2"
+     },
+     {
+      "text": "<audio>",
+      "hint": "MP3, WAV, OGG",
+      "id": "n.12.3"
+     },
+     {
+      "text": "<video>",
+      "hint": "MP4, WebM, OGG",
+      "id": "n.12.4"
+     }
+    ],
+    "id": "n.12"
+   },
+   {
+    "text": "হাইপারলিংক",
+    "hint": "<a href=\"url\">Text</a> — a = anchor",
+    "children": [
+     {
+      "text": "href ও target",
+      "hint": "href বাধ্যতামূলক • target=\"_blank\" নতুন ট্যাবে",
+      "id": "n.13.1"
+     },
+     {
+      "text": "Internal বনাম External",
+      "hint": "একই সার্ভারে, শুধু ফাইলের নাম • ভিন্ন সার্ভারে, Protocol + Host + ফাইল",
+      "id": "n.13.2"
+     },
+     {
+      "text": "ছবিতে লিংক",
+      "hint": "<a href=\"…\"><img src=\"…\"></a>",
+      "id": "n.13.3"
+     }
+    ],
+    "id": "n.13"
+   },
+   {
+    "text": "টেবিল",
+    "hint": "সারি বরাবর কাজ — প্রথমে <tr>, তারপর বাম থেকে ডানে ঘর",
+    "children": [
+     {
+      "text": "Tag",
+      "hint": "table • caption (table-এর ঠিক পরে) • tr সারি • th হেডিং (মোটা, মাঝে) • td ডেটা",
+      "id": "n.14.1"
+     },
+     {
+      "text": "Attribute",
+      "hint": "border • cellspacing • cellpadding • width/height • bgcolor",
+      "id": "n.14.2"
+     },
+     {
+      "text": "rowspan",
+      "hint": "ঘর নিচের দিকে লম্বা — শুধু প্রথম সারিতে লিখবে",
+      "id": "n.14.3"
+     },
+     {
+      "text": "colspan",
+      "hint": "ঘর ডানে চওড়া",
+      "id": "n.14.4"
+     },
+     {
+      "text": "align ও valign",
+      "hint": "align: left/center/right (td ডিফল্ট left) • valign: top/middle/bottom (ডিফল্ট middle)",
+      "id": "n.14.5"
+     },
+     {
+      "text": "bgcolor অগ্রাধিকার",
+      "hint": "td > tr > table",
+      "id": "n.14.6"
+     },
+     {
+      "text": "সারি ↔ কলাম রূপান্তর",
+      "hint": "ডানে → নিচে, নিচে → ডানে; rowspan ↔ colspan অদলবদল",
+      "id": "n.14.7"
+     },
+     {
+      "text": "যাচাই",
+      "hint": "প্রতিটি সারিতে (নিজের ঘর + উপর থেকে আসা rowspan) = মোট কলাম",
+      "id": "n.14.8"
+     }
+    ],
+    "id": "n.14"
+   },
+   {
+    "text": "ফর্ম",
+    "hint": "<form action=\"…\" method=\"get\"> — ফর্মের ভিতর ফর্ম নয়",
+    "children": [
+     {
+      "text": "<textarea>",
+      "hint": "বহু লাইন — rows, cols",
+      "id": "n.15.1"
+     },
+     {
+      "text": "<select>",
+      "hint": "ড্রপ ডাউন/scrolling list — ভিতরে <option value=\"…\">",
+      "id": "n.15.2"
+     },
+     {
+      "text": "<input>",
+      "hint": "Empty tag — type: text, email, password, date, radio, checkbox, submit, reset",
+      "id": "n.15.3"
+     },
+     {
+      "text": "checkbox বনাম radio",
+      "hint": "একাধিক বাছাই → checkbox • একটিমাত্র → radio (একই name) • অপশন বেশি → select",
+      "id": "n.15.4"
+     }
+    ],
+    "id": "n.15"
+   }
+  ],
+  "id": "n"
+ }
+}

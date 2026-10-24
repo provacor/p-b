@@ -1,0 +1,443 @@
+{
+ "chapterId": "ict_1st_ch05",
+ "source": "ict_1st_ch05_notes_0001",
+ "updated": "2026-10-24",
+ "note": "Built from the chapter's notes PDF.",
+ "root": {
+  "text": "প্রোগ্রামিং ভাষা",
+  "children": [
+   {
+    "text": "প্রোগ্রাম ও প্রোগ্রামিং ভাষা",
+    "children": [
+     {
+      "text": "প্রোগ্রাম",
+      "hint": "সমস্যা সমাধানে ধারাবাহিক নির্দেশের সমষ্টি — অপর নাম Software, Application (App)",
+      "id": "n.1.1"
+     },
+     {
+      "text": "প্রোগ্রামিং ভাষা",
+      "hint": "যে ভাষায় Program লেখা হয় — C, C++, C#, Java, Python, Basic, Fortran, Cobol",
+      "id": "n.1.2"
+     },
+     {
+      "text": "A → F → C",
+      "hint": "Algorithm (পরিকল্পনা) → Flowchart (নকশা) → C Coding (নির্মাণ)",
+      "id": "n.1.3"
+     },
+     {
+      "text": "প্রবর্তক",
+      "hint": "Ada Lovelace — Bernoulli Number-এর প্রোগ্রাম",
+      "id": "n.1.4"
+     },
+     {
+      "text": "IPO",
+      "hint": "Input → Process → Output",
+      "id": "n.1.5"
+     }
+    ],
+    "id": "n.1"
+   },
+   {
+    "text": "কোড ও ভাষার স্তর",
+    "children": [
+     {
+      "text": "Source code",
+      "hint": "programming language-এ লেখা — উৎস প্রোগ্রাম",
+      "id": "n.2.1"
+     },
+     {
+      "text": "Object code",
+      "hint": "রূপান্তরের পর 0,1 কোড — বস্তু প্রোগ্রাম",
+      "id": "n.2.2"
+     },
+     {
+      "text": "মেশিন বনাম উচ্চস্তর",
+      "hint": "মেশিন: সরাসরি বোঝে, অনুবাদ লাগে না, কঠিন, ভুল বেশি • উচ্চস্তর: অনুবাদ লাগে, সহজ, ডিবাগ সহজ",
+      "id": "n.2.3"
+     },
+     {
+      "text": "মিড লেভেল",
+      "hint": "নিম্নস্তর ও উচ্চস্তর দুই গুণ — C",
+      "id": "n.2.4"
+     },
+     {
+      "text": "কম্পিউটার সংগঠন",
+      "hint": "Input → CPU (ALU + Control Unit + Memory) → Output",
+      "id": "n.2.5"
+     },
+     {
+      "text": "মেমোরি",
+      "hint": "Volatile: RAM • Non-volatile: ROM, HDD, SSD, DVD, USB",
+      "id": "n.2.6"
+     }
+    ],
+    "id": "n.2"
+   },
+   {
+    "text": "৫ প্রজন্ম",
+    "hint": "মেশিন → অ্যাসেম্বলি → হাই → ভেরি হাই → ন্যাচারাল",
+    "children": [
+     {
+      "text": "1GL (1945–1950)",
+      "hint": "Machine Language — 0 ও 1; দ্রুত, অল্প মেমোরি, যন্ত্র নির্ভর",
+      "id": "n.3.1"
+     },
+     {
+      "text": "2GL (1950–1960)",
+      "hint": "Assembly — নেমোনিক (ADD, SUB, MOV); অনুবাদক Assembler; যন্ত্র নির্ভর",
+      "id": "n.3.2"
+     },
+     {
+      "text": "অ্যাসেম্বলি নির্দেশের ৪ অংশ",
+      "hint": "Label → Op-code → Operand → Comment",
+      "id": "n.3.3"
+     },
+     {
+      "text": "3GL (1960–1970)",
+      "hint": "High Level — Fortran, Basic, Pascal, Cobol, C, C++, Java; যন্ত্র নির্ভর নয়",
+      "id": "n.3.4"
+     },
+     {
+      "text": "4GL (1970–1980)",
+      "hint": "Very High Level — ডেটাবেজ (SQL)",
+      "id": "n.3.5"
+     },
+     {
+      "text": "5GL (1980–বর্তমান)",
+      "hint": "Natural Language — AI: PROLOG, LISP, Mercury",
+      "id": "n.3.6"
+     }
+    ],
+    "id": "n.3"
+   },
+   {
+    "text": "অনুবাদক প্রোগ্রাম",
+    "children": [
+     {
+      "text": "Assembler",
+      "hint": "অ্যাসেম্বলি → মেশিন ভাষা",
+      "id": "n.4.1"
+     },
+     {
+      "text": "Compiler",
+      "hint": "পুরো প্রোগ্রাম একসাথে • Object code • সেকেন্ডারি মেমোরিতে • বড়, বেশি মেমোরি, ধীর ডিবাগিং — C, C++",
+      "id": "n.4.2"
+     },
+     {
+      "text": "Interpreter",
+      "hint": "লাইন-বাই-লাইন • ছোট, কম মেমোরি, ভুল সংশোধন সহজ, প্রতিবার অনুবাদ — Python, BASIC",
+      "id": "n.4.3"
+     }
+    ],
+    "id": "n.4"
+   },
+   {
+    "text": "প্রোগ্রাম তৈরির ৭ ধাপ",
+    "hint": "নির্দিষ্টকরণ → বিশ্লেষণ → ডিজাইন → কোডিং → বাস্তবায়ন → ডকুমেন্টেশন → রক্ষণাবেক্ষণ",
+    "children": [
+     {
+      "text": "প্রোগ্রাম ডিজাইন",
+      "hint": "অ্যালগরিদম ও ফ্লোচার্ট — সবচেয়ে গুরুত্বপূর্ণ ধাপ",
+      "id": "n.5.1"
+     },
+     {
+      "text": "আদর্শ প্রোগ্রাম",
+      "hint": "সহজ, কম মেমোরি, কম সময়, সম্প্রসারণযোগ্য, সহজে ডিবাগ",
+      "id": "n.5.2"
+     },
+     {
+      "text": "ভুল",
+      "hint": "Syntax (কম্পাইল হয় না) • Logical (চলে কিন্তু ভুল ফল) • Data/Runtime",
+      "id": "n.5.3"
+     },
+     {
+      "text": "Bug ও Debugging",
+      "hint": "প্রোগ্রামের ভুল • ভুল খুঁজে সংশোধন",
+      "id": "n.5.4"
+     },
+     {
+      "text": "Dry Run",
+      "hint": "কম্পিউটার ছাড়া হাতে-কলমে নমুনা ডেটা দিয়ে যাচাই",
+      "id": "n.5.5"
+     }
+    ],
+    "id": "n.5"
+   },
+   {
+    "text": "অ্যালগরিদম ও ফ্লোচার্ট",
+    "children": [
+     {
+      "text": "Algorithm",
+      "hint": "ধারাবাহিক নির্দেশের লিখিত রূপ — Start → Input → Process → Output → End",
+      "id": "n.6.1"
+     },
+     {
+      "text": "Flowchart",
+      "hint": "অ্যালগরিদমের চিত্ররূপ — প্রবাহের দিক বোঝা যায়",
+      "id": "n.6.2"
+     },
+     {
+      "text": "প্রতীক",
+      "hint": "ডিম্ব = শুরু/শেষ • সামান্তরিক = Input/Output • আয়ত = Process • হীরা = সিদ্ধান্ত • বৃত্ত = সংযোগ • তীর = প্রবাহ • ষড়ভুজ = লুপ • দুই পাশে দাগযুক্ত আয়ত = সাবরুটিন",
+      "id": "n.6.3"
+     },
+     {
+      "text": "৫ মৌলিক ছাঁচ",
+      "hint": "Sequential • Decision • Looping • Jump/Branching • Subroutine",
+      "id": "n.6.4"
+     }
+    ],
+    "id": "n.6"
+   },
+   {
+    "text": "সমাধানকৃত সমস্যা",
+    "children": [
+     {
+      "text": "সূত্রভিত্তিক",
+      "hint": "ত্রিভুজ ½bh • বৃত্ত 3.14×r×r • যোগফল/গড় • হেরন s=(a+b+c)/2",
+      "id": "n.7.1"
+     },
+     {
+      "text": "তাপমাত্রা",
+      "hint": "C/5 = (F−32)/9 = (K−273)/5 • F = 9*C/5 + 32 • C = 5*(F−32)/9",
+      "id": "n.7.2"
+     },
+     {
+      "text": "সিদ্ধান্ত",
+      "hint": "বৃহত্তম/ক্ষুদ্রতম (> ↔ <) • ধনাত্মক/ঋণাত্মক/শূন্য • জোড়-বিজোড় (N%2) • ছোট/বড় হাতের অক্ষর",
+      "id": "n.7.3"
+     },
+     {
+      "text": "Leap Year",
+      "hint": "(Y%400==0) || (Y%4==0 && Y%100!=0)",
+      "id": "n.7.4"
+     },
+     {
+      "text": "GCD",
+      "hint": "R = L%S; L = S; S = R — যতক্ষণ R ≠ 0",
+      "id": "n.7.5"
+     },
+     {
+      "text": "Factorial",
+      "hint": "S = 1 থেকে শুরু; S = S*K",
+      "id": "n.7.6"
+     },
+     {
+      "text": "লুপ",
+      "hint": "শুরু, শর্ত, কাজ, বাড়াও — ১–১০০ (i=1,i+1) • জোড় (i=2,i+2) • বিজোড় (i=1,i+2)",
+      "id": "n.7.7"
+     },
+     {
+      "text": "সিরিজ-সমষ্টি",
+      "hint": "যোগে S=0, গুণে S=1 • ১ম পদ = শুরু • ২য় − ১ম = step • বর্গ K*K, ঘন K*K*K",
+      "id": "n.7.8"
+     }
+    ],
+    "id": "n.7"
+   },
+   {
+    "text": "C ভাষা",
+    "children": [
+     {
+      "text": "ইতিহাস",
+      "hint": "Dennis Ritchie, 1972, Bell Labs • BCPL → B → C • মিড লেভেল • Compiler",
+      "id": "n.8.1"
+     },
+     {
+      "text": "বৈশিষ্ট্য",
+      "hint": "main() থেকে শুরু • { } • প্রতি লাইনে ; • case sensitive • Portable",
+      "id": "n.8.2"
+     },
+     {
+      "text": "গঠনের ৬ অংশ",
+      "hint": "Documentation → Link → Definition → Global → main() → Subprogram",
+      "id": "n.8.3"
+     },
+     {
+      "text": "হেডার ফাইল",
+      "hint": "stdio.h (printf, scanf) • conio.h • math.h (pow, sqrt, cbrt, fabs, sin, log) • string.h • stdlib.h (abs)",
+      "id": "n.8.4"
+     },
+     {
+      "text": "main-এর রূপ",
+      "hint": "main() • void main() • int main() — return 0;",
+      "id": "n.8.5"
+     }
+    ],
+    "id": "n.8"
+   },
+   {
+    "text": "ডেটা টাইপ, চলক, ধ্রুবক",
+    "children": [
+     {
+      "text": "ডেটা টাইপ",
+      "hint": "char 1 byte %c • int 2 byte (বোর্ড; gcc 4) %d • float 4 byte %f • double 8 byte %lf",
+      "id": "n.9.1"
+     },
+     {
+      "text": "শ্রেণিবিভাগ",
+      "hint": "Built-in (char, int, float, double) • User-defined (structure, union, enum) • Derived (Array, Pointer, Function)",
+      "id": "n.9.2"
+     },
+     {
+      "text": "চলক",
+      "hint": "মান পরিবর্তনশীল — int a = 10;",
+      "id": "n.9.3"
+     },
+     {
+      "text": "ধ্রুবক",
+      "hint": "মান অপরিবর্তিত — #define PI 3.1416 বা const float PI",
+      "id": "n.9.4"
+     },
+     {
+      "text": "নামকরণের নিয়ম",
+      "hint": "অক্ষর/_ দিয়ে শুরু • A-Z a-z 0-9 _ • স্পেস/চিহ্ন/keyword নিষেধ • সর্বোচ্চ ৩১ অক্ষর",
+      "id": "n.9.5"
+     }
+    ],
+    "id": "n.9"
+   },
+   {
+    "text": "ইনপুট-আউটপুট",
+    "children": [
+     {
+      "text": "Format specifier",
+      "hint": "%d int • %f float • %c char • %lf double • %s string",
+      "id": "n.10.1"
+     },
+     {
+      "text": "scanf",
+      "hint": "চলকের আগে & (ঠিকানা) — scanf(\"%d\", &a);",
+      "id": "n.10.2"
+     },
+     {
+      "text": "printf",
+      "hint": "& লাগে না — printf(\"%d\", a); • %.2f দুই দশমিক",
+      "id": "n.10.3"
+     },
+     {
+      "text": "Escape sequence",
+      "hint": "\\n নতুন লাইন • \\t ট্যাব • \\\" কোটেশন • \\\\ ব্যাকস্ল্যাশ • \\0 null",
+      "id": "n.10.4"
+     },
+     {
+      "text": "Comment",
+      "hint": "// এক লাইন • /* … */ বহু লাইন",
+      "id": "n.10.5"
+     }
+    ],
+    "id": "n.10"
+   },
+   {
+    "text": "অপারেটর",
+    "hint": "Sum = a + b — + অপারেটর, a, b অপারেন্ড",
+    "children": [
+     {
+      "text": "প্রকার",
+      "hint": "Arithmetic + − * / % • Relational < <= > >= == != • Logical && || ! • Assignment = += −= • ++ −− • Bitwise & | ^ ~ << >>",
+      "id": "n.11.1"
+     },
+     {
+      "text": "Unary/Binary/Ternary",
+      "hint": "১টি / ২টি / ৩টি operand — (a>b) ? a : b",
+      "id": "n.11.2"
+     },
+     {
+      "text": "ভাগ",
+      "hint": "int/int = int: 17/5 = 3 • 17%5 = 2 • দশমিক চাইলে 3.0",
+      "id": "n.11.3"
+     },
+     {
+      "text": "i++ বনাম ++i",
+      "hint": "Post: আগে ব্যবহার পরে বাড়ে • Pre: আগে বাড়ে",
+      "id": "n.11.4"
+     },
+     {
+      "text": "শিফট",
+      "hint": "<<n = ×2ⁿ • >>n = ÷2ⁿ",
+      "id": "n.11.5"
+     },
+     {
+      "text": "গাণিতিক → C",
+      "hint": "× → * • aᵐ → pow(a,m) • √x → sqrt(x) • = তুলনা → ==",
+      "id": "n.11.6"
+     }
+    ],
+    "id": "n.11"
+   },
+   {
+    "text": "শর্ত ও লুপ",
+    "children": [
+     {
+      "text": "if / if-else",
+      "hint": "শর্ত সত্য হলে এক কাজ, মিথ্যা হলে অন্য",
+      "id": "n.12.1"
+     },
+     {
+      "text": "else-if ladder",
+      "hint": "ধারাবাহিক বহু শর্ত — গ্রেড: 80 A+, 70 A, 60 A-, 50 B, 40 C, 33 D, নইলে F",
+      "id": "n.12.2"
+     },
+     {
+      "text": "switch",
+      "hint": "int/char চলকের নির্দিষ্ট মান • প্রতি case-এ break, নইলে fall-through",
+      "id": "n.12.3"
+     },
+     {
+      "text": "while",
+      "hint": "শর্ত আগে — ০ বার চলতে পারে (Entry-controlled)",
+      "id": "n.12.4"
+     },
+     {
+      "text": "do-while",
+      "hint": "body আগে — কমপক্ষে ১ বার; শেষে ;",
+      "id": "n.12.5"
+     },
+     {
+      "text": "for",
+      "hint": "for(init; condition; update) — ঠিক ২টি সেমিকোলন",
+      "id": "n.12.6"
+     },
+     {
+      "text": "break বনাম continue",
+      "hint": "break = লুপ থেকে বের • continue = এই ধাপ বাদ",
+      "id": "n.12.7"
+     },
+     {
+      "text": "Infinite loop",
+      "hint": "শর্ত সবসময় সত্য — while(1), for(;;)",
+      "id": "n.12.8"
+     }
+    ],
+    "id": "n.12"
+   },
+   {
+    "text": "ফাংশন, অ্যারে, স্ট্রিং",
+    "children": [
+     {
+      "text": "Function",
+      "hint": "Library (printf, sqrt) • User-defined • void = কিছু ফেরত দেয় না",
+      "id": "n.13.1"
+     },
+     {
+      "text": "Array",
+      "hint": "একই ধরনের ডেটার সংগ্রহ — int A[10] → index 0–9",
+      "id": "n.13.2"
+     },
+     {
+      "text": "2D Array",
+      "hint": "int matrix[2][3] → ২ সারি × ৩ কলাম",
+      "id": "n.13.3"
+     },
+     {
+      "text": "String",
+      "hint": "char-এর Array — শেষে \\0, %s",
+      "id": "n.13.4"
+     }
+    ],
+    "id": "n.13"
+   }
+  ],
+  "id": "n"
+ }
+}
