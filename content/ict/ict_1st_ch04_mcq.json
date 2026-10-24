@@ -1,0 +1,2700 @@
+{
+ "sectionId": "ict_1st_ch04_mcq",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "ict_1st_ch04_mcq_0001",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "Webpage কি?",
+   "options": [
+    "ওয়েব ডকুমেন্ট",
+    "সফটওয়্যার",
+    "অ্যাপ্লিকেশন",
+    "ইন্টারনেট"
+   ],
+   "correctAnswer": "0",
+   "explanation": "ওয়েব পেইজ হলো একধরনের ওয়েব ডকুমেন্ট। ওয়েবপেইজে লেখা, অডিও, ভিডিও, স্থির ছবি, এনিমেশন ইত্যাদি থাকতে পারে। ওয়েবসাইটের একদম প্রথম পৃষ্ঠাকে হোম পেইজ বলে।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0002",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "টিম বার্নার্স লি-র সাথে সম্পর্কযুক্ত-\ni. www ও MIT এর অধ্যাপক\nii. Google এর জনক ও তড়িৎ প্রকৌশল\niii. HTML ও জেনেভার সার্ন\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "1",
+   "explanation": "MIT এর অধ্যাপক টিম বার্নার্স লি ওয়েবসাইট নিয়ে প্রথম চিন্তাভাবনা করেন। সুইজারল্যান্ডের CERN এ কাজ করার সময় তিনি ১৯৯০ সালে সর্বপ্রথম HTML আবিষ্কার করেন।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0003",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "www কে ইন্টারনেটের কি বলা হয়?",
+   "options": [
+    "রিজার্ভেশন সিস্টেম",
+    "বুলেটিন বোর্ড",
+    "বুদ্ধিমত্তা",
+    "সৃজনশীল"
+   ],
+   "correctAnswer": "1",
+   "explanation": "www (World Wide Web) হলো পৃথিবীর বিভিন্ন দেশের সার্ভারে রাখা পরস্পর সংযোগযোগ্য ডকুমেন্টের সাধারণ নাম।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0004",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "ওয়েবসাইট নিয়ে প্রথম কে চিন্তাভাবনা করেন?",
+   "options": [
+    "মার্শাল ম্যাকলুহান",
+    "ডি মরগ্যান",
+    "টিম বার্নাস লি",
+    "লেডি অ্যাডা"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0005",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "হোমপেজ দেখার জন্য আবশ্যক-\ni. ওয়েব ব্রাউজার\nii. সার্চ ইঞ্জিন\niii. ইন্টারনেট\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0006",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "HTTP-এর পূর্ণরূপ কী?",
+   "options": [
+    "Higher Text Transfer Protocol",
+    "Hyper Text Transfer Protocol",
+    "Higher Transfer Text Protocol",
+    "Hyper Transfer Text Protocol"
+   ],
+   "correctAnswer": "1",
+   "explanation": "HTTP – Hyper Text Transfer Protocol; ISP – Internet Service Provider; DNS – Domain Name System; CSS – Cascading Style Sheets; URL – Universal Resource Locator; FTP – File Transfer Protocol; SMTP – Simple Mail Transfer Protocol; SEO – Search Engine Optimization; TLD – Top Level Domain; FAQ – Frequently Asked Questions"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0007",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "ইন্টারনেট সংযোগের ক্ষেত্রে সবচেয়ে গুরুত্বপূর্ণ হলো:",
+   "options": [
+    "IP Address",
+    "Domain Name",
+    "Browser",
+    "Search Engine"
+   ],
+   "correctAnswer": "0",
+   "explanation": "আইপি অ্যাড্রেস- ইন্টারনেটে যুক্ত প্রতিটি কম্পিউটারের ইউনিক বা অদ্বিতীয় ঠিকানা। একটি আইপি অ্যাড্রেসকে প্রকাশের জন্য মোট ৩২টি বিটের প্রয়োজন।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0008",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "আইপি এড্রেস (IPV4) কত বিটের?",
+   "options": [
+    "৮",
+    "৩২",
+    "৬৪",
+    "১২৮"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0009",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "একটি আইপি অ্যাড্রেসকে প্রকাশের জন্য মোট কয়টি অকটেড প্রয়োজন?",
+   "options": [
+    "২",
+    "৪",
+    "৮",
+    "৩২"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0010",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "কোনটির ক্ষেত্রে ডোমেইন নেম ব্যবহার করা হয়?",
+   "options": [
+    "ওয়েবসাইট",
+    "সার্ভার",
+    "ওয়েব ফাইল",
+    "ফোল্ডার"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0011",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "ডোমেইন নাম হলো:",
+   "options": [
+    "ওয়েবসাইটের একটি স্বতন্ত্র নাম",
+    "সার্ভারের নাম",
+    "ওয়েব ফাইলের নাম",
+    "ফোল্ডারের নাম"
+   ],
+   "correctAnswer": "0",
+   "explanation": "আইপি অ্যাড্রেসের alphabetic ফরমেটকে ডোমেইন নেম বলা হয় যা একটি ওয়েবসাইটের স্বতন্ত্র নাম।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0012",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "CERN কোথায় অবস্থিত?",
+   "options": [
+    "ইতালি",
+    "আমেরিকা",
+    "ইংল্যান্ড",
+    "সুইজারল্যান্ড"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0013",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "সারা বিশ্বের সকল আইপি এড্রেস ও ডোমেইন নেম নিয়ন্ত্রণ করে কোন প্রতিষ্ঠান?",
+   "options": [
+    "MICROSOFT",
+    "ICANN",
+    "GOOGLE",
+    "YAHOO"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0014",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "টপ লেভেল ডোমেইন নেম হলো:\ni. .com\nii. .edu\niii. .org\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "3",
+   "explanation": ".com কর্মাশিয়াল • .gov সরকারি • .mil মিলিটারি • .net নেটওয়ার্ক সার্ভিস • .org অর্গানাইজেশন • .int আন্তর্জাতিক সংস্থা"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0015",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "শিক্ষা প্রতিষ্ঠানে ব্যবহৃত টপ লেভেল ডোমেইনের নাম কি?",
+   "options": [
+    ".gov",
+    ".com",
+    ".edu",
+    "org"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0016",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "কামাল একজন ওয়েব ডেভেলপার। সে ক্লায়েন্টের জন্য www.allnews.com ওয়েবসাইট তৈরি করেন। ওয়েব সাইটটি ব্যবহার করে দেশ-বিদেশের খবর জানা যায়।\nউদ্দীপকের তৈরিকৃত ওয়েব সাইটটি কোন প্রকৃতির প্রতিষ্ঠান?",
+   "options": [
+    "শিক্ষা",
+    "বাণিজ্যিক",
+    "সরকারি",
+    "আন্তর্জাতিক"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0017",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "কামালের তৈরিকৃত www.allnews.com ওয়েব সাইটটি ভিজিটের জন্য কোন ধরনের প্রটোকল ব্যবহৃত হয়?",
+   "options": [
+    "SMTP",
+    "VOIP",
+    "FTP",
+    "HTTP"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0018",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "E-mail ঠিকানার ডোমেইন নামের সর্বশেষ অংশ TLD এর পূর্ণরূপ হলো:",
+   "options": [
+    "Top Link Domain",
+    "Top Link Desh",
+    "Top Level Domain",
+    "Top Level Desh"
+   ],
+   "correctAnswer": "2",
+   "explanation": "http://www.hyz.com.bd/home/index.html — http প্রোটোকল, hyz ডোমেইন নেম, .com টপলেভেল ডোমেইন, .bd কান্ট্রিকোড, /home ডিরেক্টরি পাথ, index.html ফাইল ও এক্সটেনশন"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0019",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "http://www.moedu.gov/home/tag এখানে টপ ডোমেইন কোনটি?",
+   "options": [
+    "www.moedu.gov",
+    "www",
+    "www.moedu",
+    "gov"
+   ],
+   "correctAnswer": "3",
+   "explanation": "ডোমেইন নেমের ডট এর পরে অংশকে টপ ডোমেইন বলা হয়।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0020",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "http://www.yahoo.com এর সর্বশেষ অংশটির নাম কী?",
+   "options": [
+    "প্রোটোকল",
+    "ডোমেইন নেইম",
+    "ফাইল প্রকৃতি",
+    "ডোমেইন প্রকৃতি"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0021",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "URL এর অংশগুলো হলো:\ni. প্রোটকল নেম\nii. হোস্ট নেম\niii. ডাইরেক্টরি নেম\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "3",
+   "explanation": "URL এর অংশসমূহ: প্রোটোকল, হোস্ট নেম, ডাইরেক্টরি নেম, ফাইল এবং এক্সটেনশন।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0022",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "ওয়েব সাইটের একক ঠিকানা-",
+   "options": [
+    "IP Address",
+    "URL",
+    "HTTP",
+    "HTML"
+   ],
+   "correctAnswer": "1",
+   "explanation": "কোনো ওয়েবপেজকে প্রদর্শন করতে ওয়েব ব্রাউজারে এ ঠিকানা নির্দিষ্ট করে দিতে হবে। URL হলে ওয়েবসাইটের একক অ্যাড্রেস বা ঠিকানা।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0023",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "URL দ্বারা কোনটি প্রকাশ করা হয়?",
+   "options": [
+    "ইন্টারনেট",
+    "ডোমেইন নেম",
+    "ইয়াহু",
+    "গুগল"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0024",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "একটি ওয়েবসাইটের অংশ হলো:\ni. সার্ভার\nii. ক্লায়েন্ট\niii. ডকুমেন্ট\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "0",
+   "explanation": "একটি ওয়েবসাইটের দুইটি অংশ থাকে, i. সার্ভার, ii. ক্লায়েন্ট"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0025",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "ওয়েব ক্লায়েন্ট ব্যবহারকারীর কাছ থেকে ইনপুট নিয়ে ওয়েব সার্ভারে পাঠানোকে বলে-",
+   "options": [
+    "আপলোড",
+    "রিকোয়েস্ট",
+    "ব্রাউজ",
+    "রেসপন্স"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0026",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "নিচের কোন সফটওয়্যারের মাধ্যমে বিভিন্ন ওয়েবসাইট দেখা যায়?",
+   "options": [
+    "ওয়ার্ড প্রসেসর",
+    "ওয়েব ব্রাউজার",
+    "সার্চ ইঞ্জিন",
+    "ডেটাবেজ সফটওয়্যার"
+   ],
+   "correctAnswer": "1",
+   "explanation": "ওয়েব ব্রাউজার হলো ওয়ার্ল্ড ওয়াইড ওয়েব রিসোর্স থেকে তথ্য খুঁজে বের করা, এক্সেস করা এবং উপস্থাপন করার একটি অ্যাপ্লিকেশন সফটওয়্যার। যেমন: গুগল ক্রম, সাফারি, মাইক্রোসফট এজ, অপেরা, মজিলা ফায়ারফক্স, ইন্টারনেট এক্সপ্লোরার।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0027",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "নিচের কোনটি ওয়েব ব্রাউজার?",
+   "options": [
+    "Imo",
+    "Opera",
+    "Viber",
+    "Google"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0028",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "Google.com কী?",
+   "options": [
+    "Browser",
+    "Search engine",
+    "Protocol",
+    "E-mail address"
+   ],
+   "correctAnswer": "1",
+   "explanation": "সার্চ ইঞ্জিন: Google, Yahoo, Ahavista, Bing। Pipilika হলো বাংলাদেশে তৈরিকৃত প্রথম সার্চ ইঞ্জিন।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0029",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "নিচের কোনটি সার্চ ইঞ্জিন?",
+   "options": [
+    "Twitter",
+    "YouTube",
+    "Pipilika",
+    "Wilipedia"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0030",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "ওয়েব অ্যাপ্লিকেশনের উদাহরণ হলো:\ni. google.com\nii. facebook.com\niii. yahoo.com\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0031",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "গ্রাফিক্স ডিজাইন সফটওয়্যার হলো:",
+   "options": [
+    "CSS",
+    "Code : Blocks",
+    "Gimp",
+    "Oracle"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0032",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "স্ট্যাটিক ওয়েব পেইজ তৈরিতে প্রয়োজন-\ni. HTML\nii. PHP\niii. CSS\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "1",
+   "explanation": "স্ট্যাটিক ওয়েবসাইট তৈরির ভাষা: HTML এবং CSS। স্ট্যাটিক ওয়েব পেইজের ফাইলের নামের বর্ধিতাংশ 'htm' অথবা 'html'।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0033",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "স্ট্যাটিক ওয়েবসাইটের বৈশিষ্ট্য কোনটি?",
+   "options": [
+    "ওয়েবপেইজগুলোতে কন্টেন্ট অনির্দিষ্ট থাকে",
+    "ব্রাউজারে দ্রুত লোড হয়",
+    "ডেটাবেজ ব্যবহার করা যায়",
+    "ইনপুট দেওয়ার ব্যবস্থা থাকে"
+   ],
+   "correctAnswer": "1",
+   "explanation": "স্ট্যাটিক ওয়েবসাইটের বৈশিষ্ট্য হলো: কনটেন্ট নির্দিষ্ট, রান টাইমে আপডেট হয় না, দ্রুত লোডিং হয়, ডেটাবেজ সংযোগ থাকে না, বেশি নিরাপদ, উন্নয়ন ও নিয়ন্ত্রণ সহজ, HTML এবং CSS ভাষা ব্যবহৃত হয়, খরচ কম।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0034",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "ডায়নামিক ওয়েব পেজের সাথে যুক্ত কোনটি?",
+   "options": [
+    "ASP, PHP, JSP",
+    "ASP, PHP, C++",
+    "ASP, PHP, LISP",
+    "ASP, JSP, CLISP"
+   ],
+   "correctAnswer": "0",
+   "explanation": "ডায়নামিক ওয়েবসাইটের বৈশিষ্ট্য হলো: কনটেন্ট পরিবর্তনশীল, রান টাইমে আপডেট হয়, ইনপুট নেওয়া যায়, ধীরে লোডিং হয়, ডেটাবেজ সংযোগ থাকে, উন্নয়ন ও নিয়ন্ত্রণ জটিল, ASP, PHP, JSP ভাষা ব্যবহৃত হয়, খরচ বেশি।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0035",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "ওয়েবসাইটকে আকর্ষণীয় ও সুন্দরভাবে উপস্থাপন করার জন্য নিচের কোনটি ব্যবহার করা হয়?",
+   "options": [
+    "HTML",
+    "Tag",
+    "CSS",
+    "SQL"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0036",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "ওয়েবসাইটের ক্লায়েন্ট অংশে প্রোগ্রামিং করার জন্য সবচেয়ে জনপ্রিয় ভাষা কোনটি?",
+   "options": [
+    "HTML",
+    "CSS",
+    "PHP",
+    "Java Script"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0037",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "ব্যাক-এন্ড ডেভেলপমেন্টে ব্যবহার করা হয়-\ni. সিএসএস\nii. প্রোগ্রামিং ভাষা\niii. সফটওয়্যার\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "3",
+   "explanation": "ডেটাবেজ তৈরি ও সার্ভার-সাইড স্ক্রিপ্টিং ভাষা ব্যবহার করে ডেটাবেজের সাথে কানেকশন করে একটি পূর্ণাঙ্গ ওয়েবসাইট তৈরি করা হয়, একে ওয়েবসাইটের Back-end development বলা হয়। ডিজাইন দেখে HTML ব্যবহার করে ওয়েবপেইজের মূলকাঠামো তৈরি এবং CSS ব্যবহার করে পেইজগুলোর স্টাইলিং নির্ধারণ করা হয়, একে ওয়েবসাইটের Front-end development বলা হয়।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0038",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "তমালের তৈরিকৃত ওয়েবপেজটি লোডিং করার পরও ডেটার মান পরিবর্তন করতে পারছে না। এ সমস্যা সমাধানের জন্য তার শিক্ষক তাকে কয়েকটি ভাষা ব্যবহার করার পরামর্শ দিলেন।\nতমালের তৈরিকৃত ওয়েবপেজটি কোন ধরনের?",
+   "options": [
+    "ডায়নামিক ওয়েবপেজ",
+    "স্ট্যাটিক ওয়েবপেজ",
+    "লোকাল ওয়েবপেজ",
+    "রিমোট ওয়েবপেজ"
+   ],
+   "correctAnswer": "1",
+   "explanation": "এই সমস্যা সমাধানের জন্য ওয়েবপেজকে ডায়নামিকে পরিণত করতে হবে যেহেতু ডায়নামিক ওয়েবসাইটে ডেটার মান লোডিং এর পর পরিবর্তন করা যায়।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0039",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "তমালের ওয়েবপেজের সমস্যা সমাধানের জন্য উপযোগী ভাষা হলো-\ni. ASP\nii. PHP\niii. JSP\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0040",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "দৃশ্যকল্প-১: রুমি কলেজে ভর্তির আবেদনের জন্য একটি সাইবার ক্যাফেতে গিয়ে একটি ইলেকট্রনিক ফরম পূরণ করে। সেখানে বসেই সে তার মোবাইলে পূরণকৃত ফরমের আলোকে নির্দেশনামূলক একটি মেসেজ পায়।\nদৃশ্যকল্প-১ এ তথ্য প্রযুক্তির কোন সেবাটি গ্রহণ করা হয়েছে?",
+   "options": [
+    "ওয়েব হোস্টিং",
+    "ওয়েব সাইট",
+    "ই-কমার্স",
+    "ইলেকট্রনিক মেইলিং"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0041",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "দৃশ্যকল্প-২: <html> <body> Cricket board </body> </html>\nদৃশ্যকল্প-২ এর জন্য ব্যবহৃত হতে পারে-\ni. HTML সিনট্যাক্স\nii. PHP টেক্স এডিটর\niii. CSS ব্রাউজার সফটওয়্যার\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0042",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "ওয়েব পেইজে কত ধরনের বিন্যাস ব্যবহৃত হয়?",
+   "options": [
+    "৩",
+    "৪",
+    "৫",
+    "৬"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0043",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "কোন ওয়েব সাইট কাঠামোতে যে কোনো পেইজ থেকে সরাসরি হোম পেইজে যাওয়া যায়?",
+   "options": [
+    "Hierarchical",
+    "Network",
+    "Linear",
+    "Combination"
+   ],
+   "correctAnswer": "1",
+   "explanation": "নেটওয়ার্ক কাঠামোতে প্রত্যেক পেইজের সাথে একে অপরের লিংক থাকে। এতে অতিরিক্ত মেমোরি স্পেস প্রয়োজন হয়। সাধারণত বড় ধরনের ওয়েবসাইট তৈরিতে এ কাঠামো বেশ জনপ্রিয় এবং কার্যকর।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0044",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "ওয়েবসাইটের হায়ারারর্কিক্যাল কাঠামো কী?",
+   "options": [
+    "হোমপেজ নির্ভর ওয়েবসাইট",
+    "প্রতি পেজের সাথে লিঙ্কড",
+    "ওয়েবভিত্তিক যোগাযোগ",
+    "দুটি পেজের মধ্যে লিঙ্কড"
+   ],
+   "correctAnswer": "0",
+   "explanation": "হায়ারারর্কিক্যাল ওয়েবসাইটের পেজগুলো বহুস্তরে বিন্যস্ত এবং শাখা-প্রশাখায় অনুক্রমিকভাবে সাজানো থাকে। তথ্য উপস্থাপনে এটি সবচেয়ে সহজ ও উত্তম তাই এটি সবচেয়ে জনপ্রিয়।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0045",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "দিদার ও তার বন্ধুরা মিলে একটি ওয়েবসাইট তৈরি করল, যেখানে ওয়েব পেইজসমূহ বহুস্তরে বিন্যস্ত। পরবর্তীতে ওয়েবসাইটটিকে ইন্টারনেটে প্রদর্শনের জন্য প্রয়োজনীয় পদক্ষেপ গ্রহণ করল।\nওয়েবসাইটটির স্ট্রাকচার কোনটি?",
+   "options": [
+    "লিনিয়ার",
+    "হায়ারারর্কিক্যাল",
+    "হাইব্রিড",
+    "নেটওয়ার্ক"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0046",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "Page-1 → Page-2 → Page-3 → Page-4 → Page-5\nউদ্দীপকের চিত্রটি ওয়েবসাইটের কোন কাঠামোর সাথে মিল রয়েছে?",
+   "options": [
+    "হায়ারারর্কিক্যাল",
+    "ওয়েব লিংকড",
+    "লিনিয়ার",
+    "হাইব্রিড"
+   ],
+   "correctAnswer": "2",
+   "explanation": "লিনিয়ার হচ্ছে সবচেয়ে সরলতম স্ট্রাকচার। এ ধরনের পেইজগুলোতে সাধারণত Next, Previous, Last, First ইত্যাদি লিংক দিয়ে প্রতিটি পেইজ পরপর সাজানো হয়।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0047",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "Page-1 → Page-2 → Page-3 → Page-4 → Page-5 কাঠামোতে Page-4 ও Page-5 কে Page-2 এর সাথে যুক্ত করলে-\ni. ওয়েবসাইটের কাঠামো পরিবর্তিত হবে\nii. নতুন করে HTML কোড লিখতে হবে\niii. মেমোরি স্পেস কম লাগবে\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "0",
+   "explanation": "হাইব্রিড কাঠামোতে অনেক দিক থেকে লিংক করা থাকে, ফলে তথ্য খুঁজে পেতে সহজ হয়। ওয়েবসাইটের সৌন্দর্য বৃদ্ধি করে। মেমোরি স্পেস কম লাগে।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0048",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "ওয়েবসাইট পাবলিশিং-এ গৃহীত পদক্ষেপসমূহ হচ্ছে-\ni. ডোমেন নেইম রেজিস্ট্রেশন করা\nii. ওয়েব পেজ ডিজাইন করা\niii. ওয়েবসাইট হোস্টিং করা\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "3",
+   "explanation": "ওয়েবসাইট পাবলিশিং-এ ধাপগুলো হলো: ১. সাইট ডিজাইন এবং ডেভেলপমেন্ট ২. ডোমেইন নেম নিবন্ধন করা ৩. ওয়েব হোস্টিং (ওয়েব সার্ভারে আপলোড করা) ৪. ওয়েবসাইটটিকে সার্চ ইঞ্জিনে তালিকাভুক্তকরণ (এটি অপশনাল ধাপ)"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0049",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "ওয়েবপেইজ ডিজাইন কোনটি?",
+   "options": [
+    "ওয়েবসার্ভারে তথ্য রাখা",
+    "HTML ডকুমেন্ট তৈরি",
+    "বিশ্বব্যাপী নেটওয়ার্ক",
+    "ডোমেইন রেজিস্ট্রেশন"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0050",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "হাসিব অনেক সময় নিয়ে একটি মাদ্রাসার ওয়েবসাইট তৈরি করলেন। ওয়েবসাইটটিতে মাদ্রাসার যাবতীয় তথ্য বিন্যস্ত করে ছবির জন্য 'নতুন অ্যালবাম' নামে একটি পেইজ বানালেন। হাসিবের কাজকে কী বলা হয়?",
+   "options": [
+    "ওয়েব ডিজাইনিং",
+    "ওয়েব হোস্টিং",
+    "ওয়েব লিংকিং",
+    "ওয়েব পাবলিশিং"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0051",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "একটি ওয়েবসাইটকে পাবলিশ করার জন্য ওয়েব সার্ভারে ওয়েবসাইটটি আপলোড করার পদ্ধতিকে কী বলা হয়?",
+   "options": [
+    "ডোমেইন",
+    "হোস্টিং",
+    "আইপি অ্যাড্রেস",
+    "প্রোটোকল"
+   ],
+   "correctAnswer": "1",
+   "explanation": "ডোমেইন: আইপি অ্যাড্রেসকে সহজে ব্যবহারযোগ্য করার জন্য ক্যারেক্টার ফর্মে দেওয়া কম্পিউটারের নাম। প্রোটোকল: কম্পিউটার থেকে কম্পিউটারে যোগাযোগের নির্দিষ্ট নিয়মনীতি।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0052",
+   "kind": null,
+   "topic": "ওয়েবসাইটের ধারণা",
+   "question": "ওয়েবসাইট পাবলিশ করার জন্য এমন একটি সার্ভার কম্পিউটার রাখতে হবে যা-\ni. সর্বক্ষণ সচল থাকতে হয়\nii. সার্বক্ষণিক ইন্টারনেটের সাথে যুক্ত থাকতে হয়\niii. পাবলিক আইপি অ্যাড্রেস থাকতে হয়\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0053",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "HTML-এর উদ্ভাবক হলেন-",
+   "options": [
+    "টিম বার্নার্স লি",
+    "স্টিভ জবস",
+    "মার্ক জুকারবার্গ",
+    "বিল গেটস"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0054",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "গ্রাফিক্স ডিজাইন সফটওয়্যার হলো:\ni. মাই এসকিউএল\nii. অ্যাডোবি ইলাস্ট্রেটর\niii. গিম্প\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0055",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "HTML ভাষাকে সার্বজনীন মার্কাপ ভাষা বলার কারণ-\ni. এটি স্ক্রিপ্টিং ভাষা\nii. এটি সকল ব্রাউজার সাপোর্টেড\niii. এটি প্লাটফর্ম স্বনির্ভর ভাষা\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "2",
+   "explanation": "HTML-হচ্ছে সার্বজনীন মার্কাপ ভাষা, প্লেইন টেক্সট বিধায় ভাষা শেখা ও ফরমেটিং করা সহজ। সব ধরনের ব্রাউজারে সমর্থন করে। ইউজার ফ্রেন্ডলি। রক্ষণাবেক্ষণ ও আপডেট করা সহজ। ওয়েবপেইজকে লোড করতে কম সময় লাগে।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0056",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "HTML-হচ্ছে-\ni. শেখা সহজ\nii. কেস সেনসিটিভ\niii. রক্ষণাবেক্ষণ সহজ\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0057",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "ওয়েবপেজ তৈরিতে কোন ভাষা ব্যবহৃত হয়?",
+   "options": [
+    "PYTHON",
+    "HTML",
+    "COBOL",
+    "FORTRAN"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0058",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "হাইপার মিডিয়ার উপাদান হলো:\ni. টেক্সট\nii. অডিও\niii. ভিডিও\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "2",
+   "explanation": "হাইপার মিডিয়া হলো একটি কম্পিউটার অ্যাপ্লিকেশন বা সিস্টেম, যেখানে টেক্সট, ছবি, অডিও, ভিডিও এবং অন্যান্য ডিজিটাল মিডিয়া ফাইলকে একত্রে সংযুক্ত করা হয়।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0059",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "HTML ফাইল এডিট করার জন্য ব্যবহৃত টেক্সট এডিটর হলো:\ni. নোটপ্যাড ++\nii. সাবলাইম টেক্সট\niii. নোটপ্যাড\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "3",
+   "explanation": "জনপ্রিয় কয়েকটি HTML এডিটর হলো- নোটপ্যাড (Notepad), নোটপ্যাড++ (Notepad++), সাবলাইম টেক্সট (Sublime Text), এটম (Atom) ইত্যাদি।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0060",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "<!DOCTYPE html> দ্বারা নিচের কোনটি বুঝতে পারে ডকুমেন্টটি HTML 5 স্ট্যান্ডার্ড অনুসরণ করে লেখা হয়েছে?",
+   "options": [
+    "সার্চ ইঞ্জিন",
+    "html ফাইল",
+    "ব্রাউজার",
+    "নোটপ্যাড"
+   ],
+   "correctAnswer": "2",
+   "explanation": "HTML-এ ডকুমেন্ট টাইপ ডিক্লারেশনের জন্য <!DOCTYPE html> ব্যবহার করা হয়। এর দ্বারা ব্রাউজার বুঝতে পারে যে ডকুমেন্টটি HTML 5 স্ট্যান্ডার্ড অনুসরণ করে লেখা হয়েছে। এটি HTML ডকুমেন্টের অংশ নয় কিন্তু লেখা জরুরি।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0061",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "html এর ওয়েবপেইজ তৈরির জন্য ফাইলের এক্সটেনশন হলো:\ni. .html\nii. .txt\niii. .htm\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "1",
+   "explanation": "html ফাইল এক্সটেনশন→ .html, .htm"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0062",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "HTML পেইজের উপাদানগুলোকে কী বলা হয়?",
+   "options": [
+    "HTML Attribute",
+    "HTML Element",
+    "HTML Tag",
+    "File Extension"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0063",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "HTML এর এলিমেন্ট লেখার জন্য কী ব্যবহার করা হয়?",
+   "options": [
+    "অ্যাট্রিবিউট",
+    "হাইপারলিংক",
+    "হেডিং",
+    "ট্যাগ"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0064",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "HTML প্রোগ্রাম লিখতে কী ব্যবহার বাধ্যতামূলক?",
+   "options": [
+    "HTML ট্যাগ",
+    "HTML text",
+    "Only attribute",
+    "Extension Name"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0065",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "ওপেনিং ট্যাগ থেকে ক্লোজিং ট্যাগ পর্যন্ত সকল কিছুকে বলে-",
+   "options": [
+    "টাইটেল",
+    "হেড",
+    "বডি",
+    "কনটেন্ট"
+   ],
+   "correctAnswer": "3",
+   "explanation": "ওপেনিং ট্যাগ থেকে ক্লোজিং ট্যাগ পর্যন্ত সকল কিছুকে HTML উপাদান বা কনটেন্ট বলে।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0066",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "এইচটিএমএল ট্যাগের চিহ্ন কোনটি?",
+   "options": [
+    "< >",
+    "{ }",
+    "( )",
+    "[ ]"
+   ],
+   "correctAnswer": "0",
+   "explanation": "HTML-এ ওপেনিং ট্যাগের চিহ্ন < > এবং ক্লোজিং ট্যাগের চিহ্ন </.....>"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0067",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "একটি HTML ফাইলে-\ni. শুরু ট্যাগ হিসেবে <html> থাকে\nii. প্রতি জোড়া শুরু ও শেষ ট্যাগ থাকে\niii. অ্যাট্রিবিউট শুরু ট্যাগে থাকে\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0068",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "ওয়েব পেইজের বিভিন্ন সেটিংস ঠিক করা, স্টাইল, স্ক্রিপ্ট এসব নিয়ন্ত্রণ করা ইত্যাদি কাজ কোন ট্যাগের মাধ্যমে করা হয়?",
+   "options": [
+    "html",
+    "head",
+    "title",
+    "body"
+   ],
+   "correctAnswer": "1",
+   "explanation": "<head> ট্যাগটি সব হেড এলিমেন্ট যেমন, টাইটেল, স্টাইল, বেইজ, লিংক, স্ক্রিপ্ট ইত্যাদির ধারক হিসাবে কাজ করে।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0069",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "ব্রাউজারের ট্যাবে ওয়েব পেইজের যে শিরোনাম দেখা যায় তা কোন ট্যাগের ভেতর লেখা থাকে?",
+   "options": [
+    "<em>",
+    "<body>",
+    "<sup>",
+    "<head>"
+   ],
+   "correctAnswer": "3",
+   "explanation": "<head> ট্যাগটির ভিতরে <title>, <meta>, <link>, <base>, <script> ইত্যাদি ট্যাগসমূহ ব্যবহার করা হয়।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0070",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "HTML এর সম্পূর্ণ কনটেন্ট কোন ট্যাগে থাকে?",
+   "options": [
+    "<title> ..... </title>",
+    "<html> .....</html>",
+    "<body> ..... </body>",
+    "<head> ..... </html>"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0071",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "ওয়েবপেজ তৈরিতে ব্যবহৃত আবশ্যক ট্যাগ কোনটি?",
+   "options": [
+    "<html> ..... </html>",
+    "<a href = \"URL\"> </a>",
+    "<font face = \"Sutony MJ ..... </font>",
+    "<img Src = \"Board JPg\" width \"100 high = \"200\""
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0072",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "HTML এর body অংশে থাকে-\ni. ছবি\nii. টেবিল\niii. ওয়েব পেজ টাইটেল\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "0",
+   "explanation": "HTML এর body অংশে থাকে, টেক্সট, ইমেজ, লিংক, হেডিং ইত্যাদি। ওয়েব পেইজের দৃশ্যমান সবকিছু এই ট্যাগের ভিতর লেখা হয়।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0073",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "সঠিক HTML Syntax কোনটি?",
+   "options": [
+    "< em > emphasize < em />",
+    "< b > Bold text < b >",
+    "< i > Italic < / i >",
+    "< u > Underline < \\ u >"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0074",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "নিচের কোনটি এম্পটি ট্যাগ?",
+   "options": [
+    "< hr >",
+    "< td >",
+    "< ol >",
+    "< em >"
+   ],
+   "correctAnswer": "0",
+   "explanation": "< hr > একটি এম্পটি ট্যাগ। কেননা এই ট্যাগের কোনো ক্লোজিং ট্যাগ নেই।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0075",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "কোন html tag এর ক্লোজিং ট্যাগ থাকে না?",
+   "options": [
+    "<hi>",
+    "<img>",
+    "<tr>",
+    "<br>"
+   ],
+   "correctAnswer": "1",
+   "explanation": "এম্পটি ট্যাগের কোনো ক্লোজিং ট্যাগ নেই এবং কোনো কনটেন্ট থাকে না। <img> ও <br> দুটোই এম্পটি ট্যাগ। আরো কিছু html এম্পটি ট্যাগসমূহ: <img>, <br>, <hr>, <area>, <base>, <input>, <link>, <meta>, <source>, <col>"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0076",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "< img > ট্যাগের সাথে মিল রয়েছে কোন ট্যাগের?",
+   "options": [
+    "< hr >",
+    "< tr >",
+    "< a >",
+    "< div >"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0077",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "নিচের কোন এলিমেন্টের মধ্যে কোনো কনটেন্ট থাকে না?",
+   "options": [
+    "কন্টেইনার এলিমেন্ট",
+    "ক্লোজিং এলিমেন্ট",
+    "ওপেনিং এলিমেন্ট",
+    "এম্পটি এলিমেন্ট"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0078",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "হেডিং ট্যাগ কয়টি?",
+   "options": [
+    "2",
+    "4",
+    "6",
+    "8"
+   ],
+   "correctAnswer": "2",
+   "explanation": "<h1> থেকে <h6> পর্যন্ত ৬টি হেডিং ট্যাগ।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0079",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "সবচেয়ে বড় হেডিং কোনটি?",
+   "options": [
+    "h1",
+    "h2",
+    "h3",
+    "h4"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0080",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "HTML এর সবচেয়ে ছোট হেডিং কোনটি?",
+   "options": [
+    "h1",
+    "h2",
+    "h4",
+    "h6"
+   ],
+   "correctAnswer": "3",
+   "explanation": "<h1> দ্বারা সবচেয়ে বড় ও <h6> দ্বারা সবচেয়ে ছোট হেডিং নির্দিষ্ট।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0081",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "অনুচ্ছেদ লিখতে কোন এলিমেন্ট ব্যবহার করা হয়?",
+   "options": [
+    "br",
+    "p",
+    "em",
+    "strong"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0082",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "<html> <body> <h1> ICT </h1> </body> </html>\nপ্রাপ্ত আউটপুটে কী দেখাবে?",
+   "options": [
+    "টেক্সটটি বড় হরফে হবে",
+    "লেখাটি টাইটেল হিসাবে দেখাবে",
+    "টেক্সটটি ভুল করতে হবে",
+    "আউটপুট লিঙ্ক দেখাবে"
+   ],
+   "correctAnswer": "0",
+   "explanation": "<h1> ট্যাগ ব্যবহৃত হওয়ার জন্য ICT টেক্সটটি বড় হরফ দেখাবে।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0083",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "<p align=\"center\"> Bangladesh </P>\nউদ্দীপকে এলিমেন্ট কন্টেন্ট কোনটি?",
+   "options": [
+    "align",
+    "center",
+    "Bangladesh",
+    "p"
+   ],
+   "correctAnswer": "2",
+   "explanation": "<p align = \"center\"> ICT </p> — p ট্যাগ নেম, align অ্যাট্রিবিউট নেম, \"center\" অ্যাট্রিবিউট ভ্যালু, ICT এলিমেন্ট কনটেন্ট; শুরু থেকে শেষ ট্যাগ পর্যন্ত সবকিছু Element।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0084",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "<p align=\"center\"> Bangladesh </P>\nউদ্দীপকে এট্রিবিউট ভ্যালু কোনটি?",
+   "options": [
+    "align",
+    "center",
+    "Bangladesh",
+    "p"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0085",
+   "kind": null,
+   "topic": "টেক্সট ফরমেটিং",
+   "question": "লাইন নিচে নামানোর জন্য ব্যবহৃত ট্যাগ কোনটি?",
+   "options": [
+    "<td>",
+    "<tr>",
+    "<br>",
+    "<th>"
+   ],
+   "correctAnswer": "2",
+   "explanation": "<br> নতুন লাইন তৈরি করতে • <b>...</b> লেখাকে বোল্ড করার জন্য • <u>...</u> আন্ডার লাইন করতে • <i>...</i> ইটালিক করতে • <sub>...</sub> সাবস্ক্রিপ্ট আকারে বা নিচের দিকে প্রদর্শন • <sup>...</sup> সুপারস্ক্রিপ্ট আকারে বা উপরের দিকে প্রদর্শন • <p>...</p> প্যারাগ্রাফ • <big>...</big> লেখাকে বড় করে দেখাতে • <hr> আনুভূমিক রেখা বা লাইন তৈরি করতে"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0086",
+   "kind": null,
+   "topic": "টেক্সট ফরমেটিং",
+   "question": "কোনটি টেক্সট ফরম্যাটিং এলিমেন্ট?",
+   "options": [
+    "<b>",
+    "<br>",
+    "<ol>",
+    "<a>"
+   ],
+   "correctAnswer": "0",
+   "explanation": "টেক্সট ফরম্যাটিং এলিমেন্ট: <b>, <u>, <big>, <em>, <i>, <smal>, <sub>, <sup>, <ins>, <del>"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0087",
+   "kind": null,
+   "topic": "টেক্সট ফরমেটিং",
+   "question": "কোনটি ফরমেটিং ট্যাগ?",
+   "options": [
+    "<ol> ...... </ol>",
+    "<hl> ...... </h1>",
+    "<big> ...... </big>",
+    "<a> ......</a>"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0088",
+   "kind": null,
+   "topic": "টেক্সট ফরমেটিং",
+   "question": "HTML কোড <p> a <sup> 2 </sup> b <sub> 2 </sub> </p> এর ফলাফল কোনটি?",
+   "options": [
+    "a²b²",
+    "a²b₂ (a উপরে)",
+    "a²b₂",
+    "a₂b₂"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0089",
+   "kind": null,
+   "topic": "টেক্সট ফরমেটিং",
+   "question": "লেখাকে নিচে নামানোর জন্য কোনটি ব্যবহৃত হয়?",
+   "options": [
+    "small",
+    "sup",
+    "sub",
+    "em"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0090",
+   "kind": null,
+   "topic": "টেক্সট ফরমেটিং",
+   "question": "(a + b)² সমীকরণটি HTML-এ লেখার জন্য কোন এলিমেন্ট প্রয়োজন?",
+   "options": [
+    "<sup>",
+    "<sub>",
+    "<li>",
+    "<ul>"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0091",
+   "kind": null,
+   "topic": "টেক্সট ফরমেটিং",
+   "question": "RGB (255, 255, 255) দ্বারা কোন রং নির্দেশ করে?",
+   "options": [
+    "লাল",
+    "সবুজ",
+    "সাদা",
+    "নীল"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0092",
+   "kind": null,
+   "topic": "টেক্সট ফরমেটিং",
+   "question": "কনটেইনার ট্যাগ হলো:\ni. <br>\nii. <ol>\niii. <img>\nনিচের কোনটি সঠিক?",
+   "options": [
+    "ii",
+    "iii",
+    "i ও iii",
+    "ii ও iii"
+   ],
+   "correctAnswer": "0",
+   "explanation": "যে সমস্ত ট্যাগের ওপেনিং বা শুরু, ট্যাগের বিষয়বস্তু ও ক্লোজিং বা শেষ ট্যাগ থাকে, তাকে কন্টেইনার ট্যাগ বলে। যেমন: <html>, <body>, <b>, <u>, <big>, <i>, <sub>, <sup>, <a>, <h1>"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0093",
+   "kind": null,
+   "topic": "টেক্সট ফরমেটিং",
+   "question": "<body> <p> <i> My page </i> </p> <a href = \"pic.html\"> picture </a> <body>\nকোডটিতে ব্যবহৃত ট্যাগের ধরন হলো:\ni. টেবিল\nii. হাইপার লিংক\niii. ফরমেটিং\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "2",
+   "explanation": "ফরম্যাটিং→ <i>; হাইপার লিংক→ <a href = \" \"> ...... </a>"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0094",
+   "kind": null,
+   "topic": "টেক্সট ফরমেটিং",
+   "question": "<html> <head> <title> This is My First Web Page </title> </head> <body> <h1> This is My Website </h1> <p> <u> This is My Personal Website </u> </p> </body> </html>\nউদ্দীপকের This is My Personal Website লাইনটির আউটপুটের ধরন কিরূপ হবে?",
+   "options": [
+    "বোল্ড",
+    "ইটালিক",
+    "আন্ডারলাইন",
+    "বোল্ড আন্ডারলাইন"
+   ],
+   "correctAnswer": "2",
+   "explanation": "<u> ...... </u> থাকার কারণে আন্ডারলাইন হবে।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0095",
+   "kind": null,
+   "topic": "টেক্সট ফরমেটিং",
+   "question": "উপরের কোডের ৭ম লাইনটিতে personal শব্দের ওপর ক্লিক করলে জীবন বৃত্তান্তের পেইজটি ওপেন করার জন্য কোন ধরনের ট্যাগ ব্যবহার করতে হবে?",
+   "options": [
+    "<a> ..... </a>",
+    "<b> ..... </b>",
+    "<p>.....</p>",
+    "<i>......</i>"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0096",
+   "kind": null,
+   "topic": "টেক্সট ফরমেটিং",
+   "question": "কোন অ্যাট্রিবিউট ব্যবহার করে ওয়েব পেইজের বিভিন্ন এলিমেন্টের প্রদর্শনের স্টাইল বলে দেওয়া যায়?",
+   "options": [
+    "charset",
+    "colar",
+    "color",
+    "style"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0097",
+   "kind": null,
+   "topic": "টেক্সট ফরমেটিং",
+   "question": "লেখাকে বোল্ড করার জন্য ব্যবহৃত হয়-\ni. <strong>\nii. <b>\niii. <em>\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0098",
+   "kind": null,
+   "topic": "টেক্সট ফরমেটিং",
+   "question": "a^(b^c) এর html কোড কোনটি?",
+   "options": [
+    "<sub> a <sup> b <sup> c</sup> </sup> </sup>",
+    "<p> a <sup> b </sup> c </p>",
+    "<p> a <sup> b <sup> c </sup> </sup> </p>",
+    "<a> b <sup> c </sup> b <sup> </sup> </sup> </p>"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0099",
+   "kind": null,
+   "topic": "লিস্ট",
+   "question": "ক্রমযুক্ত তালিকা প্রকাশের জন্য ব্যবহৃত ট্যাগ কোনটি?",
+   "options": [
+    "<ul>",
+    "<ol>",
+    "<br>",
+    "<del>"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0100",
+   "kind": null,
+   "topic": "লিস্ট",
+   "question": "নিচের কোনটি ordered list?",
+   "options": [
+    "i, ii ও iii",
+    "1, 2, 3",
+    "A, B, C",
+    "উপরের সবগুলো"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0101",
+   "kind": null,
+   "topic": "লিস্ট",
+   "question": "অর্ডারড লিস্টে নির্দিষ্ট সংখ্যা ৫ থেকে লিস্ট শুরু করার জন্য কোন অ্যাট্রিবিউট ব্যবহার করা হয়?",
+   "options": [
+    "start",
+    "target",
+    "src",
+    "type"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0102",
+   "kind": null,
+   "topic": "লিস্ট",
+   "question": "<ol type = \"A\" start = \"3\"> এর আউটপুট কেমন হবে?",
+   "options": [
+    "1. 2.",
+    "3. 4.",
+    "A. B.",
+    "C. D."
+   ],
+   "correctAnswer": "3",
+   "explanation": "কোনো নির্দিষ্ট সংখ্যা/বর্ণ থেকে শুরু করতে তার টাইপ (type) এবং কত থেকে শুরু হবে (start) তা বলে দিতে হবে। \"A\" type এর \"3\" নং element থেকে শুরু। অর্থাৎ, C হতে।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0103",
+   "kind": null,
+   "topic": "লিস্ট",
+   "question": "start অ্যাট্রিবিউটের মান সব সময় কেমন হবে?",
+   "options": [
+    "অক্ষর",
+    "সংখ্যা",
+    "রোমান সংখ্যা",
+    "যতি চিহ্ন"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0104",
+   "kind": null,
+   "topic": "লিস্ট",
+   "question": "তালিকার উপাদানগুলো রাখাতে কোন এলিমেন্ট ব্যবহার করা হয়?",
+   "options": [
+    "ol",
+    "ul",
+    "dd",
+    "li"
+   ],
+   "correctAnswer": "3",
+   "explanation": "উপাদান→ <li>"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0105",
+   "kind": null,
+   "topic": "লিস্ট",
+   "question": "ক্রমবিহীন তালিকা তৈরি করতে কোন এলিমেন্ট ব্যবহার করা হয়?",
+   "options": [
+    "ol",
+    "ul",
+    "li",
+    "dl"
+   ],
+   "correctAnswer": "1",
+   "explanation": "unordered list"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0106",
+   "kind": null,
+   "topic": "লিস্ট",
+   "question": "আনঅর্ডারড লিস্টে type = \"circle\" থাকলে আউটপুট কেমন হবে?",
+   "options": [
+    "●",
+    "□",
+    "■",
+    "○"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0107",
+   "kind": null,
+   "topic": "লিস্ট",
+   "question": "<ul type = \"disc\"> <li> Book </li> </ul>\nউদ্দীপকটির আউটপুট হবে-",
+   "options": [
+    "▬ Book",
+    "○ Book",
+    "□ Book",
+    "● Book"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0108",
+   "kind": null,
+   "topic": "লিস্ট",
+   "question": "• Apple • Orange • Mango — পেইজটি প্রদর্শনের জন্য প্রয়োজনীয় ট্যাগ কোনটি?",
+   "options": [
+    "<ol>",
+    "<ul>",
+    "<dl>",
+    "<dd>"
+   ],
+   "correctAnswer": "1",
+   "explanation": "unordered ভাবে আছে।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0109",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "দুইটি HTML ডকুমেন্টের সংযোগকে কী বলে?",
+   "options": [
+    "হাইপারলিংক",
+    "অ্যাট্রিবিউট",
+    "কানেকশন",
+    "ইমেজিং"
+   ],
+   "correctAnswer": "0",
+   "explanation": "হাইপারলিংক ব্যবহার করে ওয়েবপেজ- সমৃদ্ধ করা যায়, তথ্যবহুল করা যায়, আকর্ষণীয় করা যায়, দ্রুত তথ্য প্রদর্শন করা যায়, ব্রাউজারকারীর সময় বাঁচে।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0110",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "HTML-এর লিঙ্ক সিনট্যাক্স হলো: <a href = \"url\"> Link text </a> এখানে a href এর অর্থ হচ্ছে-",
+   "options": [
+    "a hot reference",
+    "a hyperlink replace",
+    "hyper text reference",
+    "a home reference"
+   ],
+   "correctAnswer": "2",
+   "explanation": "href অ্যাট্রিবিউট লিংকের ঠিকানা নির্ধারণ করে। url অংশে সম্পূর্ণ অ্যাড্রেসটি লিখতে হয়। লিংক করা ডকুমেন্টটি কোথায় ওপেন হবে সেটি নির্ধারণে target অ্যাট্রিবিউট ব্যবহার করা হয়। target = \"blank\" থাকলে নতুন ট্যাবে ওয়েবপেইজ খুলবে এবং target = \"self\" থাকলে একই ট্যাবে লিংক খুলবে।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0111",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "<link> ট্যাগের কাজ কী?",
+   "options": [
+    "স্টাইল ডেফিনিশন বর্ণনা করা",
+    "ডকুমেন্ট সেকশন নির্ধারণ করা",
+    "রিসোর্স রেফারেন্স নির্ধারণ করা",
+    "পুশ বাটন নির্ধারণ করা"
+   ],
+   "correctAnswer": "2",
+   "explanation": "<link> ট্যাগটি ডকুমেন্ট এবং এক্সটার্নাল রিসোর্স এর মধ্যে লিংক/সম্পর্ক স্থাপন করে। <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0112",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "ওয়েবপেজের এক পেইজ থেকে অন্য পেইজে যাওয়ার জন্য কোন ট্যাগ ব্যবহার করা হয়?",
+   "options": [
+    "< a > .. < /a >",
+    "< b > .. < /b >",
+    "< li > .. < /li >",
+    "< ol> .. < /ol >"
+   ],
+   "correctAnswer": "0",
+   "explanation": "অ্যাংকর ট্যাগ বা Link Tag"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0113",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "নীরব নতুন ওয়েব ডেভেলপারসে HTML ব্যবহার করে ওয়েবপেজ তৈরি করে এবং হাইপারলিঙ্ক এর কাজ করে। নীরব সম্প্রতি যে পদ্ধতিতে কাজ করছে তার সুবিধা-\ni. এক পেজ থেকে অন্য পেজে যাওয়া\nii. একটা পেজের একা অংশের সাথে অন্য অংশে লিঙ্ক করা\niii. ভিন্ন সার্ভারের সাথে লিঙ্ক না হওয়া\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0114",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "প্রিয়ন্তি HTML ব্যবহার করে ওয়েবপেইজ তৈরি করলে, যেখানে কোনো একটি নির্দিষ্ট টেক্সটে ক্লিক করলে সেটি নতুন আরেকটি ওয়েবপেজে নিয়ে যায়। উদ্দীপকের কাজ করতে নিচের কোন tag ব্যবহার হয়েছে?",
+   "options": [
+    "<Style>",
+    "<Link>",
+    "<a>",
+    "<span>"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0115",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "নতুন ট্যাবে ওয়েব পেইজ খুলতে উক্ত ট্যাগের অ্যাট্রিবিউট কোনটি?",
+   "options": [
+    "target = \"self\"",
+    "target = \"blank\"",
+    "target = \"_Parent\"",
+    "target = \"next\""
+   ],
+   "correctAnswer": "1",
+   "explanation": "New window → blank, একই window → self"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0116",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "একই ট্যাবে লিংক খোলার জন্য কোন মানটি ব্যবহার করা হয়?",
+   "options": [
+    "_target",
+    "_self",
+    "_blank",
+    "_top"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0117",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "নিচের কোনটি HTML এর Link Tag?",
+   "options": [
+    "<a>...</a>",
+    "<li>...</li>",
+    "<ol>...</ol>",
+    "<link>...</link>"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0118",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "ওয়েব পেইজে ছবি প্রদর্শনের HTML Syntax কোনটি?",
+   "options": [
+    "<img src=\"url\">",
+    "<img=\"url\">.....</img>",
+    "<img src=\"url\"> Text </img>",
+    "<img source = \"url\">"
+   ],
+   "correctAnswer": "0",
+   "explanation": "<img> ট্যাগের অবশ্যিক অ্যাট্রিবিউট হলো src। src অ্যাট্রিবিউটের কাজ হচ্ছে ছবিটি কোথায় আছে তার ঠিকানা বলা অর্থাৎ source নির্ধারণ করে দেয়। সোর্স অ্যাট্রিবিউটের সাথে ইমেজের উচ্চতা (height) এবং প্রশস্ততা (width) কত পিক্সেল হবে তা নির্ধারণ করে দেয়া যায়। ব্রাউজার যদি কোনো কারণে ইমেজসমূহ লোড করতে ব্যর্থ হয় তবে Alt অ্যাট্রিবিউটটি পাঠক কি মিস করছেন সেটি তাকে বলে দেয়।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0119",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "src অ্যাট্রিবিউট কোন ট্যাগে ব্যবহৃত হয়?",
+   "options": [
+    "< div >",
+    "< a >",
+    "< img >",
+    "< span >"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0120",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "দৈর্ঘ্য 120px প্রস্থ 150px আকারের Flag.jpg নামক ছবি সংযুক্তির জন্য নিচের সঠিক HTML কোড কোনটি?",
+   "options": [
+    "<img src =\"Flag\" height = \"120px\" width = \"150px\">",
+    "<img src =\"Flag.jpg\" height = \"120px\" width = \"150px\">",
+    "<img src =\"Flag,jpg\" height = \"120px\" width = \"150px\">",
+    "<img src =\"Flag.jpg\" h = \"120px\" w = \"150px\">"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0121",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "রাসেল html ব্যবহারিক ক্লাসে লিখল <P> <img src = \"Picture.jpg\" width = \"300\" height = \"200\"> </P> কিন্তু আউটপুটে তার ফলাফল আসেনি।\nউদ্দীপকে Attribute কোনটি?",
+   "options": [
+    "P",
+    "img",
+    "width",
+    "picture"
+   ],
+   "correctAnswer": "2",
+   "explanation": "ট্যাগ এর স্পেসিফাইড কোনো কাজ = attribute"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0122",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "রাসেল সঠিক ফলাফল না পাওয়ার কারণ-\ni. ফাইলের নাম লিখতে ভুল\nii. ব্রাউজারে সাপোর্ট না করা\niii. সঠিক লোকেশন ব্যবহার না করা\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0123",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "ব্রাউজার যদি কোনো কারণে ইমেজ লোড করতে ব্যর্থ হয় তখন ইমেজের পরিবর্তে কোনো টেক্সট প্রদর্শনের জন্য ব্যবহৃত অ্যাট্রিবিউট কোনটি?",
+   "options": [
+    "src",
+    "title",
+    "alt",
+    "align"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0124",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "মি. কালাম তার ওয়েব পেজে ইমেজ সংযোজন করলেন। মি. কালাম যে প্রকারের ট্যাগ ব্যবহার করেছেন তার সাথে সঙ্গতিপূর্ণ ট্যাগ কোনটি?",
+   "options": [
+    "<img>",
+    "<A>",
+    "<Br>",
+    "<u>"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0125",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "HTML এ ইমেজ ফরমেট সাপোর্ট করে-\ni. .gif\nii. .png\niii. .jpg\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "3",
+   "explanation": "img → ট্যাগ, ছবি ফরম্যাট → .jpg বা .jpeg, .png, .gif, .bmp ইত্যাদি।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0126",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "ওয়েব পেজ 1000 বাই 800 পিক্সেলের nature.jpg ইমেজটি যুক্ত করার জন্য <img src=\"nature.jpg\"> এর সাথে কোন নির্দেশনা যুক্ত হবে?",
+   "options": [
+    "width = \"1000px\" height = \"800px\"",
+    "Pxelw = \"1000 pixel = \"800\"",
+    "w = \"1000\" h = \"800\"",
+    "Pixwith = \"1000\" Pixheight = \"8\""
+   ],
+   "correctAnswer": "0",
+   "explanation": "1000 × 800 px→ height = 800, width = 1000"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0127",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "একটি ওয়েবসাইটের ৪ নম্বর পেইজে 300 × 300 সাইজের Pic.jpg নামের একটি ছবি সংযুক্ত রয়েছে। তবে সমস্যা হলো সাইটটির এক পেইজ হতে অন্য পেইজে যাওয়া যাচ্ছে না। সাইটটির সমস্যা সমাধানে প্রয়োজনীয় ট্যাগ-",
+   "options": [
+    "<a>....</a>",
+    "<b>....</b>",
+    "<i>....</i>",
+    "<li>.....</li>"
+   ],
+   "correctAnswer": "0",
+   "explanation": "হাইপারলিংক ট্যাগ"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0128",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "৪ নম্বর পেইজের জন্য প্রযোজ্য HTML কোডটি হলো:",
+   "options": [
+    "<img src \"pic.jpg\" height = 300 width = 300",
+    "<img src = \"pic.jpg\", height = \"300\" width=\"300\">",
+    "<img src = \"pic.jpg\" height = \"300\" width = \"300\">",
+    "<img src = \"pic.jpg\" height = 300, width = 300 >"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0129",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "লিমার তৈরিকৃত ওয়েব পেজে একটি নতুন ছবি সংযুক্ত করল। এর ফলে তার পেইজটি আরও দৃষ্টিনন্দন হলো। লিমা যে ট্যাগ ব্যবহার করে ছবি যুক্ত করল সেই ট্যাগের প্রকারভেদের সাথে নিচের কোন ট্যাগের মিল রয়েছে?",
+   "options": [
+    "<html>",
+    "<br>",
+    "<body>",
+    "<pre>"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0130",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "সুভাষ HTML কোড দিয়ে HSC.jpg নামের একটি ফাইলযুক্ত করে ওয়েবপেজ তৈরি করে। পরবর্তিতে ওয়েবপেজটি সবাইকে প্রদর্শনের জন্য প্রয়োজনীয়তা পদক্ষেপ গ্রহণ করে। উদ্দীপকের ফাইলটির জন্য আবশ্যকীয় অ্যাট্রিবিউট কোনটি?",
+   "options": [
+    "href",
+    "img",
+    "src",
+    "nlt"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0131",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "সুভাষের গৃহীত পদক্ষেপসমূহ হচ্ছে-\ni. পাবলিক আইপির ব্যবহার\nii. ওয়েবপেজ হোস্টিং\niii. ডোমেইন নেম রেজিস্ট্রেশন\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0132",
+   "kind": null,
+   "topic": "টেবিল",
+   "question": "টেবিলের কয়টা অংশ?",
+   "options": [
+    "১",
+    "২",
+    "৩",
+    "৪"
+   ],
+   "correctAnswer": "2",
+   "explanation": "টেবিলের ৩টা অংশ- হেডার, বডি, ফুটার। টেবিলের একেবারে ওপরের সারিকে Header বলা হয়। টেবিলের একেবারে নিচের সারিকে ফুটার বলা হয়। টেবিলের এক একটি ঘরকে Cell বলা হয়। টেবিলের ক্যাপশন দিতে caption এলিমেন্ট ব্যবহার করা হয়।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0133",
+   "kind": null,
+   "topic": "টেবিল",
+   "question": "Table তৈরি করতে প্রয়োজনীয় Tag-\ni. <th>....</th>\nii. <tr> ... ....</tr>\niii. <td> ... </th>\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "3",
+   "explanation": "th → table head, tr → table raw, td → table data"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0134",
+   "kind": null,
+   "topic": "টেবিল",
+   "question": "Table এর element Tag গুলো হতে পারে-\ni. tr\nii. td\niii. body\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "3",
+   "explanation": "টেবিলের এলিমেন্টগুলো হলো: i. tfoot, ii. thead, iii. tbody"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0135",
+   "kind": null,
+   "topic": "টেবিল",
+   "question": "টেবিলের বডিতে সারি তৈরি করতে ব্যবহার করা হয়-",
+   "options": [
+    "th",
+    "tt",
+    "tr",
+    "td"
+   ],
+   "correctAnswer": "2",
+   "explanation": "tr → table row"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0136",
+   "kind": null,
+   "topic": "টেবিল",
+   "question": "টেবিলে সেল তৈরির জন্য কোন ট্যাগ ব্যবহৃত হয়?",
+   "options": [
+    "<tc>",
+    "<tr>",
+    "<td>",
+    "<col>"
+   ],
+   "correctAnswer": "2",
+   "explanation": "td → table data"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0137",
+   "kind": null,
+   "topic": "টেবিল",
+   "question": "<td> ট্যাগের সাথে ব্যবহৃত অ্যাট্রিবিউট-\ni. align\nii. face\niii. colspan\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "1",
+   "explanation": "\"face\" text formating এ ব্যবহৃত হয়।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0138",
+   "kind": null,
+   "topic": "টেবিল",
+   "question": "নিচের কোনটি টেবিল ট্যাগের অ্যাট্রিবিউট নয়?",
+   "options": [
+    "Border",
+    "bgcolor",
+    "cellpadding",
+    "height"
+   ],
+   "correctAnswer": "3",
+   "explanation": "Border: টেবিলে বর্ডার তৈরি করার জন্য, ডিফল্ট সাইজ 1 • Width/Height: টেবিলের প্রশস্ততা, শতকরা অথবা পিক্সেলে • Align: টেবিলের এলাইনমেন্ট • Cellspacing: সেলের মধ্যে ফাঁকা স্থান • Cellpadding: সেল এবং সেলের কনটেন্ট এর মধ্যে ফাঁকা স্থান • Bgcolor: টেবিলের ব্যাকগ্রাউন্ড কালার"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0139",
+   "kind": null,
+   "topic": "টেবিল",
+   "question": "নিচের কোনটি html টেবিলের অভ্যন্তরীণ বিষয়বস্তুকে বামে align করবে?",
+   "options": [
+    "<td valign = \"left\">",
+    "<tdleft>",
+    "<td leftalign>",
+    "<td align = \"left\">"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0140",
+   "kind": null,
+   "topic": "টেবিল",
+   "question": "নিচের কোন ট্যাগ ব্যবহার করলে টেবিল সেলের ব্যাকগ্রাউন্ড কালার সবুজ হবে?",
+   "options": [
+    "<table bgcolor = \"green\">",
+    "<tr bgcolor = \"green\">",
+    "<td bgcolor = \"green\">",
+    "<tr td bgcolor = \"green\">"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0141",
+   "kind": null,
+   "topic": "টেবিল",
+   "question": "HTML এ একাধিক রো (row) কে মার্জ করতে কোন অ্যাট্রিবিউট ব্যবহৃত হয়?",
+   "options": [
+    "colspan",
+    "cellpadding",
+    "rowspan",
+    "cellspacing"
+   ],
+   "correctAnswer": "2",
+   "explanation": "রো মার্জ → rowspan, কলাম মার্জ → colspan"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0142",
+   "kind": null,
+   "topic": "টেবিল",
+   "question": "কয়েকটি কলাম জুড়ে একটি সেল তৈরি করতে কোন অ্যাট্রিবিউট ব্যবহৃত হয়?",
+   "options": [
+    "rowspan",
+    "colspan",
+    "cellpadding",
+    "cellspacing"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0143",
+   "kind": null,
+   "topic": "টেবিল",
+   "question": "HTML টেবিলে এক সেল থেকে অন্য সেলে ফাঁকা জায়গা নির্ধারণে ব্যবহার করা হয় কোনটি?",
+   "options": [
+    "rowspan",
+    "cellspan",
+    "cellspacing",
+    "cellpadding"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0144",
+   "kind": null,
+   "topic": "টেবিল",
+   "question": "টেবিলের প্রতি সেল বা ঘরগুলো ফাঁকা ফাঁকা না রেখে একটির সাথে অন্যটি একেবারে লাগিয়ে রাখতে কোন অ্যাট্রিবিউট ব্যবহার করা হয়?",
+   "options": [
+    "rowspacing",
+    "rowspan",
+    "colspan",
+    "cellspacing"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0145",
+   "kind": null,
+   "topic": "টেবিল",
+   "question": "টেবিলের সেলগুলোতে অবস্থিত লেখার মধ্যে দূরত্ব নিয়ন্ত্রণের জন্য ব্যবহৃত অ্যাট্রিবিউট কোনটি?",
+   "options": [
+    "rowspan",
+    "colspan",
+    "cellpadding",
+    "cellspacing"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0146",
+   "kind": null,
+   "topic": "টেবিল",
+   "question": "টেবিল বর্ডার থেকে ডেটার দূরত্ব নির্ধারণের অ্যাট্রিবিউট হলো:",
+   "options": [
+    "cellspacing",
+    "rowspan",
+    "colepan",
+    "cellpadding"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0147",
+   "kind": null,
+   "topic": "টেবিল",
+   "question": "টেবিল: X (৪ কলাম জুড়ে); Y (৩ সারি জুড়ে) | A B C; G E F; G H I\nউদ্দীপকের টেবিলটি তৈরি করতে HTML কোডে colspan ও rowspan এর মান হবে যথাক্রমে—",
+   "options": [
+    "2, 3",
+    "3, 2",
+    "4, 3",
+    "3, 4"
+   ],
+   "correctAnswer": "2",
+   "explanation": "চারটি কলাম মার্জ হওয়ায় colspan এর মান 4 হবে। তিনটি রো মার্জ হওয়ায় rowspan এর মান 3 হবে।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0148",
+   "kind": null,
+   "topic": "টেবিল",
+   "question": "<table> <tr> <td> A </td> <td> B</td> </tr><tr> <td> C </td> <td>D </td> </tr> </table>\nউদ্দীপকের html এ কোডের আউটপুট কোনটি?",
+   "options": [
+    "বর্ডারসহ A B এক ঘরে, নিচে খালি",
+    "A C উপরে, B D নিচে (রেখা দিয়ে ভাগ)",
+    "রেখা দিয়ে ভাগ করা A B / C D",
+    "বর্ডার ছাড়া A B / C D"
+   ],
+   "correctAnswer": "3",
+   "explanation": "A, B এক সারি এবং C ও D নিচের সারিতে থাকবে। এখানে টেবিলের সাথে কোন বর্ডার নেই। তাই আউটপুটেও কোন বর্ডার আসবে না।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0149",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "UTF এর পূর্ণরূপ কী?",
+   "options": [
+    "Unicode Transformation Format",
+    "Unicode Transform Format",
+    "Unicode Transmission Forum",
+    "Unicode Transformation Forum"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0150",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "নিচের কোনটি জনপ্রিয় একটি ইউনিকোড ক্যারেক্টার সেট?",
+   "options": [
+    "UTF-8",
+    "region code",
+    "UTF-5",
+    "lang-7"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0151",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "বাংলাদেশি বাংলার রিজিওন কোড হলো:",
+   "options": [
+    "bn-Bang",
+    "cn-BD",
+    "bn-BD",
+    "cn-Bang"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0152",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "ডকুমেন্টটি কোন ভাষায় আছে তা ব্রাউজারকে জানানোর জন্য কোন অ্যাট্রিবিউট ব্যবহার করা হয়?",
+   "options": [
+    "Charset",
+    "target",
+    "type",
+    "lang"
+   ],
+   "correctAnswer": "3",
+   "explanation": "html এলিমেন্টে যুক্ত lang অ্যাট্রিবিউট ব্যবহার করে ভাষার পাশাপাশি দুই অক্ষরের অঞ্চল কোড (রিজিওন কোড-region code) বসাতে হয়। lang অ্যাট্রিবিউটের কাজ হচ্ছে ডকুমেন্টটি কোন ভাষায় লেখা হয়েছে তা ওয়েব ব্রাউজারকে জানানো।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0153",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "meta এলিমেন্টটি কোন এলিমেন্টের ভেতর থাকে?",
+   "options": [
+    "<title>",
+    "<body>",
+    "<img>",
+    "<head>"
+   ],
+   "correctAnswer": "3",
+   "explanation": "html কোডের অভ্যন্তরীণ সেটিংস এর সকল পরিবর্তন head সেকশনে করা হয়। HTML এ meta ট্যাগ ব্যবহার করে character set ডিফাইন করা হয়।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0154",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "<Font> ট্যাগ এর কাজ হলো একটি ওয়েবসাইটের-\ni. টেক্সটের ধরন ঠিক করা\nii. টেক্সটের আকার ঠিক করা\niii. টেক্সটের রং ঠিক করা\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0155",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "ফন্টের নাম পরিবর্তন করতে কোন অ্যাট্রিবিউট ব্যবহৃত হয়?",
+   "options": [
+    "size",
+    "font",
+    "face",
+    "name"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0156",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "ফন্টের স্টাইল পরিবর্তন করতে কোন অ্যাট্রিবিউট ব্যবহৃত হয়?",
+   "options": [
+    "size",
+    "style",
+    "name",
+    "face"
+   ],
+   "correctAnswer": "1",
+   "explanation": "HTML ডকুমেন্টে style এট্রিবিউট ব্যবহার করে ওয়েবপেইজের বিভিন্ন এলিমেন্টের রং, ফন্টসহ বিভিন্ন বৈশিষ্ট্য বা প্রোপার্টি উল্লেখ করে দেয়া হয়। ইনলাইন (inline) স্টাইল করার জন্য HTML এ style এট্রিবিউট ব্যবহার করা হয়।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0157",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "ফন্ট ট্যাগে অ্যাট্রিবিউট হিসাবে ব্যবহৃত হয়-\ni. size\nii. color\niii. face\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0158",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "<html> <body> <font color = \"red\" > HSC Exam </font> </body> <html>\nHTML-এ বাংলা ফন্ট ব্যবহারের জন্য কোন এট্রিবিউট প্রয়োজন?",
+   "options": [
+    "font",
+    "href",
+    "face",
+    "src"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0159",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "উদ্দীপকে <font>HSC Exam</font> শব্দের জন্য ব্যবহৃত ট্যাগের অ্যাট্রিবিউট হতে পারে-\ni. href\nii. face\niii. size\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "2",
+   "explanation": "href → anchor ট্যাগের অ্যাট্রিবিউট"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0160",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "<font color = \"Red\" face = \"Arial\"> ICT </font>\nউদ্দীপকের কনটেন্ট কোনটি?",
+   "options": [
+    "Font",
+    "Color",
+    "Red",
+    "ICT"
+   ],
+   "correctAnswer": "3",
+   "explanation": "font ট্যাগ নেম, color/face অ্যাট্রিবিউট নেম, \"Red\"/\"Arial\" অ্যাট্রিবিউট ভ্যালু, ICT এলিমেন্ট কনটেন্ট।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0161",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "<font color = \"Red\" face = \"Arial\"> ICT </font>\nউদ্দীপকে অ্যাট্রিবিউট ভ্যালু হলো-\ni. color\nii. red\niii. arial\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0162",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "<span style = \"color : red\"> Text </span>\nউদ্দীপকে অ্যাট্রিবিউট কোনটি?",
+   "options": [
+    "Style",
+    "Color:red",
+    "Span",
+    "Text"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0163",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "<!-----> চিহ্নের মধ্যে কথাগুলোকে কী বলা হয়?",
+   "options": [
+    "Caption",
+    "Topic",
+    "Comment",
+    "Comment Box"
+   ],
+   "correctAnswer": "2",
+   "explanation": "html এ <! -- > ট্যাগের মধ্যে মন্তব্য লেখা হয়।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0164",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "একটি ডকুমেন্টের বিভিন্ন অংশগুলোকে আলাদা করতে কোন এলিমেন্ট ব্যবহার করা হয়?",
+   "options": [
+    "div",
+    "span",
+    "meta",
+    "base"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0165",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "প্রতিটি div এলিমেন্টের জন্য কী থাকে?",
+   "options": [
+    "HTML কোড",
+    "CSS কোড",
+    "Java কোড",
+    "C প্রোগ্রাম"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0166",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "HTML-এ কোন এলিমেন্টের মাধ্যমে অন্য এলিমেন্টের অংশ নির্বাচন করা যায়?",
+   "options": [
+    "< div >",
+    "< span >",
+    "< style >",
+    "< font >"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0167",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "একাধিক প্রোপার্টির মান বলে দিতে চাইলে তাদের মধ্যে কোন চিহ্ন ব্যবহার করা হয়?",
+   "options": [
+    "সমান",
+    "কোলন",
+    "সেমিকোলন",
+    "যোগ"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0168",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "উপাদানের প্রস্থ নির্ধারণ করার জন্য কোন প্রোপার্টিং ব্যবহার করা হয়?",
+   "options": [
+    "Width",
+    "height",
+    "radding",
+    "text-align"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0169",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "উপাদানের উচ্চতা নির্ধারণ করার জন্য কোন প্রোপার্টি ব্যবহার করা হয়?",
+   "options": [
+    "Width",
+    "height",
+    "font size",
+    "padding"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0170",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "উপাদানের ভেতরের লেখা কীভাবে বিন্যস্ত করা হবে তা নির্ধারণ করার জন্য কোন প্রোপার্টি ব্যবহৃত হয়?",
+   "options": [
+    "height",
+    "text-align",
+    "border",
+    "border-color"
+   ],
+   "correctAnswer": "1",
+   "explanation": "left, right, centre বিভিন্ন দিকে align করতে ব্যবহৃত।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0171",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "উপাদানের রং নির্ধারণ করার জন্য কোন প্রোপার্টি ব্যবহৃত হয়?",
+   "options": [
+    "margin",
+    "color",
+    "background color",
+    "padding"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0172",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "উপাদানের পেছনের পর্দার রং নির্ধারণ করার জন্য কোন প্রোপার্টি ব্যবহৃত হয়?",
+   "options": [
+    "back color",
+    "color",
+    "background-color",
+    "font color"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0173",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "পেইজের কোন স্থানে কী দেখাবে তা হলো পেইজের-",
+   "options": [
+    "লে-আউট",
+    "আউটলুক",
+    "স্টাইল",
+    "ফিচার"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0174",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "প্রথমে পেইজের ডিজাইন কাগজে কলমে করাকে কী বলে?",
+   "options": [
+    "Wellframe",
+    "Warframe",
+    "Wideframe",
+    "Wireframe"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0175",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "Submit button টি আউটপুট হিসেবে পাওয়ার জন্য সঠিক HTML কোড কোনটি?",
+   "options": [
+    "<input type=\"submit\" value = \"submit\">",
+    "<input type = \"text\" value = \"submit\">",
+    "<input type = \"submit\" value = \"checkbox\">",
+    "<input type = \"radio\" value = \"submit\">"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0176",
+   "kind": null,
+   "topic": "টেক্সট ফরমেটিং",
+   "question": "টেক্সটের সাধারণ ফরম্যাটিংয়ের মধ্যে রয়েছে-\ni. বোল্ড করা\nii. ইটালিক করা\niii. আন্ডারলাইন করা\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0177",
+   "kind": null,
+   "topic": "লিস্ট",
+   "question": "<Ol type = \"a\" start = '4' > এর আউটপুট কেমন হবে?",
+   "options": [
+    "d. c. b. a.",
+    "6. 5. 4.",
+    "c. b. a.",
+    "d. e. f."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0178",
+   "kind": null,
+   "topic": "লিস্ট",
+   "question": "লিস্টে সার্কেল ব্যবহারের জন্য কোন অ্যাট্রিবিউট ব্যবহার করতে হবে?",
+   "options": [
+    "src",
+    "target",
+    "type",
+    "charset"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0179",
+   "kind": null,
+   "topic": "HTML এর ধারণা",
+   "question": "নিচের কোনটি ফাঁকা এলিমেন্ট?",
+   "options": [
+    "<a>",
+    "<td>",
+    "<meta>",
+    "<head>"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0180",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "কোনো ছবিকে 300 × 200 পিক্সেল আকারে দেখতে চাইলে কোডটি কীরূপ হবে?",
+   "options": [
+    "<img src = \"image.jpg\" height=\"300\" width=\"200\">",
+    "<img = \"image.jpg\" width = \"300px\" height = \"200px\">",
+    "<img src = \"image.jpg\" width height = \"300×200 px>",
+    "<img src = \"image.jpg\" width = \"300px\" height=\"200px\" >"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0181",
+   "kind": null,
+   "topic": "Anchor এবং Img ট্যাগ",
+   "question": "img এলিমেন্ট-\ni. এম্পটি এলিমেন্ট\nii. ক্লোজিং ট্যাগ রয়েছে\niii. ক্লোজিং ট্যাগ নেই\nনিচের কোনটি সঠিক?",
+   "options": [
+    "i ও ii",
+    "i ও iii",
+    "ii ও iii",
+    "i, ii ও iii"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0182",
+   "kind": null,
+   "topic": "বিবিধ (ফন্ট, স্টাইল, ফর্ম)",
+   "question": "কোন এলিমেন্টের মাধ্যমে এলিমেন্টের নির্দিষ্ট অংশ বাছাই করা যায়?",
+   "options": [
+    "div",
+    "mark",
+    "ins",
+    "span"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0183",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": "HTML-এর জনক কে?",
+   "options": [
+    "বিল গেটস",
+    "টিম বার্নার্স-লি",
+    "চার্লস ব্যাবেজ",
+    "মার্ক জাকারবার্গ"
+   ],
+   "correctAnswer": "1",
+   "explanation": "তিনি HTML ও WWW দুটোরই জনক।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0184",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": "প্রথম ওয়েবসাইট তৈরি হয় কবে?",
+   "options": [
+    "6 August 1991",
+    "1989",
+    "1990",
+    "1995"
+   ],
+   "correctAnswer": "0",
+   "explanation": "1989-এ WWW-এর ধারণা, 1990-এ HTML ও ব্রাউজার, 1991-এ প্রথম সাইট।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0185",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": "কোনটি Empty tag?",
+   "options": [
+    "<p>",
+    "<b>",
+    "<hr>",
+    "<table>"
+   ],
+   "correctAnswer": "2",
+   "explanation": "BHIM-IL সূত্র: br, hr, img, meta, input, link।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0186",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": "IPv6 কত বিটের?",
+   "options": [
+    "32",
+    "64",
+    "128",
+    "256"
+   ],
+   "correctAnswer": "2",
+   "explanation": "IPv4 = 32 bit, IPv6 = 128 bit।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0187",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": ".mil ডোমেইন কাদের জন্য?",
+   "options": [
+    "শিক্ষা",
+    "যুক্তরাষ্ট্রের প্রতিরক্ষা",
+    "অলাভজনক",
+    "আন্তর্জাতিক"
+   ],
+   "correctAnswer": "1",
+   "explanation": "mil = military।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0188",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": "ডোমেইন নেইম নিয়ন্ত্রণকারী প্রতিষ্ঠান কোনটি?",
+   "options": [
+    "ISP",
+    "ICANN",
+    "IEEE",
+    "W3C"
+   ],
+   "correctAnswer": "1",
+   "explanation": "Internet Corporation for Assigned Names and Numbers।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0189",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": "<td rowspan=\"3\"> কী করে?",
+   "options": [
+    "৩টি কলাম একত্র করে",
+    "৩টি সারি একত্র করে",
+    "৩টি টেবিল বানায়",
+    "৩ পিক্সেল ফাঁকা দেয়"
+   ],
+   "correctAnswer": "1",
+   "explanation": "row = সারি ↕।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0190",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": "H₂O লিখতে কোন ট্যাগ লাগে?",
+   "options": [
+    "<sup>",
+    "<sub>",
+    "<del>",
+    "<pre>"
+   ],
+   "correctAnswer": "1",
+   "explanation": "নিচে = sub।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0191",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": "লিংকটি নতুন ট্যাবে খুলতে কোনটি লাগে?",
+   "options": [
+    "href",
+    "target=\"_blank\"",
+    "src",
+    "alt"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0192",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": "ছবি লোড না হলে বিকল্প লেখা দেখায় কোন attribute?",
+   "options": [
+    "title",
+    "src",
+    "alt",
+    "border"
+   ],
+   "correctAnswer": "2",
+   "explanation": "alt = alternative text। title মাউস রাখলে দেখায়।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0193",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": "একাধিক অপশন একসাথে বাছাই করতে কোনটি?",
+   "options": [
+    "radio",
+    "checkbox",
+    "submit",
+    "password"
+   ],
+   "correctAnswer": "1",
+   "explanation": "radio-তে শুধু একটি।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0194",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": "PHP ও MySQL দিয়ে তৈরি সাইট কোথায় হোস্ট হয়?",
+   "options": [
+    "উইন্ডোজ সার্ভার",
+    "লিনাক্স সার্ভার",
+    "DNS সার্ভার",
+    "মেইল সার্ভার"
+   ],
+   "correctAnswer": "1",
+   "explanation": "Linux → PHP + MySQL।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0195",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": "ওয়েবপেইজের কাগজে-কলমে আঁকা ডিজাইনকে কী বলে?",
+   "options": [
+    "ব্লগ",
+    "ওয়্যারফ্রেম",
+    "হোস্টিং",
+    "পোর্টাল"
+   ],
+   "correctAnswer": "1",
+   "explanation": "একে পেজ স্কিম্যাটিক বা স্ক্রিন ব্লুপ্রিন্টও বলে।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0196",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": "<ol type=\"i\" start=\"4\">-এর প্রথম আইটেমের নম্বর কী?",
+   "options": [
+    "iv",
+    "d",
+    "4",
+    "IV"
+   ],
+   "correctAnswer": "0",
+   "explanation": "type i = ছোট রোমান; ৪র্থ = iv।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0197",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": "সবচেয়ে বেশি নিরাপদ কোনটি?",
+   "options": [
+    "ডাইনামিক সাইট",
+    "স্ট্যাটিক সাইট",
+    "দুটোই সমান",
+    "কোনোটিই নয়"
+   ],
+   "correctAnswer": "1",
+   "explanation": "স্ট্যাটিকে একমুখী কমিউনিকেশন।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0198",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": "URL-এর অংশ কয়টি?",
+   "options": [
+    "২",
+    "৩",
+    "৪",
+    "৫"
+   ],
+   "correctAnswer": "1",
+   "explanation": "Protocol, Host name, Directory path।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0199",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": "বাইনারি 00011010 দশমিকে কত?",
+   "options": [
+    "24",
+    "26",
+    "30",
+    "15"
+   ],
+   "correctAnswer": "1",
+   "explanation": "16+8+2 = 26।"
+  },
+  {
+   "id": "ict_1st_ch04_mcq_0200",
+   "kind": null,
+   "topic": "নোট থেকে অনুশীলন",
+   "question": "নিচের কোনটি HTML-এর ক্ষেত্রে সঠিক?",
+   "options": [
+    "Case sensitive",
+    "প্রোগ্রামিং ভাষা",
+    "এক্সটেনশন .html/.htm",
+    "শুধু Chrome-এ চলে"
+   ],
+   "correctAnswer": "2",
+   "explanation": "HTML case sensitive নয়, markup ভাষা, সব ব্রাউজারে চলে।"
+  }
+ ]
+}

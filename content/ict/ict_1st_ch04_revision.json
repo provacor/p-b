@@ -1,0 +1,60 @@
+{
+ "sectionId": "ict_1st_ch04_revision",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "ict_1st_ch04_revision_0001",
+   "kind": null,
+   "title": "ইতিহাস ও পূর্ণরূপ",
+   "body": "1989 WWW (টিম বার্নার্স-লি, CERN) • 1990 HTML + ব্রাউজার • 6 Aug 1991 প্রথম সাইট • সর্বশেষ HTML5\nHTML Hyper Text Markup Language • HTTP Hyper Text Transfer Protocol • URL Uniform Resource Locator • DNS Domain Name System • CSS Cascading Style Sheet • PHP Hypertext Preprocessor • ASP Active Server Pages • ICANN • ISP • SEO • KPI"
+  },
+  {
+   "id": "ict_1st_ch04_revision_0002",
+   "kind": null,
+   "title": "স্ট্যাটিক বনাম ডাইনামিক",
+   "body": "স্ট্যাটিক: HTML/CSS, স্থির, দ্রুত, নিরাপদ (একমুখী), সস্তা, সহজ, ডেটাবেজ নেই\nডাইনামিক: PHP/ASP/JAVA, পরিবর্তনশীল, ধীর, কম নিরাপদ (উভমুখী), দামি, জটিল, ডেটাবেজ আছে (ফেসবুক, WordPress)"
+  },
+  {
+   "id": "ict_1st_ch04_revision_0003",
+   "kind": null,
+   "title": "কাঠামো ও ডিজাইন",
+   "body": "লিনিয়ার (Next/Prev) • হায়ারার্কিক্যাল (গাছ) • হাইব্রিড (মিশ্র, কম মেমোরি) • ওয়েবলিংকড (সব যুক্ত, বেশি মেমোরি)\n৭ ধাপ: পরিকল্পনা → ইনফো আর্কিটেকচার → ডিজাইন (ওয়্যারফ্রেম) → প্রোগ্রামিং → টেস্টিং → গণযোগাযোগ → সফলতা (KPI)\n৪ মূলনীতি: যৌক্তিকতা, সহজবোধ্যতা, সামঞ্জস্যতা, সহজ প্রাপ্যতা"
+  },
+  {
+   "id": "ict_1st_ch04_revision_0004",
+   "kind": null,
+   "title": "ঠিকানা",
+   "body": "IPv4 = 32 bit (4 octet, 0–255), IPv6 = 128 bit • Domain = IP-এর আলফা-নিউমেরিক নাম (TLD + 2nd level) • .com বাণিজ্য .net নেটওয়ার্ক .edu শিক্ষা .gov সরকার .int আন্তর্জাতিক .mil সামরিক .org অলাভজনক • URL = Protocol + Host + Path • HTTP = request–response, HTTPS = secure, FTP = ফাইল • Windows hosting = ASP + SQL Server, Linux = PHP + MySQL • সাইট খুলতে: ডোমেইন → ডিজাইন → হোস্টিং → SEO"
+  },
+  {
+   "id": "ict_1st_ch04_revision_0005",
+   "kind": null,
+   "title": "HTML মূল বিষয়",
+   "body": "Markup ভাষা, case-insensitive, .html/.htm, Notepad • প্রাণ: Tag, Element, Attribute (name=\"value\", শুধু opening tag-এ) • Container (খোলা+বন্ধ) বনাম Empty: br, hr, img, meta, input, link\nকাঠামো: <!DOCTYPE html> <html> <head><title> </head> <body> </body> </html>"
+  },
+  {
+   "id": "ict_1st_ch04_revision_0006",
+   "kind": null,
+   "title": "ট্যাগ — এক নজরে",
+   "body": "b/strong বোল্ড • i/em ইটালিক • u/ins আন্ডারলাইন • sub/sup নিচে/উপরে • del/q কাটা/\"উদ্ধৃতি\" • pre হুবহু space • p/br অনুচ্ছেদ/লাইন • h1–h6 (h1 সবচেয়ে বড়) • font: face, size (1–7, ডি. 3), color • body bgcolor পেইজের রং • ol type 1 a A i I, start • ul disc circle square • dl dt dd সংজ্ঞা লিস্ট • img src alt width height border title • a href, target=\"_blank\" • audio mp3 wav ogg / video mp4 webm ogg"
+  },
+  {
+   "id": "ict_1st_ch04_revision_0007",
+   "kind": null,
+   "title": "টেবিল ও ফর্ম",
+   "body": "table: border cellspacing cellpadding bgcolor width • tr th td caption = সারি, হেডিং, ডেটা, শিরোনাম • rowspan ↕ সারি মেলায় • colspan ↔ কলাম মেলায় • align left center right • valign top middle bottom\nform action, method • input type: text email password date radio checkbox submit reset • select/option ড্রপ ডাউন • textarea বহু লাইন (rows cols)"
+  },
+  {
+   "id": "ict_1st_ch04_revision_0008",
+   "kind": null,
+   "title": "শর্টকাট",
+   "body": "Empty tag চেনা: BHIM-IL — br, hr, img, meta, input, link • স্ট্যাটিক না ডাইনামিক: ডেটাবেজ/লগইন/PHP/ASP/ফেসবুক → ডাইনামিক; শুধু HTML-CSS/ব্যক্তিগত → স্ট্যাটিক • কাঠামো চেনা: Next/Previous → লিনিয়ার; গাছের মতো → হায়ারার্কিক্যাল; সব পরস্পর যুক্ত → ওয়েবলিংকড; মিশ্র + কম মেমোরি → হাইব্রিড • ছবিতে ক্লিক → লিংক: <a href=\"…\"><img src=\"…\"></a> • Internal/External লিংক: href-এ http:// থাকলে External, শুধু ফাইলের নাম থাকলে Internal • checkbox/radio: একাধিক বাছাই → checkbox; একটিমাত্র → radio (একই name); অপশন বেশি → select"
+  },
+  {
+   "id": "ict_1st_ch04_revision_0009",
+   "kind": null,
+   "title": "শেষ সতর্কতা",
+   "body": "Internal লিংক = শুধু ফাইলের নাম; External = http:// সহ • ছবিতে লিংক = a-এর ভিতরে img • নীল #0000FF, সবুজ #008000, বেগুনী #800080 • caption টেবিলের ভিতরে • rowspan ঘর শুধু প্রথম সারিতে • সারি↔কলাম: ডানে→নিচে, rowspan↔colspan"
+  }
+ ]
+}

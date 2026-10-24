@@ -1,0 +1,643 @@
+{
+ "sectionId": "ict_1st_ch04_concept",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "ict_1st_ch04_concept_0001",
+   "kind": null,
+   "topic": "পূর্ণরূপ (Abbreviation)",
+   "title": "পূর্ণরূপ (Abbreviation)",
+   "body": "MCQ-তে সরাসরি আসে"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0002",
+   "kind": null,
+   "topic": "পূর্ণরূপ (Abbreviation)",
+   "title": "HTML",
+   "body": "Hyper Text Markup Language — ওয়েবপেইজ তৈরির মার্কআপ ভাষা"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0003",
+   "kind": null,
+   "topic": "পূর্ণরূপ (Abbreviation)",
+   "title": "URL",
+   "body": "Uniform Resource Locator — ফাইল/তথ্যের সঠিক ঠিকানা"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0004",
+   "kind": null,
+   "topic": "পূর্ণরূপ (Abbreviation)",
+   "title": "WWW",
+   "body": "World Wide Web — জনক টিম বার্নার্স-লি"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0005",
+   "kind": null,
+   "topic": "পূর্ণরূপ (Abbreviation)",
+   "title": "DNS",
+   "body": "Domain Name System — IP ↔ ডোমেইন নেইম অনুবাদ করে"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0006",
+   "kind": null,
+   "topic": "পূর্ণরূপ (Abbreviation)",
+   "title": "HTTP / HTTPS",
+   "body": "Hyper Text Transfer Protocol (Secure) — client–server তথ্য আদান-প্রদান"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0007",
+   "kind": null,
+   "topic": "পূর্ণরূপ (Abbreviation)",
+   "title": "FTP / SMTP",
+   "body": "File Transfer Protocol (ফাইল) • Simple Mail Transfer Protocol (ই-মেইল)"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0008",
+   "kind": null,
+   "topic": "পূর্ণরূপ (Abbreviation)",
+   "title": "CSS / PHP / ASP",
+   "body": "Cascading Style Sheet • Hypertext Preprocessor • Active Server Pages"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0009",
+   "kind": null,
+   "topic": "পূর্ণরূপ (Abbreviation)",
+   "title": "ICANN / ISP",
+   "body": "Internet Corporation for Assigned Names and Numbers (ডোমেইন নিয়ন্ত্রণ) • Internet Service Provider"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0010",
+   "kind": null,
+   "topic": "পূর্ণরূপ (Abbreviation)",
+   "title": "SEO / KPI",
+   "body": "Search Engine Optimization • Key Performance Indicator"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0011",
+   "kind": null,
+   "topic": "পূর্ণরূপ (Abbreviation)",
+   "title": "ছবির ফরম্যাট",
+   "body": "JPG/JPEG = Joint Photographic Experts Group • PNG = Portable Network Graphics • GIF = Graphics Interchange Format • BMP = Bitmap Image File"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0012",
+   "kind": null,
+   "topic": "ওয়েবের ইতিহাস ও মৌলিক ধারণা",
+   "title": "সময়রেখা",
+   "body": "1989 টিম বার্নার্স-লি WWW-এর ধারণা (CERN) • 1990 প্রথম ব্রাউজার ও HTML • 6 August 1991 প্রথম ওয়েবসাইট • সর্বশেষ HTML5"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0013",
+   "kind": null,
+   "topic": "ওয়েবের ইতিহাস ও মৌলিক ধারণা",
+   "title": "টিম বার্নার্স-লি",
+   "body": "HTML-এর জনক ও WWW-এর জনক"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0014",
+   "kind": null,
+   "topic": "ওয়েবের ইতিহাস ও মৌলিক ধারণা",
+   "title": "Hypertext / Hyperlink / Hypermedia",
+   "body": "লিখিত তথ্য (লিংকসহ) • যে ঠিকানায় Hypertext পাওয়া যায় • ছবি, অডিও, ভিডিও"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0015",
+   "kind": null,
+   "topic": "ওয়েবের ইতিহাস ও মৌলিক ধারণা",
+   "title": "ওয়েব ব্রাউজার",
+   "body": "ওয়েবপেইজ খুঁজে দেখার সফটওয়্যার: Google Chrome, Opera, Mozilla Firefox, Safari, Mosaic, Microsoft Edge"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0016",
+   "kind": null,
+   "topic": "ওয়েবের ইতিহাস ও মৌলিক ধারণা",
+   "title": "সার্চ ইঞ্জিন ও ওয়েব সার্ভার",
+   "body": "Google, Bing, Yahoo, Ask.com • সার্ভার = যেখানে ওয়েবসাইট হোস্ট করা হয়"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0017",
+   "kind": null,
+   "topic": "ওয়েবের ইতিহাস ও মৌলিক ধারণা",
+   "title": "ওয়েবপেইজ",
+   "body": "ইন্টারনেট সার্ভারে রাখা ওয়েব ডকুমেন্ট যা ব্রাউজারে দেখা যায়"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0018",
+   "kind": null,
+   "topic": "ওয়েবের ইতিহাস ও মৌলিক ধারণা",
+   "title": "ওয়েবসাইট",
+   "body": "একই ডোমেইনের অধীনে পরস্পর সম্পর্কযুক্ত ওয়েবপেইজের সমষ্টি"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0019",
+   "kind": null,
+   "topic": "ওয়েবের ইতিহাস ও মৌলিক ধারণা",
+   "title": "হোমপেইজ",
+   "body": "ওয়েবসাইটে ঢুকলে প্রথম যে পেইজ দেখা যায় (Index Page, index.html)"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0020",
+   "kind": null,
+   "topic": "ওয়েবের ইতিহাস ও মৌলিক ধারণা",
+   "title": "ওয়েব পোর্টাল",
+   "body": "গুরুত্বপূর্ণ তথ্য ও লিংক সাজানো বিশেষ ওয়েবপেইজ — bangladesh.gov.bd"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0021",
+   "kind": null,
+   "topic": "ওয়েবের ইতিহাস ও মৌলিক ধারণা",
+   "title": "প্রোটোকল",
+   "body": "কম্পিউটারের মধ্যে ডেটা আদান-প্রদানের নিয়মনীতি — http, https, FTP, SMTP"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0022",
+   "kind": null,
+   "topic": "স্ট্যাটিক বনাম ডাইনামিক",
+   "title": "স্ট্যাটিক",
+   "body": "লোডের পর পরিবর্তন হয় না • HTML, CSS • ব্যক্তিগত সাইট • বেশি নিরাপদ (একমুখী) • দ্রুত লোড • খরচ কম • তৈরি সহজ • ডেটাবেজ সাধারণত থাকে না"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0023",
+   "kind": null,
+   "topic": "স্ট্যাটিক বনাম ডাইনামিক",
+   "title": "ডাইনামিক",
+   "body": "ব্যবহারকারী অনুযায়ী পরিবর্তন হয় • PHP, ASP, JAVA • ফেসবুক, Joomla, WordPress • কম নিরাপদ (উভমুখী) • ধীর • ডেটাবেজ থাকে • খরচ বেশি"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0024",
+   "kind": null,
+   "topic": "স্ট্যাটিক বনাম ডাইনামিক",
+   "title": "সূত্র SFC-SS",
+   "body": "স্ট্যাটিক = Safe, Fast, Cheap, Simple, Still"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0025",
+   "kind": null,
+   "topic": "ওয়েবসাইটের কাঠামো",
+   "title": "ওয়েবসাইটের কাঠামো",
+   "body": "হোম পেইজ → মূল ধারার পেইজ → উপধারার পেইজ"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0026",
+   "kind": null,
+   "topic": "ওয়েবসাইটের কাঠামো",
+   "title": "লিনিয়ার / সিকুয়েন্স",
+   "body": "নির্দিষ্ট ক্রমানুসারে — Next, Previous, First, Last লিংক (অনলাইন বই)"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0027",
+   "kind": null,
+   "topic": "ওয়েবসাইটের কাঠামো",
+   "title": "হায়ারার্কিক্যাল / ট্রি",
+   "body": "গাছের মতো শাখা-প্রশাখা; উপর থেকে নিচে (বিশ্ববিদ্যালয় সাইট)"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0028",
+   "kind": null,
+   "topic": "ওয়েবসাইটের কাঠামো",
+   "title": "হাইব্রিড / কম্বিনেশন",
+   "body": "দুই বা ততোধিক কাঠামোর মিশ্রণ — মেমোরি কম, সৌন্দর্য বৃদ্ধি"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0029",
+   "kind": null,
+   "topic": "ওয়েবসাইটের কাঠামো",
+   "title": "ওয়েবলিংকড / নেটওয়ার্ক",
+   "body": "সব পেইজ পরস্পর যুক্ত — জটিল, বেশি মেমোরি"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0030",
+   "kind": null,
+   "topic": "ওয়েব ডিজাইনিং",
+   "title": "ওয়েব ডিজাইনিং",
+   "body": "ওয়েবসাইটের বাহ্যিক রূপ ও কার্যকারিতা নির্ধারণ"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0031",
+   "kind": null,
+   "topic": "ওয়েব ডিজাইনিং",
+   "title": "৭ ধাপ",
+   "body": "পরিকল্পনা → ইনফরমেশন আর্কিটেকচার → ডিজাইন (ওয়্যারফ্রেম) → প্রোগ্রামিং → টেস্টিং → গণযোগাযোগ → সফলতা নিরূপণ (KPI)"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0032",
+   "kind": null,
+   "topic": "ওয়েব ডিজাইনিং",
+   "title": "ওয়্যারফ্রেম",
+   "body": "কাগজে-কলমে আঁকা ডিজাইন — পেজ স্কিম্যাটিক বা স্ক্রিন ব্লুপ্রিন্ট"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0033",
+   "kind": null,
+   "topic": "ওয়েব ডিজাইনিং",
+   "title": "৪ মূলনীতি",
+   "body": "যৌক্তিকতা, সহজবোধ্যতা, সামঞ্জস্যতা, সহজ প্রাপ্যতা"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0034",
+   "kind": null,
+   "topic": "IP, Domain, URL",
+   "title": "IP Address",
+   "body": "IPv4 = 32 bit (4 octet, প্রতিটি 0–255) • IPv6 = 128 bit"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0035",
+   "kind": null,
+   "topic": "IP, Domain, URL",
+   "title": "বাইনারি → দশমিক",
+   "body": "128 64 32 16 8 4 2 1 — যে ঘরে 1 তাদের যোগফল; 00011000.00001111.00011010.00011110 = 24.15.26.30"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0036",
+   "kind": null,
+   "topic": "IP, Domain, URL",
+   "title": "Domain Name",
+   "body": "IP-এর আলফা-নিউমেরিক নাম • নিয়ন্ত্রণকারী ICANN"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0037",
+   "kind": null,
+   "topic": "IP, Domain, URL",
+   "title": "ডোমেইনের অংশ",
+   "body": "টপ লেভেল (.com/.bd) • সেকেন্ড লেভেল (প্রতিষ্ঠানের নাম) • হোস্ট নেইম (www)"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0038",
+   "kind": null,
+   "topic": "IP, Domain, URL",
+   "title": "TLD",
+   "body": ".com বাণিজ্যিক • .net নেটওয়ার্ক • .edu শিক্ষা • .gov সরকারি • .int আন্তর্জাতিক • .mil সামরিক • .org অলাভজনক"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0039",
+   "kind": null,
+   "topic": "IP, Domain, URL",
+   "title": "URL-এর ৩ অংশ",
+   "body": "Protocol • Host Name • Directory Path (File Name)"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0040",
+   "kind": null,
+   "topic": "IP, Domain, URL",
+   "title": "HTTP / HTTPS / FTP",
+   "body": "request–response protocol • নিরাপদ (Secure) HTTP • ফাইল আদান-প্রদান"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0041",
+   "kind": null,
+   "topic": "হোস্টিং ও পাবলিশিং",
+   "title": "ওয়েব হোস্টিং",
+   "body": "ওয়েবের ফাইল সার্ভারে রাখা — সাধারণত ISP দেয়"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0042",
+   "kind": null,
+   "topic": "হোস্টিং ও পাবলিশিং",
+   "title": "উইন্ডোজ বনাম লিনাক্স",
+   "body": "Windows → ASP + SQL Server • Linux → PHP + MySQL"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0043",
+   "kind": null,
+   "topic": "হোস্টিং ও পাবলিশিং",
+   "title": "সাইট পাবলিশের ৪ ধাপ",
+   "body": "ডোমেইন নেইম রেজিস্ট্রেশন → ওয়েবপেইজ ডিজাইন → হোস্টিং → সার্চ ইঞ্জিনে যুক্ত করা (SEO)"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0044",
+   "kind": null,
+   "topic": "হোস্টিং ও পাবলিশিং",
+   "title": "ডোমেইন বনাম হোস্টিং",
+   "body": "ডোমেইন = সাইটের নাম/ঠিকানা • হোস্টিং = ফাইল রাখার জায়গা"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0045",
+   "kind": null,
+   "topic": "HTML পরিচিতি",
+   "title": "HTML পরিচিতি",
+   "body": "Markup Language — প্রোগ্রামিং ভাষা নয়"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0046",
+   "kind": null,
+   "topic": "HTML পরিচিতি",
+   "title": "মৌলিক তথ্য",
+   "body": "Text editor (Notepad) দিয়ে লেখা • .html / .htm • case sensitive নয় • ১৯৯০-এ টিম বার্নার্স-লি"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0047",
+   "kind": null,
+   "topic": "HTML পরিচিতি",
+   "title": "৫ সুবিধা",
+   "body": "সহজ • সব ব্রাউজার সমর্থন • ফ্রি এডিটর • অডিও-ভিডিও যুক্ত করা যায় • ইউজার ফ্রেন্ডলি"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0048",
+   "kind": null,
+   "topic": "HTML পরিচিতি",
+   "title": "Tag",
+   "body": "সাংকেতিক চিহ্ন — angle bracket < > এর ভিতরে keyword; শেষ বোঝাতে /"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0049",
+   "kind": null,
+   "topic": "HTML পরিচিতি",
+   "title": "Container tag",
+   "body": "Opening ও Closing দুটোই আছে — <b>, <html>, <p>, <table>"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0050",
+   "kind": null,
+   "topic": "HTML পরিচিতি",
+   "title": "Empty tag",
+   "body": "শুধু Opening — BHIM-IL: br, hr, img, meta, input, link"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0051",
+   "kind": null,
+   "topic": "HTML পরিচিতি",
+   "title": "Element",
+   "body": "Start tag + Content + Closing tag"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0052",
+   "kind": null,
+   "topic": "HTML পরিচিতি",
+   "title": "Attribute",
+   "body": "Name ও Value — সবসময় Opening tag-এর ভিতরে, যেমন align=\"center\""
+  },
+  {
+   "id": "ict_1st_ch04_concept_0053",
+   "kind": null,
+   "topic": "মৌলিক কাঠামো ও টেক্সট",
+   "title": "Basic tag",
+   "body": "<!DOCTYPE html> • <html> • <head> • <title> (head-এর মাঝে) • <body>"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0054",
+   "kind": null,
+   "topic": "মৌলিক কাঠামো ও টেক্সট",
+   "title": "Head ও Body Section",
+   "body": "Head: title, style, link, meta — পেইজে দেখা যায় না • Body: ব্রাউজারে যা দেখা যায়"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0055",
+   "kind": null,
+   "topic": "মৌলিক কাঠামো ও টেক্সট",
+   "title": "Paragraph ও Break",
+   "body": "<p> নতুন অনুচ্ছেদ • <br> নতুন লাইন • একাধিক space/Enter = একটি space"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0056",
+   "kind": null,
+   "topic": "মৌলিক কাঠামো ও টেক্সট",
+   "title": "<pre>",
+   "body": "Preformatted — যেমন লেখা তেমনই দেখায়"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0057",
+   "kind": null,
+   "topic": "মৌলিক কাঠামো ও টেক্সট",
+   "title": "Heading h1–h6",
+   "body": "h1 সবচেয়ে বড়, h6 সবচেয়ে ছোট"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0058",
+   "kind": null,
+   "topic": "মৌলিক কাঠামো ও টেক্সট",
+   "title": "Comment",
+   "body": "<!-- comments --> — ব্রাউজার দেখায় না"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0059",
+   "kind": null,
+   "topic": "মৌলিক কাঠামো ও টেক্সট",
+   "title": "Formatting tag",
+   "body": "b/strong মোটা • i/em বাঁকা • u/ins আন্ডারলাইন • sub নিচে • sup উপরে • del কাটা • q উদ্ধৃতি"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0060",
+   "kind": null,
+   "topic": "Font, রং ও ব্যাকগ্রাউন্ড",
+   "title": "<font>",
+   "body": "Attribute: face (ফন্ট), size (1–7, ডিফল্ট 3; +n/−n), color"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0061",
+   "kind": null,
+   "topic": "Font, রং ও ব্যাকগ্রাউন্ড",
+   "title": "রং-এর ৩ পদ্ধতি",
+   "body": "নাম • Hexa code #RRGGBB • rgb(r,g,b)"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0062",
+   "kind": null,
+   "topic": "Font, রং ও ব্যাকগ্রাউন্ড",
+   "title": "Hexa code",
+   "body": "লাল #FF0000 • সবুজ #008000 (Lime #00FF00) • নীল #0000FF • সাদা #FFFFFF • কালো #000000 • হলুদ #FFFF00 • বেগুনী #800080"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0063",
+   "kind": null,
+   "topic": "Font, রং ও ব্যাকগ্রাউন্ড",
+   "title": "bgcolor",
+   "body": "<body bgcolor=\"yellow\"> — পেইজের ব্যাকগ্রাউন্ড"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0064",
+   "kind": null,
+   "topic": "Font, রং ও ব্যাকগ্রাউন্ড",
+   "title": "বাংলা লেখা",
+   "body": "MS Word-এ লিখে font face=\"SutonnyMJ\" ট্যাগের মাঝে পেস্ট"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0065",
+   "kind": null,
+   "topic": "লিস্ট",
+   "title": "ol",
+   "body": "Ordered list — type: 1, a, A, i, I • start সবসময় সংখ্যা (x = 24)"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0066",
+   "kind": null,
+   "topic": "লিস্ট",
+   "title": "ul",
+   "body": "Unordered list — type: disc (ডিফল্ট), circle, square"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0067",
+   "kind": null,
+   "topic": "লিস্ট",
+   "title": "li",
+   "body": "প্রতিটি উপাদান"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0068",
+   "kind": null,
+   "topic": "লিস্ট",
+   "title": "dl, dt, dd",
+   "body": "Definition list — term ও description"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0069",
+   "kind": null,
+   "topic": "লিস্ট",
+   "title": "Nested list",
+   "body": "list-এর ভিতরে sub list — parent <li>-এর ভিতরে"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0070",
+   "kind": null,
+   "topic": "ছবি, অডিও, ভিডিও",
+   "title": "<img>",
+   "body": "Empty tag • src (বাধ্যতামূলক), alt, width, height, border, title"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0071",
+   "kind": null,
+   "topic": "ছবি, অডিও, ভিডিও",
+   "title": "ফোল্ডারের ছবি",
+   "body": "src=\"A/B/folder.jpg\" — যত ফোল্ডার তত /"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0072",
+   "kind": null,
+   "topic": "ছবি, অডিও, ভিডিও",
+   "title": "<audio>",
+   "body": "MP3, WAV, OGG"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0073",
+   "kind": null,
+   "topic": "ছবি, অডিও, ভিডিও",
+   "title": "<video>",
+   "body": "MP4, WebM, OGG"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0074",
+   "kind": null,
+   "topic": "হাইপারলিংক",
+   "title": "হাইপারলিংক",
+   "body": "<a href=\"url\">Text</a> — a = anchor"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0075",
+   "kind": null,
+   "topic": "হাইপারলিংক",
+   "title": "href ও target",
+   "body": "href বাধ্যতামূলক • target=\"_blank\" নতুন ট্যাবে"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0076",
+   "kind": null,
+   "topic": "হাইপারলিংক",
+   "title": "Internal বনাম External",
+   "body": "একই সার্ভারে, শুধু ফাইলের নাম • ভিন্ন সার্ভারে, Protocol + Host + ফাইল"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0077",
+   "kind": null,
+   "topic": "হাইপারলিংক",
+   "title": "ছবিতে লিংক",
+   "body": "<a href=\"…\"><img src=\"…\"></a>"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0078",
+   "kind": null,
+   "topic": "টেবিল",
+   "title": "টেবিল",
+   "body": "সারি বরাবর কাজ — প্রথমে <tr>, তারপর বাম থেকে ডানে ঘর"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0079",
+   "kind": null,
+   "topic": "টেবিল",
+   "title": "Tag",
+   "body": "table • caption (table-এর ঠিক পরে) • tr সারি • th হেডিং (মোটা, মাঝে) • td ডেটা"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0080",
+   "kind": null,
+   "topic": "টেবিল",
+   "title": "Attribute",
+   "body": "border • cellspacing • cellpadding • width/height • bgcolor"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0081",
+   "kind": null,
+   "topic": "টেবিল",
+   "title": "rowspan",
+   "body": "ঘর নিচের দিকে লম্বা — শুধু প্রথম সারিতে লিখবে"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0082",
+   "kind": null,
+   "topic": "টেবিল",
+   "title": "colspan",
+   "body": "ঘর ডানে চওড়া"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0083",
+   "kind": null,
+   "topic": "টেবিল",
+   "title": "align ও valign",
+   "body": "align: left/center/right (td ডিফল্ট left) • valign: top/middle/bottom (ডিফল্ট middle)"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0084",
+   "kind": null,
+   "topic": "টেবিল",
+   "title": "bgcolor অগ্রাধিকার",
+   "body": "td > tr > table"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0085",
+   "kind": null,
+   "topic": "টেবিল",
+   "title": "সারি ↔ কলাম রূপান্তর",
+   "body": "ডানে → নিচে, নিচে → ডানে; rowspan ↔ colspan অদলবদল"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0086",
+   "kind": null,
+   "topic": "টেবিল",
+   "title": "যাচাই",
+   "body": "প্রতিটি সারিতে (নিজের ঘর + উপর থেকে আসা rowspan) = মোট কলাম"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0087",
+   "kind": null,
+   "topic": "ফর্ম",
+   "title": "ফর্ম",
+   "body": "<form action=\"…\" method=\"get\"> — ফর্মের ভিতর ফর্ম নয়"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0088",
+   "kind": null,
+   "topic": "ফর্ম",
+   "title": "<textarea>",
+   "body": "বহু লাইন — rows, cols"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0089",
+   "kind": null,
+   "topic": "ফর্ম",
+   "title": "<select>",
+   "body": "ড্রপ ডাউন/scrolling list — ভিতরে <option value=\"…\">"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0090",
+   "kind": null,
+   "topic": "ফর্ম",
+   "title": "<input>",
+   "body": "Empty tag — type: text, email, password, date, radio, checkbox, submit, reset"
+  },
+  {
+   "id": "ict_1st_ch04_concept_0091",
+   "kind": null,
+   "topic": "ফর্ম",
+   "title": "checkbox বনাম radio",
+   "body": "একাধিক বাছাই → checkbox • একটিমাত্র → radio (একই name) • অপশন বেশি → select"
+  }
+ ]
+}

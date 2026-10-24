@@ -1,0 +1,96 @@
+{
+ "sectionId": "ict_1st_ch05_revision",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "ict_1st_ch05_revision_0001",
+   "kind": null,
+   "title": "প্রোগ্রাম ও ভাষা",
+   "body": "প্রোগ্রাম = ধাপে ধাপে নির্দেশাবলি • প্রবর্তক Ada Lovelace • IPO = Input-Process-Output • Bug = ত্রুটি, Debugging = সংশোধন, Dry Run = হাতে যাচাই • ভুল ৩: Data, Logical (চলে কিন্তু ভুল ফল), Syntax (চলেই না)"
+  },
+  {
+   "id": "ict_1st_ch05_revision_0002",
+   "kind": null,
+   "title": "কম্পিউটার সংগঠন",
+   "body": "Input → CPU (ALU + CU + Memory) → Output • RAM = Volatile • ROM/HDD/SSD = Non-volatile"
+  },
+  {
+   "id": "ict_1st_ch05_revision_0003",
+   "kind": null,
+   "title": "প্রজন্ম",
+   "body": "1GL মেশিন (0,1) • 2GL অ্যাসেম্বলি (ADD, SUB; নেমোনিক) • 3GL উচ্চস্তর (C, Java, Python, FORTRAN, COBOL) • 4GL SQL, Oracle • 5GL PROLOG, LISP (AI) • মিড লেভেল = C"
+  },
+  {
+   "id": "ict_1st_ch05_revision_0004",
+   "kind": null,
+   "title": "মেশিন বনাম উচ্চস্তর",
+   "body": "মেশিন: সরাসরি বোঝে, অনুবাদক নেই, দ্রুত, যন্ত্র নির্ভর, Object program • উচ্চস্তর: অনুবাদক লাগে, Portable, সহজ, Source program"
+  },
+  {
+   "id": "ict_1st_ch05_revision_0005",
+   "kind": null,
+   "title": "অনুবাদক",
+   "body": "Assembler: অ্যাসেম্বলি→মেশিন • Compiler: পুরো প্রোগ্রাম একসাথে, Object code, দ্রুত চলে, বেশি মেমোরি (C, C++) • Interpreter: লাইন-বাই-লাইন, Object code নেই, ভুল ধরা সহজ (Python, BASIC)"
+  },
+  {
+   "id": "ict_1st_ch05_revision_0006",
+   "kind": null,
+   "title": "প্রোগ্রাম তৈরির ৭ ধাপ",
+   "body": "নির্দিষ্টকরণ → বিশ্লেষণ → ডিজাইন (সবচেয়ে গুরুত্বপূর্ণ) → কোডিং → বাস্তবায়ন (Testing + Debugging) → ডকুমেন্টেশন → রক্ষণাবেক্ষণ"
+  },
+  {
+   "id": "ict_1st_ch05_revision_0007",
+   "kind": null,
+   "title": "অ্যালগরিদম ও ফ্লোচার্ট",
+   "body": "Algorithm = লেখা ধাপ (সহজবোধ্য, সসীম, সার্বজনীন) • Flowchart = চিত্ররূপ • ডিম্ব শুরু/শেষ • সামান্তরিক I/O • আয়ত প্রসেস • হীরা সিদ্ধান্ত • বৃত্ত সংযোগ • দুই-দাগ আয়ত সাবরুটিন • ষড়ভুজ লুপ • ৫ লজিক: Sequential, Decision, Loop, Jump, Subroutine"
+  },
+  {
+   "id": "ict_1st_ch05_revision_0008",
+   "kind": null,
+   "title": "C ভাষা",
+   "body": "Dennis Ritchie, 1972, Bell Labs • main() থেকে শুরু • প্রতি লাইনে ; • case sensitive • গঠন: Documentation → Link → Definition → Global → main → Subprogram"
+  },
+  {
+   "id": "ict_1st_ch05_revision_0009",
+   "kind": null,
+   "title": "ডেটা টাইপ ও চলকের নাম",
+   "body": "char 1 (%c) • int 2 [gcc 4] (%d) • float 4 (%f) • double 8 (%lf) • Built-in / User-defined / Derived (Array, Pointer)\nচলকের নাম: অক্ষর/_ দিয়ে শুরু • A-Z a-z 0-9 _ • স্পেস/চিহ্ন/keyword নিষেধ • Std_1 ✓ 1std ✗ Std.1 ✗ int ✗"
+  },
+  {
+   "id": "ict_1st_ch05_revision_0010",
+   "kind": null,
+   "title": "I/O ও অপারেটর",
+   "body": "scanf(\"%d\",&a) — & আবশ্যক • printf(\"%d\",a) • \\n নতুন লাইন • // ও /* */ কমেন্ট • % = ভাগশেষ • == তুলনা • && || ! • i++ (post) ++i (pre) • << ×2 >> ÷2 • int/int = int"
+  },
+  {
+   "id": "ict_1st_ch05_revision_0011",
+   "kind": null,
+   "title": "শর্ত ও লুপ",
+   "body": "if-else • else-if ladder • nested • switch (প্রতি case-এ break) • while (০ বার সম্ভব) • do-while (≥১ বার, শেষে ;) • for(init; cond; update) • break = বের, continue = টপকানো"
+  },
+  {
+   "id": "ict_1st_ch05_revision_0012",
+   "kind": null,
+   "title": "ফাংশন, অ্যারে",
+   "body": "Library (printf, sqrt) বনাম User-defined • void = কিছু ফেরত দেয় না • int A[10] → index 0–9 • String = char-এর Array, শেষে \\0"
+  },
+  {
+   "id": "ict_1st_ch05_revision_0013",
+   "kind": null,
+   "title": "সূত্র ও সিরিজ",
+   "body": "C/5 = (F−32)/9 = (K−273)/5 • ½bh → 0.5*b*h • হেরন s=(a+b+c)/2 • πr² → 3.1416*r*r • Leap: ÷400 OR (÷4 AND ÷100 না) • GCD: R=L%S, L=S, S=R\nসিরিজ: যোগে S=0, গুণে S=1 • শুরু = ১ম পদ • step = ২য় − ১ম • বর্গ K*K, ঘন K*K*K • শর্ত K≤N"
+  },
+  {
+   "id": "ict_1st_ch05_revision_0014",
+   "kind": null,
+   "title": "মাস্টার-ট্রিকস",
+   "body": "\"মা-অ-উ-অতি-স্বা\" (প্রজন্ম) • \"নি-বি-ডি-কো-বা-ড-র\" (৭ ধাপ) • \"ভোলা RAM\" • \"রিচি-র ৭২-এ বেল\" • \"<< গুণ, >> ভাগ\" • \"Break = দরজা, Continue = টপকানো\" • বৃহত্তম >, ক্ষুদ্রতম <"
+  },
+  {
+   "id": "ict_1st_ch05_revision_0015",
+   "kind": null,
+   "title": "শর্টকাট",
+   "body": "মেশিন, অ্যাসেম্বলি নাকি হাই-লেভেল? শুধু 0,1 → মেশিন; ADD/SUB/MOV → অ্যাসেম্বলি; if/while/printf → হাই-লেভেল • Compiler নাকি Interpreter? পুরো প্রোগ্রাম একসাথে + Object code → Compiler (C, C++); লাইন-বাই-লাইন, Object code নেই → Interpreter (Python, BASIC) • লুপ প্রশ্ন: শুধু ৩টা বদলায় — শুরুর মান, step, শেষ সীমা • while vs do-while: শর্ত আগে → while (০ বার চলতে পারে); body আগে → do-while (≥১ বার)"
+  }
+ ]
+}
