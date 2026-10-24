@@ -3,11 +3,12 @@
 // A question counts as "mastered" after two right answers in a row; wrong ones come back sooner,
 // and wrong MCQs also go to the spaced-review list (learn.js).
 
-import { esc } from './components.js?v=202610241631';
-import { everWrong } from './learn.js?v=202610241631';
-import { recordAnswer, finishRecord, masteryOf, isMastered, bestOf, starsOf, soundOn, toggleSound } from './learnstore.js?v=202610241631';
-import { questionsOf, recallOf, ordersOf, answersOf, compatible, ansOf } from './gamedata.js?v=202610241631';
-import { motionReduced } from './a11y.js?v=202610241631';
+import { esc } from './components.js?v=202610241647';
+import { everWrong } from './learn.js?v=202610241647';
+import { recordAnswer, finishRecord, masteryOf, isMastered, bestOf, starsOf, soundOn, toggleSound } from './learnstore.js?v=202610241647';
+import { recordMcqMistake } from './mistakes.js?v=202610241647';
+import { questionsOf, recallOf, ordersOf, answersOf, compatible, ansOf, topicName as tpNameOf } from './gamedata.js?v=202610241647';
+import { motionReduced } from './a11y.js?v=202610241647';
 
 export const bn = (s) => String(s).replace(/\d/g, (d) => '০১২৩৪৫৬৭৮৯'[d]);
 export const shuffle = (a) => {
@@ -18,7 +19,7 @@ export const shuffle = (a) => {
 const LETTER = 'কখগঘঙ';
 
 // ---------- saved progress: the shared learning store (learnstore.js) ----------
-export { masteryOf, isMastered, bestOf, starsOf, xp, playerLevel, soundOn, toggleSound } from './learnstore.js?v=202610241631';
+export { masteryOf, isMastered, bestOf, starsOf, xp, playerLevel, soundOn, toggleSound } from './learnstore.js?v=202610241647';
 const answered = (q, ok, opts) => recordAnswer(q, ok, opts);
 const finish = (key, score, stars = null) => finishRecord(key, score, stars);
 
@@ -135,9 +136,27 @@ function endScreen(el, ctx, r) {
       </div>
       ${wrong.length ? `<details class="gm-review" open><summary>যেগুলো ভুল হয়েছে (${bn(wrong.length)}টি) — এগুলো ঠিক করে নাও</summary>
         ${wrong.map((q) => `<div class="gm-rv"><p class="gm-rv-q">${esc(q.q)}</p><p class="gm-rv-a">✓ ${esc(q.opts[q.right].t)}</p>${q.exp ? `<p class="gm-rv-e">${esc(q.exp)}</p>` : ''}</div>`).join('')}
-        <p class="muted small">এই প্রশ্নগুলো রিভিশন তালিকাতেও যোগ হয়েছে।</p></details>` : ''}
+        <p class="muted small">এই প্রশ্নগুলো রিভিশন তালিকাতেও যোগ হয়েছে।</p>
+        ${r.saved ? '<p class="muted small">📕 এগুলো ভুলের খাতাতেও জমা হয়েছে — বিষয়, অধ্যায় আর টপিক ধরে।</p>' : '<button class="btn tap gm-tomk" data-g-tomk>📕 ভুলগুলো ভুলের খাতায় রাখো</button>'}</details>` : ''}
     </div>`;
+  el.querySelector('[data-g-tomk]')?.addEventListener('click', (e) => {
+    wrong.forEach((q) => toMistakeBook(q, 'game', ctx));
+    e.currentTarget.disabled = true;
+    e.currentTarget.textContent = `✓ ${bn(wrong.length)}টি ভুল খাতায় রাখা হয়েছে`;
+  });
   if (r.won || (r.stars ?? 0) >= 2) confetti(el);
+}
+
+// Save a missed game question to the Mistake Book with its chapter and topic.
+function toMistakeBook(q, source = 'game', ctx = {}) {
+  if (!q?.q) return;
+  const right = q.opts?.[q.right]?.t ?? '';
+  const tp = q.tp ?? ctx.tp;
+  recordMcqMistake({
+    itemId: q.id ? `${q.id}` : null, chapterId: q.ch ?? ctx.ch, topicId: tp && tp !== 'all' ? tp : null,
+    question: q.q, options: source === 'recall' || (q.opts?.length ?? 0) < 2 ? null : q.opts.map((o) => o.t), chosen: null,
+    correct: right, explanation: q.exp ?? '', source, topicName: tp && tp !== 'all' ? tpNameOf(q.ch ?? ctx.ch, tp) : null,
+  });
 }
 
 // ---------- the games ----------
@@ -573,7 +592,7 @@ function playOrder(el, ctx) {
   };
   const over = () => endScreen(el, ctx, {
     title: 'সব ধাঁধা শেষ!', emoji: '🔢', score, won: perfect >= Math.ceil(list.length / 2),
-    wrong: failed.map((p) => ({ q: p.title, opts: [{ t: p.steps.map((s, k) => `${bn(k + 1)}. ${s}`).join('\n') }], right: 0, exp: p.result })),
+    wrong: failed.map((p) => ({ id: p.id, ch: p.ch, tp: p.topic, q: p.title, opts: [{ t: p.steps.map((s, k) => `${bn(k + 1)}. ${s}`).join('\n') }], right: 0, exp: p.result })),
     lines: [`${bn(list.length)}টির মধ্যে ${bn(perfect)}টি একবারও ভুল না করে সাজিয়েছ`],
   });
   el.onclick = (e) => {
@@ -627,14 +646,14 @@ function playRecall(el, ctx) {
     if (ok) { known++; score += again.has(c.id) ? 5 : 10; sfx.ok(); }
     else {
       sfx.bad();
-      if (!again.has(c.id)) { again.add(c.id); queue.push(c); }
+      if (!again.has(c.id)) { again.add(c.id); queue.push(c); toMistakeBook({ id: c.id, ch: c.ch, tp: c.topic, q: c.front, opts: [{ t: c.back }], right: 0 }, 'recall', ctx); }
       if (!missed.includes(c)) missed.push(c);
     }
     shown = false;
     if (queue.length) return paint();
     endScreen(el, ctx, {
       title: 'কার্ড শেষ!', emoji: '🧠', score, won: missed.length <= cards.length * 0.3,
-      wrong: missed.map((m) => ({ q: m.front, opts: [{ t: m.back }], right: 0, exp: '' })),
+      wrong: missed.map((m) => ({ q: m.front, opts: [{ t: m.back }], right: 0, exp: '' })), saved: true,
       lines: [`${bn(cards.length)}টি কার্ডের ${bn(cards.length - missed.length)}টি প্রথমবারেই পেরেছ`],
     });
   };

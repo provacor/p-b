@@ -1,10 +1,10 @@
 // Section screen: the content of one chapter section (Notes, MCQ, Simulation, …).
 
-import { icon } from '../icons.js?v=202610241631';
-import { esc, plural, bar, ring, sectionHue, chapterEyebrow, chapterNo, pad2, emptyState } from '../components.js?v=202610241631';
-import { progressOf, isItemDone } from '../progress.js?v=202610241631';
-import { hfActive } from '../handsfree.js?v=202610241631';
-import { isBookmarked, noteOf } from '../learn.js?v=202610241631';
+import { icon } from '../icons.js?v=202610241647';
+import { esc, plural, bar, ring, sectionHue, chapterEyebrow, chapterNo, pad2, emptyState } from '../components.js?v=202610241647';
+import { progressOf, isItemDone } from '../progress.js?v=202610241647';
+import { hfActive } from '../handsfree.js?v=202610241647';
+import { isBookmarked, noteOf } from '../learn.js?v=202610241647';
 
 const FORMAT = {
   pdf: { icon: 'file', open: 'Open PDF', label: 'PDF' },
