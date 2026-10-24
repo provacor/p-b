@@ -1,0 +1,4223 @@
+{
+ "sectionId": "english_admission_2nd_determiner_mcq",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "english_admission_2nd_determiner_mcq_0001",
+   "kind": null,
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+   "question": "The word 'noun' is a —",
+   "options": [
+    "Pronoun",
+    "Noun",
+    "Verb",
+    "Adjective"
+   ],
+   "correctAnswer": "1",
+   "explanation": "যেকোনো part of speech এর নামই noun হবে।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0002",
+   "kind": null,
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+   "question": "An antonym of 'Abstract' is-",
+   "options": [
+    "Abuse",
+    "Concrete",
+    "Abstruse",
+    "Refrain"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0003",
+   "kind": null,
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+   "question": "Noun কত প্রকার?",
+   "options": [
+    "5",
+    "6",
+    "4",
+    "3"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0004",
+   "kind": null,
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+   "question": "কোনটি parts of speech নয়?",
+   "options": [
+    "noun",
+    "pronoun",
+    "gerund",
+    "verb"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0005",
+   "kind": null,
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+   "question": "The name of one particular person, thing or place is called:",
+   "options": [
+    "A collective noun",
+    "A material noun",
+    "A proper noun",
+    "A common noun"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0006",
+   "kind": null,
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+   "question": "What kind of noun is 'Dhaka'?",
+   "options": [
+    "Proper",
+    "Common",
+    "Collective",
+    "Material"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0007",
+   "kind": null,
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+   "question": "Which of the following is proper noun?",
+   "options": [
+    "Rabindranath",
+    "Car",
+    "Rain",
+    "Fast (রোজা, উপবাস)"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0008",
+   "kind": null,
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+   "question": "The Padma is a river. Choose the correct parts of speech of 'The Padma'.",
+   "options": [
+    "Collective noun",
+    "Pronoun",
+    "Abstract noun",
+    "Proper noun"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0009",
+   "kind": null,
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+   "question": "A noun that names a general class of person, place or things is a–",
+   "options": [
+    "proper noun",
+    "general noun",
+    "perfect noun",
+    "common noun"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0010",
+   "kind": null,
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+   "question": "What kind of noun is 'river'?",
+   "options": [
+    "Material",
+    "Collective",
+    "Proper",
+    "Common"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0011",
+   "kind": null,
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+   "question": "What kind of noun is 'man'?",
+   "options": [
+    "Proper",
+    "Common",
+    "Collective",
+    "Material"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0012",
+   "kind": null,
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+   "question": "What kind of noun is 'Girl'?",
+   "options": [
+    "Proper noun",
+    "Common noun",
+    "Material noun",
+    "Collective noun"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0013",
+   "kind": null,
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+   "question": "What kind of noun is 'boy'?",
+   "options": [
+    "Proper",
+    "Common",
+    "Abstract",
+    "Material"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0014",
+   "kind": null,
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+   "question": "The elephant has great strength. এখানে elephant শব্দটি-",
+   "options": [
+    "proper noun",
+    "common noun",
+    "collective noun",
+    "material noun"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0015",
+   "kind": null,
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+   "question": "I recognized your voice at once. 'voice' is a/an —",
+   "options": [
+    "Common",
+    "Proper",
+    "Collective",
+    "Abstract"
+   ],
+   "correctAnswer": "0",
+   "explanation": "voice এর singular (a voice) এবং plural (voices) হয় তাই এটি Common noun।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0016",
+   "kind": null,
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+   "question": "Dhaka is a big city. এখানে Dhaka শব্দটি কোন প্রকারের noun?",
+   "options": [
+    "proper",
+    "common",
+    "collective",
+    "material"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0017",
+   "kind": null,
+   "topic": "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+   "question": "Dhaka is a big city. এখানে City শব্দটি কোন প্রকারের Noun?",
+   "options": [
+    "Proper",
+    "Common",
+    "Collective",
+    "Material"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0018",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "The poor are always unhappy. 'The poor' is —— noun.",
+   "options": [
+    "Plural common",
+    "Plural proper",
+    "Collective",
+    "Material"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0019",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "I think – should pay more taxes. (আমি মনে করি ধনীদের বেশি কর দেয়া উচিত)",
+   "options": [
+    "the rich",
+    "the riches",
+    "rich",
+    "riches (রিচিজ)"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0020",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "The poor always honour the rich. 'the rich' is a/an",
+   "options": [
+    "noun",
+    "adjective",
+    "adverb",
+    "pronoun"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0021",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "What kind of noun is 'Cattle'?",
+   "options": [
+    "Proper",
+    "Common",
+    "Collective",
+    "Material"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0022",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "A herd of cattle is passing. 'herd' here is-",
+   "options": [
+    "adjective",
+    "common noun",
+    "collective noun",
+    "abstract noun"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0023",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "The word 'army' is a-",
+   "options": [
+    "abstract noun",
+    "common noun",
+    "collective noun",
+    "material noun"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0024",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "You must watch the fleet. Here 'fleet' is -",
+   "options": [
+    "an abstract noun",
+    "a proper noun",
+    "a collective noun",
+    "a material noun"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0025",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "'Ali saw a flock of sheep.' বাক্যে 'flock' শব্দটি কোন noun?",
+   "options": [
+    "Proper",
+    "Common",
+    "Collective",
+    "Abstract"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0026",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "What kind of noun is 'family'?",
+   "options": [
+    "proper",
+    "common",
+    "collective",
+    "material"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0027",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "The crowd was very big. Which form of noun is 'crowd'-",
+   "options": [
+    "Proper",
+    "Common",
+    "Collective",
+    "Abstract"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0028",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "I saw a – of cows in the field.",
+   "options": [
+    "group",
+    "herd",
+    "swarm",
+    "flock"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0029",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "A group of lions is called-",
+   "options": [
+    "a pack of lions",
+    "a pride of lions",
+    "a flock of lions",
+    "a colony of lions"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0030",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "Which collective noun is used to describe a number of sheep?",
+   "options": [
+    "herd",
+    "gang",
+    "flock",
+    "pack"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0031",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "I saw a – of monkeys in the forest. (আমি জঙ্গলে এক দল বানর দেখলাম)",
+   "options": [
+    "group",
+    "herd",
+    "swarm",
+    "troop"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0032",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "Questions will be answered by a — of experts.",
+   "options": [
+    "panel",
+    "staff",
+    "bunch (বান্চ)",
+    "band"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0033",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "What is the collective noun for a group of young partridges?",
+   "options": [
+    "gaggle",
+    "covey",
+    "flock",
+    "school"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0034",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "What is the collective noun for knives, forks, spoons, and other eating utensils?",
+   "options": [
+    "crockery",
+    "cutlery",
+    "weaponry",
+    "eatery (ভোজনালয়)"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0035",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "The committee — unable to agree on this question.",
+   "options": [
+    "is",
+    "was",
+    "were",
+    "none of those"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0036",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "Choose the correct sentence. [বিচারকমণ্ডলী নিজেদের মধ্যে তর্ক করছেন]",
+   "options": [
+    "The jury are arguing among themselves.",
+    "The jury is arguing among themselves.",
+    "The jury has argued among themselves.",
+    "The jury has been arguing among themselves."
+   ],
+   "correctAnswer": "0",
+   "explanation": "themselves হচ্ছে jury এর plural reflexive pronoun তাই jury এর verb টি অবশ্যই plural হবে।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0037",
+   "kind": null,
+   "topic": "Plural Common ও Collective Noun",
+   "question": "The jury were divided in their opinions. Here 'jury' is a –",
+   "options": [
+    "Proper noun",
+    "Collective noun",
+    "Common noun",
+    "Abstract noun"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0038",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "'Water' is a — noun.",
+   "options": [
+    "proper",
+    "common",
+    "material",
+    "abstract"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0039",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "What type of the noun the word 'Rice' is?",
+   "options": [
+    "Proper noun",
+    "Common noun",
+    "Abstract noun",
+    "Material noun"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0040",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "'This ring is made of gold.' বাক্যে gold শব্দটি কোন প্রকারের Noun?",
+   "options": [
+    "Collective noun",
+    "Common noun",
+    "Material noun",
+    "Abstract noun"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0041",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "'Mutton' is a/an",
+   "options": [
+    "Common noun",
+    "Abstract Noun",
+    "Material noun",
+    "Proper noun"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0042",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "What type of noun the word 'Chemistry' is?",
+   "options": [
+    "abstract",
+    "material",
+    "proper",
+    "common"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0043",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "'Slave' শব্দটির Abstract Noun হবে -",
+   "options": [
+    "Slavery",
+    "Slave",
+    "Slaverer",
+    "Slaves"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0044",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "What kind of noun is 'honesty'?",
+   "options": [
+    "Proper",
+    "Common",
+    "Abstract",
+    "Collective"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0045",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "Honesty is the best policy. এখানে honesty কোন noun?",
+   "options": [
+    "Proper noun",
+    "Common noun",
+    "Collective noun",
+    "Abstract noun"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0046",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "Which type of noun 'beauty' is-",
+   "options": [
+    "Common",
+    "Proper",
+    "Collective",
+    "Abstract"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0047",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "Wisdom is better than strength. এখানে strength শব্দটি-",
+   "options": [
+    "Proper noun",
+    "Common noun",
+    "Collective noun",
+    "Abstract noun"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0048",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "Without health there is no happiness. এখানে happiness শব্দটি-",
+   "options": [
+    "Proper noun",
+    "Common noun",
+    "Collective noun",
+    "Abstract noun"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0049",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "What kind of noun is 'Discipline'?",
+   "options": [
+    "Abstract noun",
+    "Collective noun",
+    "Proper noun",
+    "Common noun"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0050",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "'Forgiveness is a great virtue.' বাক্যে forgiveness শব্দটি কোন প্রকারের noun?",
+   "options": [
+    "Proper Noun",
+    "Common Noun",
+    "Abstract Noun",
+    "Collective Noun"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0051",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "The word 'Agency (প্রতিনিধিত্ব)' is a/an -",
+   "options": [
+    "Common noun",
+    "Collective noun",
+    "Proper noun",
+    "Abstract noun"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0052",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "'Truth must prevail in the long run.' বাক্যে 'Truth' শব্দটি কোন প্রকারের noun?",
+   "options": [
+    "Common noun",
+    "Proper noun",
+    "Abstract noun",
+    "Collective noun"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0053",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "The soldiers were rewarded for their bravery. Which class of noun 'bravery' belongs to?",
+   "options": [
+    "Collective noun",
+    "Common noun",
+    "Material noun",
+    "Abstract noun"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0054",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "What type of noun the word 'infancy' is?",
+   "options": [
+    "Common",
+    "Abstract",
+    "Material",
+    "Collective"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0055",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "Nelson is famous for his victory at Trafalgar. 'victory' is",
+   "options": [
+    "Proper noun",
+    "Common noun",
+    "Collective noun",
+    "Abstract noun"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0056",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "He is a man of sound judgement. Here 'judgement' is",
+   "options": [
+    "common noun",
+    "abstract noun",
+    "collective noun",
+    "material noun"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0057",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "'Beggar' শব্দটির Abstract Form হবে -",
+   "options": [
+    "Beggarhood",
+    "Beggary",
+    "Beggarship",
+    "Beggarness"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0058",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "'Broad' শব্দটির Abstract Form হবে -",
+   "options": [
+    "Breadth",
+    "Broadness",
+    "Broader",
+    "Broadship"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0059",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "What is the abstract noun form of 'Hero'?",
+   "options": [
+    "Heroism",
+    "Heroic",
+    "Heroine",
+    "Hero-like"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0060",
+   "kind": null,
+   "topic": "Material ও Abstract Noun",
+   "question": "'King' শব্দটির abstract noun হচ্ছে -",
+   "options": [
+    "Kingship",
+    "King",
+    "Kinghood",
+    "Kingly"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0061",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which one is an abstract noun?",
+   "options": [
+    "Class",
+    "Rice",
+    "Intelligence",
+    "Team"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0062",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which one is a material noun?",
+   "options": [
+    "Group",
+    "Meat",
+    "Seriousness",
+    "Party"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0063",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "What kind of noun is the word 'kindness'?",
+   "options": [
+    "Proper",
+    "Common",
+    "Abstract",
+    "Material"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0064",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which of the following is not a collective noun?",
+   "options": [
+    "Navy",
+    "Public",
+    "Love",
+    "Orchestra (বাদকদল)"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0065",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which of the following is not a collective noun? (Class/Audience/Peer/Public)",
+   "options": [
+    "Class",
+    "Audience",
+    "Peer",
+    "Public"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0066",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "কোনটি Abstract noun?",
+   "options": [
+    "Long",
+    "Height (হাইট)",
+    "Man",
+    "Jury"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0067",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "কোনটি Collective Noun নয়?",
+   "options": [
+    "Cattle",
+    "Police",
+    "Audience",
+    "City"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0068",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which of the following is abstract noun?",
+   "options": [
+    "Childhood",
+    "Child",
+    "Boy",
+    "Family"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0069",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which one of the following is not a collective noun?",
+   "options": [
+    "basis",
+    "fleet",
+    "shoal (শৌল)",
+    "crew (ক্রু)"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0070",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "কোনটি Collective Noun?",
+   "options": [
+    "Books",
+    "Girl",
+    "Library",
+    "Soldiers"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0071",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "কোনটি Common Noun? (March/Class/Jute/Mouth)",
+   "options": [
+    "March",
+    "Class",
+    "Jute",
+    "Mouth"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0072",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "কোনটি Common Noun? (February/Jute/Month/Class)",
+   "options": [
+    "February",
+    "Jute",
+    "Month",
+    "Class"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0073",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "কোনটি Common Noun? (Starve/Pirate/Human/Roguery)",
+   "options": [
+    "Starve",
+    "Pirate",
+    "Human",
+    "Roguery (রৌগারি)"
+   ],
+   "correctAnswer": "1",
+   "explanation": "উত্তর b ও c দুটোই (Pirate, Human)।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0074",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "কোনটি Abstract Noun?",
+   "options": [
+    "City",
+    "Boy",
+    "Obey",
+    "Humility"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0075",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which one is a common noun?",
+   "options": [
+    "Salt",
+    "Army",
+    "Studentship",
+    "Infant"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0076",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "কোনটি Material Noun?",
+   "options": [
+    "Wood",
+    "Mouth",
+    "Team",
+    "Knife (নাইফ)"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0077",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "কোনটি Collective Noun? (June/Team/Month/Envelope)",
+   "options": [
+    "June",
+    "Team",
+    "Month",
+    "Envelope"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0078",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "কোনটি Collective Noun? (Truth/Harbour/Bank/Committee)",
+   "options": [
+    "Truth",
+    "Harbour",
+    "Bank",
+    "Committee"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0079",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "কোনটি Common Noun? (Pupils/Shamim/Class/Team)",
+   "options": [
+    "Pupils (পিউপলস)",
+    "Shamim",
+    "Class",
+    "Team"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0080",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which one is abstract noun? (Manhood/Friend/Fleet/Anwar)",
+   "options": [
+    "Manhood",
+    "Friend",
+    "Fleet",
+    "Anwar"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0081",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "কোনটি Common Noun? (Truth/Bank/Victory/Length)",
+   "options": [
+    "Truth",
+    "Bank",
+    "Victory",
+    "Length"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0082",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which one is a collective noun?",
+   "options": [
+    "friendship",
+    "gang",
+    "doctor",
+    "honesty (অনেস্টি)"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0083",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "কোনটি Collective Noun? (Bashar/Class/Youth/Island)",
+   "options": [
+    "Bashar",
+    "Class",
+    "Youth (ইয়ুথ)",
+    "Island (আইল্যান্ড)"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0084",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "কোনটি Material Noun? (Book/Ring/River/Paper)",
+   "options": [
+    "Book",
+    "Ring",
+    "River",
+    "Paper"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0085",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which one is an abstract noun? (Children/Honesty/Flock/Cattle)",
+   "options": [
+    "Children",
+    "Honesty",
+    "Flock (ফ্লক)",
+    "Cattle (ক্যাটল)"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0086",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which one is abstract noun? (boy/child/Childhood/family)",
+   "options": [
+    "boy",
+    "child (চাইল্ড)",
+    "Childhood",
+    "family"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0087",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which one of the following is a proper noun?",
+   "options": [
+    "Man",
+    "Group",
+    "Run",
+    "Dhaka"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0088",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "The jury found the prisoner guilty. এখানে jury শব্দটি কোন প্রকারের Noun?",
+   "options": [
+    "Proper",
+    "Collective",
+    "Common",
+    "Abstract"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0089",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "What class of noun 'bravery (ব্রেইভেরি)' belongs to-",
+   "options": [
+    "collective",
+    "common",
+    "material",
+    "abstract"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0090",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which of the following is not a common noun?",
+   "options": [
+    "man",
+    "village",
+    "Chittagong",
+    "river"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0091",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which one is in abstract sense?",
+   "options": [
+    "Monument",
+    "Tower",
+    "Brat (ছোকরা)",
+    "Passion"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0092",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which of the following is NOT an abstract noun?",
+   "options": [
+    "Goodness (সদগুণ)",
+    "Family",
+    "Bravery (সাহস)",
+    "Childhood"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0093",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "What type of noun 'freedom (স্বাধীনতা, মুক্তি)' is?",
+   "options": [
+    "proper",
+    "abstract",
+    "collective",
+    "common"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0094",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "What kind of noun is 'An army'?",
+   "options": [
+    "Proper",
+    "Common",
+    "Collective",
+    "Material"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0095",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Find out the common noun.",
+   "options": [
+    "Flock (ফ্লক)",
+    "Bunch",
+    "City",
+    "Dhaka"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0096",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which group of words are collective nouns?",
+   "options": [
+    "Unity, Poverty",
+    "Cattle, Army",
+    "Team, Steel",
+    "Milk, Water"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0097",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which one is correct?",
+   "options": [
+    "Kazi Nazrul Islam is the Shelley of Bangladesh",
+    "Kazi Nazrul Islam is the Shelley of the Bangladesh",
+    "Kazi Nazrul Islam is a Shelley of Bangladesh",
+    "Kazi Nazrul Islam is a Shelley of the Bangladesh"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0098",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Nazrul is the Byron of Bangladesh. 'Byron' is used as -",
+   "options": [
+    "Proper Noun",
+    "Common Noun",
+    "Material Noun",
+    "Abstract Noun"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0099",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "The charity of Hatem Tai is known to all. 'charity' is-",
+   "options": [
+    "material noun",
+    "common noun",
+    "abstract noun",
+    "collective noun"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0100",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "They praised the honesty of the girl. 'honesty' is a/an-",
+   "options": [
+    "material noun",
+    "abstract noun",
+    "common noun",
+    "proper noun"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0101",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "He is a justice of the High Court. Here 'justice' is a/an- noun.",
+   "options": [
+    "abstract",
+    "material",
+    "proper",
+    "common"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0102",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Drive the nail into the table. এখানে nail শব্দটি কোন প্রকারের noun?",
+   "options": [
+    "Proper",
+    "Common",
+    "Collective",
+    "Material"
+   ],
+   "correctAnswer": "1",
+   "explanation": "nail (পেরেক) হচ্ছে iron থেকে উৎপন্ন বস্তু এবং এর পূর্বে article (the) আছে বিধায় common noun।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0103",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "The rice of Dinajpur is fine. 'rice' in the sentence is a",
+   "options": [
+    "proper noun",
+    "common noun",
+    "collective noun",
+    "abstract noun"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0104",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Our class consists of twenty public. Here 'public' is an example of –",
+   "options": [
+    "Common noun",
+    "Proper noun",
+    "Collective noun",
+    "Abstract noun"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0105",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "There are ten classes in our school. What kind of noun is the word 'class'",
+   "options": [
+    "abstract noun",
+    "common noun",
+    "collective noun",
+    "noun of multitude"
+   ],
+   "correctAnswer": "1",
+   "explanation": "class, public সাধারণত collective noun কিন্তু এদের plural করায় এরা common noun হয়েছে।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0106",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which one of the following is an example of proper noun?",
+   "options": [
+    "The police",
+    "Car",
+    "Bangladesh",
+    "Family"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0107",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which of the following nouns is not a proper noun?",
+   "options": [
+    "Team",
+    "Dhaka",
+    "Sunday",
+    "Kabir"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0108",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "A noun referring to things that our five senses can't detect is called :",
+   "options": [
+    "proper noun",
+    "common noun",
+    "material noun",
+    "abstract noun"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0109",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which of the following is close to 'archipelago' in meaning",
+   "options": [
+    "A group of archives",
+    "Archeological sites",
+    "A group of islands",
+    "Arch of a building"
+   ],
+   "correctAnswer": "2",
+   "explanation": "archipelago = দ্বীপপুঞ্জ।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0110",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "What kind of noun is 'committee'?",
+   "options": [
+    "abstract",
+    "proper",
+    "collective",
+    "common"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0111",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which of the following is abstract noun? (Child/Boy/Family/Childhood)",
+   "options": [
+    "Child",
+    "Boy",
+    "Family",
+    "Childhood"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0112",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Would you like to have – tea?",
+   "options": [
+    "a little",
+    "any",
+    "some",
+    "a cup of"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0113",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "নিম্নের কোনটি Abstract noun নয়?",
+   "options": [
+    "air",
+    "goodwill",
+    "flavour",
+    "water"
+   ],
+   "correctAnswer": "0",
+   "explanation": "উত্তর a ও d দুটোই (air, water)।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0114",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Iron is a useful metal. এখানে 'Iron' শব্দটি কোন প্রকারের Noun?",
+   "options": [
+    "Proper Noun",
+    "Material Noun",
+    "Collective Noun",
+    "Common Noun"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0115",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "'Our team is better than yours.' Here 'team' is-",
+   "options": [
+    "Common Noun",
+    "Collective Noun",
+    "Material Noun",
+    "Abstract Noun"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0116",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which group of words are Collective nouns?",
+   "options": [
+    "Sajib, America",
+    "Water, Milk, Steel",
+    "Cattle, Army, Class",
+    "Unity, Health, Poverty"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0117",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "'Flock' is a –",
+   "options": [
+    "Proper noun",
+    "Common noun",
+    "Collective noun",
+    "Abstract noun"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0118",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "কোনটি Abstract Noun? (Elephant/Harbour/Strength/Dhaka)",
+   "options": [
+    "Elephant",
+    "Harbour",
+    "Strength",
+    "Dhaka"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0119",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "কোনটি Abstract Noun? (Agency/Infant/Anxious/Grand)",
+   "options": [
+    "Agency",
+    "Infant",
+    "Anxious",
+    "Grand"
+   ],
+   "correctAnswer": "0",
+   "explanation": "Infant, Anxious (adj), Grand (adj) এর Abstract Noun হচ্ছে যথাক্রমে Infancy, Anxiety, Grandeur।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0120",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "কোনটি Collective Noun? (Boy/Books/Library/Mouth)",
+   "options": [
+    "Boy",
+    "Books",
+    "Library",
+    "Mouth"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0121",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Abstract noun of the word 'Long' is ---",
+   "options": [
+    "Length",
+    "Longer",
+    "Lengthier",
+    "Lengthen"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0122",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "The best word stands for Abstract noun is-",
+   "options": [
+    "Beauty",
+    "Boat",
+    "Sail",
+    "Bird"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0123",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "What kind of noun is 'journey'?",
+   "options": [
+    "common",
+    "collective",
+    "proper",
+    "abstract"
+   ],
+   "correctAnswer": "0",
+   "explanation": "Journey গণনাযোগ্য তাই common noun/countable noun।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0124",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Find the collective noun from the following:",
+   "options": [
+    "Water",
+    "Cow",
+    "Kindness",
+    "Army"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0125",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which of the following words is not similar to 'school'?",
+   "options": [
+    "flock (ফ্লক)",
+    "herd (হার্ড)",
+    "college",
+    "pack"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0126",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which one of the following is a common noun?",
+   "options": [
+    "pirate",
+    "humility",
+    "roguery",
+    "straw"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0127",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Water has no colour of its own. What type of noun is 'Water'?",
+   "options": [
+    "Common",
+    "Abstract",
+    "Proper",
+    "Material"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0128",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "What kind of noun is 'Infant'?",
+   "options": [
+    "Proper",
+    "Common",
+    "Material",
+    "Collective"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0129",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "The word 'hatred (ঘৃণা)' is — noun.",
+   "options": [
+    "an abstract",
+    "a proper",
+    "a collective",
+    "a material"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0130",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "'Love', 'courage' and 'childhood' are examples of-",
+   "options": [
+    "proper nouns",
+    "abstract nouns",
+    "countable nouns",
+    "common nouns"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0131",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which noun below is a collective noun?",
+   "options": [
+    "men",
+    "duck",
+    "family",
+    "children"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0132",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "An enormous — of locusts ate all of the crops.",
+   "options": [
+    "swarm",
+    "bunch (বান্চ)",
+    "herd (হার্ড)",
+    "bevy"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0133",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "A — of banknotes. (টাকার গাঁট)",
+   "options": [
+    "bunch (বান্চ)",
+    "wad",
+    "batch",
+    "group"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0134",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "A – of fish. (মাছের ঝাঁক)",
+   "options": [
+    "flock",
+    "group",
+    "school",
+    "fleet"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0135",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which of the following is an abstract noun? (People/Honesty/Flock/Sugar)",
+   "options": [
+    "People",
+    "Honesty",
+    "Flock (ফ্লক)",
+    "Sugar"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0136",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Which is not proper noun?",
+   "options": [
+    "Sun",
+    "Karim",
+    "River",
+    "Padma"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0137",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "Paper, water, iron, gold and milk are –",
+   "options": [
+    "Abstract nouns",
+    "Common nouns",
+    "Collective nouns",
+    "Material nouns"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0138",
+   "kind": null,
+   "topic": "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+   "question": "What kind of noun the following words belongs to 'love, affection'?",
+   "options": [
+    "Abstract",
+    "Common",
+    "Material",
+    "Collective"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0139",
+   "kind": null,
+   "topic": "Countable, Uncountable ও Mass noun",
+   "question": "What kind of noun is 'money (অর্থ)'?",
+   "options": [
+    "collective",
+    "abstract",
+    "countable",
+    "uncountable"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0140",
+   "kind": null,
+   "topic": "Countable, Uncountable ও Mass noun",
+   "question": "Which of the following is an uncountable noun?",
+   "options": [
+    "Pen",
+    "shirt",
+    "Book",
+    "Food"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0141",
+   "kind": null,
+   "topic": "Countable, Uncountable ও Mass noun",
+   "question": "What kind of noun is 'fun'?",
+   "options": [
+    "Uncountable",
+    "Countable",
+    "Common",
+    "Material"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0142",
+   "kind": null,
+   "topic": "Countable, Uncountable ও Mass noun",
+   "question": "Which of the following words does fall under uncountable noun?",
+   "options": [
+    "Star",
+    "Rice",
+    "Field",
+    "Foe (ফৌ, শত্রু)"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0143",
+   "kind": null,
+   "topic": "Countable, Uncountable ও Mass noun",
+   "question": "The building is built of stone. 'stone' is:",
+   "options": [
+    "Countable noun",
+    "Adjective",
+    "Proper noun",
+    "Uncountable noun"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0144",
+   "kind": null,
+   "topic": "Countable, Uncountable ও Mass noun",
+   "question": "Which one of the following is not an uncountable noun?",
+   "options": [
+    "scenery (ছিনারি)",
+    "work",
+    "luggage (লাগেজ)",
+    "student"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0145",
+   "kind": null,
+   "topic": "Countable, Uncountable ও Mass noun",
+   "question": "I prefer chicken to beef. 'beef' is-",
+   "options": [
+    "countable noun",
+    "proper noun",
+    "abstract noun",
+    "uncountable noun"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0146",
+   "kind": null,
+   "topic": "Countable, Uncountable ও Mass noun",
+   "question": "Advertising is –",
+   "options": [
+    "Count noun",
+    "adjective",
+    "verb",
+    "Non-count noun"
+   ],
+   "correctAnswer": "3",
+   "explanation": "Advertising (বিজ্ঞাপন দেওয়া) হচ্ছে কাজের নাম তাই এটি Non-count noun।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0147",
+   "kind": null,
+   "topic": "Countable, Uncountable ও Mass noun",
+   "question": "It is very difficult to find a – in this country at present.",
+   "options": [
+    "work",
+    "career",
+    "profession",
+    "job"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0148",
+   "kind": null,
+   "topic": "Countable, Uncountable ও Mass noun",
+   "question": "I need – soap to wash my dress with.",
+   "options": [
+    "any",
+    "a piece of",
+    "a",
+    "much"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0149",
+   "kind": null,
+   "topic": "Countable, Uncountable ও Mass noun",
+   "question": "Choose the correct sentence.",
+   "options": [
+    "He bought some soaps yesterday.",
+    "He bought a bar of soap yesterday.",
+    "He has bought a soap yesterday.",
+    "He bought a soap yesterday."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0150",
+   "kind": null,
+   "topic": "Countable, Uncountable ও Mass noun",
+   "question": "Find out the correct sentence.",
+   "options": [
+    "I shall buy two breads.",
+    "I shall buy two loaves of breads.",
+    "I shall buy two bread.",
+    "I shall buy two pieces of bread."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0151",
+   "kind": null,
+   "topic": "Countable, Uncountable ও Mass noun",
+   "question": "Hybrids have one more – per plant than the other varieties.",
+   "options": [
+    "corns",
+    "ear of corn",
+    "corn ears",
+    "corn's ears"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0152",
+   "kind": null,
+   "topic": "Determiner — সংজ্ঞা, তালিকা ও ক্রম",
+   "question": "Identify the determiner in the sentence 'Bring me that book'.",
+   "options": [
+    "Bring",
+    "me",
+    "that",
+    "book"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0153",
+   "kind": null,
+   "topic": "Determiner — সংজ্ঞা, তালিকা ও ক্রম",
+   "question": "Identify the determiner in the sentence: 'I have no news for you.'",
+   "options": [
+    "have",
+    "news",
+    "no",
+    "for"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0154",
+   "kind": null,
+   "topic": "Determiner — সংজ্ঞা, তালিকা ও ক্রম",
+   "question": "Which word is the determiner in the sentence 'Will it take much time?'",
+   "options": [
+    "will",
+    "take",
+    "much",
+    "time"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0155",
+   "kind": null,
+   "topic": "Determiner — সংজ্ঞা, তালিকা ও ক্রম",
+   "question": "My reading room displays a beautiful painting of S M Sultan. Here the word 'my' is",
+   "options": [
+    "a possessive determiner",
+    "a discarding determiner",
+    "an adjective determiner",
+    "none of these"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0156",
+   "kind": null,
+   "topic": "Determiner — সংজ্ঞা, তালিকা ও ক্রম",
+   "question": "all, another, any, both, each, either are ---",
+   "options": [
+    "Demonstrative determiners",
+    "General determiners",
+    "Possessive determiners",
+    "adverbials"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0157",
+   "kind": null,
+   "topic": "Determiner — সংজ্ঞা, তালিকা ও ক্রম",
+   "question": "All the four pens are missing. Here 'all the four' is –",
+   "options": [
+    "Noun, adjective",
+    "Adjective",
+    "Determiners",
+    "Participle Phrase"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0158",
+   "kind": null,
+   "topic": "Determiner — সংজ্ঞা, তালিকা ও ক্রম",
+   "question": "— returned the library books in time.",
+   "options": [
+    "Most of boys",
+    "Most of the boys",
+    "The many of the boys",
+    "The most boys"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0159",
+   "kind": null,
+   "topic": "Determiner — সংজ্ঞা, তালিকা ও ক্রম",
+   "question": "– kept in the bank. (তার সব টাকা ব্যাংকে রাখা হয়)",
+   "options": [
+    "All his money are",
+    "His all money are",
+    "His all money is",
+    "All his money is"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0160",
+   "kind": null,
+   "topic": "Countable/Uncountable noun এর সাথে Determiner",
+   "question": "'— students from different districts have come to take part in the admission test.'",
+   "options": [
+    "A large amount",
+    "A large number",
+    "A large number of",
+    "A huge amount of"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0161",
+   "kind": null,
+   "topic": "Countable/Uncountable noun এর সাথে Determiner",
+   "question": "There are – students in class today than there were yesterday.",
+   "options": [
+    "less",
+    "a few",
+    "a little",
+    "fewer"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0162",
+   "kind": null,
+   "topic": "Countable/Uncountable noun এর সাথে Determiner",
+   "question": "– amazing song haunted me for a long time.",
+   "options": [
+    "These",
+    "Those",
+    "Thus",
+    "That"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0163",
+   "kind": null,
+   "topic": "Countable/Uncountable noun এর সাথে Determiner",
+   "question": "He is lazy. He never does – work.",
+   "options": [
+    "some",
+    "any",
+    "no",
+    "none"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0164",
+   "kind": null,
+   "topic": "Countable/Uncountable noun এর সাথে Determiner",
+   "question": "------ in this display is on sale.",
+   "options": [
+    "Each furnitures",
+    "Each pieces of furniture",
+    "Each piece of furniture",
+    "Each furniture"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0165",
+   "kind": null,
+   "topic": "Countable/Uncountable noun এর সাথে Determiner",
+   "question": "Before we can decide on the future use of this drug -----.",
+   "options": [
+    "many more informations must be reviewed",
+    "is necessary to review more information",
+    "we must review much more information",
+    "another information must to be reviewed"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0166",
+   "kind": null,
+   "topic": "Countable/Uncountable noun এর সাথে Determiner",
+   "question": "Choose the sentence with appropriate use of 'some'",
+   "options": [
+    "I want to buy some new shoe.",
+    "Would you like to buy some apples?",
+    "Rana has listened to some music.",
+    "He has bought some piece of cheese."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0167",
+   "kind": null,
+   "topic": "Countable/Uncountable noun এর সাথে Determiner",
+   "question": "Choose the correct sentence.",
+   "options": [
+    "My friend has got brown eye.",
+    "My friend is going to buy some new furniture.",
+    "She has got short black hairs.",
+    "He is going to buy some new chair."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0168",
+   "kind": null,
+   "topic": "Countable/Uncountable noun এর সাথে Determiner",
+   "question": "Choose the correct sentence.",
+   "options": [
+    "No fewer than fifty students were present.",
+    "No lesser than fifty students were present.",
+    "No smaller than fifty students were present",
+    "No less than fifty students were present."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0169",
+   "kind": null,
+   "topic": "Countable/Uncountable noun এর সাথে Determiner",
+   "question": "He gave me some good -----. (সে আমাকে কিছু ভালো উপদেশ দিল)",
+   "options": [
+    "advice",
+    "advises",
+    "advices",
+    "advising"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0170",
+   "kind": null,
+   "topic": "Countable/Uncountable noun এর সাথে Determiner",
+   "question": "The woman is carrying a — of clothes.",
+   "options": [
+    "sheet",
+    "bunch",
+    "bundle",
+    "block"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0171",
+   "kind": null,
+   "topic": "Countable/Uncountable noun এর সাথে Determiner",
+   "question": "Put two — of salt in the saucepan.",
+   "options": [
+    "mouthsful",
+    "mouthful",
+    "spoonfuls",
+    "spoonful"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0172",
+   "kind": null,
+   "topic": "Countable/Uncountable noun এর সাথে Determiner",
+   "question": "The man is carrying a — of cement.",
+   "options": [
+    "sack",
+    "mouthful",
+    "reel",
+    "bunch"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0173",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "The --- of the office will be sold.",
+   "options": [
+    "furniture",
+    "the furnitures",
+    "piece of furniture",
+    "pieces of furnitures"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0174",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "Nasrin is an interior decorator, designs -------",
+   "options": [
+    "furniture",
+    "the furniture",
+    "furnitutre's",
+    "some furniture"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0175",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "It is time I had my – cut. (এখনই আমার চুল কাটানোর সময়)",
+   "options": [
+    "all the hairs",
+    "hair",
+    "all hairs",
+    "the hairs"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0176",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "----- is not the only things that tourists want to see.",
+   "options": [
+    "A scenery",
+    "Sceneries",
+    "the sceneries",
+    "Scenery"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0177",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "This building is made of ----------------. (বাড়িটি ইট-সিমেন্টে তৈরী)",
+   "options": [
+    "bricks and cement",
+    "brick (ইট) and cement",
+    "glasses and bricks",
+    "iron and glasses"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0178",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "Choose the correct sentence.",
+   "options": [
+    "We have many works to do in summer",
+    "We have much works to do in summer",
+    "We have a lot of work to do in summer",
+    "We have lot of works to do in summer"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0179",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "There is – water/milk in the glass.",
+   "options": [
+    "a little",
+    "a big amount",
+    "much",
+    "small"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0180",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "Tamara speaks very – Russian, but she knows – words.",
+   "options": [
+    "little, a little",
+    "little, a few",
+    "few, little",
+    "a few, few"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0181",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "I have got – friends, so I am not lonely.",
+   "options": [
+    "a little",
+    "little",
+    "few",
+    "a few"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0182",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "The glass on the table contains – water.",
+   "options": [
+    "a little",
+    "a few",
+    "many",
+    "several"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0183",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "I would like – salt in my vegetables. (আমার সবজিতে আমি একটু লবণ চাই)",
+   "options": [
+    "few",
+    "a few",
+    "a little",
+    "many"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0184",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "Choose the correct translation of: \"There is a little milk in the cup.\"",
+   "options": [
+    "পেয়ালায় অল্প দুধ আছে।",
+    "পেয়ালায় দুধ নেই বললেই চলে।",
+    "পেয়ালায় একটুখানি দুধ নেই।",
+    "পেয়ালায় একটুখানি দুধ নেই।"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0185",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "Which one of the following is the correct meaning of 'a few'?",
+   "options": [
+    "Not many, hardly any",
+    "Not many, but all there are",
+    "Some",
+    "Not much"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0186",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "I still have – money in my pocket.",
+   "options": [
+    "a little",
+    "many",
+    "few",
+    "a few"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0187",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "The word 'little' in 'There is little hope in this case' means ——",
+   "options": [
+    "there is some hope",
+    "there is ample hope",
+    "there is no hope",
+    "none of the above"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0188",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "A lot of food was prepared, but hardly any of it was eaten. 'hardly any' can be substituted with -",
+   "options": [
+    "little",
+    "a little",
+    "few",
+    "a few"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0189",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "He has hardly any money on him. 'hardly any' means -",
+   "options": [
+    "very little",
+    "Nothing",
+    "few",
+    "enough"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0190",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "There is – milk in the bottle.",
+   "options": [
+    "very few",
+    "any",
+    "very little",
+    "many"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0191",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "He has – friends in Chicago.",
+   "options": [
+    "few",
+    "few of",
+    "a lot",
+    "much"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0192",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "There is – hope of her recovery. (তার আরোগ্য লাভের আশা নেই বলিলেই চলে)",
+   "options": [
+    "many",
+    "little",
+    "very",
+    "few"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0193",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "She sold – milk.",
+   "options": [
+    "little/a little",
+    "small",
+    "least",
+    "heavy"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0194",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "Few men are free from faults. Here 'few' means ——.",
+   "options": [
+    "some",
+    "not much",
+    "hardly any",
+    "None"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0195",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "তার কোনো বন্ধু নেই বললেই চলে।",
+   "options": [
+    "He has a few friends.",
+    "He has no friends.",
+    "He has few friends.",
+    "He has the few friends."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0196",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "'They have little money' means-",
+   "options": [
+    "They have no money at all.",
+    "They have almost no money.",
+    "They have yet some money.",
+    "They have quite some money."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0197",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "He has few friends means he has –",
+   "options": [
+    "no friend at all",
+    "almost no friends",
+    "some friends",
+    "a few friends"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0198",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "– milk he gave me has been spilt.",
+   "options": [
+    "few",
+    "a few",
+    "little",
+    "the little"
+   ],
+   "correctAnswer": "3",
+   "explanation": "the little = not much but all there are।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0199",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "We should use – time we have in our hands to complete our preparation.",
+   "options": [
+    "the little",
+    "the little of",
+    "the few",
+    "few"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0200",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "I don't have – time today but I'll sit with you.",
+   "options": [
+    "some",
+    "full",
+    "long",
+    "much"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0201",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "We have to stop the car and buy some petrol because there – in the tank.",
+   "options": [
+    "aren't many",
+    "isn't much",
+    "aren't any",
+    "isn't many"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0202",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "There aren't – people here.",
+   "options": [
+    "much",
+    "many",
+    "a lot",
+    "some"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0203",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "Do you have – to do this afternoon? If not, I'd like to take you to a movie.",
+   "options": [
+    "many works",
+    "much work",
+    "many work",
+    "much works"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0204",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "I didn't have – luggage, just two small bags.",
+   "options": [
+    "little",
+    "a little",
+    "much",
+    "many"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0205",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "How – money do you have in your pocket?",
+   "options": [
+    "many",
+    "few",
+    "much",
+    "a few"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0206",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "I don't have – spare time these days.",
+   "options": [
+    "many",
+    "much",
+    "some",
+    "more"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0207",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "I don't take – tea. (আমি খুব বেশি চা খাই না)",
+   "options": [
+    "much",
+    "many",
+    "too many",
+    "more"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0208",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "– thanks go to you for your generous help.",
+   "options": [
+    "Little",
+    "A little",
+    "Many",
+    "Much"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0209",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "Is there any milk in that jug? Not —",
+   "options": [
+    "none",
+    "many",
+    "much",
+    "some"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0210",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "There are too many – during television shows.",
+   "options": [
+    "advertising",
+    "advertisement",
+    "advertisings",
+    "advertisements"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0211",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "They spent – time considering the new contract.",
+   "options": [
+    "too much",
+    "too many",
+    "too",
+    "many"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0212",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "– people trying to get into the football stadium.",
+   "options": [
+    "There were too much",
+    "There was too many",
+    "There were too many",
+    "It was too many"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0213",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "There is – on the roads today. (আজ রাস্তায় অনেক বেশি যানবাহন)",
+   "options": [
+    "few traffics",
+    "very much traffic",
+    "too much traffic",
+    "too many traffic"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0214",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "I would like – information, please.",
+   "options": [
+    "an",
+    "some",
+    "few",
+    "piece"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0215",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "I have – problems.",
+   "options": [
+    "a lots of",
+    "a lot of",
+    "lot many a",
+    "lot"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0216",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "There's – dust on these books. Fetch me a duster.",
+   "options": [
+    "a lot of",
+    "plenty of",
+    "lots of",
+    "a good deal of"
+   ],
+   "correctAnswer": "3",
+   "explanation": "a lot of, lots of, plenty of এরা uncountable এবং plural noun উভয়ের পূর্বে বসে। তবে a good/great deal of বেশি formal এবং সাধারণত uncountable noun এর পূর্বে বসে।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0217",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "I am going to buy – bread for breakfast.",
+   "options": [
+    "a",
+    "the",
+    "some",
+    "lot"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0218",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "I have — new books at home.",
+   "options": [
+    "some",
+    "any",
+    "little",
+    "one"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0219",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "The expression 'a lot of' means -",
+   "options": [
+    "an unexpected of",
+    "a large number or amount of",
+    "excessive",
+    "hugely"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0220",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "There are — dangerous drivers.",
+   "options": [
+    "a very lot of",
+    "a lot of",
+    "very much of",
+    "very many of"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0221",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "The determiner 'some' is used before- nouns.",
+   "options": [
+    "both count and non-count",
+    "non-count",
+    "plural count",
+    "singular- count"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0222",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "Choose the correct sentence.",
+   "options": [
+    "I need a few furniture",
+    "I do not need many furnitures",
+    "I do not need many furnitures",
+    "I need some furniture"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0223",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "The police have collected ---- about the crime.",
+   "options": [
+    "many information",
+    "many informations",
+    "a lot of information",
+    "a lot of informations"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0224",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "– can be grown on arid land. (অনুর্বর জমিতে মাত্র অল্প কিছু ফসল জন্মানো যায়)",
+   "options": [
+    "Only little crop",
+    "Only a little crops",
+    "Only few crop",
+    "Only a few crops"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0225",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "--- in the world export diamonds.",
+   "options": [
+    "Only little nations",
+    "Only few nation",
+    "Only a little nation",
+    "Only a few nations"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0226",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "We will need only – food for the picnic.",
+   "options": [
+    "a few",
+    "a little",
+    "a many",
+    "the little"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0227",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "Although southern California is densely populated, — live in the northern part of the state.",
+   "options": [
+    "a little people",
+    "only a few people",
+    "some of the people",
+    "many people"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0228",
+   "kind": null,
+   "topic": "a few/a little, few/little, many/much, some/a lot of, only",
+   "question": "Only – of these are any good. (এগুলোর মধ্যে মাত্র অল্প কয়েকটি উপকারী)",
+   "options": [
+    "few",
+    "a few",
+    "one",
+    "little"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0229",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "The newspaper reports inform that women driver have – accidents than men.",
+   "options": [
+    "less",
+    "least",
+    "lower",
+    "fewer"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0230",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "– traffic means – traffic accidents, people should use public transportation more.",
+   "options": [
+    "more, less",
+    "fewer, fewer",
+    "a few, less",
+    "less, fewer"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0231",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "There were – guests than I expected.",
+   "options": [
+    "less",
+    "lesser",
+    "fewer",
+    "few"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0232",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "The group has had ---- ten captains in just five years.",
+   "options": [
+    "few",
+    "no few then",
+    "no fewer than",
+    "not fewer than"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0233",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "I have the (little) money. (আমার সবচেয়ে কম টাকা আছে)",
+   "options": [
+    "slightest",
+    "little",
+    "least",
+    "less"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0234",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "--- my friends knew I was leaving.",
+   "options": [
+    "Not much of",
+    "Not many of",
+    "Not much",
+    "Not many"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0235",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "--- of what he said was very sensible. (তার কথার অনেক কিছুই যুক্তিসম্মত)",
+   "options": [
+    "Many",
+    "Much",
+    "Few",
+    "A few"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0236",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "There are too many people looking for – jobs in this country.",
+   "options": [
+    "few",
+    "a few",
+    "so few",
+    "too few"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0237",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "—— ten species of deer have been identified.",
+   "options": [
+    "As many",
+    "As many as",
+    "As much as",
+    "Much as"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0238",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "We need as – people as possible.",
+   "options": [
+    "many",
+    "much",
+    "most",
+    "enough"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0239",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "It was estimated that – one lakh people would participate in the meeting.",
+   "options": [
+    "as much as",
+    "as many as",
+    "more",
+    "appropriately"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0240",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "Prices have increased by —— 300 per cent.",
+   "options": [
+    "as much as",
+    "as many as",
+    "as few as",
+    "so much"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0241",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "I have – interest in the matter.",
+   "options": [
+    "some",
+    "any",
+    "none",
+    "no"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0242",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "A person of – age may suffer from defects of vision.",
+   "options": [
+    "every",
+    "any",
+    "certain",
+    "some"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0243",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "They have – children. (তাদের কোনো সন্তান নেই)",
+   "options": [
+    "no",
+    "none",
+    "not",
+    "nothing"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0244",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "Would you like – chicken?",
+   "options": [
+    "any",
+    "a",
+    "some",
+    "one"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0245",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "Can I have - milk in my coffee, please?",
+   "options": [
+    "little",
+    "any",
+    "some",
+    "much"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0246",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "There is — sugar in the house, so we have to go out and buy —.",
+   "options": [
+    "some, any",
+    "no, some",
+    "a, none",
+    "any, them"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0247",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "While there is – single newspaper with a large national circulation, many magazines have national circulation.",
+   "options": [
+    "not",
+    "no",
+    "no one",
+    "not any one"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0248",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "Today – people who enjoy cricket is bigger than that of thirty years ago.",
+   "options": [
+    "a great deal of",
+    "number of",
+    "many",
+    "the number of"
+   ],
+   "correctAnswer": "3",
+   "explanation": "verb টি singular (is) তাই এর পূর্বে many/a number of হবে না; people plural noun বিধায় a great deal of বসবে না।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0249",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "– the dictionaries have information about pronunciation.",
+   "options": [
+    "Most of",
+    "The most",
+    "Most",
+    "Almost the"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0250",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "Which of the following is a compound noun?",
+   "options": [
+    "Bay of Bengal",
+    "Team",
+    "Sunlight",
+    "Country"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0251",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "Which of the following nouns is made up of two nouns?",
+   "options": [
+    "Happiness",
+    "Classroom",
+    "Whitepen",
+    "Obscurity"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0252",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "Which one is a compound noun? (Headmaster/Information/Friday/Examination)",
+   "options": [
+    "Headmaster",
+    "Information",
+    "Friday",
+    "Examination"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0253",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "Which one is a compound noun? (Entertainment/Hair-brush/Holiday/Comprehension)",
+   "options": [
+    "Entertainment",
+    "Hair-brush",
+    "Holiday",
+    "Comprehension"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0254",
+   "kind": null,
+   "topic": "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+   "question": "This is my writing table. 'writing table' is a/an",
+   "options": [
+    "complement",
+    "compound noun",
+    "object to a preposition",
+    "subject"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0255",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Hasan has read most of the – of Shakespeare.",
+   "options": [
+    "poem",
+    "play",
+    "drama",
+    "works"
+   ],
+   "correctAnswer": "3",
+   "explanation": "Book, piece of music, painting ইত্যাদি অর্থে work (count noun) এর plural হচ্ছে works।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0256",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "I need — milk.",
+   "options": [
+    "a few",
+    "a little",
+    "a hot",
+    "a lot"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0257",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "What kind of noun is 'knowledge'?",
+   "options": [
+    "Proper",
+    "Material",
+    "Abstract",
+    "Common"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0258",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "I need some —. The correct answer is",
+   "options": [
+    "advises",
+    "advice",
+    "advices",
+    "advise"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0259",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The countable form of 'laughter' is-",
+   "options": [
+    "The laugh",
+    "a laugh",
+    "Laugh",
+    "all of these"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0260",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "We need to buy some new – .",
+   "options": [
+    "furnishers",
+    "furniture",
+    "furnisher",
+    "furniture's"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0261",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Manisha did the job without having – interest in it.",
+   "options": [
+    "much",
+    "all",
+    "many",
+    "little"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0262",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "I still have — money. (আমার এখনো কিছু টাকা আছে)",
+   "options": [
+    "a few",
+    "quite a few",
+    "many",
+    "a little"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0263",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the correct sentence. [আমার অনেক কাজ করার আছে]",
+   "options": [
+    "I have many works to perform.",
+    "I have many work to perform.",
+    "I have much works to perform.",
+    "I have much work to perform."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0264",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "I don't have —— .",
+   "options": [
+    "many furnitures",
+    "much furniture",
+    "much furnitures",
+    "many furniture"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0265",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "She wanted to serve some coffee to her guests, however ----.",
+   "options": [
+    "She had not many sugar",
+    "there was not great amount of sugar",
+    "She did not have much sugar.",
+    "She was lacking in amount of sugar"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0266",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Find the correct sentence.",
+   "options": [
+    "The intruder stood quietly for few moments.",
+    "The intruder stood quietly for a few moments.",
+    "The intruder stood quietly few moments.",
+    "The intruder stood quietly for the few moments."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0267",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "'A few' is a –",
+   "options": [
+    "positive term",
+    "negative term",
+    "meaningless term",
+    "none of the above"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0268",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the correct sentence: (তোমাকে একটি উপদেশ দিই)",
+   "options": [
+    "Let me give you an advice.",
+    "Let me give you one advice.",
+    "Let me give you a single advice.",
+    "Let me give you a piece of advice."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0269",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "– people can travel abroad.",
+   "options": [
+    "Very less",
+    "Little",
+    "Few",
+    "Least"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0270",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the countable noun. (Newspaper/Water/Fine/Magic)",
+   "options": [
+    "Newspaper",
+    "Water",
+    "Fine",
+    "Magic"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0271",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the countable noun from below. (Love/Music/Sand/Message)",
+   "options": [
+    "Love",
+    "Music",
+    "Sand",
+    "Message"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0272",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the uncountable noun from below.",
+   "options": [
+    "Dream",
+    "Salt",
+    "Thought",
+    "Table"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0273",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "I don't have – furniture.",
+   "options": [
+    "much",
+    "more",
+    "many",
+    "too"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0274",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Give me — milk.",
+   "options": [
+    "the little",
+    "little",
+    "a little",
+    "a few"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0275",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The town is very quiet at night. — people go out.",
+   "options": [
+    "a little",
+    "very few",
+    "little",
+    "a few"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0276",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "For an investor who – money, silver or bonds are good options.",
+   "options": [
+    "has so a little",
+    "has very few",
+    "has so few",
+    "has very little"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0277",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the correct sentence.",
+   "options": [
+    "I have many works to do.",
+    "I have many work to do.",
+    "I have a lot of work to do.",
+    "I have great deal works to do."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0278",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "We have not been given — update on the patient's condition.",
+   "options": [
+    "some",
+    "none",
+    "any",
+    "much"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0279",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the incorrect word for the gap. — of the film was worth watching.",
+   "options": [
+    "Several",
+    "Some",
+    "The whole",
+    "Much"
+   ],
+   "correctAnswer": "0",
+   "explanation": "Several এর অর্থ দুইয়ের অধিক কিন্তু অনেক নয়, কয়েক তাই এটি শুধু plural noun এর ক্ষেত্রে বসে।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0280",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Identify the sentence where the determiner is used properly-",
+   "options": [
+    "I have not much friends here.",
+    "I have a few friends here.",
+    "I have not a little friends here.",
+    "I have a little friends here."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0281",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "We could barely get any information at the airport. – people seemed to have – idea about the flights.",
+   "options": [
+    "Many/ any",
+    "A lot of/ any",
+    "Only a few/ some",
+    "Few/ no"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0282",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Heavy fines and jail sentences have made – difference in preventing elephant poaching.",
+   "options": [
+    "a few",
+    "many",
+    "little",
+    "the number of"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0283",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Translate into English: তিনি আমাকে অনেক উপদেশ দিয়েছিলেন।",
+   "options": [
+    "He gave me a lot of advice.",
+    "He gave me many advice.",
+    "He gave me many advices.",
+    "He gave me too much advice."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0284",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Which of the following sentences is incorrect?",
+   "options": [
+    "I wonder whether there is any time left.",
+    "Are there some roses in the garden?",
+    "The train has just arrived.",
+    "I have left my purse at home."
+   ],
+   "correctAnswer": "1",
+   "explanation": "some এর স্থলে any হবে।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0285",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "One and a half million people drive rickshaws for a living, plus — hundred thousand who own and repair them.",
+   "options": [
+    "few",
+    "a few",
+    "little",
+    "a little"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0286",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Sister gave him – water.",
+   "options": [
+    "a few",
+    "a little",
+    "a lot",
+    "many"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0287",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Which one is used in a negative sense?",
+   "options": [
+    "the few",
+    "a few",
+    "few",
+    "very few"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0288",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Do you mind if I ask you — questions?",
+   "options": [
+    "few",
+    "little",
+    "a few",
+    "a little"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0289",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The word 'poetry' is ———.",
+   "options": [
+    "a countable noun",
+    "an uncountable noun",
+    "a plural noun",
+    "an abstract noun"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0290",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Which one of the following sentence is correct?",
+   "options": [
+    "Give me a few butter, please",
+    "Give me a little butters, please",
+    "I have a little money",
+    "Both a and c"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0291",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "All we need to complete the case is a single —.",
+   "options": [
+    "information",
+    "pieces of information",
+    "items of information",
+    "item of information"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0292",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "In one of these sentences only the determiner is used properly. Identify the same.",
+   "options": [
+    "I don't want these water.",
+    "He does have many money.",
+    "I would take a little salt on my vegetables.",
+    "There are less people here than in the other place."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0293",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "In order to improve farming methods, we need -----.",
+   "options": [
+    "machine",
+    "machinery",
+    "machineries",
+    "a machinery"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0294",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the correct sentence:",
+   "options": [
+    "I need a few furnitures.",
+    "I need a few furniture.",
+    "I do not need furniture.",
+    "I do need some furnitures."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0295",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "------- is currently available to researchers and physicians who study the indigenous life of Bangladesh.",
+   "options": [
+    "A little information",
+    "Few information",
+    "Little information",
+    "A few information"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0296",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "According some studies, dolphins, whales and – other sea creatures use highly sophisticated navigation systems.",
+   "options": [
+    "any",
+    "a little",
+    "many",
+    "much"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0297",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "How many engineering ---- there in Bangladesh? (বাংলাদেশে কতগুলো প্রকৌশল বিশ্ববিদ্যালয় আছে?)",
+   "options": [
+    "university, is",
+    "universities, are",
+    "universities, is",
+    "university, are"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0298",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "In my country, — universities offer a wide range of courses.",
+   "options": [
+    "every",
+    "each",
+    "a great deal",
+    "most"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0299",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "I have — enemies, but they can do me — harm.",
+   "options": [
+    "no, little",
+    "many, many",
+    "little, much",
+    "a few, little"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0300",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "We didn't buy – flowers.",
+   "options": [
+    "many",
+    "large",
+    "lot of",
+    "any"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0301",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Anne is very busy these days, she has — free time.",
+   "options": [
+    "plenty of",
+    "a lot of",
+    "little",
+    "much"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0302",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "We don't have to rush. We've got — time.",
+   "options": [
+    "much",
+    "plenty of",
+    "a little",
+    "little"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0303",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Travelers' checks are useful when one is travelling because – people get advantages by using them during travelling.",
+   "options": [
+    "some",
+    "few",
+    "many",
+    "much"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0304",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "It costs relatively – and you can save a lot.",
+   "options": [
+    "little",
+    "a little",
+    "slight",
+    "small"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0305",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "– number of people are suffering from the disease throughout the world.",
+   "options": [
+    "A greater",
+    "A heavy",
+    "A higher",
+    "A good"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0306",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Applications have risen this year by —— 50%.",
+   "options": [
+    "so far",
+    "as much as",
+    "much as",
+    "as far as"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0307",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "We can offer him a – help which can be instrumental for his survival.",
+   "options": [
+    "some",
+    "little",
+    "few",
+    "many"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0308",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the correct sentence.",
+   "options": [
+    "Give me little butter please",
+    "Give me few butter please",
+    "Give me a little butter please",
+    "Give me a few butter please"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0309",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "He did not give me -----. (তিনি আমাকে বেশি উপদেশ দেননি)",
+   "options": [
+    "much advice",
+    "much advices",
+    "many advice",
+    "many advices"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0310",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Although southern California is densely populated, --- live in the northern part of the state. (উত্তরে লোকজন বাস করে না বললেই চলে)",
+   "options": [
+    "a little people",
+    "a few the people",
+    "few people",
+    "a little of people"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0311",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the correct sentence.",
+   "options": [
+    "We take decisions based on some informations.",
+    "We take decision based on some information.",
+    "We take decisions based on some information.",
+    "We take decision based on some informations."
+   ],
+   "correctAnswer": "2",
+   "explanation": "take a decision/take decisions = সিদ্ধান্ত নেয়া।"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0312",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "I bought – for my laboratory last week.",
+   "options": [
+    "two equipments",
+    "two pieces of equipments",
+    "two pieces of equipment",
+    "two equipment pieces"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0313",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "I have few books. এর অর্থ কি-",
+   "options": [
+    "আমার অল্প কিছু বই আছে",
+    "আমার বই নেই বললেই চলে",
+    "আমার কিছু বই আছে",
+    "আমার বই আছে তবে অল্প"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0314",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The students liked that professor's course because ----.",
+   "options": [
+    "there was few if any homework",
+    "not a lot of homework",
+    "there was little or no homework",
+    "of there wasn't a great amount of homework"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0315",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Emma looked for dark spots on the apples. She didn't see — spot, however.",
+   "options": [
+    "any",
+    "some",
+    "few",
+    "much"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0316",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "– a problem in most big cities.",
+   "options": [
+    "Crimes are",
+    "The crime is",
+    "Crime is",
+    "The crimes are"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0317",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "I have — hope that he will pass.",
+   "options": [
+    "little",
+    "any",
+    "some",
+    "few"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0318",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "After the invention of computer, — publishers prefer hand-written manuscripts.",
+   "options": [
+    "many",
+    "most",
+    "almost",
+    "few"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0319",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "We didn't spend — money.",
+   "options": [
+    "much",
+    "many",
+    "few",
+    "only a few"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0320",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "We do not know much about the red planet Mars as we have got — information of that planet.",
+   "options": [
+    "few",
+    "a few",
+    "little",
+    "a little"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0321",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the correct sentence. (আজকাল তুলনামূলক কম সংখ্যক লোক আমেরিকান ভিসা পায়)",
+   "options": [
+    "Less people get American visas nowadays.",
+    "Lesser people get American visas nowadays.",
+    "Fewer people get American visas nowadays.",
+    "Few people get American visas nowadays."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0322",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Which sentence is correct?",
+   "options": [
+    "My headmaster gave me some good advice on choosing a career.",
+    "My headmaster gave me a good advice on choosing a career.",
+    "My headmaster gave me good advice on choosing a career.",
+    "My headmaster good advice gave me on choosing a career."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_determiner_mcq_0323",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the correct sentence.",
+   "options": [
+    "I have little friends in Bangladesh",
+    "I have a little friends in Bangladesh",
+    "I have few friend in Bangladesh",
+    "I have a few friends in Bangladesh"
+   ],
+   "correctAnswer": "3"
+  }
+ ]
+}

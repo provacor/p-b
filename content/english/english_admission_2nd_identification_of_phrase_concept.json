@@ -1,0 +1,118 @@
+{
+ "sectionId": "english_admission_2nd_identification_of_phrase_concept",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "english_admission_2nd_identification_of_phrase_concept_0001",
+   "kind": null,
+   "title": "Phrase কী?",
+   "body": "Phrase হচ্ছে একটি শব্দগুচ্ছ (a group of words) যা কোনো একটি একক পদের (single part of speech) মত ব্যবহৃত হয়। Phrase এর subject এবং verb থাকলেও subject এবং finite verb একসাথে থাকে না। The water being hot (phrase), I could not drink it (clause). The meeting being over (phrase), we left the room (clause). One fine morning (একটি সুন্দর সকাল) হচ্ছে একটি শব্দগুচ্ছ এবং এতে finite verb নেই তাই এটি একটি phrase।",
+   "topic": "Phrase — সংজ্ঞা ও চেনার উপায়"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_concept_0002",
+   "kind": null,
+   "title": "Phrase চেনার উপায় ১ — অর্থ (Meaning)",
+   "body": "খুব সহজে বাক্যে phrase নির্ণয়ের জন্য দুইটি বিষয় বিবেচনা করতে হয়: ১. বাক্যে phrase এর অর্থ (meaning) এবং ২. বাক্যে অবস্থান (position) বা ব্যবহার (Function/Use)। phrase এর অর্থ যে একক part of speech কে নির্দেশ করে phrase টি সেই part of speech এর অনুরূপ phrase হবে।\nHe is a man of letters (scholar — noun phrase); He is a man of fame (famous man — noun phrase); I have no kith and kin in this town (Relatives — noun phrase)।\nThere is no hard and fast rule in film making (definite, fixed — adjective phrase); He is without fear (Fearless — adjective phrase); He is a man of fame (Famous — adjective phrase); It's the deed of a hero (Heroic — adjective phrase); I am free from blame (Blameless — adjective phrase); The house built long ago fell down (old — adjective phrase)।\nHe worked with care (Carefully — adverbial phrase); I want it at this moment (Now); He came at a great speed (Quickly); You can get it in all places (Everywhere); He fell down at this place (Here); He will come before very long (Soon) — adverbial phrase।\nHe stood in front of me (Before); He preserved in teeth of all opposition (Against); I couldn't come on account of illness (For) — preposition phrase।",
+   "topic": "Phrase — সংজ্ঞা ও চেনার উপায়"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_concept_0003",
+   "kind": null,
+   "title": "Phrase চেনার উপায় ২ — ব্যবহার বা অবস্থান (Function/Position)",
+   "body": "সাধারণত একটি একক part of speech এর অবস্থানে অনুসারে phrase এর অবস্থান হয়ে থাকে। অর্থাৎ কোনো phrase যদি noun এর অবস্থানে বসে তবে সেটি noun phrase হবে, adjective এর অবস্থানে বসলে adjective phrase হবে। এ কারণে একটি phrase ব্যবহার বা অবস্থানভেদে বিভিন্ন phrase হতে পারে। He enjoys walking by the river side (noun phrase, কারণ Transitive verb এর পরে noun বসে)। The boy walking by the riverside is my brother (adjective phrase, কারণ noun কে modify করে)। The men in the room rushed out (adjective phrase — The men কে modify করেছে)। He is in the room (adverbial phrase — verb 'is' কে modify করেছে)। He stood in front of me — 'in front of' preposition phrase এবং 'in front of me' adverbial phrase কারণ verb 'stood' কে modify করেছে।",
+   "topic": "Phrase — সংজ্ঞা ও চেনার উপায়"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_concept_0004",
+   "kind": null,
+   "title": "Kinds of Phrase",
+   "body": "Function অনুসারে phrase কে মোট ৯ ভাগে ভাগ করা হয়েছে: ❶ noun phrase ❷ adjective phrase ❸ adverbial phrase ❹ verb phrase ❺ prepositional phrase ❻ conjunctional phrase ❼ interjectional phrase ❽ infinitive phrase ❾ participle phrase।",
+   "topic": "Phrase — সংজ্ঞা ও চেনার উপায়"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_concept_0005",
+   "kind": null,
+   "title": "Noun Phrase",
+   "body": "Noun phrase সাধারণত noun এর কাজ করে অর্থাৎ noun এর স্থানে বসে অথবা noun phrase এর অর্থও কোনো একক noun কে নির্দেশ করে। যেমন: verb এর subject, object, complement, preposition এর object হিসেবে noun phrase বসে। আবার, determiner, preposition এর পরে noun phrase বসে। noun phrase এর central part বা head word টি মূলত কোনো noun হয়। noun phrase এর গঠন: determiner + noun (the man, my pen), adjective + noun (hot water, good exercise, hard work), determiner + adjective + noun (a charming girl, the civil law), determiner + adverb + adjective + noun (a very good girl), determiner + adjective + adverb + noun (a nice enough lady), noun + and + noun (kith and kin), the + adjective (the brave), noun + preposition + noun (poet of beauty)।",
+   "topic": "Noun Phrase"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_concept_0006",
+   "kind": null,
+   "title": "Noun Phrase — subject/object হিসেবে",
+   "body": "Rule: Verb এর subject, transitive verb এর object রূপে কোনো phrase বসলে তা noun phrase হবে। তাই gerund বা infinitive phrase যদি subject/object/complement হয় তবে তা noun phrase হবে। His going home is uncertain. We enjoy playing cricket. He likes to play tennis. to go home হচ্ছে wants এর object ('কি চাই?' এর উত্তর) তাই এটি noun phrase। Rule: determiner (article, possessive etc.), preposition এর পরে noun phrase বসে। He is an eyesore to me — eyesore (চক্ষুশূল) একটি noun এবং article ও preposition এর মাঝে বসেছে তাই noun phrase। I have no kith and kin — no এবং preposition এর মাঝে noun বসে তাই noun phrase।",
+   "topic": "Noun Phrase"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_concept_0007",
+   "kind": null,
+   "title": "Adjective Phrase",
+   "body": "Adjective phrase সাধারণত adjective এর কাজ করে অর্থাৎ adjective এর অবস্থানে বসে অথবা adjective phrase এর অর্থও কোন একক adjective কে নির্দেশ করে। এ কারণে noun এর পূর্বে বা পরে বসে কোনো phrase যখন noun কে modify করে তখন তা adjective phrase হবে। সহজ কথায়, noun এর পরে preposition বা participle দ্বারা শুরু কোনো phrase থাকলে phrase টি adjective phrase হবে। There is no hard and fast rule — hard and fast এর অর্থ fixed, obvious (ধরাবাঁধা/নির্দিষ্ট) যা adjective এবং no ও noun (rule) এর মাঝে বসেছে তাই adjective phrase।",
+   "topic": "Adjective ও Verbal Phrase"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_concept_0008",
+   "kind": null,
+   "title": "Verbal Phrase",
+   "body": "কোনো Phrase যদি verb এর কাজ করে তবে তাকে Verbal phrase বলে। e.g. I look forward to meeting you. The suffering of the acid victims beggars description. Raju looked for his car. Do on your shirt.",
+   "topic": "Adjective ও Verbal Phrase"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_concept_0009",
+   "kind": null,
+   "title": "Adverbial Phrase",
+   "body": "Verb কে How (কিভাবে), Where (কোথায়), When (কখন), Why (কেন) দ্বারা প্রশ্ন করে যে phrase পাওয়া যায় তাকে Adverbial phrase বলে। He lives in the suburb of Dhaka (Where)। We read to learn many known and unknown things (Why)। Our class begins in November (When)। I worked on without any protest (How)। N.B. verb এর পরে preposition + ........ + noun বিশিষ্ট phrase থাকলে তা adverbial phrase হবে। Adjunct হচ্ছে adverb/adverbial phrase (He is reading a book now. I read books for pleasure)। out and out = thoroughly, completely, সম্পূর্ণরূপে = adverb; তাই out and out হচ্ছে adverb phrase।",
+   "topic": "Adverbial ও Prepositional Phrase"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_concept_0010",
+   "kind": null,
+   "title": "Prepositional Phrase",
+   "body": "কোনো Phrase যদি Preposition এর কাজ করে তবে তাকে prepositional phrase বলে। prepositional phrase চেনার উপায় ২টি। ১. prepositional phrase এর শুরুতে এবং শেষে preposition থাকে [এক্ষেত্রে phrase এর অর্থ কোনো একক preposition কে নির্দেশ করে]। যেমন: He stood in front of (= before) me. He was absent on account of (= for) illness. শুরুতে এবং শেষে preposition থাকলে এটি সর্বাবস্থাতেই prepositional phrase হবে। ২. prepositional phrase এর শুরুতে preposition এবং শেষে noun থাকে — এই নিয়মটি সবসময় খাটে না। কারণ শুরুতে preposition এবং শেষে noun থাকা সত্ত্বেও phraseটি noun এর পরে বসলে Adjective phrase হবে এবং verb এর পরে বসলে Adverb phrase হবে। The man in the room is my father (Adjective phrase)। He is in the room (Adverb phrase)। তাই গঠন নয়, কার্যক্রম (Function) দেখে phrase নির্ণয় করতে হয়। He is in front of me (Prepositional phrase — in front of)। He is in front of me (Adverbial phrase — in front of me)।",
+   "topic": "Adverbial ও Prepositional Phrase"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_concept_0011",
+   "kind": null,
+   "title": "Prepositional phrase — functionally adjective/adverbial",
+   "body": "এরা গঠনগতভাবে prepositional phrase কিন্তু functionally এরা adverbial phrase তাই অপশনগুলোর মধ্যে adverbial phrase উল্লেখ থাকলে prepositional phrase উল্লেখ থাকা সত্ত্বেও উত্তর adverbial phrase হবে (We were waiting for the bus)। noun phrase এর গঠনে শুরুতে preposition বসে না। অর্থাৎ শুরুতে preposition থাকলে তা noun phrase নয়। preposition + noun + preposition হচ্ছে preposition phrase (He is standing in front of me) আবার, verb এর পরবর্তী prepositional phrase + (pro)noun হচ্ছে adverbial phrase (He is in front of me) কিন্তু noun এর পরবর্তী prepositional phrase + (pro)noun হচ্ছে adjective phrase।",
+   "topic": "Adverbial ও Prepositional Phrase"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_concept_0012",
+   "kind": null,
+   "title": "Conjunctional Phrase",
+   "body": "কোনো phrase বা শব্দসমষ্টি যখন Conjunction এর কাজ করে তখন তাকে conjunctional phrase বলে। কিছু conjunctional phrase এর উদাহরণ: as soon as, as much as, as well as, as far as, and not, or rather, along with, together with, not only – but also, both – and, either – or, neither – nor, no sooner had – than ইত্যাদি।",
+   "topic": "Conjunctional, Interjectional, Infinitive ও Participle Phrase"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_concept_0013",
+   "kind": null,
+   "title": "Interjectional Phrase",
+   "body": "Interjectional phrase সাধারণত Interjection এর কাজ করে এবং Interjectional phrase চেনার উপায় হচ্ছে Interjectional phrase এর শেষে Note of exclamation (!) থাকে। What a pity! The man is dead. Oh dear me! What shall I do?",
+   "topic": "Conjunctional, Interjectional, Infinitive ও Participle Phrase"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_concept_0014",
+   "kind": null,
+   "title": "Infinitive Phrase",
+   "body": "infinitive phrase বিভিন্নভাবে ব্যবহৃত হয়। infinitive phrase যখন noun এর মত কাজ করে (যেমন: subject, object, complement) তখন একে noun phrase বলে। যেমন: To read newspapers is a good habit. He hopes to win the first prize. infinitive phrase noun, adjective, adverb কে modify করতে পারে অর্থাৎ এদের Post-modifier রূপে ব্যবহৃত হয়। I took a determination to pass the exam. He is reading attentively to pass the exam. I am glad to know your success (infinitive phrase as a post-modifier of an adjective)।",
+   "topic": "Conjunctional, Interjectional, Infinitive ও Participle Phrase"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_concept_0015",
+   "kind": null,
+   "title": "Participle Phrase",
+   "body": "গঠন: present participle (verb + ing) + extension., subject + verb + extension. এক্ষেত্রে কমার (,) পূর্বের 'verb+ing' অংশটি participle phrase হবে। Loudly knocking at the door, he demanded admission. noun কে modify কারী participle phrase টি adjective phrase হয় তাই অপশনগুলোর adjective phrase উল্লেখ থাকলে এ জাতীয় প্রশ্নের উত্তর adjective phrase হবে।",
+   "topic": "Conjunctional, Interjectional, Infinitive ও Participle Phrase"
+  },
+  {
+   "id": "english_admission_2nd_identification_of_phrase_concept_0016",
+   "kind": null,
+   "title": "above board — adjective ও adverb",
+   "body": "above board এর অর্থ হচ্ছে legal and honest (ন্যায় ও বৈধ), in a legal and honest way (ন্যায় ও বৈধভাবে)। এটি adjective এবং adverb উভয় রূপেই কাজ করে। (pro) noun কে modify করলে adjective এবং verb কে modify করলে adverb হবে। The deal was completely open and above board. (adjective) If you do everything above board, you will have to pay taxes on your earnings. (adverb) Everything that he did was open and above board — above board বাক্যের subject/pronoun (everything) কে modify করেছে এবং open (adjective) এর সাথে and যোগে parallel হয়ে বসেছে তাই adjective phrase।",
+   "topic": "Overview — মিশ্র অনুশীলন"
+  }
+ ]
+}

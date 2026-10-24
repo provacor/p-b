@@ -509,6 +509,70 @@
     "english_admission_2nd_parts_of_speech_mcq": {
       "file": "content/english/english_admission_2nd_parts_of_speech_mcq.json",
       "count": 717
+    },
+    "english_admission_2nd_spelling_concept": {
+      "file": "content/english/english_admission_2nd_spelling_concept.json",
+      "count": 31
+    },
+    "english_admission_2nd_spelling_mcq": {
+      "file": "content/english/english_admission_2nd_spelling_mcq.json",
+      "count": 519
+    },
+    "english_admission_2nd_narration_concept": {
+      "file": "content/english/english_admission_2nd_narration_concept.json",
+      "count": 24
+    },
+    "english_admission_2nd_narration_mcq": {
+      "file": "content/english/english_admission_2nd_narration_mcq.json",
+      "count": 205
+    },
+    "english_admission_2nd_group_verb_concept": {
+      "file": "content/english/english_admission_2nd_group_verb_concept.json",
+      "count": 34
+    },
+    "english_admission_2nd_group_verb_mcq": {
+      "file": "content/english/english_admission_2nd_group_verb_mcq.json",
+      "count": 459
+    },
+    "english_admission_2nd_identification_of_clause_sentence_concept": {
+      "file": "content/english/english_admission_2nd_identification_of_clause_sentence_concept.json",
+      "count": 43
+    },
+    "english_admission_2nd_identification_of_clause_sentence_mcq": {
+      "file": "content/english/english_admission_2nd_identification_of_clause_sentence_mcq.json",
+      "count": 379
+    },
+    "english_admission_2nd_translation_proverb_concept": {
+      "file": "content/english/english_admission_2nd_translation_proverb_concept.json",
+      "count": 90
+    },
+    "english_admission_2nd_translation_proverb_mcq": {
+      "file": "content/english/english_admission_2nd_translation_proverb_mcq.json",
+      "count": 791
+    },
+    "english_admission_2nd_non_finite_verb_concept": {
+      "file": "content/english/english_admission_2nd_non_finite_verb_concept.json",
+      "count": 41
+    },
+    "english_admission_2nd_non_finite_verb_mcq": {
+      "file": "content/english/english_admission_2nd_non_finite_verb_mcq.json",
+      "count": 304
+    },
+    "english_admission_2nd_determiner_concept": {
+      "file": "content/english/english_admission_2nd_determiner_concept.json",
+      "count": 37
+    },
+    "english_admission_2nd_determiner_mcq": {
+      "file": "content/english/english_admission_2nd_determiner_mcq.json",
+      "count": 323
+    },
+    "english_admission_2nd_identification_of_phrase_concept": {
+      "file": "content/english/english_admission_2nd_identification_of_phrase_concept.json",
+      "count": 16
+    },
+    "english_admission_2nd_identification_of_phrase_mcq": {
+      "file": "content/english/english_admission_2nd_identification_of_phrase_mcq.json",
+      "count": 65
     }
   }
 }

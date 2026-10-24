@@ -1,0 +1,2684 @@
+{
+ "sectionId": "english_admission_2nd_narration_mcq",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "english_admission_2nd_narration_mcq_0001",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "We use a – before the indirect speech.",
+   "options": [
+    "linker",
+    "article",
+    "adjective",
+    "preposition"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0002",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "'Munmun says that she did not go there.' (Make it direct)",
+   "options": [
+    "Munmun says, \"I did not go there.\"",
+    "Munmun says, \"I do not go there.\"",
+    "Munmun said, \"I did not went there.\"",
+    "Munmun says that I did not go there."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0003",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "Report the following in indirect speech: You will say, \"I am ill\"",
+   "options": [
+    "You will say that you are ill.",
+    "You will say that I am ill.",
+    "You will say that you were ill.",
+    "You would say that I was ill."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0004",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "He has said to me, \"I shall go out but you will stay.\" Make it indirect speech.",
+   "options": [
+    "He has told me that he would go out but I should stay.",
+    "He has told me that he will go out but I shall stay.",
+    "He told me that he will go out but I shall stay.",
+    "He has said me that he would go out but I would stay."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0005",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "'Karim says that he did not go.' (Make it direct)",
+   "options": [
+    "Karim says, \"He did not go.\"",
+    "Karim says, \"I do not go.\"",
+    "Karim says, \"I have not gone.\"",
+    "Karim says, \"I did not go\"."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0006",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "Meena said to me,'I want to go to Dhaka now.' The indirect speech of the sentence is",
+   "options": [
+    "Meena said to me that she wanted to go to Dhaka now.",
+    "Meena said to me that she wanted to go to Dhaka then.",
+    "Meena told to me that she wanted to go to Dhaka then.",
+    "Meena told to me that she had wanted to go to Dhaka then."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0007",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "The correct narration of \"He said, I am well\"-",
+   "options": [
+    "He said that I am well.",
+    "He said that I was well.",
+    "He said that he was well.",
+    "He said that he is well."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0008",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "My friend said, \"I was ill.\" (Change the narration)",
+   "options": [
+    "My friend said that he was ill.",
+    "My friend told that I was ill.",
+    "My friend said that he had been ill.",
+    "My friend said that I were ill."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0009",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "Rahim said, \"I am ill.\" উপরিউক্ত বাক্যটির পরোক্ষ উক্তি কোনটি সঠিক?",
+   "options": [
+    "Rahim said that he is ill.",
+    "Rahim told about his illness",
+    "Rahim described that his state of health",
+    "Rahim said that he was ill"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0010",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "Kalpana said, \"I am ill\" makes indirect speech",
+   "options": [
+    "Kalpana said that she is ill.",
+    "Kalpana said that she had been ill.",
+    "Kalpana said that she was ill.",
+    "Kalpana said that she was not well."
+   ],
+   "correctAnswer": "2",
+   "explanation": "Reporting Verb past tense এ থাকলে reported speech এর present indefinite → past indefinite এবং first person reporting verb এর subject এর person অনুযায়ী পরিবর্তিত হয়।"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0011",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "You said to me, 'you do not do your duty.' Make indirect speech-",
+   "options": [
+    "You told me that I do not my duty.",
+    "You said to me that I do not do my duty.",
+    "You said to me that I do not do my duty",
+    "You told me that I did not do my duty."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0012",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "You said to me, 'You are right'? Indirect from is –",
+   "options": [
+    "You told that you are right",
+    "You told me that I am right.",
+    "You told me that I was right.",
+    "You told me that you were right."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0013",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "Select the correct indirect form: He said to me, \"You are always unreliable.\"",
+   "options": [
+    "He said to me that I am going to be unreliable.",
+    "He told me that I was always unreliable.",
+    "He told me I had been always unreliable.",
+    "He told me that I would be unreliable."
+   ],
+   "correctAnswer": "1",
+   "explanation": "second person সবসময় reporting verb এর object এর person অনুযায়ী পরিবর্তিত হয়।"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0014",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "The correct indirect speech of He said, \"I finished reading the book.\" is",
+   "options": [
+    "He said that he finished reading the book.",
+    "He said that he had finished reading the book.",
+    "He said that he have had finished reading the book.",
+    "He said that he finished to have read the book."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0015",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "Change into indirect: He said, \"The horse died in the night.\"",
+   "options": [
+    "He said that the horse died in the night.",
+    "He said that the horse had died in the night.",
+    "He said that the horse was died in the night.",
+    "He said that the horse will be died in the night."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0016",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "What is the correct indirect form of: He said, \"The train reached at nine.\"",
+   "options": [
+    "He said that the train has reached at nine.",
+    "He said that the train had reached at nine.",
+    "He said that the train reached at nine.",
+    "He said that train reached at nine."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0017",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "He said, \"I went to Tangail.\" (Indirect)",
+   "options": [
+    "He said that had he gone to Tangail.",
+    "He said that I had gone to Tangail.",
+    "He said that he had gone to Tangail.",
+    "He said that he went to Tangail."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0018",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "Halima – that she would not attend classes next week.",
+   "options": [
+    "told to her professors",
+    "said her professors.",
+    "told her professors",
+    "is telling her professors."
+   ],
+   "correctAnswer": "2",
+   "explanation": "that এর পরে past tense আছে তাই পূর্বেও past tense হবে। told + object, said to + object; told এর পরে to বসে না।"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0019",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "He said that he had come to see me. এর direct speech-",
+   "options": [
+    "He said, \"he has come to see you.\"",
+    "He said, \"I came to see you.\"",
+    "He said, \"I have come to see you.\"",
+    "He said, \"I had come to see you.\""
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0020",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "He said \"I met her long ago.\" The correct indirect speech is:",
+   "options": [
+    "He said that he met her long ago.",
+    "He said that he had met her long ago.",
+    "He said that he was met her long ago.",
+    "He said that he has met her long ago."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0021",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "Arif told us that he had waited an hour. বাক্যটির direct speech হবে-",
+   "options": [
+    "Arif said to us, 'I waited an hour.'",
+    "Arif said to us,'I have been waiting an hour.'",
+    "Arif said to us, 'I had to wait an hour.'",
+    "Arif told to us, 'I have waited an hour.'"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0022",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "Correct indirect speech of – Shumi said, \"I was suffering from fever.\" is-",
+   "options": [
+    "Shumi said that she was suffering from fever.",
+    "Shumi said that she had suffering from fever.",
+    "Shumi said that she had been suffering from fever.",
+    "Shumi said that she was being suffered from fever."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0023",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "He said, \"I have been working since sunrise.\" Make it indirect speech.",
+   "options": [
+    "He said that he has been working since sunrise.",
+    "He said that he has worked for sunrise.",
+    "He said that he had been working since sunrise.",
+    "He said that he is working since sunrise."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0024",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "He said that he had been writing a letter. Make it direct –",
+   "options": [
+    "He said, \"I was writing a letter.\"",
+    "He said, \"I wrote a letter.\"",
+    "He said, \"I write a letter.\"",
+    "He said, \"I have written a letter.\""
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0025",
+   "kind": null,
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+   "question": "He said that he had seen him long before. Which one is the correct direct form?",
+   "options": [
+    "He said, \"I saw him long ago.\"",
+    "He said, \"I have seen him long before.\"",
+    "He said, \"I did see him long ago.\"",
+    "He said, \"I had seen him long before.\""
+   ],
+   "correctAnswer": "0",
+   "explanation": "Indirect এ before থাকলে direct এ ago হয়। আর long ago থাকলে verb এর past indefinite tense হয়।"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0026",
+   "kind": null,
+   "topic": "চিরন্তন সত্য, Habitual fact ও ব্যতিক্রম",
+   "question": "Put into indirect speech: \"when I got home, I found I had lost my umbrella,\" Laila said.",
+   "options": [
+    "Laila said that when she had got home she found that she had lost her umbrella.",
+    "Laila said that when she got home she found she had lost her umbrella.",
+    "Laila said that when she got home she had found that she had lost her umbrella.",
+    "Laila said that when she had got home she found she lost her umbrella."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0027",
+   "kind": null,
+   "topic": "চিরন্তন সত্য, Habitual fact ও ব্যতিক্রম",
+   "question": "Choose the correct indirect speech of 'He said, \"I take bath in the Padma every morning.\"",
+   "options": [
+    "He said that he took bath in the Padma every morning.",
+    "He said that he take bath in the Padma every morning.",
+    "He said that he takes bath in the Padma every morning.",
+    "He said that he taken bath in the Padma every morning."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0028",
+   "kind": null,
+   "topic": "চিরন্তন সত্য, Habitual fact ও ব্যতিক্রম",
+   "question": "He said to me, \"Regular exercise is good for health.\" Make it indirect speech.",
+   "options": [
+    "He told me that regular exercise is good for health.",
+    "He told me that regular exercise is to be good for health.",
+    "He told me that regular exercise was good for health.",
+    "He told me that regular exercise is best for health."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0029",
+   "kind": null,
+   "topic": "চিরন্তন সত্য, Habitual fact ও ব্যতিক্রম",
+   "question": "Soya said, \"I walk a mile every day\". Find out indirect narration-",
+   "options": [
+    "Soya said that she walked a mile every day.",
+    "Soya said that she walks a mile every day.",
+    "Soya said that I am walking a mile every day.",
+    "Soya said that I walk a mile every day."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0030",
+   "kind": null,
+   "topic": "চিরন্তন সত্য, Habitual fact ও ব্যতিক্রম",
+   "question": "The indirect speech of –Zinnia said, \"I read all sorts of magazine\" is-",
+   "options": [
+    "Zinnia said that she reads all sorts of magazines.",
+    "Zinnia said that I read all sorts of magazines.",
+    "Zinnia said that she were reading all magazines.",
+    "Zinnia reported that she had been reading magazines."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0031",
+   "kind": null,
+   "topic": "চিরন্তন সত্য, Habitual fact ও ব্যতিক্রম",
+   "question": "Choose the correct indirect form: He said, \"We are all sinners.\"",
+   "options": [
+    "He said that all of them were sinners.",
+    "All of them were sinners was told by them.",
+    "All of us are sinners was told by him.",
+    "He said that we are all sinners."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0032",
+   "kind": null,
+   "topic": "চিরন্তন সত্য, Habitual fact ও ব্যতিক্রম",
+   "question": "He said that we are all sinners. (সে বলল যে আমরা সবাই পাপী) Change into direct speech.",
+   "options": [
+    "He opined, \"We are all sinners.\"",
+    "He told that, \"You are all sinners.\"",
+    "He said, \"We are all sinners.\"",
+    "He said, \"You are all sinners.\""
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0033",
+   "kind": null,
+   "topic": "চিরন্তন সত্য, Habitual fact ও ব্যতিক্রম",
+   "question": "What is the right changed form of the sentence \"The saint said, \"Man is mortal\"?",
+   "options": [
+    "The saint says that man is mortal.",
+    "The saint said that man is mortal.",
+    "The saint told that man was mortal.",
+    "The saint says that man be mortal."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0034",
+   "kind": null,
+   "topic": "চিরন্তন সত্য, Habitual fact ও ব্যতিক্রম",
+   "question": "The teacher said, \"The earth moves round the sun.\" Make it indirect speech.",
+   "options": [
+    "The teacher said that the earth moved round the sun.",
+    "The teacher said that the earth moves round the sun.",
+    "The teacher said that the earth has moved round the sun.",
+    "The teacher said that the earth had moved round the sun."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0035",
+   "kind": null,
+   "topic": "must, নৈকট্যসূচক শব্দ ও shall/will/can/may",
+   "question": "Anis said, \"I must write a letter\" The indirect speech is –",
+   "options": [
+    "Anis said he must write a letter.",
+    "Anis said that he must write a letter.",
+    "Anis said he had to write a letter.",
+    "Anis said that he had to write a letter"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0036",
+   "kind": null,
+   "topic": "must, নৈকট্যসূচক শব্দ ও shall/will/can/may",
+   "question": "He said, \"All must go.\" What is the correct indirect speech of it?",
+   "options": [
+    "He said that they should go.",
+    "He told that they ought to go.",
+    "He said that they ought to go.",
+    "He said that they must go."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0037",
+   "kind": null,
+   "topic": "must, নৈকট্যসূচক শব্দ ও shall/will/can/may",
+   "question": "What is the indirect speech of \"Must you leave now?\" he asked me?",
+   "options": [
+    "He asked me if I had to leave now.",
+    "He asked me if I must have to leave now.",
+    "He asked me if I had to leave then.",
+    "He asked me if I must have left then."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0038",
+   "kind": null,
+   "topic": "must, নৈকট্যসূচক শব্দ ও shall/will/can/may",
+   "question": "Anee: \"must I do the shopping?\" (make it indirect)",
+   "options": [
+    "Anee asked if she had to do the shopping.",
+    "Anee wanted to know if she must have done the shopping.",
+    "Anee wanted to know if she should do the shopping.",
+    "Anee asked if she should do the shopping."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0039",
+   "kind": null,
+   "topic": "must, নৈকট্যসূচক শব্দ ও shall/will/can/may",
+   "question": "Find out the indirect narration of: \"He said, \"I know this boy.\"",
+   "options": [
+    "He said he knew this boy.",
+    "He said that he knew that boy.",
+    "He said that he knows this boy.",
+    "He said that he knew the boy."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0040",
+   "kind": null,
+   "topic": "must, নৈকট্যসূচক শব্দ ও shall/will/can/may",
+   "question": "'Come here.' Choose the correct indirect speech-.",
+   "options": [
+    "He told come here.",
+    "He told that I should come here.",
+    "He ordered that I go there.",
+    "He told me to go there."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0041",
+   "kind": null,
+   "topic": "must, নৈকট্যসূচক শব্দ ও shall/will/can/may",
+   "question": "Correct narration of the sentence- He said to me, \"You cannot do it thus\"",
+   "options": [
+    "He told me that I could not do it that way.",
+    "He said to me that I could not have done it that way.",
+    "He told me that I could not do that thus.",
+    "None of the above"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0042",
+   "kind": null,
+   "topic": "must, নৈকট্যসূচক শব্দ ও shall/will/can/may",
+   "question": "Munna said to Zuhan, \"I shall come to you tomorrow.' Its indirect form is-",
+   "options": [
+    "Munna told Zuhan that he would be going to him the next day.",
+    "Munna told Zuhan that he would go to him the following day.",
+    "Munna told Zuhan that he should come to him the next day.",
+    "Munna informed Zuhan that he would come to him the following day."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0043",
+   "kind": null,
+   "topic": "must, নৈকট্যসূচক শব্দ ও shall/will/can/may",
+   "question": "\"I will have a cup of tea.\" My father said, \"Because I'm not hungry.\" Which is the correct indirect speech?",
+   "options": [
+    "My father said that he will have a cup of tea because he wasn't hungry",
+    "My father said that he would have had a cup of tea because he wasn't hungry",
+    "My father said that he would have a cup of tea because he wasn't hungry",
+    "My father said that he will had a cup of tea because he wasn't hungry"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0044",
+   "kind": null,
+   "topic": "must, নৈকট্যসূচক শব্দ ও shall/will/can/may",
+   "question": "Farid said to her mother, 'I shall go to bed now.' Make Indirect speech",
+   "options": [
+    "Farid said to her mother that she should go to bed now.",
+    "Farid told her mother that she will go to bed then.",
+    "Farid said to her mother that she would go to bed then.",
+    "Farid said to her mother that she should goes to bed now."
+   ],
+   "correctAnswer": "2",
+   "explanation": "shall/will থাকলে indirect এ would বসে এবং now এর পরিবর্তে then বসে।"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0045",
+   "kind": null,
+   "topic": "must, নৈকট্যসূচক শব্দ ও shall/will/can/may",
+   "question": "The teacher said, \"I shall not teach him English\".",
+   "options": [
+    "The teacher said he would not teach him English.",
+    "The teacher said that he would not taught him English.",
+    "The teacher said that he would not teach him English.",
+    "The teacher said that he will not teach him English."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0046",
+   "kind": null,
+   "topic": "must, নৈকট্যসূচক শব্দ ও shall/will/can/may",
+   "question": "Correct narration of the sentence: He said to me, \"You cannot do it.\"",
+   "options": [
+    "He told me that I could not do it.",
+    "He told me that I could not do that.",
+    "He told me that I could not have done it.",
+    "None of the above"
+   ],
+   "correctAnswer": "0",
+   "explanation": "can পরিবর্তিত could হয়। indirect speech এ it অপরিবর্তিত থাকে, কখনোই তা that এ পরিণত হয় না।"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0047",
+   "kind": null,
+   "topic": "must, নৈকট্যসূচক শব্দ ও shall/will/can/may",
+   "question": "She said to him, \"I will call you as soon as possible.\" Which is correct indirect speech?",
+   "options": [
+    "She told that she will call him as soon as possible.",
+    "She told him she called him as soon as possible.",
+    "She told him that she would call him as soon as possible.",
+    "She told him she will call him as soon as possible."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0048",
+   "kind": null,
+   "topic": "Interrogative Sentence এর Narration",
+   "question": "Choose the correct indirect speech– She asked me. 'Are you happy in your new job?",
+   "options": [
+    "She asked me if I was happy in my new job.",
+    "She asked me if I have been happy in my new job.",
+    "She asked me whether I am happy in my new job.",
+    "She asked me if I had been happy in my new job."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0049",
+   "kind": null,
+   "topic": "Interrogative Sentence এর Narration",
+   "question": "The indirect speech of Mother said to me, \"Did you spread the rumour?\"",
+   "options": [
+    "Mother asked to me if I had spread the rumour.",
+    "Mother asked me if I spread the rumour.",
+    "Mother asked me whether I had spread the rumour.",
+    "Mother asked me whether I had spreaded the rumour."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0050",
+   "kind": null,
+   "topic": "Interrogative Sentence এর Narration",
+   "question": "The indirect form of \"How dare you wake me up\"? The lion roared at the mouse' is:",
+   "options": [
+    "The lion roared and said to the mouse why he wakes him up.",
+    "The lion said to the mouse why is got him up.",
+    "The lion questioned the mouse about its waking up.",
+    "The lion roared and asked the mouse how it dared to wake him up."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0051",
+   "kind": null,
+   "topic": "Interrogative Sentence এর Narration",
+   "question": "Correct indirect speech of He said to me, \"Where were you born?\"",
+   "options": [
+    "He told me where I were born.",
+    "He asked me where I was born.",
+    "He asked me where I had been born.",
+    "He asked me where I had born."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0052",
+   "kind": null,
+   "topic": "Interrogative Sentence এর Narration",
+   "question": "Change to indirect speech: He said to me, \"How did you do it?\"",
+   "options": [
+    "He enquired of me if I had done it.",
+    "He enquired of me how I had done it.",
+    "He said to me if I had done it.",
+    "He said to me that I had done it."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0053",
+   "kind": null,
+   "topic": "Interrogative Sentence এর Narration",
+   "question": "He said to me, \"Did you take the examination?\" The indirect form is:",
+   "options": [
+    "He asked me did I take the examination.",
+    "He asked to me if I took the examination.",
+    "He asked me if I had given the examination.",
+    "He asked me if I had taken the examination."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0054",
+   "kind": null,
+   "topic": "Interrogative Sentence এর Narration",
+   "question": "Change the form of speech: He said to me, \"Which job do you want?\"",
+   "options": [
+    "He asked me which job I had wanted.",
+    "He told me which job I wanted.",
+    "He enquired about me which job I was wanted.",
+    "He asked me which job I wanted."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0055",
+   "kind": null,
+   "topic": "Interrogative Sentence এর Narration",
+   "question": "He said to me, \"Why did you come here?\" The indirect speech will be:",
+   "options": [
+    "He asked me why I went there.",
+    "He asked me if I had gone there.",
+    "He asked me why I had come here.",
+    "He asked me why I had gone there."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0056",
+   "kind": null,
+   "topic": "Interrogative Sentence এর Narration",
+   "question": "He said to me, 'Have you got a pencil?' The correct indirect speech is:",
+   "options": [
+    "He said to me if I had got a pencil.",
+    "He asked me if I had got a pencil.",
+    "He asked me had I got a pencil.",
+    "He asked me that if I had got a pencil."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0057",
+   "kind": null,
+   "topic": "Interrogative Sentence এর Narration",
+   "question": "What is the correct indirect form of: I said to him, \"Will you follow me?\"",
+   "options": [
+    "I said to him if he would follow me",
+    "I asked him if he would have follow me",
+    "I asked him if he would follow me",
+    "I asked him would he follow me"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0058",
+   "kind": null,
+   "topic": "Interrogative Sentence এর Narration",
+   "question": "Change the narration: He said to me, \"Which book do you want?\"",
+   "options": [
+    "He said to me which book I wanted.",
+    "He asked to me which book I wanted.",
+    "He asked me which book I wanted.",
+    "He said me which book I wanted."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0059",
+   "kind": null,
+   "topic": "Interrogative Sentence এর Narration",
+   "question": "Change the speech: A man said to his father, \"What are you doing?\"",
+   "options": [
+    "A man asked his father what he was doing.",
+    "A man asked to his father what he was doing.",
+    "A man asked what his father was doing.",
+    "A man said to his father what you are doing."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0060",
+   "kind": null,
+   "topic": "Interrogative Sentence এর Narration",
+   "question": "Change the speech: She asked me, \"Are you a student?\"",
+   "options": [
+    "She asked me that I was a student",
+    "She asked me if I was a student",
+    "She asked me was I a student",
+    "She asked me if I am a student"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0061",
+   "kind": null,
+   "topic": "Interrogative Sentence এর Narration",
+   "question": "Change the narration. He said to him, \"Is not your name Ahmed?\"",
+   "options": [
+    "I told him that his name is Ahmed.",
+    "He enquired whether his name was not Ahmed.",
+    "He exclaimed is not your name Ahmed?",
+    "He said that his name was Ahmed."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0062",
+   "kind": null,
+   "topic": "Interrogative Sentence এর Narration",
+   "question": "They said to me, \"Who are you and what do you want here now?\" The indirect form is –.",
+   "options": [
+    "They enquired me who were you and what you wanted there then.",
+    "They enquired me who I was and what I wanted there then?",
+    "They enquired me who I was and what I wanted there now.",
+    "They enquired me who I was and what I wanted there then."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0063",
+   "kind": null,
+   "topic": "Interrogative Sentence এর Narration",
+   "question": "The right direct speech of The teacher enquired why I had been absent from class?",
+   "options": [
+    "The teacher said to me, \"Why are you absent from class?",
+    "The teacher said to me, \"Why you have been absent from class?",
+    "The teacher said to me, \"Why were you been absenting from class?",
+    "The teacher said to me, \"Why were you absent from class?"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0064",
+   "kind": null,
+   "topic": "Imperative Sentence এর Narration",
+   "question": "I said, \"Do it.\" (Change the narration)",
+   "options": [
+    "I said that it should be done.",
+    "I said that let it be done.",
+    "I said to do it.",
+    "I ordered someone to do it."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0065",
+   "kind": null,
+   "topic": "Imperative Sentence এর Narration",
+   "question": "Put into indirect narration: 'You had better not leave your room unlocked' said my friends.",
+   "options": [
+    "My friends warned me not to leave my room unlocked.",
+    "My friends asked me not to leave my room unlocked.",
+    "My friends reminded me to leave lock my room.",
+    "My friends advised me to leave lock my room."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0066",
+   "kind": null,
+   "topic": "Imperative Sentence এর Narration",
+   "question": "What is the correct indirect form of: He said, \"You had better see a doctor\"?",
+   "options": [
+    "He advised me to see a doctor.",
+    "He advised that he should see a doctor.",
+    "He proposed to see a doctor.",
+    "He suggested that he had seen a doctor."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0067",
+   "kind": null,
+   "topic": "Imperative Sentence এর Narration",
+   "question": "Which one is correct sentence?",
+   "options": [
+    "The captain ordered to his soldiers to march on.",
+    "The captain ordered his soldiers to march on.",
+    "The captain gave order to his soldiers to march on.",
+    "The captain did order to his soldiers to march on."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0068",
+   "kind": null,
+   "topic": "Imperative Sentence এর Narration",
+   "question": "The teacher said to his pupils. \"Stand up.\" Turn into indirect speech.",
+   "options": [
+    "The teacher said to his pupils to stand up.",
+    "The teacher ordered his pupils to stand up.",
+    "The teacher requested his pupils to stand up.",
+    "The teacher requests his pupils to stand up."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0069",
+   "kind": null,
+   "topic": "Imperative Sentence এর Narration",
+   "question": "Direct speech of the sentence \"He asked Karim to go with him\" is –",
+   "options": [
+    "He said to Karim, \"go with me\"",
+    "He told Karim, \"go with him\"",
+    "He asked Karim, \"go with his\"",
+    "He said to Karim, \"go with he\""
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0070",
+   "kind": null,
+   "topic": "Imperative Sentence এর Narration",
+   "question": "The indirect form of: He said to me, \"Please wait until I return\" is–",
+   "options": [
+    "He said to me wait till he returned.",
+    "He asked to me wait till he return.",
+    "He asked me to wait till return.",
+    "He requested me to wait till he returned."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0071",
+   "kind": null,
+   "topic": "Imperative Sentence এর Narration",
+   "question": "The man said to the officer, \"Please, help me.\" Indirect form –",
+   "options": [
+    "The man told the officer to please help him",
+    "the man requested the officer to help him",
+    "The man said to the officer to please help him",
+    "The man requested to the officer to help"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0072",
+   "kind": null,
+   "topic": "Imperative Sentence এর Narration",
+   "question": "The teacher said to the student, \"Do not waste time.\" Its indirect form is –",
+   "options": [
+    "The teacher told the student do not waste time.",
+    "The teacher prohibited the students not to waste time.",
+    "The teacher advised the student not to waste time.",
+    "The teacher advised the student not to wasting time."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0073",
+   "kind": null,
+   "topic": "Imperative Sentence এর Narration",
+   "question": "My father said to me, \"Do not waste your time.\" is –",
+   "options": [
+    "My father told me that do no waste time.",
+    "My father told me that I do not waste my time.",
+    "My father forbade me to waste my time.",
+    "My father told me to waste not my time."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0074",
+   "kind": null,
+   "topic": "Imperative Sentence এর Narration",
+   "question": "He said to his master, \"Forgive me, Sir.\"",
+   "options": [
+    "He begged his master to forgave him.",
+    "He begged his master to forgive him, Sir.",
+    "He begged his master to forgive him.",
+    "He requested his master to forgive him."
+   ],
+   "correctAnswer": "2",
+   "explanation": "vocative case Reporting verb এর object কে নির্দেশ করলে তা উঠিয়ে দিতে হয়।"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0075",
+   "kind": null,
+   "topic": "Let দিয়ে শুরু Imperative",
+   "question": "Change the narration: He said to me, \"Let us go home together (চল একসাথে বাড়ি যাই)\"",
+   "options": [
+    "He proposed to me to go home together.",
+    "He proposed to me that we should go home together.",
+    "He asked me to go home with him.",
+    "He urged me to go home with him."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0076",
+   "kind": null,
+   "topic": "Let দিয়ে শুরু Imperative",
+   "question": "Choose the correct form of speech for: \"He proposed that they should wait for the award.\"",
+   "options": [
+    "He said, \"We should wait for the award.\"",
+    "He said, \"Let me wait for the award.\"",
+    "He said, \"Let us wait for the award.\"",
+    "He said, \"Let everybody wait for the award.\""
+   ],
+   "correctAnswer": "2",
+   "explanation": "proposed আছে বিধায় প্রস্তাব করা বোঝানো হয়েছে। প্রস্তাব করা বোঝাতে Let us ব্যবহৃত হয়ে থাকে।"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0077",
+   "kind": null,
+   "topic": "Let দিয়ে শুরু Imperative",
+   "question": "The indirect form of \"Let's sell the house\", said Reaz. \"Let's not\" said Rina would be–",
+   "options": [
+    "Reaz told to sell the house but Rina opposed",
+    "Reaz proposed to sell the house while Rina opposed",
+    "Reaz and Rina could not reach an agreement in selling the house",
+    "Reaz suggested selling the house but Rina objected"
+   ],
+   "correctAnswer": "3",
+   "explanation": "affirmative suggestion এর উত্তরে শুধু Let's not থাকলে indirect এ opposed the idea/was against it/objected হবে। Let us এর ক্ষেত্রে indirect এ suggest + gerund ও হয়।"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0078",
+   "kind": null,
+   "topic": "Let দিয়ে শুরু Imperative",
+   "question": "What is the indirect speech of \"Let me come in,\" said he.",
+   "options": [
+    "He proposed that he should come in",
+    "He said that he should come in",
+    "He proposed that he might be allowed to come in",
+    "He requested that he might be allowed to come in."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0079",
+   "kind": null,
+   "topic": "Let দিয়ে শুরু Imperative",
+   "question": "He said, 'Let me have some milk' Make it indirect.",
+   "options": [
+    "He said that he wanted some milk.",
+    "He prayed that he might have some milk.",
+    "He wished that he might have some milk.",
+    "He said that he might have some milk."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0080",
+   "kind": null,
+   "topic": "Let দিয়ে শুরু Imperative",
+   "question": "Which one is a correct change of narration? He said to me, \"Let me stay alone.\"",
+   "options": [
+    "He suggested to me that he should stay alone.",
+    "He told me that he should stay alone.",
+    "He requested me to let him stay alone.",
+    "He proposed to me that he might stay alone."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0081",
+   "kind": null,
+   "topic": "Let দিয়ে শুরু Imperative",
+   "question": "The indirect speech of 'He said, \"Let me have some milk.\"",
+   "options": [
+    "He told that he let have some milk.",
+    "He said that he had some milk.",
+    "He replied that he should have some milk.",
+    "He desired that he might have some milk."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0082",
+   "kind": null,
+   "topic": "Optative ও Exclamatory Sentence এর Narration",
+   "question": "The teacher said to me, 'May you pass the examination.' Its indirect form is –",
+   "options": [
+    "The teacher prayed that I could pass the examination.",
+    "The teacher wished that I may have passed the examination.",
+    "The teacher wished that I might pass the examination.",
+    "The teacher prayed that I might have passed the examination."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0083",
+   "kind": null,
+   "topic": "Optative ও Exclamatory Sentence এর Narration",
+   "question": "Teacher said to me, \"May God bless you (ঈশ্বর তোমার মঙ্গল করুক)\"",
+   "options": [
+    "Teacher wished so that may God bless me.",
+    "Teacher prayed so that may God bless me.",
+    "Teacher prayed that God might bless me.",
+    "Both a and b"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0084",
+   "kind": null,
+   "topic": "Optative ও Exclamatory Sentence এর Narration",
+   "question": "Which one is a correct change of narration? She said, \"May Allah save my child.\"",
+   "options": [
+    "She prayed that Allah may save her child.",
+    "She wished that Allah might save her child.",
+    "She said that Allah might save her child.",
+    "She prayed that Allah might save her child."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0085",
+   "kind": null,
+   "topic": "Optative ও Exclamatory Sentence এর Narration",
+   "question": "The mother said to her son,\" May you pass the examination.\" makes Indirect speech-",
+   "options": [
+    "The mother wished her son that he might pass the examination.",
+    "The mother said to her son that he might pass the examination.",
+    "The mother wished that her son might pass the examination.",
+    "The mother wished her son that he may pass the examination."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0086",
+   "kind": null,
+   "topic": "Optative ও Exclamatory Sentence এর Narration",
+   "question": "Aneeka exclaimed that she was a great fool. Make direct speech –",
+   "options": [
+    "Aneeka said, \"I am a great fool!\"",
+    "Aneeka said, \"What a fool I am!\"",
+    "Aneeka told, \"What a fool I am!\"",
+    "Aneeka said, \"What am I fool!\""
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0087",
+   "kind": null,
+   "topic": "Optative ও Exclamatory Sentence এর Narration",
+   "question": "Nasima said, \"What a fine picture it is!\" বাক্যের indirect speech হচ্ছে -",
+   "options": [
+    "Nasima said that it is a very fine picture.",
+    "Nasima exclaimed that it was a very fine picture.",
+    "Nasima exclaimed that it is a very fine picture.",
+    "Nasima exclaimed that what a fine picture it was."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0088",
+   "kind": null,
+   "topic": "Optative ও Exclamatory Sentence এর Narration",
+   "question": "Choose the indirect speech: He said, \"How beautiful the flowers are!\"",
+   "options": [
+    "He exclaimed with joy that the flowers were very beautiful",
+    "He exclaimed with joy that the flowers were beautiful.",
+    "He cried out that the flowers were beautiful.",
+    "He exclaimed with joy that the flowers are beautiful."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0089",
+   "kind": null,
+   "topic": "Optative ও Exclamatory Sentence এর Narration",
+   "question": "He said, \"Alas! I am undone.\" Find out the correct indirect speech.",
+   "options": [
+    "He exclaimed with sorrow that he was undone.",
+    "He cried out so that he is undone.",
+    "He was sorry, because he was undone.",
+    "He expressed his misfortune"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0090",
+   "kind": null,
+   "topic": "Optative ও Exclamatory Sentence এর Narration",
+   "question": "The prisoner strongly desired that he had the wings of a dove.",
+   "options": [
+    "The prisoner said, \"Had I the wings of a dove!\"",
+    "The prisoner told, \"I have the wings of a dove.\"",
+    "The prisoner said in joy, \"He had the wings of a dove\"",
+    "The prisoner said, \"Had I the wings of a dove\""
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0091",
+   "kind": null,
+   "topic": "Optative ও Exclamatory Sentence এর Narration",
+   "question": "The indirect form of 'The man said to him, 'Fie! You are such a coward' is",
+   "options": [
+    "The man exclaimed that it is shameful that he is such a coward.",
+    "The man claimed that it is shameful that he was such a coward.",
+    "The man exclaimed that it was shameful that he was such a coward.",
+    "The man claimed that it is shameful that were such a coward."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0092",
+   "kind": null,
+   "topic": "Optative ও Exclamatory Sentence এর Narration",
+   "question": "'You have all done very badly!' remarked the teacher – বাক্যটির indirect speech হবে",
+   "options": [
+    "The teacher remarked that they had all done it very badly.",
+    "The teacher told that they did it very badly.",
+    "The teacher said that they have done worse.",
+    "The teacher remarked that they do it bad."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0093",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "He said, 'Good morning, Mr. Kamal.' Make indirect speech",
+   "options": [
+    "He had wished Mr. Kamal good morning.",
+    "He wished Mr. Kamal good morning",
+    "He said Mr. Kamal good morning.",
+    "He told Mr. Kamal good morning."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0094",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "He said, \"Friends, goodbye.\" Indirect speech is –",
+   "options": [
+    "He told his friends goodbye",
+    "He bade his friends goodbye",
+    "He bade his friends with good wishes",
+    "He said goodbye to his friends"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0095",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "He said, 'Farewell, my friends.'",
+   "options": [
+    "He said to his friends farewell",
+    "He told to her friends farewell",
+    "He bade farewell to his friends",
+    "He told addressing his friends"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0096",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "Anis said, \"Good night, Father.\" বাক্যটির Indirect speech হবে-",
+   "options": [
+    "Anis said good night for his father.",
+    "Anis addressed his father and told good-bye",
+    "Anis gave good night to his father.",
+    "Anis bade his father good-bye."
+   ],
+   "correctAnswer": "3",
+   "explanation": "good night থাকলে Indirect এ say এর পরিবর্তে bid/bade বসে।"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0097",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "Choose the correct direct speech: I called him a coward. (আমি তাকে কাপুরুষ বললাম)",
+   "options": [
+    "I said to him, \"You are a coward.\"",
+    "I said to him that, \"You are a coward.\"",
+    "I called him, \"You are coward.\"",
+    "I said to him, \"You are coward.\""
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0098",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "Rafiq called me a liar. –make direct speech",
+   "options": [
+    "Rafiq said to me, 'you were a liar'",
+    "Rafiq says to me, 'you are a liar'",
+    "Rafiq told me, you are a liar'",
+    "Rafiq said to me, 'you are a liar'"
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0099",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "Rahim called me a coward. (direct speech)",
+   "options": [
+    "Rahim exclaimed, \"You are coward.\"",
+    "Rahim said, \"You coward.\"",
+    "Rahim said to me, \"coward.\"",
+    "Rahim told me, \"A coward.\""
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0100",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "He said to me, \"Thank you\". Make it indirect speech.",
+   "options": [
+    "He thanked me.",
+    "He had thanked me.",
+    "He told me that thank you.",
+    "He wished a thank to me."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0101",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "He said, \"Thanks, my friends.\" The indirect form is-",
+   "options": [
+    "He told his friends thanks.",
+    "He thanked his friends.",
+    "He said thanks to his friends.",
+    "He said to his friends thanks."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0102",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "'Come in, my friend, 'said I – বাক্যটির indirect speech হবে",
+   "options": [
+    "Addressing him as my friend, I told him to go in.",
+    "Addressing him as my friend, I asked him to go in.",
+    "Addressing him as my friend, I have said him to go in.",
+    "Addressing him as my friend, I told him to come in."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0103",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "Change into indirect form: \"By God, I am telling the truth, he said.",
+   "options": [
+    "Swearing by God he said that he was telling the truth.",
+    "He said that God was telling the truth.",
+    "Saying by God he was telling the truth.",
+    "None of the above."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0104",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "'By Allah' he replied, 'I will not leave this house.\"",
+   "options": [
+    "Swearing by Allah, he replied that he will not leave the house.",
+    "Swearing by Allah, he replied that he won't leave the house.",
+    "Swearing by Allah, he replied that he would not leave the house.",
+    "None of the above."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0105",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "He said, 'I have been working since sunrise' Make it indirect speech.",
+   "options": [
+    "He said he had been working since sunrise.",
+    "He said that he has worked for sunrise.",
+    "He said that he has been working since sunrise.",
+    "He said that he is working since sunrise."
+   ],
+   "correctAnswer": "0",
+   "explanation": "say/said এবং tell/told + object পরে that ব্যবহার না করলেও চলে।"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0106",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "He said to me, \"You had better do the work.\" Change the speech into indirect.",
+   "options": [
+    "He advised me to do the work.",
+    "He told me to do the work.",
+    "He asked me to do the work.",
+    "He told that I should do the work."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0107",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "Choose the correct indirect speech: \"If I were you I'd wait\", I said.",
+   "options": [
+    "I advised him to wait.",
+    "I ordered him to wait.",
+    "I requested him to wait.",
+    "I told him to wait."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0108",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "\"If I were you, I wouldn't go\", he said. The indirect speech is -",
+   "options": [
+    "He told me to stay with me",
+    "He asked me not to go",
+    "He advised me against going",
+    "He advised me never to go"
+   ],
+   "correctAnswer": "2",
+   "explanation": "had better, If I were you I should/would থাকলে indirect এ advise হবে। advise (sb) against (doing sth)।"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0109",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "Choose the direct speech of the sentence: She told us to hurry.",
+   "options": [
+    "She said, \"Do hurry up\"",
+    "She said to us, \"Hurry up\"",
+    "She told, \"Hurry up\"",
+    "She said us, \"Hurry up\""
+   ],
+   "correctAnswer": "1",
+   "explanation": "tell/told + object থাকলে direct এ say/said to + object হবে।"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0110",
+   "kind": null,
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য",
+   "question": "Rehana said to the teacher, \"Sir, I need two days' leave\" Change it as indirect.",
+   "options": [
+    "Rehana said the teacher that she needed two days' leave",
+    "Rehana respectfully told the teacher that she needed two days' leave",
+    "Rehana told that she needed two days' leave",
+    "Rehana told the teacher that she had needed two days' leave"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0111",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The teacher said, \"Thank you, my boys.\" The indirect narration of the sentence is-",
+   "options": [
+    "The teacher said that thank you my boys.",
+    "The teacher told the boys and thanked them.",
+    "The teacher thanked the boys.",
+    "The boys were thanked by the teacher."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0112",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The direct form of 'He said that the patient had died early in the morning' is-",
+   "options": [
+    "He said, \"The patient has died early in the morning.",
+    "He said, \"The patient had died early in the morning.",
+    "He said, \"The patient died early in the last morning.",
+    "He said, \"The patient died early in the morning."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0113",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The old man said, \"Curse the flood.\" The indirect narration of the sentence is-",
+   "options": [
+    "The old man said that the flood be cursed.",
+    "The old man cursed the flood.",
+    "The old man told that the flood is cursed.",
+    "The old man cursing the flood."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0114",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Change the narration- The teacher says, \"Rose smells sweet\".",
+   "options": [
+    "The teacher said that rose smells sweet.",
+    "The teacher says that rose smells sweet.",
+    "Rose smells sweet is said by the teacher.",
+    "Rose smells sweet was said by the teacher."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0115",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Change the narration- John said to me, \"Do you know where he is?\"",
+   "options": [
+    "John asked me if I knew where he was.",
+    "John asked me do I know where he was.",
+    "John said to me if I know where he is.",
+    "John said to me if I knew where he was."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0116",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Change the form of speech: They said to him, \"Sir, please visit our office today.'",
+   "options": [
+    "They asked him to visit their office today.",
+    "They requested him respectfully to visit their office that day.",
+    "They addressed him Sir and requested him to visit the office today.",
+    "They told him in humble manner to visit their office that day."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0117",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The indirect form of: He said, \"We cannot be quite happy in this life\" should be",
+   "options": [
+    "He said that we could not be quite happy in this life.",
+    "He said that we cannot be quite happy in this life.",
+    "He said that they cannot be quite happy in this life.",
+    "He said that they could not be quite happy in this life."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0118",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Kamal said to me, \"What is your name?\" (Indirect form)",
+   "options": [
+    "Kamal asked you your name.",
+    "Kamal asked me what was my name.",
+    "What my name is, Kamal asked.",
+    "Kamal asked me what my name was."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0119",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The indirect speech of, He said, 'You liar.' is-",
+   "options": [
+    "He said me a liar.",
+    "He told me a liar.",
+    "He said me to go to a liar.",
+    "He called me a liar."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0120",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the correct answer.",
+   "options": [
+    "He gave me good-bye.",
+    "He bade me good-bye.",
+    "He told me good-bye.",
+    "He wished me good-bye."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0121",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "He said, \"I shall go to office\". Indirect form is-",
+   "options": [
+    "He said that he shall go to office",
+    "He said that he would go to office",
+    "He said that he will go to office",
+    "He said that he should go to office"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0122",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Which one is the correct indirect narration? \"Why have you beaten my dog\"? he said to me",
+   "options": [
+    "He demanded me why had I beaten his dog.",
+    "He asked me why have had I beaten his dog.",
+    "He enquired me why had I beaten his dog.",
+    "He demanded of me why I had beaten his dog."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0123",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The indirect speech of \"Sally said to me, \"Please get me a drink\" is:",
+   "options": [
+    "Sally told me to get a drink for her",
+    "Sally asked me to get her a drink",
+    "Sally told me to get a drink",
+    "Sally inquired me to have a drink for her"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0124",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the correct indirect sentence: He said, \"Man is mortal.\"",
+   "options": [
+    "He said man is mortal.",
+    "He told that man had been mortal.",
+    "He said that man was mortal.",
+    "He said that man is mortal."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0125",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The correct indirect form of I said to him, \"I don't believe you.\"",
+   "options": [
+    "I said I don't believe him.",
+    "I said I didn't believe him.",
+    "I said I don't believes you.",
+    "I have said I didn't believe him."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0126",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the correct indirect form: He said to me, \"I don't believe you.\"",
+   "options": [
+    "He said that he didn't believe you.",
+    "He said he hadn't believe me.",
+    "He told me that he didn't believe me.",
+    "He told me he wouldn't believe me."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0127",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Change the narration: The captain says, 'Company move forward'",
+   "options": [
+    "The captain commands the company to move forward.",
+    "The captain commanded to move the company forward.",
+    "The captain instructed the company for a forward move.",
+    "The captain requests the company to move forward."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0128",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Change the form of speech: They said, \"We cannot live without air.\"",
+   "options": [
+    "They said that human cannot live without air.",
+    "They said that we cannot live without air.",
+    "They said that it is not possible to live without air.",
+    "They realized that people could not live without air."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0129",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Change into indirect speech: \"Are you alone, my son?\" asked a soft voice close behind me.",
+   "options": [
+    "What I was doing there alone was asked by a soft voice.",
+    "A soft voice told me as his son and asked me whether I was alone.",
+    "A soft voice from my behind asked me if I was alone.",
+    "Addressing me as his son a soft voice asked if I was alone."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0130",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "He said to her, 'What a cold day!' The indirect speech of this:",
+   "options": [
+    "He told her that it was a cold day.",
+    "He exclaimed that it was a cold day.",
+    "He exclaimed sorrowfully that it was a cold day.",
+    "He exclaimed that it was a very cold day."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0131",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The indirect form of the sentence \"He said, 'Let us go for a walk'.\" is",
+   "options": [
+    "He said that they must go for a walk.",
+    "He suggested that they should go for a walk.",
+    "He proposed that they would go for a walk.",
+    "He proposed to go for a walk."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0132",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "'Don't waste time', the teacher said to the students. The indirect form of the speech",
+   "options": [
+    "The teacher forbade the students not to waste time.",
+    "The teacher advised the students not to waste time.",
+    "The teacher advised the students to not waste time.",
+    "The teacher ordered the students don't waste time."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0133",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "My father said to me, \"We are going there tomorrow.\" বাক্যের indirect speech হবে-",
+   "options": [
+    "My father told me that they would be going there the next day.",
+    "My father said to me that they are going there the next day.",
+    "My father told me that they were going there the next day.",
+    "My father told me that they are going there the next day."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0134",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Find out the correct sentence in indirect speech. He said to me, \"What are you doing?\"",
+   "options": [
+    "He said to me what I am doing?",
+    "He asked me what I was doing.",
+    "He said what was to do.",
+    "He said about my doing."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0135",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose correct direct form of \"He asked me what I was doing.\"",
+   "options": [
+    "He said to me, \"What I was doing?\"",
+    "He said me, \"What was I doing?\"",
+    "He said, \"What I am doing?\"",
+    "He said to me, \"What are you doing?\""
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0136",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "He said to me, \"Do you like music?\" The indirect form of this sentence is -",
+   "options": [
+    "He said if I like music.",
+    "He asked me do I like music.",
+    "He asked to me if I like music.",
+    "He asked me if I liked music."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0137",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Turn into indirect narration: I asked, \"Whose picture is it?\"",
+   "options": [
+    "I asked which picture it was.",
+    "I asked whose picture it was.",
+    "I asked to which the picture is.",
+    "I asked whose the picture is."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0138",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Change the speech : \"What do you want?\" she asked him.",
+   "options": [
+    "She asked him what he wanted.",
+    "She asked him what he wants.",
+    "She asks him what he wants.",
+    "She wanted him"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0139",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the correct indirect speech: He said, \"What a beautiful bird!\"",
+   "options": [
+    "He said that what a beautiful bird it was.",
+    "He exclaimed that it was a very beautiful bird.",
+    "He exclaimed that what a beautiful bird.",
+    "He said that it was a very beautiful bird."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0140",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The indirect form of \"He said, \"Let me have some milk.\"",
+   "options": [
+    "He said that he wanted some milk.",
+    "He prayed that he might have some milk.",
+    "He requested to let him have some milk.",
+    "He wished that he might have some milk."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0141",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Change the narration, He remarked, \"Two and two makes four\"",
+   "options": [
+    "He remarked that two and two would make four",
+    "He remarked that two and two made four",
+    "He remarked that two and two makes four",
+    "He adviced that two and two makes four"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0142",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "\"He asked me when the next letter would come\" বাক্যের direct speech হচ্ছে-",
+   "options": [
+    "He said to me, \"When would the next letter come?\"",
+    "He asked to me, \"When will the next letter come?\"",
+    "He said to me, \"When will the next letter come?\"",
+    "He said to me, \"When the next letter will come?\""
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0143",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "He adressed Mr. Rahman and wished him good morning. বাক্যটির direct speech হবে",
+   "options": [
+    "He said to Mr. Rahman, 'Good morning'",
+    "He said, 'Good morning, Mr. Rahman.'",
+    "He said, 'Good morning, to Mr. Rahman.'",
+    "He bade good morning to Mr. Rahman."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0144",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The boy said, 'Let me have a pencil.' - বাক্যটির indirect speech হবে-",
+   "options": [
+    "The boy said that he would have a pencil.",
+    "The boy said that he might have a pencil.",
+    "The boy told that he will have a pencil.",
+    "The boy told that he needed a pencil."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0145",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "I said to him, \"Is he a doctor?\"",
+   "options": [
+    "I said to that he was a doctor.",
+    "I said to him whether he was a doctor.",
+    "I asked him whether he was a doctor.",
+    "I asked him whether he is a doctor."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0146",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "He said, \"What a pity!\" বাক্যের indirect speech হচ্ছে -",
+   "options": [
+    "He said that it was a great pity",
+    "He exclaimed that it is great pity",
+    "He exclaimed that it was a great pity",
+    "He said that it is great pity"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0147",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The Captain ordered the soldiers to march on. বাক্যের direct speech হবে",
+   "options": [
+    "The Captain asked, \"Soldiers, I ask you to march\"",
+    "The Captain said to the soldiers, \"Please march on\"",
+    "The Captain said, \"Soldiers, I ask you to march on\"",
+    "The Captain said to the soldiers, \"March on\""
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0148",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "I said to you, He has done his duty. বাক্যের indirect speech হবে",
+   "options": [
+    "I said to you that you have done your duty.",
+    "I said to you that he had done his duty.",
+    "I told you that you had done your duty.",
+    "I told you that he has done your duty."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0149",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The Chairman said to the members, 'Let us drop the matter today.' বাক্যের indirect speech হবে",
+   "options": [
+    "The Chairman proposed to the members to drop the matter that day.",
+    "The Chairman proposed to the members that they should drop the matter today.",
+    "The Chairman proposed to the members that they should drop the matter that day.",
+    "The Chairman proposed to the members that they might drop the matter today."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0150",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "\"He asked me where I had gone the previous day\" বাক্যের direct speech হবে",
+   "options": [
+    "He said to me, \"Where did you go yesterday?\"",
+    "He asked me, \"Where have you gone yesterday?\"",
+    "He asked me, \"Where had you gone previous day?\"",
+    "He asked me, \"Where did you go previous day?\""
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0151",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "What is the indirect speech of the sentence. He said, 'Good morning, sir?'",
+   "options": [
+    "He respectfully wished good morning to the person spoken to.",
+    "He respectfully wishes good morning to the person spoken to.",
+    "He respectfully wish good morning to the person spoken to.",
+    "He respectfully wished good morning to the person spoke to."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0152",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The manager said to the strikers, 'Resume your work.' বাক্যের indirect speech হবে",
+   "options": [
+    "The manager requested the strikers to resume their work.",
+    "The manager ordered the strikers to resume their work.",
+    "The manager told the strikers to resume their work.",
+    "The manager requested to the strikers to resume their work."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0153",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Anwer said, 'Let him say whatever he likes.' বাক্যটির indirect speech হবে",
+   "options": [
+    "Anwer said that he may say whatever he liked.",
+    "Anwer said that he might say whatever he liked.",
+    "Anwer told that he might say whatever he likes.",
+    "Anwer said that he might say whatever he likes."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0154",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "He said to his friend, 'Let us play now' বাক্যের indirect speech হবে",
+   "options": [
+    "He requested to his friends that they should play then.",
+    "He proposed to his friends that they would play then.",
+    "He proposed to his friends that they should play then.",
+    "He proposed to his friends that we should play then."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0155",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The poorman said, \"Let me have some food.\" বাক্যের indirect speech হবে",
+   "options": [
+    "The poorman begged that I might had some food.",
+    "The poorman begged that I might have some food.",
+    "The poorman begged that he might had some food.",
+    "The poorman begged that he might have some food."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0156",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The indirect form of 'Zuhan said to Zahra, \"Are you going to Dhaka tomorrow?\"",
+   "options": [
+    "Zuhan wanted to know whether Zahra would go to Dhaka the following day.",
+    "Zuhan enquired from Zahra if she would be going to Dhaka the next day.",
+    "Zuhan asked Zahra if she was going to Dhaka the next day.",
+    "Zuhan wanted to confirm whether Zahra would be going to Dhaka the next day."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0157",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Put into indirect speech: \"Why are you getting wet in the rain?\" I said.",
+   "options": [
+    "I told why he was getting wet in the rain.",
+    "I asked why he were getting wet in the rain.",
+    "I asked why he was getting wet in the rain.",
+    "I asked were why he getting wet in the rain."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0158",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Which one is the correct form of speech? The children sang, \"May Bangladesh live forever\".",
+   "options": [
+    "The children wished that Bangladesh might live forever.",
+    "The children prayed that Bangladesh might live forever.",
+    "The children sang wished that Bangladesh might live forever",
+    "the children sang wishing that Bangladesh might forever"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0159",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the correct indirect form.",
+   "options": [
+    "She said that she was happy to be there that evening.",
+    "She said she was happy to be there that evening.",
+    "She said that she is happy to be there that evening.",
+    "She said that she were happy to be there that evening."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0160",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Which is the correct indirect form of: \"Who are you and what do you want?\" he said to me.",
+   "options": [
+    "He asked me who was I and what did I want.",
+    "He asked to me who were you and what did you want.",
+    "He asked me who I was and what I wanted.",
+    "He told me who you are and what you want."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0161",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Abul said, \"I was busy.\" বাক্যের indirect speech হবে",
+   "options": [
+    "Abul said that I was busy.",
+    "Abul said that he was busy.",
+    "Abul said that I had been busy.",
+    "Abul said that he had been busy."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0162",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "He said to me, \"By God! I shall support you.\" বাক্যটির indirect speech হবে-",
+   "options": [
+    "He swore by God that he will support me.",
+    "He swore by God that he will have supported me.",
+    "He swear by God that he would have supported me.",
+    "He swore by God that he would support me."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0163",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The man said, \"Good Morning! My friends\" বাক্যটির indirect speech হবে-",
+   "options": [
+    "The man said that my friends good morning.",
+    "The man bade his friends good morning.",
+    "The man wished his friends good morning.",
+    "The man addressing his friends good morning."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0164",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "\"Are you weeping?\" he asked her. বাক্যের indirect speech হবে-",
+   "options": [
+    "He asked her that she was weeping.",
+    "He asked her if she was weeping.",
+    "He asked her that he is weeping.",
+    "None of these"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0165",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Find out the correct indirect form: Karim said, \"I must go home.\"",
+   "options": [
+    "Karim said that he will have to go home.",
+    "Karim said that he shall have to go home.",
+    "Karim said that he had to go home.",
+    "Karim said that he must go home."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0166",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "'What are you doing?' asked the teacher. Choose the right indirect speech.",
+   "options": [
+    "The teacher asked what he was doing.",
+    "The teacher asked what was he doing.",
+    "The teacher asked what he has been doing.",
+    "The teacher asked what he had been doing."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0167",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the correct indirect speech. She asked me, \"Where were you?\"",
+   "options": [
+    "She asked me where I went",
+    "She asked me where I had gone",
+    "She asked me where I had been",
+    "She asked me where I was"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0168",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "I said angrily, 'Leave me alone'. Find out the correct indirect narration.",
+   "options": [
+    "I said to him angrily to leave me alone.",
+    "I told him angrily to leave me alone.",
+    "I asked him angrily to leave me alone.",
+    "I told angrily to leave me alone."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0169",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The indirect form of the sentence He said, 'I did not refuse to help'",
+   "options": [
+    "He said that he does not want to help.",
+    "He denied that he had refused to help.",
+    "He denied that he refused to help.",
+    "He said he did not refuse to help."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0170",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Change the narration: –We said, \"Long live Bangladesh\".",
+   "options": [
+    "We wished that Bangladesh might live long.",
+    "We prayed that Bangladesh might live long.",
+    "We wished Bangladesh a long life.",
+    "All the above"
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0171",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Change into reported form : She said to me, 'Why don't you come on Monday?'",
+   "options": [
+    "He told me not to go on Monday.",
+    "She said me why did not she go on Monday.",
+    "She asked me why I did not go on Monday.",
+    "She asked me not to go on that day."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0172",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "He said, \"where are my glasses?\" Its indirect form is:",
+   "options": [
+    "He asked where are my glasses.",
+    "He asked where were his glasses.",
+    "He asked where his glasses were.",
+    "He asked where his glasses had been."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0173",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "She said to him, \"Are you an engineer?\" Its indirect form of speech is:",
+   "options": [
+    "She asked him that he was an engineer.",
+    "She said to him that he was an engineer.",
+    "She asked him if he was an engineer.",
+    "She said to him if he is an engineer."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0174",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the correct indirect speech: He said to me, \"Are you ill?\" I replied, \"No\".",
+   "options": [
+    "He asked me if I was ill. I replied I was not.",
+    "He asked me if I was ill. I replied I was.",
+    "He asked me that I am ill. I replied that I was.",
+    "He asked me that I am ill. I replied that I was not."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0175",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "I said to him, \"Why are you working so hard?\" What is the indirect form of the sentence?",
+   "options": [
+    "I asked him why he was working so hard.",
+    "I asked him why was he working so hard.",
+    "I asked him why had he been working so hard.",
+    "I asked him why he had been working so hard."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0176",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "He asked me where I came from. The direct speech is :",
+   "options": [
+    "He said to me, \"Where do you come from?\"",
+    "He asked me, \"Where are you from?\"",
+    "He said to me, \"Where do you come?\"",
+    "He said to me, \"Where you come from?\""
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0177",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The correct indirect speech of He said to me, \"Never move very fast.\"",
+   "options": [
+    "He forbade me to move very fast.",
+    "He requested me not to move very fast.",
+    "He said to me that I should not move very fast.",
+    "He told me don't move very fast."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0178",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "He said to me, \"Do you know me?\" Its indirect speech is:",
+   "options": [
+    "He asked me if I know him.",
+    "He said do I know him.",
+    "He asked me if I knew him.",
+    "He asked me if I did know him."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0179",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Mother said to me, 'Do not tell a lie.' Change into indirect narration.",
+   "options": [
+    "Mother frightened me not to tell a lie.",
+    "Mother suggested me not to tell a lie.",
+    "Mother advised me not to tell a lie.",
+    "Mother warned me not to tell a lie."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0180",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Change into indirect narration: The headmaster says, \"The inspector will visit our school at 11 am today.\"",
+   "options": [
+    "The Headmaster says that the Inspector will visit their school at 11 am today.",
+    "The Headmaster said that the inspector will visit their school at 11 am today.",
+    "The Headmaster said that the inspector is being visit their school at 11 am today.",
+    "The Headmaster said that today at 11 am the inspector must visit their school."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0181",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "My friend said to me, \"Go home at once.\"",
+   "options": [
+    "My friend asked me go home at once.",
+    "My friend asked me to go home at once.",
+    "My friend said me go home at once.",
+    "My friend told me to went home at once."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0182",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "He said, \"Good morning, can you help me?\"",
+   "options": [
+    "He wished him good morning and asked whether he could help him.",
+    "He wished him good morning and asked for help.",
+    "He told good morning and asked whether he can help him.",
+    "He wished him good morning and requested to help him."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0183",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Angel said, \"I bought a pen yesterday.\"",
+   "options": [
+    "Angel said that she had bought a pen the day before.",
+    "Angel said that I had bought a pen the day before.",
+    "Angel said that she bought a pen the day before.",
+    "Angel said that she has bought a pen the day before."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0184",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "He said to me, \"Where were you staying when you were in Dhaka.\" The correct indirect speech is :",
+   "options": [
+    "He asked me where I was staying when I was in Dhaka.",
+    "He asked me where I had been staying when I was in Dhaka.",
+    "He asked me where I had been staying when I had been in Dhaka.",
+    "He asked me where I stayed when I was in Dhaka."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0185",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The indirect speech of the sentence- \"I have been teaching English for 7 years\", She said -is",
+   "options": [
+    "She said, she was teaching English for 7 years.",
+    "She said that he had been teaching English for 7 years.",
+    "She was saying that she had been teaching English for 7 years.",
+    "She said that she had been teaching English for 7 years."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0186",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "He said to me, \"I know who killed the tiger.\" The correct indirect speech is :",
+   "options": [
+    "He said to me that he knows who killed the tiger.",
+    "He told me that he had known who killed the tiger.",
+    "He told me that he knew who killed the tiger.",
+    "He told me that he knew who had killed the tiger."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0187",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Change the narration, She said, \"It is cool in winter\".",
+   "options": [
+    "She said that it was cool in winter.",
+    "She said that it is cool in winter.",
+    "She said that it had been cool in winter.",
+    "She said that it has been cool in winter."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0188",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Change the speech. \"I don't know the way. Do you?\" She asked.",
+   "options": [
+    "She said that she didn't know the way and did I know it.",
+    "She said that she didn't know the way and asked me if I did.",
+    "She told that she was not knowing the way, but wondered if I knew.",
+    "She asked me if I knew the way which she didn't."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0189",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Turn the direct form of speech : 'Rimi said that her brother was getting married.'",
+   "options": [
+    "Rimi said, \"Her brother is getting married.\"",
+    "Rimi told, \"Her brother is getting married.\"",
+    "Rimi said, \"My brother is getting married.\"",
+    "Rimi said, \"My brother was getting married.\""
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0190",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Turn the indirect form of speech : \"How cruel the boss is!\" said the clerk.",
+   "options": [
+    "The clerk said that the boss was very cruel.",
+    "The clerk exclaimed that the boss was very cruel.",
+    "The clerk told that the boss was very cruel.",
+    "The clerk describe that the boss was very cruel."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0191",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "She said, \"I was teaching earlier.\" (Indirect Speech)",
+   "options": [
+    "She said that she had been teaching earlier.",
+    "She said she had been teaching earlier.",
+    "She said that I had been teaching earlier.",
+    "She says that she was been teaching earlier."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0192",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Karim said \"I met him long ago.\" Change the narration",
+   "options": [
+    "Karim said that he had met him long ago.",
+    "Karim said that he met him long ago.",
+    "Karim said that he has met him long ago.",
+    "Karim said that he had had met him long ago."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0193",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose indirect speech: The stranger said to me, \"Could you help me?\"",
+   "options": [
+    "The stranger asked me if I could help him",
+    "The stranger said to me if I could help him.",
+    "The stranger asked me if I might help him",
+    "The stranger told me to help him."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0194",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "He said to me, \"When did you come here?\" The indirect narration of the sentence is -",
+   "options": [
+    "He asked me when I had gone here.",
+    "He asked me when I had gone there.",
+    "He asked me when I had come there.",
+    "He asked me when I went there."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0195",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose indirect speech: He said, \"Would that I were rich\"",
+   "options": [
+    "He wished he would be rich",
+    "He said that he were rich",
+    "He wished he had been rich",
+    "He said would that he were rich"
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0196",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "You said to me, \"Why were you absent?\" (Make it indirect speech)",
+   "options": [
+    "You asked me why I had been absent.",
+    "You told me why I had been absent.",
+    "You asked me why had I been absent.",
+    "You told me why had I been absent."
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0197",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Change the narration: I said to him. \"You should give up smoking\" –",
+   "options": [
+    "I asked him to give up smoking",
+    "I advised him to give up smoking",
+    "I said he should give up smoking",
+    "I said smoking should be given up"
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0198",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The correct indirect speech of –He said to me, \"Did you watch the film last night?'",
+   "options": [
+    "He asked whether I watched the film last night.",
+    "He asked me whether I had watched the film the night before.",
+    "He asked me whether I had watched the film last night.",
+    "He asked me whether I had watched the film yesterday night."
+   ],
+   "correctAnswer": "1"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0199",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "He said, \"Poor fellow! How changed you are.\" The indirect speech of the sentence is ---",
+   "options": [
+    "He exclaimed in surprise that he was greatly changed.",
+    "He pitied that he was a poor fellow.",
+    "He pitied the poor fellow and surprised that he was greatly changed.",
+    "He pitied the man and exclaimed that he was greatly changed."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0200",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "'Sadia exclaimed with joy that the mango was very sweet.' The direct speech of this sentence is:",
+   "options": [
+    "Sadia said, \"How sweet the mango is!\"",
+    "Sadia said, \"How sweet the mango!\"",
+    "Sadia said, \"What a sweet the mango is!\"",
+    "Sadia said, \"What sweet the mango is!\""
+   ],
+   "correctAnswer": "0"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0201",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The correct indirect speech of He said, \"Have you submitted your assignment?\" is-",
+   "options": [
+    "He said to me if I have submitted his assignment.",
+    "He told me that if I submitted my assignment.",
+    "He asked me that if I would have submitted my assignment.",
+    "He asked me if I had submitted my assignment."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0202",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The direct narration of the sentence \"He told me that he had killed the bird.\" is",
+   "options": [
+    "He asked to me, \"Why did you kill the bird?\"",
+    "He said to me, \"Why did I kill the bird?\"",
+    "He said to me, \"He had killed the bird\"",
+    "He said to me, \"He killed the bird\""
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0203",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "You said to me,\"would you help me, please?\" (Make it indirect.)",
+   "options": [
+    "You said to me, would you help me.",
+    "You said to me, you would help me.",
+    "You said to me if I would help me.",
+    "You asked me if I would help you kindly."
+   ],
+   "correctAnswer": "3"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0204",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "The correct reported speech of, He said to me, \"If you come here, I will try to help you\" is",
+   "options": [
+    "He said to me that If I come here he will try to help me.",
+    "He told me that If I came here he would help me.",
+    "He told me that If I went there he would try to help me.",
+    "He told me that If I had gone there he will try to help me."
+   ],
+   "correctAnswer": "2"
+  },
+  {
+   "id": "english_admission_2nd_narration_mcq_0205",
+   "kind": null,
+   "topic": "Your Turn — মিশ্র অনুশীলন",
+   "question": "Choose the indirect form: 'Could I help you, sir?' said the receptionist to the customer.",
+   "options": [
+    "The receptionist asked if she could help the customer.",
+    "The receptionist asked the customer if they could help him/her.",
+    "The receptionist asked the customer if she could help him/her.",
+    "The receptionist said that she could help the customer."
+   ],
+   "correctAnswer": "2"
+  }
+ ]
+}

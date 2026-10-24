@@ -123,6 +123,122 @@
         "Your Turn — মিশ্র অনুশীলন",
         "Same Word used as Different Parts of Speech"
       ]
+    },
+    "english_admission_2nd_spelling": {
+      "topics": [
+        "Correct Spelling — A",
+        "Correct Spelling — B",
+        "Correct Spelling — C",
+        "Correct Spelling — D",
+        "Correct Spelling — E",
+        "Correct Spelling — F",
+        "Correct Spelling — G",
+        "Correct Spelling — H ও I",
+        "Correct Spelling — J, K, L ও M",
+        "Correct Spelling — N, O ও P",
+        "Correct Spelling — Q, R ও S",
+        "Correct Spelling — T, U ও V",
+        "Correct Spelling — W, Y ও Z",
+        "Spelling — Your Turn",
+        "Spelling Rules, মনে রাখার কৌশল ও British/American বানান"
+      ]
+    },
+    "english_admission_2nd_narration": {
+      "topics": [
+        "Narration — Reporting verb, Person ও Tense পরিবর্তন",
+        "চিরন্তন সত্য, Habitual fact ও ব্যতিক্রম",
+        "must, নৈকট্যসূচক শব্দ ও shall/will/can/may",
+        "Interrogative Sentence এর Narration",
+        "Imperative Sentence এর Narration",
+        "Let দিয়ে শুরু Imperative",
+        "Optative ও Exclamatory Sentence এর Narration",
+        "Greetings, Thanks, Vocative ও অন্যান্য",
+        "Your Turn — মিশ্র অনুশীলন"
+      ]
+    },
+    "english_admission_2nd_group_verb": {
+      "topics": [
+        "Group Verb — A ও B (Act, Bear, Blow, Break, Bring, Burst)",
+        "Group Verb — C (Call, Carry, Come …)",
+        "Group Verb — D ও F (Cut, Die, Do, Draw, Fall)",
+        "Group Verb — G (Get, Give, Go …)",
+        "Group Verb — L, M ও P (Look, Make, Put …)",
+        "Group Verb — R, S ও T (Run, Set, See, Stand, Take …)",
+        "Group Verb — Turn ও মিশ্র Phrasal verb",
+        "Your Turn — মিশ্র অনুশীলন"
+      ]
+    },
+    "english_admission_2nd_identification_of_clause_sentence": {
+      "topics": [
+        "Sentence — সংজ্ঞা, Subject ও Predicate",
+        "Affirmative → Negative রূপান্তর",
+        "Interrogative Sentence ও Assertive → Interrogative",
+        "Imperative, Optative ও Exclamatory Sentence",
+        "Sentence Transformation — মিশ্র অনুশীলন",
+        "Clause — সংজ্ঞা, Principal, Sub-ordinate ও Co-ordinate",
+        "Noun Clause",
+        "Adjective (Relative) Clause",
+        "Adverbial Clause ও তার প্রকারভেদ",
+        "Clause — মিশ্র অনুশীলন",
+        "Simple, Complex ও Compound Sentence",
+        "Transformation: Simple ↔ Complex ↔ Compound",
+        "Transformation — মিশ্র অনুশীলন"
+      ]
+    },
+    "english_admission_2nd_translation_proverb": {
+      "topics": [
+        "Translation — অনুশীলন ১",
+        "Translation — অনুশীলন ২",
+        "Translation — অনুশীলন ৩",
+        "Translation — অনুশীলন ৪",
+        "Translation — অনুশীলন ৫",
+        "Translation — অনুশীলন ৬",
+        "Translation — অনুশীলন ৭",
+        "Proverb — প্রথম ধাপ: সবচেয়ে বেশি আসা প্রবাদ",
+        "Proverb — দ্বিতীয় ধাপ: কম আসা ও সম্ভাব্য প্রবাদ",
+        "Proverb — অনুশীলন"
+      ]
+    },
+    "english_admission_2nd_non_finite_verb": {
+      "topics": [
+        "Verb — Principal, Auxiliary, Transitive ও Intransitive",
+        "Object, Complement ও Linking verb",
+        "Copulative, Inchoative, Factitive, Cognate, Group, Semi-modal ও Causative verb",
+        "Stative verb ও Basic Sentence Structure",
+        "Gerund (Verbal noun)",
+        "Infinitive",
+        "Participle — Present participle",
+        "Present বনাম Past Participle ও Relative + verb",
+        "Gerund বনাম Participle, Perfect participle ও Verbal noun",
+        "Participial preposition/conjunction ও শনাক্তকরণের বিশেষ নিয়ম",
+        "Your Turn — মিশ্র অনুশীলন",
+        "Conjugation of Verb — Strong/Weak ও V1-V2-V3",
+        "Adjective — পরিচিতি"
+      ]
+    },
+    "english_admission_2nd_determiner": {
+      "topics": [
+        "Noun — সংজ্ঞা, প্রকারভেদ, Proper ও Common Noun",
+        "Plural Common ও Collective Noun",
+        "Material ও Abstract Noun",
+        "Noun চেনার মিশ্র প্রশ্ন ও Transformation of Nouns",
+        "Countable, Uncountable ও Mass noun",
+        "Determiner — সংজ্ঞা, তালিকা ও ক্রম",
+        "Countable/Uncountable noun এর সাথে Determiner",
+        "a few/a little, few/little, many/much, some/a lot of, only",
+        "fewer/less, as many as, some/any/no, a number of, most ও Compound noun",
+        "Your Turn — মিশ্র অনুশীলন"
+      ]
+    },
+    "english_admission_2nd_identification_of_phrase": {
+      "topics": [
+        "Phrase — সংজ্ঞা ও চেনার উপায়",
+        "Noun Phrase",
+        "Adjective ও Verbal Phrase",
+        "Adverbial ও Prepositional Phrase",
+        "Conjunctional, Interjectional, Infinitive ও Participle Phrase",
+        "Overview — মিশ্র অনুশীলন"
+      ]
     }
   }
 }

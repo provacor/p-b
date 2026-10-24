@@ -1,0 +1,174 @@
+{
+ "sectionId": "english_admission_2nd_narration_concept",
+ "updated": "2026-10-24",
+ "items": [
+  {
+   "id": "english_admission_2nd_narration_concept_0001",
+   "kind": null,
+   "title": "Reporting verb present/future হলে",
+   "body": "Rule: Reporting verb টি present/future tense এ থাকলে Reported speech এর tense এর কোনো পরিবর্তন হয় না। তবে Reported speech এর person এর পরিবর্তন হয়। Direct: Karim says/will say, \"I did not go.\" Indirect: Karim says/will say that he did not go. Indirect speech এর আগে linker (that) ব্যবহার করা হয়।",
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0002",
+   "kind": null,
+   "title": "Person পরিবর্তনের নিয়ম",
+   "body": "R.S. এর অন্তর্গত first person সবসময় R.V. এর subject এর person অনুযায়ী পরিবর্তিত হয়। R.S. এর অন্তর্গত second person সবসময় R.V. এর object এর person অনুযায়ী পরিবর্তিত হয়। R.S. এর অন্তর্গত third person এর কোনো পরিবর্তন হয় না।\nYou said to me: I = (you), me = (you), my = (your)। He said to me: I = (He), me = (him), my = (his)।\nHe said to me: You = (I), verb + you = (me), your = (my)। I said to him: You = (He), verb + you = (him), your = (his)।\nHe said to me: He = (He), him = (him), his = (his)।",
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0003",
+   "kind": null,
+   "title": "Person — ব্যতিক্রম (we)",
+   "body": "we দ্বারা মানবজাতি বোঝালে first person হওয়া সত্ত্বেও Indirect speech এ তার কোনো পরিবর্তন হয় না। He said, \"We are all sinners.\" → He said that we are all sinners. we যদি বক্তা ও যাকে উদ্দেশ্য করে বলা হয় উভয়কে বোঝায় তবে Indirect speech এ তার কোনো পরিবর্তন হয় না। He said to me, \"We could do it.\" → He told me that we could do it.",
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0004",
+   "kind": null,
+   "title": "Tense পরিবর্তনের নিয়ম",
+   "body": "Reporting verb টি past tense এ থাকলে Reported speech এর tense এর নিম্নলিখিত পরিবর্তন করতে হবে: Present Indefinite → Past Indefinite; Present Continuous → Past Continuous; Present Perfect → Past Perfect; Present Perfect Continuous → Past Perfect Continuous; Past Indefinite → Past Perfect; Past Continuous → Past Perfect Continuous। N.B. Past Perfect এবং Past Perfect Continuous Tense এর কোনো পরিবর্তন হবে না।",
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0005",
+   "kind": null,
+   "title": "say ও tell",
+   "body": "Rule: Reporting verb হিসেবে 'say' Direct এবং Indirect উভয় speech এ ব্যবহৃত হতে পারে কিন্তু Reporting verb হিসেবে 'tell' শুধু Indirect speech-এ ব্যবহৃত হয়। তবে direct speech এর Reporting verb এর object থাকলেই কেবল tell ব্যবহৃত হবে। আবার, say-এর পরে to বসে কিন্তু tell এর পরে to বসে না। told + object, said to + object; শুধু said এর পর object বসে না, আবার told এর পরে to বসে না। (Indirect এ told থাকলে direct এ said to হয়)",
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0006",
+   "kind": null,
+   "title": "Past indefinite / continuous এর পরিবর্তনের কাঠামো",
+   "body": "Direct: Subject + said, \"past indefinite (subject + past form + ----)\" → Indirect: Subject + said + that + past perfect (subject + had + past participle form + ----)। Indirect: Subject + told + object + that + past perfect → Direct: Subject + said to + object, \"past indefinite/present perfect\"। Direct: Subject + said, \"past continuous/present perfect continuous\" → Indirect: Subject + said + that + past perfect continuous (তবে object থাকলে told হবে)। Indirect এ before থাকলে direct এ ago হয়। আর long ago থাকলে verb এর past indefinite tense হয়: Indirect: Subject + said + that + past perfect + long before → Direct: Subject + said, \"past indefinite + long ago\"।",
+   "topic": "Narration — Reporting verb, Person ও Tense পরিবর্তন"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0007",
+   "kind": null,
+   "title": "দুই বা ততোধিক past indefinite verb",
+   "body": "Rule: Direct narration এ reported speech এ দুই বা ততোধিক verb যদি past indefinite tense এ থাকে তাহলে indirect narration এ সেই verb গুলোর past indefinite tense অপরিবর্তিত থাকে। \"When I got home, I found I had lost my umbrella,\" Laila said. → Laila said that when she got home she found she had lost her umbrella.",
+   "topic": "চিরন্তন সত্য, Habitual fact ও ব্যতিক্রম"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0008",
+   "kind": null,
+   "title": "চিরন্তন সত্য, বৈজ্ঞানিক সত্য ও অভ্যাসগত কর্ম",
+   "body": "Rule: Reporting verb টি Past tense এ থাকলেও Direct Narration এর Reported speech টি চিরন্তন সত্য (Universal/Eternal Truth), বৈজ্ঞানিক সত্য (Scientific truth), অভ্যাসগত কর্ম (Habitual fact/truth) হলে Indirect Narration এ Reported speech এর verb এর Tense এর কোনো পরিবর্তন হয় না। চিরন্তন সত্য: We are all sinners. Man is mortal. The sun rises in the east. We must die. বৈজ্ঞানিক সত্য: Regular exercise is good for health. The earth moves around the sun. অভ্যাসগত কর্ম: I read all sorts of magazine. I walk a mile every day. I take bath in the Padma every morning. I say prayer every day.",
+   "topic": "চিরন্তন সত্য, Habitual fact ও ব্যতিক্রম"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0009",
+   "kind": null,
+   "title": "must এর পরিবর্তন",
+   "body": "Rule: চিরকালীন বাধ্যবাধকতা বোঝালে indirect narration এ must সাধারণত অপরিবর্তিত থাকে। তবে, Direct narration এ reporting verb টি past tense এ থাকলে indirect narration এ অবশ্য করণীয় অর্থে must সাধারণত had to তে রূপান্তরিত হয়। তবে প্রশ্নে had to না থাকলে must নিতে হবে। চিরকালীন বাধ্যবাধকতা: All must go (সবাইকে অবশ্যই চলে যেতে হবে অর্থাৎ দুনিয়া ছেড়ে যেতে হবে); You must speak the truth। অবশ্য করণীয়: I must write a letter; Must you leave now?",
+   "topic": "must, নৈকট্যসূচক শব্দ ও shall/will/can/may"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0010",
+   "kind": null,
+   "title": "নৈকট্যসূচক শব্দ → দূরত্বসূচক শব্দ",
+   "body": "Rule: Reported verb টি যদি past tense এ থাকে, তবে direct speech এর নৈকট্যসূচক শব্দগুলো indirect speech এ দূরত্বসূচক শব্দে পরিবর্তিত হয়। this → that, these → those, here → there, ago → before, thus → so, hither → thither, hence → thence, now → then, come → go, today → that day, tonight → that night, tomorrow → the next day/the following day, yesterday → the previous day/the day before, last month → the previous month/the month before, next week → the following week। N.B. Indirect speech এ it অপরিবর্তিত থাকে, কখনোই that এ পরিণত হয় না। আবার, দূরত্বসূচক শব্দগুলো Direct এ থাকলে indirect এ অপরিবর্তিত থাকে। যেমন: come থাকলে go হয় কিন্তু go থাকলে go-ই হবে, come হবে না।",
+   "topic": "must, নৈকট্যসূচক শব্দ ও shall/will/can/may"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0011",
+   "kind": null,
+   "title": "shall, will, can, may → should, would, could, might",
+   "body": "Rule: Direct Narration-এ Reporting verb টি past tense এ থাকলে এবং Reported speech-এর মূল verb-এর পূর্বে shall, will, can বা may থাকলে Indirect Narration-এ এগুলো পরিবর্তিত হয়ে যথাক্রমে should, would, could ও might এ পরিবর্তিত হবে। Direct Speech এ Reported speech এর মূল verb এর পূর্বে shall/will থাকলে indirect এ এদের পরিবর্তে would বসে। Direct Speech এ Reported speech এর now পরিবর্তে indirect speech এ then বসে। can পরিবর্তিত could হয়।",
+   "topic": "must, নৈকট্যসূচক শব্দ ও shall/will/can/may"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0012",
+   "kind": null,
+   "title": "Interrogative Sentence এর Narration",
+   "body": "Rule: Interrogative Sentence কে Direct থেকে Indirect Narration-এ পরিবর্তন করার নিয়ম: Reporting verb টি ask, demand of, enquire of, want to know, wonder এ পরিবর্তিত হয়। Reported speech টি যদি Auxiliary verb দ্বারা শুরু হয় তাহলে linker হিসেবে if/whether বসবে। Reported speech এর অন্তর্গত Interrogative sentence টি যদি কোনো Wh-question word দ্বারা শুরু হয়, তাহলে তা অপরিবর্তিত থাকবে অর্থাৎ সেই Wh-question word টিই বসবে। Direct speech এর Interrogative sentence টি Indirect এ Assertive sentence এ পরিবর্তিত হয়।",
+   "topic": "Interrogative Sentence এর Narration"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0013",
+   "kind": null,
+   "title": "Imperative Sentence এর Narration",
+   "body": "Rule-1: Imperative Sentence কে Direct থেকে Indirect Narration-এ পরিবর্তন করার নিয়ম: Reported speech এর অর্থ ও ভাবানুসারে Indirect Narration-এর Reporting verb টি ask, order, request, advise, warn (negative বাক্যে), command, beg, entreat বা tell-এ পরিবর্তিত হয়। Affirmative sentence-এর ক্ষেত্রে Imperative verb-এর পূর্বে to এবং Negative sentence-এর ক্ষেত্রে Imperative verb-এর পূর্বে not to বসে। Direct speech-এ Please এবং Sir শব্দ দুটি ব্যবহৃত হলে Indirect speech-এ Please এর পরিবর্তে kindly বা politely এবং Sir এর পরিবর্তে respectfully ব্যবহৃত হয়। N.B. Negative Imperative Sentence কে Indirect speech এ পরিবর্তন করার সময় Reporting verb এর পরিবর্তে prohibit, forbid ব্যবহার করলে to এর পূর্বে not বসে না। order — Do it./March on./Halt./Stand up.; request — Please, help me./Please wait until I return; advise — Do not waste time./You should give up smoking./If I were you; advise/warn — You had better not leave your room unlocked.; beg — Forgive me, Sir./Please, please forgive me!; prohibit, forbid — Do not waste time./Do not run in the sun.",
+   "topic": "Imperative Sentence এর Narration"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0014",
+   "kind": null,
+   "title": "Vocative case — উঠিয়ে দিতে হয়",
+   "body": "reported speech এর vocative case (সম্বোধন পদ) Reporting verb এর object কে নির্দেশ করলে তা উঠিয়ে দিতে হয়। He said to his master, \"Forgive me, Sir.\" → He begged his master to forgive him. এখানে Sir সম্বোধন পদ দ্বারা his master কে নির্দেশ করা হয়েছে তাই উঠে যাবে।",
+   "topic": "Imperative Sentence এর Narration"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0015",
+   "kind": null,
+   "title": "Let us — প্রস্তাব",
+   "body": "Rule-2: Reporting speech টি যদি Let us দিয়ে শুরু হয় তাহলে তা কোনো প্রস্তাব বোঝায়। এরূপ ক্ষেত্রে Indirect এ Reporting verb টি পরিবর্তিত হয়ে propose/suggest/proposed/suggested (object থাকলে তার পূর্বে to বসে) হয় + Inverted Comma উঠে গিয়ে that বসে + they/we should + Reporting speech এর মূল verb থেকে শেষ পর্যন্ত। প্রস্তাবের ক্ষেত্রে Reporting verb এর subject বা object টি first person হলে we এবং অন্যান্য ক্ষেত্রে they বসে। তবে suggest এর ক্ষেত্রে suggest + gerund ব্যবহার করা যায়। Direct speech এ affirmative suggestion এর উত্তরে শুধু Let's not থাকলে indirect speech এ opposed the idea/was against it/objected হবে।",
+   "topic": "Let দিয়ে শুরু Imperative"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0016",
+   "kind": null,
+   "title": "Let me/him/them — প্রস্তাব নয়",
+   "body": "Rule-3: Let দ্বারা প্রস্তাব না বোঝালে অর্থাৎ Let us এর পরিবর্তে Let me, Let them, let him ইত্যাদি থাকলে সাধারণত indirect এ reporting verb এর পরিবর্তন হয় না (তবে অর্থানুসারে request, desire, wish ব্যবহার করা হয়) + Inverted commas উঠে গিয়ে that বসে + reporting verb এর subject পুনরায় বসে + might অথবা might be allowed to + মূল verb থেকে শেষ পর্যন্ত বসে। He said, 'Let me have a pencil.' → He said that he might have a pencil. He said, \"Let me have some milk.\" → He desired/wished that he might have some milk. তবে কখনো কখনো সাধারণ Imperative এর নিয়মেও হয়ে থাকে: He said to me, \"Let me stay alone.\" → He requested me to let him stay alone.",
+   "topic": "Let দিয়ে শুরু Imperative"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0017",
+   "kind": null,
+   "title": "Optative Sentence এর Narration",
+   "body": "Rule-3: Optative Sentence-কে Direct থেকে Indirect Speech এ পরিবর্তন করার নিয়ম: ❶ Reported speech দ্বারা প্রার্থনা করা বোঝালে Reporting verb এর স্থলে Indirect Narration এ pray/prayed বসে। কিন্তু মঙ্গল কামনা করা বোঝালে wish/wished বসে। ❷ Reported speech এর পূর্বে linker 'that' বসে। ❸ Reported speech টি Optative form থেকে Assertive form-এ রূপান্তরিত হয়। Pray (প্রার্থনা করা): May Allah/God bless you; May Allah/God save my child; May his soul rest in peace। Wish (মঙ্গল কামনা করা): May you pass the examination; May Bangladesh live forever; May you have wealth, Long live Bangladesh।",
+   "topic": "Optative ও Exclamatory Sentence এর Narration"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0018",
+   "kind": null,
+   "title": "Exclamatory Sentence এর Narration",
+   "body": "Rule 1(a): Exclamatory Sentence-কে Direct থেকে Indirect-এ পরিবর্তন করার নিয়ম: Direct speech এর said পরিবর্তে Indirect speech এ নিম্নরূপ শব্দগুচ্ছ বসবে: আনন্দ/সুখ বোঝালে exclaimed with joy; দুঃখ বোঝালে exclaimed with sorrow/grief/sadly; কামনা বোঝালে strongly wished/desired; বিস্ময় বোঝালে exclaimed with surprise। Reported speech-এর পূর্বে linker 'that' বসে। Alas, Hurrah, Fie ইত্যাদি উঠে গিয়ে Reported speech টি Assertive form-এ রূপান্তরিত হয়। Reported speech যদি how/what দিয়ে Exclamatory হয় তাহলে indirect এ এদের পরিবর্তে noun এর পূর্বে great বসে এবং adjective এর পূর্বে very/most বসে।",
+   "topic": "Optative ও Exclamatory Sentence এর Narration"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0019",
+   "kind": null,
+   "title": "Good morning, Good night, Farewell",
+   "body": "Rule 1(b): বাক্যে Good morning/evening/afternoon, Good luck থাকলে Indirect এ say এর পরিবর্তে wish(ed) এবং good night, good bye, farewell থাকলে Indirect এ say এর পরিবর্তে bid/bade বসে। Indirect: bid/bade + vocative case (সম্বোধন পদ) + good night/good bye/farewell; wish/wished + vocative case + good morning/evening/afternoon, good luck। N.B. vocative case (সম্বোধন পদ) পরে আসলে তার পূর্বে to বসে।",
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0020",
+   "kind": null,
+   "title": "liar/fool/coward → called",
+   "body": "Rule 1(c): Direct Narration এর Reported speech এ liar/fool/coward etc. অথবা you are a liar/a fool/a coward etc. থাকলে Indirect এ said এর পরিবর্তে called বসে। Direct: Subject + said to + object, \"liar/fool/coward etc. or you are a liar/a fool/a coward etc.\" Indirect: Subject + called + object + a/an + fool/liar (He called me a liar — সে আমাকে মিথ্যুক বলল)।",
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0021",
+   "kind": null,
+   "title": "Thank you/Congratulations/Welcome",
+   "body": "Rule 1(d): Direct Narration এ Thank you/Thanks/Congratulations!/Welcome থাকলে Indirect Narration এ said এর পরিবর্তে thanked/congratulated/welcomed বসে। Direct: He said to me, \"Thank you/Thanks/Congratulations!/Welcome\" → Indirect: He thanked/congratulated/welcomed me. (সে আমাকে ধন্যবাদ দিল/অভিনন্দন জানালো/অভ্যর্থনা জানালো)",
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0022",
+   "kind": null,
+   "title": "Vocative — Addressing as",
+   "body": "Rule 1(e): Direct Narration-এ ব্যবহৃত Vocatives বা সম্বোধন পদগুলো Indirect Narration-এ বাদ দেয়া যেতে পারে। যেখানে Vocatives-কে বাদ দেয়া যায় না, কেবলমাত্র সেখানে Vocatives-কে Addressing as দ্বারা প্রকাশ করা হয়।",
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0023",
+   "kind": null,
+   "title": "By God, By Jove — Swearing",
+   "body": "Rule 1(f): Direct Narration-এ By God, By Jove থাকলে Indirect Narration-এ Swearing যুক্ত phrase বসে অথবা, reported verb টি swore এ পরিণত হয়। \"By God, I am telling the truth,\" he said. → Swearing by God he said that he was telling the truth.",
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য"
+  },
+  {
+   "id": "english_admission_2nd_narration_concept_0024",
+   "kind": null,
+   "title": "that ব্যবহার; had better / If I were you",
+   "body": "indirect speech এ say/says/said এবং tell/told + object পরে that ব্যবহার না করলেও চলে। তবে অন্য সকল verb (boast, explain, exclaim etc) এর পরে অবশ্যই ব্যবহার করতে হবে। direct speech এ had better, If I were you I should/would .... থাকলে indirect এ advise হবে। advise (sb) against (doing sth) — কাউকে কোনো কিছু না করতে উপদেশ দেয়া (object + never + to do হয় না)। Indirect speech এ tell/tells/told + object থাকলে direct এ say/says/said to + object হবে।",
+   "topic": "Greetings, Thanks, Vocative ও অন্যান্য"
+  }
+ ]
+}
