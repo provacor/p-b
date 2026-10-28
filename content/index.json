@@ -797,6 +797,134 @@
     "chemistry_1st_ch02_revision": {
       "file": "content/chemistry/chemistry_1st_ch02_revision.json",
       "count": 6
+    },
+    "biology_1st_ch02_mcq": {
+      "file": "content/biology/biology_1st_ch02_mcq.json",
+      "count": 121
+    },
+    "biology_1st_ch02_cq": {
+      "file": "content/biology/biology_1st_ch02_cq.json",
+      "count": 20
+    },
+    "biology_1st_ch02_ka": {
+      "file": "content/biology/biology_1st_ch02_ka.json",
+      "count": 18
+    },
+    "biology_1st_ch02_kha": {
+      "file": "content/biology/biology_1st_ch02_kha.json",
+      "count": 21
+    },
+    "biology_1st_ch03_mcq": {
+      "file": "content/biology/biology_1st_ch03_mcq.json",
+      "count": 174
+    },
+    "biology_1st_ch03_cq": {
+      "file": "content/biology/biology_1st_ch03_cq.json",
+      "count": 21
+    },
+    "biology_1st_ch03_ka": {
+      "file": "content/biology/biology_1st_ch03_ka.json",
+      "count": 25
+    },
+    "biology_1st_ch03_kha": {
+      "file": "content/biology/biology_1st_ch03_kha.json",
+      "count": 26
+    },
+    "biology_1st_ch04_mcq": {
+      "file": "content/biology/biology_1st_ch04_mcq.json",
+      "count": 170
+    },
+    "biology_1st_ch04_cq": {
+      "file": "content/biology/biology_1st_ch04_cq.json",
+      "count": 19
+    },
+    "biology_1st_ch04_ka": {
+      "file": "content/biology/biology_1st_ch04_ka.json",
+      "count": 25
+    },
+    "biology_1st_ch04_kha": {
+      "file": "content/biology/biology_1st_ch04_kha.json",
+      "count": 27
+    },
+    "biology_1st_ch05_mcq": {
+      "file": "content/biology/biology_1st_ch05_mcq.json",
+      "count": 116
+    },
+    "biology_1st_ch05_cq": {
+      "file": "content/biology/biology_1st_ch05_cq.json",
+      "count": 14
+    },
+    "biology_1st_ch05_ka": {
+      "file": "content/biology/biology_1st_ch05_ka.json",
+      "count": 20
+    },
+    "biology_1st_ch05_kha": {
+      "file": "content/biology/biology_1st_ch05_kha.json",
+      "count": 25
+    },
+    "biology_1st_ch06_mcq": {
+      "file": "content/biology/biology_1st_ch06_mcq.json",
+      "count": 105
+    },
+    "biology_1st_ch06_cq": {
+      "file": "content/biology/biology_1st_ch06_cq.json",
+      "count": 12
+    },
+    "biology_1st_ch06_ka": {
+      "file": "content/biology/biology_1st_ch06_ka.json",
+      "count": 16
+    },
+    "biology_1st_ch06_kha": {
+      "file": "content/biology/biology_1st_ch06_kha.json",
+      "count": 16
+    },
+    "biology_1st_ch10_mcq": {
+      "file": "content/biology/biology_1st_ch10_mcq.json",
+      "count": 104
+    },
+    "biology_1st_ch10_cq": {
+      "file": "content/biology/biology_1st_ch10_cq.json",
+      "count": 13
+    },
+    "biology_1st_ch10_ka": {
+      "file": "content/biology/biology_1st_ch10_ka.json",
+      "count": 26
+    },
+    "biology_1st_ch10_kha": {
+      "file": "content/biology/biology_1st_ch10_kha.json",
+      "count": 19
+    },
+    "biology_1st_ch11_mcq": {
+      "file": "content/biology/biology_1st_ch11_mcq.json",
+      "count": 109
+    },
+    "biology_1st_ch11_cq": {
+      "file": "content/biology/biology_1st_ch11_cq.json",
+      "count": 19
+    },
+    "biology_1st_ch11_ka": {
+      "file": "content/biology/biology_1st_ch11_ka.json",
+      "count": 21
+    },
+    "biology_1st_ch11_kha": {
+      "file": "content/biology/biology_1st_ch11_kha.json",
+      "count": 27
+    },
+    "biology_1st_ch12_mcq": {
+      "file": "content/biology/biology_1st_ch12_mcq.json",
+      "count": 110
+    },
+    "biology_1st_ch12_cq": {
+      "file": "content/biology/biology_1st_ch12_cq.json",
+      "count": 15
+    },
+    "biology_1st_ch12_ka": {
+      "file": "content/biology/biology_1st_ch12_ka.json",
+      "count": 29
+    },
+    "biology_1st_ch12_kha": {
+      "file": "content/biology/biology_1st_ch12_kha.json",
+      "count": 24
     }
   }
 }
