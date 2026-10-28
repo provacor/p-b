@@ -1,15 +1,16 @@
 // Practice tools: hub, timed exam, weak topics, spaced-repetition review, flashcards,
 // saved items (bookmarks + notes) and AI marking of creative questions.
 
-import { icon } from '../icons.js?v=202610241739';
-import { esc, ring, bar, emptyState, chapterEyebrow } from '../components.js?v=202610241739';
-import { itemCard } from './section.js?v=202610241739';
-import { tocOf } from './topic.js?v=202610241739';
+import { icon } from '../icons.js?v=202610280813';
+import { esc, ring, bar, emptyState, chapterEyebrow } from '../components.js?v=202610280813';
+import { itemCard } from './section.js?v=202610280813';
+import { richText } from '../richtext.js?v=202610280813';
+import { tocOf } from './topic.js?v=202610280813';
 import {
   itemRef, isMcq, rightIndex, attemptOf, everWrong, srsDue, srsNext, srsCount, examHistory,
   bookmarks, notedItems, noteOf, goalState, offlineAll,
-} from '../learn.js?v=202610241739';
-import { hasKey } from '../ai.js?v=202610241739';
+} from '../learn.js?v=202610280813';
+import { hasKey } from '../ai.js?v=202610280813';
 
 export const bn = (s) => String(s).replace(/\d/g, (d) => '০১২৩৪৫৬৭৮৯'[d]);
 const LET = 'কখগঘ';
@@ -273,7 +274,7 @@ export function cardsView(model, chapterId, topicId) {
     body = `<p class="muted small fc-meta">${bn(deck.i + 1)}/${bn(deck.ids.length)} · ${esc(sec.label)} · ✓ ${bn(deck.known)} · ✗ ${bn(deck.unknown)}</p>
       <button class="fc-card ${deck.flipped ? 'flipped' : ''}" data-fc="flip" id="fcCard" aria-label="কার্ড উল্টাও">
         <span class="fc-face fc-front"><small>প্রশ্ন</small><span class="pre">${esc(c.front)}</span></span>
-        <span class="fc-face fc-back"><small>উত্তর</small><span class="pre">${esc(c.back)}</span></span>
+        <span class="fc-face fc-back"><small>উত্তর</small><span class="fc-rt">${richText(c.back)}</span></span>
       </button>
       <p class="muted small fc-hint">চাপ দিলে উল্টাবে · ডানে সোয়াইপ = জানি, বামে = জানি না</p>
       <div class="rv-btns"><button class="btn tap rv-no" data-fc="no">✗ জানি না</button><button class="btn btn-primary tap" data-fc="yes">✓ জানি</button></div>`;

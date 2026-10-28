@@ -3,12 +3,13 @@
 // A question counts as "mastered" after two right answers in a row; wrong ones come back sooner,
 // and wrong MCQs also go to the spaced-review list (learn.js).
 
-import { esc } from './components.js?v=202610241739';
-import { everWrong } from './learn.js?v=202610241739';
-import { recordAnswer, finishRecord, masteryOf, isMastered, bestOf, starsOf, soundOn, toggleSound } from './learnstore.js?v=202610241739';
-import { recordMcqMistake } from './mistakes.js?v=202610241739';
-import { questionsOf, recallOf, ordersOf, answersOf, compatible, ansOf, topicName as tpNameOf } from './gamedata.js?v=202610241739';
-import { motionReduced } from './a11y.js?v=202610241739';
+import { richText } from './richtext.js?v=202610280813';
+import { esc } from './components.js?v=202610280813';
+import { everWrong } from './learn.js?v=202610280813';
+import { recordAnswer, finishRecord, masteryOf, isMastered, bestOf, starsOf, soundOn, toggleSound } from './learnstore.js?v=202610280813';
+import { recordMcqMistake } from './mistakes.js?v=202610280813';
+import { questionsOf, recallOf, ordersOf, answersOf, compatible, ansOf, topicName as tpNameOf } from './gamedata.js?v=202610280813';
+import { motionReduced } from './a11y.js?v=202610280813';
 
 export const bn = (s) => String(s).replace(/\d/g, (d) => '০১২৩৪৫৬৭৮৯'[d]);
 export const shuffle = (a) => {
@@ -19,7 +20,7 @@ export const shuffle = (a) => {
 const LETTER = 'কখগঘঙ';
 
 // ---------- saved progress: the shared learning store (learnstore.js) ----------
-export { masteryOf, isMastered, bestOf, starsOf, xp, playerLevel, soundOn, toggleSound } from './learnstore.js?v=202610241739';
+export { masteryOf, isMastered, bestOf, starsOf, xp, playerLevel, soundOn, toggleSound } from './learnstore.js?v=202610280813';
 const answered = (q, ok, opts) => recordAnswer(q, ok, opts);
 const finish = (key, score, stars = null) => finishRecord(key, score, stars);
 
@@ -105,7 +106,7 @@ const qBox = (q, label = '') => `<div class="gm-q">${label ? `<p class="gm-qn">$
 const optsHtml = (q, hide = []) => `<div class="gm-opts">${q.opts.map((o, k) => `<button class="opt gm-opt tap" data-g-opt="${k}" ${hide.includes(k) ? 'disabled style="visibility:hidden"' : ''}><span class="opt-key">${LETTER[k]}</span><span>${esc(o.t)}</span></button>`).join('')}</div>`;
 const expHtml = (q, ok) => `<div class="gm-fb ${ok ? 'ok' : 'bad'}" role="status">
     <b>${ok ? '✓ সঠিক!' : `✗ সঠিক উত্তর: ${esc(q.opts[q.right].t)}`}</b>
-    ${q.exp ? `<p>${esc(q.exp)}</p>` : ''}
+    ${q.exp ? richText(q.exp) : ''}
     <button class="btn btn-primary tap" data-g-next>পরের প্রশ্ন →</button></div>`;
 function markOpts(el, q, pick) {
   el.querySelectorAll('[data-g-opt]').forEach((b) => {
@@ -135,7 +136,7 @@ function endScreen(el, ctx, r) {
         <a class="btn tap" href="#/games/${esc(ctx.ch)}/${esc(ctx.tp)}">🎮 অন্য গেম</a>
       </div>
       ${wrong.length ? `<details class="gm-review" open><summary>যেগুলো ভুল হয়েছে (${bn(wrong.length)}টি) — এগুলো ঠিক করে নাও</summary>
-        ${wrong.map((q) => `<div class="gm-rv"><p class="gm-rv-q">${esc(q.q)}</p><p class="gm-rv-a">✓ ${esc(q.opts[q.right].t)}</p>${q.exp ? `<p class="gm-rv-e">${esc(q.exp)}</p>` : ''}</div>`).join('')}
+        ${wrong.map((q) => `<div class="gm-rv"><p class="gm-rv-q">${esc(q.q)}</p><p class="gm-rv-a">✓ ${esc(q.opts[q.right].t)}</p>${q.exp ? `<div class="gm-rv-e">${richText(q.exp)}</div>` : ''}</div>`).join('')}
         <p class="muted small">এই প্রশ্নগুলো রিভিশন তালিকাতেও যোগ হয়েছে।</p>
         ${r.saved ? '<p class="muted small">📕 এগুলো ভুলের খাতাতেও জমা হয়েছে — বিষয়, অধ্যায় আর টপিক ধরে।</p>' : '<button class="btn tap gm-tomk" data-g-tomk>📕 ভুলগুলো ভুলের খাতায় রাখো</button>'}</details>` : ''}
     </div>`;
