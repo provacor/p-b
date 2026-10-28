@@ -1,0 +1,1677 @@
+{
+  "sectionId": "biology_1st_ch05_mcq",
+  "updated": "2026-10-28",
+  "items": [
+    {
+      "id": "biology_1st_ch05_mcq_0001",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "শৈবালের কোষপ্রাচীরে বিদ্যমান–\ni. সেলুলোজ\nii. পেকটিন\niii. লিপিড\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "i ও iii",
+        "ii ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "0",
+      "explanation": "শৈবালের কোষপ্রাচীরের প্রধান উপাদান সেলুলোজ। কোষপ্রাচীরে সেলুলোজের সাথে পেকটিন যুক্ত থাকে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0002",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "Chlamydomonas ও Euglena হলো–\ni. সচল শৈবাল\nii. এককোষী শৈবাল\niii. কলোনিয়াল শৈবাল\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "i ও iii",
+        "ii ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "0",
+      "explanation": "সচল ও এককোষী শৈবালদের কোষে এক বা একাধিক ফ্লাজেলা থাকে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0003",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "মূল, কাণ্ড ও পাতা দেখা যায়–\ni. Sargassum-এ\nii. Vaucheria-এ\niii. Laminaria-এ\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "i ও iii",
+        "ii ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "1",
+      "explanation": "এসব জটিল আকৃতির শৈবাল বহুবর্ষজীবী ও প্যারেনকাইমা জাতীয় হয়ে থাকে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0004",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "কোন উদ্ভিদের ক্লোরোপ্লাস্টে পাইরিনয়েড থাকে?",
+      "options": [
+        "Nostoc",
+        "Ulothrix",
+        "Riccia",
+        "Cycas"
+      ],
+      "correctAnswer": "1",
+      "explanation": "পাইরিনয়েড হলো প্রোটিনজাতীয় পদার্থের চকচকে দানা, যার চারদিকে অনেক সময় স্টার্চ থাকে।",
+      "board": "চ. বো. ১৯"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0005",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "শৈবালের বৈশিষ্ট্য হলো–\ni. স্বভোজী\nii. অপুষ্পক\niii. কোষপ্রাচীর কাইটিন নির্মিত\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "ii ও iii",
+        "i ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "0",
+      "explanation": "শৈবালের কোষপ্রাচীর সেলুলোজ ও পেকটিন নির্মিত।",
+      "board": "সি. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0006",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "কোনটি সিনোসাইটিক শৈবালের উদাহরণ?",
+      "options": [
+        "Ulothrix",
+        "Botrydium",
+        "Nostoc",
+        "Polysiphonia"
+      ],
+      "correctAnswer": "1",
+      "explanation": "Coenocytic শৈবাল: Vaucheria, Botrydium। Coenocytic ছত্রাক: Mucor।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0007",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "উদ্দীপক: মিলি পানিতে ভেসে যাওয়া কিছু সবুজ পিচ্ছিল বস্তু তুলে এনে বাটিতে পানির মধ্যে রেখে খাটের নিচে ঢেকে রাখল। কিছুদিন পর দেখল সেগুলো সাদাটে হয়ে গেছে।\nউদ্দীপকের বস্তুটির সাদাটে হওয়ার কারণ–",
+      "options": [
+        "আলোর অনুপস্থিতি",
+        "খাবারের অপ্রাচুর্যতা",
+        "অক্সিজেনের স্বল্পতা",
+        "আবাসস্থলের পরিবর্তন"
+      ],
+      "correctAnswer": "0",
+      "explanation": "উদ্দীপকের বস্তুটি শৈবাল যা আলোর অনুপস্থিতিতে ক্লোরোফিল হারিয়ে সবুজ থেকে সাদাটে হয়ে গেছে।",
+      "board": "কু. বো. ১৭"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0008",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "উদ্দীপক: মিলি পানিতে ভেসে যাওয়া কিছু সবুজ পিচ্ছিল বস্তু তুলে এনে বাটিতে পানির মধ্যে রেখে খাটের নিচে ঢেকে রাখল। কিছুদিন পর দেখল সেগুলো সাদাটে হয়ে গেছে।\nউদ্দীপকে নির্দেশিত উদ্ভিদটি–\ni. সপুষ্পক\nii. স্বভোজী\niii. থ্যালয়েড\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "i ও iii",
+        "ii ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "2",
+      "explanation": "শৈবাল অপুষ্পক, স্বভোজী, থ্যালয়েড।",
+      "board": "কু. বো. ১৭"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0009",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "প্যারামাইলন কোন শ্রেণির শৈবালের সঞ্চিত খাদ্য?",
+      "options": [
+        "Chlorophyta",
+        "Pyrrophyta",
+        "Phaeophyta",
+        "Rhodophyta"
+      ],
+      "correctAnswer": "1",
+      "explanation": "Chlorophyta → সবুজ শৈবাল তাই শ্বেতসার; Chrysophyta → ক্রাইসোল্যামিনারিন; Pyrrophyta → প্যারামাইলন।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0010",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "ক্লোরোপ্লাস্ট উপস্থিত থাকে কোন অণুজীবে?",
+      "options": [
+        "Bacillus sp.",
+        "Plasmodium sp.",
+        "Mucor sp.",
+        "Spirogyra sp."
+      ],
+      "correctAnswer": "3",
+      "explanation": "Spirogyra সবুজ শৈবাল অর্থাৎ Chlorophyta এর অন্তর্গত।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0011",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "কোনটি পাতা সদৃশ শৈবাল?",
+      "options": [
+        "Ulothrix",
+        "Chlorella",
+        "Chara",
+        "Ulva"
+      ],
+      "correctAnswer": "3",
+      "explanation": "বহুকোষী এবং পাতার মতো শৈবাল হলো Ulva।",
+      "board": "ঢা. বো. ১৯"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0012",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "এককোষী নিশ্চল শৈবাল কোনটি?",
+      "options": [
+        "Spirogyra",
+        "Ulva",
+        "Chlorococcum",
+        "Chaetophora"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Chlorococcum, Chlorella হলো নিশ্চল, এককোষী শৈবাল। এদের ফ্লাজেলা নেই।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0013",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "পাথরের গায়ে জন্মায় যে শৈবাল তাকে কী বলে?",
+      "options": [
+        "হ্যালোফাইট",
+        "লিথোফাইট",
+        "এপিফাইট",
+        "জেরোফাইট"
+      ],
+      "correctAnswer": "1",
+      "explanation": "শৈবাল জলজ, স্থলজ, অর্ধবায়বীয় প্রকৃতির হতে পারে। পাথরের গায়ে যেসব শৈবাল জন্মায় তাদেরকে লিথোফাইট বলা হয়।",
+      "board": "রা. বো. ১৭"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0014",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "Chlamydomonas এর ক্লোরোপ্লাস্ট কোন ধরনের?",
+      "options": [
+        "জালিকাকার",
+        "সর্পিলাকার",
+        "পেয়ালাকৃতির",
+        "তারকাকার"
+      ],
+      "correctAnswer": "2",
+      "explanation": "শৈবালের ক্লোরোপ্লাস্ট বিভিন্ন আকৃতির হতে পারে। যেমন: সর্পিলাকার (Spirogyra), পেয়ালার ন্যায় (Chlamydomonas), থালার মতো (Caulerpa), গার্ডল আকৃতির (Ulothrix)।",
+      "board": "রা. বো. ১৭"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0015",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "নিচের কোনটি 'অগ্নি শৈবাল' হিসেবে পরিচিত?",
+      "options": [
+        "Chrysophyta",
+        "Rhodophyta",
+        "Pyrrophyta",
+        "Euglenophyta"
+      ],
+      "correctAnswer": "2",
+      "explanation": "গ্রীষ্মমণ্ডলীর অঞ্চলে সাগরের পানিকে আলোড়িত করলে আগুন জ্বলতে দেখা যায়। যাকে 'Bioluminescence' বলে। Pyrrophyta শৈবালের জন্য এমন হয়ে থাকে। এদের দ্বারাই রেড টাইড হয়ে থাকে। এরা অগ্নি শৈবাল নামে পরিচিত।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0016",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "নিচের কোনটি এককোষী শৈবাল?",
+      "options": [
+        "Chara",
+        "Navicula",
+        "Zygnema",
+        "কোনোটি নয়"
+      ],
+      "correctAnswer": "1",
+      "explanation": "শৈবালের একটি বড় অংশই এককোষী। Pyrrophyta, Euglenophyta, Chrysophyta শৈবাল এককোষী। Rhodophyta, Phaeophyta বহুকোষী।",
+      "board": "কু. বো. ১৭"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0017",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "কোনটি লোহিত শৈবাল?",
+      "options": [
+        "Ulothrix",
+        "Chaetophora",
+        "Polysiphonia",
+        "Volvox"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Rhodophyta বা লোহিত শৈবালের উদাহরণ হলো Polysiphonia।",
+      "board": "রা. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0018",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "শৈবাল কী ধরনের উদ্ভিদ?",
+      "options": [
+        "গ্যামিটোফাইট",
+        "থ্যালোফাইট",
+        "ব্রায়োফাইট",
+        "টেরিডোফাইট"
+      ],
+      "correctAnswer": "1",
+      "explanation": "যেসকল উদ্ভিদের দেহকে মূল, কাণ্ড, পাতায় ভাগ করা যায় না, তাদেরকে বলা হয় থ্যালোফাইট উদ্ভিদ। শৈবালেও কখনো মূল, কাণ্ড ও পাতা সৃষ্টি হয় না, তাই শৈবালকেও থ্যালোফাইট উদ্ভিদ বলা হয়।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0019",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "সবুজ শৈবালে কোন খাদ্য সঞ্চিত থাকে?",
+      "options": [
+        "স্টার্চ",
+        "ফ্লোরিডিয়ান স্টার্চ",
+        "সায়ানোফাইসিন স্টার্চ",
+        "ল্যামিনারিন স্টার্চ"
+      ],
+      "correctAnswer": "0",
+      "explanation": "Chlorophyta বা সবুজ শৈবালের সঞ্চিত খাদ্য হলো শ্বেতসার বা স্টার্চ।",
+      "board": "রা. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0020",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "শৈবালে কোনটি থাকে না?",
+      "options": [
+        "পেকটিন",
+        "ক্লোরোফিল",
+        "পরিবহন টিস্যু",
+        "রঞ্জক পদার্থ"
+      ],
+      "correctAnswer": "2",
+      "explanation": "শৈবালের দেহে ক্লোরোফিল থাকে বলে এরা স্বভোজী কিন্তু এদের দেহে পরিবহন টিস্যু অনুপস্থিত।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0021",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "নিশ্চল এককোষী শৈবালে কোনটি অনুপস্থিত?",
+      "options": [
+        "ক্লোরোফিল",
+        "ফ্লাজেলা",
+        "মাইটোকন্ড্রিয়া",
+        "গলজি বডি"
+      ],
+      "correctAnswer": "1",
+      "explanation": "নিশ্চল এককোষী শৈবালে ফ্লাজেলা না থাকায় এরা নিশ্চল। এরা এককভাবে বা দলবদ্ধভাবে মিউসিলেজ আবরণের মধ্যে আবদ্ধ থাকে। উদাহরণ: Chlorella।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0022",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "Ulothrix এর ক্লোরোপ্লাস্টের আকৃতি কেমন?",
+      "options": [
+        "পেয়ালাকার",
+        "জালিকাকার",
+        "সর্পিলাকার",
+        "ফিতাকৃতি"
+      ],
+      "correctAnswer": "3",
+      "explanation": "Ulothrix এর প্রতিটি কোষে একটি করে চওড়া ফিতার মতো বা বেল্ট আকৃতির ক্লোরোপ্লাস্ট থাকে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0023",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "শৈবালের অযৌন জনন করে–\ni. চলরেণু\nii. অচল রেণু\niii. হিপনোস্পোর\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "i ও iii",
+        "ii ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "3",
+      "explanation": "বিভিন্ন রকম অযৌন স্পোর বা রেণু দ্বারা শৈবালের অযৌন জনন সম্পন্ন হয়। যেমন: জুস্পোর, অ্যাপ্লানোস্পোর, হিপনোস্পোর, অ্যাকিনেট ইত্যাদি।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0024",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "উদ্দীপক: একটি কোষ মাঝখান থেকে সংকুচিত হয়ে দুটি অপত্য কোষে বিভক্ত হওয়ার চিত্র।\nউপরোক্ত প্রক্রিয়ায় সংখ্যা বৃদ্ধি করে–\ni. ব্যাকটেরিয়া\nii. ছত্রাক\niii. ভাইরাস\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "ii ও iii",
+        "i ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "0",
+      "explanation": "Budding প্রক্রিয়ায় ব্যাকটেরিয়া, শৈবাল ও ছত্রাক সংখ্যা বৃদ্ধি করে থাকে।",
+      "board": "রা. বো. ১৭"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0025",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "শ্যাওলাতে (algae) অযৌন প্রজনন কোনটি দ্বারা সম্পন্ন হয়?",
+      "options": [
+        "Rhizoid",
+        "Fragmentation",
+        "Tuber",
+        "Spore"
+      ],
+      "correctAnswer": "3",
+      "explanation": "Algae বা শৈবালে অযৌন প্রজনন বিভিন্ন রকম spore (যেমন: zoospore, aplanospore, akinete ইত্যাদি) দ্বারা হয়ে থাকে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0026",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "নিচের কোনটিতে হরমোগোনিয়া থাকে–",
+      "options": [
+        "Sargassum",
+        "Oscillatoria",
+        "Volvox",
+        "Zygnema"
+      ],
+      "correctAnswer": "1",
+      "explanation": "সূত্রাকার নীলাভ-সবুজ শৈবালের ট্রাইকোম খণ্ডিত হলে প্রতিটি খণ্ডকে হরমোগোনিয়াম বলে। হরমোগোনিয়া অঙ্কুরিত হয়ে নতুন সূত্র গঠন করে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0027",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "কোনটি শৈবালের অযৌন জনন?",
+      "options": [
+        "হরমোগোনিয়া",
+        "খণ্ডায়ন",
+        "বাডিং",
+        "জুস্পোর"
+      ],
+      "correctAnswer": "3",
+      "explanation": "স্পোর সৃষ্টির মাধ্যমে শৈবালের অযৌন জনন ঘটে থাকে। স্পোর ফ্লাজেলাবিশিষ্ট ও সচল হলে তাকে জুস্পোর বলে।",
+      "board": "দি. বো. ১৯"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0028",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "পামেলা দশা সৃষ্টিকারী শৈবাল কোনটি?",
+      "options": [
+        "Chlamydomonas",
+        "Volvox",
+        "Chlorococcus",
+        "Vaucheria"
+      ],
+      "correctAnswer": "0",
+      "explanation": "কিছু শৈবাল শুষ্ক পরিবেশে প্রোটোপ্লাজম বরাবর বিভাজিত হয়ে মাতৃকোষ প্রাচীরের মধ্যে জেলাটিনে আবদ্ধ থাকে। এই অবস্থাকে পামেলা দশা বলে। সাধারণত Chlamydomonas শৈবাল এই অবস্থা দেখা যায়।",
+      "board": "কু. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0029",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "Ulothrix এ মায়োসিস ঘটে–",
+      "options": [
+        "ফিলামেন্ট কোষে",
+        "জাইগোটে",
+        "হোল্ডফাস্টে",
+        "গ্যামিটে"
+      ],
+      "correctAnswer": "1",
+      "explanation": "Ulothrix এর যৌন জননে ডিপ্লয়েড জাইগোট সৃষ্টি হয় যা থেকে মায়োসিসের মাধ্যমে হ্যাপ্লয়েড জুস্পোর সৃষ্টি হয়।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0030",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "Ulothrix এর যৌন জননে কোষের প্রোটোপ্লাস্ট কতগুলো খণ্ডে বিভক্ত হয়?",
+      "options": [
+        "৮-১০টি",
+        "৮-৬৪টি",
+        "৭০-৮০টি",
+        "১০০-১৬০টি"
+      ],
+      "correctAnswer": "1",
+      "explanation": "Ulothrix এর যৌন জননে কোষের প্রোটোপ্লাস্ট ৮-৬৪টি খণ্ডে বিভক্ত হয়।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0031",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "Ulothrix এর জাইগোট কতটি ফ্লাজেলা নিয়ে গঠিত?",
+      "options": [
+        "দু'টি",
+        "চারটি",
+        "আটটি",
+        "ষোলটি"
+      ],
+      "correctAnswer": "1",
+      "explanation": "Ulothrix এর জাইগোট চার ফ্লাজেলাযুক্ত ও ডিপ্লয়েড।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0032",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "একটি গ্যামিট থেকে পূর্ণাঙ্গ Ulothrix তৈরি হলে তাকে কী বলে?",
+      "options": [
+        "অ্যাপোস্পোরি",
+        "পার্থেনোজেনেসিস",
+        "অ্যাপোগ্যামি",
+        "কোনোটি নয়"
+      ],
+      "correctAnswer": "1",
+      "explanation": "পার্থেনোজেনেসিসের মাধ্যমে একটি গ্যামিট থেকে পূর্ণাঙ্গ Ulothrix তৈরি হয়।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0033",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "Ulothrix-এর অযৌন জননের জুস্পোরে কতটি ফ্লাজেলা থাকে?",
+      "options": [
+        "১টি",
+        "২টি",
+        "৩টি",
+        "৪টি"
+      ],
+      "correctAnswer": "3",
+      "explanation": "Ulothrix এর অযৌন জননের জুস্পোরে সাধারণত চারটি ফ্লাজেলা থাকে।",
+      "board": "য. বো. ১৯; ব. বো. ১৯"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0034",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "উদ্দীপক: Ulothrix শৈবালের চিত্র, গোড়ার কোষটি 'M' চিহ্নিত।\nচিত্রে 'M' চিহ্নিত অংশের নাম কী?",
+      "options": [
+        "হোল্ডফাস্ট",
+        "জননকোষ",
+        "অ্যাকাইনিটি",
+        "হেটোরোসিস্ট"
+      ],
+      "correctAnswer": "0",
+      "explanation": "হোল্ডফাস্ট দ্বারা শৈবালটি কোনো বস্তুর সাথে আবদ্ধ থাকে। এর নিউক্লিয়াস/ ক্লোরোপ্লাস্ট নেই এবং কোষ বিভাজন হয় না।",
+      "board": "চ. বো. ১৭"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0035",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "Ulothrix শৈবালের পাদদেশীয় কোষটি–\ni. হোল্ডফাস্ট নামে পরিচিত\nii. বিভাজন করতে অক্ষম\niii. সূত্রাকার ও ক্লোরোফিলবিহীন\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "i ও iii",
+        "ii ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "3",
+      "explanation": "হোল্ডফাস্টের বিভাজন হয় না, ক্লোরোপ্লাস্ট ও নিউক্লিয়াস নেই।",
+      "board": "সি. বো. ১৭"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0036",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "Ulothrix এ নিষেক সম্পন্ন হয়–\ni. '+' চিহ্নিত থ্যালাসে\nii. '–' চিহ্নিত থ্যালাসে\niii. থ্যালাসের বাইরে\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "i ও ii"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Isogamy প্রক্রিয়ায় Ulothrix এর যৌন জনন সম্পন্ন হয়। এক্ষেত্রে থ্যালাসের বাইরে নিষেক সম্পন্ন হয়।",
+      "board": "ব. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0037",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "শৈবাল বিষয়ে কোনটি সঠিক?",
+      "options": [
+        "লোহিত শৈবাল কোরাল প্রাচীর গঠন করে",
+        "সবুজ এবং লাল শৈবাল মিলিত হয়ে লাইকেন গঠন করে",
+        "ডায়াটমে ফাইকোজ্যান্থিন নামক রঞ্জক থাকে",
+        "সোনালী-হলুদ শৈবাল জলজ বাস্তুতন্ত্র নষ্ট করে"
+      ],
+      "correctAnswer": "0",
+      "explanation": "লোহিত শৈবাল কোরাল প্রাচীর তৈরি করে ও red tide সৃষ্টি করে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0038",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "ডায়াটম বিষয়ে কোনটি সঠিক?",
+      "options": [
+        "সবুজ বর্ণের হয়",
+        "জলজ বাস্তুতন্ত্রের উৎপাদক",
+        "সামুদ্রিক শ্যাওলা (Moss) হিসেবে পরিচিত",
+        "bioremediotion করে"
+      ],
+      "correctAnswer": "1",
+      "explanation": "ডায়াটম নীলাভ-সবুজ বর্ণের হয় এবং Moss পাওয়া যায় ভূ-খন্ডে, সমুদ্রে নয়।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0039",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "কোন শৈবাল থেকে গবেষকগণ ন্যানো ফিল্টার তৈরি করেছেন?",
+      "options": [
+        "Sargassum",
+        "Gracilaria",
+        "Pithophora",
+        "Spirulina"
+      ],
+      "correctAnswer": "2",
+      "explanation": "এ ন্যানোফিল্টারের ছাঁকনির ছিদ্রগুলো ১৭ ন্যানোমিটার আকারের, যেখানে পানিবাহিত রোগজীবাণুর আকার সাধারণত ৩০-১০০ ন্যানোমিটার, তাই পানিতে থাকা সবধরনের রোগজীবাণু এ ছাঁকনিতে আটকা পড়ে যায়।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0040",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "কোনটি চা গাছে রোগ সৃষ্টি করে?",
+      "options": [
+        "Penicillium",
+        "Phytophthora",
+        "Alternaria",
+        "Cephaleuros"
+      ],
+      "correctAnswer": "3",
+      "explanation": "Cephaleuros Virescens নামক শৈবাল চা, কফি ও ম্যাগনোলিয়া গাছে রোগ সৃষ্টি করে। ফলে চা ও কফির ফলন কমে যায়।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0041",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "কোনটি সিমবায়োটিক অ্যাসোসিয়েশন?",
+      "options": [
+        "Human-lice",
+        "Bean-bacteria",
+        "Goat-tapeworm",
+        "Human-worm"
+      ],
+      "correctAnswer": "1",
+      "explanation": "Nostoc, Anabaena যারা পূর্বে নীলাভ-সবুজ শৈবাল হিসেবে পরিচিত ছিলো কিন্তু এখন সায়ানোব্যাকটেরিয়া হিসেবেই পরিচিত। এরা মাটিতে মুক্ত নাইট্রোজেন সংবন্ধন করে যা শিম (bean) গাছের কাজে লাগে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0042",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "অ্যান্টিবায়োটিক ওষুধ তৈরিতে কোন শৈবাল ব্যবহৃত হয়?",
+      "options": [
+        "Sargassum",
+        "Chlorella",
+        "Laminaria",
+        "Gelidium"
+      ],
+      "correctAnswer": "1",
+      "explanation": "Sargassum ও Laminaria শৈবাল গলগণ্ড রোগের চিকিৎসায় এবং Chlorella অ্যান্টিবায়োটিক ওষুধ তৈরিতে ব্যবহৃত হয়।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0043",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "মানুষের খাদ্য হিসেবে কোন শৈবাল ব্যবহৃত হয়?",
+      "options": [
+        "Mucur",
+        "Gelidium",
+        "Chlorella",
+        "Nostoc"
+      ],
+      "correctAnswer": "2",
+      "explanation": "মানুষের খাদ্য তালিকায় Chlorella একটি ভিটামিন সমৃদ্ধ শৈবাল।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0044",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "সমুদ্রের অলংকার বলে অভিহিত করা হয় কোন শৈবালকে?",
+      "options": [
+        "সবুজ শৈবাল",
+        "লোহিত শৈবাল",
+        "ডায়াটম",
+        "বাদামি শৈবাল"
+      ],
+      "correctAnswer": "2",
+      "explanation": "দেখতে অনেক সুন্দর দেখায় বলে সোনালি হলুদ শৈবাল বা ডায়াটমকে সমুদ্রের অলংকার বা জীবিত বর্ণালি পাথর বলে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0045",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "কোন ছত্রাকে Coenocytic মাইসেলিয়াম থাকে?",
+      "options": [
+        "Penicillium",
+        "Agaricus",
+        "Aspergillus",
+        "Mucor"
+      ],
+      "correctAnswer": "3",
+      "explanation": "Coenocytic শৈবাল: Vaucheria, Botrydium। Coenocytic ছত্রাক: Mucor।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0046",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "বাডিং এর সময় ছত্রাকের মাতৃকোষের নিউক্লিয়াসটি কোন প্রক্রিয়ায় বিভক্ত হয়?",
+      "options": [
+        "মায়োসিস",
+        "দ্বিবিভাজন",
+        "অ্যামাইটোসিস",
+        "মাইটোসিস"
+      ],
+      "correctAnswer": "3",
+      "explanation": "বাডিং (ছত্রাকের এক প্রকার অঙ্গজ জনন) এর সময় মাতৃকোষের নিউক্লিয়াসটি মাইটোসিসের মাধ্যমে বিভক্ত হয়।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0047",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "কীসের সাহায্যে ছত্রাকের উস্পোরের অঙ্কুরোদগম ঘটে?",
+      "options": [
+        "প্রোটোপ্লাস্ট",
+        "জার্মনালি",
+        "কনিডিওফোর",
+        "চলরেণু"
+      ],
+      "correctAnswer": "1",
+      "explanation": "জার্মনালির সাহায্যে ছত্রাকের উস্পোরের অঙ্কুরোদগম ঘটে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0048",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "পরিবেশ সংরক্ষণে ছত্রাক–\ni. মৃত জীবদেহে পচন ঘটায়\nii. জৈব এসিড ও উৎসেচক তৈরি করে\niii. জৈব নিয়ন্ত্রক হিসেবে কাজ করে\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "i ও iii",
+        "ii ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "0",
+      "explanation": "পরিবেশ সংরক্ষণে ছত্রাক মৃত জীবদেহে পচন ঘটায় ও জৈব এসিড ও উৎসেচক তৈরি করে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0049",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "শৈবাল ও ছত্রাক উভয়ই থ্যালোফাইটা বিভাগের অন্তর্গত। উভয়ের ক্ষেত্রে প্রযোজ্য–\ni. উভয়েই প্রকৃতকোষী\nii. খাদ্য তৈরিতে সক্ষম\niii. পরিবহন টিস্যু অনুপস্থিত\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "i ও iii",
+        "ii ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "1",
+      "explanation": "শৈবাল সালোকসংশ্লেষণের মাধ্যমে নিজের খাদ্য নিজে তৈরি করে। কিন্তু ছত্রাক তা করতে পারেনা।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0050",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "ছত্রাকের সাধারণ বৈশিষ্ট্য কোনটি?",
+      "options": [
+        "আলোর উপর নির্ভরশীল",
+        "জননাঙ্গ বহুকোষী",
+        "পরিবহন টিস্যু আছে",
+        "কোষ প্রাচীর কাইটিন নির্মিত"
+      ],
+      "correctAnswer": "3",
+      "explanation": "ছত্রাক আলোর উপর নির্ভরশীল নয়, কারণ তাদের সালোকসংশ্লেষণ হয় না। এদের পরিবহন টিস্যু নেই এবং জননাঙ্গ এককোষী।",
+      "board": "দি. বো. ১৯"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0051",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "কোন ছত্রাকটি জলজ?",
+      "options": [
+        "Saprolegnia",
+        "Rhizopus",
+        "Aspergillus",
+        "কোনোটি নয়"
+      ],
+      "correctAnswer": "0",
+      "explanation": "Saprolegnia ছত্রাক কার্পজাতীয় মাছের বিশেষ রোগ সৃষ্টি করে উৎপাদন হ্রাস করে।",
+      "board": "য. বো. ১৯"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0052",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "পরজীবী ছত্রাকের চোষক অঙ্গ হিসেবে ব্যবহৃত হয় কোনটি?",
+      "options": [
+        "রাইজোমর্ফ",
+        "স্টাইপ",
+        "অ্যানুলাস",
+        "হস্টোরিয়াম"
+      ],
+      "correctAnswer": "3",
+      "explanation": "পরজীবী ছত্রাক পোষক কোষের অভ্যন্তর থেকে হস্টোরিয়া এর মাধ্যমে খাদ্য শোষণ করে।",
+      "board": "য. বো. ১৭"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0053",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "ছত্রাকের কনিডিয়ার সঞ্চিত বস্তু কী?",
+      "options": [
+        "সেলুলোজ",
+        "গ্লাইকোজেন",
+        "তৈলবিন্দু",
+        "স্টার্চ"
+      ],
+      "correctAnswer": "2",
+      "explanation": "ছত্রাকের কনিডিয়ার সঞ্চিত বস্তু তৈলবিন্দু।",
+      "board": "রা. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0054",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "শৈবাল ও ছত্রাকের পার্থক্যকারী উপাদান–\ni. সঞ্চিত খাদ্য\nii. বর্ণকণিকা\niii. কোষপ্রাচীরের গঠন\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "i ও iii",
+        "ii ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "3",
+      "explanation": "সঞ্চিত খাদ্য — শৈবাল: স্টার্চ, প্যারামাইলন ইত্যাদি; ছত্রাক: গ্লাইকোজেন, তৈলবিন্দু। বর্ণকণিকা — শৈবাল: ক্লোরোফিল; ছত্রাক: নেই। কোষপ্রাচীরের গঠন — শৈবাল: সেলুলোজ নির্মিত; ছত্রাক: কাইটিন নির্মিত।",
+      "board": "চ. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0055",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "ছত্রাকের কোষঝিল্লির প্রধান উপাদানের নাম কি?",
+      "options": [
+        "কাইটিন (chitin)",
+        "কোলেস্টেরল (cholesterol)",
+        "প্রোটিন (Protein)",
+        "আরগোস্টেরল (ergosterol)"
+      ],
+      "correctAnswer": "3",
+      "explanation": "ছত্রাকের কোষঝিল্লির প্রধান উপাদান ergosterol। আবার ছত্রাকের কোষপ্রাচীর কাইটিন (Chitin) নামক জটিল পলিস্যাকারাইড দিয়ে তৈরি।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0056",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "ছত্রাকের কোষ প্রাচীরের প্রধান উপাদান কোনটি?",
+      "options": [
+        "কাইটিন",
+        "সেলুলোজ",
+        "স্টার্চ",
+        "গ্লাইকোজেন"
+      ],
+      "correctAnswer": "0",
+      "explanation": "ছত্রাকের কোষ প্রাচীর কাইটিন (এক প্রকার জটিল পলিস্যাকারাইড) নির্মিত।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0057",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "নিচের কোনটি Dimorphic ছত্রাক?",
+      "options": [
+        "Mucor",
+        "Rhizopus",
+        "Histoplasma capsulatum",
+        "Aspergillus"
+      ],
+      "correctAnswer": "2",
+      "explanation": "যে সকল ছত্রাকের জীবদ্দশায় ঈস্ট ও মোল্ড উভয় পর্যায় আছে তাদেরকে Dimorphic ছত্রাক বলে। Histoplasma capsulatum একটি Dimorphic ছত্রাকের উদাহরণ।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0058",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "দৈহিক খণ্ডায়নের মাধ্যমে জনন প্রক্রিয়া সম্পন্ন করে নিচের কোন ছত্রাক?",
+      "options": [
+        "Yeast",
+        "Saccharomyces",
+        "Fusarium",
+        "Rhizopus"
+      ],
+      "correctAnswer": "3",
+      "explanation": "দৈহিক খণ্ডায়ন প্রক্রিয়ায় ছত্রাক দেহটি একাধিক খণ্ডে বিভক্ত হয় এবং প্রতিটি খণ্ড থেকে একটি স্বতন্ত্র ছত্রাক দেহ উৎপন্ন হয়। উদাহরণ: Rhizopus, Penicillium। অঙ্গজ জননের আরো কিছু পদ্ধতি ও উদাহরণ: i. দ্বিবিভাজন: Yeast, Saccharomyces। ii. কুঁড়ি সৃষ্টি: Yeast, Saccharomyces।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0059",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "নিচের কোনটি জাইগোট ছত্রাকের উদাহরণ?",
+      "options": [
+        "Agaricus",
+        "Penicillium",
+        "Dermea",
+        "Rhizopus"
+      ],
+      "correctAnswer": "3",
+      "explanation": "Rhizopus, Mucor প্রভৃতি হলো জাইগোট ছত্রাকের উদাহরণ।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0060",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "উওগোনিয়া সৃষ্টি করে কোন ছত্রাক?",
+      "options": [
+        "হালি ছত্রাক",
+        "মুগুর ছত্রাক",
+        "ডিম্ব ছত্রাক",
+        "জাইগোট ছত্রাক"
+      ],
+      "correctAnswer": "2",
+      "explanation": "ডিম্ব ছত্রাকের বিশেষ বৈশিষ্ট্য হলো যৌন জননের সময় এরা স্ত্রী জননকোষধারী, বৃহৎ ও ডিম্বাকার উওগোনিয়া সৃষ্টি করে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0061",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "ক্ল্যামাইডোরেণু দেখা যায় নিচের কোন ছত্রাকে?",
+      "options": [
+        "Mucor",
+        "Rhizopus",
+        "Penicilim",
+        "কোনোটি নয়"
+      ],
+      "correctAnswer": "0",
+      "explanation": "ক্ল্যামাইডোরেণু ছত্রাককে প্রতিকূল অবস্থা অতিক্রম করতে সাহায্য করে। Mucor, Fusarium এ ক্ল্যামাইডোরেণু দেখা যায়।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0062",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "অধিকাংশ ছত্রাকের পুষ্টি সংগ্রহ করার প্রক্রিয়ার নাম কি?",
+      "options": [
+        "অভিস্রবণ",
+        "শোষণ",
+        "ব্যাপন",
+        "কোনোটিই নয়"
+      ],
+      "correctAnswer": "1",
+      "explanation": "অধিকাংশ ছত্রাকই শোষণ প্রক্রিয়ার মাধ্যমে পুষ্টি সংগ্রহ করে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0063",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "উদ্দীপক: একটি কোষ থেকে পরপর কুঁড়ি বের হয়ে শৃঙ্খল তৈরির চিত্র।\nউদ্দীপকটি কোন ধরণের অণুজীব?",
+      "options": [
+        "Aspergillus",
+        "Penicillium",
+        "Saprolegnia",
+        "Saccharomyces"
+      ],
+      "correctAnswer": "3",
+      "explanation": "চিত্রে budding (কুঁড়ি উৎপাদন) দেখানো হয়েছে। budding এর উদাহরণ হলো Saccharomyces। সুতরাং এটি Saccharomyces।",
+      "board": "ঢা. বো. ১৭"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0064",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "উদ্দীপক: একটি কোষ থেকে পরপর কুঁড়ি বের হয়ে শৃঙ্খল তৈরির চিত্র।\nঅণুজীবটি ব্যবহৃত হয়–\ni. রুটি শিল্পে\nii. গবেষণায় জেনেটিক মেটেরিয়াল হিসেবে\niii. জৈব এসিড তৈরিতে\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "i ও iii",
+        "ii ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "1",
+      "explanation": "Saccharomyces এর ব্যবহার: ইনভারটেজ উৎসেচক তৈরি, আণবিক জীববিজ্ঞানের উচ্চতর কাজে, ভিটামিন B ও C তৈরি, গ্লিসারিন তৈরি, বেকারিতে রুটি ও পাউরুটি তৈরি, অ্যালকোহল প্রস্তুতকরণ ইত্যাদি।",
+      "board": "ঢা. বো. ১৭"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0065",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "একশত গ্রাম মাশরুমে কত গ্রাম শর্করা থাকে?",
+      "options": [
+        "8-9 grams",
+        "2-4 grams",
+        "5-6 grams",
+        "4-5 grams"
+      ],
+      "correctAnswer": "3",
+      "explanation": "প্রতি 100 গ্রাম মাশরুমে 4-5 গ্রাম শর্করা থাকে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0066",
+      "kind": null,
+      "topic": "ছত্রাকজনিত রোগ",
+      "question": "কার্প জাতীয় মাছের রোগ সৃষ্টিকারী ছত্রাকের নাম কি?",
+      "options": [
+        "Penicillium",
+        "Mucor",
+        "Rhizopus",
+        "Saprolegnia"
+      ],
+      "correctAnswer": "3",
+      "explanation": "Saprolegnia parasitica দ্বারা মাছের স্যামন রোগ সৃষ্টি হয়।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0067",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "কাগজ বিনষ্টকারী ছত্রাক নয় কোনটি?",
+      "options": [
+        "Penicillium",
+        "Alternaria",
+        "Fusarium",
+        "Mucor"
+      ],
+      "correctAnswer": "3",
+      "explanation": "Penicillium, Alternaria ও Fusarium জাতীয় ছত্রাক কাগজের উপরে জন্মিয়ে কাগজ বিনিষ্ট করে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0068",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "Ergot নামক ওষুধ তৈরি করা হয় কোন ছত্রাক থেকে?",
+      "options": [
+        "Claviceps purpurea",
+        "Penicillium chrysogenum",
+        "Gibberella fujikuro",
+        "Tolypocladium inflatum"
+      ],
+      "correctAnswer": "0",
+      "explanation": "Claviceps purpurea → ergot → সন্তান প্রসবের পর রক্তক্ষরণ বন্ধ; Penicillium chrysogenum → penicillin → ব্যাকটেরিয়াঘটিত রোগ ব্যাধি; Tolypocladium inflatum → Cyclosporine → অঙ্গ ট্রান্সপ্লান্ট করতে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0069",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "উদ্ভিদের বৃদ্ধি হরমোন জিবেরেলিন পাওয়া যায় কোন ছত্রাক থেকে?",
+      "options": [
+        "Penicillium chrysogenum",
+        "Claviceps purpurea",
+        "Gibberella fujikuroi",
+        "Aspergillus flavus"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Gibberella fujikuroi নামক ছত্রাক থেকে উদ্ভিদের বৃদ্ধি হরমোন জিবেরেলিন পাওয়া যায়। এটি ছত্রাকের উপকারী দিক।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0070",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "আরথ্রাইটিস নিরাময়ে কোন ছত্রাকের ভূমিকা রয়েছে।",
+      "options": [
+        "Aspergillus",
+        "Fusarium",
+        "Mucor",
+        "Rhizopus"
+      ],
+      "correctAnswer": "0",
+      "explanation": "Aspergillus ছত্রাক থেকে স্টেরয়েড পাওয়া যায়। যা আরথ্রাইটিস নিরাময় করে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0071",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "ইনভারটেজ নামক উৎসেচক পাওয়া যায় কোন ছত্রাক থেকে?",
+      "options": [
+        "Agaricus bisporus",
+        "Gibberella fajikuroi",
+        "Saccharomyces cerevisiae",
+        "Aspergillus"
+      ],
+      "correctAnswer": "2",
+      "explanation": "বিভিন্ন প্রজাতির ছত্রাক থেকে বাণিজ্যিকভাবে ব্যবহৃত বিভিন্ন জৈব এসিড ও উৎসেচক তৈরি করা হয়। Saccharomyces cerevisiae ছত্রাক থেকে ইনভারটেজ নামক উৎসেচক পাওয়া যায়।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0072",
+      "kind": null,
+      "topic": "ছত্রাকজনিত রোগ",
+      "question": "ব্রঙ্কোমাইকোসিস নামক রোগ সৃষ্টি হয় কোন ছত্রাকের আক্রমনে?",
+      "options": [
+        "Absidia corymbiphera",
+        "Trichophyton rubrum",
+        "Microsporium caris",
+        "Aspergillus"
+      ],
+      "correctAnswer": "0",
+      "explanation": "Absidia corymbiphera নামক ছত্রাক মানুষের দেহে ব্রঙ্কোমাইকোসিস নামক রোগ সৃষ্টি করে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0073",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "সাইক্লোস্পোরিন ওষুধ তৈরি করা হয় কোন প্রজাতির ছত্রাক থেকে?",
+      "options": [
+        "Tolypocladium inflatum",
+        "Agaricus campestris",
+        "Penicillium cerevisae",
+        "Claviceps purpurea"
+      ],
+      "correctAnswer": "0",
+      "explanation": "Tolypocladium inflatum প্রজাতির ছত্রাক হতে সাইক্লোস্পোরিন ওষুধ তৈরি করা হয়, যা মানুষের অঙ্গ ট্রান্সপ্লান্ট করতে ব্যবহৃত হয়।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0074",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "কোনটি Agaricus এর ফ্রুটবডির অংশ?",
+      "options": [
+        "ইন্ডুসিয়াম",
+        "অ্যানুলাস",
+        "স্টোমিয়াম",
+        "রাইজোমর্ফ"
+      ],
+      "correctAnswer": "1",
+      "explanation": "Agaricus ছত্রাকের ফ্রুটবডির গোড়ার দিকে কান্ডের ন্যায় অংশকে স্টাইপ বলে। স্টাইপের মাথায় একটি চক্রাকার অংশ থাকে যাকে অ্যানুলাস বলে।",
+      "board": "চ. বো. ১৯"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0075",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "উদ্দীপক: Agaricus এর ফ্রুটবডির চিত্র, ছাতার নিচের পর্দার ন্যায় অংশ 'B' চিহ্নিত।\nচিত্রে B চিহ্নিত অংশটির নাম কী?",
+      "options": [
+        "পাইলিয়াস",
+        "গিল",
+        "স্টাইপ",
+        "অ্যানুলাস"
+      ],
+      "correctAnswer": "1",
+      "explanation": "Agaricus ছত্রাকের ফ্রুটবডির উপরের দিকে ছাতার ন্যায় অংশকে পাইলিয়াস বলে। পাইলিয়াসের নিচের দিকে ঝুলন্ত অবস্থায় পর্দার ন্যায় অংশকে গিল বা ল্যামেলি বলে।",
+      "board": "ঢা. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0076",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "Agaricus-এর ফ্রুটবডির নাম কী?",
+      "options": [
+        "ব্যাসিডিওকার্প",
+        "কনিডিয়োফোর",
+        "অ্যাসকোকার্প",
+        "রাইজোমরফ"
+      ],
+      "correctAnswer": "0",
+      "explanation": "ব্যাসিডিওমাইসিটিস শ্রেণির ছত্রাকের ফ্রুটবডিকে ব্যাসিডিওকার্প বলে।",
+      "board": "ঢা. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0077",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "কোন উদ্ভিদ ব্যাসিডিওস্পোর তৈরি করে?",
+      "options": [
+        "Pteris sp.",
+        "Penicillum sp.",
+        "Agaricus sp.",
+        "Riccia sp."
+      ],
+      "correctAnswer": "2",
+      "explanation": "ব্যাসিডিওকার্প থেকে তৈরি হওয়া স্পোরকে ব্যাসিডিওস্পোর বলে।",
+      "board": "রা. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0078",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "Agaricus-এর ছাতার মতো অংশের নাম কী?",
+      "options": [
+        "মাইসেলিয়াম",
+        "স্টাইপ",
+        "রাইজোমর্ফ",
+        "পাইলিয়াস"
+      ],
+      "correctAnswer": "3",
+      "explanation": "Agaricus ছত্রাকের ছাতার মতো অংশটির নাম পাইলিয়াস।",
+      "board": "চ. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0079",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "Agaricus-এর প্রতিটি ব্যাসিডিয়াম থেকে কতটি ব্যাসিডিওস্পোর উৎপন্ন হয়?",
+      "options": [
+        "১",
+        "২",
+        "৪",
+        "৮"
+      ],
+      "correctAnswer": "2",
+      "explanation": "ব্যাসিডিওকার্পের গিলে অসংখ্য ব্যাসিডিয়া থাকে। প্রতিটি ব্যাসিডিয়ামের (একবচন) মাথায় ৪টি করে ব্যাসিডিওস্পোর থাকে।",
+      "board": "ব. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0080",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "উদ্দীপক: রিয়াদ মাশরুমের ফ্রুটবডি পরীক্ষা করে এবং বিভিন্ন অংশ ও গুণাগুণ সম্পর্কে জানতে পারল। রিয়াদ অসুস্থ মিনাকে দেখতে গিয়ে তার পরীক্ষিত অংশগুলো খাওয়ার পরামর্শ দিল যার কারণে মিনা সুস্থ হলো।\nউদ্দীপক মতে পরীক্ষিত বিষয়টি থেকে রিয়াদ কোনটি জানতে পারল?",
+      "options": [
+        "ব্যাসিডিয়াম অনুর্বর",
+        "স্টাইপগুলি শক্ত",
+        "গিল বেগুনি বর্ণের",
+        "প্যারাফাইসিস অনুর্বর"
+      ],
+      "correctAnswer": "3",
+      "explanation": "ব্যাসিডিয়াম উর্বর, স্টাইপগুলি নরম ও গিল বেগুনি বর্ণের হবে না। (কারণ এগুলো বিষাক্ত মাশরুম নয়, মিনা যেহেতু খেতে পেরেছে)",
+      "board": "সি. বো. ১৭"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0081",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "উদ্দীপক: রিয়াদ মাশরুমের ফ্রুটবডি পরীক্ষা করে এবং বিভিন্ন অংশ ও গুণাগুণ সম্পর্কে জানতে পারল। রিয়াদ অসুস্থ মিনাকে দেখতে গিয়ে তার পরীক্ষিত অংশগুলো খাওয়ার পরামর্শ দিল যার কারণে মিনা সুস্থ হলো।\nউদ্দীপক মতে রিয়াদের পরীক্ষিত খাদ্যের কোন উপাদানটি মিনাকে প্রতিরোধী করতে পারে?",
+      "options": [
+        "প্রোটিন ও ভিটামিন",
+        "শর্করা ও ফ্যাট",
+        "শর্করা ও ভিটামিন",
+        "প্রোটিন ও ফ্যাট"
+      ],
+      "correctAnswer": "0",
+      "explanation": "মাশরুম বিভিন্ন ভিটামিন সমৃদ্ধ এবং প্রোটিনের খুবই ভালো উৎস।",
+      "board": "সি. বো. ১৭"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0082",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "মাশরুম নিচের কোন শ্রেণির অন্তর্ভুক্ত?",
+      "options": [
+        "Ascomycetes",
+        "Basidiomycetes",
+        "Deuteromycetes",
+        "Zygomycetes"
+      ],
+      "correctAnswer": "1",
+      "explanation": "মাশরুম বা Agaricus, Basidiomycota division এর Basidiomycetes class (শ্রেণির) অন্তর্ভুক্ত।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0083",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "কোন প্রজাতির মাশরুম সবজি হিসেবে ব্যবহৃত হয়?",
+      "options": [
+        "Saccharomyces cerevisiae",
+        "Agaricus bisporus",
+        "Aspergillus",
+        "Rhizopus"
+      ],
+      "correctAnswer": "1",
+      "explanation": "Agaricus bisporus, A. campestris প্রজাতির মাশরুম সবজি হিসেবে ব্যবহৃত হয়। এদের পুষ্টিগুণও উচ্চমানের।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0084",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "উচ্চ রক্তচাপ ও হৃদরোগ নিয়ন্ত্রণে ভূমিকা রাখে কোনটি?",
+      "options": [
+        "মাশরুম",
+        "শৈবাল",
+        "পেনিসিলিন",
+        "মস"
+      ],
+      "correctAnswer": "0",
+      "explanation": "মাশরুম নিয়মিত খেলে উচ্চ রক্তচাপ ও হৃদরোগ নিয়ন্ত্রণে রাখা যায়।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0085",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "নিচের কোন অংশে Agaricus এর ব্যাসিডিয়াম তৈরি হয়?",
+      "options": [
+        "স্টাইপ",
+        "অ্যানুলাস",
+        "পাইলিয়াস",
+        "গিল"
+      ],
+      "correctAnswer": "3",
+      "explanation": "গিলের অন্তর্গঠনে যে তিনটি স্তর দেখা যায়। তার মধ্যে সাবহাইমেনিয়াম নামক অঞ্চল থেকেই ব্যাসিডিয়াম উৎপন্ন হয়ে থাকে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0086",
+      "kind": null,
+      "topic": "ছত্রাকজনিত রোগ",
+      "question": "Phytophthora infestans এর মাইসেলিয়াম–\ni. স্বচ্ছ\nii. অশাখ\niii. সিনোসাইটিক\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "i ও iii",
+        "ii ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "1",
+      "explanation": "Phytophthora infestans এর মাইসেলিয়াম স্বচ্ছ, শাখাযুক্ত ও সিনোসাইটিক, যা গোল আলুর বিলম্বিত ধ্বসা রোগের কারণ।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0087",
+      "kind": null,
+      "topic": "ছত্রাকজনিত রোগ",
+      "question": "উদ্দীপক: আলুক্ষেতে কিছু আলুগাছের পাতা হলুদাভ হলো। সেগুলো মরে গিয়ে বাদামি রঙ ধারণ করলো। উগ্র গন্ধ সৃষ্টি করল। স্থানীয় কৃষি কর্মকর্তা বললেন, এগুলো একটি ছত্রাক দ্বারা আক্রান্ত হয়েছে।\nউদ্দীপকের ছত্রাকটি অনুকূল পরিবেশে কিসের মাধ্যমে ছড়ায়?",
+      "options": [
+        "কনিডিয়া",
+        "গোনিডিয়া",
+        "মাইসেলিয়া",
+        "জুওস্পোর"
+      ],
+      "correctAnswer": "3",
+      "explanation": "Phytophthora infestans অনুকূল পরিবেশে zoospore এর মাধ্যমে ছড়িয়ে পড়ে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0088",
+      "kind": null,
+      "topic": "ছত্রাকজনিত রোগ",
+      "question": "উদ্দীপক: আলুক্ষেতে কিছু আলুগাছের পাতা হলুদাভ হলো। সেগুলো মরে গিয়ে বাদামি রঙ ধারণ করলো। উগ্র গন্ধ সৃষ্টি করল। স্থানীয় কৃষি কর্মকর্তা বললেন, এগুলো একটি ছত্রাক দ্বারা আক্রান্ত হয়েছে।\nউদ্দীপকের ছত্রাকটি দমন করা যায়–\ni. আলু রোদে শুকিয়ে\nii. ছত্রাকনাশক দিয়ে\niii. রোগমুক্ত বীজ আলু ব্যবহার করে\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "i ও iii",
+        "ii ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Phytophthora infestans এর দ্বারা রোগ বিস্তার প্রতিরোধে ১% বোর্দো মিশ্রণ (কপার সালফেট, লাইম ও পানি) ব্যবহার করা হয়।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0089",
+      "kind": null,
+      "topic": "শৈবাল ও Ulothrix",
+      "question": "নিচের কোনটি সঠিক?",
+      "options": [
+        "Chlorella হলো এককোষী, সচল শৈবাল",
+        "Agaricus আলুর বিলম্বিত ধ্বসা রোগ সৃষ্টি করে",
+        "Ulothrix-এর জাইগোট ৪-ফ্লাজেলাবিশিষ্ট",
+        "Penicillum কনিডিয়ার দ্বারা যৌনজনন ঘটায়"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Chlorella হলো এককোষী, নিশ্চল শৈবাল। Phytophthora infestans আলুর বিলম্বিত ধ্বসা রোগ সৃষ্টি করে। কনিডিয়ার মাধ্যমে অযৌন জনন হয়ে থাকে।",
+      "board": "সকল বোর্ড ১৯"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0090",
+      "kind": null,
+      "topic": "ছত্রাকজনিত রোগ",
+      "question": "নিচের কোনটি গোল আলুর বিলম্বিত ধ্বসা রোগের প্যাথোজেন?",
+      "options": [
+        "Trichophyton",
+        "Microsporium",
+        "Phytophthora",
+        "Xanthornomus"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Phytophthora infestans ছত্রাকের আক্রমণে গোল আলুর বিলম্বিত ধ্বসা রোগ হয়ে থাকে।",
+      "board": "রা. বো. ১৯; য. বো.; ব. বো. ১৯; ব. বো. ১৭"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0091",
+      "kind": null,
+      "topic": "ছত্রাকজনিত রোগ",
+      "question": "আলুর বিলম্বিত ধ্বসা রোগে কোনটি ব্যবহার করা হয়?",
+      "options": [
+        "১% বোর্দো মিশ্রণ",
+        "১% বার্গেন্ডি মিশ্রণ",
+        "৩% সোডিয়াম",
+        "৩% ম্যাগনেসিয়াম"
+      ],
+      "correctAnswer": "0",
+      "explanation": "১% বোর্দো মিশ্রণ = কপার সালফেট, লাইম, পানি।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0092",
+      "kind": null,
+      "topic": "ছত্রাকজনিত রোগ",
+      "question": "অ্যাথলেটস ফুট (Athlete's foot) এর কারণ কী?",
+      "options": [
+        "ছত্রাক ও ভাইরাসের সংক্রমণ",
+        "আঘাতজনিত ক্ষত",
+        "ভাইরাস ও ব্যাকটেরিয়ার সংক্রমণ",
+        "ছত্রাক ও ব্যাকটেরিয়া সংক্রমণ"
+      ],
+      "correctAnswer": "3",
+      "explanation": "পায়ের পাতার সংক্রমণ (Timea Padis) Athlete's foot বা moccasin foot নামে পরিচিত। এক্ষেত্রে ছত্রাকও ব্যাকটেরিয়ার মিলিত সংক্রমনে ত্বক শুষ্ক, লালচে ও খসখসে হয়।",
+      "board": "য. বো. ১৬; য. বো. ১৫"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0093",
+      "kind": null,
+      "topic": "ছত্রাকজনিত রোগ",
+      "question": "উদ্দীপক: আয়ারল্যান্ডে গোল আলুতে এক ধরনের রোগের আক্রমণে ভয়াবহ দুর্ভিক্ষ দেখা দেয়। এতে প্রায় দশ লক্ষ লোক মারা যায়।\nরোগটির জীবাণু কোন জাতীয়?",
+      "options": [
+        "ভাইরাস",
+        "ব্যাকটেরিয়া",
+        "ছত্রাক",
+        "শৈবাল"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Phytophthera infestans নামক ছত্রাকের কারণে গোল আলুর বিলম্বিত ধ্বসা রোগটি হয়ে থাকে।",
+      "board": "ঢা. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0094",
+      "kind": null,
+      "topic": "ছত্রাকজনিত রোগ",
+      "question": "উদ্দীপক: আয়ারল্যান্ডে গোল আলুতে এক ধরনের রোগের আক্রমণে ভয়াবহ দুর্ভিক্ষ দেখা দেয়। এতে প্রায় দশ লক্ষ লোক মারা যায়।\nরোগটির লক্ষণ হলো–\ni. পাতার কিনারায় পানি ভেজা দাগ\nii. পচা দুর্গন্ধ বের হয়\niii. দাগের কিনারায় সাদা তুলার মতো মাইসেলিয়াম দেখা যায় না\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "i ও iii",
+        "ii ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "3",
+      "explanation": "গাছের বয়স্ক পাতার কিনারায় বা অগ্রভাগে পানি ভেজা দাগ প্রথম প্রকাশ পায়। ছত্রাক আক্রমণ তীব্র হলে আক্রান্ত আলু গাছ থেকে পচা ডিমের ন্যায় দুর্গন্ধ বের হয়।",
+      "board": "ঢা. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0095",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "লাইকেনে শতকরা কত ভাগ শৈবালের উপস্থিতি থাকে?",
+      "options": [
+        "90-95%",
+        "5-10%",
+        "50-60%",
+        "65-85%"
+      ],
+      "correctAnswer": "1",
+      "explanation": "লাইকেনের মোট ভরের ৫-১০% শৈবালের।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0096",
+      "kind": null,
+      "topic": "ছত্রাকজনিত রোগ",
+      "question": "কোনটি দাদরোগের জন্য দায়ী?",
+      "options": [
+        "Phytophthora",
+        "Alternaria",
+        "Rhizopus",
+        "Trichophyton"
+      ],
+      "correctAnswer": "3",
+      "explanation": "অধিকাংশ ক্ষেত্রে Trichophyton দাদরোগের জন্য দায়ী। তবে Microsporum, Epidermophyton দিয়েও দাদরোগ হতে পারে।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0097",
+      "kind": null,
+      "topic": "ছত্রাকজনিত রোগ",
+      "question": "আলুর প্রারম্ভিক ধ্বসা রোগের জন্য দায়ী ছত্রাক কোনটি?",
+      "options": [
+        "Phytophthora infestans",
+        "Exobasidium vexans",
+        "Alternaria solani",
+        "Pyricularia oryzae"
+      ],
+      "correctAnswer": "2",
+      "explanation": "আলুর প্রারম্ভিক ধ্বসা রোগের জন্য দায়ী ছত্রাক হলো Alternaria solani এবং বিলম্বিত ধ্বসা রোগের জন্য দায়ী ছত্রাক হলো Phytophthora infestans।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0098",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "লাইকেন থেকে কোন এসিড পাওয়া যায়?",
+      "options": [
+        "অ্যাসিটিক এসিড",
+        "উসনিক এসিড",
+        "পামিটিক এসিড",
+        "অ্যাসপারটিক এসিড"
+      ],
+      "correctAnswer": "1",
+      "explanation": "বিভিন্ন লাইকেন থেকে উৎপন্ন উসনিক এসিড গ্রাম পজেটিভ ব্যাকটেরিয়ার বিরুদ্ধে অ্যান্টিবায়োটিকরূপে কার্যকর।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0099",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "পাহাড়ের ঢালে বসবাসকারী লাইকেনের ঘন আস্তরণ কী মস নামে পরিচিত?",
+      "options": [
+        "রেইনডিয়ার",
+        "তুন্দ্রা",
+        "প্রবাল",
+        "ট্রপিক্যাল"
+      ],
+      "correctAnswer": "0",
+      "explanation": "Reindeer মসের বৈজ্ঞানিক নাম Cladonia rangiferina."
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0100",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "বায়ু দূষণ বৃদ্ধি পেলে নিচের কোন উদ্ভিদটি দূষক শোষণ করে মরে যায়?",
+      "options": [
+        "শৈবাল",
+        "ছত্রাক",
+        "লাইকেন",
+        "ফার্ণ"
+      ],
+      "correctAnswer": "2",
+      "explanation": "বায়ু দূষণ বৃদ্ধি পেলে লাইকেন দূষক শোষণ করে মরে যায়।",
+      "board": "দি. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0101",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "লাইকেনে শৈবাল ও ছত্রাক এর সম্পর্ককে কী বলে?",
+      "options": [
+        "মৃতজীবিতা",
+        "মিথোজীবিতা",
+        "পরজীবিতা",
+        "স্বভোজিতা"
+      ],
+      "correctAnswer": "1",
+      "explanation": "লাইকেনে শৈবাল ও ছত্রাকের পারস্পরিক সহযোগিতার সম্পর্ককে মিথোজীবিতা/ Symbiosis/ Mutualism বলে।",
+      "board": "য. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0102",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "পুষ্টির ওপর ভিত্তি করে অধিক সম্পর্কযুক্ত জোড় কোনটি?",
+      "options": [
+        "ছত্রাক ও ব্যাকটেরিয়া",
+        "ভাইরাস ও ব্যাকটেরিয়া",
+        "শৈবাল ও ব্যাকটেরিয়া",
+        "শৈবাল ও ছত্রাক"
+      ],
+      "correctAnswer": "3",
+      "explanation": "লাইকেনে শৈবাল ও ছত্রাক মিথোজীবিতার মাধ্যমে থাকে, ফলে পুষ্টির দিকটা বিবেচনা করলে অন্যান্য জোড়াগুলোর তুলনায় এরা অধিক সম্পর্কযুক্ত।",
+      "board": "ব. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0103",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "লাইকেনের ক্ষেত্রে ছত্রাক–\ni. খনিজ লবণ সরবরাহ করে\nii. জননে সাহায্য করে\niii. রাইজাইন তৈরি করে\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "i ও iii",
+        "ii ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "3",
+      "explanation": "লাইকেনের ক্ষেত্রে ছত্রাক খনিজ লবণ সরবরাহ করে, জনন ও শ্বসনে সাহায্য করে, বাসস্থান হিসেবে কাজ করে ও রাইজাইন তৈরি করে।",
+      "board": "কু. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0104",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "মিথোজীবিতার উদাহরণ হলো–\ni. লাইকেন\nii. কোরালয়েড মূল\niii. নডিউল\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "i ও iii",
+        "ii ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "3",
+      "explanation": "মিথোজীবিতার কয়েকটি উদাহরণ: লাইকেন (শৈবাল + ছত্রাক), কোরালয়েড মূল (Nostoc/ Anabaena + Cycas), নডিউল ইত্যাদি।",
+      "board": "ব. বো. ১৬"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0105",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "উদ্দীপক: থ্যালোফাইটা বিভাগের একটি স্বভোজী জীব ও একটি পরভোজী জীব একত্রে অবস্থান করে অন্য একটি জীবদেহ সৃষ্টি হয়।\nউদ্দীপকের জীবদেহটি হলো–",
+      "options": [
+        "পরজীবী",
+        "মিথোজীবী",
+        "মৃতজীবী",
+        "পরাশ্রয়ী"
+      ],
+      "correctAnswer": "1",
+      "explanation": "শৈবাল ও ছত্রাক মিথোজীবিতার মাধ্যমে লাইকেন গঠন করে।",
+      "board": "চ. বো. ১৯"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0106",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "উদ্দীপক: থ্যালোফাইটা বিভাগের একটি স্বভোজী জীব ও একটি পরভোজী জীব একত্রে অবস্থান করে অন্য একটি জীবদেহ সৃষ্টি হয়।\nউদ্দীপকের জীবদেহটিতে–\ni. স্বভোজী জীব পরভোজী জীবের আশ্রয় গ্রহণ করে\nii. পরভোজী জীবের রাইজয়েড থাকে\niii. পরভোজী জীবের বর্জ্য স্বভোজী জীব গ্রহণ করে\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "i ও iii",
+        "ii ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "1",
+      "explanation": "এক্ষেত্রে রাইজয়েড থাকে না, বরং রাইজাইন থাকে।",
+      "board": "চ. বো. ১৯"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0107",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "উদ্দীপক: A ও B দুটি জীব। A খাদ্য তৈরি করতে পারলেও B খাদ্য তৈরি করতে পারে না। তবে উভয় জীবই থ্যালয়েড। এরা একত্রে C নামক একটি জীবে পরিণত হয়।\nউদ্দীপকের C জীবটি হলো–",
+      "options": [
+        "শৈবাল",
+        "ছত্রাক",
+        "মস",
+        "লাইকেন"
+      ],
+      "correctAnswer": "3",
+      "explanation": "শৈবাল ও ছত্রাক মিথোজীবিতার মাধ্যমে লাইকেন গঠন করে।",
+      "board": "দি. বো. ১৭"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0108",
+      "kind": null,
+      "topic": "ছত্রাক ও Agaricus",
+      "question": "উদ্দীপক: A ও B দুটি জীব। A খাদ্য তৈরি করতে পারলেও B খাদ্য তৈরি করতে পারে না। তবে উভয় জীবই থ্যালয়েড। এরা একত্রে C নামক একটি জীবে পরিণত হয়।\nB এর ক্ষেত্রে প্রযোজ্য এটি–\ni. সুকেন্দ্রিক\nii. প্রাককেন্দ্রিক\niii. পরজীবী\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i",
+        "ii",
+        "i ও iii",
+        "ii ও iii"
+      ],
+      "correctAnswer": "2",
+      "explanation": "ছত্রাক সুকেন্দ্রিক, পরজীবী/ মৃতজীবী ও থ্যালোফাইটার সদস্য।",
+      "board": "দি. বো. ১৭"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0109",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "লাইকেন সম্পর্কে কোনটি সঠিক নয়?",
+      "options": [
+        "কর্টিকোলাস গাছের বাকলের উপর জন্মে",
+        "লিগনিকোলাস সরাসরি ভেজা কাঠের উপর জন্মায়",
+        "লাইকেন স্বভোজী তাই স্বয়ংসম্পূর্ণ",
+        "ক্রাস্টোজ লাইকেন রাইজয়েড বিশিষ্ট"
+      ],
+      "correctAnswer": "3",
+      "explanation": "সাধারণত লাইকেন রাইজাইনবিশিষ্ট।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0110",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "কোনটি ফ্রুটিকোজ লাইকেন?",
+      "options": [
+        "Clodonia",
+        "Lecanora",
+        "Physica",
+        "Permelia"
+      ],
+      "correctAnswer": "0",
+      "explanation": "ফ্রুটিকোজ লাইকেনের উদাহরণ: Letharia columbiana, Usnea, Cladonia leporina."
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0111",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "ফ্রুটিকোজ লাইকেন হলো–\ni. শাখান্বিত, নলাকার বা সূত্রাকার\nii. Usnea\niii. রাইজাইন দ্বারা সাবস্ট্রেটের সাথে যুক্ত\nনিচের কোনটি সঠিক?",
+      "options": [
+        "i ও ii",
+        "i ও iii",
+        "ii ও iii",
+        "i, ii ও iii"
+      ],
+      "correctAnswer": "0",
+      "explanation": "ফ্রুটিকোজ লাইকেন অধিক শাখা-প্রশাখাযুক্ত এবং কেবল গোড়ার অংশ দিয়ে নির্ভরশীল বস্তুর গায়ে লেগে থাকে। উদাহরণ: Letharia columbiana, Usnea, Cladonia leporina."
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0112",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "আকর্ষণীয় ও ঝুলন্ত লাইকেন কোনটি?",
+      "options": [
+        "ক্রাস্টোজ",
+        "ফ্রুটিকোজ",
+        "ফোলিয়োজ",
+        "লেপ্রোজ"
+      ],
+      "correctAnswer": "1",
+      "explanation": "ফ্রুটিকোজ লাইকেনকে ঝুলন্ত লাইকেন বলে।",
+      "board": "দি. বো. ১৯"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0113",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "কোনটিকে রেইনডিয়ার মস বলে?",
+      "options": [
+        "শৈবাল",
+        "মস",
+        "লাইকেন",
+        "ছত্রাক"
+      ],
+      "correctAnswer": "2",
+      "explanation": "তুন্দ্রা অঞ্চলের কিছু লাইকেন Reindeer মস নামে পরিচিত।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0114",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "অ্যানজাইনা নামক হৃদরোগের চিকিৎসায় কোন লাইকেন ব্যবহৃত হয়?",
+      "options": [
+        "Rocella montagnei",
+        "Evernia",
+        "Ramalina",
+        "Cetraria islandia"
+      ],
+      "correctAnswer": "0",
+      "explanation": "Rocella montagnei থেকে উৎপন্ন Erythrin অ্যানজাইনা নামক হৃদরোগের চিকিৎসায় ব্যবহৃত হয়।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0115",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "মানুষের খাদ্য হিসেবে ব্যবহৃত হয় কোন লাইকেন?",
+      "options": [
+        "Usnea",
+        "Parmelia",
+        "Peltigera",
+        "Romalina"
+      ],
+      "correctAnswer": "1",
+      "explanation": "Cetraria islandica, Evernia, Parmelia, Endocarpon miniatum নামক লাইকেনসমূহ মানুষের খাদ্য হিসেবে ব্যবহৃত হয়।"
+    },
+    {
+      "id": "biology_1st_ch05_mcq_0116",
+      "kind": null,
+      "topic": "লাইকেন",
+      "question": "জলাতঙ্কের ওষুধ হিসেবে কোনটি ব্যবহৃত হয়?",
+      "options": [
+        "Pelitigera",
+        "Cladonia",
+        "Cetraria",
+        "Lasallia"
+      ],
+      "correctAnswer": "0",
+      "explanation": "জলাতঙ্ক রোগে Peltigera, হুপিং কফ রোগে Cladonia, Cetraria Islandica যক্ষার ওষুধ হিসেবে ব্যবহৃত হয়।"
+    }
+  ]
+}
