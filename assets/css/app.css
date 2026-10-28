@@ -476,6 +476,13 @@ ul.rt-list li::before { content: ""; flex: none; width: 7px; height: 7px; margin
 .rt-lab { --c: var(--blue); padding: 10px 12px 10px 14px; border-radius: var(--r-md); border-left: 4px solid var(--c); background: color-mix(in srgb, var(--c) 10%, var(--surface-2)); }
 .rt-tag { display: inline-flex; align-items: center; gap: 4px; margin-bottom: 4px; padding: 1px 9px; border-radius: var(--r-pill); font-size: var(--fs-xs); font-weight: 700; color: var(--c); background: color-mix(in srgb, var(--c) 16%, transparent); }
 .rt-lab > div { color: var(--text); }
+.rt-lab > div + div { margin-top: 6px; }
+.rt-lab > .rt-list, .rt-lab > .rt-chips { margin-top: 6px; }
+.rt-li { min-width: 0; }
+.rt-sub { display: block; margin-top: 6px; }
+.rt-li .rt-chips { margin-top: 6px; }
+.rt-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.rt-chips > span { padding: 4px 10px; border-radius: var(--r-pill); background: var(--surface-2); border: 1px solid var(--border); color: var(--text); font-size: var(--fs-md); line-height: 1.5; }
 .rt-ex { --c: var(--cyan); }
 .rt-ex > div { font-style: normal; }
 .rt-tip { --c: var(--amber); }
@@ -1384,6 +1391,10 @@ body.focus-on { padding-bottom: 0; }
 .ans > summary::-webkit-details-marker { display: none; }
 .ans > summary::before { content: '▸ '; }
 .ans[open] > summary::before { content: '▾ '; }
+.gm-fb .rt { font-size: var(--fs-md); line-height: 1.65; gap: 6px; margin: 6px 0 10px; text-align: left; }
+.ans > .ans-body { padding: 2px 12px 12px; }
+.mcq-exp .rt, .mk-exp .rt, .gm-rv-e .rt, .item-note .rt, .fc-rt .rt { font-size: inherit; line-height: 1.65; gap: 6px; }
+.fc-rt { display: block; text-align: left; font-size: 1rem; }
 .ans > .pre, .ans > .tbl-wrap { padding: 0 12px 12px; line-height: 1.65; color: var(--text-2); font-size: var(--fs-base); }
 .formula-lines { margin-top: 10px; display: grid; gap: 6px; }
 .formula-lines > div { padding: 8px 12px; border-radius: var(--r-sm); background: color-mix(in srgb, var(--hue, var(--violet)) 10%, var(--surface-2)); font-weight: 600; overflow-wrap: anywhere; }

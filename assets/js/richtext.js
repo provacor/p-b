@@ -4,7 +4,7 @@
 // become real lists, "•" runs become bullets, and labelled parts (ভুল:/সঠিক:, e.g./যেমন:,
 // মনে রাখুন:, বিকারক/পরীক্ষা: …) get their own coloured blocks. No text is added or removed.
 
-import { esc } from './components.js?v=202610241739';
+import { esc } from './components.js?v=202610280813';
 
 const BN = '০১২৩৪৫৬৭৮৯';
 const toNum = (s) => Number(String(s).replace(/[০-৯]/g, (d) => BN.indexOf(d)));
@@ -54,7 +54,7 @@ function splitNumbered(line) {
       // the last item ends at its first danda; whatever follows is ordinary text again
       const cut = last ? body.search(/।\s+\S/) : -1;
       if (cut > 0) { tail = body.slice(cut + 1).trim(); body = body.slice(0, cut + 1); }
-      out.push({ t: 'n', mark: h.mark.trim().replace(/[\s:：.)।\-–]+$/, ''), s: body });
+      out.push({ t: 'n', mark: h.mark.trim().replace(/^\(/, '').replace(/[\s:：.)।\-–]+$/, ''), s: body });
     });
     if (tail) out.push({ t: 'p', s: tail });
     return out;
@@ -100,9 +100,33 @@ function blocksOf(text) {
       for (const p of parts) blocks.push({ t: 'b', s: p });
       continue;
     }
+    // long runs written as "a — x; b — y; c — z" or "a | b | c" read better as a list
+    const semi = line.split(/;\s+/), bars = line.split(/\s+\|\s+/);
+    const list = bars.length >= 3 ? bars : semi.length >= 3 && line.length > 100 ? semi : null;
+    if (list) {
+      const head = list[0].match(/^(.{0,80}?[:：])\s*(.+)$/);
+      if (head) { blocks.push({ t: 'p', s: head[1] }); list[0] = head[2]; }
+      for (const x of list) if (x.trim()) blocks.push({ t: 'b', s: x.trim() });
+      continue;
+    }
     blocks.push(...expand(line));
   }
   return blocks;
+}
+
+// "arm (অস্ত্রসজ্জিত করা), beef (অভিযোগ করা), baby (…), …" — a long run of short comma items reads
+// better as chips; "a / b / c / d" as a list. Returns null for ordinary prose.
+function wordList(s) {
+  const slash = s.split(/\s+\/\s+/);
+  if (slash.length >= 4 && slash.every((x) => x.length < 140)) return { t: 'b', items: slash };
+  const m = s.match(/^(.{0,90}?(?:[:：]|যেমন|e\.g\.|such as|like))\s+(.+)$/i);
+  const head = m && m[2].split(',').length >= 6 ? m[1] : '';
+  const body = head ? m[2] : s;
+  const items = body.split(/,\s+(?![^()]*\))/);
+  if (items.length < 6) return null;
+  const avg = items.reduce((a, x) => a + x.length, 0) / items.length;
+  if (avg > 38 || items.some((x) => x.length > 70)) return null;
+  return { t: 'c', head, items };
 }
 
 // a line → paragraph / numbered / labelled blocks
@@ -113,7 +137,12 @@ function expand(line) {
   for (const piece of line.split(INLINE_BREAK).map((x) => x.trim()).filter(Boolean)) {
     const lab = labelOf(piece);
     if (lab) { out.push({ t: 'l', ...lab }); continue; }
-    for (const s of sentences(piece)) out.push(isTranslation(s) ? { t: 'l', kind: 'ex', label: '', rest: s } : { t: 'p', s });
+    for (const s of sentences(piece)) {
+      const wl = wordList(s);
+      if (wl?.t === 'c') { if (wl.head) out.push({ t: 'p', s: wl.head }); out.push({ t: 'c', items: wl.items }); }
+      else if (wl) for (const x of wl.items) out.push({ t: 'b', s: x.trim() });
+      else out.push(isTranslation(s) ? { t: 'l', kind: 'ex', label: '', rest: s } : { t: 'p', s });
+    }
   }
   return out;
 }
@@ -123,6 +152,14 @@ const inline = (s) => esc(s)
   .replace(/^([^:：।]{2,28}?)(\s?[:：]\s)/, '<b class="rt-key">$1</b>$2')
   // arrows stand out a little
   .replace(/(→|⟶|=&gt;)/g, '<span class="rt-arrow">$1</span>');
+
+// a list item that holds several sentences: first one as the item, the rest as lines under it
+const liBody = (t) => sentences(t).map((x, k) => {
+  const wl = wordList(x);
+  const body = wl?.t === 'c' ? `${wl.head ? inline(wl.head) : ''}${chipsOf(wl.items)}` : inline(x);
+  return k ? `<span class="rt-sub">${body}</span>` : body;
+}).join('');
+const chipsOf = (items) => `<div class="rt-chips">${items.map((x) => `<span>${inline(x.trim().replace(/[,।.]$/, ''))}</span>`).join('')}</div>`;
 
 export function richText(text) {
   const blocks = blocksOf(text);
@@ -135,13 +172,21 @@ export function richText(text) {
       let items = '';
       while (i < blocks.length && blocks[i].t === b.t) {
         const x = blocks[i];
-        items += `<li>${x.t === 'n' ? `<span class="rt-mark">${esc(x.mark)}</span>` : ''}<span>${inline(x.s)}</span></li>`;
+        items += `<li>${x.t === 'n' ? `<span class="rt-mark">${esc(x.mark)}</span>` : ''}<span class="rt-li">${liBody(x.s)}</span></li>`;
         i++;
       }
       i--;
       html += `<${tag} class="rt-list">${items}</${tag}>`;
     } else if (b.t === 'l') {
-      html += `<div class="rt-lab rt-${b.kind}">${b.label ? `<span class="rt-tag">${ICON[b.kind] ?? ''} ${esc(b.label)}</span>` : `<span class="rt-tag">${ICON[b.kind]}</span>`}<div>${inline(b.rest)}</div></div>`;
+      const lines = sentences(b.rest).map((x) => {
+        const wl = wordList(x);
+        if (wl?.t === 'c') return `${wl.head ? `<div>${inline(wl.head)}</div>` : ''}${chipsOf(wl.items)}`;
+        if (wl) return `<ul class="rt-list">${wl.items.map((y) => `<li><span>${inline(y.trim())}</span></li>`).join('')}</ul>`;
+        return `<div>${inline(x)}</div>`;
+      }).join('');
+      html += `<div class="rt-lab rt-${b.kind}">${b.label ? `<span class="rt-tag">${ICON[b.kind] ?? ''} ${esc(b.label)}</span>` : `<span class="rt-tag">${ICON[b.kind]}</span>`}${lines}</div>`;
+    } else if (b.t === 'c') {
+      html += chipsOf(b.items);
     } else {
       // a sentence that is only a bracketed Bengali gloss "(যে ব্যক্তি … বলে)" reads as a translation
       const gloss = /^\([^()]*[\u0980-\u09FF][^()]*\)[।.]?$/.test(b.s);

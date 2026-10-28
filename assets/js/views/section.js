@@ -1,11 +1,11 @@
 // Section screen: the content of one chapter section (Notes, MCQ, Simulation, …).
 
-import { icon } from '../icons.js?v=202610241739';
-import { esc, plural, bar, ring, sectionHue, chapterEyebrow, chapterNo, pad2, emptyState } from '../components.js?v=202610241739';
-import { progressOf, isItemDone } from '../progress.js?v=202610241739';
-import { hfActive } from '../handsfree.js?v=202610241739';
-import { isBookmarked, noteOf } from '../learn.js?v=202610241739';
-import { richText } from '../richtext.js?v=202610241739';
+import { icon } from '../icons.js?v=202610280813';
+import { esc, plural, bar, ring, sectionHue, chapterEyebrow, chapterNo, pad2, emptyState } from '../components.js?v=202610280813';
+import { progressOf, isItemDone } from '../progress.js?v=202610280813';
+import { hfActive } from '../handsfree.js?v=202610280813';
+import { isBookmarked, noteOf } from '../learn.js?v=202610280813';
+import { richText } from '../richtext.js?v=202610280813';
 
 const FORMAT = {
   pdf: { icon: 'file', open: 'Open PDF', label: 'PDF' },
@@ -28,15 +28,15 @@ function mcqCard(it, n) {
   return `<article class="item-card mcq rise" style="--i:${Math.min(n, 12)}" data-answer="${esc(it.correctAnswer ?? '')}">
       <p class="mcq-q"><span class="mcq-n">${n + 1}.</span> ${esc(it.question)}</p>
       <div class="opts">${opts}</div>
-      ${it.explanation ? `<p class="mcq-exp" hidden>${esc(it.explanation)}</p>` : ''}
+      ${it.explanation ? `<div class="mcq-exp" hidden data-raw="${esc(it.explanation)}">${richText(it.explanation)}</div>` : ''}
       <div class="item-foot">${[it.board, it.year].filter(Boolean).map((x) => `<span class="chip">${esc(x)}</span>`).join('')}${doneButton(it)}</div>
     </article>`;
 }
 
 const txt = (s) => `<div class="pre">${esc(s)}</div>`;
 const chips = (...xs) => xs.filter(Boolean).map((x) => `<span class="chip">${esc(x)}</span>`).join('');
-const answerBox = (a, label = 'উত্তর দেখো') => `<details class="ans"><summary>${label}</summary>${txt(a)}</details>`;
-const noteBox = (it) => (it.note ? `<div class="item-note pre">${esc(it.note)}</div>` : '');
+const answerBox = (a, label = 'উত্তর দেখো') => `<details class="ans"><summary>${label}</summary><div class="ans-body">${richText(a)}</div></details>`;
+const noteBox = (it) => (it.note ? `<div class="item-note">${richText(it.note)}</div>` : '');
 const doneFoot = (it) => `<div class="item-foot">${doneButton(it)}</div>`;
 const shell = (it, n, inner, cls = '') => `<article class="item-card rise ${cls} ${isItemDone(it.id) ? 'is-done' : ''}" style="--i:${Math.min(n, 12)}">${inner}${doneFoot(it)}</article>`;
 
