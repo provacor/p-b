@@ -13,7 +13,7 @@
 // - Mastery depends only on answers, never on XP, coins or time.
 // - Dates are the phone's local date (YYYY-MM-DD).
 
-import { recordAttempt } from './learn.js?v=202610280813';
+import { recordAttempt } from './learn.js?v=202610281410';
 
 const GKEY = 'hscos:games:v1';
 const AKEY = 'hscos:arena:v1';

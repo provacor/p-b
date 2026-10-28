@@ -5,7 +5,7 @@
 // Every frame is a pure function of time, so a stage can be played faster than its design
 // length. A tap skips. Without WebGL, with Three.js missing, or with reduced motion the
 // promise resolves at once and nothing is shown.
-import { motionReduced } from './a11y.js?v=202610280813';
+import { motionReduced } from './a11y.js?v=202610281410';
 
 const STAGE_START = [0, 9000, 19000, 29000];
 const STAGE_LEN = [9000, 10000, 10000];
