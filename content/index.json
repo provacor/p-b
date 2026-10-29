@@ -1005,6 +1005,22 @@
     "biology_2nd_ch06_kha": {
       "file": "content/biology/biology_2nd_ch06_kha.json",
       "count": 23
+    },
+    "biology_2nd_ch09_mcq": {
+      "file": "content/biology/biology_2nd_ch09_mcq.json",
+      "count": 111
+    },
+    "biology_2nd_ch09_cq": {
+      "file": "content/biology/biology_2nd_ch09_cq.json",
+      "count": 14
+    },
+    "biology_2nd_ch09_ka": {
+      "file": "content/biology/biology_2nd_ch09_ka.json",
+      "count": 29
+    },
+    "biology_2nd_ch09_kha": {
+      "file": "content/biology/biology_2nd_ch09_kha.json",
+      "count": 26
     }
   }
 }
