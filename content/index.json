@@ -1085,6 +1085,26 @@
     "biology_2nd_ch02_kha": {
       "file": "content/biology/biology_2nd_ch02_kha.json",
       "count": 55
+    },
+    "physics_1st_ch01_mcq": {
+      "file": "content/physics/physics_1st_ch01_mcq.json",
+      "count": 63
+    },
+    "physics_1st_ch01_cq": {
+      "file": "content/physics/physics_1st_ch01_cq.json",
+      "count": 3
+    },
+    "physics_1st_ch01_ka": {
+      "file": "content/physics/physics_1st_ch01_ka.json",
+      "count": 19
+    },
+    "physics_1st_ch01_kha": {
+      "file": "content/physics/physics_1st_ch01_kha.json",
+      "count": 5
+    },
+    "physics_1st_ch01_formula": {
+      "file": "content/physics/physics_1st_ch01_formula.json",
+      "count": 4
     }
   }
 }
