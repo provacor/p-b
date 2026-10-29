@@ -1069,6 +1069,222 @@
     "biology_2nd_ch12_kha": {
       "file": "content/biology/biology_2nd_ch12_kha.json",
       "count": 28
+    },
+    "biology_2nd_ch02_mcq": {
+      "file": "content/biology/biology_2nd_ch02_mcq.json",
+      "count": 230
+    },
+    "biology_2nd_ch02_cq": {
+      "file": "content/biology/biology_2nd_ch02_cq.json",
+      "count": 27
+    },
+    "biology_2nd_ch02_ka": {
+      "file": "content/biology/biology_2nd_ch02_ka.json",
+      "count": 54
+    },
+    "biology_2nd_ch02_kha": {
+      "file": "content/biology/biology_2nd_ch02_kha.json",
+      "count": 55
+    },
+    "physics_1st_ch01_mcq": {
+      "file": "content/physics/physics_1st_ch01_mcq.json",
+      "count": 63
+    },
+    "physics_1st_ch01_cq": {
+      "file": "content/physics/physics_1st_ch01_cq.json",
+      "count": 3
+    },
+    "physics_1st_ch01_ka": {
+      "file": "content/physics/physics_1st_ch01_ka.json",
+      "count": 19
+    },
+    "physics_1st_ch01_kha": {
+      "file": "content/physics/physics_1st_ch01_kha.json",
+      "count": 5
+    },
+    "physics_1st_ch01_formula": {
+      "file": "content/physics/physics_1st_ch01_formula.json",
+      "count": 4
+    },
+    "physics_1st_ch02_mcq": {
+      "file": "content/physics/physics_1st_ch02_mcq.json",
+      "count": 180
+    },
+    "physics_1st_ch02_cq": {
+      "file": "content/physics/physics_1st_ch02_cq.json",
+      "count": 72
+    },
+    "physics_1st_ch02_ka": {
+      "file": "content/physics/physics_1st_ch02_ka.json",
+      "count": 41
+    },
+    "physics_1st_ch02_kha": {
+      "file": "content/physics/physics_1st_ch02_kha.json",
+      "count": 41
+    },
+    "physics_1st_ch02_formula": {
+      "file": "content/physics/physics_1st_ch02_formula.json",
+      "count": 8
+    },
+    "physics_1st_ch03_mcq": {
+      "file": "content/physics/physics_1st_ch03_mcq.json",
+      "count": 141
+    },
+    "physics_1st_ch03_cq": {
+      "file": "content/physics/physics_1st_ch03_cq.json",
+      "count": 57
+    },
+    "physics_1st_ch03_ka": {
+      "file": "content/physics/physics_1st_ch03_ka.json",
+      "count": 22
+    },
+    "physics_1st_ch03_kha": {
+      "file": "content/physics/physics_1st_ch03_kha.json",
+      "count": 34
+    },
+    "physics_1st_ch03_formula": {
+      "file": "content/physics/physics_1st_ch03_formula.json",
+      "count": 6
+    },
+    "physics_1st_ch04_mcq": {
+      "file": "content/physics/physics_1st_ch04_mcq.json",
+      "count": 223
+    },
+    "physics_1st_ch04_cq": {
+      "file": "content/physics/physics_1st_ch04_cq.json",
+      "count": 61
+    },
+    "physics_1st_ch04_ka": {
+      "file": "content/physics/physics_1st_ch04_ka.json",
+      "count": 43
+    },
+    "physics_1st_ch04_kha": {
+      "file": "content/physics/physics_1st_ch04_kha.json",
+      "count": 50
+    },
+    "physics_1st_ch04_formula": {
+      "file": "content/physics/physics_1st_ch04_formula.json",
+      "count": 14
+    },
+    "physics_1st_ch05_mcq": {
+      "file": "content/physics/physics_1st_ch05_mcq.json",
+      "count": 174
+    },
+    "physics_1st_ch05_cq": {
+      "file": "content/physics/physics_1st_ch05_cq.json",
+      "count": 62
+    },
+    "physics_1st_ch05_ka": {
+      "file": "content/physics/physics_1st_ch05_ka.json",
+      "count": 29
+    },
+    "physics_1st_ch05_kha": {
+      "file": "content/physics/physics_1st_ch05_kha.json",
+      "count": 32
+    },
+    "physics_1st_ch05_formula": {
+      "file": "content/physics/physics_1st_ch05_formula.json",
+      "count": 7
+    },
+    "physics_1st_ch06_mcq": {
+      "file": "content/physics/physics_1st_ch06_mcq.json",
+      "count": 119
+    },
+    "physics_1st_ch06_cq": {
+      "file": "content/physics/physics_1st_ch06_cq.json",
+      "count": 61
+    },
+    "physics_1st_ch06_ka": {
+      "file": "content/physics/physics_1st_ch06_ka.json",
+      "count": 25
+    },
+    "physics_1st_ch06_kha": {
+      "file": "content/physics/physics_1st_ch06_kha.json",
+      "count": 30
+    },
+    "physics_1st_ch06_formula": {
+      "file": "content/physics/physics_1st_ch06_formula.json",
+      "count": 6
+    },
+    "physics_1st_ch07_mcq": {
+      "file": "content/physics/physics_1st_ch07_mcq.json",
+      "count": 123
+    },
+    "physics_1st_ch07_cq": {
+      "file": "content/physics/physics_1st_ch07_cq.json",
+      "count": 54
+    },
+    "physics_1st_ch07_ka": {
+      "file": "content/physics/physics_1st_ch07_ka.json",
+      "count": 43
+    },
+    "physics_1st_ch07_kha": {
+      "file": "content/physics/physics_1st_ch07_kha.json",
+      "count": 44
+    },
+    "physics_1st_ch07_formula": {
+      "file": "content/physics/physics_1st_ch07_formula.json",
+      "count": 8
+    },
+    "physics_1st_ch08_mcq": {
+      "file": "content/physics/physics_1st_ch08_mcq.json",
+      "count": 182
+    },
+    "physics_1st_ch08_cq": {
+      "file": "content/physics/physics_1st_ch08_cq.json",
+      "count": 65
+    },
+    "physics_1st_ch08_ka": {
+      "file": "content/physics/physics_1st_ch08_ka.json",
+      "count": 27
+    },
+    "physics_1st_ch08_kha": {
+      "file": "content/physics/physics_1st_ch08_kha.json",
+      "count": 45
+    },
+    "physics_1st_ch08_formula": {
+      "file": "content/physics/physics_1st_ch08_formula.json",
+      "count": 4
+    },
+    "physics_1st_ch09_mcq": {
+      "file": "content/physics/physics_1st_ch09_mcq.json",
+      "count": 107
+    },
+    "physics_1st_ch09_cq": {
+      "file": "content/physics/physics_1st_ch09_cq.json",
+      "count": 48
+    },
+    "physics_1st_ch09_ka": {
+      "file": "content/physics/physics_1st_ch09_ka.json",
+      "count": 50
+    },
+    "physics_1st_ch09_kha": {
+      "file": "content/physics/physics_1st_ch09_kha.json",
+      "count": 39
+    },
+    "physics_1st_ch09_formula": {
+      "file": "content/physics/physics_1st_ch09_formula.json",
+      "count": 7
+    },
+    "physics_1st_ch10_mcq": {
+      "file": "content/physics/physics_1st_ch10_mcq.json",
+      "count": 0
+    },
+    "physics_1st_ch10_cq": {
+      "file": "content/physics/physics_1st_ch10_cq.json",
+      "count": 19
+    },
+    "physics_1st_ch10_ka": {
+      "file": "content/physics/physics_1st_ch10_ka.json",
+      "count": 0
+    },
+    "physics_1st_ch10_kha": {
+      "file": "content/physics/physics_1st_ch10_kha.json",
+      "count": 0
+    },
+    "physics_1st_ch10_formula": {
+      "file": "content/physics/physics_1st_ch10_formula.json",
+      "count": 6
     }
   }
 }
