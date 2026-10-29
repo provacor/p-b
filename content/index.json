@@ -1185,6 +1185,26 @@
     "physics_1st_ch05_formula": {
       "file": "content/physics/physics_1st_ch05_formula.json",
       "count": 7
+    },
+    "physics_1st_ch06_mcq": {
+      "file": "content/physics/physics_1st_ch06_mcq.json",
+      "count": 119
+    },
+    "physics_1st_ch06_cq": {
+      "file": "content/physics/physics_1st_ch06_cq.json",
+      "count": 61
+    },
+    "physics_1st_ch06_ka": {
+      "file": "content/physics/physics_1st_ch06_ka.json",
+      "count": 25
+    },
+    "physics_1st_ch06_kha": {
+      "file": "content/physics/physics_1st_ch06_kha.json",
+      "count": 30
+    },
+    "physics_1st_ch06_formula": {
+      "file": "content/physics/physics_1st_ch06_formula.json",
+      "count": 6
     }
   }
 }
