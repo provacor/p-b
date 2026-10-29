@@ -4,7 +4,7 @@
 // become real lists, "•" runs become bullets, and labelled parts (ভুল:/সঠিক:, e.g./যেমন:,
 // মনে রাখুন:, বিকারক/পরীক্ষা: …) get their own coloured blocks. No text is added or removed.
 
-import { esc } from './components.js?v=202610281410';
+import { esc } from './components.js?v=202610290912';
 
 const BN = '০১২৩৪৫৬৭৮৯';
 const toNum = (s) => Number(String(s).replace(/[০-৯]/g, (d) => BN.indexOf(d)));
